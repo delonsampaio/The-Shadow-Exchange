@@ -14,6 +14,7 @@ goal: introduce Anchor Items as moral weight; reveal the Subway as a guided firs
 
 ### What to keep present in your mind tonight
 
+- **Teach the Group Action tonight.** If they try to sneak up to the shop or flee from the drones together, do not let them roll individually. Teach them that the leader rolls, takes stress for failures, and the highest die covers the whole group.
 - The Three-Layer Rule applies *hard* tonight. Emmerich is the campaign's first real moral pivot.
 - A **third option** is on the table — see "The Choice" below. The bible's binary is too clean for a first-time table.
 - The Subway reveal is a *guided* first visit, not a confused emergence. Trad players need the world labeled once.
@@ -101,13 +102,18 @@ The bible offers two. For a first-time table I want a partial-complicity option 
 
 > **The Apex Aegis Peacekeeper team, if they ping:**
 >
-> "Two of them, dark coats, earpieces. The closer one stops in the middle of the crosswalk and turns his head precisely toward the bag in your hand. He does not change his expression. He puts a finger to his ear and starts walking, faster, in your direction."
+> "Two of them, dark coats, earpieces. But they aren't carrying weapons drawn; they are carrying clipboards. The closer one stops in the middle of the crosswalk, checking a Resonance scanner disguised as a tablet. 'Unlicensed extraction detected,' he says into his comms, his voice perfectly, terrifyingly bored. 'Flagging Curios & Chronicles for a compliance audit. Let Director Vance know.' He puts a finger to his ear and starts walking, fast, in your direction."
 
 ---
 
 ## The Twist — first sight of the Subway
 
 Whether they fled with the thimble or fled because they helped him flee, the chase ends in a dead-end alley.
+
+### GM REMINDER: Prompting a Flashback During the Chase
+As they run from the drones into the dead-end alley, before they notice the Subway entrance, wait for a player to panic. Then, pause the game and offer this:
+> *"You are trapped in a dead end. But you didn't walk into this blind. We are pausing the clock. Does anyone want to spend 1 Stress to Flash Back to yesterday, to tell me what you bribed, hacked, or stashed in this alley to help you escape right now?"*
+*(If they do, let them! But the Subway entrance reveals itself anyway, making them wonder if the Subway reacted to their cleverness).*
 
 > **READ ALOUD — the alley:**
 >

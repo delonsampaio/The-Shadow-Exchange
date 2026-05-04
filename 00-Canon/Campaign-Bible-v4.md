@@ -1,7 +1,7 @@
 ---
 status: canon
 note: This is now the canonical bible. Edit directly. The original Word document is archived at `_archive/Campaign-Bible-v4-ORIGINAL.docx` and is frozen — do not sync from it.
-last_updated: 2026-04-26 — Zoltar entrance retcon, workflow switch to markdown-first
+last_updated: 2026-04-26 — Zoltar entrance retcon, workflow switch to markdown-first, new mechanics added
 ---
 
 THE SHADOW EXCHANGE
@@ -117,7 +117,7 @@ Anchor Items are the most valuable items on the black market and the most morall
 The Subway is underground neutral ground where non-evil monsters and vetted hunters coexist. It is also the campaign's central unanswered question.
 
 
-> 🔍 CAMPAIGN MYSTERY — WHO CONTROLS THE SUBWAY?
+> 🔍 CAMPAIGN MYSTERY — WHO CONTROLS THE Subway?
 > Nobody knows. There is no visible authority, no posted rules, no obvious administrator. The Subway simply exists. It moves. It chooses. This mystery is intentional and should remain unresolved until the players decide to pursue it — at which point it becomes a major campaign arc. Possible truths the GM can choose from: the Subway is a living entity with its own agenda; it was built by something ancient that is no longer present; it is controlled by someone hiding in plain sight within its community; it is a collective manifestation of every being who has ever needed refuge. Do not decide which is true until the players get close.
 
 
@@ -229,17 +229,14 @@ Read this to the players as they finish their character sheets:
 > "Step inside. The bookstore vibe vanishes entirely — replaced by cold, sterile light. This is where the Mom & Pop shop becomes a high-end smuggling operation."
 
 
-- Cold Storage Locker: Stainless steel drawers inscribed with silver runes. Biologicals stored here don't rot — Spoilage Clocks pause completely.
-
-- Lead-Lined Vault: Bank-style safe door with mirrors and lead shielding. Relics can't call out to their masters. Anchor Items stored here stop emitting Resonance entirely — Ministry scanners go dark.
-
-- Post-Op Table: Zinc-topped surgical table, leather straps for artifacts that twitch. Used for Physicking and Tinkering rolls.
-
-- Scanner Station: Modified shortwave radios. Intercepts Ministry bounty lists. Detects Anchor Item Resonance signatures in a one-mile radius. Picks up Harlan's AM broadcast on clear nights.
-
-- Trophy Wall: Polaroids of hunted monsters, annotated in red marker. +1d on Study rolls for known monster types before a score. Automatic Heat source if Ministry raids the lair.
-
-- The Hunter's Journal: On a reading stand near the Post-Op Table. Old leather, someone else's handwriting in the margins. Any player who consults it before a score involving a known monster type gains +1d on Study.
+- **Cold Storage Locker:** Stainless steel drawers inscribed with silver runes. Biologicals stored here don't rot — Spoilage Clocks pause completely.
+- **Lead-Lined Vault:** Bank-style safe door with mirrors and lead shielding. Relics can't call out to their masters. Anchor Items stored here stop emitting Resonance entirely — Ministry scanners go dark.
+- **Post-Op Table:** Zinc-topped surgical table, leather straps for artifacts that twitch. Used for Physicking and Tinkering rolls.
+- **Scanner Station:** Modified shortwave radios. Intercepts Ministry bounty lists. Detects Anchor Item Resonance signatures in a one-mile radius. Picks up Harlan's AM broadcast on clear nights.
+- **Trophy Wall:** Polaroids of hunted monsters, annotated in red marker. +1d on Study rolls for known monster types before a score. Automatic Heat source if Ministry raids the lair.
+- **The Hunter's Journal:** On a reading stand near the Post-Op Table. Old leather, someone else's handwriting in the margins. Any player who consults it before a score involving a known monster type gains +1d on Study.
+- **Consequence the Cat:** The shop's resident American Shorthair cat. Consequence serves as a low-tech Resonance detector. If a deeply cursed Relic or highly active Anchor Item is brought into the Lair, Consequence will refuse to enter the Containment Suite or will hiss at the specific vault drawer.
+- **The Breakroom:** Tucked behind the Occult section is a high-end precision espresso machine. The crew lives on specialty coffee and late-night research before hunts.
 
 
 Lair Benefits: +1 Tier for crafting and preserving Quality. Hardened Heart: Reduced Heat from supernatural messes due to professional cleanup infrastructure.
@@ -267,8 +264,10 @@ Every score revolves around an Object of Power. Items emit Resonance: the longer
 
 
 ## Custom Crew Ability: Double Bookkeeping
-
-When finishing a government bounty, roll Sway to "fudge the paperwork." On a success, you keep one minor Biological, Relic, or Anchor Item from the target without the Ministry noticing. The cover story goes in the file. The item goes in the vault.
+When finishing a government bounty, roll Sway to "fudge the paperwork." 
+- **Critical:** You keep the item perfectly. No heat.
+- **Success:** You keep one minor Biological, Relic, or Anchor Item without the Ministry noticing. The cover story goes in the file. The item goes in the vault.
+- **Mixed (4-5):** You keep the item, but there is a discrepancy. Tick the **Ministry Audit Clock (4-Segment)**. When full, Arthur Vance or a Ministry inspector arrives at the Lair. The Vault and Cold Storage are locked down until the audit is resolved.
 
 
 ## Custom Downtime Activity: The Appraiser's Gamble
@@ -307,19 +306,11 @@ Each faction has a −3 to +3 standing track. High standing unlocks access and a
 
 ## Apex Aegis — The Corporate Threat
 
-> 🔥 SUPERNATURAL INSPIRATION — Co-Equal Main Antagonist
-> Apex Aegis is not just a rival firm — it is a structural threat to everything the crew is building and to the cover-up that keeps the world stable. The Mimic threatens the Subway from within. Apex Aegis threatens the entire ecosystem from above. By mid-game the crew is being squeezed between both simultaneously.
-
-
-- Bounty Manipulation: Apex Aegis has Ministry contacts who quietly adjust bounty lists. When a particularly valuable monster or item surfaces, the bounty appears before any small firm can independently discover the job. By the time the crew hears about it, an Apex Aegis team is already there.
-
-- Cover-Up Negligence: Apex Aegis cuts corners on cleanup. Witnesses get paid off rather than properly managed. Scenes get cleared fast rather than thoroughly. Small exposure incidents — a photo, a rumour, an inexplicable police report — are accumulating.
-
-- The Acquisition Offer: At some point mid-game, Apex Aegis will approach the crew with a buyout offer. The offer will be generous. The subtext will be clear: decline and they become your active enemy.
-
-- The Cleaner Protocol: If the crew's Heat with Apex Aegis reaches 3+, Cleaners are assigned — professional hunters whose job is to disrupt the crew's scores, damage the bookshop, and make the business unsustainable.
-
-- The Subway Search: Apex Aegis knows the Subway exists. They have been trying to locate it for years. Every hunter they've bribed with access has lost it immediately afterward. If the Decay Clock reaches 4 segments, leaked Resonance gives their intelligence teams enough data to begin narrowing their search.
+- **The Face of the Threat:** Meet Arthur Vance, Director of Service Accountability and Operational Reliability. He isn't an evil monster hunter; he is a terrifyingly mundane bureaucrat. He views supernatural threats as "property management" issues and enforces the cover-up with the cold detachment of community governance. He doesn't threaten the crew's lives; he threatens their licenses. 
+- **The "Mystery Shopper" Protocol:** Apex Aegis actively sends undercover agents (posing as civilians or desperate subway denizens) to hire small firms like the crew. They evaluate the firm's compliance, discretion, and operational reliability. Failing an audit means a hostile takeover.
+- **Bounty Manipulation:** Apex Aegis has Ministry contacts who quietly adjust bounty lists. When a particularly valuable monster surfaces, an Apex Aegis team is already there.
+- **The Cleaner Protocol:** If the crew's Heat with Apex Aegis reaches 3+, Cleaners are assigned to disrupt scores and sabotage Curios & Chronicles.
+- **The Subway Search:** Apex Aegis knows the Subway exists. They have been trying to locate it for years. Every hunter they've bribed with access has lost it immediately afterward. If the Decay Clock reaches 4 segments, leaked Resonance gives their intelligence teams enough data to begin narrowing their search.
 
 
 > 🆕 NEW MECHANIC — Apex Aegis Null-Tech
@@ -441,6 +432,8 @@ During character creation, ask each player: "What object did you carry into this
 - The Gut-Punch: The Innocent is in genuine danger and the crew must choose between the score and saving someone who was never supposed to be part of this.
 
 - The Darkest Version: The Innocent finds the Hunter's Journal. Reads it. Wants in. The crew decides: do they protect people from this world, or recruit them into it?
+
+- **The Corruption Clock [4-Segment]:** The Innocent is tied to a 4-Segment clock. Every time the crew brings them on a job or exposes them to the unvarnished brutality of the hunting industry, tick the clock. If it fills, the Innocent doesn't die—they become a hardened, cynical Hunter, losing the humanity the crew was trying to protect.
 
 
 ## The Crossroads Broker

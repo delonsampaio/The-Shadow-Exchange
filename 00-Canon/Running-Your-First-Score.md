@@ -76,6 +76,20 @@ Once the score is underway, almost every player action that has interesting risk
 
 ---
 
+## The Devil's Bargain — The Game Changer
+This is the mechanic that breaks D&D habits. Offer it on the very first roll.
+> *"You can have +1 die, but the world takes its cut. If you take this die, the Ministry scanner on the corner logs your weapon's discharge. It happens if you hit; it happens if you miss. Do we have a deal?"*
+
+If they accept, the complication becomes permanent fiction immediately, and they roll with the extra die.
+
+---
+
+## Group Actions (Or: How to fix the "Stealth" problem)
+D&D players dread group stealth because one bad roll ruins it. Teach them the Group Action early:
+If the whole crew needs to sneak past a guard, everyone rolls Prowl. The single highest result counts for the *entire* group. The "Leader" of the action just takes 1 Stress for every person who rolled a 1-3. It makes them feel like a hyper-competent heist team.
+
+---
+
 ## The consequence menu
 
 When a roll is mixed (4–5) or bad (1–3), you owe the table a consequence. Here's the menu, ranked roughly by severity:
@@ -95,14 +109,14 @@ Don't reach for harm first. Harm is dramatic and slow-moving. *Complications* ar
 
 ---
 
-## Resistance — the safety valve
+## Resistance — It ALWAYS Works
 
-When a consequence lands and a player doesn't like it, they can resist. **Always offer this in early sessions.**
+A common trad-game misunderstanding is that Resistance is a "Saving Throw" that can fail. Make this explicitly clear to your table: **Resistance always works.** > *"The complication lands. The Barghest's claws tear through your armor. But you do not have to accept that reality. You can spend your own Stress to dig your heels in and rewrite what just happened. Do you take the hit, or do you resist?"*
 
-> *"You can resist that. Roll [Insight if it's surprise, Prowess if it's physical, Resolve if it's mental or supernatural]. You'll spend 6 minus your highest die in stress. Do you want to?"*
+The roll isn't to see *if* they avoid the consequence; the roll is solely to see *how much Stress it costs* them to avoid it.
 
 If they say yes:
-- They roll the resistance attribute.
+- They roll the resistance attribute (Insight, Prowess, or Resolve).
 - Spend stress = 6 minus highest die. *(Critical = clear 1 stress instead.)*
 - The consequence is **reduced or negated entirely** — your call as GM, depending on what feels right in fiction.
 
@@ -129,6 +143,13 @@ If the flashback requires a roll (the bribe might fail, the break-in is dangerou
 - *"This feels like a Spider's setup. Anyone been working on this?"*
 
 Three sessions in, players invent flashbacks on their own. Until then, you carry the load.
+
+---
+
+## Kill the "Initiative" Habit
+When violence breaks out, your D&D players will stop and wait for you to tell them whose turn it is. You must explicitly untrain this. 
+
+Violence in Blades is not a sub-system; it is exactly like picking a lock or climbing a wall. It's just an obstacle. There are no turns, no hit points to chip away at, and no initiative order. Simply move the "spotlight" around the table based on what makes cinematic sense. 
 
 ---
 
@@ -212,7 +233,7 @@ You set up the exit with a quick Prowl roll for the team. They make it. Out the 
 - **Heat:** add Heat per the SRD's Heat table. Probably 2 — a clean job with one or two ticks of the clock.
 - **Detection Clock:** reset.
 
-End the score there. Cut to the bookshop, gland in cold storage. Now you're in downtime.
+End the score there. Cut to the bookshop, gland in cold storage. Now youre in downtime.
 
 ---
 

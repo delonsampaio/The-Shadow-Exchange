@@ -49,6 +49,12 @@ After the read-aloud, the bible's GM prompt:
 - **Trophy Wall** — Polaroids of hunted monsters, annotated in red marker. **+1d on Study rolls** for known monster types before a score. **Automatic Heat source** if Ministry raids the lair.
 - **The Hunter's Journal** — On a reading stand near the Post-Op Table. Old leather, someone else's handwriting in the margins. Any player who consults it before a score involving a known monster type gains **+1d on Study**.
 
+## Assets & Quirks
+
+- **Consequence the Cat:** A remarkably sturdy American Shorthair who sleeps on the front counter. Consequence acts as a low-tech Resonance detector. If a deeply cursed Relic or highly active Anchor Item is brought in, the cat will refuse to enter the Containment Suite or will actively hiss at the specific vault drawer.
+- **The Breakroom Espresso Machine:** Tucked behind the Occult section. A high-end precision machine the crew uses to survive late-night research binges.
+- **The Zoltar Entrance:** The secret door to the Containment Suite requires pushing a specific coin into the unplugged Zoltar machine in a specific sequence.
+
 ## Lair Benefits
 
 - **+1 Tier** for crafting and preserving Quality.

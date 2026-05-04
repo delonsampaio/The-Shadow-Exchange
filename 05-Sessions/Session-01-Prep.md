@@ -74,7 +74,8 @@ A Barghest living in the basement of a local theater.
 
 ### Engagement-roll setup
 
-Three viable approaches, each with a default Position. Let the players pick — or invent a fourth.
+Three viable approaches, each with a default Position. Let the players pick — or invent a fourth. 
+*(GM: Use the read-alouds below to teach them what the roll result actually means in fiction!)*
 
 **1. Front-door professional cleanup.** Walk in with a ladder and a Ministry vest. Quick, public, honest-looking.
 - Position / Effect: Risky / Standard.
@@ -87,6 +88,15 @@ Three viable approaches, each with a default Position. Let the players pick — 
 **3. Talk to Merton before fighting him.** Either by accident or by design.
 - Position / Effect: Risky / Limited *(he doesn't want to talk; he is barely holding it together)*.
 - Complication on 1–3: he reaches for someone he loved instead of the crew, and the moment breaks.
+
+> **IF THEY ROLL A 6 (Controlled Start):**
+> "The intel was flawless. The Ministry patrol just rounded the far corner, the heavy iron gate is unlocked exactly as promised, and you are standing in the blind spot of the cameras. You have the breathing room you paid for. What do you do?"
+
+> **IF THEY ROLL A 4-5 (Risky Start):**
+> "You’re in, but the world isn't cooperating. You slip through the maintenance door, but the rusted hinges screech loud enough to echo. Above you, on the catwalk, a flashlight beam snaps on and starts sweeping down toward your position. You have seconds before you are spotted. What do you do?"
+
+> **IF THEY ROLL A 1-3 (Desperate Start):**
+> "The plan didn't survive contact with reality. You kick open the basement door expecting an empty room, but the target is fully awake, staring right at you, and the Apex Aegis drone outside just locked onto your heat signature. It is going wrong, right now. What do you do?"
 
 ### Mid-scene read-alouds
 
@@ -104,9 +114,14 @@ Drop these as the score crosses thresholds. They are not boxed text in the bible
 >
 > "What he is now is taller than what he was. The shape suggests a dog the way a wax sculpture suggests a face — close enough to know what it should be, wrong in the parts that matter. He is not coming at you. He is standing very still in the basement light, breathing through teeth that no longer fit a mouth, and he is looking at the dog collar in his hand like he has never seen it before."
 
-> **The Apex Aegis van, if seen:**
->
-> "Black panel van, no plates, parked across from the theater entrance. Two men in the front seats are eating sandwiches. Neither of them is looking at the theater directly. Both of them are watching the side mirrors. The van has been here longer than you have."
+### GM REMINDER: Teaching Combat and the Devil's Bargain
+Before they engage Merton, remind the trad players: **There is no initiative.** Do not roll for turn order. Ask: *"Who is acting first?"* and resolve it as a single action roll. 
+
+On the very first combat roll, **offer the Devil's Bargain:**
+> *"I will give you an extra die to make this shot. But the world takes its cut. If you take this die, the Ministry scanner on the corner logs your weapon's discharge. It happens if you hit; it happens if you miss. Do we have a deal?"*
+
+If they take a bad consequence from Merton, explicitly offer the Resistance read-aloud:
+> *"The complication lands. The Barghest's claws tear through your armor. But you do not have to accept that reality. You can spend your own Stress to dig your heels in and rewrite what just happened. Do you take the hit, or do you resist?"*
 
 ### Anchor Item — Merton's collar
 
@@ -123,7 +138,7 @@ If left where he can reach it: he reverts on his own timeline, and the Ministry 
 ### Wrap-up
 
 - Measly Ministry payout. Coin per the bible's standard heist.
-- If the gland was hidden, **trigger Double Bookkeeping** — Sway roll. Walk through it as a teaching moment.
+- If the gland was hidden, **trigger Double Bookkeeping** — Sway roll. Walk through it as a teaching moment. *(Remember: on a 4-5, they keep it, but you start the 4-Segment Ministry Audit Clock!)*
 - Mention offhand that the gland needs to stay cold. *Do not introduce the Spoilage Clock yet.* Let the implication land first; the clock arrives in Session 3 or 4.
 
 ---

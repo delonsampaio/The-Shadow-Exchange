@@ -4,46 +4,18 @@ purpose: every Anchor Item the crew has touched, named, or taken
 moral_weight: this file is the campaign's conscience — keep it accurate
 ---
 
-# Anchor Ledger
+# The Anchor Ledger
 
 Every Anchor Item the crew has seized, destroyed, returned, or refused. Names. Costs. What changed.
 
-Anchor seizure is the most morally complicated loot type in the campaign. This ledger exists so that the cost is never abstract. When the crew (or I) am about to price the next score, this file should be open.
+Anchor seizure is the most morally complicated loot type in the campaign. This ledger exists so that the cost is never abstract. When the crew (or I) am about to price the next score, this file should be open. *Treat every entry as a transaction with a person. The Twice-Born network remembers.*
 
-## Format
+## Recorded Transactions
 
-> **Item:** what it is.
-> **Owner:** the name of the person, not the species.
-> **Seized in:** Session NN, score name.
-> **Disposition:** seized / destroyed / returned / refused / lost.
-> **Storage:** where it sits now (Lead-Lined Vault / Fence / black market / returned / unknown).
-> **The cost:** what this took from the owner. What it took from the crew.
-
----
-
-## Active
-
-*(Items the crew currently holds.)*
-
-*(Empty.)*
-
-## Returned
-
-*(Items given back to their owners — earns Twice-Born Favor.)*
-
-*(Empty.)*
-
-## Sold / Destroyed
-
-*(Items the crew converted to Coin or surrendered to the Ministry for destruction.)*
-
-*(Empty.)*
-
-## Refused
-
-*(Bounties the crew chose not to pursue. These count too — list them here so we remember.)*
-
-*(Empty.)*
+| Date / Score | Victim | The Anchor Item | The Choice Made | Consequence |
+| :--- | :--- | :--- | :--- | :--- |
+| *Session 1* | Merton (Barghest) | Leather Dog Collar (1823) | [To be filled] | [To be filled] |
+| *Session 2* | Emmerich (Tailor) | Silver Thimble | [To be filled] | [Did we earn a Favor, Enmity, or Ambivalence?] |
 
 ---
 

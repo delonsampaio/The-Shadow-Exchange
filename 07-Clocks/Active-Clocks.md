@@ -55,6 +55,16 @@ Symptoms by segment:
 
 ## One-off and faction clocks
 
+### 🏢 The Ministry Audit Clock [4-Segment]
+`[ ◌ ◌ ◌ ◌ ]` — 0 / 4
+*Triggered by:* Rolling a Mixed Success (4-5) on the 'Double Bookkeeping' Crew Ability. 
+*When full:* Director Arthur Vance or a Ministry inspector arrives at Curios & Chronicles. The Lair is locked down (Vault and Cold Storage inaccessible) until the heat is cleared or a massive bribe is paid.
+
+### 🥀 The Innocent's Corruption Clock [4-Segment]
+`[ ◌ ◌ ◌ ◌ ]` — 0 / 4
+*Triggered by:* Bringing the Innocent civilian along on a score, or exposing them to the unvarnished brutality of the hunting industry.
+*When full:* The Innocent doesn't die—they become a hardened, cynical Hunter, permanently losing the humanity the crew was trying to protect.
+
 *(Add as they appear. Common patterns: a specific NPC's investigation, a Heat-driven Apex Aegis acquisition push, a Ministry audit.)*
 
 - 
@@ -73,4 +83,4 @@ Not a clock — but track here when the Broker is owed something.
 
 *(Date / session / what advanced what.)*
 
-- 
+-

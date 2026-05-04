@@ -36,13 +36,17 @@ This is the most important block of the session. Get this right and the rest of 
 >
 > First — **you don't roll attack and damage separately.** One roll, one consequence. Most rolls have *both* an outcome and a complication, even on a hit.
 >
-> Second — **stress is your reroll currency, not your hit points.** You spend it to push, to resist consequences, to assist. Trauma is what happens when you run out of stress to spend. Trauma is good — it's how you earn XP. Don't hoard.
+> Second — **stress is your reroll currency, not your hit points.** You spend it to push, to resist consequences, to assist. Trauma is what happens when you run out of stress. Trauma is good — it's how you earn XP. 
 >
-> Third — **planning happens *during* the heist, not before it.** You'll engagement-roll into the middle of the score. If you needed something — a tool, an alibi, a contact — flash back to having gotten it. Your prep is a thing you can spend stress to retroactively have done.
+> Third — **planning happens *during* the heist.** You'll engagement-roll into the middle of the score. If you needed something, flash back to having gotten it. 
 >
-> Fourth — **I don't roll dice.** All rolls are yours. I describe consequences.
+> Fourth — **Actions are HOW, not WHAT.** In D&D, you roll Persuasion. Here, you can Command, Sway, or Consort to persuade someone. Tell me your approach, and we build the dice pool from that.
 >
-> And fifth — **the world is moving without you.** Factions act between sessions. Clocks tick during downtime. Your downtime decisions matter as much as your scores."
+> Fifth — **I don't roll dice.** All rolls are yours. I describe consequences.
+>
+> Sixth — **The Devil's Bargain.** You can negotiate with me for +1 extra die on any roll. The catch? A complication happens regardless of whether you succeed or fail. 
+>
+> Seventh — **Teamwork is everything.** You can give an ally +1 die just by describing how you help them and taking 1 Stress. You don't have to roll to help."
 
 **GM move:** take questions. Answer plainly. If you don't know the answer, say so and look it up — modeling "we will figure this out together" is more important than pretending to know.
 
