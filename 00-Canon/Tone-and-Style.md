@@ -38,3 +38,10 @@ Wondrous and uneasy, never whimsical. It chooses, it doesn't grant. PTOLEMY's le
 ## Pacing rule of thumb
 
 Quiet dread accumulates in scenes the players don't realize are doing work. Do not state the threat. Let the Omen Clock symptoms land in the periphery — clocks running slow, dogs refusing to cross a street, two unrelated people describing the same dream.
+
+## AI Co-GM Protocol
+
+* **Role:** The AI acts as a "Table Assistant" and "Scribe."
+* **Workflow:** The GM will provide a session transcript. The AI must then generate updates for both the Private Repo and the Public Wiki.
+* **Canvas Mode:** The AI should maintain a Live GM Dashboard with cards for Active Clocks, Crew Status, and NPCs.
+* **Style:** Maintain a "witty, industrial-noir" tone. Be grounded but supportive.

@@ -1,14 +1,14 @@
 ---
 status: canon
-note: This is now the canonical bible. Edit directly. The original Word document is archived at `_archive/Campaign-Bible-v4-ORIGINAL.docx` and is frozen — do not sync from it.
-last_updated: 2026-04-26 — Zoltar entrance retcon, workflow switch to markdown-first, new mechanics added
+note: This is now the canonical bible. Edit directly.
+last_updated: 2026-05-04 — Zoltar entrance retcon, workflow switch to markdown-first, new mechanics added, endgame narrative woven (v5)
 ---
 
 THE SHADOW EXCHANGE
 
 A Blades in the Dark Campaign
 
-Complete GM Campaign Bible — v4
+Complete GM Campaign Bible — v5
 
 "Nobody knows who controls the Subway. Nobody's sure they want to find out."
 
@@ -139,9 +139,9 @@ The Subway's entrances are invisible to hostile or purely extractive presences. 
 > There is no Subway Token mechanic. Access is not a key the crew carries — it is a quality they demonstrated. This is more interesting than a coin because it raises the question of what that quality is, makes access feel earned rather than obtained, and means the threat of losing access is existential (who they are) rather than mechanical (losing an item). The Ghost Map serves as the campaign's tactile Subway artifact when needed.
 
 
-Subway Decay Clock  [6-Segment]
+Subway Decay Clock  [6-Segment]
 
-◉   ← segments fill as threats escalate
+◉   ← segments fill as threats escalate
 
 Introduced dramatically in Session 5+. Visible on the wall of the Subway's main hall — inked in red on a city transit map. Advances from Mimic activity, mundane exposure events, and Resonance leaks the crew fails to contain. At 4 segments: merchants begin packing up and some Twice-Born flee. At 6: the cover-up collapses. Campaign endgame begins.
 
@@ -177,27 +177,27 @@ Introduced dramatically in Session 5+. Visible on the wall of the Subway's main 
 | Late game | Crossroads Cost | Arrives as a consequence of a specific deal. Never introduced as a system — only as a consequence. |
 
 
-Detection Clock  [4-Segment]
+Detection Clock  [4-Segment]
 
-◉   ← segments fill as threats escalate
+◉   ← segments fill as threats escalate
 
 Active every heist. Ticks when the crew draws attention. If full: Ministry or Apex Aegis arrives. Resets after the score. The ONLY clock in Sessions 1–2.
 
-Biological Spoilage Clock  [3-Segment]
+Biological Spoilage Clock  [3-Segment]
 
-◉   ← segments fill as threats escalate
+◉   ← segments fill as threats escalate
 
 Per harvested Biological. Ticks each Downtime phase. Paused by Cold Storage Locker. Ticks twice per scene on Away Jobs. Introduce naturally in Sessions 3–4.
 
-Tragedy Clock  [4-Segment]
+Tragedy Clock  [4-Segment]
 
-◉   ← segments fill as threats escalate
+◉   ← segments fill as threats escalate
 
 Triggered by The Monkey's Paw only. GM ticks secretly. Players know something is coming. They don't know what.
 
-Omen Clock  [8-Segment]
+Omen Clock  [8-Segment]
 
-◉   ← segments fill as threats escalate
+◉   ← segments fill as threats escalate
 
 GM-secret. Ticks as the boundary between worlds thins. Players see symptoms only. When full: something old wakes up. The crew did not cause it.
 
@@ -303,6 +303,10 @@ Each faction has a −3 to +3 standing track. High standing unlocks access and a
 | The Twice-Born | N/A | Not a unified faction — they barely know each other exist. Ancient beings living quietly as humans or animals. Each one is a moral decision point for the crew. | −3 to +3 |
 | The Hunter Underground | Varies | Independent hunters. No institutional loyalty. Distrust everyone. Know more than they share. Gather at Harlan's Diner. | −3 to +3 |
 
+## The Ministry — The Bureaucratic Weight
+
+- **The True Believer:** Meet Inspector Elias Thorne. He is an old-school Ministry loyalist who isn't corrupt. He hates Apex Aegis because their corporate greed is ruining the cover-up, but he is too institutionally bound to stop them.
+- **The Foil:** Thorne becomes a complex foil for the crew. He might occasionally help them against Apex Aegis overreach, but if he finds out about their "Double Bookkeeping," he will hunt them without mercy because he truly believes they are endangering humanity.
 
 ## Apex Aegis — The Corporate Threat
 
@@ -310,7 +314,7 @@ Each faction has a −3 to +3 standing track. High standing unlocks access and a
 - **The "Mystery Shopper" Protocol:** Apex Aegis actively sends undercover agents (posing as civilians or desperate subway denizens) to hire small firms like the crew. They evaluate the firm's compliance, discretion, and operational reliability. Failing an audit means a hostile takeover.
 - **Bounty Manipulation:** Apex Aegis has Ministry contacts who quietly adjust bounty lists. When a particularly valuable monster surfaces, an Apex Aegis team is already there.
 - **The Cleaner Protocol:** If the crew's Heat with Apex Aegis reaches 3+, Cleaners are assigned to disrupt scores and sabotage Curios & Chronicles.
-- **The Subway Search:** Apex Aegis knows the Subway exists. They have been trying to locate it for years. Every hunter they've bribed with access has lost it immediately afterward. If the Decay Clock reaches 4 segments, leaked Resonance gives their intelligence teams enough data to begin narrowing their search.
+- **Project Terminus (The Subway Search):** Apex Aegis knows the Subway exists and has classified their hunt for it as Project Terminus. They don't want to police the Subway; they want to drop a massive "Null-Bomb" inside to harvest the Biologicals and Anchor Items of every Twice-Born in the city simultaneously. Every hunter they've bribed with access has lost it immediately afterward. If the Decay Clock reaches 4 segments, leaked Resonance gives their intelligence teams enough data to begin narrowing their search.
 
 
 > 🆕 NEW MECHANIC — Apex Aegis Null-Tech
@@ -322,7 +326,7 @@ Each faction has a −3 to +3 standing track. High standing unlocks access and a
 > 🎭 THE MIMIC — THE UNDERSTUDIED
 > True Name: The Understudied.
 > Goal: Destroy the Subway's neutrality — not for chaos, but for control. If the cover-up collapses and the supernatural is exposed, the resulting panic creates a power vacuum. The Understudied intends to fill it: positioning itself as the sole broker of peace between humans and monsters. It wants to be indispensable to both sides of a war it is starting.
-> Method: Using The Casting Mask to infiltrate positions of trust in both the Ministry and the Subway community. It is manipulating the Decay Clock from both ends — causing exposure events while intercepting the crew's attempts to prevent them.
+> Method: Using The Casting Mask to infiltrate positions of trust in both the Ministry and the Subway community. It is manipulating the Decay Clock from both ends — causing exposure events while intercepting the crew's attempts to prevent them. *Crucially, it does not realize that breaking the cover-up's magical seal is leaking Resonance and feeding the Omen Clock, inadvertently waking an ancient god.*
 > The Casting Mask: Allows any face, voice, and mannerism. Each use costs a Memory — a piece of its actual self. The Mimic has used it for so long it no longer knows its original form. It occasionally reaches for memories that belong to faces it has worn, not to itself.
 > Its Face: Plant it in Session 1 or 2 as a trusted, helpful contact — a friendly Ministry liaison, a popular Subway merchant, a well-regarded hunter at Harlan's. Reveal it when it costs the most.
 > Its Tell: It occasionally uses the wrong memories — a name it shouldn't know, a habit that doesn't match the face it's wearing. Attentive players can catch this if they're looking for it.
@@ -425,7 +429,7 @@ During character creation, ask each player: "What object did you carry into this
 > Supernatural always has a civilian dragged in against their will. They humanize what the crew is protecting and make the stakes personal. Their potential corruption or death is the most devastating story the campaign can tell.
 
 
-- Who They Are: A civilian who witnessed something real during one of the crew's early scores. They didn't understand what they saw. They haven't been able to stop thinking about it.
+- Who They Are: To maximize the emotional gut-punch, The Innocent is not a random bystander. They are the adult child of a monster the crew (or a rival firm) killed in an earlier session. They are desperately looking for answers as to why their parent was legally declared a 'gas leak casualty,' forcing the crew to look their own complicity in the eye.
 
 - How They Keep Appearing: Coincidence at first. Then the crew wonders if the Mimic is using them as a pawn. Then they start to wonder if the civilian has been quietly looking for the crew on purpose.
 
@@ -459,18 +463,22 @@ During character creation, ask each player: "What object did you carry into this
 
 > 🔍 CAMPAIGN MYSTERY — THE ARCHITECT
 > Who They Are: The person — or thing — responsible for the crew ending up in this life. Not necessarily the one who handed them their first job. The one whose choices put them on this specific path.
-> What They Wanted: The crew was selected. There is a specific quality, capacity, or potential the Architect needed. They required people who would end up exactly where the crew has ended up — and the crew is only now in a position where that matters.
+> What They Wanted: The crew was selected. There is a specific quality, capacity, or potential the Architect needed.
+> **GM Menu (Choose one quietly during Prep):**
+    > - *Option A (The Key):* The Architect is a Twice-Born who needed access to the Subway but was banned. They groomed the crew specifically because they knew the crew possessed the empathy required to open the doors.
+    > - *Option B (The Patsy):* The Architect is a high-ranking Ministry official who set the crew up to be the ultimate scapegoats when the cover-up inevitably collapses.
+    > - *Option C (The Fail-Safe):* The Architect is a former hunter who foresaw the Omen Clock waking up. They knew a corporate firm like Apex Aegis would fail to stop it, so they funded a small, disposable mom-and-pop firm to operate under the radar as a last line of defense.
 > The Reveal: Mid-game, after the crew has formed real emotional investment in the world and each other. The Architect is not necessarily a villain. They may have had reasons that made sense at the time. The crew must decide what to do with the knowledge.
 > The Question: Does it matter why you started, if the work turned out to be real? This is the emotional core of the Architect arc.
 
 
 ## The Omen Clock — Symptoms by Segment
 
-Omen Clock  [8-Segment]
+Omen Clock  [8-Segment]
 
-◉   ← segments fill as threats escalate
+◉   ← segments fill as threats escalate
 
-GM-secret. Ticks as the boundary between the supernatural and mundane world thins. Separate from the Mimic's plan — this is the world itself becoming more porous. When full: something old wakes up. The crew did not cause it. It has been waiting.
+GM-secret. Ticks as the boundary between the supernatural and mundane world thins. Directly tied to the Mimic's actions. The 'Cover-Up' isn't just a government policy; it's practically a magical seal. As the Mimic frays the cover-up to start a turf war, the resulting 'Resonance leak' feeds the Omen Clock. The Mimic is intentionally causing exposure events, but it doesn't realize it is waking a god until it is too late.
 
 
 | Segment | What Players Notice |

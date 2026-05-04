@@ -9,7 +9,7 @@ runtime: ~2.5–3 hours
 
 # Session 0 — The Bookshop Existed Before You Did
 
-Players arrive with their PCs already made, having read the [Character Creation Guide](../01-Crew/PCs/Character-Creation-Guide.md) and the [Player Reference](../00-Canon/Player-Reference.md). Tonight is **crew creation, table-culture reset, and the opening montage**. No heist tonight.
+Players arrive with their PCs already made, having read the Character Creation Guide and the Player Reference. Tonight is **crew creation, table-culture reset, and the opening montage**. No heist tonight.
 
 This file is written for a first-time Blades GM. It assumes you've never run a Forged in the Dark game before. The structure is paced minute-by-minute so you don't have to think about flow at the table — just follow it.
 
@@ -17,12 +17,12 @@ This file is written for a first-time Blades GM. It assumes you've never run a F
 
 ## Pre-session you-the-GM checklist
 
-- [ ] Read the [GM Cheat Sheet](../00-Canon/GM-Cheat-Sheet.md) once. Bring it.
-- [ ] Read [Running Your First Score](../00-Canon/Running-Your-First-Score.md) once. You won't need it tonight, but it gets you ready for Session 1.
+- [ ] Read the GM Cheat Sheet once. Bring it.
+- [ ] Read Running Your First Score once. You won't need it tonight, but it gets you ready for Session 1.
 - [ ] Have printed Player References — one per player.
 - [ ] Have all four PC sheets in hand (sent in advance per Character Creation Guide). Read each one once. Note their Vice, their Friend, their Rival, and their Cursed Heirloom.
 - [ ] Decide whose face the Mimic is wearing. Write it in `02-Factions/The-Mimic.md`. Plant nothing tonight — tonight is too early.
-- [ ] Have the [bible](../00-Canon/Campaign-Bible-v4.md) open to Section 5 (the Lair) for reference.
+- [ ] Have the bible open to Section 5 (the Lair) for reference.
 
 ---
 
@@ -44,9 +44,11 @@ This is the most important block of the session. Get this right and the rest of 
 >
 > Fifth — **I don't roll dice.** All rolls are yours. I describe consequences.
 >
-> Sixth — **The Devil's Bargain.** You can negotiate with me for +1 extra die on any roll. The catch? A complication happens regardless of whether you succeed or fail. 
+> Sixth — **The Devil's Bargain.** You can negotiate with me for +1 extra die on any roll. The catch? A complication happens regardless of whether you succeed or fail. I will often give you a menu of two bad options to choose from (e.g., 'Take +1d, but tick the Detection Clock' OR 'Take +1d, but damage your gear').
 >
-> Seventh — **Teamwork is everything.** You can give an ally +1 die just by describing how you help them and taking 1 Stress. You don't have to roll to help."
+> Seventh — **Teamwork is everything.** You can give an ally +1 die just by describing how you help them and taking 1 Stress. You don't have to roll to help.
+>
+> Eighth — **The Quantum Inventory (Load).** Before you roll to solve your first problem, you must declare your Load (Light, Normal, or Heavy). You don't pick your items now; you just 'find' them in your coat when you need them later, up to your Load limit."
 
 **GM move:** take questions. Answer plainly. If you don't know the answer, say so and look it up — modeling "we will figure this out together" is more important than pretending to know.
 
@@ -73,7 +75,6 @@ Players have made their characters. Now they introduce them to each other, in ch
 Don't let any introduction run more than 2 minutes. If someone is going long, gently cut: *"Great — we'll see more in play. Next."*
 
 **GM move (private):** as they introduce, write down each PC's:
-
 - The "thing they wouldn't loan." This is often the Cursed Heirloom or close to it. Note for later.
 - One small detail you weren't expecting. Something they invented at the table that you can pull on later.
 
@@ -120,30 +121,24 @@ After the read-aloud:
 
 > **GM script:** *"Which one of you is out front pretending to run a bookstore today, and which one of you is in the back currently doing something to the Scanner Station that probably shouldn't be done?"*
 
-Let the table riff for 3–5 minutes. Then describe each fixture's *function* casually — cold storage keeps things from rotting, the vault makes Ministry scanners go dark, the trophy wall gives you an edge on monsters you've faced before. **Don't say "Spoilage Clock" or "Detection Clock"** — those words don't exist for the players yet.
+Let the table riff for 3–5 minutes. Then describe each fixture's *function* casually. **Don't say "Spoilage Clock" or "Detection Clock"** — those words don't exist for the players yet.
 
 ### Reputation and hunting grounds
 
 Ask the table:
-
 > **GM script:** *"What is your firm known for, in the small circle that knows you at all? Honest? Effective? Discreet? Reckless? Pick one."*
 
 Then:
-
 > **GM script:** *"What kind of monster does your firm specialize in? Not what kind you've been assigned — what kind you have prior history with. Ghouls? Spirits? Things that look human?"*
 
-Their answer to the second question becomes your seed pool for what they've already done. You can use it in flashbacks, in prior-job references, in NPCs who recognize their reputation.
+Their answer becomes your seed pool for what they've already done.
 
 ### Crew abilities and upgrades
 
-The bible already grants the Containment Suite upgrades and the Double Bookkeeping crew ability. Walk through them:
-
-- **Cold Storage Locker, Lead-Lined Vault, Post-Op Table, Scanner Station, Trophy Wall, Hunter's Journal** — the lair upgrades. These are why you are a real firm and not four people with a shared rented apartment.
-- **Double Bookkeeping** *(custom)* — when you finish a Ministry bounty, roll **Sway** to fudge the paperwork. On a success, you keep one minor item from the target without the Ministry noticing. The cover story goes in the Ministry's file. The item goes in your vault.
-
-Pick **one additional Special Ability** from the Hunters playbook. *(GM, this is a real choice — let them debate it. Common first picks for hunters: Hunting Grounds, Vipers, Predators.)*
-
-Pick **one additional Upgrade** from the Hunters playbook. *(Common first picks: Cohort, Rigging, Resolved.)*
+- **Cold Storage Locker, Lead-Lined Vault, Post-Op Table, Scanner Station, Trophy Wall, Hunter's Journal** — the lair upgrades. 
+- **Double Bookkeeping** *(custom)* — when you finish a Ministry bounty, roll **Sway** to fudge the paperwork. On a success, you keep one minor item from the target without the Ministry noticing. 
+- Pick **one additional Special Ability** from the Hunters playbook. 
+- Pick **one additional Upgrade** from the Hunters playbook. 
 
 ---
 
@@ -153,7 +148,7 @@ Each player has their Close Friend, Rival, and Cursed Heirloom on their sheet. W
 
 > **GM script:** *"Tell us your Friend, your Rival, and your Heirloom. One sentence each. We're not playing them tonight — I just want everyone at the table to know what's circling each of you."*
 
-**GM move (private):** for each Heirloom, pick *quietly* which of the bible's four degradation patterns it follows (`00-Canon/Campaign-Bible-v4.md`, Section 9 — "The Cursed Family Heirloom" table). Mark it in the PC's file under "How it gets worse — *(GM private)*". Don't tell the player which pattern. They'll figure it out.
+**GM move (private):** for each Heirloom, pick *quietly* which of the bible's four degradation patterns it follows (`00-Canon/Campaign-Bible-v4.md`, Section 9).
 
 ---
 
@@ -168,15 +163,12 @@ End with a quiet, atmospheric beat that establishes the *feeling* of the campaig
 > Tonight there is no envelope on the counter. Tomorrow there will be."
 
 Then ask each player one of these (rotate so each player gets a different one):
-
 - *Why is your character still doing this work?*
 - *What do you want me, as the GM, to make sure I do this campaign?*
 - *What is the one thing your character is afraid will happen here?*
 - *What does your character do when no one else is in the bookshop?*
 
-**GM move (private):** write down all four answers verbatim. They are the contract you have with each player. They are also Trauma triggers, plot hooks, and reveal seeds for the rest of the campaign.
-
-End the session there. Don't push into Heist 1 territory. Let the closing image linger.
+**GM move (private):** write down all four answers verbatim. They are the contract you have with each player. 
 
 ---
 
@@ -184,24 +176,5 @@ End the session there. Don't push into Heist 1 territory. Let the closing image 
 
 - Update each PC file in `01-Crew/PCs/` with anything that emerged at the table that wasn't on their sheet.
 - Update `01-Crew/Crew-Sheet.md` — confirm hunting grounds, reputation, the special ability and upgrade picked.
-- Update `01-Crew/Contacts.md` — Friend and Rival NPCs from each PC. Give each one a face and one line.
+- Update `01-Crew/Contacts.md` — Friend and Rival NPCs from each PC. 
 - Read [Running Your First Score](../00-Canon/Running-Your-First-Score.md) cover to cover before Session 1.
-- Read [Session-01-Prep.md](Session-01-Prep.md) and decide:
-  - Which PCs are out front pretending to run a bookstore today?
-  - Which PCs are in the back doing something to the Scanner Station that probably shouldn't be done?
-
-The second-to-last bullet is the most important. Running Your First Score is the document that loads the patterns into your head. The Session 1 prep file expects you've read it.
-
----
-
-## Recap *(written after the session — second person, present tense, prose)*
-
-*(Empty until played.)*
-
-## State changes
-- PCs finalized:
-- Crew finalized:
-- Threads opened (Friends, Rivals, Heirlooms):
-
-## Things to follow up next session
--
