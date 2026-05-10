@@ -14,6 +14,7 @@ Players arrive with their PCs already made. Tonight is **crew creation, table-cu
 ---
 
 ## Pre-Session GM Checklist
+- [ ] Read `00-Canon/GM-Rules-Reference.md` — actions, harm, crew XP triggers, and Hunters abilities list. This is the rules primer the other files assume you've read.
 - [ ] Read `00-Canon/GM-Cheat-Sheet.md`.
 - [ ] Read `00-Canon/Running-Your-First-Score.md`.
 - [ ] Have printed `00-Canon/Player-Reference.md` copies for each player.
@@ -106,8 +107,8 @@ Their answer becomes your seed pool for what they've already done.
 
 - **Cold Storage Locker, Lead-Lined Vault, Post-Op Table, Scanner Station, Trophy Wall, Hunter's Journal** — the lair upgrades. 
 - **Double Bookkeeping** *(custom)* — when you finish a Ministry bounty, roll **Sway** to fudge the paperwork. On a success, you keep one minor item from the target without the Ministry noticing. 
-- Pick **one additional Special Ability** from the Hunters playbook. 
-- Pick **one additional Upgrade** from the Hunters playbook. 
+- Pick **one additional Special Ability** — see `00-Canon/GM-Rules-Reference.md` Part 4 for the full list with descriptions and a quick pick guide.
+- Pick **one additional Upgrade** from the Hunters options (training, lair, quality, or a general crew upgrade from the SRD). 
 
 ---
 
