@@ -1,37 +1,25 @@
 ---
-type: npc
-status: active
-first_seen: TBD (likely early — after Heist 1 or 2)
-location: Harlan's Diner (40 min outside the city)
-faction: The Hunter Underground
+entity_type: NPC
+name: "Harlan Okafor"
+status: Active
+faction_affiliation: "[Faction: The Hunter Underground]"
+threat_level: Tier 2
+last_seen_session: "00"
 ---
 
 # Harlan Okafor
 
-**Look** — Mid-fifties, broad shoulders, apron with old stains he no longer tries to scrub out. Watches the door without looking at it.
-**Mannerism** — Pours coffee while you're still talking. Answers questions with other questions when he doesn't want to answer.
-**Drive** — Keep the diner neutral. Keep the Wall accurate. Outlive whatever broke him at the Ministry.
-**Secret** — Why he left the Ministry. He doesn't discuss it. Whatever it is, it's worth knowing — and worth not asking about until the crew has earned the right.
+**Look** — A man who looks like he has lived three lives, usually found behind the counter of **[Location: Harlans Diner]** with a grease-stained apron.
+**Mannerism** — Wiping a glass that is already clean; looking at the door before he speaks.
+**Drive** — To keep the "old ways" of hunting alive while keeping the new generation from getting killed too quickly.
+**Secret** — He knows more about **[NPC: The Architect]** than he lets on.
 
 ## Three Layers
+1. **Appears as** — A grumpy but reliable diner owner and information broker.
+2. **Actually is** — A retired veteran hunter who survived the early days of the Subway.
+3. **Became this because** — He lost his own crew to a **[Faction: Apex Aegis]** acquisition that went violent.
 
-1. **Appears as** — diner owner, mildly cantankerous, fair prices, good pie.
-2. **Actually is** — ex-Ministry, the central node of the Hunter Underground. Knows where bodies are buried — literally.
-3. **Became this because** — left the Ministry under bad circumstances. The diner is his exile and his penance and his post.
-
-## Anchor Item
-
-Not a monster. No Anchor.
-
-## What he does
-
-- Tells you who to call.
-- Charges fair prices.
-- Remembers every tab.
-- Maintains the **Wall of the Missing**.
-- Provides intel on jobs 24–48 hours ahead of Ministry lists. *(Advantage vanishes if Apex Aegis locates the diner.)*
-
-## Notes
-
-- The crew's names are not on the Wall yet. This is a thing they should notice.
-- Harlan does not extend the Intel Advantage to anyone he doesn't trust. Trust here is built slowly.
+## AI Roleplay Directives
+* **Speech Pattern:** Deep voice, short sentences, uses metaphors related to cooking and cleaning up messes.
+* **Aggro Trigger:** Insulting the memory of fallen hunters or acting recklessly in his diner.
+* **Default Complication:** Harlan offers a "Devil's Bargain"—he gives the info the crew needs, but they owe him a "no-questions-asked" favor for a **[NPC: Twice-Born]** friend.
