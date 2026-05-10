@@ -1,9 +1,10 @@
 ---
-type: npc
-status: active        # active | recurring | dormant
-first_seen: Session NN
-location: ""
-faction: ""
+entity_type: NPC
+name: "{Name}"
+status: Active        # Active | Dormant | Deceased
+faction_affiliation: "[Faction: Name]"
+threat_level: Tier X
+last_seen_session: "00"
 ---
 
 # {Name}
@@ -20,9 +21,13 @@ faction: ""
 3. **Became this because** — the wound, the choice, the bargain.
 
 ## Anchor Item *(if applicable)*
-
+**[Item: Name of Anchor]**
 What it is. Where they keep it. What it cost them. What it would cost the crew to take it.
 
-## Notes
+## Notes & Relationships
+*Use strict bracket syntax for connections, e.g., "Owes a debt to [NPC: Name] regarding [Faction: Name]."*
 
-Crossings with the crew. Threads they're tangled in. Use this section sparingly — the file should stay scannable.
+## AI Roleplay Directives
+* **Speech Pattern:** How do they speak? (e.g., Short sentences, never raises voice, uses industrial metaphors).
+* **Aggro Trigger:** What specific action or mentioned topic makes them hostile?
+* **Default Complication:** If the crew rolls a Mixed Success dealing with this NPC, what is the default Devil's Bargain or consequence?
