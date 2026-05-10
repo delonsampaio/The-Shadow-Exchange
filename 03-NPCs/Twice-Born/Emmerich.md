@@ -1,36 +1,30 @@
 ---
-type: npc
-status: active
-first_seen: Session 1 (Heist 2 — The Hollow Pedestrian)
-location: tailor shop in a crowded shopping district / hiding (TBD by player choice)
-faction: The Twice-Born
+entity_type: NPC
+name: "Emmerich"
+status: Active
+faction_affiliation: "[Faction: The Twice-Born]"
+threat_level: Tier 1
+last_seen_session: "00"
 ---
 
 # Emmerich
 
-**Look** — Slight frame, neat moustache, measuring tape always around his neck. Hands marked by 200 years of small precise work.
-**Mannerism** — Greets every customer by name. Remembers their parents' names too. Speaks to children at their eye level.
-**Drive** — Continue being a tailor. Continue being known as a tailor. Continue mattering to the family he has measured for seven generations.
-**Secret** — He was present when **The Casting Mask** was first used. He knows the Mimic's true name — *The Understudied*. He will share this only with people who have demonstrated that they understand not everything supernatural deserves to be hunted.
+**Look** — A tall, gaunt man with needles tucked into his lapel and tape-measure scars around his wrists.
+**Mannerism** — Checking the cuffs of anyone he speaks to; humming a sewing-machine rhythm.
+**Drive** — To finish the "Last Suit" for a client who hasn't existed in eighty years.
+**Secret** — He is losing his grip on the physical world; the thimble is the only thing keeping him from becoming a **[NPC: The Understudied]**.
 
 ## Three Layers
-
-1. **Appears as** — a tailor working in a crowded shopping district. Has been a tailor in this city for 200 years. Has measured seven generations of the same family for school uniforms.
-2. **Actually is** — a Twice-Born. His Anchor Item is a silver thimble his daughter gave him before she died in 1847.
-3. **Became this because** — the bible doesn't say. *(GM-private: invent if needed; the daughter is the emotional fulcrum.)*
+1. **Appears as** — A hollow, obsessive tailor working out of a dusty shop.
+2. **Actually is** — A soul bound to the city by grief and a silver thimble.
+3. **Became this because** — He made a deal with the **[NPC: Crossroads Broker]** to finish his daughter’s mourning dress after her death in 1847.
 
 ## Anchor Item
+**[Item: Silver Thimble]**
+* **What it is:** A simple, worn thimble given to him by his daughter.
+* **Cost of taking it:** Emmerich will unravel instantly, leaving behind only the scent of old linen and a deep sense of betrayal.
 
-A **silver thimble**, given to him by his daughter before her death in 1847. He keeps it on a chain around his neck under his shirt. Ministry classifies it as **Tier 1 Contraband** — high bounty value, mandatory destruction order.
-
-If seized: Emmerich loses his disguise within 1d6 hours. Has nowhere to go. Crew loses a Twice-Born Favor opportunity, gains significant Coin.
-
-If warned instead: no payout, bounty stays active, he goes into hiding. **Crew gains a Twice-Born Favor.**
-
-He will remember either choice for the rest of the campaign.
-
-## Notes
-
-- The Heist 2 observation window: he is measuring a small child for a school uniform. He exchanges warm words with a family he has clearly known for decades. He is a tailor. He has always been a tailor.
-- Apex Aegis Peacekeepers are patrolling the district during the heist. Their Anchor Item Scanners ping seized items within 200ft.
-- He knows the Mimic. This information becomes accessible only after the crew has earned his trust.
+## AI Roleplay Directives
+* **Speech Pattern:** Rhythmic and precise. He talks about people in terms of "fabric" and "seams."
+* **Aggro Trigger:** Touching his sewing kit or mentioning **[Faction: The Ministry]**.
+* **Default Complication:** Emmerich weaves a "Thread of Dread" into a character's clothing—a minor Resonance haunting that makes shadows seem to follow them.
