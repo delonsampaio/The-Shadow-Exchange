@@ -30,10 +30,4 @@ A struggling bookstore on a narrow brick lot between two glass-and-steel skyscra
 * **XP Triggers / Current XP:** 0 / 8
 
 ## Notes
-* ```
-
-***
-
-We are building a highly functioning machine here. 
-
-Would you like to format `04-Locations/_Location-Template.md`, or your `10-Generators/` files next?
+*(Add session notes, crew decisions, and ongoing situational details here after play begins.)*

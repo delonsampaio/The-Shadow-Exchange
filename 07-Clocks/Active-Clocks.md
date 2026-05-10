@@ -68,12 +68,13 @@ Clock notation: `[ ◌ ]` empty, `[ ● ]` filled.
 ---
 
 ## Crossroads Cost Ledger
-*(Track outstanding debts to the Crossroads Broker here)*
-* **[NPC: Crossroads Broker]** is owed: [Describe the missing item, memory, or favor].
+*(Track outstanding debts to the Crossroads Broker here. Add entries as deals are made.)*
+
+*(Empty — no deals made yet)*
 
 ---
-## Last Advanced Log
-*(Date / Session / What advanced what)*
-* ```
 
-Say "next" when you are ready, and we can format `08-Loot-and-Anchors/Inventory.md` or `05-Sessions/_Session-Template.md` to ensure your session notes and item tracking are perfectly aligned with the AI.
+## Last Advanced Log
+*(Session / Clock / What triggered the tick)*
+
+*(Empty — campaign not yet started)*

@@ -46,8 +46,16 @@ Open mysteries and unresolved beats. Update after every session. Mark threads CL
 ---
 
 ## Foreshadowing — Planted but not yet landed
-*(Link to `09-Threads/Foreshadowing.md`)*
-* ## Closed Threads
-*(Move completed threads here to maintain a history of the campaign's shifting narrative).*
-* ## AI Escalation Directives
+*(See `09-Threads/Foreshadowing.md` for full list. Five Mimic tells currently active.)*
+
+---
+
+## Closed Threads
+*(Move completed threads here to maintain a history of the campaign's shifting narrative.)*
+
+*(None yet — campaign not started)*
+
+---
+
+## AI Escalation Directives
 * **World Building:** When the GM requests a Campaign Escalation, review these Active Plot Threads. Pick one thread with a "Simmering" or "Dormant" status, execute its "Next Escalation" behind the scenes, and provide the GM with the sensory or rumor-based fallout the crew experiences.
