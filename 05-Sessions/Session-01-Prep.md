@@ -133,3 +133,8 @@ Take a deliberate 30–40 minutes to teach the Downtime cycle.
 > **READ ALOUD — closing beat:**
 >
 > "Late afternoon, mid-week. The bell above the door chimes. The same courier as before — same uniform, same silence. The envelope is dry this time. Inside: a much larger payout than last week, a Ministry Resonance scanner readout, and a photograph. A man, maybe sixty, leaning over a fitting bench with a measuring tape around his neck. He's smiling at someone outside the frame. The notation on the back reads: **TIER 1 CONTRABAND — SEIZE / DETAIN.**"
+>
+> ## AI Live Complications
+* **If the Detection Clock fills:** Deploy **[Faction: Apex Cleaners]** with a focus on **[PC: Name]**.
+* **If a Mixed Success (4-5) occurs during the Score:** Suggest a complication involving **[NPC: Name's]** Secret.
+* **If the Crew draws heat in the Subway:** Describe the **[NPC: Crossroads Broker]** watching from the shadows.
