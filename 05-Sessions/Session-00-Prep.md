@@ -1,53 +1,88 @@
 ---
-type: session
+entity_type: Session
 session_number: 0
-date_played: TBD
-status: prep
-purpose: arrival with sheets in hand, crew creation, expectations, system orientation, opening montage
-runtime: ~2.5–3 hours
+title: "The Bookshop Existed Before You Did"
+status: Prep
+purpose: "Crew creation, table-culture reset, and opening montage."
+runtime: "~2.5–3 hours"
 ---
 
 # Session 0 — The Bookshop Existed Before You Did
 
-Players arrive with their PCs already made, having read the Character Creation Guide and the Player Reference. Tonight is **crew creation, table-culture reset, and the opening montage**. No heist tonight.
-
-This file is written for a first-time Blades GM. It assumes you've never run a Forged in the Dark game before. The structure is paced minute-by-minute so you don't have to think about flow at the table — just follow it.
+Players arrive with their PCs already made. Tonight is **crew creation, table-culture reset, and the opening montage**. No heist tonight.
 
 ---
 
-## Pre-session you-the-GM checklist
-
-- [ ] Read the GM Cheat Sheet once. Bring it.
-- [ ] Read Running Your First Score once. You won't need it tonight, but it gets you ready for Session 1.
-- [ ] Have printed Player References — one per player.
-- [ ] Have all four PC sheets in hand (sent in advance per Character Creation Guide). Read each one once. Note their Vice, their Friend, their Rival, and their Cursed Heirloom.
-- [ ] Decide whose face the Mimic is wearing. Write it in `02-Factions/The-Mimic.md`. Plant nothing tonight — tonight is too early.
-- [ ] Have the bible open to Section 5 (the Lair) for reference.
+## Pre-Session GM Checklist
+- [ ] Read **[Global: GM Cheat Sheet]**.
+- [ ] Read **[Global: Running Your First Score]**.
+- [ ] Have printed Player References.
+- [ ] Note each PC's Vice, Friend, Rival, and **[Item: Cursed Heirloom]**.
+- [ ] Decide whose face **[Faction: The Mimic]** is wearing.
+- [ ] Have **[Global: Campaign Bible]** Section 5 (The Lair) open.
 
 ---
 
-## Beat 1 — Welcome and reset (10–15 min)
+## Beat 1 — Welcome and Reset (10–15 min)
+*The focus is resetting expectations for Forged in the Dark mechanics.*
 
-This is the most important block of the session. Get this right and the rest of the campaign is easier.
+### Read Aloud (System Orientation)
+> "We've been playing D&D and Pathfinder a long time. Blades is going to feel familiar in some places and very wrong in others. Here's what's different on purpose..."
+*(Refer to original file for the full list of eight points: One roll, Stress as currency, Flashbacks, Actions as HOW, I don't roll, Devil's Bargain, Teamwork, and Load.)*
 
-> **READ ALOUD — to the players, not in character:**
->
-> "We've been playing D&D and Pathfinder a long time. Blades is going to feel familiar in some places and very wrong in others. Here's what's different on purpose:
->
-> First — **you don't roll attack and damage separately.** One roll, one consequence. Most rolls have *both* an outcome and a complication, even on a hit.
->
-> Second — **stress is your reroll currency, not your hit points.** You spend it to push, to resist consequences, to assist. Trauma is what happens when you run out of stress. Trauma is good — it's how you earn XP. 
->
-> Third — **planning happens *during* the heist.** You'll engagement-roll into the middle of the score. If you needed something, flash back to having gotten it. 
->
-> Fourth — **Actions are HOW, not WHAT.** In D&D, you roll Persuasion. Here, you can Command, Sway, or Consort to persuade someone. Tell me your approach, and we build the dice pool from that.
->
-> Fifth — **I don't roll dice.** All rolls are yours. I describe consequences.
->
-> Sixth — **The Devil's Bargain.** You can negotiate with me for +1 extra die on any roll. The catch? A complication happens regardless of whether you succeed or fail. I will often give you a menu of two bad options to choose from (e.g., 'Take +1d, but tick the Detection Clock' OR 'Take +1d, but damage your gear').
->
-> Seventh — **Teamwork is everything.** You can give an ally +1 die just by describing how you help them and taking 1 Stress. You don't have to roll to help.
->
+### Read Aloud (The Pitch)
+> "The world is exactly as it appears — if you're not looking closely... You are a small, underfunded monster-hunting firm. You take government contracts... You are not the heroes the official story describes. Welcome to The Shadow Exchange."
+
+---
+
+## Beat 2 — PC Introductions (15 min)
+**GM Prompt:** *"Tell us your name, what you look like, what you do in **[Location: Curios & Chronicles]** on a normal day, and one thing your character carries that they wouldn't loan to anyone here."*
+
+---
+
+## Beat 3 — Crew Creation (45 min)
+*Collaborative walkthrough of the crew sheet.*
+
+- **Crew Type:** Hunters
+- **Crew Name:** **[Faction: Curios & Chronicles]**
+
+### Read Aloud (The Lair Tour)
+> "Before the job starts, let's look at your home... A narrow, three-story brick building sandwiched between two glass-and-steel skyscrapers... This is **[Location: Curios & Chronicles]**."
+*(Refer to original file for the full "Public Face" and "Containment Suite" descriptions.)*
+
+### Reputation & Specialization
+- **Reputation:** (Honest / Effective / Discreet / Reckless)
+- **Specialization:** (Ghouls / Spirits / Human-looks)
+
+### Abilities & Upgrades
+- **Lair Fixtures:** **[Location: Cold Storage Locker]**, **[Location: Lead-Lined Vault]**, **[Item: Post-Op Table]**, **[Item: Scanner Station]**, **[Item: Trophy Wall]**, **[Item: Hunter's Journal]**.
+- **Ability:** **Double Bookkeeping** (custom).
+- **Pick:** One additional Special Ability and one additional Upgrade.
+
+---
+
+## Beat 4 — Friends, Rivals, and Heirlooms (15 min)
+**GM Prompt:** *"Tell us your Friend, your Rival, and your **[Item: Cursed Heirloom]**. One sentence each."*
+
+---
+
+## Beat 5 — Closing Montage (10–15 min)
+### Read Aloud (The Outro)
+> "It's late. The shop is closed. **[NPC: Consequence]** the cat is asleep... Tonight there is no envelope on the counter. Tomorrow there will be."
+
+### The Closing Contract
+Ask each player:
+1. Why is your character still doing this work?
+2. what do you want me, as the GM, to make sure I do this campaign?
+3. What is the one thing your character is afraid will happen here?
+4. What does your character do when no one else is in the bookshop?
+
+---
+
+## AI Facilitation Directives
+* **Live Tour Guide:** If the GM asks for a "Tour of the Lair," provide the Read Aloud for the Containment Suite using the **Sensory Profile** from **[Location: Curios & Chronicles]**.
+* **Scribe Protocol:** During this session, the AI should specifically look for and record the players' answers to the "Closing Contract" questions to update the **[Global: Campaign Current State]**.
+* **Heirloom Watch:** When a player describes their **[Item: Cursed Heirloom]**, the AI should privately suggest which degradation pattern from the bible fits best.>
 > Eighth — **The Quantum Inventory (Load).** Before you roll to solve your first problem, you must declare your Load (Light, Normal, or Heavy). You don't pick your items now; you just 'find' them in your coat when you need them later, up to your Load limit."
 
 **GM move:** take questions. Answer plainly. If you don't know the answer, say so and look it up — modeling "we will figure this out together" is more important than pretending to know.
