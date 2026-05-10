@@ -88,7 +88,7 @@
 
 ## 13. Live Image Generation (Use during any session to generate a visual)
 
-The GM uses an image generator (separate from this chat) to create visuals during sessions. When an image would enhance the moment, generate a ready-to-paste prompt.
+The GM uses Gemini's image generator (separate from this chat) to create visuals during sessions. When an image would enhance the moment, generate a ready-to-paste prompt.
 
 **Trigger moments — offer an image prompt for:**
 - First time a major NPC appears
