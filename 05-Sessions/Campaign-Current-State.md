@@ -1,13 +1,29 @@
-# Campaign Current State
+---
+entity_type: GlobalState
+last_updated_session: "NN"
+current_location: "[Location: Name]"
+active_score_status: "None | In Progress | Post-Op"
+---
 
-## Current Situation
-The ledger is open, but the first transaction has not yet been recorded. The crew is preparing to convene for Session 0 to establish their identities, finalize their ties to the shadows of the city, and secure their first contract with the Ministry. 
+# Campaign Current State: The Shadow Exchange
 
-## Active Threads
-* **Thread 1:** Awaiting the first complication.
+## Immediate Narrative Focus
+One paragraph describing the "Quiet Dread" of the current moment. What is the crew doing *right now*?
 
-## Mechanical Status
-* **Crew Heat:** 0
-* **Vault/Coin:** 0
-* **Active Clocks:**
-    * Detection Clock (Resets each score)
+## Priority Threads
+*Linked to **[Tracker: Plot Threads]**.*
+* **Primary Threat:** What is the most dangerous thing in the crew's peripheral vision?
+* **Active Hook:** Which bounty or lead are they currently chasing?
+
+## Mechanical Baseline
+* **Crew Heat:** {X}
+* **Crew Rep:** {X}
+* **Vault Status:** {Open | Locked by Audit}
+* **Omen Status:** Current segment of **[Clock: The Omen]**.
+
+## NPC/Faction Pulsing
+* Who is currently hunting the crew?
+* Who is currently helping the crew?
+
+## AI Co-GM Instructions
+* **Re-Sync Protocol:** Every time a new session begins, read this file first. If the "Last Updated Session" does not match the repository's session folder, alert the GM to a sync error.
