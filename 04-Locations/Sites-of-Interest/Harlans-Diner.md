@@ -1,24 +1,25 @@
 ---
-type: location
-status: canon
-role: hunter neutral ground
+entity_type: Location
+name: "Harlan's Diner"
+district: "Industrial"
+controlling_faction: "[Faction: The Hunter Underground]"
+claim_status: Rival Claim
+threat_level: Safe
 ---
 
 # Harlan's Diner
 
-Forty minutes outside the city. A 24-hour diner that doesn't appear on GPS. No Ministry. No Apex Aegis. No Subway politics. People who know what's real, trading war stories, leads, and warnings over terrible coffee and excellent pie.
+**One-line read** — A 24-hour greasy spoon that smells of burnt coffee and serves as a neutral ground for the city's shadows.
 
-## What's here
+## Sensory Profile
+* **Lighting:** Warm, flickering yellow light from aging neon signs and hanging heat lamps.
+* **Smell:** Sizzling bacon, stale cigarette smoke (despite the ban), and a faint metallic tang of old pipes.
+* **Ambient Sound:** The low hum of a jukebox playing 50s blues and the rhythmic scraping of a spatula on the grill.
 
-- **Harlan Okafor** — owner. Ex-Ministry, left under bad circumstances he doesn't discuss. Knows where bodies are buried — literally. Tells you who to call. Charges fair prices. Remembers every tab. *(See `03-NPCs/Active/Harlan-Okafor.md`.)*
-- **The Wall of the Missing** — corkboard behind the bar. Photos, names, case numbers of hunters who didn't come back. Anyone can add to it. Anyone can take a case from it. **The crew's names are not on it yet.**
-- **The AM Host's broadcast** — picked up clearly here. The diner's radio runs it most nights.
-- **Independent hunters** — the only places they congregate. Distrustful of firms. Some have history with the crew, most don't yet.
+## Key NPCs & Features
+* **[NPC: Harlan Okafor]:** Owner and operator.
+* **Feature:** The back booth—the only place where privacy is guaranteed by a low-frequency white noise generator under the table.
 
-## Intel Advantage
-
-Jobs heard at Harlan's are 24–48 hours ahead of Ministry lists. **This advantage disappears the moment Apex Aegis locates the diner.**
-
-## How to play it
-
-Old Formica tables, fluorescents that hum, a jukebox that hasn't been changed since 1983. The pie is genuinely good and Harlan does not discuss why. Conversations happen at booth volume. Everyone notices when the door opens. No one looks up.
+## AI Generation Directives
+* **Read-Aloud Generation:** Use the sensory profile to describe the heavy atmosphere and the feeling of being watched by other patrons who all seem to have the same "quiet dread".
+* **Location Hazard:** A Mixed Success here often results in an eavesdropper from **[Faction: Rival Firms]** overhearing a sensitive detail.
