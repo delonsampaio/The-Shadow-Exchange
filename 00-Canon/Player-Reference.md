@@ -142,3 +142,17 @@ These are not trick questions. The honest answer to each is a real choice that s
 ---
 
 *One last thing: this campaign is industrial-occult noir. Quiet dread, moral ambiguity, weather and texture. The work is interesting because it costs something. Take the costs. Spend the stress. Earn the trauma.*
+
+---
+
+## Your Lair — Curios & Chronicles
+
+Your characters know this space before Session 0. See `Public-Wiki/00-Who-We-Are.md` for the full player-facing version.
+
+**The Front Shop:** The public bookstore. Rotary phone, reading chair, cat named Consequence. Real books, real cover. An old Zoltar fortune-teller machine in the back corner — his painted eyes face the door; the latch for the back room is behind him.
+
+**The Back Room:** Behind Zoltar. Post-Op Table, Hunter's Journal, Scanner Station (Resonance detection, two-block radius, always on).
+
+**The Containment Suite (Basement):** Cold Storage Locker (pauses biological spoilage), Lead-Lined Vault (Resonance-dark storage). The combination is known to the full crew.
+
+Your characters have worked here for two years. Ask the GM about any object in the shop — you would know what it does.
