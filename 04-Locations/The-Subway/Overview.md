@@ -40,10 +40,14 @@ There is **no Subway Token** mechanic. Access is who they are, not what they car
 - PTOLEMY's brass clasps clicking in patterns that translate, somehow.
 - The Subway Decay Clock — once introduced — inked in red on a transit map mounted on the main hall wall.
 
-## Standing scene-setter (first descent)
+## The Entrance Read-Aloud (Use when crew first finds it)
 
-> "You round the corner into a dead-end alley, Aegis drones buzzing behind you. But right there — built into the concrete — is a green-painted iron railing leading down. A sign above it reads: **Line 0 — Ethereal Express**.
+The entrance appears after the Emmerich score. They are not looking for it. They are in a dead-end alley, and it is just there.
+
+> "The alley ends in a brick wall. That's what it should be. Except there's a green-painted iron railing set into the concrete at the far end — waist high, leading down, the kind of railing you'd find at any subway entrance in any city. A sign above it, tiled in white ceramic, reads: **LINE 0 — ETHEREAL EXPRESS**. The tiles look original. They look like they've been there since the twenties.
 >
-> You look back toward the street. A businessman in a suit walks directly through where the railing stands. Like it isn't there. Like it doesn't exist.
+> A man in a suit rounds the corner behind you at full stride, phone to his ear, and walks directly through the railing without slowing. Through the sign. Through the top step. He doesn't stumble. He doesn't notice. He turns the corner at the end of the alley and is gone.
 >
-> But you can see it. And you don't know why. You didn't do anything. Nothing changed. Something decided you qualify, and nobody asked your permission."
+> The railing is still there. You can see it. You could reach out right now and put your hand on it and feel the cold paint. You didn't do anything to earn this. Nothing changed about you between the street and this alley. Something decided you qualify, and it didn't ask."
+
+**GM note — the qualifying moment:** Something specific the crew did in the Emmerich score is what opened access. It is not about success or failure. It is about what they were willing to feel before they acted. The Subway perceived this. See `04-Locations/The-Subway/Mysteries.md` for the full range of qualifying behaviors — pick the one that fits what actually happened at your table.

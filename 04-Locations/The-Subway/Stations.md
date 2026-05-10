@@ -9,13 +9,33 @@ Treat each station as a room. Players can explore them. Things happen in them. A
 
 ---
 
-## First Descent Read-Aloud (Use in Session 2)
+## First Descent Read-Aloud (Use in Session 2 — read in two parts)
 
-> "The stairs go down further than they should. The green-painted iron railing is cold and real under your hand. Below: a vaulted hall lit in greenish light, the source of which you cannot locate.
+**PART ONE — The Stairs:**
+
+> "The stairs go down further than they should.
 >
-> The smell hits first: damp concrete and something underneath it that isn't quite food. Then the sound — distant, like wind through tunnels, with no source you can identify.
+> This is not a figure of speech. Count them if you want — you have time. The alley above you is two stories deep at most. You are on step thirty-seven and still going. The city sounds — traffic, wind, the specific ambient noise of the world above — cut off completely on step fourteen. Not gradually. On step fourteen exactly, as though someone closed a door. After that: your own breathing. The iron railing under your hand is cold and real and slightly damp.
 >
-> There are people here. Some of them aren't. A figure in a business suit reads a newspaper without looking up. Nobody looks at you directly. This is a place with etiquette you do not yet know."
+> The light changes on the way down. Street-level sodium orange. Then fluorescent. Then something greenish and sourceless that you cannot locate — it's not coming from any fixture you can see. It's just there, ambient, like the light inside a fish tank.
+>
+> By the time you reach the bottom, you are not sure how far underground you are. You are sure it should be impossible."
+
+**PART TWO — The Hall (read when they reach the bottom):**
+
+> "The space you step into is a vaulted hall — arched ceiling lost in greenish shadow somewhere high above, tile floors the color of old municipal bone. It shouldn't fit here. It is the size of a train station. Forty feet across, easy, and it extends in both directions further than you can see, curving gently out of sight like a runway.
+>
+> There is a transit map on the north wall. You look at it automatically, because maps orient you. It doesn't. The lines don't match anything — not the city above, not any city — and one of them is marked in red ink that looks newer than the rest. You find yourself looking for your street. It's not there. Nothing you recognize is there.
+>
+> There are people here.
+>
+> Some of them aren't.
+>
+> A figure in a business suit reads a newspaper at a bench. Their shoes are on backwards. They are reading what appears to be the Classifieds. A woman in a yellow coat is laughing at something her companion said; her companion has too many fingers. A teenager in a school uniform is asleep against a pillar, a backpack in their lap, and their shadow is pointing the wrong direction.
+>
+> Nobody looks at you. Not yet. This is a place with etiquette you don't know yet, and you can feel that getting it wrong would be immediately obvious. Like walking into a dinner party mid-conversation and not knowing anyone's name.
+>
+> In the far corner — before you have had time to take any of this in — a piece of old leather luggage shifts. Brass clasps, cracked leather. No visible eyes. The clasps are moving in a slow deliberate pattern, like morse code except it isn't morse code. It is looking at you. It has been looking at you since before you came down the stairs. It has been waiting."
 
 ---
 
