@@ -7,6 +7,7 @@ reveal_timing: Mid-game. Trigger after real emotional investment.
 ---
 
 # The Architect
+## ⚠ GM-PRIVATE — DO NOT SHARE WITH PLAYERS
 
 **What the crew can know:** Nothing yet.
 
