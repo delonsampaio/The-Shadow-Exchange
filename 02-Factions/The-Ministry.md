@@ -32,3 +32,31 @@ They operate through high-level government mandates, memory-erasure protocols, a
 * **Operative Vibe:** Cold, professional, and dismissive. They speak in codes and regulations.
 * **Hostility Trigger:** Any threat of "Exposure" to the public or evidence of stolen contraband.
 * **Default Complication:** If the crew rolls a Mixed Success against them, a Ministry auditor documents a minor protocol violation, ticking **[Clock: The Ministry Audit]**.
+
+---
+
+## Internal Factions
+
+The Ministry is not monolithic. Three internal factions have divergent views on what the cover-up is actually for.
+
+### The Oversight Desk *(Reformist)*
+
+Belief: licensed firms should have more autonomy, existing Twice-Born should be registered and managed rather than extracted, and the Ministry's current methods create more exposure risk than they prevent.
+
+**Key figure:** Deputy Director Alma Reyes. Mid-fifties. Sends the crew's contracts through channels that give them more time than standard. Has never said this aloud. If directly approached with evidence of Apex Aegis corruption, she will act — carefully, slowly, and in a way that protects her career first.
+
+**Hook:** Reyes is the reason the crew's contracts are slightly better than they should be. She sees potential in firms that operate the way they do. She will never acknowledge this unless the crew forces the issue.
+
+### The Bureau of Compliance *(Mainstream)*
+
+Belief: the current system works. Enforce the rules. Extract or neutralize as contracted. Do not ask questions the paperwork doesn't require.
+
+**Key figure:** Director Arthur Vance. The crew's nominal supervisor. Believes in procedure. Not cruel — procedural. If the crew follows the rules, he is not a problem. If they don't, he is a very slow, very thorough one.
+
+### The Suppression Bureau *(Extremist)*
+
+Belief: the Twice-Born are not a population to be managed — they are a contamination to be eliminated. The cover-up exists to protect humans, not to give monsters somewhere to hide. The licensed firm system is a mistake that Apex Aegis will eventually correct.
+
+**Key figure:** Section Chief Dorian Kress. Never directly contacts field firms. Operates through budget line items, routing decisions, and manufactured contracts. Vantage & Lowe's last job was routed through Kress's office. He does not know the crew exists yet. When he notices them, it will be because they've done something he considers a problem.
+
+**Hook:** Kress and Apex Aegis have a relationship neither party would admit to. They want compatible things for different reasons. The mid-game reveal that the crew's biggest institutional threat isn't Apex but a Ministry official working with Apex is the kind of escalation that recontextualizes everything that came before.
