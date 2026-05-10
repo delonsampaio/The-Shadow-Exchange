@@ -34,7 +34,7 @@ Thirty feet deep, fifteen feet wide. Every shelf is genuine stock. The till is m
 - **The Rotary Phone:** The only publicly-listed number. Sometimes it rings twice at 3am with no one there.
 - **Consequence:** The cat. Has never, not once, reacted to any supernatural event in the shop. Not a Resonance spike, not a recovered Anchor, not a contained Biological. The crew considers this reassuring.
 - **The Front Window:** Permanently dusty in the way that says "this is intentional."
-- **The Zoltar Machine:** An old fortune-teller cabinet wedged into the back corner of the shop. Coin slot is non-functional. Zoltar's painted eyes face the door. The latch for the back room is behind it — you have to lean into him to reach it.
+- **The Zoltar Machine:** An old fortune-teller cabinet in the back corner, near the Occult & Folklore section, behind a stack of moldering atlases. A robed automaton with a painted beard, a turban, brass hands resting on a velvet pedestal. The machine has been unplugged at the wall for decades. You push a specific coin into the slot in a specific sequence — a code only the crew knows — and Zoltar's glass eyes flicker once, green; his head turns one degree to the left; and the wall behind him slides back with the heavy pneumatic hiss of a train door.
 
 **Cover protocol:** If a mundane customer enters during an active situation, the crew has approximately ninety seconds. Someone picks up the half-knitted sweater and sits in the reading chair. Someone else helps the customer. Nobody uses the word "basement."
 
@@ -43,7 +43,7 @@ Thirty feet deep, fifteen feet wide. Every shelf is genuine stock. The till is m
 ### The Back Room (The Post-Op)
 **Purpose:** Triage, processing, first-stage harvesting.
 
-Accessed through a door behind the old Zoltar machine. The latch is concealed behind the cabinet. Quiet enough that a browsing customer nearby would hear the door but not the click — Zoltar blocks the line of sight.
+Accessed via the Zoltar machine — coin sequence, eyes flicker green, pneumatic wall. The mechanism is quiet enough that a browsing customer would hear nothing. The door seals behind you; the bookshop disappears.
 
 **Key objects:**
 - **The Post-Op Table:** Stainless steel. Medical-grade. Four strap points folded under and out of sight. The crew does not discuss where it came from.
