@@ -1,46 +1,53 @@
 ---
-type: threads
-last_updated: Session 0 — pre-play
+entity_type: Tracker
+name: "Plot Threads & Fronts"
+last_updated_session: "00"
 ---
 
-# Plot Threads
+# Active Plot Threads
 
 Open mysteries and unresolved beats. Update after every session. Mark threads CLOSED when resolved (don't delete — keep them for callbacks).
 
-## Open
+## Thread 1: The Architect
+* **Status:** Simmering
+* **Key Actors:** **[NPC: The Architect]**, **[Faction: Unknown]**
+* **Linked Clocks:** None yet.
+* **The Situation:** Who—or what—set the crew on this specific path? Connected to the Subway Selection; the "quality" the crew demonstrated may be what the Architect needed.
+* **Knowledge Sources:** The John Doe Twice-Born once memory is restored (Job 4); the rival hunter at the Away Job (Job 8).
+* **Next Escalation:** Reveal target is mid-game. Trigger when the crew has formed real emotional investment. 
 
-### The Architect — who set the crew on this path?
-The person — or thing — responsible for the crew ending up in this life. Not necessarily the one who handed them their first job. The one whose choices put them on this specific path. The Architect is not necessarily a villain.
-- **Reveal target:** mid-game, after the crew has formed real emotional investment.
-- **The question that drives it:** *Does it matter why you started, if the work turned out to be real?*
-- **Connected:** the Subway Selection (the "quality" the crew demonstrated may be what the Architect needed).
-- **Knowledge sources in canon:** the John Doe Twice-Born once memory is restored (Job 4); the rival hunter at the Away Job (Job 8).
+## Thread 2: The Mimic / The Understudied
+* **Status:** Active (Hidden)
+* **Key Actors:** **[Faction: The Mimic]**, **[NPC: Current Face (GM Private)]**
+* **Linked Clocks:** **[Clock: The Subway Decay]**
+* **The Situation:** The Understudied is wearing the face of a trusted contact planted in Session 1 or 2. 
+* **Next Escalation:** Reveal when it costs the crew the most. Add "Tells planted so far" below as they happen in-game.
 
-### The Subway — who or what controls it?
-See `04-Locations/The-Subway/Mysteries.md`. Do not resolve until players are close.
+## Thread 3: Apex Aegis — The Acquisition Offer
+* **Status:** Dormant
+* **Key Actors:** **[Faction: Apex Aegis]**
+* **Linked Clocks:** None yet.
+* **The Situation:** At some mid-game point, Apex will approach the crew with a buyout offer. Subtext: decline and become an active enemy.
+* **Next Escalation:** Trigger when the crew's Tier or visible reputation crosses a specific threshold.
 
-### The Mimic / The Understudied — whose face is it wearing?
-A trusted contact planted in Session 1 or 2. Reveal when it costs the most.
-- **Current face:** *(GM-private — pick before Session 1, note in `02-Factions/The-Mimic.md`.)*
-- **Tells planted so far:** —
+## Thread 4: The Innocent Wrapped In It
+* **Status:** Not Yet Introduced
+* **Key Actors:** **[NPC: The Innocent Civilian]**
+* **Linked Clocks:** **[Clock: The Innocent's Corruption]**
+* **The Situation:** A civilian who witnesses something real during one of the crew's early scores. Hasn't been able to stop thinking about it. May reappear by coincidence, then by intent.
+* **Next Escalation:** They find the **[Item: Hunter's Journal]**. They want in.
 
-### Apex Aegis — the Acquisition Offer
-At some mid-game point, Apex will approach the crew with a buyout offer. Subtext: decline and become an active enemy.
-- **Triggering condition:** TBD — likely when the crew's Tier or visible reputation crosses some threshold.
+## Thread 5: The Subway's Master
+*(See `04-Locations/The-Subway/Mysteries.md`. Do not resolve until players are close.)*
 
-### The Innocent Wrapped In It
-A civilian who witnessed something real during one of the crew's early scores. Hasn't been able to stop thinking about it. May reappear by coincidence, then by intent.
-- **Status:** not yet introduced.
-- **Darkest version:** they find the Hunter's Journal. They want in.
+## Thread 6: The Cursed Family Heirlooms
+*(One per PC, set during character creation. Tracked directly in `01-Crew/PCs/<pc>.md`.)*
 
-### The Cursed Family Heirlooms
-One per PC, set during character creation. Get worse over time.
-- **Per-PC tracking:** in `01-Crew/PCs/<pc>.md`.
+---
 
-## Foreshadowing — planted but not yet landed
-
-See `09-Threads/Foreshadowing.md`.
-
-## Closed
-
-*(Empty.)*
+## Foreshadowing — Planted but not yet landed
+*(Link to `09-Threads/Foreshadowing.md`)*
+* ## Closed Threads
+*(Move completed threads here to maintain a history of the campaign's shifting narrative).*
+* ## AI Escalation Directives
+* **World Building:** When the GM requests a Campaign Escalation, review these Active Plot Threads. Pick one thread with a "Simmering" or "Dormant" status, execute its "Next Escalation" behind the scenes, and provide the GM with the sensory or rumor-based fallout the crew experiences.
