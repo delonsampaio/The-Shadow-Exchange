@@ -29,6 +29,8 @@ runtime: "~2.5–3 hours"
 
 ## Beat 1 — The Pitch
 
+**[MUSIC CUE: music-s00-the-pitch.mp3]** *(start just before the read-aloud — 90 seconds, fades out naturally)*
+
 > 🔊 **READ ALOUD:**
 >
 > "The world is exactly as it appears — if you're not looking closely. Governments function. Cities run. People go to work. And somewhere in the gap between a gas leak and a missing person report, something inhuman gets quietly erased from the record.
@@ -38,6 +40,8 @@ runtime: "~2.5–3 hours"
 > But you also keep what you find. Monster parts, supernatural items, things the Ministry says should be destroyed — you sell them instead, to a market the Ministry doesn't know exists. You are not the heroes the official story describes. You're something more interesting. Welcome to The Shadow Exchange."
 
 ---
+
+**[MUSIC CUE: music-bookshop-loop.mp3]** *(switch when the pitch read-aloud ends — runs through introductions and crew creation)*
 
 ## Beat 2 — PC Introductions, Round-Robin (15 min)
 
@@ -85,6 +89,8 @@ runtime: "~2.5–3 hours"
 
 **→ GM MOVE:** Then read the Containment Suite tour.
 **[IMAGE CUE: location-containment-suite.png]** *(show as the wall opens — "the wall slides back with the heavy pneumatic hiss")*
+**[MUSIC CUE: music-s00-zoltar-opens.mp3]** *(play as the wall opens — 30-second stinger)*
+**[MUSIC CUE: music-containment-suite-loop.mp3]** *(switch to this when the stinger fades — runs for the full lair tour)*
 
 > 🔊 **READ ALOUD:**
 >
@@ -111,6 +117,8 @@ runtime: "~2.5–3 hours"
 > 🔒 **GM ONLY:**
 >
 > Do not say "Spoilage Clock" or "Detection Clock" — those words don't exist for the players yet.
+
+**[MUSIC CUE: music-bookshop-loop.mp3]** *(switch back when the group returns upstairs for Reputation and Abilities)*
 
 ### Reputation and Hunting Grounds
 
@@ -159,6 +167,8 @@ runtime: "~2.5–3 hours"
 ---
 
 ## Beat 5 — Closing Montage (10–15 min)
+
+**[MUSIC CUE: music-s00-closing.mp3]** *(start before reading the closing montage — let it establish for a few seconds first)*
 
 **→ GM MOVE:** End with a quiet, atmospheric beat that establishes the *feeling* of the campaign without starting the work.
 

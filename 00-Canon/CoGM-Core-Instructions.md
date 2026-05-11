@@ -128,6 +128,34 @@ Images can be generated on the fly at any point — if an unplanned scene develo
 
 ---
 
+## Music Cues
+
+When a session prep file contains a `[MUSIC CUE: filename]` marker, trigger it at the indicated moment.
+
+**Pre-saved tracks** — output the open command so the GM can play it immediately:
+
+```
+GM ONLY — MUSIC
+open "/Users/delonsampaio/Desktop/VSCode Workspaces/The-Shadow-Exchange/11-Visuals/_Saved-Music/[filename]"
+```
+
+**Not pre-saved** — check `11-Visuals/Music-Prompts.md` for the matching prompt and output it as a Gemini music cue:
+
+```
+GM ONLY — MUSIC FOR TV SCREEN
+Paste into Gemini music chat:
+
+[prompt text from Music-Prompts.md]
+```
+
+**When to trigger a music cue (with or without a prep file marker):**
+- Scene transitions and location changes
+- First encounter with any named NPC
+- Any dramatic shift in tone — investigation to combat, combat to aftermath
+- Any moment the GM asks for one
+
+---
+
 ## Mechanical Change Log
 
 After any response where a mechanical change occurs, append a compact log entry. This is a chat record — not for pasting anywhere:

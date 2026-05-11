@@ -177,6 +177,15 @@ This is not horror. This is recognition. Something old and involuntary.
 
 ---
 
+**Merton Fight** — combat begins; plays whether crew is fighting him, trying to reach him, or both
+Save as: `music-s01-merton-fight.mp3`
+```
+[Instrumental] 2.5-minute track, no loop. Industrial percussion — heavy, irregular, like something being broken apart. A cello line runs underneath at 0:20, slow and deliberate against the chaos above it — the same melodic fragment from the locker scene, distorted. The percussion builds through 1:00, then drops suddenly at 1:30 to near-silence: just the cello and a low drone. At 1:45, the percussion returns harder. At 2:10, the cello stops mid-phrase. The percussion continues alone for 15 seconds, then cuts.
+Mood: something dangerous and something sad at the same time. The fight is real. So is what he was trying to hold onto.
+```
+
+---
+
 **The Wrap-Up Dilemma** — crew standing in the basement with the collar and the gland; the choice
 Save as: `music-s01-the-choice.mp3`
 ```

@@ -31,6 +31,7 @@ mechanical_focus: "Tutorial: Position/Effect, Devil's Bargains, and Stress/Resis
 ## Opening Scene — The Bookshop
 **Location:** **[Location: Curios & Chronicles]**
 **[IMAGE CUE: location-curios-exterior.png]**
+**[MUSIC CUE: music-bookshop-loop.mp3]** *(running from session open)*
 
 ### Read Aloud (The Hook)
 > "It's raining. A steady, miserable drizzle streaking the perpetually dusty windows of **Curios & Chronicles**. Inside: old parchment, floor wax, tea on the hot plate. Out front it looks like a bookstore that makes twenty dollars a day — exactly what you want.
@@ -39,15 +40,20 @@ mechanical_focus: "Tutorial: Position/Effect, Devil's Bargains, and Stress/Resis
 >
 > Inside the envelope: a grainy photograph of a local politician's dog — except the dog has two human hands where its front paws should be. Attached is a Wanted poster. **PEST CONTROL AUTHORIZED.** Retrieval of biological anomaly required. Do not discuss with media. Do not engage civilians. Payout: minimal."
 
+**[MUSIC CUE: music-s01-envelope-drops.mp3]** *(play as the courier exits — replaces bookshop loop)*
+
 **GM Prompt:** "The Ministry expects you to kill the thing and torch the body. But an **[Item: Barghest Adrenal Gland]** fetches serious money on the black market. Who is prepping gear in the Containment Suite, and what is our plan for getting into the theater?"
 **[IMAGE CUE: location-containment-suite.png]** *(show when players move to the Containment Suite to prep)*
+**[MUSIC CUE: music-containment-suite-loop.mp3]** *(start when players move to the Containment Suite)*
 
 ---
 
 ## Heist 1 — The Standard Job
 **Target:** **[NPC: Merton]** (Barghest)
 **Location:** Local Theater Basement
+**[MUSIC CUE: music-approach.mp3]** *(start when the crew sets out for the theater)*
 **[IMAGE CUE: location-fairground-theater.png]** *(show on arrival at the theater, before the engagement roll)*
+**[MUSIC CUE: music-theater-loop.mp3]** *(switch to this on arrival — runs through the investigation)*
 
 **[IMAGE CUE: npc-merton-human.png]** *(show on first encounter with Merton)*
 
@@ -71,14 +77,18 @@ mechanical_focus: "Tutorial: Position/Effect, Devil's Bargains, and Stress/Resis
 > "The auditorium is the kind of dark that makes you turn your head trying to triangulate sound... The basement door is propped open with a brick. Someone goes down there every night and the someone has not come back up yet."
 
 ### Merton's Locker
+**[MUSIC CUE: music-s01-mertons-locker.mp3]** *(start when players find and open Merton's locker)*
 > "The padlock isn't even closed. Inside: a pressed work shirt, a thermos that smells like instant coffee... a keychain photograph behind a layer of plastic gone yellow with age. A woman and two children... Someone made it for him. Someone who knew exactly what he wanted to hold onto."
 
 **[IMAGE CUE: npc-merton-true-form.png]** *(show simultaneously with or immediately after this read-aloud)*
+**[MUSIC CUE: music-s01-true-form-reveal.mp3]** *(play as the true form read-aloud begins)*
 
 ### True Form
 > "What he is now is taller than what he was... close enough to know what it should be, wrong in the parts that matter. He is standing very still in the basement light, breathing through teeth that no longer fit a mouth, and he is looking at the dog collar in his hand like he has never seen it before."
 
 ---
+
+**[MUSIC CUE: music-s01-merton-fight.mp3]** *(switch when combat begins)*
 
 ## Combat & Downtime Tutorial
 * **No Initiative:** Ask "Who is acting first?" and resolve as a single action.
@@ -86,8 +96,10 @@ mechanical_focus: "Tutorial: Position/Effect, Devil's Bargains, and Stress/Resis
 * **Resistance:** Offer the read-aloud: *"The complication lands... but you do not have to accept that reality. Do you take the hit, or do you resist?"*
 
 ### Wrap-Up Dilemma
+**[MUSIC CUE: music-s01-the-choice.mp3]** *(switch when Merton is subdued or defeated)*
 **[IMAGE CUE: item-leather-collar.png]** *(show if players examine, seize, or discuss the collar)*
 **[IMAGE CUE: npc-elias-thorne.png]** *(show on Elias Thorne's first appearance as the Trusted Contact)*
+**[MUSIC CUE: music-s01-elias-thorne.mp3]** *(play when Elias Thorne enters)*
 
 1. **Play it Safe:** Hand over everything to **[Faction: Apex Aegis]** (4 Coin, 0 Heat).
 2. **Double Bookkeeping:** Roll *Sway* to steal **[Item: Barghest Adrenal Gland]**. (Keep item, start **[Clock: The Ministry Audit]**).
