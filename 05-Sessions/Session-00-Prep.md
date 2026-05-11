@@ -55,6 +55,12 @@ runtime: "~2.5–3 hours"
 > - The "thing they wouldn't loan." This is often the Cursed Heirloom or close to it. Note for later.
 > - One small detail you weren't expecting. Something they invented at the table that you can pull on later.
 
+**→ GM MOVE:** After all introductions, ask this before moving to the lair tour. Do not skip it.
+
+> ❓ **ASK THE TABLE:**
+>
+> *"The crew has been working out of this building together for — how long? A few months? A year? How did that happen? Who found who?"*
+
 ---
 
 ## Beat 3 — Crew Creation (45 min)
@@ -78,6 +84,7 @@ runtime: "~2.5–3 hours"
 > In the back corner, near the Occult & Folklore section, behind a stack of moldering atlases, stands an old **Zoltar machine** — a glass-fronted booth the size of a phone box. Inside: a robed automaton with a painted beard, a turban, brass hands resting on a velvet pedestal where a deck of fortune cards used to be. The cards are long gone. The machine has been unplugged at the wall for decades. You push a specific coin into the slot in a specific sequence — a code only you know — and Zoltar's glass eyes flicker once, green; his head turns one degree to the left; and the wall behind him slides back with the heavy pneumatic hiss of a train door."
 
 **→ GM MOVE:** Then read the Containment Suite tour.
+**[IMAGE CUE: location-containment-suite.png]** *(show as the wall opens — "the wall slides back with the heavy pneumatic hiss")*
 
 > 🔊 **READ ALOUD:**
 >
