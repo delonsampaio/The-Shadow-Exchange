@@ -152,6 +152,9 @@ runtime: "~2.5–3 hours"
 > - **Elias Thorne** — pre-cast as the Mimic face in Session 1. If a player picks him as a Friend, the Session 1 reveal is burned. Redirect: *"Thorne is a Ministry name that will come up later — pick someone outside the Ministry for now."*
 > - **Merton** — the Session 1 target. Cannot be a PC contact.
 > - **Director Vance** — too senior for a PC-level relationship. Redirect to a Ministry field agent instead.
+> - **PTOLEMY** — Subway information broker, access to it is an earned campaign milestone. A prior friendship skips the entire Subway arc. Redirect: *"PTOLEMY isn't someone you'd know yet — pick a street-level contact instead."*
+> - **Emmerich** — pre-cast tailor NPC with a specific campaign role. Redirect to a generic civilian contact.
+> - **The Crossroads Broker** — too deep in the world's infrastructure for a starting PC relationship.
 
 ---
 
