@@ -29,10 +29,10 @@ Trigger this after any clock tick, Stress change, Harm change, NPC status change
 The live GM dashboard is the HTML file at `11-Visuals/GM-Dashboard.html`. At the start of every session, output this block — nothing else, no Canvas Load-In:
 
 ```
-GM ONLY
-Open your GM Dashboard: 11-Visuals/GM-Dashboard.html
-Double-click the file to open in your browser. F11 for full screen.
-Click directly on the dashboard during play — clocks, stress bars, NPC status, crew stats all update instantly.
+GM ONLY — OPEN DASHBOARD
+Run this in your terminal to open the dashboard in your browser:
+open "/Users/delonsampaio/Desktop/VSCode Workspaces/The-Shadow-Exchange/11-Visuals/GM-Dashboard.html"
+F11 for full screen. Click directly on the dashboard during play.
 ```
 
 Do not generate a Canvas Load-In block. The HTML dashboard already reflects the current campaign state via its INIT_* constants.
