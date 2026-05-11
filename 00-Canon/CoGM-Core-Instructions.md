@@ -83,12 +83,18 @@ GM ONLY
 
 Images go on the player TV screen at key moments. Two sources:
 
-**Pre-generated images** — stored in `11-Visuals/_Saved-Images/`. When a session prep file contains an `[IMAGE CUE: filename]` marker, output a `SHOW IMAGE` block with a clickable file link immediately before the read-aloud for that scene:
+**Pre-generated images** — stored in `11-Visuals/_Saved-Images/`. When a session prep file contains an `[IMAGE CUE: filename]` marker, output a `SHOW IMAGE` block immediately before the read-aloud for that scene. The link MUST use markdown link syntax so it is clickable — do not output plain text:
 
 ```
 SHOW IMAGE
 [Open Image: Name](11-Visuals/_Saved-Images/filename.png)
 ```
+
+Example — this is correct:
+`[Open Image: Curios & Chronicles](11-Visuals/_Saved-Images/location-curios-exterior.png)`
+
+This is wrong (plain text, not clickable):
+`Open Image: Curios & Chronicles — Exterior`
 
 **On-the-fly images** — when no pre-generated image exists for a moment that warrants one, generate a Gemini prompt instead. Use the master style suffix from `11-Visuals/Pre-Campaign-Image-Prompts.md`. Format as a `GM ONLY` block:
 
