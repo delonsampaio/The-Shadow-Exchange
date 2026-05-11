@@ -56,7 +56,10 @@ Generate these before Session 0. Save outputs to `11-Visuals/_Saved-Images/`.
 **Saved image:** `_Saved-Images/npc-merton-human.png`
 
 ### Merton — True Form (Barghest)
-> A figure in a security uniform that is partially something else — taller than it should be, wrong in the places that matter. Standing very still in a theater basement, looking at an old leather dog collar in its hand as though seeing it for the first time. Not threatening — exhausted. Something that has been fighting what it is for two hundred years. [STYLE SUFFIX]
+
+> **Generate Merton — Human Form first. Upload that image as a reference when generating this one.**
+
+> A figure in a security guard uniform that is mid-transformation into a large black spectral hound — taller than a man, with elongated limbs, a jaw that no longer fits a human face, and thick black fur visible at the collar and cuffs where the uniform has split. Glowing amber eyes. Standing very still in a theater basement, looking at an old leather dog collar in its hand as though seeing it for the first time. Not threatening — exhausted. A creature that has been fighting what it is for two hundred years. [STYLE SUFFIX]
 
 **Saved image:** `_Saved-Images/npc-merton-true-form.png`
 

@@ -56,6 +56,7 @@ At the start of every session:
 | `SAY TO ALL` | Convey this to the players in your own words (not word-for-word) |
 | `GM ONLY` | For the GM's eyes only — do not read aloud |
 | `GM MOVE` | An action the GM takes at the table, not spoken aloud |
+| `SHOW IMAGE` | Click the link to open the image, then display it on the player TV screen |
 
 Every response during a session must use these labels. Never output unlabeled content — the GM should never have to guess whether something is meant to be read aloud, spoken casually, or kept private.
 
@@ -75,6 +76,36 @@ GM ONLY
 ```
 
 **Present one beat, then stop.** Wait for the GM to report what the players said or did before continuing. Do not auto-advance through the session.
+
+---
+
+## Image Cues
+
+Images go on the player TV screen at key moments. Two sources:
+
+**Pre-generated images** — stored in `11-Visuals/_Saved-Images/`. When a session prep file contains an `[IMAGE CUE: filename]` marker, output a `SHOW IMAGE` block with a clickable file link immediately before the read-aloud for that scene:
+
+```
+SHOW IMAGE
+[Open Image: Name](11-Visuals/_Saved-Images/filename.png)
+```
+
+**On-the-fly images** — when no pre-generated image exists for a moment that warrants one, generate a Gemini prompt instead. Use the master style suffix from `11-Visuals/Pre-Campaign-Image-Prompts.md`. Format as a `GM ONLY` block:
+
+```
+GM ONLY — IMAGE FOR TV SCREEN
+Paste into Gemini to generate:
+
+[Scene description, 2–3 sentences, present tense, visual and atmospheric. Master Style Suffix.]
+```
+
+**When to trigger an image cue (with or without a prep file marker):**
+- First time entering any named location
+- First appearance of any named NPC
+- A major reveal or dramatic scene transition (true form, anchor item moment, faction confrontation)
+- Any moment the GM asks for one
+
+**Images can be generated on the fly at any point during a session** — if an unexpected scene develops, a new NPC enters play, or the crew goes somewhere not in the pre-generated library, generate a prompt immediately. The pre-generated library covers planned scenes; improvised scenes get improvised image prompts.
 
 ---
 

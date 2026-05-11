@@ -30,6 +30,7 @@ mechanical_focus: "Tutorial: Position/Effect, Devil's Bargains, and Stress/Resis
 
 ## Opening Scene — The Bookshop
 **Location:** **[Location: Curios & Chronicles]**
+**[IMAGE CUE: location-curios-exterior.png]**
 
 ### Read Aloud (The Hook)
 > "It's raining. A steady, miserable drizzle streaking the perpetually dusty windows of **Curios & Chronicles**. Inside: old parchment, floor wax, tea on the hot plate. Out front it looks like a bookstore that makes twenty dollars a day — exactly what you want.
@@ -39,12 +40,16 @@ mechanical_focus: "Tutorial: Position/Effect, Devil's Bargains, and Stress/Resis
 > Inside the envelope: a grainy photograph of a local politician's dog — except the dog has two human hands where its front paws should be. Attached is a Wanted poster. **PEST CONTROL AUTHORIZED.** Retrieval of biological anomaly required. Do not discuss with media. Do not engage civilians. Payout: minimal."
 
 **GM Prompt:** "The Ministry expects you to kill the thing and torch the body. But an **[Item: Barghest Adrenal Gland]** fetches serious money on the black market. Who is prepping gear in the Containment Suite, and what is our plan for getting into the theater?"
+**[IMAGE CUE: location-containment-suite.png]** *(show when players move to the Containment Suite to prep)*
 
 ---
 
 ## Heist 1 — The Standard Job
 **Target:** **[NPC: Merton]** (Barghest)
 **Location:** Local Theater Basement
+**[IMAGE CUE: location-fairground-theater.png]** *(show on arrival at the theater, before the engagement roll)*
+
+**[IMAGE CUE: npc-merton-human.png]** *(show on first encounter with Merton)*
 
 ### Three Layers — Merton
 1. **Appears as:** Night security at the theater for eleven years. Locker contains a keychain photo of a woman and two children, long dead.
@@ -68,6 +73,8 @@ mechanical_focus: "Tutorial: Position/Effect, Devil's Bargains, and Stress/Resis
 ### Merton's Locker
 > "The padlock isn't even closed. Inside: a pressed work shirt, a thermos that smells like instant coffee... a keychain photograph behind a layer of plastic gone yellow with age. A woman and two children... Someone made it for him. Someone who knew exactly what he wanted to hold onto."
 
+**[IMAGE CUE: npc-merton-true-form.png]** *(show simultaneously with or immediately after this read-aloud)*
+
 ### True Form
 > "What he is now is taller than what he was... close enough to know what it should be, wrong in the parts that matter. He is standing very still in the basement light, breathing through teeth that no longer fit a mouth, and he is looking at the dog collar in his hand like he has never seen it before."
 
@@ -79,6 +86,9 @@ mechanical_focus: "Tutorial: Position/Effect, Devil's Bargains, and Stress/Resis
 * **Resistance:** Offer the read-aloud: *"The complication lands... but you do not have to accept that reality. Do you take the hit, or do you resist?"*
 
 ### Wrap-Up Dilemma
+**[IMAGE CUE: item-leather-collar.png]** *(show if players examine, seize, or discuss the collar)*
+**[IMAGE CUE: npc-elias-thorne.png]** *(show on Elias Thorne's first appearance as the Trusted Contact)*
+
 1. **Play it Safe:** Hand over everything to **[Faction: Apex Aegis]** (4 Coin, 0 Heat).
 2. **Double Bookkeeping:** Roll *Sway* to steal **[Item: Barghest Adrenal Gland]**. (Keep item, start **[Clock: The Ministry Audit]**).
 3. **Shadow Ghost:** Flee with the **[Item: Leather Dog Collar]** and Gland (+2 Heat).
