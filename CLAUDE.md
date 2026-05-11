@@ -28,7 +28,9 @@ Trigger this after any clock tick, Stress change, Harm change, NPC status change
 
 ## Claude-Specific: Canvas Chat Setup Prompt
 
-When the GM is setting up their Gemini Canvas chat for the first time (before Session 1), provide this starter prompt on request:
+When the GM is setting up their Gemini Canvas chat for the first time (before Session 1), provide this starter prompt on request. The interactive React dashboard lives at `11-Visuals/GM-Dashboard.jsx` — the GM pastes the full file contents into Gemini Canvas to get the live clickable version. After that, Gemini updates the `INIT_*` constants at the top of the file when the GM pastes end-of-session prompts.
+
+During a session, the GM clicks the dashboard directly (stress bars, clock segments, NPC status badges). The inline `[Canvas Update]` prompts from Claude are for record-keeping and end-of-session rebuilds — not every click needs a Gemini paste. If the GM prefers a simpler non-interactive setup, provide the markdown table version below instead:
 
 > **CANVAS SETUP — paste into your Gemini Canvas chat:**
 > "Create a GM Dashboard Canvas for The Shadow Exchange with six persistent cards. Use markdown tables for all tracking data so individual rows can be updated precisely.

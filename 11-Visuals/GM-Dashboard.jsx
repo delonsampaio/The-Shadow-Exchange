@@ -1,0 +1,487 @@
+import React, { useState } from 'react';
+
+// ─── Campaign Data ─────────────────────────────────────────────────────────────
+
+const INIT_CREW = { heat: 0, coin: 0, rep: 0, wanted: 0, tier: 0, hold: false };
+
+const INIT_PCS = [
+  { id: 1, name: '[PC 1]', role: '—', stress: 0, harm: [0, 0, 0] },
+  { id: 2, name: '[PC 2]', role: '—', stress: 0, harm: [0, 0, 0] },
+  { id: 3, name: '[PC 3]', role: '—', stress: 0, harm: [0, 0, 0] },
+];
+
+const INIT_CLOCKS = [
+  { id: 'det',  name: 'Detection',             total: 4, cur: 0, fill: '#dc2626', secret: false },
+  { id: 'bio',  name: 'Bio Spoilage',          total: 3, cur: 0, fill: '#ea580c', secret: false },
+  { id: 'sub',  name: 'Subway Decay',          total: 6, cur: 0, fill: '#7f1d1d', secret: false },
+  { id: 'omen', name: 'The Omen',              total: 8, cur: 0, fill: '#7c3aed', secret: true  },
+  { id: 'aud',  name: 'Ministry Audit',        total: 4, cur: 0, fill: '#b45309', secret: false },
+  { id: 'cor',  name: "Innocent's Corruption", total: 4, cur: 0, fill: '#be185d', secret: false },
+];
+
+const INIT_NPCS = [
+  { id: 1, name: 'Elias Thorne',   faction: 'Ministry', note: 'warm · earnest · too-invested', status: 1 },
+  { id: 2, name: 'Director Vance', faction: 'Ministry', note: 'procedural · neutral',           status: 1 },
+];
+
+const INIT_FACTIONS = [
+  { id: 1, name: 'The Ministry', standing: 2 },
+  { id: 2, name: 'Apex Aegis',   standing: 2 },
+  { id: 3, name: 'Twice-Born',   standing: 2 },
+  { id: 4, name: 'Subway',       standing: 2 },
+];
+
+// ─── Lookup Tables ─────────────────────────────────────────────────────────────
+
+const HARM_LABELS = ['None', 'L1', 'L2', 'L3'];
+const HARM_CLS = [
+  'border-zinc-700 text-zinc-700 bg-zinc-900',
+  'border-yellow-700 text-yellow-400 bg-yellow-950/30',
+  'border-orange-600 text-orange-400 bg-orange-950/30',
+  'border-red-600   text-red-400   bg-red-950/30',
+];
+
+const STATUS_LABELS = ['Loyal', 'Neutral', 'Wary', 'Hostile', 'Compromised', 'Missing'];
+const STATUS_CLS = [
+  'border-emerald-700 text-emerald-400 bg-emerald-950/20',
+  'border-zinc-700    text-zinc-400    bg-zinc-800',
+  'border-amber-700   text-amber-400   bg-amber-950/20',
+  'border-red-700     text-red-400     bg-red-950/20',
+  'border-orange-700  text-orange-400  bg-orange-950/20',
+  'border-zinc-800    text-zinc-700    bg-zinc-950',
+];
+
+const STAND_LABELS = ['−2', '−1', 'Neutral', '+1', '+2'];
+const STAND_CLS = [
+  'border-red-800    text-red-400    bg-red-950/30',
+  'border-orange-800 text-orange-400 bg-orange-950/20',
+  'border-zinc-700   text-zinc-400   bg-zinc-800',
+  'border-amber-700  text-amber-400  bg-amber-950/20',
+  'border-emerald-700 text-emerald-400 bg-emerald-950/20',
+];
+
+const ANCHOR_STATUSES = ['In Vault', 'Active', 'Seized', 'Destroyed'];
+const ANCHOR_CLS = [
+  'text-amber-400  border-amber-800',
+  'text-emerald-400 border-emerald-800',
+  'text-orange-400 border-orange-800',
+  'text-red-400    border-red-800',
+];
+
+// ─── Clock Component ────────────────────────────────────────────────────────────
+
+function Clock({ c, onSet }) {
+  const r = 43, cx = 50, cy = 50;
+  const segs = Array.from({ length: c.total }, (_, i) => {
+    const a0 = ((i / c.total) * 360 - 90) * (Math.PI / 180);
+    const a1 = (((i + 1) / c.total) * 360 - 90) * (Math.PI / 180);
+    const x0 = cx + r * Math.cos(a0), y0 = cy + r * Math.sin(a0);
+    const x1 = cx + r * Math.cos(a1), y1 = cy + r * Math.sin(a1);
+    const large = 1 / c.total > 0.5 ? 1 : 0;
+    const filled = i < c.cur;
+    return (
+      <path
+        key={i}
+        d={`M${cx},${cy}L${x0},${y0}A${r},${r} 0 ${large},1 ${x1},${y1}Z`}
+        fill={filled ? c.fill : '#27272a'}
+        stroke="#09090b"
+        strokeWidth="2"
+        style={{ cursor: 'pointer', transition: 'fill 0.15s' }}
+        onClick={() => onSet(c.id, filled ? i : i + 1)}
+        onMouseEnter={e => { if (!filled) e.target.style.fill = '#3f3f46'; }}
+        onMouseLeave={e => { if (!filled) e.target.style.fill = '#27272a'; }}
+      />
+    );
+  });
+
+  const pct = c.total > 0 ? Math.round((c.cur / c.total) * 100) : 0;
+
+  return (
+    <div className="flex flex-col items-center bg-zinc-900/60 border border-zinc-800 rounded-xl p-3 hover:border-zinc-700 transition-colors">
+      {c.secret && (
+        <span className="text-[8px] font-mono text-purple-500 uppercase tracking-widest mb-1">
+          ⬡ SECRET
+        </span>
+      )}
+      <svg viewBox="0 0 100 100" className="w-16 h-16">
+        <circle cx={cx} cy={cy} r={r + 2} fill="none" stroke="#3f3f46" strokeWidth="1" />
+        {segs}
+        <circle cx={cx} cy={cy} r="17" fill="#09090b" />
+        <text
+          x={cx} y={cy + 6}
+          textAnchor="middle"
+          fontSize="18"
+          fontFamily="monospace"
+          fontWeight="bold"
+          fill={c.cur === c.total ? c.fill : '#a1a1aa'}
+        >
+          {c.cur}
+        </text>
+      </svg>
+      <p className={`text-[9px] font-bold uppercase tracking-wide text-center mt-2 leading-tight ${c.secret ? 'text-purple-400' : 'text-zinc-500'}`}>
+        {c.name}
+      </p>
+      <p className="text-[8px] font-mono text-zinc-700 mt-0.5">{c.cur}/{c.total}</p>
+    </div>
+  );
+}
+
+// ─── Main Dashboard ─────────────────────────────────────────────────────────────
+
+export default function ShadowExchangeDashboard() {
+  const [crew, setCrew]         = useState(INIT_CREW);
+  const [pcs, setPcs]           = useState(INIT_PCS);
+  const [clocks, setClocks]     = useState(INIT_CLOCKS);
+  const [npcs, setNpcs]         = useState(INIT_NPCS);
+  const [factions, setFactions] = useState(INIT_FACTIONS);
+  const [anchors, setAnchors]   = useState([]);
+  const [graveyard, setGraveyard] = useState([]);
+  const [newAnchor, setNewAnchor] = useState('');
+  const [newNpc, setNewNpc]       = useState('');
+
+  // ── Crew ──
+  const adjCrew    = (k, d) => setCrew(p => ({ ...p, [k]: Math.max(0, p[k] + d) }));
+  const toggleHold = ()     => setCrew(p => ({ ...p, hold: !p.hold }));
+
+  // ── PCs ──
+  const setStress  = (id, idx) => setPcs(p => p.map(pc =>
+    pc.id === id ? { ...pc, stress: pc.stress === idx + 1 ? idx : idx + 1 } : pc));
+  const cycleHarm  = (id, slot) => setPcs(p => p.map(pc =>
+    pc.id === id ? { ...pc, harm: pc.harm.map((h, i) => i === slot ? (h + 1) % 4 : h) } : pc));
+
+  // ── Clocks ──
+  const setClock = (id, val) => setClocks(p => p.map(c =>
+    c.id === id ? { ...c, cur: Math.max(0, Math.min(c.total, val)) } : c));
+
+  // ── NPCs ──
+  const cycleStatus = (id) => setNpcs(p => p.map(n =>
+    n.id === id ? { ...n, status: (n.status + 1) % STATUS_LABELS.length } : n));
+  const archiveNpc  = (id) => {
+    const npc = npcs.find(n => n.id === id);
+    if (npc) {
+      setGraveyard(p => [...p, { name: npc.name, fate: 'Archived', type: 'NPC' }]);
+      setNpcs(p => p.filter(n => n.id !== id));
+    }
+  };
+  const addNpc = () => {
+    if (!newNpc.trim()) return;
+    setNpcs(p => [...p, { id: Date.now(), name: newNpc.trim(), faction: '—', note: '', status: 1 }]);
+    setNewNpc('');
+  };
+
+  // ── Factions ──
+  const adjStanding = (id, d) => setFactions(p => p.map(f =>
+    f.id === id ? { ...f, standing: Math.max(0, Math.min(4, f.standing + d)) } : f));
+
+  // ── Anchors ──
+  const addAnchor         = () => {
+    if (!newAnchor.trim()) return;
+    setAnchors(p => [...p, { id: Date.now(), name: newAnchor.trim(), status: 0 }]);
+    setNewAnchor('');
+  };
+  const cycleAnchorStatus = (id) => setAnchors(p => p.map(a =>
+    a.id === id ? { ...a, status: (a.status + 1) % ANCHOR_STATUSES.length } : a));
+  const archiveAnchor     = (id) => {
+    const a = anchors.find(x => x.id === id);
+    if (a) {
+      setGraveyard(p => [...p, { name: a.name, fate: ANCHOR_STATUSES[a.status], type: 'Anchor' }]);
+      setAnchors(p => p.filter(x => x.id !== id));
+    }
+  };
+
+  return (
+    <div className="min-h-screen bg-[#09090b] text-zinc-300 p-4 font-sans selection:bg-amber-500/20">
+
+      {/* Scanlines */}
+      <div className="fixed inset-0 pointer-events-none opacity-[0.025] bg-[linear-gradient(rgba(0,0,0,0)_50%,rgba(0,0,0,0.3)_50%)] bg-[length:100%_3px] z-50" />
+
+      {/* ── HEADER ── */}
+      <header className="max-w-6xl mx-auto mb-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 pb-5 border-b border-zinc-800">
+        <div>
+          <h1 className="text-2xl font-black tracking-tighter text-amber-400 uppercase leading-none">
+            The Shadow Exchange
+          </h1>
+          <p className="text-[9px] font-mono text-zinc-600 uppercase tracking-[0.2em] mt-1">
+            Curios &amp; Chronicles · Session Status
+          </p>
+        </div>
+
+        {/* Crew Stats */}
+        <div className="flex items-center gap-0.5 bg-zinc-900 border border-zinc-800 rounded-xl p-2.5 flex-wrap">
+          {[
+            ['Heat',   'heat',   'text-orange-400', 'text-orange-500'],
+            ['Coin',   'coin',   'text-amber-400',  'text-amber-500'],
+            ['Rep',    'rep',    'text-zinc-300',   'text-zinc-400'],
+            ['Wanted', 'wanted', 'text-red-400',    'text-red-500'],
+          ].map(([label, key, color, dim]) => (
+            <div key={key} className="flex flex-col items-center px-2 sm:px-3">
+              <span className={`text-[8px] uppercase font-bold tracking-wide ${dim}`}>{label}</span>
+              <div className="flex items-center gap-1 mt-0.5">
+                <button onClick={() => adjCrew(key, -1)}
+                  className="text-zinc-700 hover:text-zinc-400 text-sm leading-none w-3">−</button>
+                <span className={`text-lg font-mono font-black ${color} min-w-[1.5rem] text-center`}>
+                  {crew[key]}
+                </span>
+                <button onClick={() => adjCrew(key, 1)}
+                  className="text-zinc-700 hover:text-zinc-400 text-sm leading-none w-3">+</button>
+              </div>
+            </div>
+          ))}
+
+          <div className="w-px h-10 bg-zinc-800 mx-1" />
+
+          <div className="flex flex-col items-center px-2 sm:px-3">
+            <span className="text-[8px] uppercase font-bold tracking-wide text-zinc-500">Tier</span>
+            <div className="flex items-center gap-1 mt-0.5">
+              <button onClick={() => adjCrew('tier', -1)}
+                className="text-zinc-700 hover:text-zinc-400 text-sm leading-none w-3">−</button>
+              <span className="text-lg font-mono font-black text-zinc-200 min-w-[1.5rem] text-center">
+                {crew.tier}
+              </span>
+              <button onClick={() => adjCrew('tier', 1)}
+                className="text-zinc-700 hover:text-zinc-400 text-sm leading-none w-3">+</button>
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center px-2 sm:px-3">
+            <span className="text-[8px] uppercase font-bold tracking-wide text-zinc-500">Hold</span>
+            <button onClick={toggleHold}
+              className={`mt-0.5 text-[9px] font-mono font-bold px-2 py-0.5 rounded border transition-all ${
+                crew.hold
+                  ? 'border-amber-700 text-amber-400 bg-amber-950/20'
+                  : 'border-zinc-700 text-zinc-500 bg-zinc-900'
+              }`}>
+              {crew.hold ? 'Strong' : 'Weak'}
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <div className="max-w-6xl mx-auto space-y-6">
+
+        {/* ── PC VITALS ── */}
+        <section>
+          <h2 className="text-[9px] font-black uppercase tracking-[0.2em] text-zinc-600 mb-3">
+            PC Vitals
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {pcs.map(pc => (
+              <div key={pc.id}
+                className="bg-zinc-900/40 border border-zinc-800 rounded-xl p-4 hover:border-zinc-700 transition-colors">
+                <div className="mb-4">
+                  <span className="text-[8px] font-mono text-amber-700 uppercase tracking-widest">{pc.role}</span>
+                  <h3 className="text-base font-bold text-zinc-100 leading-tight">{pc.name}</h3>
+                </div>
+
+                {/* Stress */}
+                <div className="mb-3">
+                  <div className="flex justify-between mb-1.5">
+                    <span className="text-[8px] uppercase font-bold text-zinc-600 tracking-wide">Stress</span>
+                    <span className="text-[8px] font-mono text-zinc-700">{pc.stress}/9</span>
+                  </div>
+                  <div className="flex gap-[3px]">
+                    {Array.from({ length: 9 }, (_, i) => (
+                      <div key={i} onClick={() => setStress(pc.id, i)}
+                        className={`flex-1 h-3 rounded-[2px] cursor-pointer border transition-all ${
+                          i < pc.stress
+                            ? 'bg-amber-500 border-amber-400 shadow-[0_0_6px_rgba(245,158,11,0.3)]'
+                            : 'bg-zinc-800 border-zinc-700 hover:bg-zinc-700'
+                        }`} />
+                    ))}
+                  </div>
+                </div>
+
+                {/* Harm */}
+                <div>
+                  <span className="text-[8px] uppercase font-bold text-zinc-600 tracking-wide block mb-1.5">
+                    Harm
+                  </span>
+                  <div className="flex gap-1.5">
+                    {pc.harm.map((h, slot) => (
+                      <button key={slot} onClick={() => cycleHarm(pc.id, slot)}
+                        className={`flex-1 text-[9px] font-mono font-bold py-1 rounded border transition-all ${HARM_CLS[h]}`}>
+                        {HARM_LABELS[h]}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* ── CLOCKS + INTEL ── */}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
+
+          {/* Active Clocks */}
+          <section className="lg:col-span-7">
+            <h2 className="text-[9px] font-black uppercase tracking-[0.2em] text-zinc-600 mb-3">
+              Active Clocks
+            </h2>
+            <div className="grid grid-cols-3 gap-3">
+              {clocks.map(c => <Clock key={c.id} c={c} onSet={setClock} />)}
+            </div>
+            {/* Quick Ref */}
+            <div className="mt-4 bg-zinc-900/20 border border-zinc-800/60 rounded-xl p-4">
+              <p className="text-[8px] font-black uppercase tracking-widest text-zinc-600 mb-3">
+                Position / Effect Quick Ref
+              </p>
+              <table className="w-full text-[10px] font-mono border-collapse">
+                <tbody>
+                  {[
+                    ['Controlled', 'text-emerald-500', 'Crit: +1 Effect · Success: Standard · Fail: No harm'],
+                    ['Risky',      'text-amber-400',   'Crit: +1 Effect · Success: Standard · Fail: Consequence'],
+                    ['Desperate',  'text-red-500',     'Crit: +1 Effect · Success: Standard · Fail: Severe harm'],
+                  ].map(([pos, cls, rule]) => (
+                    <tr key={pos} className="border-b border-zinc-800/50 last:border-0">
+                      <td className={`py-1.5 pr-3 font-bold ${cls} w-24`}>{pos}</td>
+                      <td className="py-1.5 text-zinc-600">{rule}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          {/* NPC + Faction Intel */}
+          <section className="lg:col-span-5 space-y-5">
+
+            {/* NPCs */}
+            <div>
+              <h2 className="text-[9px] font-black uppercase tracking-[0.2em] text-zinc-600 mb-3">
+                NPC Intel
+              </h2>
+              <div className="space-y-2">
+                {npcs.map(n => (
+                  <div key={n.id}
+                    className="flex items-center justify-between gap-2 p-3 bg-zinc-900/40 border border-zinc-800 rounded-xl group">
+                    <div className="min-w-0 flex-1">
+                      <p className="text-sm font-bold text-zinc-200 leading-tight truncate">{n.name}</p>
+                      <p className="text-[8px] text-zinc-600 font-mono truncate">{n.faction}{n.note ? ` · ${n.note}` : ''}</p>
+                    </div>
+                    <div className="flex items-center gap-1.5 flex-shrink-0">
+                      <button onClick={() => cycleStatus(n.id)}
+                        className={`text-[8px] font-mono font-bold px-2 py-0.5 rounded-full border uppercase tracking-wide transition-all ${STATUS_CLS[n.status]}`}>
+                        {STATUS_LABELS[n.status]}
+                      </button>
+                      <button onClick={() => archiveNpc(n.id)}
+                        className="text-zinc-800 hover:text-zinc-600 text-xs transition-colors"
+                        title="Move to Graveyard">×</button>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <div className="flex gap-2 mt-2">
+                <input
+                  value={newNpc}
+                  onChange={e => setNewNpc(e.target.value)}
+                  onKeyDown={e => e.key === 'Enter' && addNpc()}
+                  placeholder="Add NPC..."
+                  className="flex-1 bg-zinc-950 border border-zinc-800 rounded-lg px-3 py-1.5 text-[10px] text-zinc-300 placeholder-zinc-700 focus:outline-none focus:border-amber-800"
+                />
+                <button onClick={addNpc}
+                  className="px-3 py-1.5 bg-zinc-900 border border-zinc-700 rounded-lg text-[10px] text-zinc-400 hover:border-amber-800 hover:text-amber-400 transition-colors">
+                  Add
+                </button>
+              </div>
+            </div>
+
+            {/* Factions */}
+            <div>
+              <h2 className="text-[9px] font-black uppercase tracking-[0.2em] text-zinc-600 mb-3">
+                Faction Standing
+              </h2>
+              <div className="space-y-1.5">
+                {factions.map(f => (
+                  <div key={f.id}
+                    className="flex items-center justify-between px-3 py-2 bg-zinc-900/40 border border-zinc-800 rounded-lg">
+                    <span className="text-xs font-bold text-zinc-300">{f.name}</span>
+                    <div className="flex items-center gap-1.5">
+                      <button onClick={() => adjStanding(f.id, -1)}
+                        className="text-zinc-700 hover:text-zinc-400 text-sm w-4 leading-none">−</button>
+                      <span className={`text-[9px] font-mono font-bold px-2 py-0.5 rounded border min-w-[4.5rem] text-center transition-all ${STAND_CLS[f.standing]}`}>
+                        {STAND_LABELS[f.standing]}
+                      </span>
+                      <button onClick={() => adjStanding(f.id, 1)}
+                        className="text-zinc-700 hover:text-zinc-400 text-sm w-4 leading-none">+</button>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        </div>
+
+        {/* ── ANCHOR LEDGER ── */}
+        <section>
+          <h2 className="text-[9px] font-black uppercase tracking-[0.2em] text-zinc-600 mb-3">
+            Anchor Ledger
+          </h2>
+          <div className="bg-zinc-900/30 border border-zinc-800 rounded-xl p-4">
+            {anchors.length === 0 && (
+              <p className="text-[10px] text-zinc-700 font-mono italic text-center py-2">— No active anchors —</p>
+            )}
+            {anchors.length > 0 && (
+              <div className="space-y-2 mb-3">
+                {anchors.map(a => (
+                  <div key={a.id} className="flex items-center justify-between gap-2">
+                    <span className="text-xs text-zinc-300 flex-1 truncate">{a.name}</span>
+                    <div className="flex items-center gap-1.5 flex-shrink-0">
+                      <button onClick={() => cycleAnchorStatus(a.id)}
+                        className={`text-[9px] font-mono font-bold px-2 py-0.5 rounded border transition-all ${ANCHOR_CLS[a.status]}`}>
+                        {ANCHOR_STATUSES[a.status]}
+                      </button>
+                      <button onClick={() => archiveAnchor(a.id)}
+                        className="text-zinc-800 hover:text-zinc-600 text-xs transition-colors"
+                        title="Move to Graveyard">×</button>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+            <div className="flex gap-2 mt-2">
+              <input
+                value={newAnchor}
+                onChange={e => setNewAnchor(e.target.value)}
+                onKeyDown={e => e.key === 'Enter' && addAnchor()}
+                placeholder="Add anchor item..."
+                className="flex-1 bg-zinc-950 border border-zinc-800 rounded-lg px-3 py-1.5 text-[10px] text-zinc-300 placeholder-zinc-700 focus:outline-none focus:border-amber-800"
+              />
+              <button onClick={addAnchor}
+                className="px-3 py-1.5 bg-zinc-900 border border-zinc-700 rounded-lg text-[10px] text-zinc-400 hover:border-amber-800 hover:text-amber-400 transition-colors">
+                Add
+              </button>
+            </div>
+          </div>
+        </section>
+
+        {/* ── GRAVEYARD ── */}
+        {graveyard.length > 0 && (
+          <section>
+            <h2 className="text-[9px] font-black uppercase tracking-[0.2em] text-zinc-700 mb-3">
+              Graveyard
+            </h2>
+            <div className="space-y-1.5 opacity-50">
+              {graveyard.map((g, i) => (
+                <div key={i}
+                  className="flex justify-between items-center px-3 py-1.5 bg-zinc-950 border border-zinc-900 rounded-lg">
+                  <span className="text-[10px] text-zinc-600">{g.name}</span>
+                  <span className="text-[8px] font-mono text-zinc-700">{g.type} · {g.fate}</span>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+      </div>
+
+      {/* Footer */}
+      <footer className="max-w-6xl mx-auto mt-10 pt-4 border-t border-zinc-900 text-center">
+        <p className="text-[8px] font-mono text-zinc-800 uppercase tracking-widest">
+          Cover Status: Nominal · Resonance Field: Contained · <span className="animate-pulse">Recording...</span>
+        </p>
+      </footer>
+
+    </div>
+  );
+}
