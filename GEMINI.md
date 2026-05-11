@@ -82,16 +82,34 @@ Always start with `[Instrumental]` for background music to prevent vocals.
 
 ### Vocals (Use Sparingly)
 
-For in-world moments only — a tavern, a radio broadcast, an NPC performing. Include `Lyrics:` if you want specific words; otherwise describe the topic and Gemini writes them.
+For in-world moments only — a tavern, a radio broadcast, an NPC performing.
 
-**The Scanner Station broadcast (the man who is never wrong about where):**
+**Three ways to handle lyrics:**
+- **Gemini writes everything** — describe the topic and tone, no lyrics provided. Gemini invents words that match.
+- **Hint at the topic** — give a phrase or concept ("a song about a city that keeps no records") and Gemini writes to it.
+- **Provide full or partial lyrics** — add `Lyrics: [your lines]` and Gemini sets them to music.
+
+**Song structure:** You can specify segments explicitly — e.g., "15-second ambient intro, then verse at 0:15, chorus at 1:00, bridge at 1:45, outro fade at 2:30." Lyria 3 Pro follows this.
+
+---
+
+**The Scanner Station broadcast (the man who is never wrong about where)**
 ```
-Lyria 3 Pro. AM radio quality, male voice, slightly wrong — too calm for what he's describing, low-fi grain, occasional static break, monologue tone not song, speaking about a street address he shouldn't know.
+Lyria 3 Pro. 2-minute track. Low-fi AM radio quality, slight tape hiss. Structure: 10-second static crackle intro, then spoken-word male voice — calm, deliberate, slightly wrong in affect, too composed for what he's describing. He reads a street address and a time. No musical backing — just voice, static, and the occasional signal drift. Outro: the broadcast cuts mid-sentence, dead air, then static returns.
+Topic: a man broadcasting on AM radio about the locations of things that haven't happened yet.
 ```
 
-**Curios & Chronicles in-world radio (something playing in the shop):**
+**Curios & Chronicles in-world radio (something playing in the shop)**
 ```
-Lyria 3 Pro. 1940s jazz standard, female vocalist, warm and slightly melancholic, small ensemble, the kind of song that belongs in a late-night diner, not sinister — just tired.
+Lyria 3 Pro. 2.5-minute track. 1940s jazz standard. Structure: 8-bar piano intro, female vocalist enters at 0:20 — warm timbre, slightly melancholic, unhurried phrasing. Verse: a tired love song, the kind that belongs in a late-night diner. Chorus: the melody lifts slightly but doesn't resolve — it circles back. Bridge: piano solo, minimal, a little too slow. Outro: vocalist fades mid-phrase, piano alone for 10 seconds, then silence.
+Topic: a woman singing about a city she can't leave and doesn't want to.
+Small ensemble: piano, upright bass, brushed snare. No horns. No vibrato excess.
+```
+
+**The Fairground (a song from the theater's past — heard from backstage)**
+```
+Lyria 3 Pro. 90-second clip. Vaudeville era, slightly degraded as if played on a cracked wax cylinder. Female vocalist — bright, performative, slightly too cheerful for the words. The audience applause is there but feels wrong, like it's been recorded in an empty room. Structure: short intro, one full verse and chorus, applause, then silence.
+Topic: a song about a magician who made things disappear and couldn't bring them back.
 ```
 
 ---
@@ -108,6 +126,12 @@ Paste into Gemini music chat:
 ```
 
 Paste it into your Gemini music chat (separate from the session runner chat with Claude).
+
+**On-the-fly two-prompt option:** For any unplanned scene, Claude can generate two variants:
+- **Prompt A — Full Track (text only):** 2–3 minute structured track with explicit Intro/Verse/Outro timing. Start with `[Instrumental]` for background music (prevents unwanted vocals).
+- **Prompt B — Image-Guided Clip:** Short atmospheric prompt designed to be sent alongside an image from `11-Visuals/_Saved-Images/` — Gemini reads the visual textures and translates them into sound. Include `[Instrumental]` here too unless you want vocals.
+
+Ask for "two music prompts for [scene]" and Claude will output both.
 
 ---
 
