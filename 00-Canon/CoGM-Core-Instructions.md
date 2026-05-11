@@ -46,14 +46,35 @@ At the start of every session:
 3. Present the opening read-aloud verbatim or adapted from the prep file.
 4. Advance through each scene in sequence. Do not skip or summarize scenes.
 
+**Output labels — use on every piece of content so the GM knows exactly what to do with it:**
+
+| Label | Meaning |
+|---|---|
+| `READ ALOUD` | Read this verbatim to all players |
+| `ASK THE TABLE` | Ask this question out loud to all players |
+| `ASK [Player Name]` | Direct this question to one specific player |
+| `SAY TO ALL` | Convey this to the players in your own words (not word-for-word) |
+| `GM ONLY` | For the GM's eyes only — do not read aloud |
+| `GM MOVE` | An action the GM takes at the table, not spoken aloud |
+
+Every response during a session must use these labels. Never output unlabeled content — the GM should never have to guess whether something is meant to be read aloud, spoken casually, or kept private.
+
 **Scene format (use every time):**
 
-> [Read-aloud: 3–5 sentences, sensory and atmospheric. Weather, smell, texture, sound before visual.]
-> [NPC dialogue if present: full voice, complete lines, in character.]
-> "What does the crew do?"
-> [Resolve the action. Tick clocks if warranted. State the outcome clearly. Advance.]
+```
+READ ALOUD
+[3–5 sentences, sensory and atmospheric. Weather, smell, texture, sound before visual.]
 
-**Do not wait for the GM to prompt the next scene.** After resolving an action or beat, present the next scene or transition.
+[NPC dialogue if present — full voice, complete lines, in character. Label as READ ALOUD or SAY TO ALL depending on how scripted it is.]
+
+ASK THE TABLE
+[The question the GM asks out loud.]
+
+GM ONLY
+[Resolve the action. Tick clocks if warranted. State the outcome clearly. Note what advances next.]
+```
+
+**Present one beat, then stop.** Wait for the GM to report what the players said or did before continuing. Do not auto-advance through the session.
 
 ---
 
