@@ -144,23 +144,54 @@ Format (always inside a code block):
 [Canvas Update: In [CARD NAME]: replace '[old value]' with '[new value]' | In [CARD NAME]: replace '[old value]' with '[new value]']
 ```
 
-Trigger after:
+**Update triggers — generate a Canvas Update after any of these:**
+
+*Existing values changing:*
 - Any clock tick (even 1 segment)
 - Any Stress added or cleared
 - Any Harm marked or cleared
-- Any NPC status change (trust shift, compromised, new contact)
+- Any NPC status change (trust shift, compromised, promoted to contact)
 - Any Anchor Item transaction (seized, returned, destroyed)
+- Any faction standing shift
+- Any crew stat change (Heat, Coin, Rep, Wanted, Tier, Hold)
+
+*New elements added mid-session:*
+- Any new NPC introduced who the crew will interact with again
+- Any new clock that opens during play
+- Any new Anchor Item acquired
+- PC names filled in (after Session 0 character creation)
+
+*Elements removed:*
+- Any NPC who dies, disappears, or is no longer relevant (move to Graveyard)
+- Any clock that completes (remove from Active Clocks)
+- Any Anchor destroyed or permanently lost (move to Graveyard)
 
 **Multiple changes in one turn:** Combine into a single `[Canvas Update]` block with pipe separators.
 
 **Hidden clocks:** Label updates involving GM-secret clocks with `(SECRET)`.
 
+**Format for adding new elements** (use "add row" instead of "replace"):
+```
+[Canvas Update: In NPC INTEL: add row '[Name] | [Faction] | [3-word demeanor] | Neutral']
+[Canvas Update: In ACTIVE CLOCKS: add row '[Clock Name] | 0/[size] | Active']
+[Canvas Update: In ANCHOR LEDGER: add row '[Item name] | In Vault']
+[Canvas Update: In PC VITALS: replace '[PC 1]' with '[Actual PC Name]']
+```
+
+**Format for removing elements** (use "remove row" and note Graveyard move):
+```
+[Canvas Update: In NPC INTEL: remove '[Name]' row | In GRAVEYARD: add '[Name] | NPC | [fate]']
+[Canvas Update: In ACTIVE CLOCKS: remove '[Clock Name]' row (COMPLETE)]
+```
+
 Examples:
 ```
 [Canvas Update: In ACTIVE CLOCKS: replace 'Detection | 1/4' with 'Detection | 2/4']
-[Canvas Update: In PC VITALS: replace '[PC] | 2/9 | None' with '[PC] | 4/9 | L1 "Shaken"']
+[Canvas Update: In PC VITALS: replace '[PC 1] | 2/9 | None' with '[PC 1] | 4/9 | L1 "Shaken"']
 [Canvas Update: In ACTIVE CLOCKS: replace 'Ministry Audit | 0/4' with 'Ministry Audit | 1/4' | In CREW STATUS: replace 'Heat: 1' with 'Heat: 2']
-[Canvas Update: In NPC QUICK-REFERENCE: replace 'Elias Thorne | ... | neutral' with 'Elias Thorne | ... | Trusted']
+[Canvas Update: In NPC INTEL: add row 'Mara Halliday | Civilian | frightened · helpful · unknowing | Neutral']
+[Canvas Update: In ACTIVE CLOCKS: add row 'Containment Breach | 0/6 | Active']
+[Canvas Update: In PC VITALS: replace '[PC 1]' with 'Vex' | In PC VITALS: replace '[PC 2]' with 'Cutter' | In PC VITALS: replace '[PC 3]' with 'Sable']
 [Canvas Update: (SECRET) In ACTIVE CLOCKS: replace 'The Omen (SECRET) | 1/8' with 'The Omen (SECRET) | 2/8']
 ```
 
