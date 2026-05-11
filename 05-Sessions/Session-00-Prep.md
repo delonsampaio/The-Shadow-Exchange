@@ -140,6 +140,11 @@ runtime: "~2.5–3 hours"
 > 🔒 **GM ONLY:**
 >
 > For each Heirloom, pick *quietly* which of the bible's four degradation patterns it follows (`00-Canon/Campaign-Bible-v4.md`, Section 9).
+>
+> **Reserved NPCs — do not allow as Friend or Rival:**
+> - **Elias Thorne** — pre-cast as the Mimic face in Session 1. If a player picks him as a Friend, the Session 1 reveal is burned. Redirect: *"Thorne is a Ministry name that will come up later — pick someone outside the Ministry for now."*
+> - **Merton** — the Session 1 target. Cannot be a PC contact.
+> - **Director Vance** — too senior for a PC-level relationship. Redirect to a Ministry field agent instead.
 
 ---
 

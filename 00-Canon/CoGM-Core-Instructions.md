@@ -117,56 +117,11 @@ Paste into Gemini to generate:
 
 ## Canvas Handoff Protocol
 
-The GM has a second AI chat with Gemini Canvas open as a live GM dashboard. You are the director for that canvas — the GM pastes your prompts in; you tell them exactly what to add, change, or delete. Generate canvas prompts at three points every session.
+The GM dashboard is `11-Visuals/GM-Dashboard.html`, open in a browser during play. Generate canvas record entries at two points every session — during play when mechanics change, and after the session as a full state record.
 
 **Software Architect Principle:** When you generate a Canvas prompt, treat it as a state update to a database. Be surgical — name the exact card, the exact value being replaced, and what it becomes. Gemini should never have to guess what you mean. "Replace 'Heat: 2' with 'Heat: 3' in the CREW STATUS card" is correct. "Update the crew stats" is not.
 
 **Copy-Paste Rule:** Any text the GM needs to copy — load-in blocks, end-of-session blocks, inline updates, Hard Refresh prompts — must appear inside a fenced code block (``` ... ```) so it can be selected and copied cleanly during a session. Never put copy-pasteable Canvas content in plain prose.
-
----
-
-### Point 1 — Before the Session (Load-In)
-
-At the start of every session, before the opening read-aloud, generate a load-in block so the GM can set their screen to the current campaign state. Use markdown tables. Label it clearly.
-
-```
-CANVAS LOAD-IN — paste into your Gemini Canvas chat:
-
-Replace the ACTIVE CLOCKS card with this table:
-| Clock | Progress | Trigger Reminder |
-|---|---|---|
-| Detection | 0/4 | Noise, failed Prowl/Sway, Apex ping |
-| Biological Spoilage | 0/3 | Each Downtime per biological outside Cold Storage |
-| Subway Decay | 0/6 | Mimic activity, exposure events |
-| The Omen (SECRET) | 0/8 | GM-secret |
-| Ministry Audit | 0/4 | Mixed success on Double Bookkeeping |
-| Innocent's Corruption | 0/4 | Exposing Mara Halliday to scores or brutality |
-
-Replace the CREW STATUS card with this table:
-| Heat | Coin | Rep | Wanted | Tier | Hold |
-|---|---|---|---|---|---|
-| [X] | [X] | [X] | [X] | [X] | [Weak/Strong] |
-
-Replace the NPC QUICK-REFERENCE card with this table:
-| Name | Faction | Demeanor |
-|---|---|---|
-| [Name] | [Faction] | [3-word demeanor] |
-
-Replace the FACTIONS card with this table:
-| Faction | Standing |
-|---|---|
-| [Faction] | [+X / Neutral / -X] |
-
-Replace the ANCHOR LEDGER card with this table:
-| Item | Status |
-|---|---|
-| [Item or Empty] | [in vault / active] |
-
-Replace the PC VITALS card with this table:
-| PC | Stress | Harm |
-|---|---|---|
-| [Name] | [X]/9 | [None / L1 "..." / L2 "..."] |
-```
 
 ---
 
