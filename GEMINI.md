@@ -19,9 +19,7 @@ Generate images for the TV screen when the GM pastes a prompt. Check `11-Visuals
 
 ## Music (Lyria 3)
 
-Gemini's music generation runs on **Lyria 3**. Two tiers:
-- **Standard** — 30-second loops. Best for ambient room tone, tension loops, and repeatable scene music.
-- **Lyria 3 Pro** (paid Google tier) — up to 3 minutes, understands song structure. Best for major set-pieces, session openings, and NPC themes.
+Gemini's music generation runs on **Lyria 3 Pro** (active on this account). Tracks up to 3 minutes, understands full song structure — verses, build, drop, resolution. Use this for everything: ambient loops, set-pieces, NPC themes, and session music.
 
 ### Prompt Structure
 
