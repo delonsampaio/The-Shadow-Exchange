@@ -123,23 +123,21 @@ Save outputs to `11-Visuals/_Saved-Images/` and log in `11-Visuals/Session-Image
 
 ## Music Generation (Gemini — Lyria 3)
 
-Paste into your Gemini music chat (separate from the session runner chat). Full presets in `GEMINI.md`.
+Paste into your Gemini music chat (separate from the session runner chat). **Full prompts (campaign presets + all session cues) are in `11-Visuals/Music-Prompts.md`.** Save generated tracks to `11-Visuals/_Saved-Music/`.
 
 **Prompt structure:** `[Instrumental]` + Genre/Era + Instrumentation + Mood + Tempo/BPM
 
-**Quick reference:**
+**Quick reference** — for mid-session use. ☰ = long scene, prompt includes loop language:
 
-*Scenes marked ☰ run long — add `seamless loop, no clear beginning or end, no melodic resolution, continuous ambient texture` to the prompt.*
-
-| Scene | Paste |
-|---|---|
-| Bookshop / downtime ☰ | `[Instrumental] Dark Victorian ambient, warm dusty piano, clock tick, rain on glass, 55 BPM, no vocals, seamless loop, no melodic resolution.` |
-| Theater basement ☰ | `[Instrumental] Empty stage ambience, distant crowd echo, creaking wood, single decaying piano note, melancholic and hollow, 50 BPM, seamless loop, no melodic resolution.` |
-| Containment Suite ☰ | `[Instrumental] Cold industrial ambient, fluorescent hum, sub-bass drone, metallic resonance, clinical, 40 BPM, no melody, seamless loop, no melodic resolution.` |
-| Approach / stakeout | `[Instrumental] Dark Victorian ambient, cello drone, mechanical ticking, tense suspenseful, 60 BPM.` |
-| Active score | `[Instrumental] Industrial darkwave, metallic percussion, distorted bass, 120 BPM.` |
-| Subway | `[Instrumental] Ethereal dark ambient, hollow PA echo, distant train, dissonant strings, 50 BPM.` |
-| Supernatural reveal | `[Instrumental] Ethereal dark ambient, wordless choir pad, discordant violin, 45 BPM.` |
-| Aftermath | `[Instrumental] Sparse neoclassical, solo cello, unresolved harmonic, 48 BPM, no resolution chord.` |
+| Scene | Saved file (if pre-made) | Short prompt |
+|---|---|---|
+| Bookshop / downtime ☰ | `music-bookshop-loop.mp3` | `[Instrumental] Dark Victorian ambient, warm dusty piano, clock tick, rain on glass, 55 BPM, no vocals, seamless loop, no melodic resolution.` |
+| Theater basement ☰ | `music-theater-loop.mp3` | `[Instrumental] Empty stage ambience, distant crowd echo, creaking wood, single decaying piano note, melancholic and hollow, 50 BPM, seamless loop, no melodic resolution.` |
+| Containment Suite ☰ | `music-containment-suite-loop.mp3` | `[Instrumental] Cold industrial ambient, fluorescent hum, sub-bass drone, metallic resonance, clinical, 40 BPM, no melody, seamless loop, no melodic resolution.` |
+| Approach / stakeout | `music-approach.mp3` | `[Instrumental] Dark Victorian ambient, cello drone, mechanical ticking, tense suspenseful, 60 BPM.` |
+| Active score | `music-score.mp3` | `[Instrumental] Industrial darkwave, metallic percussion, distorted bass, 120 BPM.` |
+| Subway ☰ | `music-subway-loop.mp3` | `[Instrumental] Ethereal dark ambient, hollow PA echo, distant train, dissonant strings, 50 BPM, seamless loop, no melodic resolution.` |
+| Supernatural reveal | `music-supernatural.mp3` | `[Instrumental] Ethereal dark ambient, wordless choir pad, discordant violin, 45 BPM.` |
+| Aftermath | `music-aftermath.mp3` | `[Instrumental] Sparse neoclassical, solo cello, unresolved harmonic, 48 BPM, no resolution chord.` |
 
 **Image-to-music:** Upload any image from `11-Visuals/_Saved-Images/` directly into Gemini music chat — it generates a matching track from the image's mood and setting.
