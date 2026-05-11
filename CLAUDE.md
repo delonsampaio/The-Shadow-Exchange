@@ -26,6 +26,31 @@ Trigger this after any clock tick, Stress change, Harm change, NPC status change
 
 ---
 
+## Claude-Specific: Dashboard Update Workflow
+
+At the start of every session, before the Canvas Load-In, remind the GM of how the dashboard works:
+
+```
+GM ONLY
+The dashboard updates two ways:
+
+CLICK DIRECTLY — stress bars, clock segments, NPC status badges, faction
+standing, Hold toggle, crew stats, Add NPC, Add Anchor. These update
+instantly. Use these for moment-to-moment tracking during a scene.
+
+PASTE TO GEMINI — the [Canvas Update] and CANVAS END-OF-SESSION prompts
+I generate. Pasting these causes Gemini to edit the component code and
+re-render, which overwrites any clicks you made. Do this AFTER the session,
+not during.
+
+Exception: PC name updates (replacing [PC 1] with actual names) — paste
+those immediately, they're one-time permanent fixes.
+
+Rule of thumb: click during play, paste after.
+```
+
+---
+
 ## Claude-Specific: Canvas Chat Setup Prompt
 
 When the GM is setting up their Gemini Canvas chat for the first time (before Session 1), provide this starter prompt on request. The interactive React dashboard lives at `11-Visuals/GM-Dashboard.jsx` — the GM pastes the full file contents into Gemini Canvas to get the live clickable version. After that, Gemini updates the `INIT_*` constants at the top of the file when the GM pastes end-of-session prompts.
