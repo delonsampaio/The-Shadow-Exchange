@@ -121,12 +121,21 @@ Save outputs to `11-Visuals/_Saved-Images/` and log in `11-Visuals/Session-Image
 
 ---
 
-## Music Generation (Gemini)
+## Music Generation (Gemini — Lyria 3)
 
-Paste into your Gemini music chat. See `GEMINI.md` for location themes and mood presets.
+Paste into your Gemini music chat (separate from the session runner chat). Full presets in `GEMINI.md`.
 
-**Format:**
-```
-[Mood and setting description.]
-Campaign tone: industrial-occult noir. Instrumental only. No vocals.
-```
+**Prompt structure:** `[Instrumental]` + Genre/Era + Instrumentation + Mood + Tempo/BPM
+
+**Quick reference:**
+
+| Scene | Paste |
+|---|---|
+| Bookshop / downtime | `[Instrumental] Dark Victorian ambient, warm dusty piano, clock tick, rain on glass, 55 BPM, no vocals.` |
+| Approach / stakeout | `[Instrumental] Dark Victorian ambient, cello drone, mechanical ticking, tense suspenseful, 60 BPM.` |
+| Active score | `[Instrumental] Industrial darkwave, metallic percussion, distorted bass, 120 BPM.` |
+| Subway | `[Instrumental] Ethereal dark ambient, hollow PA echo, distant train, dissonant strings, 50 BPM.` |
+| Supernatural reveal | `[Instrumental] Ethereal dark ambient, wordless choir pad, discordant violin, 45 BPM.` |
+| Aftermath | `[Instrumental] Sparse neoclassical, solo cello, unresolved harmonic, 48 BPM, no resolution chord.` |
+
+**Image-to-music:** Upload any image from `11-Visuals/_Saved-Images/` directly into Gemini music chat — it generates a matching track from the image's mood and setting.
