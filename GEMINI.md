@@ -36,14 +36,16 @@ Always start with `[Instrumental]` for background music to prevent vocals.
 
 ### Campaign Presets
 
-**The Bookshop (Curios & Chronicles — downtime, crew planning)**
+**Loop note:** Presets marked *(loop)* are designed for scenes that run longer than 3 minutes. Add `seamless loop, no clear beginning or end, no melodic resolution, continuous ambient texture` to the prompt when generating. Lyria 3 will structure the track to restart without an audible seam.
+
+**The Bookshop (Curios & Chronicles — downtime, crew planning)** *(loop)*
 ```
-[Instrumental] Dark Victorian ambient, warm dusty piano, slow clock tick, rain on old glass, crackling vinyl static, muffled city sounds, melancholic and unhurried, 55 BPM, pure texture, no vocals.
+[Instrumental] Dark Victorian ambient, warm dusty piano, slow clock tick, rain on old glass, crackling vinyl static, muffled city sounds, melancholic and unhurried, 55 BPM, pure texture, no vocals, seamless loop, no clear beginning or end, no melodic resolution, continuous ambient texture.
 ```
 
-**The Containment Suite (prep, examination, something in the cold drawer)**
+**The Containment Suite (prep, examination, something in the cold drawer)** *(loop)*
 ```
-[Instrumental] Cold industrial ambient, low fluorescent hum, deep sub-bass drone, metallic resonance, clinical and unsettling, surgical silence broken by distant mechanical noise, 40 BPM, no melody, pure texture.
+[Instrumental] Cold industrial ambient, low fluorescent hum, deep sub-bass drone, metallic resonance, clinical and unsettling, surgical silence broken by distant mechanical noise, 40 BPM, no melody, pure texture, seamless loop, no clear beginning or end, no melodic resolution, continuous ambient texture.
 ```
 
 **The Approach (stakeout, walking to the target, pre-engagement)**
@@ -66,9 +68,9 @@ Always start with `[Instrumental]` for background music to prevent vocals.
 [Instrumental] Ethereal dark ambient, distant wordless choir pad, echoing cold stone texture, discordant violin, supernatural dread, hypnagogic pace, 45 BPM, no vocals.
 ```
 
-**The Fairground Theater (exterior approach, theater basement)**
+**The Fairground Theater (exterior approach, theater basement)** *(loop)*
 ```
-[Instrumental] Empty stage ambience, distant crowd echo barely audible, creaking wood, single piano note decaying slowly, the smell of old curtains in sound, melancholic and hollow, 50 BPM.
+[Instrumental] Empty stage ambience, distant crowd echo barely audible, creaking wood, single piano note decaying slowly, the smell of old curtains in sound, melancholic and hollow, 50 BPM, seamless loop, no clear beginning or end, no melodic resolution, continuous ambient texture.
 ```
 
 **Closing / Aftermath (end of score, downtime opens, something was left unresolved)**

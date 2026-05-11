@@ -129,9 +129,13 @@ Paste into your Gemini music chat (separate from the session runner chat). Full 
 
 **Quick reference:**
 
+*Scenes marked ☰ run long — add `seamless loop, no clear beginning or end, no melodic resolution, continuous ambient texture` to the prompt.*
+
 | Scene | Paste |
 |---|---|
-| Bookshop / downtime | `[Instrumental] Dark Victorian ambient, warm dusty piano, clock tick, rain on glass, 55 BPM, no vocals.` |
+| Bookshop / downtime ☰ | `[Instrumental] Dark Victorian ambient, warm dusty piano, clock tick, rain on glass, 55 BPM, no vocals, seamless loop, no melodic resolution.` |
+| Theater basement ☰ | `[Instrumental] Empty stage ambience, distant crowd echo, creaking wood, single decaying piano note, melancholic and hollow, 50 BPM, seamless loop, no melodic resolution.` |
+| Containment Suite ☰ | `[Instrumental] Cold industrial ambient, fluorescent hum, sub-bass drone, metallic resonance, clinical, 40 BPM, no melody, seamless loop, no melodic resolution.` |
 | Approach / stakeout | `[Instrumental] Dark Victorian ambient, cello drone, mechanical ticking, tense suspenseful, 60 BPM.` |
 | Active score | `[Instrumental] Industrial darkwave, metallic percussion, distorted bass, 120 BPM.` |
 | Subway | `[Instrumental] Ethereal dark ambient, hollow PA echo, distant train, dissonant strings, 50 BPM.` |
