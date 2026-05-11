@@ -71,6 +71,7 @@ const ANCHOR_CLS = [
 // ─── Clock Component ────────────────────────────────────────────────────────────
 
 function Clock({ c, onSet }) {
+  const [hovered, setHovered] = useState(null);
   const r = 43, cx = 50, cy = 50;
   const segs = Array.from({ length: c.total }, (_, i) => {
     const a0 = ((i / c.total) * 360 - 90) * (Math.PI / 180);
@@ -79,22 +80,21 @@ function Clock({ c, onSet }) {
     const x1 = cx + r * Math.cos(a1), y1 = cy + r * Math.sin(a1);
     const large = 1 / c.total > 0.5 ? 1 : 0;
     const filled = i < c.cur;
+    const segFill = filled ? c.fill : hovered === i ? '#3f3f46' : '#27272a';
     return (
       <path
         key={i}
         d={`M${cx},${cy}L${x0},${y0}A${r},${r} 0 ${large},1 ${x1},${y1}Z`}
-        fill={filled ? c.fill : '#27272a'}
+        fill={segFill}
         stroke="#09090b"
         strokeWidth="2"
         style={{ cursor: 'pointer', transition: 'fill 0.15s' }}
         onClick={() => onSet(c.id, filled ? i : i + 1)}
-        onMouseEnter={e => { if (!filled) e.target.style.fill = '#3f3f46'; }}
-        onMouseLeave={e => { if (!filled) e.target.style.fill = '#27272a'; }}
+        onMouseEnter={() => setHovered(i)}
+        onMouseLeave={() => setHovered(null)}
       />
     );
   });
-
-  const pct = c.total > 0 ? Math.round((c.cur / c.total) * 100) : 0;
 
   return (
     <div className="flex flex-col items-center bg-zinc-900/60 border border-zinc-800 rounded-xl p-3 hover:border-zinc-700 transition-colors">
