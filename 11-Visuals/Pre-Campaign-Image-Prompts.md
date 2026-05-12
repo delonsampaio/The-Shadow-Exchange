@@ -25,7 +25,7 @@ Generate these before Session 0. Save outputs to `11-Visuals/_Saved-Images/`.
 Save as: `location-curios-exterior.png`
 
 ```
-A narrow three-story brick building pressed between two glass-and-steel skyscrapers, viewed from across a rain-soaked sidewalk at night. A faded hand-painted sign above the door. A cat silhouette resting on the counter inside, visible through the dusty single-pane window. The building occupies its footprint like an act of stubbornness — the towers lean slightly away from it.
+A narrow three-story brick building pressed between two glass-and-steel skyscrapers, viewed from across a rain-soaked sidewalk at night. A faded hand-painted sign above the door reads "CURIOS & CHRONICLES" in aged serif lettering — some letters slightly more faded than others. A cat silhouette resting on the counter inside, visible through the dusty single-pane window. The building occupies its footprint like an act of stubbornness — the towers lean slightly away from it.
 A single warm amber lamp glows from inside the shop — the only warm light source on the block. Cold blue LED overflow from the flanking skyscrapers illuminates the facade from both sides. Rain fractures both light sources across the wet pavement below, creating layered amber and blue reflections.
 Worn brick with century-old mortar lines, dust on the inside surface of the glass, the amber interior warmth against cold blue exterior — visible film grain across the entire frame. Quiet defiance. A building that decided not to update itself and has been winning that argument for a hundred years.
 Clean composition, no text, no watermarks, no signatures.
