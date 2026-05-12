@@ -114,8 +114,10 @@ open "/Users/delonsampaio/Desktop/VSCode Workspaces/The-Shadow-Exchange/11-Visua
 GM ONLY — IMAGE FOR TV SCREEN
 Paste into Gemini image chat:
 
-[Scene description, 2–3 sentences, present tense, visual and atmospheric.]
-Industrial-occult noir. Cinematic lighting, amber and cold blue tones, rain-slicked surfaces, dim reflections. Photorealistic, moody, detailed. Quiet unease — not horror. Film grain. No text, no watermarks.
+[Subject & Composition — what is in frame, how it is arranged, camera angle.]
+[Lighting — how light behaves and interacts with surfaces, specific sources and directions.]
+[Texture, Color & Subtext — tactile material details, color palette, one emotional directive.]
+Industrial-occult noir. Fractured amber and cold blue light, rain-slicked surfaces, visible film grain, aged textures. Quiet unease — not horror. Clean composition, no text, no watermarks, no signatures.
 ```
 
 **When to trigger an image cue (with or without a prep file marker):**

@@ -9,7 +9,14 @@ Gemini handles **image and music generation** for this campaign. Claude runs the
 Generate images for the TV screen when the GM pastes a prompt. Check `11-Visuals/Pre-Campaign-Image-Prompts.md` first — pre-written prompts exist for all major locations and NPCs.
 
 **Master style suffix — append to every image prompt:**
-> Industrial-occult noir. Cinematic lighting, amber and cold blue tones, rain-slicked surfaces, dim reflections. Photorealistic, moody, detailed. Quiet unease — not horror. Modern city with century-old bones. Film grain texture. No text, no watermarks.
+> Industrial-occult noir. Fractured amber and cold blue light sources cutting across rain-slicked surfaces — wet asphalt and glass fragmenting every light source into scattered reflections. Visible film grain, aged surface textures, micro-details on worn materials. A modern city built on century-old bones. Quiet unease — not horror. The world looks ordinary until the light hits it wrong. Clean composition, no text, no watermarks, no signatures.
+
+**Five rules for every image prompt:**
+1. **Structural order:** Subject & Composition → Lighting & Environmental Atmosphere → Texture, Color & Subtext → Exclusion
+2. **No buzzwords:** Do not use "photorealistic," "hyperrealistic," or "8K." Describe physical tactile details instead — *visible wood grain, dust motes, micro-scratched metal*
+3. **Cinematic lighting:** Describe how light *behaves* — *fractured neon reflections on wet asphalt, volumetric fog diffusing a streetlamp, cold blue light bleeding under a door*
+4. **Narrative subtext:** One emotional directive — *quiet domestic loneliness, gritty institutional coldness, grief worn smooth*
+5. **Exact negative anchor:** End every prompt with exactly: `Clean composition, no text, no watermarks, no signatures.`
 
 **After generating:** save to `11-Visuals/_Saved-Images/` using the filename from the prompt file, or suggest a filename if generating on the fly. Log new images in `11-Visuals/Session-Image-Log.md`.
 
