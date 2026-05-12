@@ -26,20 +26,26 @@ Gemini's music generation runs on **Lyria 3 Pro** (active on this account). Trac
 
 ### Prompt Structure
 
-Every music prompt should include these four elements:
+Every instrumental prompt should define:
 
-1. **Genre/Era** — e.g., Victorian Gothic, Industrial, Dark Ambient, Neoclassical
-2. **Instrumentation/Texture** — e.g., cello, harpsichord, metallic clanks, ticking clocks, rain, dusty piano
-3. **Mood/Tone** — e.g., melancholic, tense, stealthy, mysterious
-4. **Tempo/Dynamics** — e.g., 60 BPM, slow build, sudden silence
+1. **Genre, Era, and Sonic Vibe** — e.g., Dark Victorian ambient, Cold industrial, Ethereal dark ambient
+2. **Tempo and Key** — exact BPM + key and mode (e.g., 55 BPM, D minor / B Phrygian / atonal)
+3. **Instrumentation Roles** — Lead instrument vs. Support instruments listed separately
+4. **Production Texture** — e.g., analog tape warmth, dry clinical room, cavernous cathedral reverb, warehouse acoustic
+5. **Time-Stamped Structure** — Intro, Build, Climax, Outro with timestamps (e.g., "Cello enters at 0:20, drops at 1:30")
 
 Always start with `[Instrumental]` for background music to prevent vocals.
 
-**Lyrics (vocal tracks only):** Three options — Gemini writes everything (describe topic/tone), hint at a topic ("a song about a city that keeps no records"), or supply full/partial lyrics with `Lyrics: [your lines]`.
+**Loop tracks:** For scenes that run longer than 3 minutes, add `seamless loop, no clear beginning or end, no melodic resolution, continuous ambient texture`. Presets marked *(loop)* in `Music-Prompts.md` already include this.
 
-**Song structure:** Specify segments explicitly — e.g., "15-second ambient intro, verse at 0:15, chorus at 1:00, outro fade at 2:30." Lyria 3 Pro follows this.
+**Vocal tracks** require three additional elements:
+- **Vocal Profile** — gender, age tone, range, e.g., "smoky female mezzo-soprano, warm and slightly melancholic"
+- **Delivery Style** — phrasing, vibrato, cadence, e.g., "behind-the-beat timing, straight tone, minimal vibrato"
+- **Mix Placement** — where the voice sits, e.g., "dry mono AM radio compression" or "warm front-of-mix, small club ambience"
 
-**Loop tracks:** For scenes that run longer than 3 minutes, add `seamless loop, no clear beginning or end, no melodic resolution, continuous ambient texture` to the prompt. Presets marked *(loop)* in `Music-Prompts.md` already include this.
+**Lyrics:** Gemini writes everything (describe topic/tone), hint at a topic ("a song about a city that keeps no records"), or supply full/partial lyrics with `Lyrics: [your lines]`. Use `[Verse]`, `[Chorus]`, `[Bridge]` tags for structure.
+
+**Song structure:** Specify segments explicitly with timestamps — e.g., "Vocalist enters at 0:20, chorus at 1:00, piano solo bridge at 1:45, outro fade at 2:20." Lyria 3 Pro follows this.
 
 ---
 
