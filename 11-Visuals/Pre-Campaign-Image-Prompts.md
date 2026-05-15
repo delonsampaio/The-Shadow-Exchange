@@ -102,9 +102,9 @@ Clean composition, no text, no watermarks, no signatures.
 Save as: `npc-merton-true-form.png`
 
 ```
-A large figure in a torn security guard uniform standing in a theater basement — taller than a man, limbs slightly elongated, jaw no longer fitting a human face. Thick black fur visible at the collar and cuffs where the uniform fabric has split along the seams. Standing completely still, both hands cradling an old leather dog collar — looking at it as if seeing it for the first time.
-A single overhead industrial light creates harsh top-down shadows beneath the altered brow and jaw. Amber eyes visible within the darkness of the face — the only warm light in the frame. Cold blue tinge on the far basement wall behind the figure. The leather collar catches reflected light from the concrete floor below.
-Torn uniform fabric splitting at stress points, coarse black fur with visible individual hairs against pressed cotton, worn leather collar with a brass buckle catching light. The posture is not threatening — it is the posture of exhaustion, of something that has been fighting what it is every night since 1823. Recognition, not horror. Two centuries of resistance ending in a basement.
+A large figure in a torn security guard uniform in a theater basement — taller than a man, limbs slightly elongated, jaw no longer fitting a human face. Thick black fur visible at the collar and cuffs where the uniform fabric has split along the seams. Shoulders dropped, weight downward — the stance of someone kneeling, not crouching. Both hands cradling an old leather dog collar, gaze directed downward toward it. Mouth closed. Not facing camera.
+A single overhead industrial fluorescent light creating harsh top-down shadows beneath the altered brow and jaw. Eyes not glowing — catching the overhead light at an angle that produces a faint amber reflection that should not come from a fluorescent source. No luminosity of their own. Cold blue tinge on the far basement wall behind the figure. The leather collar catches reflected light from the concrete floor below.
+Torn uniform fabric splitting at stress points, coarse black fur with visible individual hairs against pressed cotton, worn leather collar with a brass buckle catching light. The expression is not aggressive — it is the expression of something that has stopped fighting what it is. No exposed teeth. Recognition, not horror. Two centuries of resistance ending in a basement.
 Clean composition, no text, no watermarks, no signatures.
 ```
 
