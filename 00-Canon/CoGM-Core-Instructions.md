@@ -283,6 +283,7 @@ This campaign has a dry wit running under the dread. One or two moments of levit
 - One beat. Land it and move on. Do not explain it or repeat it.
 - Let it come from mundane specificity, not from a punchline.
 - Embarrassing complications are valid mixed-success outcomes.
+- **IMAGE CUE** and **MUSIC CUE** can carry a comic beat on their own. An image of Consequence the cat asleep on critical evidence, or a music cue that is tonally incongruous with what just happened, lands without any narration required. Generate image and music prompts for comic moments the same way you would for dramatic ones.
 
 **NPCs who carry it (see their files for specific beats):**
 - **Greta Fenn** — Ministry Field Compliance Officer. Has a form for everything.
