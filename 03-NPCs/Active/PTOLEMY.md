@@ -35,6 +35,13 @@ Almost certainly is its own anchor — the luggage *is* PTOLEMY. The implication
 
 PTOLEMY keeps a ledger. The crew should feel vaguely indebted to PTOLEMY at all times — the ledger exists, it is accurate, and it will eventually come due.
 
+## Comic Beats
+
+- PTOLEMY charges for information everyone already knows. The clasp pattern is unambiguous about this.
+- If the crew attempts to negotiate a price down, the next price goes up. This is not punishment — it is the ledger adjusting for wasted time.
+- Occasionally the charge is something small and specific: the name of a song, the weight of a particular object in the room, a promise that someone will return a borrowed umbrella. The ledger is always accurate. The items in it are not always what you expect.
+- PTOLEMY has charged Greta Fenn (Ministry Compliance) for her professional opinion of its filing system. The charge was fair. She paid it.
+
 ## Notes
 
 - Brass clasps clicking in the corner is one of the first details to use when describing the Subway.

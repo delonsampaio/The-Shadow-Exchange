@@ -26,5 +26,9 @@ available: After crew earns Subway access
 - Current broadcast fragments as Omen Clock symptoms
 - Equipment modification to detect Resonance alongside normal signals
 
+## Comic Beat
+
+He has found archival recordings of his own AM broadcasts from the 1950s and 60s. He listens to them occasionally. He has opinions. *"I would not phrase it that way now. That is not how you describe a Class-3 Resonance event to a general audience. I was not as precise as I thought I was."* He is not embarrassed. He is professionally disappointed in his past self.
+
 ## Relationship
 Available post-Subway access. Will not help hunters with a record of Anchor destruction.

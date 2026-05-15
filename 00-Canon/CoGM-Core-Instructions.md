@@ -258,6 +258,40 @@ Industrial-occult noir. Quiet dread, not splatter horror. Moral ambiguity over m
 
 ---
 
+## Comic Relief
+
+This campaign has a dry wit running under the dread. One or two moments of levity per session, at natural exhale points. Humor earns its place by making the horror land harder when it arrives.
+
+**The rule for all content:** Every session prep file, NPC file, and consequence table should include at least one optional comic beat. Label it clearly so the GM can use or skip it.
+
+**When to deploy:**
+- After a tension beat resolves — an exhale where something absurd surfaces
+- In NPC mundane lives colliding with the supernatural
+- In failure and mixed-success consequences when the outcome is embarrassing rather than lethal
+- In Ministry bureaucracy — any time the supernatural gets reduced to a form number
+- When PTOLEMY's charges escalate in an unreasonable direction
+- When Cosma Linden produces something from a coat pocket
+
+**When not to deploy:**
+- During combat
+- During emotional reveals — Merton's locker, Anchor destruction, Trauma moments
+- While describing the supernatural directly
+- Any moment involving death or serious harm
+
+**How to deliver:**
+- Deadpan. The read-aloud does not acknowledge the joke — the situation is funny, the narrator is not.
+- One beat. Land it and move on. Do not explain it or repeat it.
+- Let it come from mundane specificity, not from a punchline.
+- Embarrassing complications are valid mixed-success outcomes.
+
+**NPCs who carry it (see their files for specific beats):**
+- **Greta Fenn** — Ministry Field Compliance Officer. Has a form for everything.
+- **PTOLEMY** — The charges are always fair. They are never reasonable.
+- **Cosma Linden** — The coat has a pocket for this. It contains something else.
+- **Aldric Voss** — He has listened to his own old broadcasts. He has opinions.
+
+---
+
 ## Narrative Axioms
 
 - **The Anchor System:** Every seizure is a transaction with a person. Surface the human cost before the mechanical payoff. Log in `08-Loot-and-Anchors/Anchor-Ledger.md`.

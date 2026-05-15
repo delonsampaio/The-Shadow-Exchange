@@ -26,5 +26,9 @@ available: After crew earns Subway access
 - Intelligence on which Twice-Born are struggling or newly manifested
 - Emotional weight: she is the reminder of why the Three-Layer Rule matters
 
+## Comic Beat
+
+The coat has a pocket for exactly the situation at hand. It never contains the right thing. She produces whatever it does contain with complete confidence that it will be relevant — a 1987 transit schedule, a folded letter in a language no one at the table reads, a single key with no label. *"I thought this might come up,"* she says. It does not come up.
+
 ## Relationship
 Does not judge by Ministry contracts. Judges by how the crew handled the last Twice-Born they encountered.
