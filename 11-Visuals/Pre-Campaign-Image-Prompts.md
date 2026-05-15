@@ -73,7 +73,7 @@ Clean composition, no text, no watermarks, no signatures.
 Save as: `location-fairground-theater.png`
 
 ```
-An old theater marquee filling the upper frame on a rain-soaked street at night — corroded brass lettering, some neon tubes still active, some dark. A side door propped open with a brick at street level, slightly ajar. Below street level, a single fluorescent light visible through a narrow basement window — barely brighter than the surrounding dark, creating a thin cold strip at ground level.
+An old theater marquee filling the upper frame on a rain-soaked street at night — the marquee reads "THE FAIRGROUND GRAND" in corroded brass lettering, some neon tubes still active, some dark. A side door propped open with a brick at street level, slightly ajar. Below street level, a single fluorescent light visible through a narrow basement window — barely brighter than the surrounding dark, creating a thin cold strip at ground level.
 The active neon marquee tubes cast fractured magenta and amber reflections across the wet pavement below, multiplied in the puddles. Cold blue from the surrounding street. The basement fluorescent creates a separate cold ground-level light source. Rain catching and multiplying every source.
 Corroded brass lettering with green oxidation in the recesses, worn theater facade brick with layered old poster remnants, oil-slicked wet pavement showing the building's reflection distorted. Melancholic history with something still operating in its basement. A building with more below ground than above.
 Clean composition, no text, no watermarks, no signatures.
