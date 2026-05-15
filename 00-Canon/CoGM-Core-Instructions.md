@@ -273,10 +273,10 @@ This campaign has a dry wit running under the dread. One or two moments of levit
 - When Cosma Linden produces something from a coat pocket
 
 **When not to deploy:**
-- During combat
 - During emotional reveals — Merton's locker, Anchor destruction, Trauma moments
 - While describing the supernatural directly
 - Any moment involving death or serious harm
+- Combat is fine if it emerges naturally — a plan going wrong in an embarrassing way, a monster doing something unexpectedly mundane, crew banter mid-fight. Do not force it, but do not avoid it.
 
 **How to deliver:**
 - Deadpan. The read-aloud does not acknowledge the joke — the situation is funny, the narrator is not.
