@@ -15,6 +15,7 @@ mechanical_focus: "Group Actions, Flashbacks, and Twice-Born Favor."
 *AI: Review the transcript or Recap-01 before starting this scene.*
 * [ ] **Audit Check:** If **[Clock: The Ministry Audit]** ticked in Session 1, place a plainclothes agent in the bookstore during the opening.
 * [ ] **Inventory Check:** If **[Item: Barghest Adrenal Gland]** was stolen, it is vibrating in **[Location: Cold Storage Locker]**.
+  > 🔒 **COMIC BEAT (OPTIONAL):** Open the session with someone noticing the vibration before anyone says a word. It has been vibrating all night. No one is sure when it started. Consequence the cat has relocated to the opposite end of the building.
 * [ ] **Medical Check:** If anyone took Harm, suggest a Downtime scene with a back-alley physicker.
 
 ### GM / AI Core Directives
@@ -72,6 +73,10 @@ mechanical_focus: "Group Actions, Flashbacks, and Twice-Born Favor."
 
 ### Read Aloud (The Platform & PTOLEMY)
 > "The stairs go further down than they should... a vaulted hall lit in greenish light... There are people here. Some of them aren't... In the corner: a piece of luggage. Brass clasps, cracked leather, no visible eyes. The clasps click in patterns. It is listening to you."
+
+> 🔒 **GM ONLY — COMIC BEAT (OPTIONAL):**
+>
+> PTOLEMY charges them for something before they ask it anything. The first interaction is not an exchange of information — it is a bill for standing too close. The clasp pattern is unambiguous. The crew can pay it or not. The ledger will reflect their choice either way.
 
 ### Read Aloud (The Broker)
 > "There's a booth at the very back of the hall — too far back, somehow... One man at the booth, alone. Gray suit, narrow tie... He glances up as you pass. He nods. Just at one of you."

@@ -88,6 +88,11 @@ runtime: "~2.5–3 hours"
 > In the back corner, near the Occult & Folklore section, behind a stack of moldering atlases, stands an old **Zoltar machine** — a glass-fronted booth the size of a phone box. Inside: a robed automaton with a painted beard, a turban, brass hands resting on a velvet pedestal where a deck of fortune cards used to be. The cards are long gone. The machine has been unplugged at the wall for decades. You push a specific coin into the slot in a specific sequence — a code only you know — and Zoltar's glass eyes flicker once, green; his head turns one degree to the left; and the wall behind him slides back with the heavy pneumatic hiss of a train door."
 
 **→ GM MOVE:** Then read the Containment Suite tour.
+
+> 🔒 **GM ONLY — COMIC BEAT (OPTIONAL):**
+>
+> Pause after "heavy pneumatic hiss of a train door." Let the players sit with the fact that their secret entrance is a Zoltar machine. If they laugh, let them. It was a Zoltar machine before it was theirs. Whoever installed it had reasons. They are not here to explain them.
+
 **[IMAGE CUE: location-containment-suite.png]** *(show as the wall opens — "the wall slides back with the heavy pneumatic hiss")*
 **[MUSIC CUE: music-s00-zoltar-opens.mp3]** *(play as the wall opens — 30-second stinger)*
 **[MUSIC CUE: music-containment-suite-loop.mp3]** *(switch to this when the stinger fades — runs for the full lair tour)*
@@ -176,6 +181,10 @@ runtime: "~2.5–3 hours"
 
 > 🔊 **READ ALOUD:**
 >
+> 🔒 **GM ONLY — COMIC BEAT (OPTIONAL):**
+>
+> Consequence the cat is a recurring comic device. She is always asleep on whatever is most inconvenient — evidence, contracts, open first aid kits. She has never once been helpful. She has never once been removed. Use her freely between scenes as a dry beat whenever the table needs to exhale.
+
 > "It's late. The shop is closed. Consequence the cat is asleep on the counter on top of a 1962 Sears catalog that has no business being there. The rotary phone has not rung. The kettle is cooling. From the back room, behind the Zoltar machine, the Scanner Station is humming on its own frequency — a quiet wash of static that you stopped noticing months ago.
 >
 > Tonight there is no envelope on the counter. Tomorrow there will be."

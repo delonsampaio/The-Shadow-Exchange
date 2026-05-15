@@ -42,6 +42,10 @@ mechanical_focus: "Tutorial: Position/Effect, Devil's Bargains, and Stress/Resis
 
 **[MUSIC CUE: music-s01-envelope-drops.mp3]** *(play as the courier exits — replaces bookshop loop)*
 
+> 🔒 **GM ONLY — COMIC BEAT (OPTIONAL):**
+>
+> Let the crew's reaction to "Payout: minimal" breathe. This is a job involving a politician's dog with human hands. The Ministry's official assessment of its value is "minimal." The table should feel this. It is the first honest piece of information about what their career actually looks like.
+
 **GM Prompt:** "The Ministry expects you to kill the thing and torch the body. But an **[Item: Barghest Adrenal Gland]** fetches serious money on the black market. Who is prepping gear in the Containment Suite, and what is our plan for getting into the theater?"
 **[IMAGE CUE: location-containment-suite.png]** *(show when players move to the Containment Suite to prep)*
 **[MUSIC CUE: music-containment-suite-loop.mp3]** *(start when players move to the Containment Suite)*
@@ -67,6 +71,7 @@ mechanical_focus: "Tutorial: Position/Effect, Devil's Bargains, and Stress/Resis
 
 ### Engagement Roll Setup
 1. **Front-door professional cleanup:** Position/Effect: Risky / Standard. Complication: A janitor sees something.
+   > 🔒 **COMIC BEAT (OPTIONAL):** The janitor is not a threat. He has cleaned this theater for fifteen years. He sees something that should not exist. His first instinct is to check whether the mop bucket is somehow responsible. It is not. He is going to need a minute.
 2. **After-hours break-in via the alley:** Position/Effect: Controlled / Standard (Prowl); Risky / Standard (otherwise). Complication: **[Faction: Apex Aegis]** van is watching.
 3. **Talk to Merton before fighting:** Position/Effect: Risky / Limited. Complication: He mistakes a PC for a loved one.
 
