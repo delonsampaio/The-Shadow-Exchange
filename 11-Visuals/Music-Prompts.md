@@ -278,3 +278,20 @@ Instrumentation: Lead — solo violin (melodic, unhurried, the phrasing of someo
 Production: Warm analog tape, small recital hall — intimate and reassuring. This is deliberately the most normal-sounding production of all the campaign tracks. Everything sounds right. The wrongness is in the composition, not the recording.
 Structure: 90-second track, no loop. Violin opens — first theme: warm, resolved, confident. Piano joins at 0:20. Second theme introduced at 0:50: almost identical to the first — one note wrong. Track ends before resolving the second theme.
 ```
+
+---
+
+## Comic Relief
+
+Use for exhale moments, mundane transitions, and scenes that are funny because of what just happened. Deadpan delivery — the music does not wink. It is simply pleasant.
+
+---
+
+**The Interlude** — plays after a comic beat lands, or under Greta Fenn's paperwork scenes *(loop)*
+Save as: `music-comic-interlude.mp3`
+```
+[Instrumental] Genre: Light lounge jazz. BPM: 112, gentle swing feel. Key: F major — the furthest point from the campaign's D minor home key. Deliberately bright.
+Instrumentation: Lead — solo upright piano, light touch, slightly dry, no drama. Support — brushed snare (barely audible, just keeping time), double bass walking line entering at 0:20 (warm, unhurried).
+Production: Small room acoustic — the sound of a piano in a hotel lobby or a bar at lunch. Warm, slightly boxy, no reverb tail. Nothing industrial. Nothing noir. Just pleasant, which is the problem.
+Structure: Seamless loop — no clear beginning or end, no melodic resolution, just keeps going pleasantly. Piano phrases drift in and resolve cheerfully. Bass walks contentedly. The track is not aware of anything that has happened in this campaign.
+```

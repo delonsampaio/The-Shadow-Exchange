@@ -194,6 +194,30 @@ Clean composition, no text, no watermarks, no signatures.
 
 ---
 
+### Greta Fenn — Ministry Field Compliance Officer
+Save as: `npc-greta-fenn.png`
+
+```
+A woman in her fifties in a Ministry-gray coat standing on a rain-slicked sidewalk, clipboard held in both hands, reading glasses on a lanyard around her neck. She is writing something on the form. Behind her, visible through a broken ground-floor window, something large and indistinct is happening in the dark — shadowed, wrong in shape, clearly not a normal thing. She has not turned to look at it.
+Flat overcast daylight — the even, shadowless light of a Tuesday morning in autumn. No drama. Her face lit evenly and clearly, expression focused entirely on the clipboard. The broken window and the shadow behind it are slightly out of focus but readable.
+Ministry-gray coat with correct lapels, clipboard with a stack of forms, pen in motion, reading glasses on a lanyard. The indistinct shadow behind her — large, irregular, visible but unresolved. The expression of someone who has already noted it in the appropriate field and is now recording the square footage. Professional detachment as a complete worldview.
+Clean composition, no text, no watermarks, no signatures.
+```
+
+---
+
+### Consequence — The Bookshop Cat
+Save as: `npc-consequence.png`
+
+```
+A small tabby cat asleep directly in the center of an open manila folder on a worn wooden counter — the folder contains a Ministry Wanted poster and a grainy surveillance photograph. The cat is completely relaxed, one front paw extended, covering the photograph entirely. A 1962 Sears catalog is half-visible under the folder.
+Warm amber lamplight from the right — the bookshop's characteristic interior warmth. Soft and focused, catching the cat's fur along the spine in a single warm line. The Wanted poster text visible at the edge of the frame beneath the paw, just enough to read "PEST CONTROL AUTH—" before the paw covers the rest.
+Worn paper edges of the folder, tabby fur catching amber light, the Wanted poster readable at the margins, old wooden counter with worn surface. Domestic comfort in the middle of operational intelligence. The cat does not know. The cat has never cared. The cat is named Consequence and this is, in fact, a consequence.
+Clean composition, no text, no watermarks, no signatures.
+```
+
+---
+
 ### The Crossroads Broker
 Save as: `npc-crossroads-broker.png`
 
