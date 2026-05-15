@@ -241,3 +241,19 @@ Amber streetlamp above and behind — warm light falling on his shoulders and th
 Charcoal field coat with precise button spacing, rain on his shoulders not yet soaked through, a plain silver ring on his right hand catching the streetlamp as the only bright point, wet pavement showing a long distorted reflection of him below. Two versions of him visible simultaneously. The wrongness is too small to name and too consistent to dismiss. Warmth arriving from the wrong direction.
 Clean composition, no text, no watermarks, no signatures.
 ```
+
+---
+
+## Comic Relief
+
+---
+
+**The Interlude**
+Save as: `cover-comic-interlude.png`
+
+```
+A single classic martini glass — stemmed, clean, one olive on a cocktail pick — sitting perfectly centered on a zinc-topped surgical table in the Containment Suite. The leather restraint straps are still bolted to the corners. The glass is not bothered by this. Nobody put it there. Nobody is explaining it.
+A single warm amber lamp directed at the glass from the left — the only warm light source in an otherwise harshly fluorescent room. The glass catches the amber light in a clean curved reflection along the rim. The overhead fluorescent panels illuminate the rest of the room in their cold clinical white, making the amber warmth on the glass more incongruous.
+Polished martini glass on scratched zinc — the surface marks around it suggest the table has seen considerable use; the glass has not been here long enough to pick up any of it. The olive sits correctly on the pick. The restraint straps in the background are worn leather, soft from use. A pleasant object in a room designed for containment. The glass is not aware of the irony.
+Clean composition, no text, no watermarks, no signatures.
+```
