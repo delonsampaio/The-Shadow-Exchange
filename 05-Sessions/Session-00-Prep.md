@@ -108,6 +108,8 @@ runtime: "~2.5–3 hours"
 >
 > And near the surgical table, on a reading stand: an old leather-bound journal. Half the handwriting in it is yours. Half of it isn't. When you open it before a hunt, the people who came before you are still helping — some in pencil, some in pen, one of them in red ink, four years ago, in handwriting none of you recognize."
 
+**[MUSIC CUE: music-vocal-scanner-station.mp3]** *(layer in now — the scanner station static and the AM broadcaster bleeding through, running under the table's riff)*
+
 > ❓ **ASK THE TABLE:**
 >
 > *"Which one of you is out front pretending to run a bookstore today, and which one of you is in the back currently doing something to the Scanner Station that probably shouldn't be done?"*

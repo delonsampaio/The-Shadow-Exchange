@@ -52,6 +52,7 @@ mechanical_focus: "Tutorial: Position/Effect, Devil's Bargains, and Stress/Resis
 **Target:** **[NPC: Merton]** (Barghest)
 **Location:** Local Theater Basement
 **[MUSIC CUE: music-approach.mp3]** *(start when the crew sets out for the theater)*
+**[MUSIC CUE: music-vocal-fairground.mp3]** *(switch when they enter the Fairground District streets — plays through the walk to the theater)*
 **[IMAGE CUE: location-fairground-theater.png]** *(show on arrival at the theater, before the engagement roll)*
 **[MUSIC CUE: music-theater-loop.mp3]** *(switch to this on arrival — runs through the investigation)*
 
