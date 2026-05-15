@@ -49,7 +49,7 @@ Clean composition, no text, no watermarks, no signatures.
 Save as: `location-subway-main-hall.png`
 
 ```
-A grand underground transit hall with high vaulted ceilings and cracked Art Deco tile work — a station that does not appear on any official map. A hand-drawn transit map visible on the far wall, one line marked in red ink. Figures moving through the space — some in business suits, some in less certain forms — none making eye contact with any other.
+A grand underground transit hall with high vaulted ceilings and cracked Art Deco tile work — a station that does not appear on any official map. A hand-drawn transit map visible on the far wall, one line marked in red ink. Figures moving through the space — most in business suits, none making eye contact with any other. One figure near the far wall with proportions that do not resolve into a recognizable silhouette at distance — limbs slightly wrong in length, shadow on the wall behind it not matching its shape. Nothing that would cause alarm at a glance. Something that would not survive a second look.
 Greenish fluorescent strip lighting along the ceiling vault — industrial, unflattering, slightly wrong color temperature. Patches of deep shadow between light pools. The greenish tint makes all skin tones appear slightly incorrect. The vaulted space causes sound to arrive from multiple directions simultaneously.
 Cracked Art Deco tile with original gold leaf still intact in places, worn stone floor with path-shaped wear patterns, the institutional green-tinted light flattening all depth. Eerie bureaucratic normalcy. A place that has always existed and does not require acknowledgment from those who use it.
 Clean composition, no text, no watermarks, no signatures.
