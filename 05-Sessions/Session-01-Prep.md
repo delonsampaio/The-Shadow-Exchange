@@ -126,6 +126,46 @@ mechanical_focus: "Tutorial: Position/Effect, Devil's Bargains, and Stress/Resis
 
 ---
 
+## Downtime — End of Session 1
+
+**SAY TO ALL:** *"After every score in Blades, the crew goes into Downtime — a period of days or weeks between jobs where you recover, manage problems, and pursue projects. Think of it as the part of a heist movie where they lie low after the job. Tonight we're running the basics; Session 2 will pick up with the rest."*
+
+**[MUSIC CUE: music-bookshop-loop.mp3]** *(switch — back in the bookshop, the score is done)*
+
+### Step 1 — Heat
+**SAY TO ALL:** *"Heat is how much attention the crew has attracted. It goes up after every score based on how visible you were. It feeds into your Wanted level — high enough Wanted and the Ministry sends someone specific after you."*
+
+> 🔒 **GM ONLY — HEAT ROLL:**
+> Roll for Heat based on the score:
+> - Quiet score, no witnesses: **+1 Heat**
+> - Standard score, some exposure: **+2 Heat**
+> - Loud score or Apex Aegis involvement: **+3 Heat**
+> Apply to the dashboard. If the Double Bookkeeping roll was failed, add **+1 Heat** for the audit flag.
+
+### Step 2 — Vice (Stress Recovery)
+**SAY TO ALL:** *"Each of you has a Vice — the thing your character does to decompress. Indulging your Vice clears Stress. You roll your lowest attribute; on a 6 you clear all your Stress, on a 4-5 you clear some, on a 1-3 you clear some but get a complication — you overindulged. Tell me what your character does between this job and the next one."*
+
+Ask each PC in turn. Let them narrate briefly. Roll for each.
+
+> 🔒 **GM ONLY — COMIC BEAT (OPTIONAL):**
+> If anyone overindulges, the complication should be embarrassing rather than dangerous this early in the campaign. Someone spent three days asleep. Someone reorganized the cold storage drawers at 4am for reasons they cannot explain. Consequence relocated again and no one noticed until the morning.
+
+### Step 3 — Double Bookkeeping (if applicable)
+If the crew kept the **[Item: Barghest Adrenal Gland]** without authorization:
+
+**SAY TO ALL:** *"The crew has a Special Ability called Double Bookkeeping — you roll Sway to fudge the Ministry paperwork. On a success, they don't notice the Gland is missing from the report. On a failure, the Ministry Audit Clock starts ticking."*
+
+Roll **Sway**. On a failure, tick **[Clock: The Ministry Audit]** 1/4.
+
+### Step 4 — Greta Fenn (Downtime appearance)
+> 🔒 **GM ONLY:**
+> Greta Fenn arrives during Downtime to collect paperwork — see `03-NPCs/Active/Greta-Fenn.md` for her voice and comic beats. She has Form 47-B for the Barghest. She needs two signatures. She has a follow-up question about the square footage of the basement. This is her first appearance — introduce her deadpan and move on. She will be back.
+
+> 🔒 **GM ONLY — NOTE:**
+> Remaining Downtime activities (Long-Term Projects, Recover from Harm, Acquire Assets, Reduce Heat) carry into the start of Session 2. The Session 2 fallout checklist covers them.
+
+---
+
 ## AI Facilitation Directives
 * **Tutorial Mode:** Use "Bridge Phrases" (e.g., "According to the rules for Resistance...") to help the GM teach the system.
 * **Sensory Pulse:** During the theater descent, emphasize the smell of stale popcorn and "Quiet Dread."
