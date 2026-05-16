@@ -34,6 +34,8 @@ mechanical_focus: "Group Actions, Flashbacks, and Twice-Born Favor."
 * **[NPC: Trusted Contact]** (**[Faction: The Mimic]** face).
 * **[NPC: PTOLEMY]** (In the Subway).
 * **[NPC: Crossroads Broker]** (In the Subway).
+* **[NPC: Cosma Linden]** (Twice-Born — The Teacher. First appearance. Near PTOLEMY's corner.)
+* **[NPC: Aldric Voss]** (Twice-Born — The Night Technician. First appearance. In the workshop off the platform.)
 
 ---
 
@@ -96,6 +98,19 @@ mechanical_focus: "Group Actions, Flashbacks, and Twice-Born Favor."
 >
 > PTOLEMY charges them for something before they ask it anything. The first interaction is not an exchange of information — it is a bill for standing too close. The clasp pattern is unambiguous. The crew can pay it or not. The ledger will reflect their choice either way.
 
+### The Twice-Born in the Subway
+**[IMAGE CUE: npc-cosma-linden.png]** *(show on first sight of Cosma)*
+**[IMAGE CUE: npc-aldric-voss.png]** *(show on first sight of Aldric)*
+
+> "Near PTOLEMY's corner, a woman in a coat with too many pockets is seated at a folding table, speaking to someone across from her. Her hands move while she talks — arranging something invisible on the surface between them, a habit she is not aware of. She looks up when she sees you. She does not look surprised. She looks like someone who has been expecting this particular introduction for some time.
+>
+> Further along the platform, through an open doorway marked with a hand-lettered sign: a room full of reel-to-reel equipment and analog consoles. An older man with headphones around his neck glances up from the equipment, takes you in for exactly two seconds, and goes back to what he was doing. He does not ask who you are. He already has an opinion."
+
+> 🔒 **GM ONLY:**
+> Cosma Linden speaks first — she always does with new arrivals. She is the Subway's welcome committee. She will explain what the crew has just walked into, what the Twice-Born are, and what it means that the entrance let them through. She is warm, clear, and completely honest about how serious it is. See `03-NPCs/Twice-Born/Cosma-Linden.md` for her voice and pocket comic beat.
+>
+> Aldric Voss will not introduce himself tonight. He will wait. If a PC approaches the workshop, he will answer questions in half-sentences. He is deciding whether they are worth complete ones. See `03-NPCs/Twice-Born/Aldric-Voss.md`.
+
 ### Read Aloud (The Broker)
 **[IMAGE CUE: npc-crossroads-broker.png]** *(show as the Broker is described)*
 > "There's a booth at the very back of the hall — too far back, somehow... One man at the booth, alone. Gray suit, narrow tie... He glances up as you pass. He nods. Just at one of you."
@@ -109,7 +124,20 @@ mechanical_focus: "Group Actions, Flashbacks, and Twice-Born Favor."
 
 ---
 
+## Closing Beat
+**[MUSIC CUE: music-bookshop-loop.mp3]** *(switch — back in the bookshop, the night is done)*
+
+### Read Aloud (The Return)
+> "It is late when you get back. The shop is dark except for the lamp above the counter — someone left it on. Outside the window the rain has started again, different rain than this morning, quieter. The scanner station in the back hums. The **[Item: Silver Thimble]** — or its absence — sits at the edge of everything you are now.
+>
+> Consequence the cat has relocated from the cold storage room to the top of the filing cabinet. She is asleep. She does not seem troubled by the evening's events. She has been in this business longer than any of you."
+
+> 🔒 **GM ONLY:**
+> Close with one question to the table, not a prompt for action — just an invitation to sit with the weight. Something like: *"Your character has one quiet moment before sleep. What do they do with it?"* Let each PC answer briefly, then end the session.
+
+---
+
 ## AI Facilitation Directives
 * **Moral Weight Monitor:** If the crew takes the **[Item: Silver Thimble]**, describe the sensory chill of the metal as it cools in their hand, and immediately update the **[Ledger: Anchor Ledger]**.
 * **Guided Discovery:** During the Subway visit, describe the smell of woodsmoke and metallic tang using the **[Location: The Subway]** sensory profile. 
-* **The Omen:** At the end of the session, generate one subtle symptom (e.g., a stray dog clustering, clocks running slow) to foreshadow **[Clock: The Omen]**.
+* **The Omen:** At the end of the session, deliver this specific symptom — the bookshop clock on the back wall reads four minutes slow. It was correct this morning. By midnight it will be correct again. By morning it will be four minutes slow once more. If a PC checks it against the Scanner Station time, the Scanner Station agrees with the clock. It is not the clock that is wrong.
