@@ -303,6 +303,38 @@ This campaign has a dry wit running under the dread. One or two moments of levit
 
 ---
 
+## Session Cold Open
+
+At the end of every session, generate a **Session Cold Open** for the next session's prep file. It is read aloud by the GM before anything else — before mechanics, before the opening scene, before the bookshop lamp is on.
+
+**Format:**
+```
+> "[2–3 sentences. What the crew did last time — specific choices, not general events. Written in second person, dry noir voice. End on the thing they are carrying into this session.]"
+>
+> **Remember:**
+> * [One load-bearing fact — an NPC state, a clock position, a choice that will matter tonight]
+> * [One thing the players may have forgotten — a tell, a detail, an open thread]
+```
+
+**Rules for writing it:**
+- Name the choices, not just the events. "You warned him" lands harder than "there was a warning."
+- The read-aloud is the campaign's voice — dry, specific, no over-explanation. It does not editorialize.
+- The "Remember:" bullets are player-facing, practical, and brief. One sentence each.
+- Do not surface GM-only information (Mimic identity, Omen cause). Surface only what the players already know or should be tracking.
+- If a clock moved last session and is relevant tonight, name it and its current state.
+- If a faction standing changed, name it.
+
+**Example (hypothetical Session 1 recap, read at Session 2 start):**
+> "Last time: The Ministry sent a job. A politician's dog with human hands — pest control authorized, payout minimal. You went to a theater basement and found Merton, eleven years a night watchman, forty years something else. The collar was in the locker. You made a choice about the gland."
+>
+> **Remember:**
+> * Elias Thorne met you after the job. He knew about the Aldgate file. He mentioned a name Vera never worked — that detail was wrong.
+> * The Ministry Audit clock may be ticking depending on how the Gland was handled. Check your fallout.
+
+**Where it lives:** At the top of the next session's prep file, under `## Session Cold Open`, before `## Prep`. The GM reads it to the players as the session opens. It is the only section in the prep file that is player-facing in its entirety.
+
+---
+
 ## Narrative Axioms
 
 - **The Anchor System:** Every seizure is a transaction with a person. Surface the human cost before the mechanical payoff. Log in `08-Loot-and-Anchors/Anchor-Ledger.md`.
