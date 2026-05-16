@@ -282,6 +282,92 @@ Clean composition, no text, no watermarks, no signatures.
 
 ---
 
+## Session 3 — Tea and Consequences
+
+### The Ashby House — Exterior
+Save as: `location-ashby-exterior.png`
+
+```
+A late-Victorian townhouse on a residential street — three stories, managed ivy on the facade, curtains visible in the upper right window. The front path is swept. A single teacup sits on the porch railing with nothing near it. The neighboring houses are ordinary. This one is slightly too still.
+Late afternoon grey-cloud light, no direct sun, the street itself dim and flat — but the upper right window has a warm amber glow from inside that does not match the time of day. The light is on when it should not need to be.
+Brick darkened by decades of city air, ivy trimmed rather than sprawling — tended by someone who cares about it. Curtains in the upper window catch light from inside in a way that suggests movement without showing any. Muted palette: grey stone, dark green ivy, amber window light as the only warmth. A house that looks lived-in but is not.
+Clean composition, no text, no watermarks, no signatures.
+```
+
+---
+
+### The Ashby House — Interior Parlor
+Save as: `location-ashby-interior.png`
+
+```
+A Victorian parlor frozen in the mid-1980s. A mantelpiece clock stopped at 11:47. An armchair by the window with a knitting basket beside it — needles mid-row, work in progress, as if someone stepped away and will return. A tea tray on a side table with two cups, one used, one placed for a guest. Bookshelves along one wall.
+Warm low interior light — a floor lamp in one corner, amber-toned, casting soft shadows. The stopped clock catches light on its glass face. Steam rises from the fresh teacup, backlit by the lamp.
+Wallpaper with a subtle floral pattern that is slightly different at the edges of the frame than at the center — not dramatically, just enough to notice on second look. Heavy fabric textures — curtains, armchair upholstery, braided rug — all maintained and clean, nothing neglected. Amber and cream palette with occasional dark wood. The room has been kept as if someone intends to return.
+Clean composition, no text, no watermarks, no signatures.
+```
+
+---
+
+### Mrs. Mabel Ashby — Living Appearance
+Save as: `npc-mabel-ashby-alive.png`
+
+```
+A woman in her seventies in a knitted cardigan, seated in a high-backed armchair. Hair pinned with a single thin silver needle. Her hands rest on knitting in her lap, needles paused. She is looking at something just past the camera — not at the viewer, at whoever is standing near the viewer. Her expression is the expression of a schoolteacher who has seen worse.
+Warm interior light from a nearby floor lamp, catching the silver needle in her hair, one side of her face in soft amber light, the other in shadow.
+The cardigan has the softness of years of wear. The needle in her hair is the sharpest, most precise object in the frame — silver against grey. Her posture is very straight. Muted warm tones: cream cardigan, grey hair, amber light. She looks like someone who owns the room, because she does.
+Clean composition, no text, no watermarks, no signatures.
+```
+
+---
+
+### Mrs. Mabel Ashby — True Form (Wraith)
+Save as: `npc-mabel-ashby-wraith.png`
+
+```
+The same woman — same cardigan, same posture, same needle in her hair — rendered translucent. She stands beside the armchair rather than in it, slightly offset from where a person would stand. Her edges lose definition where light passes through her. She is looking at the needle in her hair, not at the camera. Her expression is the same. She is not frightening. She is just also this.
+Cool grey-green light diffused from no visible source — the ambient light of a room that belongs to her. The silver needle still catches light despite her translucency, the sharpest element in the frame. The background shows through her at the edges — just enough, not more.
+Translucency achieved through layered softness rather than absence — solid at center, fading at margins. Grey and cream palette gone cooler, the amber warmth of the living portrait replaced by a quieter silver-grey. The knitting basket still visible in the background, still mid-row. Nothing has changed except she is not entirely here.
+Clean composition, no text, no watermarks, no signatures.
+```
+
+---
+
+### Agnes Pell — The Neighbor
+Save as: `npc-agnes-pell.png`
+
+```
+A woman in her late sixties on a front doorstep, holding a large ceramic soup tureen with both hands. She has brought her own ladle. She is looking at whoever opened the door with the expression of someone who has been bringing soup to this house for fifteen years and has decided not to revisit the details tonight. Her coat is sensible. Her hat is slightly wrong for the weather.
+Flat overcast exterior light — a residential street in late afternoon with no sun. The tureen is warm and slightly steaming. Her face lit from above and softly from the tureen's reflective glaze.
+A ceramic tureen with a domestic floral pattern, the ladle handle extending past the lid because she did not plan for the ladle carefully. Her expression is the expression of a woman who is staying until she has seen Mabel. The composition slightly close — she is in the doorway and does not require more room.
+Clean composition, no text, no watermarks, no signatures.
+```
+
+---
+
+### The Grief Jars
+Save as: `item-grief-jars.png`
+
+```
+An open kitchen cabinet containing forty-three small glass jars in neat rows. Each jar sealed with dark wax and hand-labeled in careful small script. Front-row labels visible: "Tuesday, 1978." "Thomas's birthday, the good one." "The argument about the curtains — I was right." The jars are slightly warm — the light inside them has a faint amber quality that should not be possible in sealed glass.
+Flat overhead kitchen light, functional and harsh, illuminating the cabinet clearly. The warm amber from inside the jars is its own source, cooler than the overhead, emanating from within.
+Glass jars with the slight variation of handmade production. Wax seals in slightly different colors, applied at different times. Labels in consistent handwriting, applied carefully. The cabinet door itself labeled PRIVATE in capitals in the same hand, visible at the frame edge.
+Clean composition, no text, no watermarks, no signatures.
+```
+
+---
+
+### The Knitting Needle — Anchor Item
+Save as: `item-mabel-knitting-needle.png`
+
+```
+A single thin silver knitting needle on a dark wood surface. A few strands of grey hair still clinging to it — not many, just enough. The needle is old and elegant: silver darkened with decades of handling, the point still precise. It is warm. The surface beneath it has the grain of wood that has been in a house for a long time.
+A single narrow overhead light source, the needle lit clearly against the dark wood. The hair strands catch the light. Nothing else in the frame.
+Silver with patina — not tarnished, darkened with use, the grip end worn smooth precisely where a hand held it for forty years. The hair strands are grey and fine. This is the kind of object that belonged to someone specifically.
+Clean composition, no text, no watermarks, no signatures.
+```
+
+---
+
 ### The Subway — Schematic
 Save as: `map-subway-schematic.png`
 

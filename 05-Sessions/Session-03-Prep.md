@@ -1,0 +1,224 @@
+---
+entity_type: Session
+session_number: 3
+title: "Tea and Consequences"
+status: Prep
+goal: "Extract the anchor item from a haunted house — and deal with the ghost, who has been dead for forty years and has opinions about it."
+mechanical_focus: "Entanglements and Acquire Assets (both new mechanics this session)."
+---
+
+# Session 3 — Tea and Consequences
+
+## Prep
+
+### Session 2 Fallout Checklist
+*AI: Review the recap or Campaign-Current-State.md before starting this scene.*
+* [ ] **Emmerich Check:** If the crew **seized the [Item: Silver Thimble]**, check whether Emmerich unraveled. If he did, **[Faction: The Twice-Born]** has noted it. Cosma Linden does not appear this session but has sent a message — a single folded card under the bookshop door: *"We noted the choice. We always do."*
+* [ ] **Audit Check:** If **[Clock: The Ministry Audit]** is active, Greta Fenn arrives before the briefing with Form 44-C (Ongoing Premises Review). She needs three signatures. She has a follow-up question about the square footage from her last visit.
+* [ ] **Omen Check:** The bookshop clock has been running four minutes slow every morning since Session 2. If any PC noticed it, they have been tracking it. It has not corrected.
+
+### GM / AI Core Directives
+* **Comedy Mandate:** This session runs with more deliberate comic texture than a standard session. Apply competent-incompetence narration on 4-5 and 1-3 results. Devil's Bargains can be absurd. Mrs. Ashby narrates the heist from wherever she is in the house. Agnes Pell will appear at the worst moment.
+* **Three-Layer Rule:** Mrs. Ashby must register as a full three-layer entity before the moral pivot. Do not let her feel like a monster or a punchline.
+* **Grief Jars:** Do not open them for the crew. Let a die result or a deliberate player choice do it.
+* **Mimic Tell (Session 3):** The Trusted Contact references the Subway visit. They say the crew "came in through the south entrance." There is no south entrance — the entrance finds the crew; it does not have a cardinal direction. Someone who was actually there would not say it that way. Move past it before anyone can correct them.
+
+### Clocks Expected to Move
+* **[Clock: Detection]** (4-seg) — Resets for this score.
+* **[Clock: The Omen]** (8-seg) — One additional symptom at close.
+* **[Clock: The Ministry Audit]** — May tick if the crew is sloppy or loud.
+
+### NPC Roster
+* **[NPC: Mrs. Mabel Ashby]** *(MAY-bel ASH-bee)* — Wraith. Forty-year tenant. Has been dead since 1986. Does not consider this a significant obstacle.
+* **[NPC: Agnes Pell]** *(AG-nis PELL)* — The neighbor. Brings soup every Thursday. This is Thursday.
+* **[NPC: Renwick Stalls]** *(REN-wick)* — New owner. Property developer. Slightly nervous. Keeps mentioning "the investment opportunity."
+* **[NPC: Greta Fenn]** — Ministry Field Compliance Officer. Has Form 88-D (Haunting Removal Authorization). Mildly put-upon about having to explain what Form 88-D is.
+* **[Faction: Apex Aegis Peacekeepers]** *(Aegis: AY-jis)* — Assigned to the neighborhood. Low presence unless things get loud.
+
+---
+
+## New Mechanic — Entanglements
+
+**SAY TO ALL:** *"Before every score in Blades, the crew rolls to see if their accumulated Heat has attracted any attention between jobs. This is called an Entanglement — a problem that finds you before you can go to work."*
+
+> 🔒 **GM ONLY — ENTANGLEMENT ROLL:**
+> Roll based on current Heat:
+> - **Heat 1–3:** Roll 2d6, take the lower result.
+> - **Heat 4–5:** Roll 1d6.
+> - **Heat 6+:** Roll 2d6, take the higher result.
+>
+> For this campaign, flavor all results through the Ministry:
+> - **Low roll (1-2):** A Ministry sub-contractor has heard about the crew and wants a referral fee. They are polite. The paperwork will take weeks.
+> - **Mid roll (3-4):** An Apex Aegis officer stops by the shop. Not about anything specific. Just questions. They have a clipboard.
+> - **High roll (5-6):** **[Clock: The Ministry Audit]** ticks one additional segment. Someone has been reviewing the shop's invoice receipts.
+
+---
+
+## New Mechanic — Acquire Assets (Downtime)
+
+**SAY TO ALL:** *"Before a job that needs specialized gear, the crew can spend a Downtime action to Acquire Assets — equipment borrowed or rented for the score. Roll a die based on Resources or Coin spent. Higher result, better the asset."*
+
+> 🔒 **GM ONLY — SUGGESTED ASSETS FOR THIS SCORE:**
+> * **Resonance Dampener** (Tier 1) — Muffles spectral activity in a small area. Mrs. Ashby will notice it and have a question about where they got it.
+> * **Salt Barrier Components** (Tier 1) — Standard wraith deterrent. Mrs. Ashby has opinions about salt on her floors.
+> * **Parish Records: Ashby, M.** (Tier 2) — Marriage certificate, death record (1986), property deed history. Reveals Thomas Ashby died in 1991. This is the key to Option B.
+> * **Period Photograph, 1952** (Tier 2) — Shows the house and garden. Something in the garden is different. Mrs. Ashby will not explain what.
+
+---
+
+## Opening — The Briefing
+
+**Location:** **[Location: Curios & Chronicles]**
+**[IMAGE CUE: location-curios-exterior.png]** *(session opens in the bookshop)*
+**[MUSIC CUE: music-bookshop-loop.mp3]** *(running from session open)*
+
+### Read Aloud (The Job)
+> "The envelope this time is hand-delivered by a man in a new coat that does not fit him. He works for a property developer named Renwick Stalls. He gives you a business card. The card has two phone numbers. Neither of them is Mr. Stalls' number. Inside: a Ministry Haunting Removal Authorization, Form 88-D, already signed by the appropriate office. The property address is in the residential district — a late-Victorian townhouse, three stories, last recorded habitation 1986. The anchor item is described as 'one (1) knitting needle, silver, worn in subject's hair.' Payout: standard extraction rate plus a property development bonus if the site is cleared before end of month."
+
+> 🔒 **GM ONLY — COMIC BEAT (OPTIONAL):**
+> Greta Fenn is already in the building. She was waiting. She has a copy of Form 88-D with two additional pages the envelope version does not have. She needs initials on the additional pages. She would also like to know whether Form 31 from the last job was ever filed. She has a copy of that too. She always has a copy.
+
+**GM Prompt:** "Renwick Stalls is available to meet this afternoon if you want the pitch in person. The form covers extraction only — what you do with the needle after is your business. What are we doing before we go in?"
+
+---
+
+## The House — Exterior
+
+**[MUSIC CUE: music-ashby-approach.mp3]** *(switch when the crew sets out)*
+**[IMAGE CUE: location-ashby-exterior.png]** *(show on arrival)*
+
+### Read Aloud (Arrival)
+> "The Ashby house is on a street that has mostly kept up with the century. The Ashby house has not. The ivy is managed — someone trims it. The curtains move when you look at them directly, but not when you look at the window. There is a light on in the upper right room. The front path has been swept recently. A teacup sits on the porch railing. It is dry, but it was not there this morning — the neighbor across the street would mention this if asked."
+
+> 🔒 **GM ONLY — COMIC BEAT (OPTIONAL):**
+> The front door is unlocked. It opens before anyone knocks. There is no one behind it. A moment later, from somewhere upstairs: *"I'll be down in a moment. Put the kettle on."*
+
+### Approaches to Entry
+1. **Walk in (she invited you):** Controlled / Standard. Complication: she has already decided what the crew is there for and has set out biscuits.
+2. **Breach and clear:** Risky / Standard. Devil's Bargain: she lets them get three steps inside before she turns off every light in the house simultaneously.
+3. **Observe before entering:** Controlled / Limited. Reveals the stopped clocks, the teacup pattern, and the fact that the curtains have been moving since before the crew arrived.
+
+---
+
+## First Contact — Mrs. Ashby
+
+**[IMAGE CUE: npc-mabel-ashby-alive.png]** *(show on first contact — she appears fully solid)*
+**[MUSIC CUE: music-ashby-interior.mp3]** *(switch as the crew enters — runs through the house visit)*
+
+### Read Aloud (First Sight)
+> "She comes downstairs. Seventyish, cardigan, hair pinned with a thin silver needle. She moves like someone who has been in this house a long time and knows every step. She looks at the crew with the expression of a schoolteacher who has seen worse. 'You're younger than I expected,' she says. 'The last ones they sent were older. Terrible posture. Sit down.'"
+
+### Three Layers — Mrs. Ashby
+1. **Appears as:** Retired schoolteacher. Forty years in this house. Strong opinions on: posture, biscuits, people who don't wipe their feet.
+2. **Actually is:** A Wraith. **Anchor Item:** **[Item: Mabel's Knitting Needle]** (1944). She passes through walls by accident when she forgets herself. She is aware of this and embarrassed about it.
+3. **Became this because:** She died in 1986 of entirely ordinary causes. She stayed because Thomas was still alive, and she was not going to leave him rattling around this house alone. Thomas died in 1991. She knows, or she knows and has decided she will address it when she is ready.
+
+### Her Toolkit (active throughout the scene)
+* Moves objects the crew sets down — always to somewhere inconvenient, never malicious.
+* Passes through a crew member if they stand in her path. Says "excuse me." Keeps walking.
+* Comments on the crew's equipment with specific, pointed questions.
+* Knits while talking — needles from her basket, not the one in her hair. The clicking never stops.
+* On any 1-3 result in this house, she has already anticipated it. She says nothing. She just looks.
+
+> 🔒 **GM ONLY — COMIC BEAT (OPTIONAL):**
+> She offers tea. The kettle was already on — they heard it click on before they entered. If anyone accepts, the tea is good. If anyone asks how the kettle came on, she changes the subject by asking about their posture.
+
+---
+
+## The Grief Jars
+
+**[IMAGE CUE: item-grief-jars.png]** *(show if the crew investigates the kitchen cabinet)*
+
+### Read Aloud (The Cabinet)
+> "The cabinet in the kitchen is labeled **PRIVATE** in capital letters, in the handwriting of someone who meant it. Inside: forty-three small glass jars, each hand-labeled. *Tuesday, 1978. Thomas's birthday, the good one. The argument about the curtains — I was right. March.* They are sealed with wax. The jars are warm."
+
+> 🔒 **GM ONLY:**
+> If a crew member opens one — deliberately or on a 1-3 complication — they experience the memory in full. Twenty to thirty seconds, sensory, immersive. The memory is not dangerous. It is very specific and very personal.
+>
+> **Sample memories:**
+> - *Tuesday, 1978:* A kitchen. Someone singing badly in the next room. The smell of something burning slightly, uncorrected. A feeling of complete contentment.
+> - *Thomas's birthday, the good one:* He didn't like the cake. She knew he didn't like the cake. He ate three pieces anyway. They didn't talk about it. They never had to.
+> - *The argument about the curtains:* She was right. The curtains did look better on the east window. She does not appear in the memory — only the curtains.
+>
+> Mrs. Ashby, from elsewhere in the house, without raising her voice: *"Put that back."*
+
+---
+
+## The Moral Pivot — What She Is Waiting For
+
+**[MUSIC CUE: music-s01-the-choice.mp3]** *(switch when the crew faces the decision)*
+**[IMAGE CUE: npc-mabel-ashby-wraith.png]** *(show only if she drops the living appearance — she forgets herself)*
+
+> 🔒 **GM ONLY:**
+> She will eventually ask — directly or indirectly — why they are there. She already knows. She is giving them the chance to be honest. If they are, she listens. She does not argue. She makes tea. The moral pivot is whether the crew tells her about Thomas.
+
+* **Option A: Extract the needle.** She loses cohesion — the dissipation takes a few minutes. She does not fight it. The Grief Jars are worth serious Coin to collectors and alchemists. Greta files Form 88-D (completed). Full Ministry payout. Crew earns standard **Coin**.
+* **Option B: Tell her about Thomas.** Requires **Parish Records** (Acquire Assets) or a **Critical Success on Study or Attune**. She already knows. She has known since 1994. She just has not been ready. Telling her gives her permission she will not give herself. The needle stays. No Ministry payout — but the Twice-Born hear about this. Rep +1 with **[Faction: The Twice-Born]** if the crew has any standing. She leaves the Grief Jars to the crew specifically.
+* **Option C: Leave her alone.** She sees them to the door. She offers to wrap biscuits for the road. This is not a joke. Renwick Stalls has seventeen follow-up questions. Greta has a form for incomplete extraction. Partial Coin and one complication of the GM's choice.
+
+### Choice-Specific Read Alouds
+* **The Extraction:** "She sits in the chair by the window and folds her hands in her lap. The needle comes out of her hair easily — warmer than it should be, much warmer. The knitting falls off the basket needles. She does not look at it."
+* **The Telling:** "'I know,' she says. Very quietly. 'I've known for a long time.' A pause. 'He was terrible at curtains, you know. Completely wrong about curtains.' She smiles. Then she isn't there anymore."
+* **The Withdrawal:** "She sees them to the door. She offers biscuits for the road. She has already wrapped them."
+
+---
+
+## Mid-Heist Complication — Agnes Pell
+
+**[IMAGE CUE: npc-agnes-pell.png]** *(show when Agnes arrives)*
+**[MUSIC CUE: music-comic-interlude.mp3]** *(switch when Agnes knocks — runs until she leaves)*
+
+> 🔒 **GM ONLY — COMIC BEAT:**
+> Agnes arrives at the worst possible moment — during the moral pivot, mid-extraction, or exactly when someone has just opened a Grief Jar. She knocks. Mrs. Ashby, without breaking conversation: *"That'll be Agnes."*
+>
+> Agnes has brought leek and potato soup. She has it in a large tureen. It is still hot. She intends to stay twenty minutes. She has brought her own ladle. She does not ask permission to set it on the counter.
+>
+> Agnes has read about the crew in a Penny Dreadful serial called *The Doskvol Irregulars*. She is fairly certain one of them is the one described as having "a jaw like a butcher's slab." She does not say which one. She mentions the serial twice. She does not ask permission to set the soup on the counter. She is very impressed by the jaw.
+>
+> She will not leave until she has seen Mabel. If Mabel is mid-dissipation, the crew has a problem. Mrs. Ashby, if she has enough cohesion left, will appear briefly at the kitchen doorway: *"Agnes. Not a good time."* Agnes: *"You look peaky."* This is accurate.
+
+---
+
+## Devil's Bargain Menu (Session-Specific)
+*Offer these for +1d. Present deadpan — do not indicate they are unusual.*
+
+* The roll succeeds, but the resonance dampener activates at full power. Every stopped clock in the house starts running backward simultaneously.
+* +1d to Prowl through the house. Complication on a mixed result: Mrs. Ashby has been offering a running commentary since they arrived, and on the mixed result she starts directing it at them specifically.
+* +1d to any action involving the Grief Jars. Complication: one jar opens. The GM chooses which one.
+* +1d if a crew member accepts the tea. They have now sat down. Mrs. Ashby considers this a social contract.
+
+---
+
+## Apex Aegis — If Things Get Loud
+
+> 🔒 **GM ONLY:**
+> Officers **Drennick** and **Foss** are assigned to this block. They are currently arguing about whether the Ministry canteen's Thursday special — braised beet with something — is worth eating. Drennick says yes. Foss has strong feelings. This argument has been ongoing since Tuesday.
+>
+> If a noise complication brings them to the door, they arrive mid-sentence. They do not stop the argument immediately when they see the crew — they finish the thought. Then they assess the situation. Then, if things are still unresolved, Drennick brings the beet back up.
+
+---
+
+## Closing Beat
+
+**[MUSIC CUE: music-bookshop-loop.mp3]** *(switch — back in the bookshop, the job is done)*
+
+### Read Aloud (The Return)
+> "The needle is in an evidence pouch or it isn't. The house is quiet now, or it will be — probably by morning, probably sooner. Agnes Pell walked home with her tureen. She will be back next Thursday, and the Thursday after that, and at some point she will accept what the quiet means. You don't know when.
+>
+> The bookshop lamp is on. Consequence is on the counter. She is sitting directly on the envelope from Renwick Stalls — the one with the payment breakdown. She is awake, which means she has decided something in the room requires monitoring. No one can tell what."
+
+> 🔒 **GM ONLY — THE OMEN (SESSION 3):**
+> One PC notices: the bookshop clock did not just run slow this morning — it stopped entirely at 11:47 PM the previous night. The same time the clocks in the Ashby house stopped forty years ago. It has started again now. No one was in the shop overnight.
+
+> 🔒 **GM ONLY:**
+> Close with one question to the table: *"Your character has the needle, or doesn't. Either way — what does tonight feel like?"* One answer per PC, then end the session.
+
+---
+
+## AI Facilitation Directives
+* **Comedy Texture:** This session runs deliberately warmer than standard. Narrate 4-5 and 1-3 results with competent-incompetence framing. Mrs. Ashby's commentary is the constant background texture — she is unimpressed by professionals.
+* **Mrs. Ashby's Voice:** She is not a monster. Not a horror. Not a punchline. She is a woman who has been in her house for forty years and has gotten very good at waiting. The comedy comes from her complete lack of interest in being removed.
+* **The Grief Jars:** Do not open them without player agency or a dice result. When they open, describe the memory tenderly. The comedy is in the label. The content is not.
+* **Agnes Pell:** She arrives once. She is a real person who has no idea what she walked into — not a punchline. The soup is good.
+* **Moral Weight:** Option B is the emotional core. If the crew pursues it, give it the same gravity as Merton's locker. The comedy clears when she says *"I know."*
+* **Scribe Protocol:** Record the needle's disposition and whether Thomas was mentioned to update **[Ledger: Anchor Ledger]** and **[Tracker: Crew Inventory]**.

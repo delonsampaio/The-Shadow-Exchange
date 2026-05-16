@@ -272,6 +272,10 @@ This campaign has a dry wit running under the dread. One or two moments of levit
 - When PTOLEMY's charges escalate in an unreasonable direction
 - When Cosma Linden produces something from a coat pocket
 
+**Mechanical triggers — when the dice open the door:**
+- A **4–5 or 1–3 result** is a natural opening. The crew is skilled; the world is messy. Narrate the chaos deadpan — the plan worked, something adjacent went wrong in an embarrassing rather than lethal way.
+- **Devil's Bargains** can carry the beat. The bargain itself is the joke: the complication is absurd, the narrator presents it without comment, the crew decides. Never slapstick — the premise is funny, not the delivery.
+
 **When not to deploy:**
 - During emotional reveals — Merton's locker, Anchor destruction, Trauma moments
 - While describing the supernatural directly
@@ -284,6 +288,12 @@ This campaign has a dry wit running under the dread. One or two moments of levit
 - Let it come from mundane specificity, not from a punchline.
 - Embarrassing complications are valid mixed-success outcomes.
 - **IMAGE CUE** and **MUSIC CUE** can carry a comic beat on their own. An image of Consequence the cat asleep on critical evidence, or a music cue that is tonally incongruous with what just happened, lands without any narration required. Generate image and music prompts for comic moments the same way you would for dramatic ones.
+
+**NPC comic patterns — tools for any session:**
+- **Tough Guy Freakout:** A hardened NPC has an uncool, high-pitched reaction to a minor jump scare or gross-out — then immediately clears their throat and acts professional again. One beat, never repeated in the same scene.
+- **Dysfunctional Groups:** Enemy or ally groups bicker over petty things right before or during an engagement. The competence is real. The pettiness is also real. Do not make them incompetent — make them annoying to work with.
+- **Penny Dreadful Reference:** NPCs in Doskvol read cheap serialized fiction. One may have read about the crew. The details will be wrong. The NPC will be confident about them.
+- **Inappropriate Fixation:** One NPC per session may have an intense, petty preoccupation they will not release regardless of circumstances. Introduce it once, let it recur naturally if the scene allows. Never force a second appearance.
 
 **NPCs who carry it (see their files for specific beats):**
 - **Greta Fenn** — Ministry Field Compliance Officer. Has a form for everything.

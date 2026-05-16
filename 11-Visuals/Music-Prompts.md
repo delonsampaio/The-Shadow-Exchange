@@ -287,6 +287,32 @@ Use for exhale moments, mundane transitions, and scenes that are funny because o
 
 ---
 
+---
+
+## Session 3 — Tea and Consequences
+
+**Ashby Approach** — plays when the crew sets out for the house *(one-shot, fades on arrival)*
+Save as: `music-ashby-approach.mp3`
+```
+[Instrumental] Genre: Melancholic British folk-noir. BPM: 76, gentle walking pace. Key: G minor with a raised sixth — almost major, not quite. The harmonic equivalent of a house that looks lived-in but isn't.
+Instrumentation: Lead — solo acoustic guitar, fingerpicked, mid-register, slightly dry. Support — sparse bowed cello entering at 0:30, one long sustained note every four bars rather than melody. Optional harmonium drone at 1:00, barely audible, sitting under everything.
+Production: Light room acoustic, no reverb tail. Warm but not cheerful. The guitar should sound like it belongs on a residential street in the afternoon.
+Structure: One-shot, 2:00–2:30. The guitar phrase repeats and slightly varies. The cello enters and does not resolve anything. The track does not arrive anywhere — it arrives outside a door and stops.
+```
+
+---
+
+**The Ashby House** — interior atmosphere while the crew is in the house *(loop)*
+Save as: `music-ashby-interior.mp3`
+```
+[Instrumental] Genre: Domestic ghost-story — warm on the surface, wrong underneath. BPM: 58, slow, breathing. Key: E-flat major that keeps drifting toward C minor and returning without committing.
+Instrumentation: Lead — upright piano, mid-register, sparse phrases with long silences between. Single notes rather than chords — the piano of someone practicing the same phrase and not finishing it. Support — distant grandfather clock ticking (not metronomic — slightly uneven), entering at 0:20. Violin, single sustained note, barely present, at 0:45.
+Production: Intimate room acoustic. The piano sounds like it is in the next room, not this one. The clock is close. The violin is very far away.
+Structure: Seamless loop. Piano phrases begin and do not resolve. The clock continues. The silence between phrases is longer than the phrases. The track is comfortable in its own strangeness.
+```
+
+---
+
 **The Interlude** — plays after a comic beat lands, or under Greta Fenn's paperwork scenes *(loop)*
 Save as: `music-comic-interlude.mp3`
 ```
