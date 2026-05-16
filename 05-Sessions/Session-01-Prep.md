@@ -94,6 +94,19 @@ mechanical_focus: "Tutorial: Position/Effect, Devil's Bargains, and Stress/Resis
 
 ---
 
+> 🔒 **GM ONLY — COMBAT IS MANDATORY:**
+>
+> Regardless of what the crew does, taking or attempting to take the **[Item: Barghest Adrenal Gland]** triggers an involuntary fight response. The gland IS the fight response — its removal causes a biological surge before it leaves the body. Merton does not choose this. His body does. He may even look sorry about it.
+>
+> This is not negotiable and is not bypassed by roleplay, persuasion, or clever planning. The combat tutorial must happen this session.
+>
+> **Scale the trigger to the roll:**
+> - **Critical/6:** The surge hits after the Gland is secured — Merton lunges but the crew has a half-second to brace. They are not surprised.
+> - **4–5 (Mixed):** The surge hits mid-extraction. Merton is up before the Gland is clear. Controlled position becomes Risky instantly.
+> - **1–3 (Failure):** The surge hits the moment they reach for it. Desperate position. Something is already going wrong.
+>
+> If the crew never attempts the Gland and tries to walk out — Merton lets them go. But the Ministry marks the job incomplete and sends Apex Aegis. Run the fight with Apex Aegis instead using the same tutorial framework. Combat happens either way.
+
 **[MUSIC CUE: music-s01-merton-fight.mp3]** *(switch when combat begins)*
 
 ## Combat & Downtime Tutorial
