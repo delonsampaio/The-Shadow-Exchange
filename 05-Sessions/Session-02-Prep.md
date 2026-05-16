@@ -29,10 +29,10 @@ mechanical_focus: "Group Actions, Flashbacks, and Twice-Born Favor."
 * **[Clock: The Omen]** (8-seg) — Potential first symptom reveal.
 
 ### NPC Roster
-* **[NPC: Emmerich]** (Twice-Born tailor).
-* **[Faction: Apex Aegis Peacekeepers]**.
+* **[NPC: Emmerich]** *(EM-er-ik)* (Twice-Born tailor).
+* **[Faction: Apex Aegis Peacekeepers]** *(Aegis: AY-jis)*.
 * **[NPC: Trusted Contact]** (**[Faction: The Mimic]** face).
-* **[NPC: PTOLEMY]** (In the Subway).
+* **[NPC: PTOLEMY]** *(TOL-uh-mee — the P is silent)* (In the Subway).
 * **[NPC: Crossroads Broker]** (In the Subway).
 * **[NPC: Cosma Linden]** (Twice-Born — The Teacher. First appearance. Near PTOLEMY's corner.)
 * **[NPC: Aldric Voss]** (Twice-Born — The Night Technician. First appearance. In the workshop off the platform.)

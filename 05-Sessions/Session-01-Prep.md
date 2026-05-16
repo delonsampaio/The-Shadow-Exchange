@@ -21,9 +21,9 @@ mechanical_focus: "Tutorial: Position/Effect, Devil's Bargains, and Stress/Resis
 * **[Clock: Detection]** (4-seg) — Active. Reset after the score.
 
 ### NPC Roster
-* **[NPC: Merton]** (Barghest, three layers).
+* **[NPC: Merton]** (Barghest *(BAR-gest — g as in "get")*, three layers).
 * **[NPC: Ministry Courier]** (No dialogue).
-* **[Faction: Apex Aegis Cleaners]** (Paramilitary team).
+* **[Faction: Apex Aegis Cleaners]** *(Aegis: AY-jis)* (Paramilitary team).
 * **[NPC: Trusted Contact]** (The candidate **[Faction: The Mimic]** face. Give them one small wrong-memory tell tonight).
 
 ---
