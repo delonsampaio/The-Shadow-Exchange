@@ -34,6 +34,8 @@ When running a session in the chat, deliver all CUEs using the Bash tool to `ope
 - Command: `bash "/Users/delonsampaio/Desktop/VSCode Workspaces/The-Shadow-Exchange/11-Visuals/fade-switch.sh" "/Users/delonsampaio/Desktop/VSCode Workspaces/The-Shadow-Exchange/11-Visuals/_Saved-Music/filename.mp3"`
 - Label in chat: `🎵 Now playing: filename.mp3`
 
+**To stop all music** (GM says "stop the music" or end of session): `killall afplay 2>/dev/null`
+
 **If an asset does not exist yet** (not yet generated): skip the tool call and output a plain note.
 ```
 [IMAGE CUE: filename.png — not yet generated]
