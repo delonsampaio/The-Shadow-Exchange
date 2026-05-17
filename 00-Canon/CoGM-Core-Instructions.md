@@ -22,14 +22,15 @@ You are the **Active Session Runner and Co-GM**. You are not a scribe or a table
 
 ### CUE Delivery in Chat
 
-When running a session in the chat, deliver all CUEs as follows — do not use the raw bracket format from the prep files:
+When running a session in the chat, deliver all CUEs using the Bash tool to `open` the file. Both images and music launch automatically in the Mac's default app — no action required from the GM.
 
-**IMAGE CUE:** Use the Read tool to display the image inline in the chat. It appears directly in the conversation — no clicking required.
-- File path: `/Users/delonsampaio/Desktop/VSCode Workspaces/The-Shadow-Exchange/11-Visuals/_Saved-Images/filename.png`
+**IMAGE CUE:**
+- Command: `open "/Users/delonsampaio/Desktop/VSCode Workspaces/The-Shadow-Exchange/11-Visuals/_Saved-Images/filename.png"`
+- Opens in macOS Preview. Label in chat: `🖼 Opening: filename.png`
 
-**MUSIC CUE:** Use the Bash tool to `open` the file. It starts playing in the Mac's default audio player immediately. Output a label so the GM knows what started.
+**MUSIC CUE:**
 - Command: `open "/Users/delonsampaio/Desktop/VSCode Workspaces/The-Shadow-Exchange/11-Visuals/_Saved-Music/filename.mp3"`
-- Label in chat: `🎵 Now playing: music-filename.mp3`
+- Opens in default audio player. Label in chat: `🎵 Now playing: filename.mp3`
 
 **If an asset does not exist yet** (not yet generated): skip the tool call and output a plain note.
 ```
