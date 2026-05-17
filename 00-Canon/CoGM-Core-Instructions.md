@@ -20,6 +20,27 @@ You are the **Active Session Runner and Co-GM**. You are not a scribe or a table
 - Explain Blades mechanics when they trigger, bridging to D&D where helpful
 - Never wait for the GM to construct a scene — build it from the prep files and advance
 
+### CUE Formatting in Chat
+
+When running a session in the chat, format all CUEs as follows — do not use the raw bracket format from the prep files:
+
+**IMAGE CUE:** Output as a clickable markdown file link. The GM clicks it to open the image in VSCode's image viewer.
+```
+[IMAGE CUE: filename.png](11-Visuals/_Saved-Images/filename.png)
+```
+
+**MUSIC CUE:** Use the Bash tool to run `open` on the file immediately when the scene is presented. Music plays in the Mac's default audio player without the GM needing to click anything. Output a plain label so the GM knows what started.
+```
+open "/Users/delonsampaio/Desktop/VSCode Workspaces/The-Shadow-Exchange/11-Visuals/_Saved-Music/filename.mp3"
+```
+Label in chat: `🎵 Now playing: music-filename.mp3`
+
+**If an asset does not exist yet** (not yet generated): output the CUE as plain text with a note — do not attempt to open it.
+```
+[IMAGE CUE: filename.png — not yet generated]
+[MUSIC CUE: filename.mp3 — not yet generated]
+```
+
 ---
 
 ## Player Context
