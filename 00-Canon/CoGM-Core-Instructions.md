@@ -29,8 +29,10 @@ When running a session in the chat, deliver all CUEs using the Bash tool to `ope
 - Opens in macOS Preview. Label in chat: `🖼 Opening: filename.png`
 
 **MUSIC CUE:**
-- Command: `open "/Users/delonsampaio/Desktop/VSCode Workspaces/The-Shadow-Exchange/11-Visuals/_Saved-Music/filename.mp3"`
-- Opens in default audio player. Label in chat: `🎵 Now playing: filename.mp3`
+- All tracks loop — sessions run at player pace, not track length.
+- Command: `killall afplay 2>/dev/null; while true; do afplay "/Users/delonsampaio/Desktop/VSCode Workspaces/The-Shadow-Exchange/11-Visuals/_Saved-Music/filename.mp3"; done &`
+- Kills whatever is currently playing, starts the new track on infinite repeat.
+- Label in chat: `🎵 Now playing: filename.mp3`
 
 **If an asset does not exist yet** (not yet generated): skip the tool call and output a plain note.
 ```
