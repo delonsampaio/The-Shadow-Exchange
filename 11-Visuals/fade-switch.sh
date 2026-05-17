@@ -1,5 +1,5 @@
 #!/bin/bash
-# fade-switch.sh — fade out current track, switch, fade back in
+# fade-switch.sh — fade out, switch track in QuickTime Player, fade back in
 # Usage: bash fade-switch.sh "path/to/track.mp3"
 
 NEW_TRACK="$1"
@@ -16,9 +16,17 @@ for i in $(seq "$STEPS" -1 0); do
     sleep "$INTERVAL"
 done
 
-# Switch track
-killall afplay 2>/dev/null
-while true; do afplay "$NEW_TRACK"; done &
+# Open new track in QuickTime Player (looping, minimized)
+osascript << APPLESCRIPT
+tell application "QuickTime Player"
+    close every document
+    open POSIX file "$NEW_TRACK"
+    delay 1
+    set looping of document 1 to true
+    play document 1
+    set miniaturized of window 1 to true
+end tell
+APPLESCRIPT
 
 # Fade in
 for i in $(seq 0 "$STEPS"); do
@@ -27,5 +35,4 @@ for i in $(seq 0 "$STEPS"); do
     sleep "$INTERVAL"
 done
 
-# Restore original volume exactly
 osascript -e "set volume output volume $CURRENT_VOL"
