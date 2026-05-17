@@ -1,6 +1,6 @@
 # The Shadow Exchange — Album Cover Prompts
 
-One image prompt per music track. Generate in Gemini image chat, save to `11-Visuals/_Saved-Images/`.
+One image prompt per music track. Generate in Gemini image chat, save to `11-Visuals/_Album-Covers/`.
 
 **Filename convention:** `cover-[music-filename].png` — e.g., `cover-bookshop-loop.png`
 
