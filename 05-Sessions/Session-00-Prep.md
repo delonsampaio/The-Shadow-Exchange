@@ -79,6 +79,8 @@ runtime: "~2.5–3 hours"
 
 ### The Lair
 
+**[IMAGE CUE: location-curios-exterior.png]** *(show when the lair read-aloud begins — exterior of the building)*
+
 **[IMAGE CUE: location-curios-exterior.png]** *(show on TV screen before the bookshop read-aloud — first time entering the location)*
 
 > 🔊 **READ ALOUD — PART 1 (stop at end of Zoltar passage):**
@@ -119,6 +121,11 @@ runtime: "~2.5–3 hours"
 
 > 🔊 **READ ALOUD — PART 2 (scanner station only):**
 >
+> **[MUSIC CUE: music-vocal-scanner-station.mp3]** *(fire at the start of this paragraph — scanner static bleeds in under your voice)*
+>
+> Half-buried in cabling against the side wall, the Scanner Station — three modified shortwave radios on a rolling cart, each tuned to a different government frequency. They intercept Ministry bounty traffic before the public list updates, which is how you sometimes know who's about to be hunted before whoever's hunting them does. There is a soft wash of static at all hours. You stopped hearing it months ago. It is always there.
+>
+> On clear nights, between the official broadcasts, you can pick up a man in another state. He broadcasts on AM without a call sign. His voice is flat, unhurried, slightly too close to the microphone — the voice of someone who has been talking for a long time and expects to keep talking. He reports locations. Not addresses — coordinates, landmarks, the kind of description that tells you where something is without naming what the something is. He is wrong about the cause. He is wrong about the history. He is never wrong about where. You have driven to three of his locations. You found something at all three. You have not been able to reach him to ask how he knows.
 > "Half-buried in cabling against the side wall, the Scanner Station — three modified shortwave radios on a rolling cart, each tuned to a different government frequency. They intercept Ministry bounty traffic before the public list updates, which is how you sometimes know who's about to be hunted before whoever's hunting them does. There is a soft wash of static at all hours. On clear nights, between the official broadcasts, you can pick up a man in another state broadcasting on AM about things he shouldn't be able to know about. He is wrong about almost everything. He is never wrong about where."
 
 **→ GM MOVE:** STOP HERE. Switch music before continuing.
