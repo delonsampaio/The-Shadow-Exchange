@@ -79,8 +79,6 @@ runtime: "~2.5–3 hours"
 
 ### The Lair
 
-**[IMAGE CUE: location-curios-exterior.png]** *(show when the lair read-aloud begins — exterior of the building)*
-
 **[IMAGE CUE: location-curios-exterior.png]** *(show on TV screen before the bookshop read-aloud — first time entering the location)*
 
 > 🔊 **READ ALOUD — PART 1 (stop at end of Zoltar passage):**
@@ -103,14 +101,6 @@ runtime: "~2.5–3 hours"
 >
 > Let the players sit with the Zoltar machine. It was here before them. Whoever installed it had reasons. They are not here to explain them.
 
-> ⏸ **PAUSE — Wait for the table's reaction to the Zoltar reveal before continuing.**
-
-**Step 1 — IMAGE CUE:** Open `location-containment-suite.png`
-**Step 2 — MUSIC CUE:** Fire `music-s00-zoltar-opens.mp3` (30-second stinger)
-
-> GM ONLY — WAIT FOR STINGER: Let the track finish before reading. (~30 seconds)
-
-**Step 3 — MUSIC CUE:** Switch to `music-containment-suite-loop.mp3` — then begin the Containment Suite read-aloud below.
 **[MUSIC CUE: music-containment-suite-loop.mp3]** *(switch to this when the stinger fades — runs for the full lair tour)*
 
 > 🔊 **READ ALOUD — PART 1 (stop before Scanner Station):**
@@ -123,25 +113,15 @@ runtime: "~2.5–3 hours"
 >
 > Centered under the brightest light: a zinc-topped surgical table with leather straps bolted to the corners. The zinc is scratched in patterns that suggest something was very interested in getting up. The straps have stains that didn't quite come out. This is where you open things, put them back together, or coax them into giving up what's inside them. Some jobs take an hour. Some take a week."
 
-> ⏸ **PAUSE — Let the table react to the room before continuing. Then fire the scanner cue and resume.**
-
-**[MUSIC CUE: music-vocal-scanner-station.mp3]** *(fire now — scanner static bleeds in under your voice as you continue)*
-
-> 🔊 **READ ALOUD (continued):**
-> Centered under the brightest light: a zinc-topped surgical table with leather straps bolted to the corners. The zinc is scratched in patterns that suggest something was very interested in getting up. The straps have stains that didn't quite come out. This is where you open things, put them back together, or coax them into giving up what's inside them. Some jobs take an hour. Some take a week."
-
 **→ GM MOVE:** STOP HERE. Fire the scanner music before continuing.
 
 **[MUSIC CUE: music-vocal-scanner-station.mp3]** *(layer in now — before reading the Scanner Station description)*
 
 > 🔊 **READ ALOUD — PART 2 (scanner station only):**
 >
-> **[MUSIC CUE: music-vocal-scanner-station.mp3]** *(fire at the start of this paragraph — scanner static bleeds in under your voice)*
->
 > "Half-buried in cabling against the side wall, the Scanner Station — three modified shortwave radios on a rolling cart, each tuned to a different government frequency. They intercept Ministry bounty traffic before the public list updates, which is how you sometimes know who's about to be hunted before whoever's hunting them does. There is a soft wash of static at all hours. You stopped hearing it months ago. It is always there.
 >
-> On clear nights, between the official broadcasts, you can pick up a man in another state. He broadcasts on AM without a call sign. His voice is flat, unhurried, slightly too close to the microphone — the voice of someone who has been talking for a long time and expects to keep talking. He reports locations. Not addresses — coordinates, landmarks, the kind of description that tells you where something is without naming what the something is. He is wrong about the cause. He is wrong about the history. He is never wrong about where. You have driven to three of his locations. You found something at all three. You have not been able to reach him to ask how he knows.
-> "Half-buried in cabling against the side wall, the Scanner Station — three modified shortwave radios on a rolling cart, each tuned to a different government frequency. They intercept Ministry bounty traffic before the public list updates, which is how you sometimes know who's about to be hunted before whoever's hunting them does. There is a soft wash of static at all hours. On clear nights, between the official broadcasts, you can pick up a man in another state broadcasting on AM about things he shouldn't be able to know about. He is wrong about almost everything. He is never wrong about where."
+> On clear nights, between the official broadcasts, you can pick up a man in another state. He broadcasts on AM without a call sign. His voice is flat, unhurried, slightly too close to the microphone — the voice of someone who has been talking for a long time and expects to keep talking. He reports locations. Not addresses — coordinates, landmarks, the kind of description that tells you where something is without naming what the something is. He is wrong about the cause. He is wrong about the history. He is never wrong about where. You have driven to three of his locations. You found something at all three. You have not been able to reach him to ask how he knows."
 
 **→ GM MOVE:** STOP HERE. Switch music before continuing.
 
@@ -152,8 +132,6 @@ runtime: "~2.5–3 hours"
 > "On the back wall, a corkboard pinned with polaroids. Each one annotated in red marker — a date, a name, a cause of death that is not the cause of death the Ministry filed. Every hunt that has happened in this building's life is on that wall. Look at it before a job involving anything you have already faced; there is always something pinned there that makes the next one easier. The earliest photo is older than one of you. None of you put it there.
 >
 > And near the surgical table, on a reading stand: an old leather-bound journal. Half the handwriting in it is yours. Half of it isn't. When you open it before a hunt, the people who came before you are still helping — some in pencil, some in pen, one of them in red ink, four years ago, in handwriting none of you recognize."
-
-**[MUSIC CUE: music-containment-suite-loop.mp3]** *(switch back now — crew is still in the room)*
 
 > ❓ **ASK THE TABLE:**
 >
@@ -216,7 +194,7 @@ runtime: "~2.5–3 hours"
 
 > 🔒 **GM ONLY:**
 >
-> For each Heirloom, pick *quietly* which of the bible's four degradation patterns it follows (`00-Canon/Campaign-Bible-v4.md`, Section 9).
+> For each Heirloom, pick *quietly* which of the bible's four degradation patterns it follows (`00-Canon/Heirloom-Degradation-Patterns.md`).
 >
 > **Reserved NPCs — do not allow as Friend or Rival:**
 > - **Elias Thorne** — pre-cast as the Mimic face in Session 1. If a player picks him as a Friend, the Session 1 reveal is burned. Redirect: *"Thorne is a Ministry name that will come up later — pick someone outside the Ministry for now."*
