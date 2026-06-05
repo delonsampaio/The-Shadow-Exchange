@@ -120,58 +120,151 @@ mechanical_focus: "Group Actions, Flashbacks, and Twice-Born Favor."
 ---
 
 ## The Twist — First Sight of The Subway
-**GM Prompt (The Flashback):** Before they notice the entrance, offer a Flashback to help them escape the alley.
 
-### Read Aloud (The Entrance)
+**GM Prompt (The Flashback):** Before they notice the entrance, offer a Flashback to help them escape the alley. The entrance appears mid-escape — they are not looking for it. It is simply there.
 
-> ⏸ **PAUSE — Say "go" as the alley dead-ends and the entrance appears.**
+---
 
-**[MUSIC CUE: music-supernatural.mp3]** *(fire on "go" — runs under the entrance read-aloud)*
+### Beat 1 — The Entrance
 
-> "You round the corner into a dead-end alley... right there — built into the concrete — is a green-painted iron railing. A sign reads: **Line 0 — Ethereal Express**. A businessman walks directly through where the railing stands. Like it doesn't exist... Something decided you qualify."
+> ⏸ **PAUSE — Say "go" as the alley dead-ends.**
 
-> ⏸ **PAUSE — Wait for the table's reaction and confirm they descend before continuing.**
+**[MUSIC CUE: music-supernatural.mp3]** *(fire on "go" — plays through the entrance read-aloud and the descent)*
 
-### Read Aloud (The Platform & PTOLEMY)
+> 🔊 **READ ALOUD:**
+>
+> "The alley ends in a brick wall. That's what it should be. Except there's a green-painted iron railing set into the concrete at the far end — waist high, leading down, the kind of railing you'd find at any subway entrance in any city. A sign above it, tiled in white ceramic, reads: **LINE 0 — ETHEREAL EXPRESS**. The tiles look original. They look like they've been there since the twenties.
+>
+> A man in a suit rounds the corner behind you at full stride, phone to his ear, and walks directly through the railing without slowing. Through the sign. Through the top step. He doesn't stumble. He doesn't notice. He turns the corner at the end of the alley and is gone.
+>
+> The railing is still there. You can see it. You could reach out right now and put your hand on it and feel the cold paint. You didn't do anything to earn this. Nothing changed about you between the street and this alley. Something decided you qualify, and it didn't ask."
 
-> ⏸ **PAUSE — Say "go" when they reach the platform.**
+> ⏸ **PAUSE — Let the table react. Confirm they descend. Say "go."**
+
+---
+
+### Beat 2 — The Descent
+
+> 🔊 **READ ALOUD:**
+>
+> "The stairs go down further than they should.
+>
+> This is not a figure of speech. Count them if you want — you have time. The alley above you is two stories deep at most. You are on step thirty-seven and still going. The city sounds — traffic, wind, the specific ambient noise of the world above — cut off completely on step fourteen. Not gradually. On step fourteen exactly, as though someone closed a door. After that: your own breathing. The iron railing under your hand is cold and real and slightly damp.
+>
+> The light changes on the way down. Street-level sodium orange. Then fluorescent. Then something greenish and sourceless that you cannot locate — it's not coming from any fixture you can see. It's just there, ambient, like the light inside a fish tank.
+>
+> By the time you reach the bottom, you are not sure how far underground you are. You are sure it should be impossible."
+
+> ⏸ **PAUSE — Say "go" when they reach the bottom.**
 
 **[IMAGE CUE: location-subway-main-hall.png]**
-**[MUSIC CUE: music-subway-loop.mp3]** *(fire on "go" — runs through the full Subway visit)*
+**[MUSIC CUE: music-subway-loop.mp3]** *(fire on "go" — switch from supernatural stinger; runs through the full visit)*
 
-> "The stairs go further down than they should... a vaulted hall lit in greenish light... There are people here. Some of them aren't... In the corner: a piece of luggage. Brass clasps, cracked leather, no visible eyes. The clasps click in patterns. It is listening to you."
+---
 
-> 🔒 **GM ONLY — COMIC BEAT (OPTIONAL):**
+### Beat 3 — The Hall
+
+> 🔊 **READ ALOUD:**
 >
-> PTOLEMY charges them for something before they ask it anything. The first interaction is not an exchange of information — it is a bill for standing too close. The clasp pattern is unambiguous. The crew can pay it or not. The ledger will reflect their choice either way.
-
-### The Twice-Born in the Subway
-**[IMAGE CUE: npc-cosma-linden.png]** *(show on first sight of Cosma)*
-**[IMAGE CUE: npc-aldric-voss.png]** *(show on first sight of Aldric)*
-
-> "Near PTOLEMY's corner, a woman in a coat with too many pockets is seated at a folding table, speaking to someone across from her. Her hands move while she talks — arranging something invisible on the surface between them, a habit she is not aware of. She looks up when she sees you. She does not look surprised. She looks like someone who has been expecting this particular introduction for some time.
+> "The space you step into is a vaulted hall — arched ceiling lost in greenish shadow somewhere high above, tile floors the color of old municipal bone. It shouldn't fit here. It is the size of a train station. Forty feet across, easy, and it extends in both directions further than you can see, curving gently out of sight like a runway.
 >
-> Further along the platform, through an open doorway marked with a hand-lettered sign: a room full of reel-to-reel equipment and analog consoles. An older man with headphones around his neck glances up from the equipment, takes you in for exactly two seconds, and goes back to what he was doing. He does not ask who you are. He already has an opinion."
-
-> 🔒 **GM ONLY:**
-> Cosma Linden speaks first — she always does with new arrivals. She is the Subway's welcome committee. She will explain what the crew has just walked into, what the Twice-Born are, and what it means that the entrance let them through. She is warm, clear, and completely honest about how serious it is. See `03-NPCs/Twice-Born/Cosma-Linden.md` for her voice and pocket comic beat.
+> There is a transit map on the north wall. You look at it automatically, because maps orient you. It doesn't. The lines don't match anything — not the city above, not any city — and one of them is marked in red ink that looks newer than the rest. You find yourself looking for your street. It's not there. Nothing you recognize is there.
 >
-> Aldric Voss will not introduce himself tonight. He will wait. If a PC approaches the workshop, he will answer questions in half-sentences. He is deciding whether they are worth complete ones. See `03-NPCs/Twice-Born/Aldric-Voss.md`.
+> There are people here.
+>
+> Some of them aren't.
+>
+> A figure in a business suit reads a newspaper at a bench. Their shoes are on backwards. They are reading what appears to be the Classifieds. A woman in a yellow coat is laughing at something her companion said; her companion has too many fingers. A teenager in a school uniform is asleep against a pillar, a backpack in their lap, and their shadow is pointing the wrong direction.
+>
+> Nobody looks at you. Not yet. This is a place with etiquette you don't know yet, and you can feel that getting it wrong would be immediately obvious. Like walking into a dinner party mid-conversation and not knowing anyone's name.
+>
+> In the far corner — before you have had time to take any of this in — a piece of old leather luggage shifts. Brass clasps, cracked leather. No visible eyes. The clasps are moving in a slow deliberate pattern, like morse code except it isn't morse code. It is looking at you. It has been looking at you since before you came down the stairs. It has been waiting."
 
-### Read Aloud (The Broker)
-**[IMAGE CUE: npc-crossroads-broker.png]** *(show as the Broker is described)*
-> "There's a booth at the very back of the hall — too far back, somehow... One man at the booth, alone. Gray suit, narrow tie... He glances up as you pass. He nods. Just at one of you."
+> ⏸ **PAUSE — Let the table absorb. Take reactions. Then say "PTOLEMY charges them."**
 
-### Read Aloud (The Exit)
+> 🔒 **GM ONLY — PTOLEMY (FIRST CHARGE):**
+>
+> Before the crew approaches, before they ask anything — the clasps shift. The pattern translates, somehow, into meaning: the crew owes a favor for entering PTOLEMY's awareness. It is not an entrance fee for the Subway. It is a consulting fee for being observed. The crew can pay it (the ledger records it without comment) or decline (the ledger records that too). Either way, PTOLEMY is now tracking them.
+>
+> **The first charge is small and specific.** Examples: the weight of the heaviest thing they are carrying right now. The last name of the youngest person in the room. The specific smell they associate with the shop's back room. PTOLEMY doesn't need this. The ledger needs it. The distinction is important.
+>
+> **Subway etiquette — enforce gently on first visit:**
+> - Do not touch anything at the Fence's stall until you've established you're buying
+> - Do not approach the back booth on a first visit — the Broker is not a first-visit resource
+> - Do not speak to a Twice-Born as a target, mark, or contract — others in the room notice instantly
+> - Do not ask PTOLEMY a question without bringing something to offer first
 
-> ⏸ **PAUSE — Say "go" as they emerge from the Subway.**
+---
+
+### Beat 4 — Cosma, Aldric, and the Job Board
+
+**[IMAGE CUE: npc-cosma-linden.png]** *(show when Cosma approaches)*
+
+> 🔊 **READ ALOUD:**
+>
+> "Near PTOLEMY's corner, a woman in a coat with too many pockets gets up from a folding table and walks toward you. She is not surprised. She moves like someone who has been making this walk — toward new arrivals who look exactly the way you look right now — for a very long time.
+>
+> 'You're wondering why you can see this,' she says. 'Everyone wonders that first. Sit down. I'll explain what I can.' She pulls a chair from somewhere. There are more chairs than there should be. 'My name is Cosma. I'll be the one answering the questions that don't get you killed. The ones that might — those you'll have to work out.'"
+
+> 🔒 **GM ONLY — COSMA'S ORIENTATION:**
+>
+> Cosma tells them three things. Speak these as her, in full voice:
+>
+> 1. *"The Twice-Born aren't what the Ministry's paperwork says they are. They're people. Some of them have been people longer than anyone in this room has been alive. The ones down here aren't hiding from you — they're hiding from Apex and the Suppression Bureau. There's a difference."*
+> 2. *"This place chose you. That doesn't mean it trusts you. It means you've demonstrated one quality, once, under pressure. You'll have to keep demonstrating it. The entrance doesn't come with tenure."*
+> 3. *"The man in the corner with the luggage is PTOLEMY. You already owe it something. Everyone does, eventually. It's very fair about it. I'd pay soon — the interest is metaphorical, but it accrues."*
+>
+> She will answer questions about the Subway honestly and completely. She will not speculate about who controls it. She does not know, and she does not pretend to.
+
+**[IMAGE CUE: npc-aldric-voss.png]** *(show if a PC approaches the workshop)*
+
+> 🔒 **GM ONLY — ALDRIC (DO NOT FORCE):**
+>
+> Aldric does not approach. If a PC goes to the workshop doorway, he glances up. Half-sentence: "Don't touch the equipment." If they stay and ask a question: "What kind?" If they ask about the AM broadcasts: a full sentence — "That's me. Has been for sixty years. I'm better now." He is deciding whether they're worth complete sentences. Tonight he gives one. See `03-NPCs/Twice-Born/Aldric-Voss.md`.
+
+> 🔒 **GM ONLY — THE JOB BOARD:**
+>
+> If the crew looks at the Job Board, three postings are visible:
+>
+> - **A sealed envelope pinned with a red pin.** No description. PTOLEMY's clasps click once when someone reaches for it. GM read: not for tonight. It will still be there.
+> - **"Item recovery — a compass that always points to Calloway Alley. Compensation: the story of how it got there."** The compass is an anchor item for a Twice-Born the crew hasn't met yet. Do not let them take this job tonight — the relationship has to be established first.
+> - **"Someone has been asking about Line 0 above ground. Not Ministry. Not Apex. No uniform. Twice in two weeks."** No client listed. No compensation. This is information that the community wants hunters to have. It is not a job. It is a warning. (This is Mimic-adjacent — the Understudied is mapping entrances. The crew doesn't know this yet.)
+
+---
+
+### Beat 5 — The Broker and the Exit
+
+> 🔒 **GM ONLY — THE BROKER (DO NOT PUSH):**
+>
+> The crew will notice the back booth. A man in a gray suit. Narrow tie. 1987. He glances up when anyone looks at him. He nods — just at one of them. Do not play this out further tonight. The Broker is not a first-visit resource. If the crew approaches: "Sit down if you like. I'm not going anywhere." That is all he says tonight. He is planting a location. The deal comes later.
+
+**[IMAGE CUE: npc-crossroads-broker.png]** *(show when the Broker is described — then do not develop further)*
+
+> ⏸ **PAUSE — Say "go" when the crew is ready to leave.**
 
 **[MUSIC CUE: music-aftermath.mp3]** *(fire on "go" — runs under the exit read-aloud)*
 
-> "When you emerge it is evening, and you are miles away — on a pier over the water... Behind you is a brick wall with a faded advertisement for cigarettes that hasn't been sold since 1973. It was always a brick wall."
+> 🔊 **READ ALOUD (The Exit):**
+>
+> "When you emerge it is evening. You are miles away — on a pier over the water, the city skyline behind you, the smell of low tide and diesel. Behind you is a brick wall with a faded advertisement for cigarettes that hasn't been sold since 1973. It was always a brick wall. There is no railing. There is no sign. There never was, from this side.
+>
+> You know where it is now. You know what it cost to get there. You know that a piece of luggage has your name in a ledger somewhere underground and the entry is already accurate.
+>
+> The city looks the same as it did this morning. It is not."
+
+> 🔒 **GM ONLY — WHAT THE CREW NOW KNOWS:**
+>
+> Confirm these to yourself before the closing beat — the crew leaves Session 2 with this:
+> - PTOLEMY exists, charges fairly, and is already tracking them
+> - Cosma Linden is a resource and a moral compass for Twice-Born questions
+> - The Job Board exists — three postings, none immediately actionable
+> - Aldric Voss is in the workshop; he has not decided about them yet
+> - The back booth has a man who nods at one of them
+> - The transit map has a red line that doesn't match the city above
+> - The entrance is perceivedby the Subway, not found by the crew — and it can stop being visible
 
 > 🔒 **GM ONLY — MIMIC TELL (SESSION 2):**
-> The Trusted Contact appears again this session. Plant one wrong-memory tell — different from Session 1's Aldgate file. This time: they reference something a crew member said during the Merton job, but get one specific detail wrong. They say the crew "found the collar on the table" — the collar was in the locker. They have the right scene, the wrong detail. Someone who was there would not get it wrong. Move past it before anyone can correct them.
+> Elias Thorne appears again this session. Plant **Tell 3** from `Elias-Thorne.md` — walking past Emmerich's shop earlier, he paused a half-second too long before looking away. If Tell 3 was already planted in the Emmerich scene above, plant **Tell 4** here instead: he references "last Tuesday's conversation" — a conversation the crew remembers differently, or doesn't remember at all.
 
 ---
 
