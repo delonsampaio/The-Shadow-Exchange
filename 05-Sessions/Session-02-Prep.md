@@ -80,13 +80,15 @@ mechanical_focus: "Group Actions, Flashbacks, and Twice-Born Favor."
 
 **[IMAGE CUE: location-emmerichs-shop.png]**
 
-> "Mid-morning on a weekday. The shopping district is loud in a way that makes the Resonance scanner readouts hard to parse... Emmerich's shop is on the second floor — a window painted with the words **EMMERICH & DAUGHTER, BESPOKE TAILOR** in gold leaf. The 'and Daughter' has been there a long time."
+> "Mid-morning on a weekday. The shopping district is loud in a way that makes the Resonance scanner readouts hard to parse — too many people moving too many things with too many minor resonance signatures, none of them individually remarkable, all of them noise. Emmerich's shop is on the second floor — a window painted with the words **EMMERICH & DAUGHTER, BESPOKE TAILOR** in gold leaf. The 'and Daughter' has been there a long time. Not painted over. Not updated. They just never removed it."
 
 > ⏸ **PAUSE — Wait for the table's reaction and confirm they move to observe before continuing.**
 
 ### Read Aloud (The Observation)
 **[IMAGE CUE: npc-emmerich.png]** *(show as the crew observes him through the window)*
-> "Through the upstairs window, you can see him... measuring a small child for a school uniform... asking a question that makes the child laugh. There is a woman waiting on the bench... they have known each other for a long time. Probably their whole lives. Probably more than that. He is a tailor. He has always been a tailor."
+> "Through the upstairs window, you can see him. He's measuring a small child for a school uniform — holding the tape at her shoulder, saying something that makes the child laugh. He waits for her to stop before writing the measurement down. There is a woman on the bench by the window — the child's mother, from the look of it. She is not watching him work. She is watching her daughter. The kind of watching that means she has seen this before, maybe many times, maybe this exact bench. Emmerich says something to the mother. She smiles. They have known each other a long time. Probably their whole lives. Probably more than that.
+>
+> He is a tailor. He has always been a tailor. The silver thimble is on his right hand."
 
 > 🔒 **GM ONLY — COMIC BEAT (OPTIONAL):**
 > The crew is here to steal something from a man who is currently fitting a seven-year-old for a school uniform. The child is very excited about the buttons. Emmerich is asking her opinion on the buttons with complete seriousness. There is no good moment to do what they came here to do.
@@ -112,10 +114,31 @@ mechanical_focus: "Group Actions, Flashbacks, and Twice-Born Favor."
 ### Choice-Specific Read Alouds
 * **The Seizure:** "It's small enough to disappear in a closed fist... warm. Warmer than it should be."
 * **The Warning:** "He says, very quietly: 'How long do I have?' He has been waiting for this conversation for a long time."
-* **The Apex Ping:** "Two of them, dark coats, earpieces... clipboards. 'Unlicensed extraction detected,' he says into his comms. 'Flagging **Curios & Chronicles** for a compliance audit.'"
+* **The Apex Ping:** "Two of them, dark coats, earpieces, clipboards — standard compliance posture. One is talking into a comms unit without looking at anyone specific. 'Unlicensed extraction detected, Meridian block, second floor commercial.' A pause. 'Flagging **Curios & Chronicles** for a compliance audit, priority standard.' He says it the way someone reads from a form. He is reading from a form."
 
 > 🔒 **GM ONLY — GRETA FENN (DOWNTIME):**
 > Regardless of which option the crew chooses, Greta Fenn appears during Downtime with a clipboard. If they seized the thimble: Form 22-A, Anchor Item Extraction, Biological Subject Ambulatory. If they warned him: Form 31, Incomplete Engagement — she needs two signatures explaining why the job wasn't finished. If Apex Aegis got involved: she has seven forms and a mild expression of professional disappointment. She always has the right form. She is always slightly put-upon about having to use it.
+
+---
+
+## Downtime — After the Emmerich Job
+
+> 🔒 **GM ONLY — RUN DOWNTIME BEFORE THE SUBWAY REVEAL:**
+> The Subway entrance does not appear until the crew is in the alley escaping Apex attention. Run Downtime *briefly* — one round of actions — before the escape triggers. This gives the table a beat to breathe and ensures the Subway entrance lands as a surprise mid-flight rather than a destination.
+
+**SAY TO ALL:** *"Before the escape — a moment. Everyone gets one Downtime action while the job is still fresh. What does your character do with it?"*
+
+> 🔒 **GM ONLY — DOWNTIME ACTIONS AVAILABLE (remind only if asked):**
+> - **Recover:** Clear stress or Harm with a physicker or rest. *Suggested fiction: the back-alley clinic on Linder Street, or just a locked door and an hour.*
+> - **Acquire Assets:** Spend Coin to source something useful for later. *Example: a contact who knows Apex patrol routes.*
+> - **Long-Term Project:** Tick a clock. *Example: Research the Twice-Born — first tick opens the Cosma Linden file.*
+> - **Reduce Heat:** A quiet word, a misdirection, a favor called in. *The Emmerich job may have generated Heat depending on what the crew chose.*
+> - **Vice:** Roll your Vice attribute to clear stress. On a failure, you overindulge — take a complication (Harm, Coin loss, entanglement).
+
+> 🔒 **GM ONLY — WHAT CHANGES BASED ON EMMERICH CHOICE:**
+> - **Seized the thimble:** The ledger entry updates quietly. If anyone rolls Vice tonight, describe a brief intrusive thought — something warm in a closed fist, a child laughing. No mechanical effect. Just texture.
+> - **Warned Emmerich:** The crew took a Heat tick from the Apex ping and no Coin. Reduce Heat is a logical first action. If a PC researches the Twice-Born, Cosma Linden's name comes up in old community records — not yet an introduction, just a name.
+> - **Partial complicity:** Half payout. If anyone counts the Coin tonight, it is correct to the penny. It does not feel correct.
 
 ---
 
