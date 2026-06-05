@@ -1,7 +1,7 @@
 ---
 entity_type: Faction
 name: "Apex Aegis"
-tier: V
+tier: IV
 hold: Strong
 standing_with_crew: -1
 status: Active

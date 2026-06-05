@@ -1,7 +1,7 @@
 ---
 entity_type: Faction
 name: "The Ministry"
-tier: IV
+tier: V
 hold: Strong
 standing_with_crew: 0
 status: Active

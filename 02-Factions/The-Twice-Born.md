@@ -30,7 +30,7 @@ Maximum 3 Favor tokens held at once. If the Subway Decay Clock advances while th
 *(Files in `03-NPCs/Twice-Born/`. Add as the crew encounters them.)*
 
 - **Emmerich** — tailor, 200 years, silver thimble Anchor Item. Knows the Mimic's true name. (Heist 2)
-- **The librarian** — silver locket Anchor Item, 60 years in this city, knows every child who has passed through that library. *(Bible NPC, not yet placed.)*
+- **Senna Calder** — borrower's card (Meridian Public Library, 1943) Anchor Item. Has been cataloguing this city's supernatural history since the 1940s. Holds copies of thirty years of Ministry Resonance incident reports. Full file: `03-NPCs/Twice-Born/Senna-Calder.md`. Available after Subway access.
 - **The former sailor** — brass compass that always points to one alley. *(Bible NPC, not yet placed.)*
 - **The hunted one** — laminated child's drawing of a family long dead. *(Bible NPC, not yet placed.)*
 - **The recent arrival** — coin from no country, hums at 3am. Behavior unclear. PTOLEMY appraisal needed. *(Bible NPC, not yet placed.)*
