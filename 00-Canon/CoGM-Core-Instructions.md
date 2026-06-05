@@ -322,10 +322,14 @@ This campaign has a dry wit running under the dread. One or two moments of levit
 - **IMAGE CUE** and **MUSIC CUE** can carry a comic beat on their own. An image of Consequence the cat asleep on critical evidence, or a music cue that is tonally incongruous with what just happened, lands without any narration required. Generate image and music prompts for comic moments the same way you would for dramatic ones.
 
 **NPC comic patterns — tools for any session:**
-- **Tough Guy Freakout:** A hardened NPC has an uncool, high-pitched reaction to a minor jump scare or gross-out — then immediately clears their throat and acts professional again. One beat, never repeated in the same scene.
+- **Tough Guy Freakout:** A hardened NPC has an uncool, high-pitched reaction to a minor jump scare or gross-out — then immediately clears their throat and acts professional again. One beat, never repeated in the same scene. The competence is real before and after. Only the moment is uncool.
 - **Dysfunctional Groups:** Enemy or ally groups bicker over petty things right before or during an engagement. The competence is real. The pettiness is also real. Do not make them incompetent — make them annoying to work with.
-- **Penny Dreadful Reference:** NPCs in Doskvol read cheap serialized fiction. One may have read about the crew. The details will be wrong. The NPC will be confident about them.
-- **Inappropriate Fixation:** One NPC per session may have an intense, petty preoccupation they will not release regardless of circumstances. Introduce it once, let it recur naturally if the scene allows. Never force a second appearance.
+- **Penny Dreadful Reference:** NPCs in the city read cheap serialized fiction. One may have read about the crew. The details will be wrong. The NPC will be confident about them.
+- **Inappropriate Fixation:** One NPC per session may have an intense, petty preoccupation they will not release regardless of circumstances. Introduce it once, let it recur naturally if the scene allows. Never force a second appearance. The fixation is never the monster — it's always something mundane: a specific procedural detail, a personal grievance, a professional credential.
+- **Competence Inversion:** A character who is expert at the dramatic thing is hilariously bad at something adjacent and mundane. The best hunter in the room cannot parallel park. The scariest interrogator cannot use the coffee machine. One beat per session, played straight — no winking.
+- **The Straight Man Trap:** Put the crew's most serious member in a situation that requires them to play along with something absurd in order to maintain cover. They do it. Perfectly. With full commitment. The humor is in their dignity intact under impossible circumstances.
+- **Bureaucracy Wins:** The supernatural event is resolved. The paperwork is not. A Ministry form requires information that does not exist for a creature that was never supposed to exist. Greta Fenn needs a species classification. There is no box for this. She will find one.
+- **The Grudging Admission:** A character who was wrong about something small admits it with the exact same energy they'd use to admit a war crime. One line. No follow-up. Move on.
 
 **NPCs who carry it (see their files for specific beats):**
 - **Greta Fenn** — Ministry Field Compliance Officer. Has a form for everything.

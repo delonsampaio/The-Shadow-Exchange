@@ -211,6 +211,91 @@ You may treat up to three faction statuses at +3 as if they were turf, for Tier 
 
 ---
 
-## A note on the SRD
+---
+
+## Part 5 — Creature Design Principles
+
+These rules govern how creatures are built and run in *The Shadow Exchange*. Every creature should feel like it was discovered, not invented — specific, researched, with a logic the crew can learn.
+
+---
+
+### The Three-Layer Rule
+
+Every creature has three layers. Surface all three before the score ends.
+
+| Layer | What it is | Example |
+|---|---|---|
+| **Mundane Cover** | What it looks like to an uninformed observer | Animal attack, gas leak, mental illness |
+| **True Nature** | What it actually is — specific, not generic | A Nachzehrer pack alpha building an army |
+| **Tragic Angle** | The human cost underneath the monster | A wife who turned her kids to protect them |
+
+If a creature only has a Mundane Cover and a True Nature, it's a threat. Add the Tragic Angle and it becomes a *Shadow Exchange* creature.
+
+---
+
+### Kill Condition Hierarchy
+
+Every creature needs a kill condition with at least two layers:
+
+1. **What slows it** — silver, salt, fire, light. Buys time. Does not end the threat.
+2. **What kills it** — specific, researched, often counterintuitive. Not just "more of what slows it."
+3. **What resets it** — optional. If killing the Alpha reverts the pack, if destroying the object frees the spirit, state it explicitly.
+
+**Design rule:** The kill condition should require something the crew has to find or acquire, not something they already carry. The research is part of the job.
+
+---
+
+### Weakness Layering
+
+Weaknesses exist on a spectrum. State which tier applies:
+
+| Tier | Effect | Example |
+|---|---|---|
+| **Slows** | Reduces effectiveness, buys time | Silver bullets slow a Nachzehrer |
+| **Stops** | Immobilizes or contains temporarily | Holy fire traps an angel |
+| **Kills** | Ends the threat permanently | Copper coin + decapitation for a Nachzehrer |
+| **Resets** | Undoes what the creature has done | Killing the Alpha reverts its turned victims |
+
+Never let silver both slow and kill the same creature — that collapses the hierarchy and removes the research payoff.
+
+---
+
+### Creatures That Look Human
+
+This campaign specializes in creatures that pass as human. Design rules:
+
+- **The tell is always mundane.** Not glowing eyes — wrong shoes. Not a shadow — the wrong syrup order. The crew finds it by paying attention to what doesn't change, not by looking for the dramatic signal.
+- **The creature knows it's passing.** It has a social life, a cover story, a reason to be trusted. Surface the mundane life before the true nature.
+- **The human cost comes first.** The creature turned people it cared about. It has a reason. It is not simply predatory — it has a logic, even if the logic is monstrous.
+- **One tell per creature, planted early.** The tell should be visible in the first scene if the crew is paying attention. Never withhold it entirely — the satisfaction is in the crew noticing it later, not in the GM revealing it.
+
+---
+
+### The Cover-Up as Creature Design
+
+Every creature generates a cover-up problem. Build this into the creature:
+
+- **What does it leave behind?** Bodies, missing persons, property damage, witnesses.
+- **What does the Ministry's standard explanation cover?** Animal attack, gas leak, industrial accident, mental health crisis.
+- **What breaks the standard explanation?** The detail that doesn't fit — the thing the crew has to suppress or explain away.
+- **Who saw something?** A witness with a phone is scarier than the creature. Name them. Give them a face.
+
+The cover-up is not cleanup after the score. It is part of the score.
+
+---
+
+### Optional: The Escalating Threat
+
+For creatures that recur across sessions, define three states:
+
+| State | What it means | Trigger |
+|---|---|---|
+| **Contained** | Operating quietly, low exposure risk | Starting state |
+| **Stressed** | Behavior changes, cover slipping | Crew interference, feeding disruption |
+| **Exposed** | Active threat to the cover-up | Crew failure, Ministry attention |
+
+Move the creature up the scale when the crew fails or partially succeeds. Move it down when the crew manages the situation well. A creature at Exposed is a faction-level problem — it affects Heat, Rep, and Ministry standing.
+
+---
 
 The Blades SRD (in `00-Canon/Blades-SRD.html`) does not include specific crew playbooks — the Hunters type is custom to this campaign. The special abilities above are drawn from the SRD's generic ability list and filtered for a monster-hunting crew. If a player invents an ability concept that isn't on this list, you can work it out with them — the system is designed for that.

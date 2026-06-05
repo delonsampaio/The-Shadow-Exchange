@@ -79,25 +79,31 @@ runtime: "~2.5–3 hours"
 
 ### The Lair
 
-> 🔊 **READ ALOUD:**
+**[IMAGE CUE: location-curios-exterior.png]** *(show on TV screen before the bookshop read-aloud — first time entering the location)*
+
+> 🔊 **READ ALOUD — PART 1 (stop at end of Zoltar passage):**
 >
 > "Before the job starts, let's look at your home. A narrow, three-story brick building sandwiched between two glass-and-steel skyscrapers like a relic of a forgotten century. It shouldn't exist. This is **Curios & Chronicles**.
 >
-> To any passerby: a struggling bookstore. Vanilla, old parchment, floor wax. A rotary phone. A half-knitted sweater. A sleeping cat named **Consequence**. It makes twenty dollars a day on purpose. That's the point.
->
-> In the back corner, near the Occult & Folklore section, behind a stack of moldering atlases, stands an old **Zoltar machine** — a glass-fronted booth the size of a phone box. Inside: a robed automaton with a painted beard, a turban, brass hands resting on a velvet pedestal where a deck of fortune cards used to be. The cards are long gone. The machine has been unplugged at the wall for decades. You push a specific coin into the slot in a specific sequence — a code only you know — and Zoltar's glass eyes flicker once, green; his head turns one degree to the left; and the wall behind him slides back with the heavy pneumatic hiss of a train door."
+> To any passerby: a struggling bookstore. Vanilla, old parchment, floor wax. A rotary phone. A half-knitted sweater. A sleeping cat named **Consequence**. It makes twenty dollars a day on purpose. That's the point."
 
-**→ GM MOVE:** Then read the Containment Suite tour.
+**[MUSIC CUE: music-s00-zoltar-opens.mp3]** *(fire now — before reading the Zoltar description, let it establish for a beat)*
+
+> 🔊 **READ ALOUD — PART 2 (read Zoltar passage while stinger plays):**
+>
+> "In the back corner, near the Occult & Folklore section, behind a stack of moldering atlases, stands an old **Zoltar machine** — a glass-fronted booth the size of a phone box. Inside: a robed automaton with a painted beard, a turban, brass hands resting on a velvet pedestal where a deck of fortune cards used to be. The cards are long gone. The machine has been unplugged at the wall for decades. You push a specific coin into the slot in a specific sequence — a code only you know — and Zoltar's glass eyes flicker once, green; his head turns one degree to the left; and the wall behind him slides back with the heavy pneumatic hiss of a train door."
+
+**→ GM MOVE:** STOP HERE. Fire the image before continuing into the lair tour.
+
+**[IMAGE CUE: location-containment-suite.png]** *(show now — the wall has opened)*
 
 > 🔒 **GM ONLY — COMIC BEAT (OPTIONAL):**
 >
-> Pause after "heavy pneumatic hiss of a train door." Let the players sit with the fact that their secret entrance is a Zoltar machine. If they laugh, let them. It was a Zoltar machine before it was theirs. Whoever installed it had reasons. They are not here to explain them.
+> Let the players sit with the Zoltar machine. It was here before them. Whoever installed it had reasons. They are not here to explain them.
 
-**[IMAGE CUE: location-containment-suite.png]** *(show as the wall opens — "the wall slides back with the heavy pneumatic hiss")*
-**[MUSIC CUE: music-s00-zoltar-opens.mp3]** *(play as the wall opens — 30-second stinger)*
 **[MUSIC CUE: music-containment-suite-loop.mp3]** *(switch to this when the stinger fades — runs for the full lair tour)*
 
-> 🔊 **READ ALOUD:**
+> 🔊 **READ ALOUD — PART 1 (stop before Scanner Station):**
 >
 > "The pneumatic door seals behind you and the bookshop is gone. Vanilla and old parchment, replaced by something colder — a chemical tang, the sort of clean you only smell in dental offices and morgues. Fluorescent panels click on overhead, one by one.
 >
@@ -105,15 +111,25 @@ runtime: "~2.5–3 hours"
 >
 > Beside the drawers, set into the brick: a bank-style safe door, heavy as a small car, lined with lead, a row of small mirrors sunk flush into the front face. When it's closed and sealed, what's inside goes quiet — stops humming, stops calling, stops being on the kind of map the Ministry's scanners read. You have tested this. They drive past the building. They find nothing. The mirrors are not for looking at.
 >
-> Centered under the brightest light: a zinc-topped surgical table with leather straps bolted to the corners. The zinc is scratched in patterns that suggest something was very interested in getting up. The straps have stains that didn't quite come out. This is where you open things, put them back together, or coax them into giving up what's inside them. Some jobs take an hour. Some take a week.
+> Centered under the brightest light: a zinc-topped surgical table with leather straps bolted to the corners. The zinc is scratched in patterns that suggest something was very interested in getting up. The straps have stains that didn't quite come out. This is where you open things, put them back together, or coax them into giving up what's inside them. Some jobs take an hour. Some take a week."
+
+**→ GM MOVE:** STOP HERE. Fire the scanner music before continuing.
+
+**[MUSIC CUE: music-vocal-scanner-station.mp3]** *(layer in now — before reading the Scanner Station description)*
+
+> 🔊 **READ ALOUD — PART 2 (scanner station only):**
 >
-> Half-buried in cabling against the side wall, the Scanner Station — three modified shortwave radios on a rolling cart, each tuned to a different government frequency. They intercept Ministry bounty traffic before the public list updates, which is how you sometimes know who's about to be hunted before whoever's hunting them does. There is a soft wash of static at all hours. On clear nights, between the official broadcasts, you can pick up a man in another state broadcasting on AM about things he shouldn't be able to know about. He is wrong about almost everything. He is never wrong about where.
+> "Half-buried in cabling against the side wall, the Scanner Station — three modified shortwave radios on a rolling cart, each tuned to a different government frequency. They intercept Ministry bounty traffic before the public list updates, which is how you sometimes know who's about to be hunted before whoever's hunting them does. There is a soft wash of static at all hours. On clear nights, between the official broadcasts, you can pick up a man in another state broadcasting on AM about things he shouldn't be able to know about. He is wrong about almost everything. He is never wrong about where."
+
+**→ GM MOVE:** STOP HERE. Switch music before continuing.
+
+**[MUSIC CUE: music-containment-suite-loop.mp3]** *(switch back — scanner track ends here)*
+
+> 🔊 **READ ALOUD — PART 3 (corkboard and journal):**
 >
-> On the back wall, a corkboard pinned with polaroids. Each one annotated in red marker — a date, a name, a cause of death that is not the cause of death the Ministry filed. Every hunt that has happened in this building's life is on that wall. Look at it before a job involving anything you have already faced; there is always something pinned there that makes the next one easier. The earliest photo is older than one of you. None of you put it there.
+> "On the back wall, a corkboard pinned with polaroids. Each one annotated in red marker — a date, a name, a cause of death that is not the cause of death the Ministry filed. Every hunt that has happened in this building's life is on that wall. Look at it before a job involving anything you have already faced; there is always something pinned there that makes the next one easier. The earliest photo is older than one of you. None of you put it there.
 >
 > And near the surgical table, on a reading stand: an old leather-bound journal. Half the handwriting in it is yours. Half of it isn't. When you open it before a hunt, the people who came before you are still helping — some in pencil, some in pen, one of them in red ink, four years ago, in handwriting none of you recognize."
-
-**[MUSIC CUE: music-vocal-scanner-station.mp3]** *(layer in now — the scanner station static and the AM broadcaster bleeding through, running under the table's riff)*
 
 > ❓ **ASK THE TABLE:**
 >
@@ -146,7 +162,19 @@ runtime: "~2.5–3 hours"
 **→ GM MOVE:** Walk the table through what the crew starts with:
 - **Cold Storage Locker, Lead-Lined Vault, Post-Op Table, Scanner Station, Trophy Wall, Hunter's Journal** — the lair upgrades.
 - **Double Bookkeeping** *(custom)* — when you finish a Ministry bounty, roll **Sway** to fudge the paperwork. On a success, you keep one minor item from the target without the Ministry noticing.
-- Pick **one additional Special Ability** — see `00-Canon/GM-Rules-Reference.md` Part 4 for the full list with descriptions and a quick pick guide.
+- Pick **one additional Special Ability** from the list below:
+
+| Ability | Effect | Best for |
+|---|---|---|
+| **Deadly** | Each PC adds +1 to Hunt, Prowl, or Skirmish | Field efficiency |
+| **Anointed** | +1d vs supernatural threats and recovery | Survival — recommended for new players |
+| **Forged in the Fire** | Each PC gets +1d on ALL resistance rolls | Broad durability |
+| **Death Veil** | No extra Heat when kills are involved | Lethal, clean operations |
+| **No Traces** | Earn Rep on quiet jobs; +1 Rep at zero Heat | Low-heat reputation strategy |
+| **Synchronized** | Multiple 6s in group actions = critical | Teamwork-focused crews |
+| **Pack Rats** | +1d to acquire assets | Gear and black-market access |
+
+**Recommendation:** Anointed or Forged in the Fire for new players — cheap resistance rolls prevent the table feeling overwhelmed.
 - Pick **one additional Upgrade** from the Hunters options (training, lair, quality, or a general crew upgrade from the SRD).
 
 ---
