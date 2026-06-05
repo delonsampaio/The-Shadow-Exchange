@@ -43,6 +43,14 @@ His daughter died in 1847. The sign stayed up because taking it down would mean 
 
 ---
 
+## GM Tools
+
+**Aggro Trigger:** Touching his sewing kit without permission, or mentioning the Ministry by name in his presence. He does not raise his voice. He goes very still.
+
+**Default Complication:** If the crew handles him poorly — threaten, mock, or linger too long — he weaves a "Thread of Dread" into a character's clothing without them noticing. A minor Resonance haunting. Shadows seem to follow that PC until it's removed. Not lethal. A reminder.
+
+---
+
 ## Dialogue Voice
 
 - *On the Ministry contract:* "How long do I have?" Quiet. He has been waiting for this question.
