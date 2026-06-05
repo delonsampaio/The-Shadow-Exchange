@@ -243,6 +243,15 @@ mechanical_focus: "Entanglements and Acquire Assets (both new mechanics this ses
 > 🔒 **GM ONLY:**
 > Close with one question to the table: *"Your character has the needle, or doesn't. Either way — what does tonight feel like?"* One answer per PC, then end the session.
 
+> 🔒 **GM ONLY — WHAT THE CREW LEAVES SESSION 3 WITH:**
+> Confirm these before closing:
+> - **Needle disposition:** Extracted (full Ministry payout, Grief Jars available to sell), left with Mrs. Ashby (no payout, Grief Jars bequeathed), or abandoned (partial payout, one complication pending)
+> - **Thomas mentioned:** Yes → Rep +1 with **[Faction: The Twice-Born]** if standing exists; Mrs. Ashby's Grief Jars left to the crew specifically. No → needle taken or left, no rep change
+> - **Mrs. Ashby's fate:** Dissipated (needle removed), departed willingly (Thomas told), or still in the house (crew withdrew)
+> - **Greta Fenn's forms:** Form 88-D filed (extraction complete), Form 31 filed (incomplete engagement), or both pending — note which
+> - **Agnes Pell:** Knows nothing. Will return next Thursday. If Mrs. Ashby is gone, Agnes will eventually figure it out. This is not a clock — it is a consequence that arrives on its own schedule
+> - **[Clock: The Omen]** (8-seg): Tick one segment. The bookshop clock stopped at 11:47 PM — the same time as the Ashby house clocks forty years ago. Update `05-Sessions/Campaign-Current-State.md`
+
 ---
 
 ## AI Facilitation Directives
