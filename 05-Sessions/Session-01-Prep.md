@@ -206,7 +206,7 @@ mechanical_focus: "Tutorial: Position/Effect, Devil's Bargains, and Stress/Resis
 > Apply to the dashboard. If the Double Bookkeeping roll was failed, add **+1 Heat** for the audit flag.
 
 ### Step 2 — Vice (Stress Recovery)
-**SAY TO ALL:** *"Each of you has a Vice — the thing your character does to decompress. Indulging your Vice clears Stress. You roll your lowest attribute; on a 6 you clear all your Stress, on a 4-5 you clear some, on a 1-3 you clear some but get a complication — you overindulged. Tell me what your character does between this job and the next one."*
+**SAY TO ALL:** *"Each of you has a Vice — the thing your character does to decompress. Indulging your Vice clears Stress. Roll dice equal to your lowest attribute rating — Insight, Prowess, or Resolve. Clear Stress equal to your highest die result. If that clears more Stress than you had marked, you overindulge — pick a consequence: attract trouble, brag and take +2 Heat, disappear for a few weeks, or get cut off by your supplier. Tell me what your character does between this job and the next one."*
 
 Ask each PC in turn. Let them narrate briefly. Roll for each.
 
