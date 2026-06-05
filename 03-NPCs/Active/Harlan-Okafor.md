@@ -23,3 +23,12 @@ last_seen_session: "00"
 * **Speech Pattern:** Deep voice, short sentences, uses metaphors related to cooking and cleaning up messes.
 * **Aggro Trigger:** Insulting the memory of fallen hunters or acting recklessly in his diner.
 * **Default Complication:** Harlan offers a "Devil's Bargain"—he gives the info the crew needs, but they owe him a "no-questions-asked" favor for a **[NPC: Twice-Born]** friend.
+
+## Dialogue Voice
+
+- *On the Ministry:* "They write things down. That's the best thing about them. You always know where they'll be, because they filed a form about it."
+- *On Apex Aegis:* Wipes the counter. "I had a crew once. Good people. You don't want to know how it ended." Doesn't elaborate.
+- *On the crew making a reckless call:* "You want the short answer or the one that might keep you alive?"
+- *On a job going wrong:* "Mess has a smell. You learn it fast or you don't come back to tell me about it."
+- *Offering information:* Sets the coffee down. "Here's what I know. Here's what it costs. Don't order the pie — it's been there since Tuesday."
+- *On The Architect:* Looks at the door. A pause that goes one beat too long. "Where'd you hear that name?" Not angry. Careful.

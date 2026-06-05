@@ -24,6 +24,7 @@ runtime: "~2.5–3 hours"
 > - [ ] Note each PC's Vice, Friend, Rival, and **[Item: Cursed Heirloom]** as they're introduced.
 > - [ ] Review `03-NPCs/Active/Elias-Thorne.md` — he appears in Session 1. Mimic face is confirmed.
 > - [ ] Have `04-Locations/Curios-and-Chronicles.md` open for the lair tour.
+> - [ ] **City name decision:** The campaign files refer to "the city" throughout. Players will ask. Options: (A) keep it unnamed — "the city" is the answer, industrial-noir style; (B) name it at the table in Session 0 and note the choice here. Either is correct. If unnamed, use "the city" consistently throughout play.
 
 ---
 

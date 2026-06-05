@@ -18,6 +18,9 @@ Strict definitions of homebrew concepts. These mechanics must never be conflated
 * **The Subway:** The wondrous, uneasy, underground network/dimension utilized by the Twice-Born. It chooses; it does not grant. It is never whimsical.
 * **Twice-Born:** Individuals who have returned from the Subway or changed states. They are not mindless monsters; they wear wedding rings, carry photos of dead children, and exist in a state of quiet tragedy.
 
+* **Ethereal Credits:** The Subway's internal currency. Non-transferable to the surface economy. 1 Ethereal Credit ≈ 1 Coin in purchasing power inside the Subway. Cannot be spent at Ministry-licensed vendors or used to pay Heat penalties. Earned by completing Subway board jobs or trading Relics with The Fence.
+* **Siphoned goods:** Items extracted from a Twice-Born entity using forced resonance transfer (a Null-Tech process, primarily Apex Aegis method) rather than willing surrender or natural release. The item is intact but the process harms the entity. The Fence pays half price for Siphoned goods — the mark is visible to anyone who handles the item attentively.
+
 ## AI Lore Directives
 * **Trope Avoidance:** Do not use the words "magic", "spell", "mana", or "epic". Supernatural effects must be described via their tactile, sensory impact on the environment (Resonance) rather than flashy visual effects.
 * **The Cover-Up:** Exposure of these elements to the mundane public is not a mere setback; it is an existential threat to the crew.

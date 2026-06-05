@@ -19,9 +19,13 @@ The bible is explicit: the Twice-Born are not a faction. They are individuals. E
 
 Earned by protecting a Twice-Born instead of exploiting them. Spend on:
 
-- **Safe Harbor** — A Twice-Born hides the crew. Clears 1 Heat.
-- **Rare Item access** — Trades from their personal collection. Often things the black market has never seen.
-- **Lore** — Specific information about the Mimic, Apex Aegis, or the Subway's true nature.
+| Spend | Cost | Effect |
+|---|---|---|
+| **Safe Harbor** | 1 Favor | A Twice-Born hides the crew or a target. Clears 1 Heat. |
+| **Rare Item Access** | 1 Favor | Trades from their personal collection — things the black market has never seen. Roll Acquire Assets at +1 Tier. |
+| **Lore** | 2 Favor | Specific intelligence: Mimic activity, Apex Aegis acquisition lists, Subway history, or entity identification. |
+| **Anchor Intervention** | 2 Favor | A Twice-Born acts to protect their own or another entity's Anchor — delays an extraction or complicates a Ministry operation. |
+| **Community Warning** | 1 Favor | Word spreads through the Subway that the crew is trustworthy. +1 to next Consort roll in the Subway. |
 
 Maximum 3 Favor tokens held at once. If the Subway Decay Clock advances while the crew holds 3+, one is lost as that Twice-Born flees.
 
