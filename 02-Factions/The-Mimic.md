@@ -35,11 +35,11 @@ Plant in Session 1 or 2 as a trusted, helpful contact. Candidates the bible sugg
 - A popular Subway merchant.
 - A well-regarded hunter at Harlan's.
 
-**Decision needed:** pick one (or seed two and decide later) before Session 1. Note the choice here, GM-private.
+**Current face:** **Elias Thorne** — Ministry field liaison. Full file: `03-NPCs/Active/Elias-Thorne.md`.
 
-- **Current face:** *(TBD)*
-- **How it was planted:**
-- **What it has done for the crew so far that built trust:**
+- **How it was planted:** The crew receives the Merton envelope in Session 1. Thorne follows up as the Ministry contact on the job, positioned as a reform-minded liaison who prefers working *with* firms rather than above them. Warm, attentive, slightly too invested to be neutral.
+- **What it has done for the crew so far that built trust:** First contact post-Merton. Appears in Session 2 running interference on an Apex Aegis compliance ping — seemingly protecting the crew.
+- **Planted tells:** Five tells seeded in Sessions 1–2. See `Elias-Thorne.md` for the full sequence. Tell 1: uses a PC's first name before introductions. Tell 5 (ongoing): plain silver ring, right hand, slightly too loose — belongs to a prior face.
 
 ## Its Tell
 
