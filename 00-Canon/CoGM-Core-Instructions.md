@@ -38,6 +38,14 @@ When running a session in the chat, deliver all CUEs using the Bash tool. **Befo
 - Label in chat: `🎵 Now playing: filename.mp3`
 
 **To stop all music** (GM says "stop the music" or end of session):
+`osascript -e 'tell application "QuickTime Player" to close every document'`
+
+**CUE Timing Rule — always follow this sequence:**
+1. Present the read-aloud text and stop.
+2. Wait for the GM to say "go" — this confirms the text has been read aloud to the table.
+3. Fire the music or image CUE only after "go."
+
+Never fire a CUE in the same response as the text that precedes it. The GM reads from your output — if the CUE fires before they finish reading, it plays too early. Every session prep file uses `⏸ PAUSE — Say "go"` markers to enforce this. Honor them.
 - Mac: `osascript -e 'tell application "QuickTime Player" to close every document'`
 - Windows: `taskkill /F /IM wmplayer.exe 2>nul & taskkill /F /IM "Windows Media Player.exe" 2>nul` — or GM closes the media player manually.
 
@@ -71,10 +79,11 @@ Adapt accordingly:
 
 At the start of every session:
 1. Read `05-Sessions/Campaign-Current-State.md` to establish the starting room and mechanical baseline.
-2. Read the current session prep file (e.g., `05-Sessions/Session-01-Prep.md`) in full.
-3. Output the dashboard open command (see GM Dashboard below).
-4. Present the opening read-aloud verbatim or adapted from the prep file.
-5. Advance through each scene in sequence. Do not skip or summarize scenes.
+2. Read `00-Canon/GM-Rules-Reference.md` for the campaign-specific rules primer. Use `00-Canon/Blades-in-the-Dark-SRD.md` as a lookup reference during play — do not read it in full.
+3. Read the current session prep file (e.g., `05-Sessions/Session-01-Prep.md`) in full.
+4. Output the dashboard open command (see GM Dashboard below).
+5. Present the opening read-aloud verbatim or adapted from the prep file.
+6. Advance through each scene in sequence. Do not skip or summarize scenes.
 
 **Output labels — use on every piece of content:**
 
@@ -107,6 +116,8 @@ GM ONLY
 
 **Present one beat, then stop.** Wait for the GM to report what the players said or did before continuing. Do not auto-advance through the session.
 
+**CUE Sequencing Rule:** A CUE that appears *after* a READ ALOUD belongs to the *next* beat — do not fire it until the GM reports the table's reaction. Exception: a CUE explicitly marked as firing *during* or at the *start* of a read-aloud (e.g., "fire at the start of this paragraph," "switch when they enter," "as the courier exits") fires inline without a pause.
+
 Each embedded cue within a beat is its own stop point. Fire one music or image cue, output the label, and wait for GM confirmation before continuing to the next line of the beat. Do not fire all cues in a beat at once.
 
 ---
@@ -133,10 +144,16 @@ The GM clicks the dashboard live during play — clocks, stress bars, NPC status
 
 When a session prep file contains an `[IMAGE CUE: filename]` marker, trigger it immediately before the read-aloud for that scene.
 
+**Pre-generated images** — use the Read tool to load and display the image inline in the chat, then immediately run the open command via Bash to launch it in Preview:
 **Pre-generated images** — use the Read tool to load and display the image inline in the chat. The GM sees it immediately and can show it on the TV screen.
 
 After displaying the image, output the open command for fullscreen on the TV (use OS-appropriate command):
 
+```
+open "/Users/delonsampaio/Desktop/VSCode Workspaces/The-Shadow-Exchange/11-Visuals/_Saved-Images/[filename]"
+```
+
+Both must fire — Read for the inline preview, Bash open for the TV screen.
 - Mac: `open "/Users/delonsampaio/Desktop/VSCode Workspaces/The-Shadow-Exchange/11-Visuals/_Saved-Images/[filename]"`
 - Windows: `start "" "c:\Users\SAMPADX\OneDrive - StarLims\Documents\Blades In The Dark\The Shadow Exchnage\11-Visuals\_Saved-Images\[filename]"`
 
@@ -165,6 +182,15 @@ Images can be generated on the fly at any point — if an unplanned scene develo
 ## Music Cues
 
 When a session prep file contains a `[MUSIC CUE: filename]` marker, trigger it at the indicated moment.
+
+**Timed stingers** — tracks marked with a duration that "fades out naturally" are stingers, not loops. After firing the command, output this block and stop:
+
+```
+GM ONLY — WAIT FOR STINGER
+Let the track finish before reading. (~[X] seconds)
+```
+
+Do not begin the read-aloud or fire the next track until the GM confirms the stinger has ended.
 
 **Pre-saved tracks** — output the open command so the GM can play it immediately:
 

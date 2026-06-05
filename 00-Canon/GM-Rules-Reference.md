@@ -298,4 +298,4 @@ Move the creature up the scale when the crew fails or partially succeeds. Move i
 
 ---
 
-The Blades SRD (in `00-Canon/Blades-SRD.html`) does not include specific crew playbooks — the Hunters type is custom to this campaign. The special abilities above are drawn from the SRD's generic ability list and filtered for a monster-hunting crew. If a player invents an ability concept that isn't on this list, you can work it out with them — the system is designed for that.
+The Blades SRD (in `00-Canon/Blades-in-the-Dark-SRD.md`) does not include specific crew playbooks — the Hunters type is custom to this campaign. The special abilities above are drawn from the SRD's generic ability list and filtered for a monster-hunting crew. If a player invents an ability concept that isn't on this list, you can work it out with them — the system is designed for that.
