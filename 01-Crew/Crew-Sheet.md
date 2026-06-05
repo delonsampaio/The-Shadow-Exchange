@@ -22,7 +22,7 @@ A struggling bookstore on a narrow brick lot between two glass-and-steel skyscra
 * ## Upgrades
 *(Containment Suite includes Cold Storage Locker, Lead-Lined Vault, Post-Op Table, Scanner Station, Trophy Wall, Hunter's Journal.)*
 * ## Special Abilities
-* **Double Bookkeeping:** When finishing a government bounty, roll Sway to fudge the paperwork. On a success, keep one minor Biological, Relic, or Anchor Item from the target without **[Faction: The Ministry]** noticing. The item goes in the **[Location: Lead-Lined Vault]**. Trigger **[Clock: The Ministry Audit]** on a Mixed Success (4-5).
+* **Double Bookkeeping:** When finishing a government bounty, roll Sway to fudge the paperwork. On a success, keep one minor Biological, Relic, or Anchor Item from the target without **[Faction: The Ministry]** noticing. The item goes in the **[Location: Lead-Lined Vault]**. On a failure (1-3), tick **[Clock: The Ministry Audit]** 1/4 — the Ministry noticed something is missing.
 
 ## Cohorts
 *(Link to `01-Crew/Cohorts.md`)*
