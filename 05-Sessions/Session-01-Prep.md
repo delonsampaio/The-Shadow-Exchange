@@ -39,7 +39,8 @@ mechanical_focus: "Tutorial: Position/Effect, Devil's Bargains, and Stress/Resis
 * **[NPC: Merton]** (Barghest *(BAR-gest — g as in "get")*, three layers).
 * **[NPC: Ministry Courier]** (No dialogue).
 * **[Faction: Apex Aegis Cleaners]** *(Aegis: AY-jis)* (Paramilitary team).
-* **[NPC: Trusted Contact]** (The candidate **[Faction: The Mimic]** face. Give them one small wrong-memory tell tonight).
+* **[NPC: Elias Thorne]** — Ministry field liaison. The Mimic's current face. File: `03-NPCs/Active/Elias-Thorne.md`. Plant **Tell 1** tonight: he uses a PC's first name before formal introductions have been made. Move past it without correction.
+* **[NPC: Mara Halliday]** — Freelance courier, introduced near the theater. File: `03-NPCs/GM-Private/The-Innocent-Civilian.md`. She rounds a corner at the wrong moment — not the full supernatural reveal, just a crack in the cover. Do not name her to the crew tonight. She reappears in Sessions 2–3.
 
 ---
 
@@ -131,8 +132,6 @@ mechanical_focus: "Tutorial: Position/Effect, Devil's Bargains, and Stress/Resis
 > 🔊 **READ ALOUD:**
 >
 > "The padlock isn't even closed. Inside: a pressed work shirt, a thermos that smells like instant coffee... a keychain photograph behind a layer of plastic gone yellow with age. A woman and two children... Someone made it for him. Someone who knew exactly what he wanted to hold onto."
-
-> ⏸ **PAUSE — Wait for the table's reaction to the locker before continuing.**
 
 > ⏸ **PAUSE — Wait for the table's reaction to the locker. Say "go" for the true form reveal.**
 

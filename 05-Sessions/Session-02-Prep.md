@@ -37,7 +37,7 @@ mechanical_focus: "Group Actions, Flashbacks, and Twice-Born Favor."
 * **Teach Group Actions:** If they act together, do not roll individually. The leader rolls and takes stress for failures; the highest die covers the group.
 * **Three-Layer Pivot:** **[NPC: Emmerich]** is the campaign's first moral pivot. Do not flatten the tragedy.
 * **Subway Reveal:** This is a *guided* first visit. Label the world's strangeness once clearly for the players.
-* **Mimic Watch:** The same **[NPC: Trusted Contact]** face from Session 1 appears. Give them one slightly different "wrong memory" tell.
+* **Mimic Watch:** **[NPC: Elias Thorne]** reappears. Plant **Tell 3** from `Elias-Thorne.md` — the Emmerich shop pause. Tell 4 is available if the session runs long.
 
 ### Clocks Expected to Move
 * **[Clock: Detection]** (4-seg) — Resets for this score.
@@ -46,7 +46,7 @@ mechanical_focus: "Group Actions, Flashbacks, and Twice-Born Favor."
 ### NPC Roster
 * **[NPC: Emmerich]** *(EM-er-ik)* (Twice-Born tailor).
 * **[Faction: Apex Aegis Peacekeepers]** *(Aegis: AY-jis)*.
-* **[NPC: Trusted Contact]** (**[Faction: The Mimic]** face).
+* **[NPC: Elias Thorne]** (**[Faction: The Mimic]** face). File: `03-NPCs/Active/Elias-Thorne.md`. Plant **Tell 3** tonight: walking past Emmerich's shop, he pauses a half-second too long before looking away.
 * **[NPC: PTOLEMY]** *(TOL-uh-mee — the P is silent)* (In the Subway).
 * **[NPC: Crossroads Broker]** (In the Subway).
 * **[NPC: Cosma Linden]** (Twice-Born — The Teacher. First appearance. Near PTOLEMY's corner.)
@@ -58,6 +58,17 @@ mechanical_focus: "Group Actions, Flashbacks, and Twice-Born Favor."
 **Location:** Shopping District (Quiet Side)
 **[IMAGE CUE: location-curios-exterior.png]** *(session opens in the bookshop)*
 **[MUSIC CUE: music-bookshop-loop.mp3]** *(running from session open — through the briefing)*
+
+### The Job Arrives
+
+> 🔒 **GM ONLY — JOB DELIVERY:**
+> The crew receives a second Ministry envelope. Same format as Session 1 — damp, dropped on the counter without explanation, Ministry seal. Inside: a grainy surveillance photo of Emmerich's shop window, annotated in red. "ANCHOR ITEM RETRIEVAL. SUBJECT: EMMERICH (no first name on file). LOCATION: THE MERIDIAN, SECOND FLOOR. ITEM: ONE SILVER THIMBLE, PRESUMED ANCHOR CLASS. PRIORITY: STANDARD. DO NOT DISTURB CIVILIAN ROUTINE."
+>
+> No mention of what happens to Emmerich after the thimble is removed. The Ministry does not annotate that.
+
+**GM Prompt:** *"Another envelope. You know the format now. Who reads it first, and what does your character's face do when they get to the part that says 'do not disturb civilian routine'?"*
+
+> ⏸ **PAUSE — Let the table react to the job before continuing.**
 
 ### Read Aloud (The Target)
 
