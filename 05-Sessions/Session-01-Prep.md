@@ -87,7 +87,7 @@ mechanical_focus: "Tutorial: Position/Effect, Devil's Bargains, and Stress/Resis
 
 > 🔊 **READ ALOUD:**
 >
-> "The streets are quiet. Rain has cleared most of the foot traffic. You move through the back streets toward the Fairground District — kit under coats, nothing that looks like what it is."
+> "The streets are quiet. Rain has cleared most of the foot traffic. You move through the back streets toward the Fairground District — containment kit under coats, looking like people who have somewhere to be."
 
 > ⏸ **PAUSE — Say "go" when ready to enter the Fairground District. Then fire fairground music.**
 
@@ -95,7 +95,9 @@ mechanical_focus: "Tutorial: Position/Effect, Devil's Bargains, and Stress/Resis
 
 > 🔊 **READ ALOUD:**
 >
-> "The Fairground District at midnight: closed stalls, a carousel under canvas, the smell of sugar and cold grease. The theater marquee is dark. One window on the third floor has a light in it."
+> "The Fairground District at midnight: closed stalls, padlocked with chains that have been there so long they've rusted to the color of the wood. A carousel under canvas, the cover lashed down tight, one painted horse visible through a gap at the bottom — its expression hasn't changed since 1947. The smell is sugar and cold grease and something underneath both of those, older, like wet sawdust after a long season.
+
+The street is empty. Your footsteps are loud enough that you adjust your pace without discussing it. At the far end of the block, the theater marquee is dark — the kind of dark that means the bulbs have been out long enough that nobody has noticed. One window on the third floor has a light in it. It has had a light in it every night for eleven years."
 
 > ⏸ **PAUSE — Say "go" on arrival. Then show the theater image and fire theater loop.**
 
@@ -201,7 +203,8 @@ mechanical_focus: "Tutorial: Position/Effect, Devil's Bargains, and Stress/Resis
 > Roll for Heat based on the score:
 > - Quiet score, no witnesses: **+1 Heat**
 > - Standard score, some exposure: **+2 Heat**
-> - Loud score or Apex Aegis involvement: **+3 Heat**
+> - Loud score, or Apex Aegis present-and-active (engaged, pursued, or not neutralized): **+3 Heat**
+> - Apex Aegis present but managed cleanly (stood down, never engaged): counts as standard exposure — **+2 Heat**
 > Apply to the dashboard. If the Double Bookkeeping roll was failed, add **+1 Heat** for the audit flag.
 
 ### Step 2 — Vice (Stress Recovery)

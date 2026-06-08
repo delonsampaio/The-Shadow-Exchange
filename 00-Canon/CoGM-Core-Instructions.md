@@ -45,6 +45,8 @@ When running a session in the chat, deliver all CUEs using the Bash tool. **Befo
 2. Wait for the GM to say "go" — this confirms the text has been read aloud to the table.
 3. Fire the music or image CUE only after "go."
 
+**Exception:** If a prep file marks a CUE as *"start before,"* *"start just before the read-aloud,"* or similar, fire it first — then present the text so it plays underneath while the GM reads. See CUE Sequencing Rule below for the full inline-cue policy.
+
 Never fire a CUE in the same response as the text that precedes it. The GM reads from your output — if the CUE fires before they finish reading, it plays too early. Every session prep file uses `⏸ PAUSE — Say "go"` markers to enforce this. Honor them.
 - Mac: `osascript -e 'tell application "QuickTime Player" to close every document'`
 - Windows: `taskkill /F /IM wmplayer.exe 2>nul & taskkill /F /IM "Windows Media Player.exe" 2>nul` — or GM closes the media player manually.
@@ -191,6 +193,8 @@ Let the track finish before reading. (~[X] seconds)
 ```
 
 Do not begin the read-aloud or fire the next track until the GM confirms the stinger has ended.
+
+**Exception:** If a stinger is marked *"start just before the read-aloud"* or similar, fire it and immediately present the read-aloud text — it plays underneath while the GM reads. Do not pause for "go."
 
 **Pre-saved tracks** — output the open command so the GM can play it immediately:
 
