@@ -18,7 +18,6 @@ runtime: "~2.5–3 hours"
 > 🔒 **GM ONLY:**
 >
 > **Confirm players received (before Session 0) — all via the campaign wiki:**
-> - [ ] **[[Safety and Content]]** — confirm Lines/Veils received from each player (or a pass) before Session 0.
 > - [ ] **[[What Kind of Game Is This]]** — sent with character creation link.
 > - [ ] **[[Session 0 Agenda]]** — sent so players know what to expect.
 > - [ ] **[[Character Creation Guide]]** (wiki) — sent for PC creation.
