@@ -13,7 +13,7 @@ The player-facing guide is now a **website**: **https://delonsampaio.github.io/T
 |---|---|---|
 | **`The-Shadow-Exchange-Players/docs/`** (its own public git repo → GitHub Pages) | **The one maintained player guide.** Edit the Markdown here; a push rebuilds the site in ~1 minute. | Everyone with the link |
 | `The-Shadow-Exchange/Public-Wiki/` | A **staging area** in the private repo: recap drafts. | GM only until copied |
-| `The-Shadow-Exchange.wiki/` (the old GitHub wiki) | **Deprecated.** Do not edit. It may be disabled. | — |
+| ~~`The-Shadow-Exchange.wiki/`~~ (the old GitHub wiki) | **Removed.** The wiki feature was disabled on the main repo (2026-11-16); the local `.wiki` folder, if still present, is a dead copy — do not edit it. | — |
 
 **Never publish anything from a 🔒 GM ONLY block, any `GM-Private/` file, `Campaign-Arc.md`, the Casting Mask, the Architect, Kress, Stalls = Apex, the six Thorne tells, or the Omen's cause.**
 
