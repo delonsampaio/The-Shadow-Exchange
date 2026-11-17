@@ -11,7 +11,7 @@ Print one per player. Keep it next to your character sheet.
 ---
 
 ## The 12 actions at a glance
-**INSIGHT:** Hunt · Study · Survey · Tinker — **PROWESS:** Finesse · Prowl · Skirmish · Wreck — **RESOLVE:** Attune · Command · Consort · Sway. *(Full descriptions in the wiki's Rules and Mechanics page.)*
+**INSIGHT (thinking):** Hunt (track/shoot) · Study (research/read people) · Survey (spot trouble) · Tinker (gadgets, locks, field surgery). **PROWESS (body):** Finesse (sleight of hand, driving) · Prowl (sneak) · Skirmish (brawl) · Wreck (smash). **RESOLVE (will):** Attune (sense the supernatural) · Command (intimidate) · Consort (friends & contacts) · Sway (lie, charm). *(An attribute's rating = how many of its four actions have at least 1 dot.)* *(Full descriptions in the wiki's Rules and Mechanics page.)*
 
 ---
 
@@ -105,8 +105,6 @@ Cost in stress depends on how plausible the flashback is. The GM tells you.
 
 ## Downtime — what you do between scores
 
-Each PC takes:
-
 Each PC gets **two free downtime activities** (extras cost 1 Coin or 1 Rep). Choose from:
 
 - **Indulge Vice** — roll your *lowest* attribute; clear Stress equal to your highest die. Overindulge = trouble. *(This is one of your two.)*
@@ -152,7 +150,7 @@ These are not trick questions. The honest answer to each is a real choice that s
 
 ## Your Lair — Curios & Chronicles
 
-Your characters know this space before Session 0. See `Public-Wiki/00-Who-We-Are.md` for the full player-facing version.
+Your characters know this space before Session 0. See the wiki's **Our Lair** page for the full tour.
 
 **The Front Shop:** The public bookstore (a former savings bank). Rotary phone, reading chair, cat named Consequence. Real books, real cover. An old Zoltar fortune-teller machine in the back corner — unplugged for decades; push the crew's coin sequence and the wall behind him slides open.
 

@@ -20,24 +20,7 @@ You have been doing this work together for two years. You are good at it in the 
 
 ## The Lair
 
-The bookstore has three layers. Your characters know all of them.
-
-### The Front Shop
-A real bookstore with a rotary phone, a half-knitted sweater on the reading chair, and a cat named **Consequence** who has never once reacted to anything unusual and who you have all decided to find reassuring. The till is manual. The books are organized by a system only the crew understands. This is where you deal with the public.
-
-In the back corner: an old Zoltar fortune-teller machine. Unplugged for decades; the coin slot looks dead. It isn't — if you know the sequence. His painted eyes face the door.
-
-### The Containment Suite — behind Zoltar
-Eleven iron steps down into one long, cold room. Contains:
-- **The Post-Op Table** — stainless steel, medical-grade, don't ask where it came from
-- **The Hunter's Journal** — the firm's case record, two generations of entries before yours
-- **The Scanner Station** — three shortwave radios intercepting Ministry bounty traffic, plus a Resonance detector (one green lamp, always on, about two blocks)
-
-**Along the far wall and in the brick:**
-- **Cold Storage Locker** — behind a false wall. Keeps biological material from spoiling. Two of the four compartments require gloves.
-- **Lead-Lined Vault** — built into the original foundation. Nothing stored here shows up on any scanner.
-
-The basement smells different from the rest of the shop. Colder. Metallic. You have learned not to comment on it.
+Your firm works out of a former savings bank: a bookshop out front, a hidden Containment Suite behind a Zoltar fortune-teller machine, and a few rooms upstairs. **The full tour is in the wiki's *Our Lair* page** — it is the one maintained version.
 
 ---
 
