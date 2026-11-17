@@ -16,7 +16,7 @@ last_seen_session: "00"
 
 ## Three Layers
 1. **Appears as** — A grumpy but reliable diner owner and information broker.
-2. **Actually is** — An ex-Ministry field operative turned independent hunter, who kept the Hunter Underground's Roadhouse after he lost his own crew. *(Debuts in Session 4.)*
+2. **Actually is** — An ex-Ministry field operative turned independent hunter, who kept the Hunter Underground's Roadhouse after he lost his own crew. *(Debuts **on stage** in Session 4. He is on the **public Known Contacts page from Session 0** — players may take him as a Friend, and a bold crew might call or drive out to him earlier (his diner is forty minutes outside the city). Keep him offstage — a phone call, a locked door, "closed for a funeral" — until Session 4.)*
 3. **Became this because** — He lost his own crew to a **[Faction: Apex Aegis]** acquisition that went violent.
 
 ## AI Roleplay Directives

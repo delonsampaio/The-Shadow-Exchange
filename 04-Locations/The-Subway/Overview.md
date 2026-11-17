@@ -47,6 +47,11 @@ There is **no Subway Token** mechanic. Access is who they are, not what they car
 
 ---
 
+## Before the First Visit — how the crew has been selling *(canon, 2026-11-17)*
+The pitch tells the players they sell "to a market the Ministry doesn't know exists." Before Session 2 that market has **no face and no address**: the crew has sold through a handful of nervous middlemen and dead drops, none of whom has ever seen the whole thing. **The Fence's stall is the first time the crew sees the market's real face** — and it explains why the middlemen were always so careful.
+- If a player asks in Session 0–1 *"who do we sell to?"* → answer with the middlemen and the drops; invent a name or two, never mention the Subway.
+- Do not let a player name a Fence, a vendor, or a market as a Friend/Rival (the Subway is an earned milestone).
+
 ## What the Subway offers
 
 - **The Fence** — buys stolen Biologicals and Relics for Coin. Half for Siphoned goods. Asks no questions. Remembers everything.

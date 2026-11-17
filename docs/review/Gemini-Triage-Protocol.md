@@ -2,7 +2,7 @@
 
 **Gemini suggests. Claude decides.** When the GM pastes Gemini's output (or says "apply Gemini's review"):
 
-1. **Verify before believing.** For each finding, open the cited file(s) and confirm it is real (Gemini can misread, hallucinate a contradiction, or flag something already fixed). Mark any finding that doesn't check out **REJECT — not reproducible.**
+1. **Verify before believing — including every quote.** (2026-11-17: in the spoiler check Gemini cited **five quotes that exist nowhere** — not on the site, not in the repo, not in git history — and misquoted a Harlan distance. `grep -F` every quoted line before acting on it.) For each finding, open the cited file(s) and confirm it is real (Gemini can misread, hallucinate a contradiction, or flag something already fixed). Mark any finding that doesn't check out **REJECT — not reproducible.**
 2. **Classify every item** — one line each, with a reason:
    - **ADOPT** — correct and improves the campaign; apply it.
    - **ADAPT** — right idea, wrong fix (e.g., conflicts with the tone, the Teaching Ladder, or a GM decision); apply a modified version.
