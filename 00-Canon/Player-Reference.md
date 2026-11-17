@@ -10,6 +10,11 @@ Print one per player. Keep it next to your character sheet.
 
 ---
 
+## The 12 actions at a glance
+**INSIGHT:** Hunt · Study · Survey · Tinker — **PROWESS:** Finesse · Prowl · Skirmish · Wreck — **RESOLVE:** Attune · Command · Consort · Sway. *(Full descriptions in the wiki's Rules and Mechanics page.)*
+
+---
+
 ## What's different from D&D
 
 You play a small monster-hunting firm operating under a government cover-up. The world believes monsters aren't real. They are. You hunt them, catalogue them, sometimes sell their parts on the black market — and you keep the public believing the cover story.
@@ -58,6 +63,7 @@ Stress is your reroll currency. Spend it to:
 - **Assist** another PC. +1d to their roll. Cost: 1 stress.
 - **Resist a consequence.** Roll Insight / Prowess / Resolve, spend (6 minus highest die) stress, reduce or negate the consequence.
 - **Flash back.** Spend 0 / 1 / 2 stress to retroactively have done a thing.
+- **Desperate = XP.** Every time you roll a *desperate* action, you mark 1 XP in that action's attribute — win or lose. Daring is rewarded.
 
 Max stress: **9.** When you hit 9, you take a **Trauma** and reset to 0.
 
@@ -101,9 +107,10 @@ Cost in stress depends on how plausible the flashback is. The GM tells you.
 
 Each PC takes:
 
-1. **Indulge Vice.** Clear stress equal to your highest die. Overindulge = trouble.
-2. **One downtime activity** (Acquire Asset / Long-Term Project / Reduce Heat / Train / Recover).
-3. **Pay coin or take Heat** for lifestyle.
+Each PC gets **two free downtime activities** (extras cost 1 Coin or 1 Rep). Choose from:
+
+- **Indulge Vice** — roll your *lowest* attribute; clear Stress equal to your highest die. Overindulge = trouble. *(This is one of your two.)*
+- **Acquire Asset** · **Long-Term Project** · **Reduce Heat** · **Recover** · **Train**
 
 Plus: roll for **Entanglements** if Heat is high enough.
 
@@ -125,23 +132,21 @@ These are not trick questions. The honest answer to each is a real choice that s
 
 - **The cover-up is sacred.** Public exposure of the supernatural ends careers and licenses. Witnesses with phones are scarier than wounds.
 - **Some monsters are people.** Anchor Items are personal — a thimble from a daughter, a leather collar from a first dog. Taking them has weight. The crew keeps a ledger.
-- **The Subway is real and you don't fully understand it.** It chose you. You don't know why.
 - **Apex Aegis is the corporate threat.** Recklessly profitable, eroding the cover-up.
-- **The Mimic is the internal threat.** Already wearing a face you trust.
+- **The world is bigger than the Ministry's paperwork.** You will find out how much bigger, and it will cost something.
 
 ---
 
 ## Trusted resources
 
-- **PTOLEMY** — Subway appraiser. Never lies. Always charges a favor.
-- **Harlan Okafor** — Diner outside the city. Ex-Ministry. Knows things, charges fair prices.
-- **The Whisperer** — Subway. Trades in Ministry and Apex Aegis intel.
-- **The Fence** — Subway. No questions. Half price for Siphoned goods.
-- **The Crossroads Broker** — Subway back booth. Offers what you want. Takes what you'll miss.
+- **Harlan Okafor** — Diner forty minutes outside the city. Ex-Ministry. Knows things, charges fair prices.
+- **Greta Fenn** — Ministry Field Compliance. You have mailed her forms for two years. You have never met.
+
+*More will appear in play.*
 
 ---
 
-*One last thing: this campaign is industrial-occult noir. Quiet dread, moral ambiguity, weather and texture. The work is interesting because it costs something. Take the costs. Spend the stress. Earn the trauma.*
+*One last thing: this campaign is industrial-occult noir. Quiet dread, moral ambiguity, weather and texture. The work is interesting because it costs something. Take the costs. Spend the stress. Earn the trauma. And when something is funny — laugh. The game is built for it.*
 
 ---
 
@@ -149,10 +154,10 @@ These are not trick questions. The honest answer to each is a real choice that s
 
 Your characters know this space before Session 0. See `Public-Wiki/00-Who-We-Are.md` for the full player-facing version.
 
-**The Front Shop:** The public bookstore. Rotary phone, reading chair, cat named Consequence. Real books, real cover. An old Zoltar fortune-teller machine in the back corner — his painted eyes face the door; the latch for the back room is behind him.
+**The Front Shop:** The public bookstore (a former savings bank). Rotary phone, reading chair, cat named Consequence. Real books, real cover. An old Zoltar fortune-teller machine in the back corner — unplugged for decades; push the crew's coin sequence and the wall behind him slides open.
 
-**The Back Room:** Behind Zoltar. Post-Op Table, Hunter's Journal, Scanner Station (Resonance detection, two-block radius, always on).
+**The Containment Suite (behind Zoltar):** eleven iron steps down into one long, cold room — Post-Op Table, Hunter's Journal, Scanner Station (shortwave radios + a Resonance detector, two-block radius, green lamp always on), Trophy Wall, Cold Storage Locker (pauses biological spoilage), Lead-Lined Vault (Resonance-dark storage; combination known to the full crew), and the **Wall of Rules**.
 
-**The Containment Suite (Basement):** Cold Storage Locker (pauses biological spoilage), Lead-Lined Vault (Resonance-dark storage). The combination is known to the full crew.
+**Upstairs:** the Annex (kitchenette, armchairs) and the Lofts (three bunks).
 
 Your characters have worked here for two years. Ask the GM about any object in the shop — you would know what it does.

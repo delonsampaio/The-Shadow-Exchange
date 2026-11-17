@@ -20,6 +20,11 @@ Clock notation: `[ ◌ ]` empty, `[ ● ]` filled.
 * **Trigger:** Ticks when the crew draws attention or rolls a consequence during a heist. 
 * **Full Effect:** **[Faction: The Ministry]** or **[Faction: Apex Aegis]** arrives on the scene. 
 
+### [Clock: The Surge] [6-Segment] *(Session 1 only)*
+* **Progress:** `[ ◌ ◌ ◌ ◌ ◌ ◌ ]` (0/6)
+* **Trigger:** Any 1–3, loud noise, touching the collar without permission, plus once per scene. Soothing *removes* a segment.
+* **Full Effect:** Merton loses control — Desperate position, Level 2 harm on the table, Detection +2.
+
 ### [Clock: Biological Spoilage] [3-Segment]
 * **Progress:** `[ ◌ ◌ ◌ ]` (0/3)
 * **Trigger:** Ticks each Downtime phase. Ticks 2x per scene on Away Jobs. Paused by Cold Storage Locker.
@@ -45,8 +50,8 @@ Clock notation: `[ ◌ ]` empty, `[ ● ]` filled.
 * **Progress:** `[ ◌ ◌ ◌ ◌ ◌ ◌ ◌ ◌ ]` (0/8)
 * **Trigger:** The boundary between worlds thinning naturally. GM ticks secretly as time passes or major occult events occur. 
 * **Symptoms by Segment:**
-    * **1–2:** High number of stray animals clustering. Dogs refuse to cross a specific street.
-    * **3–4:** Electrical interference expanding. Clocks run slow. AM radio static.
+    * **1–2:** Clocks run slow (the shop clock, four minutes — Session 2), then **stop** at one specific time (11:47 — Session 3). Watches disagree.
+    * **3–4:** High number of stray animals clustering. Dogs refuse to cross a specific street. AM radio static. *(The AM Host's fragments become specific.)*
     * **5–6:** Cold spots in summer. Identical, vivid nightmares across one district.
     * **7:** A child draws the same faceless figure across three separate cities on the same day.
     * **Full Effect (8 Segments):** A major unscheduled supernatural event hits the city. Something ancient wakes up.
@@ -57,7 +62,7 @@ Clock notation: `[ ◌ ]` empty, `[ ● ]` filled.
 
 ### [Clock: The Ministry Audit] [4-Segment]
 * **Progress:** `[ ◌ ◌ ◌ ◌ ]` (0/4)
-* **Trigger:** Rolling a Mixed Success (4-5) on the 'Double Bookkeeping' Crew Ability. 
+* **Trigger:** **Double Bookkeeping** (Sway): a 4–5 ticks it 1 and the crew keeps the item; a 1–3 ticks it 1 *and* the item must be surrendered. Entanglements may also tick it. 
 * **Full Effect:** A Ministry inspector locks down Curios & Chronicles. The Vault and Cold Storage are inaccessible until a massive bribe is paid.
 
 ### [Clock: The Innocent's Corruption] [4-Segment]

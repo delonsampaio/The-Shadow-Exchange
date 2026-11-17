@@ -4,15 +4,15 @@ score_number: 2
 title: "The Hollow Pedestrian"
 session: 2
 status: Ready
-client: "Anonymous (Subway Posting)"
+client: "[Faction: The Ministry] (routed via liaison)"
 target: "[NPC: Emmerich] — Silver Thimble seizure or refusal"
 location: "The Meridian — EMMERICH & DAUGHTER, BESPOKE TAILOR"
-payout: 6 Ethereal Credits or 4 Coin + Twice-Born Favor
+payout: 4 Coin (Ministry) — or 0 Coin and +1 Twice-Born Favor if warned
 ---
 
 # Score 02 — The Hollow Pedestrian
 
-**Premise:** Anonymous Subway board posting. Someone wants the Silver Thimble secured — or Emmerich protected from Ministry seizure. The Ministry also has this on their docket. The crew is caught between two clients for the same target.
+**Premise:** A Ministry "Anchor Item Retrieval" for a Twice-Born the Ministry never listed before — routed through a liaison whose stamp is smudged. Order: seize the thimble, detain the entity. *(GM-private: the Understudied, as Thorne, manufactured this contract to silence the one person who knows its true name.)* Apex Aegis Peacekeepers (Drennick & Foss) patrol the block.
 
 ---
 
@@ -58,9 +58,9 @@ payout: 6 Ethereal Credits or 4 Coin + Twice-Born Favor
 
 ## Antagonist Angles
 
-**Apex Aegis:** Compliance audit ping if the crew is sloppy in the Meridian. Two plainclothes operatives with clipboards. "Unlicensed extraction detected."
+**Apex Aegis — Drennick & Foss:** compliance ping if the crew is sloppy; they chase regardless (see Session 2 *Door Chase*). Two plainclothes operatives with clipboards, arguing about beets. "Unlicensed extraction detected."
 
-**Elias Thorne:** Appears to "run interference" on the audit. Plant Tell 3 here (pauses outside Emmerich's shop). Plant Tell 4 here (references "last Tuesday's conversation").
+**Elias Thorne:** Tell 3 on the street outside (pauses at the window). Tell 4 in the evening phone call ("last Tuesday's conversation"). He "runs interference" on the ping afterwards.
 
 ---
 
@@ -82,4 +82,4 @@ The trigger for access is GM-private — something the crew did in this score th
 
 **Moral weight monitor:** If the crew takes the thimble, describe it cooling in their hand within the first five minutes. Write the Anchor Ledger entry while they can still feel it.
 
-**Teach group actions here:** If the crew coordinates, run it as a Group Action. Leader rolls; highest die covers the group; leader takes Stress for mixed results.
+**Teach group actions here:** If the crew coordinates, run it as a Group Action. Leader rolls; highest die covers the group; the leader takes **1 Stress per teammate who rolled 1–3.**

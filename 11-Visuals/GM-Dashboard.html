@@ -17,7 +17,19 @@
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
   <script type="text/babel">
-    const { useState } = React;
+    const { useState, useEffect } = React;
+
+    // Bump SAVE_VERSION whenever the INIT_* constants below are updated at end of session.
+    // The dashboard auto-saves to this browser; a refresh will NOT lose state mid-session.
+    const SAVE_VERSION = 'S0-pre-campaign';
+    function usePersist(key, init) {
+      const k = 'se_' + SAVE_VERSION + '_' + key;
+      const [v, setV] = useState(() => {
+        try { const s = localStorage.getItem(k); return s ? JSON.parse(s) : init; } catch (e) { return init; }
+      });
+      useEffect(() => { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }, [v]);
+      return [v, setV];
+    }
 
     // ─── Campaign Data ──────────────────────────────────────────────────────────
     // After each session, update the values below to reflect final session state.
@@ -32,6 +44,7 @@
 
     const INIT_CLOCKS = [
       { id: 'det',  name: 'Detection',             total: 4, cur: 0, fill: '#dc2626', secret: false },
+      { id: 'surge',name: 'The Surge (S1 only)',   total: 6, cur: 0, fill: '#c2410c', secret: false },
       { id: 'bio',  name: 'Bio Spoilage',          total: 3, cur: 0, fill: '#ea580c', secret: false },
       { id: 'sub',  name: 'Subway Decay',          total: 6, cur: 0, fill: '#7f1d1d', secret: false },
       { id: 'omen', name: 'The Omen',              total: 8, cur: 0, fill: '#7c3aed', secret: true  },
@@ -45,10 +58,65 @@
     ];
 
     const INIT_FACTIONS = [
-      { id: 1, name: 'The Ministry', standing: 2 },
-      { id: 2, name: 'Apex Aegis',   standing: 2 },
-      { id: 3, name: 'Twice-Born',   standing: 2 },
-      { id: 4, name: 'Subway',       standing: 2 },
+      { id: 1, name: 'The Ministry', standing: 3 },
+      { id: 2, name: 'Apex Aegis',   standing: 3 },
+      { id: 3, name: 'Twice-Born',   standing: 3 },
+      { id: 4, name: 'Subway',       standing: 3 },
+    ];
+
+    // Anchors the crew has touched. status index: 0 In Vault · 1 Active · 2 Seized · 3 Destroyed
+    const INIT_ANCHORS = [];
+
+    // GM-SECRET: the six Thorne tells (see 05-Sessions/Campaign-Arc.md). state: 0 unplanted · 1 planted · 2 caught by players
+    const INIT_TELLS = [
+      { id: 1, label: '1 · First name before intros (S1)', state: 0 },
+      { id: 2, label: '2 · "Your setup in the basement" (S1)', state: 0 },
+      { id: 3, label: '3 · Pause outside Emmerich’s (S2)', state: 0 },
+      { id: 4, label: '4 · "Last Tuesday’s conversation" (S2)', state: 0 },
+      { id: 5, label: '5 · Knows about the pier / Subway (S3)', state: 0 },
+      { id: 6, label: '6 · The ring, right hand (ongoing)', state: 0 },
+    ];
+    const TELL_LABELS = ['—', 'Planted', 'CAUGHT'];
+    const TELL_CLS = [
+      'border-zinc-800 text-zinc-600 bg-zinc-900',
+      'border-amber-700 text-amber-400 bg-amber-950/20',
+      'border-emerald-700 text-emerald-400 bg-emerald-950/20',
+    ];
+
+    // Mechanics the players have been taught (the players have NEVER played Blades — see 00-Canon/Mechanics-Teaching-Ladder.md).
+    // state: 0 not yet · 1 introduced · 2 understood (table uses it unprompted)
+    const INIT_TAUGHT = [
+      { id: 'dice',  label: 'Dice & the 6 / 4–5 / 1–3 rule  (S0)',  state: 0 },
+      { id: 'pos',   label: 'Position  (S0)',                         state: 0 },
+      { id: 'eff',   label: 'Effect  (S0)',                           state: 0 },
+      { id: 'str',   label: 'Stress  (S0)',                           state: 0 },
+      { id: 'res',   label: 'Resistance  (S1)',                       state: 0 },
+      { id: 'fb',    label: 'Flashback  (S1)',                        state: 0 },
+      { id: 'devil', label: "Devil's Bargain  (S1)",                  state: 0 },
+      { id: 'vice',  label: 'Vice & Heat (Downtime)  (S1)',           state: 0 },
+      { id: 'group', label: 'Group Action  (S2)',                     state: 0 },
+      { id: 'assist',label: 'Assist  (S2)',                           state: 0 },
+      { id: 'favor', label: 'Twice-Born Favor  (S2)',                 state: 0 },
+      { id: 'ent',   label: 'Entanglements  (S3)',                    state: 0 },
+      { id: 'acq',   label: 'Acquire Assets  (S3)',                   state: 0 },
+      { id: 'push',  label: 'Push Yourself  (S1/S3)',                 state: 0 },
+      { id: 'harm',  label: 'Harm levels  (when it happens)',         state: 0 },
+    ];
+    const TAUGHT_LABELS = ['—', 'Introduced', 'Understood'];
+    const TAUGHT_CLS = [
+      'border-zinc-800 text-zinc-600 bg-zinc-900',
+      'border-amber-700 text-amber-400 bg-amber-950/20',
+      'border-emerald-700 text-emerald-400 bg-emerald-950/20',
+    ];
+
+    // Running gags & table-invented canon. counters/notes the GM bumps live.
+    const INIT_GAGS = [
+      { id: 'cons', label: 'Consequence was on…',          note: '' },
+      { id: 'cov',  label: 'Cover stories invented',       note: '' },
+      { id: 'greta',label: 'Greta’s highest form no.',     note: '' },
+      { id: 'ptol', label: 'PTOLEMY’s charges so far',     note: '' },
+      { id: 'zol',  label: 'Zoltar cards dropped',         note: '' },
+      { id: 'gerald', label: 'Gerald status',              note: '' },
     ];
 
     // ─── Lookup Tables ──────────────────────────────────────────────────────────
@@ -71,21 +139,25 @@
       'border-zinc-800 text-zinc-700 bg-zinc-950',
     ];
 
-    const STAND_LABELS = ['−2', '−1', 'Neutral', '+1', '+2'];
+    const STAND_LABELS = ['−3', '−2', '−1', 'Neutral', '+1', '+2', '+3'];
     const STAND_CLS = [
+      'border-red-900 text-red-300 bg-red-950/50',
       'border-red-800 text-red-400 bg-red-950/30',
       'border-orange-800 text-orange-400 bg-orange-950/20',
       'border-zinc-700 text-zinc-400 bg-zinc-800',
       'border-amber-700 text-amber-400 bg-amber-950/20',
       'border-emerald-700 text-emerald-400 bg-emerald-950/20',
+      'border-emerald-500 text-emerald-300 bg-emerald-950/40',
     ];
 
-    const ANCHOR_STATUSES = ['In Vault', 'Active', 'Seized', 'Destroyed'];
+    const ANCHOR_STATUSES = ['In Vault', 'Active', 'Seized', 'Destroyed', 'Returned', 'Refused'];
     const ANCHOR_CLS = [
       'text-amber-400 border-amber-800',
       'text-emerald-400 border-emerald-800',
       'text-orange-400 border-orange-800',
       'text-red-400 border-red-800',
+      'text-sky-400 border-sky-800',
+      'text-zinc-400 border-zinc-700',
     ];
 
     // ─── Clock Component ────────────────────────────────────────────────────────
@@ -149,19 +221,29 @@
     // ─── Main Dashboard ─────────────────────────────────────────────────────────
 
     function ShadowExchangeDashboard() {
-      const [crew, setCrew]           = useState(INIT_CREW);
-      const [pcs, setPcs]             = useState(INIT_PCS);
-      const [clocks, setClocks]       = useState(INIT_CLOCKS);
-      const [npcs, setNpcs]           = useState(INIT_NPCS);
-      const [factions, setFactions]   = useState(INIT_FACTIONS);
-      const [anchors, setAnchors]     = useState([]);
-      const [graveyard, setGraveyard] = useState([]);
+      const [crew, setCrew]           = usePersist('crew', INIT_CREW);
+      const [pcs, setPcs]             = usePersist('pcs', INIT_PCS);
+      const [clocks, setClocks]       = usePersist('clocks', INIT_CLOCKS);
+      const [npcs, setNpcs]           = usePersist('npcs', INIT_NPCS);
+      const [factions, setFactions]   = usePersist('factions', INIT_FACTIONS);
+      const [anchors, setAnchors]     = usePersist('anchors', INIT_ANCHORS);
+      const [graveyard, setGraveyard] = usePersist('graveyard', []);
+      const [tells, setTells]         = usePersist('tells', INIT_TELLS);
+      const [gags, setGags]           = usePersist('gags', INIT_GAGS);
+      const [taught, setTaught]       = usePersist('taught', INIT_TAUGHT);
+      const cycleTaught = (id) => setTaught(p => p.map(t => t.id === id ? { ...t, state: (t.state + 1) % 3 } : t));
+      const cycleTell = (id) => setTells(p => p.map(t => t.id === id ? { ...t, state: (t.state + 1) % 3 } : t));
+      const setGagNote = (id, note) => setGags(p => p.map(g => g.id === id ? { ...g, note } : g));
+      const resetAll = () => { if (confirm('Reset the dashboard to the saved INIT state?')) {
+        try { Object.keys(localStorage).filter(k => k.startsWith('se_')).forEach(k => localStorage.removeItem(k)); } catch (e) {}
+        location.reload(); } };
       const [newAnchor, setNewAnchor] = useState('');
       const [newNpc, setNewNpc]       = useState('');
 
       const adjCrew    = (k, d) => setCrew(p => ({ ...p, [k]: Math.max(0, p[k] + d) }));
       const toggleHold = ()     => setCrew(p => ({ ...p, hold: !p.hold }));
 
+      const editPc = (id, k, v) => setPcs(p => p.map(pc => pc.id === id ? { ...pc, [k]: v } : pc));
       const setStress = (id, idx) => setPcs(p => p.map(pc =>
         pc.id === id ? { ...pc, stress: pc.stress === idx + 1 ? idx : idx + 1 } : pc));
       const cycleHarm = (id, slot) => setPcs(p => p.map(pc =>
@@ -186,7 +268,7 @@
       };
 
       const adjStanding = (id, d) => setFactions(p => p.map(f =>
-        f.id === id ? { ...f, standing: Math.max(0, Math.min(4, f.standing + d)) } : f));
+        f.id === id ? { ...f, standing: Math.max(0, Math.min(6, f.standing + d)) } : f));
 
       const addAnchor = () => {
         if (!newAnchor.trim()) return;
@@ -268,8 +350,8 @@
                 {pcs.map(pc => (
                   <div key={pc.id} className="bg-zinc-900/40 border border-zinc-800 rounded-xl p-4 hover:border-zinc-700 transition-colors">
                     <div className="mb-4">
-                      <span className="text-[8px] font-mono text-amber-700 uppercase tracking-widest">{pc.role}</span>
-                      <h3 className="text-base font-bold text-zinc-100 leading-tight">{pc.name}</h3>
+                      <input value={pc.role} onChange={e => editPc(pc.id, 'role', e.target.value)} placeholder="playbook" className="bg-transparent text-[8px] font-mono text-amber-700 uppercase tracking-widest w-full focus:outline-none focus:text-amber-400" />
+                      <input value={pc.name} onChange={e => editPc(pc.id, 'name', e.target.value)} className="bg-transparent text-base font-bold text-zinc-100 leading-tight w-full focus:outline-none border-b border-transparent focus:border-amber-800" />
                     </div>
                     <div className="mb-3">
                       <div className="flex justify-between mb-1.5">
@@ -422,6 +504,54 @@
               </div>
             </section>
 
+            {/* ── GM-SECRET: THORNE TELLS + RUNNING GAGS ── */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <section>
+                <h2 className="text-[9px] font-black uppercase tracking-[0.2em] text-purple-700 mb-3">GM-Secret · Thorne Tells</h2>
+                <div className="bg-zinc-900/30 border border-zinc-800 rounded-xl p-4 space-y-2">
+                  {tells.map(t => (
+                    <div key={t.id} className="flex items-center justify-between gap-2">
+                      <span className="text-[11px] text-zinc-400 flex-1">{t.label}</span>
+                      <button onClick={() => cycleTell(t.id)}
+                        className={`text-[9px] font-mono font-bold px-2 py-0.5 rounded border transition-all ${TELL_CLS[t.state]}`}>
+                        {TELL_LABELS[t.state]}
+                      </button>
+                    </div>
+                  ))}
+                  <p className="text-[9px] text-zinc-700 font-mono pt-1">Caught ≥3 and told someone → the Understudied accelerates.</p>
+                </div>
+              </section>
+              <section>
+                <h2 className="text-[9px] font-black uppercase tracking-[0.2em] text-zinc-600 mb-3">Running Gags &amp; Table Canon</h2>
+                <div className="bg-zinc-900/30 border border-zinc-800 rounded-xl p-4 space-y-2">
+                  {gags.map(g => (
+                    <div key={g.id} className="flex items-center gap-2">
+                      <span className="text-[10px] text-zinc-500 w-40 flex-shrink-0">{g.label}</span>
+                      <input value={g.note} onChange={e => setGagNote(g.id, e.target.value)}
+                        placeholder="…"
+                        className="flex-1 bg-zinc-950 border border-zinc-800 rounded px-2 py-1 text-[10px] text-zinc-300 placeholder-zinc-700 focus:outline-none focus:border-amber-800" />
+                    </div>
+                  ))}
+                </div>
+              </section>
+            </div>
+
+            {/* ── MECHANICS TAUGHT (players are new to Blades) ── */}
+            <section>
+              <h2 className="text-[9px] font-black uppercase tracking-[0.2em] text-zinc-600 mb-3">Mechanics Taught · max 4 new per session</h2>
+              <div className="bg-zinc-900/30 border border-zinc-800 rounded-xl p-4 grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-2">
+                {taught.map(t => (
+                  <div key={t.id} className="flex items-center justify-between gap-2">
+                    <span className="text-[11px] text-zinc-400 flex-1">{t.label}</span>
+                    <button onClick={() => cycleTaught(t.id)}
+                      className={`text-[9px] font-mono font-bold px-2 py-0.5 rounded border transition-all ${TAUGHT_CLS[t.state]}`}>
+                      {TAUGHT_LABELS[t.state]}
+                    </button>
+                  </div>
+                ))}
+              </div>
+            </section>
+
             {/* ── GRAVEYARD ── */}
             {graveyard.length > 0 && (
               <section>
@@ -443,6 +573,7 @@
             <p className="text-[8px] font-mono text-zinc-800 uppercase tracking-widest">
               Cover Status: Nominal · Resonance Field: Contained · <span style={{animation: 'pulse 2s infinite'}}>Recording...</span>
             </p>
+            <button onClick={resetAll} className="mt-2 text-[8px] font-mono text-zinc-800 hover:text-zinc-500 uppercase tracking-widest">reset saved state</button>
           </footer>
 
         </div>

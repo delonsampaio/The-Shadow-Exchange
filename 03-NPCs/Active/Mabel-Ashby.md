@@ -18,15 +18,15 @@ anchor_item: "[Item: Mabel's Knitting Needle] (1944)"
 ## Three Layers
 
 ### Layer 1 — Mundane Cover
-Retired schoolteacher. Forty years in this house. The front door opens before anyone knocks. The kettle is always already on. The neighbor brings soup on Thursdays.
+Retired schoolteacher. Forty years living in this house, forty more *not*. The front door opens before anyone knocks. The kettle is always already on. The neighbor brings soup on Thursdays.
 
 ### Layer 2 — The Truth
-A Wraith. Has been dead since 1986. She passes through walls by accident when she forgets herself — she is aware of this and embarrassed about it. Fully coherent. Not confused. Not haunting anyone in particular. She simply has not left.
+A Wraith. Died at **11:47 PM** in 1986 — every clock in the house stopped there. She passes through walls by accident when she forgets herself — she is aware of this and embarrassed about it. Fully coherent. Not confused. Not haunting anyone in particular. She simply has not left.
 
 **Anchor Item:** A knitting needle, 1944. Keeps it pinned in her hair. While she holds it, she maintains full physical cohesion and can interact with the material world normally.
 
 ### Layer 3 — The Tragic Angle
-She stayed because Thomas was still alive, and she was not going to leave him rattling around the house alone. Thomas died in 1991. She has known since 1994. She has not been ready to act on it. She is waiting for permission she will not give herself.
+She stayed because Thomas was still alive, and she was not going to leave him rattling around the house alone. Thomas died in 1991. She has known since the night he died; she stopped *pretending* she didn't in 1994. She has not been ready to act on it. She is waiting for permission she will not give herself.
 
 ---
 
@@ -58,7 +58,7 @@ Notable jars:
 She will eventually ask — directly or indirectly — why they are there. She already knows. She is giving them the chance to be honest.
 
 - **Option A — Extract the needle:** She loses cohesion. The dissipation takes a few minutes. She does not fight it. Full Ministry payout. Grief Jars worth serious Coin to collectors and alchemists.
-- **Option B — Tell her about Thomas:** Requires **Parish Records** (Acquire Assets) or a Critical on Study/Attune. She already knows. She has known since 1994. She just has not been ready. Telling her gives her permission she will not give herself. The needle stays. No Ministry payout — but the Twice-Born hear about this. Rep +1 with Twice-Born if standing exists. She leaves the Grief Jars to the crew specifically.
+- **Option B — Tell her about Thomas:** Requires **Parish Records** (Acquire Assets) or a Critical on Study/Attune. She already knows. She has known since 1991 (she stopped pretending in 1994). She just has not been ready. Telling her gives her permission she will not give herself. The needle stays. No Ministry payout — but the Twice-Born hear about this. **+1 Twice-Born Favor.** She leaves the Grief Jars to the crew specifically.
 - **Option C — Leave her alone:** She sees them to the door. She offers biscuits for the road. This is not a joke. Partial Coin, one complication.
 
 ---
@@ -76,6 +76,6 @@ She will eventually ask — directly or indirectly — why they are there. She a
 
 ## Agnes Pell — The Complication
 
-Agnes Pell is the neighbor. She brings soup every Thursday. This is Thursday. She has a large tureen, her own ladle, and no intention of leaving until she has seen Mabel. She has read about monster hunters in a Penny Dreadful serial. She does not mention this immediately.
+Agnes Pell is the neighbor. She brings soup every Thursday. This is Thursday. Agnes has seen a **living** Mabel for forty years — the needle holds her solid for Agnes too. Whether Agnes has ever *suspected* is left open. She has a large tureen, her own ladle, and no intention of leaving until she has seen Mabel. She has read about monster hunters in a Penny Dreadful serial. She does not mention this immediately.
 
 See `Session-03-Prep.md` for the full Agnes Pell scene mechanics.

@@ -1,8 +1,18 @@
 #!/bin/bash
 # fade-switch.sh — fade out, switch track in QuickTime Player, fade back in
-# Usage: bash fade-switch.sh "path/to/track.mp3"
+# Usage: bash fade-switch.sh "path/to/track.mp3" [auto|loop|once]
+# Stingers/one-shots (names containing sting, zoltar-opens, envelope-drops, the-pitch, s00-closing, ashby-approach) play ONCE; all other tracks loop.
 
 NEW_TRACK="$1"
+MODE="${2:-auto}"   # auto | loop | once   (auto: stingers/one-shots play once, everything else loops)
+LOOP=true
+case "$MODE" in
+  once) LOOP=false ;;
+  loop) LOOP=true ;;
+  *) case "$(basename "$NEW_TRACK")" in
+       *sting*|*zoltar-opens*|*envelope-drops*|*the-pitch*|*s00-closing*|*ashby-approach*) LOOP=false ;;
+     esac ;;
+esac
 STEPS=8
 INTERVAL=0.08
 
@@ -22,7 +32,7 @@ tell application "QuickTime Player"
     close every document
     open POSIX file "$NEW_TRACK"
     delay 1
-    set looping of document 1 to true
+    set looping of document 1 to $LOOP
     play document 1
     set miniaturized of window 1 to true
 end tell

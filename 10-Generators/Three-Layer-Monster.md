@@ -8,7 +8,11 @@ purpose: "Generate new supernatural threats with moral weight."
 
 ## 1. The Mundane Cover (Layer 1)
 *How does it live among humans? What mundane thing does it love?*
-* **Cover Identity:** * **Daily Routine:** * **Cultivated Relationships:** ## 2. The Truth (Layer 2)
+* **Cover Identity:**
+* **Daily Routine:**
+* **Cultivated Relationships:**
+
+## 2. The Truth (Layer 2)
 *The supernatural reality. Use [Location: The Subway] logic.*
 * **Classification:** (Twice-Born / Biological / Echo / Mimic)
 * **Capacities:** What can it actually do?

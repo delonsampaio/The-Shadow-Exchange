@@ -9,13 +9,13 @@ prereq: read 00-Canon/Player-Reference.md first
 
 You're going to make a Blades in the Dark character before our first session together. This guide walks you through it. Read [`00-Canon/Player-Reference.md`](../../00-Canon/Player-Reference.md) first if you haven't — it has the system primer and the world primer in two pages.
 
-When you're done, send your sheet to the GM. He needs your details to prep the world to fit you.
+When you're done, send your sheet to the GM. The GM needs your details to prep the world to fit you.
 
 ---
 
 ## Before you start
 
-You are not making "a character who hunts monsters." You are making **one of four people who run a small, underfunded monster-hunting firm called Curios & Chronicles, fronted by a bookstore in a city where the supernatural is real and the public doesn't know it.** The work is professional and morally grey. The pay is mediocre. The tools are improvised. You are good at this in the way that people who do hard quiet work for years are good at it — not the way an action-movie hero is good at it.
+You are not making "a character who hunts monsters." You are making **one of three people who run a small, underfunded monster-hunting firm called Curios & Chronicles, fronted by a bookstore in a city where the supernatural is real and the public doesn't know it.** The work is professional and morally grey. The pay is mediocre. The tools are improvised. You are good at this in the way that people who do hard quiet work for years are good at it — not the way an action-movie hero is good at it.
 
 This is the second year of your firm's existence, not the first day. Your character has already done some of this work. They have stories they don't tell.
 
@@ -23,7 +23,7 @@ This is the second year of your firm's existence, not the first day. Your charac
 
 ## Step 1 — Pick a playbook
 
-Blades has eight playbooks. From a D&D / Pathfinder lens, here's how they roughly land:
+Blades has seven playbooks. From a D&D / Pathfinder lens, here's how they roughly land:
 
 | Playbook | D&D analogue | Best for someone who… |
 |---|---|---|
@@ -34,11 +34,10 @@ Blades has eight playbooks. From a D&D / Pathfinder lens, here's how they roughl
 | **Slide** | Bard / Face | Social pressure, manipulation, lying with your whole chest. |
 | **Spider** | Mastermind / Inquisitive | Loves planning, reading people, running schemes. **Strong choice for one player at the table — Spiders give the crew structure.** |
 | **Leech** | Artificer | Tinkers with gadgets, alchemy, weird tech. **Excellent fit for our Containment Suite.** |
-| **Slide / Spider / Leech** | — | Best onboarding picks for a Blades-first table. |
 
 **Strong recommendation for the table as a whole:** at least one Spider or one Slide. Both have abilities that engage the crew with the world's politics rather than just the dice. If three people pick Cutters, the campaign will fight a lot and miss a lot.
 
-If you're stuck, ask the GM for a recommendation — he knows what the rest of the table is picking and can tell you what slot is open.
+If you're stuck, ask the GM for a recommendation — the GM knows what the rest of the table is picking and can tell you what slot is open.
 
 ---
 
@@ -64,10 +63,9 @@ You have three attributes (Insight, Prowess, Resolve), each with four actions:
 
 Starting array per the SRD:
 
-- 7 dots to distribute among actions.
-- Max 2 dots in any one action at start.
-- At least one dot must go in each attribute.
-- Then your playbook gives you one extra dot in a starting action.
+- Your playbook's starting dots are printed on its sheet.
+- Then add **4 more dots** of your choice. **Max 2 dots in any one action** at creation.
+- *Advice:* spread so each attribute (Insight / Prowess / Resolve) has at least one dot — you'll need it for resistance rolls and Vice recovery.
 
 **Practical advice for ex-D&D players:**
 

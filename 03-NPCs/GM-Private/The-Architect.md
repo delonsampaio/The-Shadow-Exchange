@@ -41,6 +41,8 @@ Who or what deliberately positioned this specific crew to receive these specific
 
 ## Knowledge Sources (In-World)
 
-- The John Doe Twice-Born (Job 4) — once memory is restored, they saw the Architect.
-- The rival hunter at the Away Job (Job 8) — was approached and refused. Will share if asked correctly.
+- The John Doe Twice-Born (Session 5) — once memory is restored, they saw the Architect.
+- The rival hunter at the Away Job (Session 10) — was approached and refused. Will share if asked correctly.
 - PTOLEMY's ledger — Critical on the Appraiser's Gamble with the right item reveals one ledger entry that doesn't fit.
+- **The crew's names in PTOLEMY's ledger, dated three days before they found the entrance** — whatever chose them acted *before* the Subway did.
+- **The lease on Curios & Chronicles** — nobody remembers who signed it; the deed trail loops; the building's address is in the ledger, too. (Wim's Lost & Found holds a copy.)

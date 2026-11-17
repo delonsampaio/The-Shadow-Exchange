@@ -54,4 +54,4 @@ Two or three viable plans. Each gets an engagement-roll **Position** and **Effec
 * **Default Devil's Bargain:** What is the thematic cost to offer players during this specific heist?
 
 ## After-action
-*(Filled in post-session. Move file to `06-Scores/Completed/`.)*
+*(Filled in post-session. Set `status: Completed` in the frontmatter; keep the file in `06-Scores/`.)*

@@ -283,7 +283,7 @@ Structure: 90-second track, no loop. Violin opens — first theme: warm, resolve
 
 ## Comic Relief
 
-Use for exhale moments, mundane transitions, and scenes that are funny because of what just happened. Deadpan delivery — the music does not wink. It is simply pleasant.
+Use for exhale moments, mundane transitions, and scenes that are funny because of what just happened. Two registers: the **Interlude** (pleasant lounge, for after a beat lands) and the **overt comedy cues** below (caper chase, stings, road-rock) — these *do* wink. See `00-Canon/Comedy-Playbook.md`.
 
 ---
 
@@ -320,4 +320,90 @@ Save as: `music-comic-interlude.mp3`
 Instrumentation: Lead — solo upright piano, light touch, slightly dry, no drama. Support — brushed snare (barely audible, just keeping time), double bass walking line entering at 0:20 (warm, unhurried).
 Production: Small room acoustic — the sound of a piano in a hotel lobby or a bar at lunch. Warm, slightly boxy, no reverb tail. Nothing industrial. Nothing noir. Just pleasant, which is the problem.
 Structure: Seamless loop — no clear beginning or end, no melodic resolution, just keeps going pleasantly. Piano phrases drift in and resolve cheerfully. Bass walks contentedly. The track is not aware of anything that has happened in this campaign.
+```
+
+
+---
+
+## Added in Review — Comedy, Mystery & Roadhouse Cues
+
+*(All new. Generate in Gemini music chat; save to `_Saved-Music/`. ❌ in session Run Sheets until generated.)*
+
+> **Stings (Ruh-Roh, Boo):** Lyria 3 Pro's minimum is ~30 s. Generate with the sting in the **first 4–5 seconds** followed by silence, then **trim** the file to length (QuickTime Player → Edit → Trim) and save it under the filename below.
+
+---
+
+**The Caper Chase** — the Meridian Door Chase (Session 2), any Scooby chase *(one-shot loop, 90 s)*
+Save as: `music-caper-chase.mp3`
+```
+[Instrumental] Genre: 1960s spy-caper / surf-rock chase with a wink. BPM: 148. Key: E minor, bright and propulsive.
+Instrumentation: Lead — twangy reverb electric guitar playing a fast descending riff. Support — walking bass, bongos and congas, brass stabs, a slide whistle accent on every fourth bar, wood-block "tip-toe" breaks. Cartoon-pizzicato strings on the bridge.
+Production: Dry, bright, slightly lo-fi spy-film mix; tape-saturated brass; sound-effect punctuation (boing, door slam) between phrases.
+Structure: Intro 0:00–0:08 (riff teaser). Verse chase 0:08–0:40 (full band). "Tip-toe" breakdown 0:40–0:55 (woodblock, bass only; tension gag). Re-entry 0:55–1:25 (everything back, key lift). Outro stinger at 1:25–1:30 (slide-whistle drop, one cymbal). Seamless loop possible at the downbeat of 0:08.
+```
+
+---
+
+**Ruh-Roh Sting** — the scare that turns out to be a dog *(stinger, ~4 s)*
+Save as: `music-sting-ruhroh.mp3`
+```
+[Instrumental] Genre: horror sting that curdles into comedy. BPM: free.
+Instrumentation: low string swell and a minor-second violin shriek at 0:00–0:02; then abrupt silence; then a single pizzicato "bloop" and a muted trombone slide down at 0:03.
+Production: Dry, close-mic'd, big dynamic range; the silence at 0:02 is crucial.
+Structure: One-shot, 4 seconds, fades naturally.
+```
+
+---
+
+**Boo? Sting** — Mabel's fake-out haunt *(stinger, ~5 s)*
+Save as: `music-sting-boo.mp3`
+```
+[Instrumental] Genre: Victorian ghost-story pastiche, played too sincerely. BPM: free.
+Instrumentation: a theremin-like wavering lead, a single bowed glass harmonica, a church-organ chord at 0:03, a muted tuba "wah-wah" at 0:04.
+Production: Over-reverbed haunted-house mix that deflates at the last second.
+Structure: One-shot, 5 seconds.
+```
+
+---
+
+**Road Rock** — van rides, the end of a good score *(loop, 2:30)*
+Save as: `music-road-rock.mp3`
+```
+[Instrumental] Genre: 1970s road-trip hard rock (no vocals, no existing melody). BPM: 112. Key: A minor pentatonic, major-leaning chorus.
+Instrumentation: Lead — overdriven electric guitar, call-and-response with a slide guitar. Support — Hammond organ swells, tight rock rhythm section, tambourine on the off-beat, handclaps in the bridge.
+Production: Warm tape, analog crunch, spring-reverb snare; a cassette-in-a-dashboard feel.
+Structure: Intro riff 0:00–0:12, groove 0:12–1:05, breakdown 1:05–1:30 (organ + handclaps), final push 1:30–2:20, tag 2:20–2:30. Seamless loop at 0:12.
+```
+
+---
+
+**Harlan's Diner** — the Roadhouse (Session 4+) *(loop)*
+Save as: `music-harlans-diner.mp3`
+```
+[Instrumental] Genre: smoky roadhouse blues. BPM: 78. Key: E minor blues.
+Instrumentation: Lead — warm, clean Telecaster, slow phrasing. Support — upright bass, brushed drums, a honky-tonk upright piano, a faint jukebox crackle.
+Production: Small-room, a little beer-sticky; the sound of a diner at 2 am. The guitar sounds like it is looking at the door.
+Structure: Seamless loop, no clear beginning or end, no melodic resolution.
+```
+
+---
+
+**Greta's Waltz** — the Ministry paperwork waltz *(loop, 1:30)*
+Save as: `music-greta-waltz.mp3`
+```
+[Instrumental] Genre: bureaucratic light waltz, perfectly polite. BPM: 96. Key: C major.
+Instrumentation: Lead — typewriter (percussive, in time), glockenspiel melody. Support — pizzicato strings, a stapler on the off-beat (yes, a stapler), soft brush snare.
+Production: A government office lobby on a Tuesday; spotless, slightly muffled; the typewriter carriage bell lands on each phrase end.
+Structure: Seamless loop; phrases end on a *ding.*
+```
+
+---
+
+**The Railing (mystery)** — Session 2 entrance, pure unease *(loop)*
+Save as: `music-s02-the-railing.mp3`
+```
+[Instrumental] Genre: liminal dark ambient. BPM: 40. Key: atonal, drifting around F# with a ghost of D.
+Instrumentation: Lead — bowed saw, very far away. Support — a subway tone (distant, wrong), sub-bass drone, a single clock tick that stops at 0:20 and does not restart.
+Production: Dry and enormous. Nothing sounds like a real room. The silence has a texture.
+Structure: Seamless loop; no beat; no resolution.
 ```

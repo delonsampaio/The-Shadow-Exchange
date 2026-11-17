@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>The Shadow Exchange — Player Screen</title>
+<!--
+  PLAYER TV SCREEN. Open once on the shared display, press F11, leave it alone.
+  The Co-GM drives it by rewriting  player-screen/scene.js  (see 00-Canon/CoGM-Core-Instructions.md).
+  This page re-reads that file every 1.5 s and crossfades when `rev` changes. No server, no CDN, works from file://.
+  NEVER put GM-secret information in scene.js — everything in it is shown to the table.
+-->
+<style>
+  :root { --amber:#fbbf24; --ink:#0a0a0c; --paper:#e8dcc0; }
+  * { box-sizing: border-box; }
+  html, body { margin:0; height:100%; background:#000; color:#e5e5e5; overflow:hidden;
+    font-family: Georgia, 'Times New Roman', serif; cursor:none; }
+  .layer { position:absolute; inset:0; background-size:cover; background-position:center; opacity:0;
+    transition: opacity 1.4s ease; }
+  .layer.show { opacity:1; animation: drift 40s ease-in-out infinite alternate; }
+  @keyframes drift { from { transform:scale(1.02) translate(0,0); } to { transform:scale(1.09) translate(-1%,-1%); } }
+  /* rain-slicked noir finish */
+  .vignette { position:absolute; inset:0; pointer-events:none;
+    background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,.72) 100%); }
+  .grain { position:absolute; inset:-50%; pointer-events:none; opacity:.07; mix-blend-mode:overlay;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+    animation: grain 1.2s steps(6) infinite; }
+  @keyframes grain { 0%{transform:translate(0,0)} 20%{transform:translate(-3%,2%)} 40%{transform:translate(2%,-3%)} 60%{transform:translate(-2%,-1%)} 80%{transform:translate(3%,3%)} 100%{transform:translate(0,0)} }
+  .scan { position:absolute; inset:0; pointer-events:none; opacity:.05;
+    background:linear-gradient(rgba(0,0,0,0) 50%, rgba(0,0,0,.6) 50%); background-size:100% 3px; }
+
+  /* lower-third caption */
+  #caption { position:absolute; left:4vw; bottom:5vh; max-width:70vw; opacity:0; transform:translateY(10px);
+    transition: opacity .9s ease, transform .9s ease; }
+  #caption.show { opacity:1; transform:none; }
+  #caption .t { font-size:3.2vh; letter-spacing:.12em; text-transform:uppercase; color:var(--amber);
+    text-shadow:0 2px 12px #000; font-family: 'Helvetica Neue', Arial, sans-serif; font-weight:800; }
+  #caption .s { font-size:2.2vh; color:#d4d4d8; text-shadow:0 2px 10px #000; margin-top:.4vh; font-style:italic; }
+
+  /* public clocks */
+  #clocks { position:absolute; right:3vw; top:4vh; display:flex; gap:1.6vw; }
+  .clk { text-align:center; font-family:'Helvetica Neue',Arial,sans-serif; }
+  .clk svg { width:8vh; height:8vh; filter:drop-shadow(0 2px 8px #000); }
+  .clk .n { font-size:1.5vh; letter-spacing:.18em; text-transform:uppercase; color:#a1a1aa; margin-top:.4vh; text-shadow:0 1px 6px #000; }
+
+  /* now playing */
+  #np { position:absolute; right:3vw; bottom:4vh; font:1.6vh 'Helvetica Neue',Arial,sans-serif; letter-spacing:.2em;
+    text-transform:uppercase; color:#71717a; opacity:0; transition:opacity 1s; }
+  #np.show { opacity:.85; }
+
+  /* player-facing cards */
+  #card { position:absolute; inset:0; display:flex; align-items:center; justify-content:center;
+    background:rgba(0,0,0,.62); opacity:0; pointer-events:none; transition:opacity .6s; }
+  #card.show { opacity:1; }
+  .sheet { max-width:62vw; max-height:80vh; padding:5vh 4vw; box-shadow:0 20px 80px #000; transform:rotate(-1.2deg);
+    animation: land .55s cubic-bezier(.2,.9,.3,1.2); }
+  @keyframes land { from { transform:translateY(30px) rotate(-5deg); opacity:0 } to { transform:rotate(-1.2deg); opacity:1 } }
+  .sheet h1 { margin:0 0 2vh; font-size:4vh; letter-spacing:.06em; }
+  .sheet p  { margin:1.2vh 0; font-size:3vh; line-height:1.4; }
+  .sheet.contract { background:#d9b979; color:#2a1f0e; border:.6vh solid #8a6a2c; }
+  .sheet.contract h1 { font-family:'Courier New',monospace; text-transform:uppercase; border-bottom:.4vh solid #2a1f0e; padding-bottom:1vh; }
+  .sheet.contract p { font-family:'Courier New',monospace; font-size:2.6vh; }
+  .sheet.newspaper { background:#d8d2c0; color:#1a1a1a; }
+  .sheet.newspaper h1 { font-family:Georgia,serif; text-align:center; font-size:5.4vh; border-top:.5vh double #1a1a1a; border-bottom:.5vh double #1a1a1a; padding:1vh 0; }
+  .sheet.note { background:#f3ecd2; color:#1d2a52; font-family:'Bradley Hand','Segoe Script','Comic Sans MS',cursive; transform:rotate(1.6deg); }
+  .sheet.note p, .sheet.note h1 { font-family:inherit; }
+  .sheet.fortune { background:#2a0f3a; color:#fbbf24; border:.8vh double #fbbf24; text-align:center; max-width:34vw; }
+  .sheet.fortune h1 { font-size:3vh; letter-spacing:.3em; }
+  .sheet.fortune p { font-size:3.2vh; font-weight:700; letter-spacing:.06em; }
+  .sheet.sign { background:#0f1f14; color:#d1fae5; border:.8vh solid #6ee7b7; text-align:center; font-family:'Helvetica Neue',Arial,sans-serif; text-transform:uppercase; letter-spacing:.14em; }
+
+  /* comedy banner — big, loud, obvious */
+  #banner { position:absolute; left:50%; top:46%; transform:translate(-50%,-50%) scale(.2) rotate(-6deg); opacity:0;
+    font:900 15vh 'Impact','Haettenschweiler','Arial Black',sans-serif; text-transform:uppercase; color:#fde047;
+    -webkit-text-stroke:.5vh #111; text-shadow:.8vh .8vh 0 #111, 0 0 5vh rgba(251,191,36,.6); white-space:nowrap; pointer-events:none; }
+  #banner.pop { animation: pop 2.6s cubic-bezier(.2,1.3,.3,1) forwards; }
+  @keyframes pop { 0%{opacity:0; transform:translate(-50%,-50%) scale(.2) rotate(-14deg)} 14%{opacity:1; transform:translate(-50%,-50%) scale(1.1) rotate(-5deg)}
+    22%{transform:translate(-50%,-50%) scale(1) rotate(-6deg)} 85%{opacity:1} 100%{opacity:0; transform:translate(-50%,-50%) scale(1.05) rotate(-6deg)} }
+
+  #blank { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; flex-direction:column;
+    color:#3f3f46; font-family:'Helvetica Neue',Arial,sans-serif; letter-spacing:.4em; text-transform:uppercase; }
+  #blank b { color:#52525b; font-size:3vh; }
+</style>
+</head>
+<body>
+  <div id="blank"><b>The Shadow Exchange</b><span style="font-size:1.6vh;margin-top:1.4vh">Curios &amp; Chronicles</span></div>
+  <div id="stage"></div>
+  <div class="vignette"></div><div class="grain"></div><div class="scan"></div>
+  <div id="clocks"></div>
+  <div id="caption"><div class="t"></div><div class="s"></div></div>
+  <div id="np"></div>
+  <div id="card"></div>
+  <div id="banner"></div>
+
+<script>
+/* ---- config ---- */
+const POLL_MS = 1500;
+const SCENE_FILE = 'player-screen/scene.js';
+
+/* ---- state ---- */
+let lastRev = -1, layerA, layerB, useA = true;
+const $ = id => document.getElementById(id);
+
+function esc(s){ return String(s).replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
+
+function setImage(src){
+  const stage = $('stage');
+  if(!src){ [...stage.children].forEach(c => c.classList.remove('show')); $('blank').style.opacity = 1; return; }
+  $('blank').style.opacity = 0;
+  const l = document.createElement('div'); l.className = 'layer';
+  l.style.backgroundImage = `url("${src}")`;
+  stage.appendChild(l);
+  // fade in new, fade out and remove old
+  requestAnimationFrame(() => requestAnimationFrame(() => l.classList.add('show')));
+  const olds = [...stage.children].filter(c => c !== l);
+  olds.forEach(o => { o.classList.remove('show'); setTimeout(() => o.remove(), 1600); });
+}
+
+function drawClock(c){
+  const r = 40, cx = 50, cy = 50, n = c.total;
+  let paths = '';
+  for(let i = 0; i < n; i++){
+    const a0 = (i/n*360 - 90) * Math.PI/180, a1 = ((i+1)/n*360 - 90) * Math.PI/180;
+    const x0 = cx + r*Math.cos(a0), y0 = cy + r*Math.sin(a0), x1 = cx + r*Math.cos(a1), y1 = cy + r*Math.sin(a1);
+    const fill = i < c.cur ? (c.color || '#dc2626') : 'rgba(20,20,24,.78)';
+    paths += `<path d="M${cx},${cy}L${x0},${y0}A${r},${r} 0 0,1 ${x1},${y1}Z" fill="${fill}" stroke="#09090b" stroke-width="2.5"/>`;
+  }
+  return `<div class="clk"><svg viewBox="0 0 100 100">${paths}</svg><div class="n">${esc(c.name)}</div></div>`;
+}
+
+function setCard(card){
+  const el = $('card');
+  if(!card){ el.classList.remove('show'); return; }
+  const lines = (card.lines || []).map(l => `<p>${esc(l)}</p>`).join('');
+  el.innerHTML = `<div class="sheet ${esc(card.style || 'contract')}">${card.title ? `<h1>${esc(card.title)}</h1>` : ''}${lines}</div>`;
+  el.classList.add('show');
+}
+
+function popBanner(text){
+  const b = $('banner'); if(!text) return;
+  b.textContent = text; b.classList.remove('pop'); void b.offsetWidth; b.classList.add('pop');
+}
+
+let lastImg = '__init__', lastCard = '__init__', lastBannerKey = null;
+function apply(s){
+  const img = s.image || null;
+  if(img !== lastImg){ lastImg = img; setImage(img); }          // only crossfade when the image actually changes
+  const cap = $('caption');
+  if(s.caption){ cap.querySelector('.t').textContent = s.caption; cap.querySelector('.s').textContent = s.subcaption || ''; cap.classList.add('show'); }
+  else cap.classList.remove('show');
+  $('clocks').innerHTML = (s.clocks || []).map(drawClock).join('');
+  const np = $('np'); if(s.nowPlaying){ np.textContent = '♪ ' + s.nowPlaying.replace(/^music-/, '').replace(/\.mp3$/, '').replace(/-/g, ' '); np.classList.add('show'); } else np.classList.remove('show');
+  const ck = JSON.stringify(s.card || null);
+  if(ck !== lastCard){ lastCard = ck; setCard(s.card || null); } // don't re-animate an unchanged card
+  const bk = s.banner ? (s.banner + '|' + (s.bannerId || 0)) : null;
+  if(bk && bk !== lastBannerKey) popBanner(s.banner);          // fires once per (text, bannerId)
+  lastBannerKey = bk;
+}
+
+function poll(){
+  const sc = document.createElement('script');
+  sc.src = SCENE_FILE + '?t=' + Date.now();
+  sc.onload = () => { try {
+      const s = window.SCENE; if(s && s.rev !== lastRev){ lastRev = s.rev; apply(s); }
+    } catch(e){} sc.remove(); };
+  sc.onerror = () => sc.remove();
+  document.head.appendChild(sc);
+}
+poll(); setInterval(poll, POLL_MS);
+</script>
+</body>
+</html>

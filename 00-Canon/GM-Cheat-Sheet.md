@@ -48,7 +48,7 @@ The first three sessions, **prompt this every time.** They will not ask on their
 
 ## Stress and Trauma
 
-- Push yourself or assist or resist: **+2 stress** typically.
+- **Push yourself:** 2 stress. **Assist:** 1 stress. **Resist:** 6 minus your highest die (0 on a 6; a critical clears 1).
 - Hit 9 stress: **take a Trauma**, reset to zero. This is good — Trauma earns XP and shapes character.
 - Trauma triggers: tell the player when their Trauma is fictionally relevant. They earn XP for playing it.
 
@@ -56,7 +56,7 @@ The first three sessions, **prompt this every time.** They will not ask on their
 
 ## Flashbacks — actively invite them
 
-Flashbacks let players retroactively prep. Cost is **1 stress** (Risky), **2 stress** (Desperate), **0 stress** (Controlled / something they obviously could have done).
+Flashbacks let players retroactively prep. Cost scales with how elaborate the prep is: **0 stress** (simple, obviously plausible), **1 stress** (complicated), **2 stress** (elaborate or very risky).
 
 Lines to use at the table:
 
@@ -94,9 +94,9 @@ Tick it **visibly.** Players who can see the clock can make better decisions.
 
 ---
 
-## Downtime activities — the four
+## Downtime activities — the menu
 
-For each PC after a score:
+Each PC gets **two free activities** after a score (extra ones cost 1 Coin or 1 Rep). **Indulge Vice is one of the two:**
 
 1. **Indulge Vice** — clear stress equal to highest die. Overindulge = trouble.
 2. **Acquire Asset** — roll Tier of crew + bonuses, get a temporary item or service.
@@ -104,7 +104,7 @@ For each PC after a score:
 4. **Reduce Heat** — roll, lower crew Heat by 1+.
 5. **Train** — gain XP in an attribute area.
 
-Plus: **Recover** (Physick roll, advance harm-clearing clock) and **Pay Coin or take Heat** for lifestyle.
+Plus: **Recover** (a healer rolls — Tinker for a PC — and ticks the healing clock). **Desperate rolls earn XP:** every desperate action roll marks 1 XP in that action's attribute.
 
 ---
 
@@ -122,7 +122,7 @@ Witnesses, phones, leaked documents are scarier than damage. When you need a bad
 ### Detection Clock — every heist
 4-seg. Resets after the score. Full = Ministry or Apex Aegis arrives.
 
-### Spoilage Clock — Sessions 3–4 onward
+### Spoilage Clock — Session 4 onward
 3-seg per Biological. Ticks each Downtime. Paused by Cold Storage. **Don't introduce until their first Biological starts to matter.**
 
 ### Tragedy Clock — Monkey's Paw only
@@ -132,7 +132,7 @@ Witnesses, phones, leaked documents are scarier than damage. When you need a bad
 6-seg. Visible on the Subway transit map. Ticks from Mimic activity, exposure events, Resonance leaks.
 
 ### Omen Clock — GM-secret, mid-game
-8-seg. Players see symptoms: stray animals, clocks running slow, identical dreams. Don't tick before the clock is officially live.
+8-seg. Players see symptoms: **first the shop clock runs four minutes slow (Session 2), then stops at 11:47 (Session 3)**; later stray animals, dogs refusing a street, AM static, identical dreams. Ticks first in Session 2.
 
 ### Custom mechanics
 - **Double Bookkeeping** — Sway after a Ministry bounty to skim one item.
@@ -157,3 +157,10 @@ Witnesses, phones, leaked documents are scarier than damage. When you need a bad
 - *"You can resist that — want to?"*
 - *"Want to flash back to something?"*
 - *"What does this cost the cover-up?"*
+
+
+---
+
+## Funny on purpose
+
+Two 🎭 beats per session, *performed* (voice, sting, Player-Screen banner) — see `00-Canon/Comedy-Playbook.md`. **Never** during an Anchor choice. **No jokes inside the Subway on the first visit** — that's a mystery.

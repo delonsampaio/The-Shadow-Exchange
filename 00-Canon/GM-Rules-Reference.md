@@ -23,7 +23,7 @@ Many actions overlap. That's intentional. If someone describes something that co
 
 **Hunt** — carefully track a target.
 Follow someone's movements. Discover where someone or something is. Set up an ambush position. Attack with precise ranged fire. Read the room for threats before entering.
-*In this campaign: identifying a Twice-Born by their behavioral patterns. Tracking Apex Aegis surveilance rotations. Watching a target long enough to time an extraction.*
+*In this campaign: identifying a Twice-Born by their behavioral patterns. Tracking Apex Aegis surveillance rotations. Watching a target long enough to time an extraction.*
 
 **Study** — scrutinize details and interpret evidence.
 Research documents, files, books. Recall specialized knowledge about a monster or entity. Analyze a person for deception or true feeling. Read a scene after the fact to understand what happened.
@@ -102,7 +102,7 @@ When a consequence is physical or mental damage, you assign harm by level. Harm 
 
 **Resistance can reduce harm by one level** before it's recorded. A Level 3 consequence resisted becomes Level 2. A Level 2 resisted becomes Level 1.
 
-**Healing:** PCs recover harm through the *Recover* downtime activity — roll Physick (a Tinker-adjacent action). Each roll advances a healing clock. Level 1 clears after one clock fill. Level 2 and 3 take longer and may require proper medical equipment.
+**Healing:** PCs recover harm through the *Recover* downtime activity — roll **Tinker** (a Physicking / field-surgery task). Each roll advances a healing clock. Level 1 clears after one clock fill. Level 2 and 3 take longer and may require proper medical equipment.
 
 **In this campaign, reach for harm last.** The cover-up is more threatening than a wound. A witness with a phone, a Detection Clock tick, a complication that puts the crew in a worse position — these are your default consequences. Use harm when the fiction demands it: something is actively trying to hurt someone.
 

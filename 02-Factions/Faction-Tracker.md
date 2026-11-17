@@ -13,7 +13,7 @@ Single-page state board. Update after every session. Detail lives in the per-fac
 |---|---|---|---|---|
 | The Ministry | V | strong | 0 | — |
 | Apex Aegis | IV | strong | 0 | — |
-| The Subway Community | N/A | — | 0 *(no access until Heist 2)* | — |
+| The Subway Community | N/A | — | 0 *(no access until the Emmerich score, Session 2)* | — |
 | The Twice-Born *(distributed)* | N/A | — | 0 *(0/3 favors)* | — |
 | The Hunter Underground | varies | — | 0 | — |
 | The Mimic / The Understudied | unknown | — | unknown — embedded | *(Decay Clock — see `07-Clocks/Active-Clocks.md`)* |
@@ -40,3 +40,5 @@ What each faction *intends* to do regardless of the crew. Use this for clock adv
 ## How to read this file
 
 A faction's tier is what it has, hold is whether it can defend it, standing is how it currently regards the crew. Bible defaults all crew standings to 0 at session start; nudge after any score that touches the faction.
+
+**Twice-Born mapping:** *Enmity* = standing −1 · *Ambivalence* = 0 · *Favor* = +1 standing **and** +1 Favor token (max 3).

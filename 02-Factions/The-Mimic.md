@@ -20,13 +20,15 @@ The Understudied. Almost no one knows this. Emmerich the tailor was present when
 
 Destroy the Subway's neutrality — not for chaos, but for control. If the cover-up collapses and the supernatural is exposed, the resulting panic creates a power vacuum. The Understudied intends to fill it: positioning itself as the sole broker of peace between humans and monsters. It wants to be indispensable to both sides of a war it is starting.
 
+**What it tells itself** *(see `The-Casting-Mask.md`)*: the current arrangement — hidden supernatural, Ministry control, Apex extraction — is wrong and unsustainable, and only open negotiation can end it. The *indispensable broker* is the darker truth it has stopped looking at.
+
 ## Method
 
 Use **The Casting Mask** to infiltrate positions of trust in both the Ministry and the Subway community. Cause exposure events. Intercept the crew's attempts to prevent them. Drive the Decay Clock from both ends simultaneously.
 
 ## The Casting Mask *(Relic — Unique)*
 
-Allows any face, voice, mannerism. Each use costs a Memory — a piece of its actual self. The Mimic has used it for so long it no longer knows its original form. It occasionally reaches for memories that belong to faces it has worn, not to itself. Do not let players obtain this easily.
+Allows any face, voice, mannerism. Each face *costs* it a piece of its actual self and gives it the face's memories in exchange — it is slowly being replaced by the people it has worn. The Mimic has used it for so long it no longer knows its original form. It occasionally reaches for memories that belong to faces it has worn, not to itself. Do not let players obtain this easily.
 
 ## Its Face
 
@@ -39,7 +41,7 @@ Plant in Session 1 or 2 as a trusted, helpful contact. Candidates the bible sugg
 
 - **How it was planted:** The crew receives the Merton envelope in Session 1. Thorne follows up as the Ministry contact on the job, positioned as a reform-minded liaison who prefers working *with* firms rather than above them. Warm, attentive, slightly too invested to be neutral.
 - **What it has done for the crew so far that built trust:** First contact post-Merton. Appears in Session 2 running interference on an Apex Aegis compliance ping — seemingly protecting the crew.
-- **Planted tells:** Five tells seeded in Sessions 1–2. See `Elias-Thorne.md` for the full sequence. Tell 1: uses a PC's first name before introductions. Tell 5 (ongoing): plain silver ring, right hand, slightly too loose — belongs to a prior face.
+- **Planted tells:** Six tells seeded in Sessions 1–3 (see `05-Sessions/Campaign-Arc.md` §5 and `Elias-Thorne.md`). Tell 1: first name before introductions. Tell 6 (ongoing): plain silver ring — belongs to a prior face (Tamsin Solano's grandmother's).
 
 ## Its Tell
 

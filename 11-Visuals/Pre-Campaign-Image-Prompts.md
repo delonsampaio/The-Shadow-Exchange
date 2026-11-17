@@ -336,7 +336,7 @@ Clean composition, no text, no watermarks, no signatures.
 Save as: `npc-agnes-pell.png`
 
 ```
-A woman in her late sixties on a front doorstep, holding a large ceramic soup tureen with both hands. She has brought her own ladle. She is looking at whoever opened the door with the expression of someone who has been bringing soup to this house for fifteen years and has decided not to revisit the details tonight. Her coat is sensible. Her hat is slightly wrong for the weather.
+A woman in her late sixties on a front doorstep, holding a large ceramic soup tureen with both hands. She has brought her own ladle. She is looking at whoever opened the door with the expression of someone who has been bringing soup to this house for forty years and has decided not to revisit the details tonight. Her coat is sensible. Her hat is slightly wrong for the weather.
 Flat overcast exterior light — a residential street in late afternoon with no sun. The tureen is warm and slightly steaming. Her face lit from above and softly from the tureen's reflective glaze.
 A ceramic tureen with a domestic floral pattern, the ladle handle extending past the lid because she did not plan for the ladle carefully. Her expression is the expression of a woman who is staying until she has seen Mabel. The composition slightly close — she is in the doorway and does not require more room.
 Clean composition, no text, no watermarks, no signatures.
@@ -375,5 +375,155 @@ Save as: `map-subway-schematic.png`
 A transit map filling the full frame for a system called "Line 0" — lines that do not correspond to normal city geography, rendered in the visual language of an official transit authority. One line marked in red ink by hand, added after the original printing. Station names in small type: "Threshold," "The Still Point," "Last Platform," "Confluence," "The Mouth."
 Flat document lighting with a slight greenish tint — as if the map has absorbed the light of the space it belongs to. Aged paper catching the light unevenly, slightly brighter at center, dimming toward the edges.
 Printed lines with the precision of official cartography, the red handwritten addition slightly smeared — added in haste, or in poor light, or somewhere the pen didn't want to work. Paper with a greenish aging tint, the official printing fading at the edges. A document that is correct in format and wrong in content. The kind of map that looks authoritative until you try to use it to go somewhere.
+Clean composition, no text, no watermarks, no signatures.
+```
+
+
+---
+
+## Added in Review — Missing Key Images
+
+*(All new. Use the Master Style Suffix. Save to `_Saved-Images/`.)*
+
+### The Subway Entrance — the Railing in the Alley *(Session 2 — the big reveal)*
+Save as: `location-subway-entrance.png`
+```
+A dead-end alley at dusk, viewed from the street end; a green-painted iron railing set into the concrete, waist-high, leading down into darkness; a white ceramic-tile sign above it reads "LINE 0 — ETHEREAL EXPRESS." In the middle distance a businessman in a suit walks directly through the railing, phone to his ear, unaware; he is slightly translucent where the railing passes through him.
+The only light is a flat sodium-orange streetlamp behind the camera; the railing and sign receive almost none of it — they look *lit from within,* a cold, sourceless green on the tile that lights nothing around it.
+Cold-painted iron with tiny rust freckles, tile with hairline cracks, wet brick; green-white sign against orange dusk. A thing that should not be here, looking like it has always been.
+Clean composition; the only legible text is the white-tile sign reading LINE 0 — ETHEREAL EXPRESS; no other text, no watermarks, no signatures.
+```
+
+### Gerald — The Bulldog With Human Hands *(Session 1 — comic reveal)*
+Save as: `npc-gerald-dog.png`
+```
+A fawn English bulldog sitting very upright on a high wooden stool in a dim theater basement, looking straight at the camera with an expression of great goodwill; **two pale human hands** where his front paws should be, one raised in a polite wave, the other resting on his knee. A ghost-light bulb on a stand in the background.
+Warm amber from the bare bulb on the left; cold blue spill from a stairwell on the right; gentle dust motes.
+Folded skin on the bulldog's brow, careful human knuckles with a faint tan line at the wrist, scuffed stool, concrete, a hanging mop. The most sincere creature in the room. Comic and deeply sad at once.
+Clean composition, no text, no watermarks, no signatures.
+```
+
+### Zoltar — The Machine *(Session 0)*
+Save as: `location-zoltar-machine.png`
+```
+A glass-fronted fortune-teller booth the size of a phone box in the back corner of a dusty bookshop, a robed automaton with a painted beard and a turban, brass hands resting on a velvet pedestal; moldering atlases stacked in front; his painted eyes face the viewer. The coin slot has a slight greenish glow.
+A single amber lamp from the shop behind; a very thin green line of light along the slot. Dust on the glass.
+Cracked paint on the cheeks, brass worn bright where hands once touched it, velvet sun-faded. A fortune that has not been told yet. Wry and slightly menacing.
+Clean composition, no text, no watermarks, no signatures.
+```
+
+### Harlan's Diner — Exterior *(Session 4)*
+Save as: `location-harlans-diner.png`
+```
+A 24-hour roadside diner at night in rain, forty minutes from any city; chrome-trimmed, a single neon sign half-lit ("HARLAN'S — OPEN"), three pickup trucks and a motorcycle in the gravel lot; a corkboard visible through the window.
+Warm yellow neon and heat-lamp glow through the window against cold blue rain-light; wet gravel reflecting both.
+Chipped chrome, steam on the glass, a bumper sticker for a long-gone hunting supply. The only warm thing for miles. A safe room that is not safe.
+Clean composition, no text, no watermarks, no signatures.
+```
+
+### Renwick Stalls *(Session 3–4)*
+Save as: `npc-renwick-stalls.png`
+```
+A nervous property developer in an expensive coat a size too large, holding two business cards in one hand, smiling a half-second too early; a pitch-deck folder under his arm; standing on a street of late-Victorian townhouses.
+Cold overcast daylight; a warm window glow behind him in an old house.
+Camel coat, new shoes that don't fit his stride, a tie slightly crooked. A man who has been told not to ask questions.
+Clean composition, no text, no watermarks, no signatures.
+```
+
+### Drennick & Foss *(Session 2)*
+Save as: `npc-drennick-foss.png`
+```
+Two Apex Aegis Peacekeepers in dark coats and earpieces on a rainy Meridian sidewalk: Drennick (tall, calm, clipboard held like a menu) and Foss (short, intense, jaw tight), mid-argument, one gesturing with a pen; neither is looking at the person they are following.
+Cold blue storefront light; warm boutique window behind them.
+Dark wool, rain on shoulders, matching clipboards, one smudged beet-colored stain on a cuff. Dangerous and petty in equal measure.
+Clean composition, no text, no watermarks, no signatures.
+```
+
+### Dev & The Last Stop *(Session 3+, Subway)*
+Save as: `npc-dev-last-stop.png`
+```
+A small café stall on a Subway platform: a barista in a green apron with a warm face making a drink for a customer with no visible mouth; shelves of mismatched mugs; a chalkboard that reads "WE'RE OUT OF THE CONCEPT OF OAT MILK."
+Warm amber under a hanging bulb inside the stall; greenish sourceless Subway light on the platform behind.
+Chipped mugs, steam, a hand-lettered chalkboard. A moment of kindness underground.
+Clean composition, no text, no watermarks, no signatures.
+```
+
+
+---
+
+## Added in Review (Round 2) — More Missing Prompts
+
+### Bernard — The Theater Janitor *(Session 1)*
+Save as: `npc-bernard-janitor.png`
+```
+A late-fifties theater janitor in a worn cardigan over a gray work shirt, standing half-inside a narrow backstage supply closet, holding a string mop across his chest like a rifle. Medium shot. One hand grips the closet doorknob, ready to pull it shut; his expression is a mix of profound dignity and a man who has decided that whatever he just saw is above his pay grade.
+A single warm amber ghost-light bulb from the stage casts long shadows across worn red lobby carpet; cold blue fluorescent light spills from an open basement door behind him.
+Threadbare carpet worn to the backing, a galvanized mop bucket on casters with soapy water catching the amber light, peeling backstage paint. Comic and tender at once.
+Clean composition, no text, no watermarks, no signatures.
+```
+
+### Harlan Okafor *(Session 4)*
+Save as: `npc-harlan-okafor.png`
+```
+A broad, weathered man in his sixties behind a diner counter wiping a glass that is already clean, a grease-stained apron, a corkboard of photographs on the wall behind him (the Wall of the Missing); he is looking at the door, not at the camera.
+Warm yellow heat-lamp glow over the counter against cold blue rain-light through the window.
+Chrome and Formica, steam on the glass, faded photographs with case numbers. A man who has lived three lives and kept the good parts of each.
+Clean composition, no text, no watermarks, no signatures.
+```
+
+### Deputy Director Alma Reyes *(Session 5)*
+Save as: `npc-reyes.png`
+```
+A woman in her mid-fifties in a charcoal coat, standing at a bookshop shelf with a dry black umbrella and a manila folder, a capped pen held like a pointer; calm, intelligent, and very still.
+Warm amber from the shop lamp on one side of her face; cold blue from the rainy window on the other.
+Wool coat with a Ministry pin half-hidden by a scarf, an unmoving pen, damp shoulders. A person who has decided to be quietly dangerous in the right direction.
+Clean composition, no text, no watermarks, no signatures.
+```
+
+### Director Arthur Vance *(Session 4+)*
+Save as: `npc-vance.png`
+```
+A man in his sixties in a perfectly pressed gray suit sitting at a bare desk in a windowless office, reading a file while someone speaks to him; a single stamp and ink pad aligned with the edge of the blotter.
+Flat cold fluorescent light overhead; a single amber desk lamp.
+Pressed wool, a pen laid parallel to the folder, no photographs, no personal objects. Procedure as a personality.
+Clean composition, no text, no watermarks, no signatures.
+```
+
+### The Bookmobile *(Session 0–1)*
+Save as: `item-bookmobile.png`
+```
+A battered decommissioned bookmobile parked in a rainy alley behind the bookshop, hand-painted on the side in cracked cream letters: "C&C MOBILE LIBRARY — ASK ABOUT OUR LATE FEES"; one hubcap missing, a faded library-card decal on the windscreen.
+Amber rear-door light from the shop spilling across wet cobbles; cold blue streetlight overhead.
+Rust blooms on the wheel arch, faded paint, a dented fender, a book-return slot welded shut. A van that has outlasted four owners and will start on the second try.
+Clean composition; the only legible text is the painted slogan on the side; no watermarks, no signatures.
+```
+
+### Subway Regulars *(Session 3+)*
+Save as: `npc-officer-bram.png`
+```
+A stone gargoyle perched on a tiled pillar in a greenish-lit Subway hall wearing a small peaked cap, arms folded, an expression of weary formal disapproval; commuters pass beneath him without looking up.
+Sourceless green light from above; warm amber from a nearby café stall.
+Weathered stone with moss in the cracks, a tiny brass badge, the patience of three decades.
+Clean composition, no text, no watermarks, no signatures.
+```
+Save as: `npc-madame-quill.png`
+```
+A theatrical woman in a velvet shawl behind a cluttered stall of glittering trinkets and "I ♥ LINE 0" magnets, holding up a snow globe that is snowing on a tiny Meridian; she is mid-pitch with arm outstretched.
+Warm amber string lights over the stall; cold green Subway light behind.
+Tarnished brass, velvet, tiny glass jars, a price tag in a looping hand. Gaudy, charming, slightly dangerous.
+Clean composition, no text, no watermarks, no signatures.
+```
+Save as: `npc-wim-lost-and-found.png`
+```
+A soft-spoken clerk in a cardigan behind a long wooden counter stacked with lost things — umbrellas, a single glove, a lunch pail, glass jars each holding a small glowing something; he is holding up one jar and looking apologetic.
+Warm amber from a desk lamp; cool green Subway light at the edges.
+Brass counter bell, hand-lettered claim tags, dust, patience. A museum of everything anyone ever lost.
+Clean composition, no text, no watermarks, no signatures.
+```
+Save as: `npc-ottilie-brand.png`
+```
+A sunny, reckless young hunter in a battered canvas jacket leaning on a Subway pillar and grinning, a pocket notebook (her scorecard) in one hand, a worn hunting knife and a sprig of dried herbs at her belt.
+Warm amber from a café stall beside her; cold green Subway light behind.
+Scuffed boots, a patch on her sleeve (a small brass lantern), an expression of happy competition. A person who keeps score and means it kindly.
 Clean composition, no text, no watermarks, no signatures.
 ```

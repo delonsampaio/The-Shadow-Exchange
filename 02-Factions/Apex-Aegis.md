@@ -3,7 +3,7 @@ entity_type: Faction
 name: "Apex Aegis"
 tier: IV
 hold: Strong
-standing_with_crew: -1
+standing_with_crew: 0
 status: Active
 ---
 
@@ -20,6 +20,8 @@ Hostile takeovers, tactical "Cleaners," and high-tech resonance dampeners. They 
 ## Key NPCs
 * **[NPC: The Regional Director]:** (Unmet) Oversees the city's acquisition push.
 * **[NPC: Apex Cleaners]:** Tactical squads trained in neutralizing Twice-Born and uncooperative hunters.
+* **Drennick & Foss:** Peacekeepers on the Meridian beat. Competent. Arguing about the Ministry canteen's beet special. See `03-NPCs/Active/Drennick-and-Foss.md`.
+* **Stalls Holdings / Renwick Stalls:** an Apex shell that buys cleared property — the front for the Session 3 contract. See `03-NPCs/Active/Renwick-Stalls.md`.
 
 ## Current Operations & Clocks
 * **Current Focus:** Triangulating the entrance to the "Architect's" original vault.

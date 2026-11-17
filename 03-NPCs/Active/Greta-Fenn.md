@@ -4,7 +4,7 @@ status: recurring
 faction: The Ministry
 location: Field — appears post-job during Downtime
 anchor_item: none
-available: After first completed score
+available: Session 1 downtime (first in-person visit — two years of forms by mail)
 ---
 
 # Greta Fenn — Ministry Field Compliance Officer

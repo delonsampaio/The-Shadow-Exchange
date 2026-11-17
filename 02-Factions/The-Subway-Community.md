@@ -30,7 +30,7 @@ The Subway acts through individual operators rather than centralized policy. Rep
 
 ## Current state
 
-- **Crew access:** none until after Heist 2 *(per bible)*.
+- **Crew access:** none until after the Emmerich score (Session 2).
 - **Standing with the crew:** 0.
 - **Active clocks:** Subway Decay Clock — see `07-Clocks/Active-Clocks.md` *(introduced Session 5+)*.
 

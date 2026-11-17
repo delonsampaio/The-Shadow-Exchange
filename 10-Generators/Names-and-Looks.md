@@ -7,7 +7,7 @@ purpose: "On-demand NPC creation for mid-session improv."
 # Names & Looks — On-Demand
 
 ## The Names
-* **First (Old-World):** Merton, Emmerich, Harlan, Ottilie, Bram, Senna, Cosma, Reinhart, Mira, Theron, Yusuf, Adelaida, Wim, Octavia, Rufus, Magdalena, Tobin, Inez, Gellert, Phoebe.
+* **First (Old-World):** Merton, Emmerich, Harlan, Ottilie, Bram, Senna, Cosma, Reinhart, Theron, Yusuf, Adelaida, Wim, Octavia, Rufus, Magdalena, Tobin, Inez, Gellert, Phoebe.
 * **Surnames (Trades/Weather):** Okafor, Vance, Halliday, Reszke, Marlow, Kettering, Strauss, Aderyn, Calder, Mensah, Voss, Castellan, Harrow, Linden, Quill, Brand, Vesperi, Ostrov.
 
 ## The Looks (AI Rule: Weather + Posture + Tell)

@@ -1,7 +1,7 @@
 ---
 entity_type: Location
 name: "Harlan's Diner"
-district: "Industrial"
+district: "City edge — forty minutes outside, off the GPS"
 controlling_faction: "[Faction: The Hunter Underground]"
 claim_status: Rival Claim
 threat_level: Safe

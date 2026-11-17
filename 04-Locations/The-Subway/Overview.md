@@ -18,10 +18,34 @@ The Subway's entrances are invisible to hostile or purely extractive presences. 
 
 - **Monsters chosen:** those without malicious intent toward the community.
 - **Hunters chosen:** those whose reasons go beyond profit or institutional loyalty.
-- **The crew:** access begins after Heist 2. Something about them — or that specific moment — qualified. They don't know what. *(See `04-Locations/The-Subway/Mysteries.md`.)*
+- **The crew:** access begins after the **Emmerich score (Session 2).** Something about them — or that specific moment — qualified. They don't know what. *(See `04-Locations/The-Subway/Mysteries.md`.)*
 - **Apex Aegis:** never found an entrance. Bribed hunters lose access immediately afterward.
 
 There is **no Subway Token** mechanic. Access is who they are, not what they carry.
+
+## Why Can They See It? *(the canonical answer — GM-private truth, player-facing mystery)*
+
+**The truth, in one paragraph:** the Subway perceives a **quality**, not a deed — *the willingness to feel the cost of a choice before making it.* It is not "goodness." Twice-Born who are chosen can be sour, frightened, or cruel to the wrong people; hunters who are chosen can be thieves and liars. What the Subway sees is **conscience** — grief, purpose, care for something beyond profit or orders — and what a person *does* when it is inconvenient. The Emmerich score was the first moment the crew was pressed hard enough to show it. *(Whether they warn him, seize the thimble and feel it, treat him as a person, return it, or shield him — see `Mysteries.md` → *The Qualifying Criterion.*)*
+
+**What the players are told:** nothing. In Session 2 no one knows why. Cosma: *"Why do you think you can see it?"* PTOLEMY: *silence, then one clasp.* The Subway raises the question and does not answer it.
+
+**The wrinkle (do not reveal early):** PTOLEMY's ledger has **their names, dated three days before** they found the entrance — **and the address of Curios & Chronicles, dated three days before they first arrived two years ago.** So the Subway *did not choose them for that moment* — it chose them **before**, and that moment *confirmed* it. Who or what decided three days earlier? (Architect thread — see `The-Architect.md`.) The Subway is still the first thing in this world that looked at the crew and decided something about them without asking.
+
+**Losing it:** access can **fade** — e.g. a crew that destroys Anchors with no exception, takes a Crossroads deal without cost, or hunts a Twice-Born as pure prey. It is never "revoked by a rule." It just stops being there. (Apex's bribed hunters lose it immediately after — *because they were never chosen for the quality.*)
+
+---
+
+## First-Visit Mystery Rules *(Session 2)*
+
+1. **It should feel like something that shouldn't exist** — a space that *can't be on the map,* that nothing sees but them, that has *no Resonance signature at all.* (Everything else in this world leaves a signature.)
+2. **Raise questions, don't answer them.** No explaining who runs it, why it chose them, what it is.
+3. **Two or three vivid details per beat. Never a tour.**
+4. **No jokes inside it tonight.** The wonder should be uneasy. Humor resumes on the pier.
+5. **Silence is a tool.** After the entrance read-aloud: wait. Let the table decide whether to go down. They must *choose* to descend.
+6. **Leave a hook that *costs* something:** PTOLEMY's charge, and the feeling of being *tracked.*
+7. **On the pier, they should be unsure** whether they were rescued, selected, or caught.
+
+---
 
 ## What the Subway offers
 

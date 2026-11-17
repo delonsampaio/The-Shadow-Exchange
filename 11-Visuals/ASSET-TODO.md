@@ -1,0 +1,103 @@
+---
+entity_type: Tracker
+name: "Asset To-Do — Images & Music"
+last_updated: 2026-11-16
+purpose: "Everything still to generate, in priority order, with the exact filenames the session prep files cue. Prompts live in Pre-Campaign-Image-Prompts.md / Music-Prompts.md / Album-Cover-Prompts.md."
+---
+
+# Asset To-Do — Images & Music
+
+**Legend:** ☐ to do · ✅ done · 🆕 prompt added during the 2026-11-16 review · ⚠ fix needed
+
+## ⚠ Fixes already applied this review
+- ✅ Renamed `_Saved-Music/cover-comic-interlude.mp3` → `music-comic-interlude.mp3` (Session 3 cues it by that name).
+- ✅ Renamed `_Album-Covers/cover-theater-loop..png` → `cover-theater-loop.png` (double dot).
+- ✅ Fixed typo in `Album-Cover-Prompts.md` (`cover-vocal-scanner-station.mp3` → `.png`).
+
+---
+
+## 🖼 IMAGES
+
+### P0 — Needed for Sessions 0–3 as written
+| ☐ | File | Cued in | Prompt |
+|---|---|---|---|
+| ☐ | `location-zoltar-machine.png` 🆕 | S0 (optional but great) | Pre-Campaign prompts (end) |
+| ☐ | `npc-gerald-dog.png` 🆕 | S1 (Gerald reveal) | Pre-Campaign prompts (end) |
+| ☐ | `location-emmerichs-shop.png` | S2 | exists |
+| ☐ | `npc-emmerich.png` | S2 | exists |
+| ☐ | `item-silver-thimble.png` | S2 | exists |
+| ☐ | `location-subway-entrance.png` 🆕 | S2 (the reveal) | Pre-Campaign prompts (end) |
+| ☐ | `npc-ptolemy.png` | S2 *(not yet cued in older files — now cued)* | exists |
+| ☐ | `npc-cosma-linden.png` | S2 | exists |
+| ☐ | `location-ashby-exterior.png` | S3 | exists |
+| ☐ | `npc-mabel-ashby-alive.png` | S3 | exists |
+| ☐ | `npc-mabel-ashby-wraith.png` | S3 | exists |
+| ☐ | `item-grief-jars.png` | S3 | exists |
+| ☐ | `npc-agnes-pell.png` | S3 | exists |
+
+### P1 — S2/S3 optional beats and S4 prep
+| ☐ | File | Prompt |
+|---|---|---|
+| ☐ | `npc-aldric-voss.png` | exists |
+| ☐ | `npc-crossroads-broker.png` | exists |
+| ☐ | `location-ashby-interior.png` | exists |
+| ☐ | `item-mabel-knitting-needle.png` | exists |
+| ☐ | `npc-senna-calder.png` | exists |
+| ☐ | `npc-mara-halliday.png` | exists |
+| ☐ | `map-subway-schematic.png` | exists |
+| ☐ | `location-harlans-diner.png` 🆕 | S4 debut |
+| ☐ | `npc-drennick-foss.png` 🆕 | S2 (optional) |
+| ☐ | `npc-renwick-stalls.png` 🆕 | S3/S4 |
+| ☐ | `npc-dev-last-stop.png` 🆕 | Subway second visit |
+
+### P2 — Later / GM-only
+- `item-casting-mask-GM-PRIVATE.png` (prompt exists; **GM-only — never on the Player Screen**).
+- 🆕 **Prompts added (Round 2):** Bernard, Harlan, Reyes, Vance, the Bookmobile, Officer Bram, Madame Quill, Wim, Ottilie Brand → `Pre-Campaign-Image-Prompts.md` (end).
+- Still **no prompt yet**: The Fence, The Whisperer, the Ministry field office, the Wall of the Missing, the Docks, the Overhang playground. *(The Conductor is a PA voice — no image needed. Ask the Co-GM: "give me an image prompt for X.")*
+
+### Existing images worth a quick look *(I audited names only, not the pixels)*
+Verify visually: `cover-*` set matches the track; `npc-merton-true-form.png` is the *Barghest*, not too gory; `map-city-districts.png` labels match `City-Districts.md` (five districts).
+
+---
+
+## 🎵 MUSIC
+
+### P0 — Needed for Sessions 0–3 as written
+| ☐ | File | Cued in | Prompt |
+|---|---|---|---|
+| ☐ | `music-ashby-approach.mp3` | S3 | exists |
+| ☐ | `music-ashby-interior.mp3` | S3 | exists |
+| ✅ | `music-comic-interlude.mp3` | S3 (renamed) | — |
+| ☐ | `music-caper-chase.mp3` 🆕 | S2 (Door Chase) | Music-Prompts (end) |
+| ☐ | `music-sting-ruhroh.mp3` 🆕 | S1 (Gerald) | Music-Prompts (end) |
+| ☐ | `music-sting-boo.mp3` 🆕 | S3 (Mabel's fake-out haunt) | Music-Prompts (end) |
+| ☐ | `music-s02-the-railing.mp3` 🆕 | S2 (mystery entrance; fallback `music-supernatural`) | Music-Prompts (end) |
+
+### P1
+| ☐ | File | Cued in |
+|---|---|---|
+| ☐ | `music-road-rock.mp3` 🆕 | van rides / end of a good score |
+| ☐ | `music-harlans-diner.mp3` 🆕 | S4 |
+| ☐ | `music-greta-waltz.mp3` 🆕 | Greta scenes (S1+ downtime) |
+
+### Already saved but not yet cued
+- `music-score.mp3` — use during the **Surge** or heist action (S1 Beat 6) as an alternate to `music-s01-merton-fight`.
+- `music-vocal-bookshop-radio.mp3` — AM-radio vocal; good for the S0 Scanner Station or a Downtime vignette.
+
+### ⚠ Stings are < 30 s
+Lyria 3 Pro generates **≥ 30 s**. For `music-sting-ruhroh` and `music-sting-boo`, put the sting in the first 4–5 s with silence after, then **trim** in QuickTime (Edit → Trim).
+
+### ⚠ Vocal-under-narration risk
+`music-vocal-fairground`, `music-vocal-scanner-station`, `music-vocal-bookshop-radio` all have **lyrics**. The Run Sheets now say *fire after the read-aloud*, not under it. If you'd rather have instrumentals, regenerate with `[Instrumental]`.
+
+### Album covers (`_Album-Covers/`) still needed for new tracks
+`cover-caper-chase.png`, `cover-sting-ruhroh.png`, `cover-sting-boo.png`, `cover-s02-the-railing.png`, `cover-road-rock.png`, `cover-harlans-diner.png`, `cover-greta-waltz.png`, plus the Session 3 set (`cover-ashby-approach`, `cover-ashby-interior`). *(🆕 Prompts for all nine are now at the end of `Album-Cover-Prompts.md`.)*
+
+---
+
+## 🛠 Tech to-dos (not assets, but before Session 0)
+- ☐ Open `GM-Dashboard.html` — it loads **React, Tailwind and Babel from CDNs** → **needs internet**. *(Offer: vendor them locally so it works offline.)*
+- ☐ Open `Player-Screen.html` on the TV; F11; confirm the title card; ask the Co-GM to update `scene.js` once to test a crossfade.
+- ☐ Test `fade-switch.sh` once (QuickTime Player must be permitted to be controlled; macOS may prompt).
+- ☐ Enter the three PC names into `GM-Dashboard.html` (`INIT_PCS`) and bump `SAVE_VERSION`.
+- ☐ Windows paths in `CoGM-Core-Instructions.md` (`The Shadow Exchnage` misspelling, the OneDrive path) — only matter if you run from the Windows machine.

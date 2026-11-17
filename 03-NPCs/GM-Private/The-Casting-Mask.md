@@ -32,21 +32,21 @@ Ministry field liaison. True Believer — the Understudied chose this face becau
 
 ---
 
-### Face 2 — Mira Solano *(7 years — 18 to 11 years ago)*
+### Face 2 — Tamsin Solano *(7 years — 18 to 11 years ago)*
 
 Civilian. Journalist who covered municipal infrastructure. The Understudied wore her to maintain a watching brief on a city planning process that would have disrupted a Subway entrance location. The face was necessary for approximately eight months. The Understudied kept it for seven years.
 
-**The ring:** Mira's ring. Her grandmother's. She wore it on her right hand. The Understudied kept wearing it after taking Thorne's face — habit, or the accumulation of seven years, or something harder to explain. It is slightly too loose on Thorne's hand. When the Understudied reaches for it and it isn't where it should be, what it's reaching for is Mira, not Thorne.
+**The ring:** Tamsin's ring. Her grandmother's. She wore it on her right hand. The Understudied kept wearing it after taking Thorne's face — habit, or the accumulation of seven years, or something harder to explain. It is slightly too loose on Thorne's hand. When the Understudied reaches for it and it isn't where it should be, what it's reaching for is Tamsin, not Thorne.
 
 **Status of original Solano:** She went home one day and someone else was living her life. She is now known as someone who had a breakdown — quit journalism, moved cities, withdrew. She has been in the same city as the Understudied for three years without knowing it. She writes a local newsletter about urban gardening. She sometimes has a feeling she can't explain when she passes certain buildings.
 
 ---
 
-### Face 1 — Corvin Ashby *(3 years — 21 to 18 years ago)*
+### Face 1 — Corvin Pryce *(3 years — 21 to 18 years ago)*
 
 Ministry archivist. Chosen for access to document routing systems. This is when the Understudied learned how Ministry contracts are manufactured — the same knowledge later used to compromise Vantage & Lowe's last job (see `02-Factions/Rival-Firms.md`).
 
-**Status of original Ashby:** Deceased. Natural causes, seven years ago. The Understudied attended the funeral as Mira Solano. It brought flowers.
+**Status of original Pryce:** Deceased. Natural causes, twelve years ago. The Understudied attended the funeral as Tamsin Solano. It brought flowers.
 
 ---
 
@@ -62,6 +62,6 @@ The Understudied believes, genuinely, that the current arrangement — hidden su
 
 ## GM Notes — Using Previous Faces
 
-- Mira Solano can appear in play before the Mimic reveal as a completely mundane character. She can even become a contact. The dramatic irony of the crew befriending the Understudied's previous face is available.
-- Corvin Ashby's archived files are still in the Ministry system. They contain irregularities — routing anomalies that go back twenty years — that a sufficiently paranoid archivist might notice.
+- Tamsin Solano can appear in play before the Mimic reveal as a completely mundane character. She can even become a contact. The dramatic irony of the crew befriending the Understudied's previous face is available.
+- Corvin Pryce's archived files are still in the Ministry system. They contain irregularities — routing anomalies that go back twenty years — that a sufficiently paranoid archivist might notice.
 - Elias Thorne (the real one) is alive at a coastal property. If the crew ever goes looking for him post-reveal, he will tell them everything he knows. He has been trying to figure out who to tell for eleven years.

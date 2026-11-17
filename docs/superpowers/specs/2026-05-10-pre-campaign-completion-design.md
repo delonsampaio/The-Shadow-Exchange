@@ -1,3 +1,5 @@
+> **⚠ STALE / HISTORICAL (marked 2026-11-16).** This was a May 2026 work plan, partly describing Gemini as the session runner. **Claude** is the Co-GM now; current truth lives in `00-Canon/Session-Boot.md`, `05-Sessions/Campaign-Arc.md` and `docs/review/`. Kept for history only.
+
 # Design: Pre-Campaign Completion + Gemini Co-GM Upgrade
 **Date:** 2026-05-10  
 **Campaign:** The Shadow Exchange (Blades in the Dark)  

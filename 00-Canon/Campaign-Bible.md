@@ -62,7 +62,7 @@ Nobody knows who controls the **[Location: The Subway]**. It simply exists and "
 | **[Clock: Detection]** | 4 | Ticks when drawing attention. Full = Ministry/Apex arrival. |
 | **[Clock: Biological Spoilage]** | 3 | Ticks each Downtime. Paused by **[Location: Cold Storage Locker]**. |
 | **[Clock: Subway Decay]** | 6 | Ticks from Mimic activity or exposure events. Full = Cover-up collapses. |
-| **[Clock: The Omen]** | 8 | (GM-Secret) Boundary thinning. Ticks feed on Resonance leaks. |
+| **[Clock: The Omen]** | 8 | (GM-Secret) The boundary between worlds thinning on its own — *not* caused by the crew or the Mimic. Symptoms first (see `Active-Clocks.md`). |
 
 ---
 

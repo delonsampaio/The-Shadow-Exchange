@@ -105,7 +105,7 @@ Clean composition, no text, no watermarks, no signatures.
 ---
 
 **The Scanner Station Broadcast**
-Save as: `cover-vocal-scanner-station.mp3`
+Save as: `cover-vocal-scanner-station.png`
 ```
 A shortwave radio setup in a dark room — three modified receivers on a rolling cart, close-medium frame. A microphone positioned in front of the center unit. On a notepad beside the equipment, a street address written in careful handwriting — and below it, a time that has not yet passed. The broadcast is ongoing. No one else is in the room.
 Amber instrument indicator lights across the radio dials as the primary light sources — multiple small warm points against deep shadow. The VU meters lit in amber and green, needles moving. The notepad catching ambient equipment glow from below, making the handwriting visible without a direct light source.
@@ -255,5 +255,76 @@ Save as: `cover-comic-interlude.png`
 A single classic martini glass — stemmed, clean, one olive on a cocktail pick — sitting perfectly centered on a zinc-topped surgical table in the Containment Suite. The leather restraint straps are still bolted to the corners. The glass is not bothered by this. Nobody put it there. Nobody is explaining it.
 A single warm amber lamp directed at the glass from the left — the only warm light source in an otherwise harshly fluorescent room. The glass catches the amber light in a clean curved reflection along the rim. The overhead fluorescent panels illuminate the rest of the room in their cold clinical white, making the amber warmth on the glass more incongruous.
 Polished martini glass on scratched zinc — the surface marks around it suggest the table has seen considerable use; the glass has not been here long enough to pick up any of it. The olive sits correctly on the pick. The restraint straps in the background are worn leather, soft from use. A pleasant object in a room designed for containment. The glass is not aware of the irony.
+Clean composition, no text, no watermarks, no signatures.
+```
+
+
+---
+
+## Added in Review (Round 2) — Covers for the New Tracks
+
+*(Same four-part structure. Save to `_Album-Covers/`.)*
+
+**The Caper Chase** — Save as: `cover-caper-chase.png`
+```
+A revolving boutique door spinning with a blur of a trench coat, a dropped clipboard, and a single shoe flying out of frame, on a rain-slick Meridian sidewalk at dusk.
+Warm amber boutique window light against cold blue street glow; motion streaks across the wet pavement.
+Glossy brass, a mannequin's startled hand, a spilled coffee. Funny chaos in an otherwise quiet noir world.
+Clean composition, no text, no watermarks, no signatures.
+```
+**Ruh-Roh Sting** — Save as: `cover-sting-ruhroh.png`
+```
+A looming dark silhouette on a stool at the bottom of a basement stairwell that resolves, on the second glance, into a bulldog with two human hands raised in a polite wave.
+Single warm amber bulb vs cold blue stairwell spill.
+Dust motes, concrete, careful pale hands. Fright that turns, a half-second later, into affection.
+Clean composition, no text, no watermarks, no signatures.
+```
+**Boo? Sting** — Save as: `cover-sting-boo.png`
+```
+A genteel elderly woman in a cardigan hovering a few inches off the floor of a Victorian parlor, arms raised in a very half-hearted ghostly pose, a tea tray perfectly level in the foreground.
+Warm lamplight with a faint cold blue edge on the ghost's outline.
+Floral wallpaper, a stopped clock, a teacup with steam. Spooky, and extremely polite.
+Clean composition, no text, no watermarks, no signatures.
+```
+**The Railing** — Save as: `cover-s02-the-railing.png`
+```
+A single green-painted iron railing set into concrete at the dead end of an empty alley, leading down into dark; a white tile sign above it reads "LINE 0"; the alley otherwise looks completely ordinary.
+Flat sodium-orange streetlamp behind the camera; the railing lit by a cold sourceless green that lights nothing around it.
+Cold paint, hairline-cracked tile, wet brick. The most unexplained thing in the city.
+Clean composition; the only legible text is the tile sign; no watermarks, no signatures.
+```
+**Road Rock** — Save as: `cover-road-rock.png`
+```
+The rear of a battered bookmobile driving into a rain-streaked night on an empty highway, taillights smeared red across wet asphalt, a cassette deck's green glow just visible through the cab window.
+Warm red taillights and green dash glow against cold blue night.
+Road grit, a cracked decal, rain streaks. Tired, hopeful, a little proud.
+Clean composition, no text, no watermarks, no signatures.
+```
+**Harlan's Diner** — Save as: `cover-harlans-diner.png`
+```
+A roadside diner at night in rain, neon half-lit, three pickup trucks in a gravel lot, a corkboard visible through the window.
+Warm yellow neon and heat-lamp glow vs cold blue rain-light; wet gravel reflecting both.
+Chipped chrome, fogged glass. The only warm thing for miles.
+Clean composition, no text, no watermarks, no signatures.
+```
+**Greta's Waltz** — Save as: `cover-greta-waltz.png`
+```
+A bureaucrat's desk seen from above: a typewriter mid-sentence, a stapler, a stamp pad, a stack of forms in tidy piles, a single teacup and a half-knitted sweater draped over the corner.
+Cool fluorescent office light with one warm amber lamp.
+Carbon paper, ink stains, a clipboard on the chair. Perfectly polite menace.
+Clean composition, no text, no watermarks, no signatures.
+```
+**Ashby Approach** — Save as: `cover-ashby-approach.png`
+```
+A quiet residential street of late-Victorian townhouses in afternoon rain; one house with managed ivy and a teacup on the porch rail; a single upstairs light on.
+Warm amber from that one window, cold blue overcast everywhere else.
+Wet slate, dripping gutters. A home that looks lived-in and isn't.
+Clean composition, no text, no watermarks, no signatures.
+```
+**Ashby Interior** — Save as: `cover-ashby-interior.png`
+```
+A tidy Victorian parlor: an upright piano with sheet music open, a grandfather clock with its hands stopped, a floral armchair, a basket of knitting, a tea tray with two cups, a row of small glass jars on a shelf catching the light.
+Warm amber lamplight; cold blue window light on the stopped clock.
+Floral wallpaper, polished wood, dust on the piano. Comfortable, and wrong underneath.
 Clean composition, no text, no watermarks, no signatures.
 ```

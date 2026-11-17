@@ -12,17 +12,19 @@ This is a working folder for running and reflecting on a Blades in the Dark camp
 
 The folder layout follows the GM's actual workflow rather than a tidy taxonomy. Numbered prefixes are about reading order, not importance.
 
-**Before a session,** open `02-Factions/Faction-Tracker.md`, `07-Clocks/Active-Clocks.md`, and `09-Threads/Plot-Threads.md`. Anything that has shifted since last session lives in those three files. Then open `06-Scores/Active/` and the matching `05-Sessions/Session-NN-Prep.md`.
+**New to Blades? Start with** `00-Canon/Mechanics-Teaching-Ladder.md` (how the three players learn the game). **Start here:** `05-Sessions/Campaign-Arc.md` (roadmap, triggers, truth table, endgame). Every session prep file opens with a **Run Sheet** (cues, triggers, comedy beats). The TV is `11-Visuals/Player-Screen.html`; the GM screen is `11-Visuals/GM-Dashboard.html`.
+
+**Before a session,** open `02-Factions/Faction-Tracker.md`, `07-Clocks/Active-Clocks.md`, and `09-Threads/Plot-Threads.md`. Anything that has shifted since last session lives in those three files. Then open the matching score in `06-Scores/` and the matching `05-Sessions/Session-NN-Prep.md`.
 
 **During a session,** keep `05-Sessions/Session-NN-Prep.md` open as a scratchpad and `03-NPCs/Active/` reachable for quick lookups. The Omen Clock entry in `07-Clocks/Active-Clocks.md` is GM-secret — keep that one to yourself.
 
-**After a session,** write the recap into `05-Sessions/Session-NN-Recap.md` (second person, present tense, prose). Tick clocks in `07-Clocks/Active-Clocks.md`. Update faction standings and tier shifts in `02-Factions/Faction-Tracker.md`. Log any seized Anchor Items in `08-Loot-and-Anchors/Anchor-Ledger.md` — this is the moral weather report, treat it seriously.
+**After a session,** follow `00-Canon/Wiki-Update-Protocol.md` (recap draft in `Public-Wiki/Session-Recaps/Session-NN-Recap.md`, second person, present tense, prose). Tick clocks in `07-Clocks/Active-Clocks.md`. Update faction standings and tier shifts in `02-Factions/Faction-Tracker.md`. Log any seized Anchor Items in `08-Loot-and-Anchors/Anchor-Ledger.md` — this is the moral weather report, treat it seriously.
 
 ## Folder map
 
 | Folder | What lives here |
 |---|---|
-| `00-Canon/` | The bible (`Campaign-Bible-v4.md` — markdown is now canonical, edited directly), the SRD, the tone reference, the GM cheat sheet, the player one-pager. The original `.docx` is preserved in `_archive/` and is frozen. |
+| `00-Canon/` | The bible (`Campaign-Bible.md` v5 + `Campaign-Bible-Appendix.md`), the **Comedy Playbook**, the SRD, the tone reference, the GM cheat sheet, the player one-pager. The original `.docx` is preserved in `_archive/` and is frozen. |
 | `01-Crew/` | Crew sheet, PC sheets, cohorts, crew-wide contacts. |
 | `02-Factions/` | One file per faction, plus a single-page tracker. |
 | `03-NPCs/` | One file per NPC, sorted by current relevance. Twice-Born get their own subfolder because each one is a moral decision. |
@@ -48,7 +50,7 @@ This campaign was scaffolded for a group with 20+ years of D&D / Pathfinder comi
 - **`00-Canon/Player-Reference.md`** — print-ready player one-pager. Action ratings, stress, trauma, resistance, the heist loop, downtime activities, plus a D&D→Blades translation table. One per player.
 - **`01-Crew/PCs/Character-Creation-Guide.md`** — player-facing self-contained walkthrough. Players make their PCs *before* Session 0 and bring filled sheets to the table. Covers playbook picks, action ratings, friends/rivals, the Cursed Heirloom prompt.
 - **`05-Sessions/Session-00-Prep.md`** — dedicated crew creation + table-culture-reset session. Assumes PCs arrive made; spends the time on crew, expectations, system orientation, and the opening montage. Paced minute-by-minute for a first-time-Blades GM.
-- **The bible's Session 1 has been split across two real sessions** (Heist 1 in `Session-01-Prep.md`, Heist 2 + Subway reveal in `Session-02-Prep.md`) so the rules and the moral weight don't compete for attention on the first night.
+- **The bible's Session 1 has been split across two real sessions** (the Merton score in `Session-01-Prep.md`; the Emmerich score + Subway reveal in `Session-02-Prep.md`) so the rules and the moral weight don't compete for attention on the first night.
 - **All session prep files include expanded mid-scene read-alouds** beyond what the bible provides — trad players are conditioned to expect boxed text.
 
 ## House rules baked into this folder

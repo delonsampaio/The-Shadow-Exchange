@@ -19,7 +19,7 @@ available: After crew earns Subway access
 2. **Actually is:** Twice-Born. Has been cataloguing this city's supernatural history since the 1940s. Has copies of thirty years of Ministry Resonance incident reports (1940–1970) — the originals burned in the Archive Fire (see `10-Generators/Urban-Legends.md`).
 3. **Tragic Angle:** She watched the archive burn from across the street. She had warned them about the wiring for six months. Not bitter. Tired.
 
-**Anchor Item:** Borrower's card, Meridian Public Library, 1943. Already forty years old when she received it. Very ordinary. That is the point.
+**Anchor Item:** Borrower's card, Meridian Public Library — **dated 1903; it came to her in 1943,** already forty years old. Very ordinary. That is the point.
 
 ## What She Offers
 - Copies of thirty years of Ministry Resonance incident records

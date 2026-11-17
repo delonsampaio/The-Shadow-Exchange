@@ -50,4 +50,6 @@ Two-person firm, now gone. Filed a Ministry retirement notice ninety-three days 
 
 **Hook:** This is Score 4 or 5 material. The crew hears a rumor, follows the thread, and finds something Apex doesn't want found. If they extract Vantage and/or Lowe, they gain the most experienced outside allies available — and make Apex into a committed enemy.
 
+**Who did what (canon chain — GM-private):** the **Understudied** (as Corvin Pryce, later Thorne) supplied the Ministry routing exploit; **Section Chief Kress** signed the originating form; **Apex Aegis** profited and ran the black site. *The Preservation Order on the Bounty Board is the same bait.*
+
 **Standing:** — *(firm is gone; if Vantage and/or Lowe are recovered, track their standing individually)*

@@ -155,7 +155,7 @@ Violence in Blades is not a sub-system; it is exactly like picking a lock or cli
 
 ## Worked example — running Heist 1
 
-Let's walk through a hypothetical Heist 1 the way it actually plays at the table.
+Let's walk through a hypothetical Heist 1 the way it actually plays at the table. *(Illustrative only — your real Session 1 includes Gerald the dog and the Surge; see `05-Sessions/Session-01-Prep.md`.)*
 
 ### Free play (10 minutes)
 
@@ -212,7 +212,7 @@ The crew decides. Whatever they decide, the Anchor Ledger gets an entry.
 
 The Leech wants the gland clean. *"I'm performing the extraction with the field kit."*
 
-You: *"Physicking, Risky / Limited — you can do it, but the Adrenal Gland is fragile and the basement is not sterile. Or you can take it back to the lair on the table for Standard effect, but that doubles the time you're in the building."*
+You: *"Tinker, Risky / Limited — you can do it, but the Adrenal Gland is fragile and the basement is not sterile. Or you can take it back to the lair on the table for Standard effect, but that doubles the time you're in the building."*
 
 They choose to do it on-site. Roll Tinker 2 dice. Gets a 2.
 
@@ -233,7 +233,7 @@ You set up the exit with a quick Prowl roll for the team. They make it. Out the 
 - **Heat:** add Heat per the SRD's Heat table. Probably 2 — a clean job with one or two ticks of the clock.
 - **Detection Clock:** reset.
 
-End the score there. Cut to the bookshop, gland in cold storage. Now youre in downtime.
+End the score there. Cut to the bookshop, gland in cold storage. Now you're in downtime.
 
 ---
 
@@ -241,14 +241,13 @@ End the score there. Cut to the bookshop, gland in cold storage. Now youre in do
 
 After every score, every PC takes:
 
-1. **Pay coin or take Heat** (lifestyle).
-2. **Indulge Vice** — clear stress equal to the highest die rolled. Overindulge if highest die exceeds current stress. *(Overindulging is a roleplay opportunity, not a punishment — the player picks what trouble it causes.)*
-3. **One downtime activity** (per Coin / Rep spent — extra activities cost 1 Coin or 2 Rep each):
+1. **Indulge Vice** *(one of your two free activities)* — clear stress equal to the highest die rolled. Overindulge if highest die exceeds current stress. *(Overindulging is a roleplay opportunity, not a punishment — the player picks what trouble it causes.)*
+2. **Two downtime activities in total** (Vice counts as one; extras cost 1 Coin or 1 Rep):
    - **Acquire Asset** — temporary item or service.
    - **Long-Term Project** — work a clock toward a personal goal.
    - **Reduce Heat** — fictional cleanup, roll to reduce.
    - **Train** — XP advance.
-   - **Recover** — Physick roll, advance harm-clearing clock.
+   - **Recover** — a healer rolls (Tinker for a PC) and ticks the healing clock.
 4. **Entanglements** — roll if Heat is high enough. Often nothing in the early game.
 
 **Tutorial walkthrough for Session 1's downtime:**

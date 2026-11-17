@@ -1,3 +1,5 @@
+> **⚠ STALE / HISTORICAL (marked 2026-11-16).** This was a May 2026 work plan, partly describing Gemini as the session runner. **Claude** is the Co-GM now; current truth lives in `00-Canon/Session-Boot.md`, `05-Sessions/Campaign-Arc.md` and `docs/review/`. Kept for history only.
+
 # World-Building Expansion Plan
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.

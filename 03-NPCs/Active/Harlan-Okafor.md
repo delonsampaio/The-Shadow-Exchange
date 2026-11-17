@@ -16,7 +16,7 @@ last_seen_session: "00"
 
 ## Three Layers
 1. **Appears as** — A grumpy but reliable diner owner and information broker.
-2. **Actually is** — A retired veteran hunter who survived the early days of the Subway.
+2. **Actually is** — An ex-Ministry field operative turned independent hunter, who kept the Hunter Underground's Roadhouse after he lost his own crew. *(Debuts in Session 4.)*
 3. **Became this because** — He lost his own crew to a **[Faction: Apex Aegis]** acquisition that went violent.
 
 ## AI Roleplay Directives

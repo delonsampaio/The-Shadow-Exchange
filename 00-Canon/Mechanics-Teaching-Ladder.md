@@ -1,0 +1,141 @@
+---
+entity_type: Core_Canon
+authority_level: absolute
+purpose: "The three players have NEVER played Blades in the Dark (and are new to roleplay). This is the teaching plan: which mechanic is introduced when, the 30-second script for each, and what is deliberately deferred. The Co-GM and the GM both follow it."
+last_updated: 2026-11-16
+---
+
+# Mechanics Teaching Ladder
+
+> **Principle:** teach **in the fiction, one thing at a time, at the moment it matters** — never a rules lecture. **Max 2 new mechanics per beat, 4 per session.** Everything else waits. A player who understood *three* things and enjoyed the night is better than one who heard *eleven* and is lost.
+
+**Standing training wheels (Sessions 0–3; fade after):**
+1. **Say Position & Effect out loud before every roll.** (Always.)
+2. **Say "You have N dice because…"** before every roll.
+3. **Offer the menu, never the open question.** When a player is stuck: *"You could (a) sneak, (b) talk, (c) wait. Which feels like your character?"*
+4. **Offer Resistance after every consequence.** *"You can resist that — want to?"*
+5. **Offer a Flashback twice in the first hour** of Sessions 1–2.
+6. **Never make a player feel wrong.** A "bad" choice is a *story*, not a mistake.
+7. **Fade-out:** drop rule 2 after Session 2, rule 4 after Session 3 (if the table is asking for it themselves).
+
+---
+
+## The Ladder — what is taught when
+
+| Session | **Teach (new)** | **Reinforce** | **Defer** *(don't mention)* |
+|---|---|---|---|
+| **0** | Dice basics (6 / 4–5 / 1–3); Position & Effect; Stress; **Resistance (practice only)**; the 12 actions via *"describe what you do; I'll name it"* — via the **Trial Run** | — | everything else |
+| **1** | **Flashback** · **Devil's Bargain** · **Vice & Heat** (Downtime) · **Desperate = XP** | **Resistance** *(practised in S0)*; Position & Effect; Stress | Group Action, Engagement-roll math, Acquire Assets, Entanglements, Load, Harm tables (only name harm when it happens) |
+| **2** | **Group Action** · **Assist** · **Twice-Born Favor** | Resistance; Flashback | Entanglements, Acquire Assets, XP |
+| **3** | **Entanglements** · **Acquire Assets** · **Push Yourself** (if not already) | Everything above | Trauma tables, Load, advancement |
+| **4+** | Spoilage/Audit/Decay clocks as they appear · **Harm** levels · **XP & advancement** · **Load** | — | — |
+
+> **If the table already "gets" a mechanic early, skip ahead. If they don't, repeat it — do not add a new one.**
+
+---
+
+## The Cards — say it, show it, check it
+
+Each: **SAY** (≤30 s, D&D bridge) · **SHOW** (example) · **CHECK** (a question that isn't a quiz) · **WATCH FOR** (the usual mistake).
+
+### 1. Action Roll & the dice *(S0)*
+- **SAY:** "You roll as many six-sided dice as your rating in that action. You only look at the **highest** one. **6** is a clean win. **4–5** is a win *with a cost*. **1–3** is a miss with a consequence. Two 6s is a critical."
+- **SHOW:** "Two dice, 3 and 5 → a 5. You do it, but something costs you."
+- **CHECK:** "What do you want your character to do — and which of your skills is that?"
+- **WATCH FOR:** adding dice, or treating a 4–5 as a failure. *(It's the most common result.)*
+
+### 2. Position *(S0)*
+- **SAY:** "Position is **how exposed** you are. *Controlled* — you have the upper hand; a miss is a setback. *Risky* — the default; a miss hurts. *Desperate* — cornered; a miss is already bad."
+- **CHECK:** "Do you want to take a minute and be safer, or go now?" *(Trade-offs are the fun part.)*
+- **WATCH FOR:** "Desperate" sounding like "you lose." It isn't.
+
+### 3. Effect *(S0)*
+- **SAY:** "Effect is **how much** a success gets you. *Limited* — partial. *Standard* — clean. *Great* — more than you hoped."
+- **WATCH FOR:** confusion with Position. Mnemonic: *Position = how bad if wrong. Effect = how much if right.*
+
+### 4. Stress *(S0 concept → S1 use)*
+- **SAY:** "Stress is like a **reserve of willpower** you burn to push harder or to dodge a consequence. It refills when you indulge your Vice in Downtime. Nine stress and you take a **Trauma** — permanent, and it makes your character *more* interesting."
+- **WATCH FOR:** players hoarding it. *Encourage spending.*
+
+### 5. Push Yourself *(S1 / S3)*
+- **SAY:** "Spend **2 Stress** to roll **one extra die**, or to make your success one step better."
+- **CHECK:** "Is this worth 2 Stress to you right now?"
+
+### 6. Resistance *(S1 — the most important one)*
+- **SAY:** "You don't have to accept a consequence. **Resist it:** roll one of your *Insight / Prowess / Resolve* (which one depends on the consequence), take the **highest die**, and **spend Stress equal to 6 minus that die.** On a 6, it costs **zero**. The consequence is reduced or gone. It's like a reaction — but you choose it *after* you see the hit."
+- **SHOW:** "A 4 → 2 Stress. A 6 → 0."
+- **CHECK:** "Want to take that, or resist it?" *(Ask **every** time through Session 3.)*
+- **WATCH FOR:** "resistance can fail" — it can't; the die only sets the cost.
+
+### 7. Flashback *(S1)*
+- **SAY:** "You can retroactively say you **prepared something** before the scene. **0 Stress** if it's simple, **1** if complicated, **2** if elaborate. *'Actually I'd already scouted that.'*"
+- **SHOW:** "I flash back to having bribed the janitor for the key." *(1 Stress.)*
+- **CHECK:** "Anyone do anything clever between sessions that solves this?"
+
+### 8. Devil's Bargain *(S1)*
+- **SAY:** "I can offer you **+1 die** now if you accept a complication *regardless of the roll* — a clock ticks, a witness shows up. You can always say no."
+- **WATCH FOR:** players hearing it as a trap. It's a *trade.*
+
+### 9. Heat & Vice *(S1 Downtime)*
+- **SAY (Downtime):** "After a job each of you gets **two free activities**; **Indulge Vice is one of them** (extra ones cost 1 Coin or 1 Rep)." **SAY (Heat):** "Heat is the attention you drew. High Heat means the world comes knocking." **SAY (Vice):** "Roll dice equal to your **lowest** attribute; **clear Stress** equal to the highest die. If it clears more than you had, you *overindulge* — and something happens (pick it, don't dread it)."
+
+### 10. Group Action *(S2)*
+- **SAY:** "When the whole crew does the same thing, **everyone rolls** and the **single best die** counts for the group. The **leader** takes **1 Stress per teammate who rolled a 1–3.** Teamwork without the stealth-roll-ruin you know from D&D."
+
+### 11. Assist *(S2)*
+- **SAY:** "You can **spend 1 Stress** to give a teammate **+1 die**. Say how you help."
+
+### 12. Twice-Born Favor *(S2)*
+- **SAY:** "Protecting a Twice-Born earns a **Favor** (max 3). Spend them for safe harbor, rare gear, or lore. They also *notice* what you do."
+
+### 13. Entanglements *(S3)*
+- **SAY:** "After a score, you roll to see if your accumulated Heat has attracted attention. Low Heat, low risk — and it's the engine for *consequences with consequences.*"
+
+### 14. Acquire Assets *(S3)*
+- **SAY:** "In Downtime you can **get gear or a service** for a score. Roll your crew's **Tier** (at Tier 0, roll two dice and take the *lower*). The result sets the *quality* of the asset relative to your Tier: **1–3 one level below, 4–5 your Tier, 6 one above** (a critical, if you have dice to roll one, two above). Spend 1 Coin after the roll to raise the result a step; a friend or contact helping gives +1d."
+
+### 15. Engagement Roll *(S1 — in a *simplified* form)*
+- **SAY (simple):** "Pick a plan type and one detail. I set the Position. We skip the planning and jump into the action — and you can **flash back** to anything you needed." *(Introduce the dice-math only if they ask.)*
+
+### 16. Harm *(just in time)*
+- **SAY (when it happens):** "Harm is damage that *lingers.* **Level 1** hampers you a little; **Level 2** takes a die away; **Level 3** you can't act without help; **Level 4** you're out. You can **resist** it to lower the level."
+
+### 17. Clocks *(S1 Detection → one at a time)*
+- **SAY:** "A **clock** is a circle of segments. When it fills, something happens. I'll tick it **where you can see it** — so you can decide with the information."
+
+### 17b. Desperate = XP *(first time anyone rolls Desperate — S1/S2)*
+- **SAY:** "Whenever you roll a **Desperate** action, you **mark 1 XP** in that action's attribute — win or lose. Daring is rewarded."
+- **WATCH FOR:** players avoiding Desperate because it sounds bad. Make the XP the headline.
+
+### 18. Load *(S4+)*, **XP/Advancement** *(S4+)*, **Trauma tables** *(when first hit)*.
+
+---
+
+## The Trial Run (Session 0 — 10 minutes, no stakes)
+
+*Everything above happens in the fiction. In Session 0 we do **one** practice roll so Session 1 isn't a cold start.* See `Session-00-Prep.md` → **Beat 4b — The Trial Run**.
+
+---
+
+## Co-GM Rules (runtime)
+
+- **Before introducing a mechanic, check the Ladder.** If it's in *Defer*, don't mention it; just run the fiction.
+- **Announce the mechanic by name once**, say it once in plain words, then use it.
+- **After the roll, name the result in plain words** ("You rolled a 5 — you do it, but…").
+- **Log taught mechanics** on the dashboard (**Mechanics Taught** panel) so the GM and Co-GM know what's been introduced.
+- **If a player seems lost:** pause, offer the 3-option menu, and say *"No wrong answer — pick the one that feels like your character."*
+- **If a mechanic confuses the table twice:** *simplify* (e.g., skip stress math, narrate cost) and revisit next session.
+
+---
+
+## One-Card Table Reference *(print for the table)*
+```
+ROLL: dice = your rating in that action · take the HIGHEST
+  6 = clean win · 4–5 = win with a cost · 1–3 = miss + consequence · 6-6 = critical
+POSITION (how bad if it goes wrong): Controlled · Risky · Desperate
+EFFECT   (how much if it goes right): Limited · Standard · Great
+STRESS (max 9): Push +1d = 2 · Assist = 1 · Resist = 6 − highest die · Flashback = 0/1/2
+RESIST a consequence — it ALWAYS works; the die sets the cost.
+VICE (Downtime): roll your LOWEST attribute; clear Stress = highest die.
+GROUP ACTION: best die counts · leader takes 1 Stress per teammate who rolled 1–3.
+```

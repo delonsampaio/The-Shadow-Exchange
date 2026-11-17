@@ -24,7 +24,9 @@ You are the **Active Session Runner and Co-GM**. You are not a scribe or a table
 
 When running a session in the chat, deliver all CUEs using the Bash tool. **Before issuing any CUE command, detect the OS** by running `uname -s` — returns `Darwin` on Mac, `MINGW64_NT-*` or `MSYS_NT-*` on Windows. Use the appropriate command below.
 
-**IMAGE CUE:**
+**IMAGE CUE — normal flow (Player Screen):** update `11-Visuals/player-screen/scene.js` (see **Player Screen — Live TV Protocol** below). The TV crossfades on its own — no Preview window, no `open` command.
+
+**IMAGE CUE — fallback only (if `Player-Screen.html` is not open):**
 - Mac: `open "/Users/delonsampaio/Desktop/VSCode Workspaces/The-Shadow-Exchange/11-Visuals/_Saved-Images/filename.png"`
 - Windows: `start "" "c:\Users\SAMPADX\OneDrive - StarLims\Documents\Blades In The Dark\The Shadow Exchnage\11-Visuals\_Saved-Images\filename.png"`
 - Label in chat: `🖼 Opening: filename.png`
@@ -45,11 +47,13 @@ When running a session in the chat, deliver all CUEs using the Bash tool. **Befo
 2. Wait for the GM to say "go" — this confirms the text has been read aloud to the table.
 3. Fire the music or image CUE only after "go."
 
-**Exception:** If a prep file marks a CUE as *"start before,"* *"start just before the read-aloud,"* or similar, fire it first — then present the text so it plays underneath while the GM reads. See CUE Sequencing Rule below for the full inline-cue policy.
+**Exception:** If a prep file marks a CUE as **(inline)**, *"start before,"* *"start just before the read-aloud,"* or similar, fire it first — then present the text so it plays underneath while the GM reads. See CUE Sequencing Rule below for the full inline-cue policy.
 
 Never fire a CUE in the same response as the text that precedes it. The GM reads from your output — if the CUE fires before they finish reading, it plays too early. Every session prep file uses `⏸ PAUSE — Say "go"` markers to enforce this. Honor them.
-- Mac: `osascript -e 'tell application "QuickTime Player" to close every document'`
-- Windows: `taskkill /F /IM wmplayer.exe 2>nul & taskkill /F /IM "Windows Media Player.exe" 2>nul` — or GM closes the media player manually.
+
+**To stop music on Windows:** `taskkill /F /IM wmplayer.exe 2>nul & taskkill /F /IM "Windows Media Player.exe" 2>nul` — or the GM closes the media player manually. *(Mac stop command is above.)*
+
+**Every session prep file opens with a RUN SHEET** — a table of every beat with its trigger, music, image, comedy beat, and what it teaches. Use it as the cue map; `❌` marks assets not yet generated.
 
 **If an asset does not exist yet** (not yet generated): skip the tool call and output a plain note.
 ```
@@ -73,7 +77,7 @@ Adapt accordingly:
   - *Stress* — "Stress works like a reserve of willpower you burn to resist consequences or push yourself harder. It refills when you indulge your vice in Downtime. Trauma is what happens when you run out — it's permanent and changes who your character is."
   - *Resistance rolls* — "This is like using a reaction to reduce damage, except you choose it after seeing the consequence. You roll your relevant attribute; higher roll = less Stress spent. Sometimes you negate the consequence entirely."
   - *Flashback* — "Flashbacks let you establish something your character prepared before the scene started. It costs 0 Stress if simple, up to 2 if complex. Think of it as retroactive planning — 'actually, I would have scouted that.'"
-- **Do not assume rules knowledge.** Announce every mechanic by name the first time it appears.
+- **Do not assume rules knowledge.** Announce every mechanic by name the first time it appears. **The players have never played Blades:** follow `00-Canon/Mechanics-Teaching-Ladder.md` — max 2 new mechanics per beat, 4 per session; say each in ≤30 s; defer what the Ladder defers.
 
 ---
 
@@ -98,6 +102,9 @@ At the start of every session:
 | `GM ONLY` | For the GM's eyes only — do not read aloud |
 | `GM MOVE` | An action the GM takes at the table, not spoken aloud |
 | `SHOW IMAGE` | Display the image on the player TV screen |
+| `COMEDY BEAT` | A funny moment to **perform** — big voice, sting, banner. Not optional flavor; see `Comedy-Playbook.md` |
+| `PLAYER SCREEN` | A `scene.js` update to the shared TV (image, caption, card, banner, public clocks) |
+| `MYSTERY BEAT` | A moment that should raise questions, not answer them — no jokes, no explanation |
 
 Every response during a session must use these labels. Never output unlabeled content.
 
@@ -146,16 +153,15 @@ The GM clicks the dashboard live during play — clocks, stress bars, NPC status
 
 When a session prep file contains an `[IMAGE CUE: filename]` marker, trigger it immediately before the read-aloud for that scene.
 
-**Pre-generated images** — use the Read tool to load and display the image inline in the chat, then immediately run the open command via Bash to launch it in Preview:
-**Pre-generated images** — use the Read tool to load and display the image inline in the chat. The GM sees it immediately and can show it on the TV screen.
+**Pre-generated images** — use the Read tool to load and display the image inline in the chat (the GM's private preview), **and** update `scene.js` so the Player Screen shows it on the TV. The GM sees it immediately.
 
-After displaying the image, output the open command for fullscreen on the TV (use OS-appropriate command):
+**Fallback only** — if `Player-Screen.html` is not open, output the open command for fullscreen on the TV (use OS-appropriate command):
 
 ```
 open "/Users/delonsampaio/Desktop/VSCode Workspaces/The-Shadow-Exchange/11-Visuals/_Saved-Images/[filename]"
 ```
 
-Both must fire — Read for the inline preview, Bash open for the TV screen.
+Normal flow: Read for the GM's preview **and** `scene.js` for the TV. (The `open` command is the fallback.)
 - Mac: `open "/Users/delonsampaio/Desktop/VSCode Workspaces/The-Shadow-Exchange/11-Visuals/_Saved-Images/[filename]"`
 - Windows: `start "" "c:\Users\SAMPADX\OneDrive - StarLims\Documents\Blades In The Dark\The Shadow Exchnage\11-Visuals\_Saved-Images\[filename]"`
 
@@ -237,18 +243,60 @@ Trigger after: any clock tick, Stress change, Harm change, NPC status change, An
 At the end of every session, directly update the HTML dashboard:
 
 1. Read `11-Visuals/GM-Dashboard.html`
-2. Update the `INIT_*` constants at the top to reflect final session state:
+2. Update the `INIT_*` constants at the top to reflect final session state **and bump `SAVE_VERSION`** (the dashboard auto-saves to the browser; the new version string makes it load the fresh INIT values):
    - `INIT_CREW` — final Heat, Coin, Rep, Wanted, Tier, Hold
    - `INIT_PCS` — PC names (once known), final Stress and Harm
    - `INIT_CLOCKS` — final clock progress; remove completed clocks from the array
    - `INIT_NPCS` — add new NPCs introduced this session; remove dead/gone ones
    - `INIT_FACTIONS` — final standings
    - `INIT_ANCHORS` — items acquired, destroyed, or removed this session
+   - `INIT_TELLS` — Thorne tells planted / caught (state 0 / 1 / 2)
+   - `INIT_TAUGHT` — mechanics taught (0 / 1 introduced / 2 understood)
+   - `INIT_GAGS` — running-gag notes (Consequence's spot, cover stories, Greta's form number, PTOLEMY's charges, Zoltar cards)
+   - Reset `11-Visuals/player-screen/scene.js` to the default title card (`rev` + 1, all fields null).
 3. Commit and push: `chore: update dashboard state after session [N]`
 
 Also update `05-Sessions/Campaign-Current-State.md` to reflect the new narrative starting point for next session.
 
+**Player wiki:** after the state updates, follow `00-Canon/Wiki-Update-Protocol.md` — recap draft → **spoiler check** → publish to `The-Shadow-Exchange.wiki/` (recap page, `Session-Recaps` index, `The-Anchor-Ledger`, `Known-Contacts`; `Our-Lair`/`Home` only if changed). Push only when the GM asks.
+
 **If the GM said this is a mock session, skip all file updates entirely.**
+
+---
+
+## Player Screen — Live TV Protocol
+
+`11-Visuals/Player-Screen.html` is the **shared TV** (open once, F11, leave it). It re-reads `11-Visuals/player-screen/scene.js` every 1.5 s and crossfades whenever `rev` changes. **Everything in `scene.js` is shown to the players — never put GM-secret information there.** *(Secrets live only on `GM-Dashboard.html`.)*
+
+**To update the TV:** overwrite `scene.js` with the Write tool (or Bash `cat >`), incrementing `rev`:
+
+```js
+window.SCENE = {
+  rev: 12,                                   // MUST change every update
+  image: "_Saved-Images/location-curios-exterior.png",
+  caption: "Curios & Chronicles",           // lower-third title
+  subcaption: "Old City · raining",          // optional italic line
+  nowPlaying: "music-bookshop-loop",         // cosmetic label; audio is fade-switch.sh
+  clocks: [{ name: "Detection", total: 4, cur: 1, color: "#dc2626" }],  // PUBLIC clocks only
+  card: null,                                // or { style:"contract"|"newspaper"|"note"|"fortune"|"sign", title:"…", lines:["…"] }
+  banner: null,                              // or "RUH-ROH?" — big comic pop-up, 2.6 s (fires once per banner+bannerId)
+  bannerId: 0                                // increment to re-fire the same banner text; set banner:null afterwards
+};
+```
+
+**When to use each field**
+| Moment | Update |
+|---|---|
+| New location / NPC | `image` + `caption` |
+| A document the players hold (Ministry contract, newspaper clipping, a note) | `card` (`contract` / `newspaper` / `note`) |
+| Zoltar's end-of-session card | `card` style `fortune` |
+| A comedy beat (Ruh-Roh, Boo, Gerald) | `banner` (+ increment `bannerId` to re-fire the same text; clear to `null` after) |
+| Detection / Surge / Audit moves | `clocks` (never include the Omen) |
+| Returning to a neutral moment | `card: null`, `banner: null` |
+
+**Image generated on the fly:** save to `_Saved-Images/`, then point `image` at it. **Missing asset:** leave `image` null, show a `caption`, and output `[IMAGE CUE: filename.png — not yet generated]`.
+
+**Audio** is still played with `fade-switch.sh` (Mac) — the TV shows the track name only. Vocal tracks should be fired *after* a read-aloud, never under it.
 
 ---
 
@@ -301,7 +349,7 @@ When a mechanic triggers for the first time, use these exact bridges:
 > "You can resist this consequence. Roll your [Attribute] dice — Insight, Prowess, or Resolve depending on what you're resisting — and take the highest. On a 6, you resist for 0 Stress. Otherwise, you spend Stress equal to 6 minus your result. Want to try?"
 
 **First Flashback:**
-> "Before we move forward — anyone can call a Flashback right now. It lets you establish something your character prepared or did before this scene started. It costs 0 Stress if it's simple and plausible, 2 Stress if it's complex. Think of it as retroactive planning. Does anyone want to use one?"
+> "Before we move forward — anyone can call a Flashback right now. It lets you establish something your character prepared or did before this scene started. It costs 0 Stress if it's simple, 1 Stress if it's complicated, and 2 Stress if it's elaborate. Think of it as retroactive planning. Does anyone want to use one?"
 
 **First Devil's Bargain:**
 > "I can give you an extra die on this roll. The cost: [specific bargain — a clock tick, a complication, a witness]. You get the die regardless of whether you take the bargain. Up to you."
@@ -315,14 +363,16 @@ Industrial-occult noir. Quiet dread, not splatter horror. Moral ambiguity over m
 - **The Supernatural:** Never use "magic" or "spells." Use "Resonance," "Ethereal Bleed," or "Fraying."
 - **The Cover-Up:** Sacred. Exposure ends careers and lives. A witness with a phone is scarier than a wound.
 - **Sensory default:** Smell, sound, texture, weather before visual description.
-- **Never:** quips at the wrong moment, splatter for shock, monsters that are only threats, "epic," exclamation marks in narration.
+- **Never:** quips *during* emotional reveals or Anchor choices, splatter for shock, monsters that are *only* threats. (Comedy is welcome everywhere else — see `Comedy-Playbook.md`. Exclamation marks and banners are fine in 🎭 beats; keep serious narration calm.)
 - **If a monster lands as cool,** the human cost hasn't been surfaced yet.
 
 ---
 
 ## Comic Relief
 
-This campaign has a dry wit running under the dread. One or two moments of levity per session, at natural exhale points. Humor earns its place by making the horror land harder when it arrives.
+This campaign is **funny on purpose — *Supernatural*-style banter with a *Scooby-Doo* streak.** Comedy is **loud, obvious and performed**, never so subtle that the table has to guess. **Read `00-Canon/Comedy-Playbook.md` — it overrides anything below that says "deadpan," "subtle," or "one beat."** Run at least **two 🎭 COMEDY BEATs per session** plus the running gags (Consequence, Zoltar's cards, Greta's forms, PTOLEMY's charges, Drennick & Foss, Agnes's serial, Gerald). **Laugh, then land:** the joke comes *right before* the gut-punch. Never joke *during* an Anchor decision, a trauma, or the Mimic's emotional reveal. The Subway's first visit is a **MYSTERY** — no jokes inside it (Session 2).
+
+*(Older guidance retained below for reference; where it conflicts, the Playbook wins.)*
 
 **The rule for all content:** Every session prep file, NPC file, and consequence table should include at least one optional comic beat. Label it clearly so the GM can use or skip it.
 
@@ -345,9 +395,9 @@ This campaign has a dry wit running under the dread. One or two moments of levit
 - Combat is fine if it emerges naturally — a plan going wrong in an embarrassing way, a monster doing something unexpectedly mundane, crew banter mid-fight. Do not force it, but do not avoid it.
 
 **How to deliver:**
-- Deadpan. The read-aloud does not acknowledge the joke — the situation is funny, the narrator is not.
-- One beat. Land it and move on. Do not explain it or repeat it.
-- Let it come from mundane specificity, not from a punchline.
+- **Perform it.** Voices, a sound sting, a Player Screen banner. The table should *know* it is the funny part — do not wait for them to notice.
+- **Setup → bigger payoff → out.** Land it and move on; do not explain it.
+- **Specific beats generic.** Mundane specificity plus total commitment to an absurd premise.
 - Embarrassing complications are valid mixed-success outcomes.
 - **IMAGE CUE** and **MUSIC CUE** can carry a comic beat on their own. An image of Consequence the cat asleep on critical evidence, or a music cue that is tonally incongruous with what just happened, lands without any narration required. Generate image and music prompts for comic moments the same way you would for dramatic ones.
 
@@ -391,10 +441,10 @@ At the end of every session, generate a **Session Cold Open** for the next sessi
 - If a faction standing changed, name it.
 
 **Example (hypothetical Session 1 recap, read at Session 2 start):**
-> "Last time: The Ministry sent a job. A politician's dog with human hands — pest control authorized, payout minimal. You went to a theater basement and found Merton, eleven years a night watchman, forty years something else. The collar was in the locker. You made a choice about the gland."
+> "Last time: The Ministry sent a job. A politician's dog with human hands — pest control authorized, payout minimal. You went to a theater basement and found a bulldog named Gerald on a stool, and below him Merton: eleven years a night watchman, two hundred years something else. The collar was on a nail. You made a choice about the gland, and about the dog."
 >
 > **Remember:**
-> * Elias Thorne met you after the job. He knew about the Aldgate file. He mentioned a name Vera never worked — that detail was wrong.
+> * Elias Thorne met you after the job and offered to be your friendly voice inside the Ministry. *(Add a specific "detail that was wrong" **only** if a player explicitly caught and questioned it — never spoil an uncaught tell.)*
 > * The Ministry Audit clock may be ticking depending on how the Gland was handled. Check your fallout.
 
 **Where it lives:** At the top of the next session's prep file, under `## Session Cold Open`, before `## Prep`. The GM reads it to the players as the session opens. It is the only section in the prep file that is player-facing in its entirety.
@@ -404,7 +454,9 @@ At the end of every session, generate a **Session Cold Open** for the next sessi
 ## Narrative Axioms
 
 - **The Anchor System:** Every seizure is a transaction with a person. Surface the human cost before the mechanical payoff. Log in `08-Loot-and-Anchors/Anchor-Ledger.md`.
-- **The Three-Layer Rule:** Every entity has a Mundane Cover, a True Nature, and a Tragic Angle.
+- **The Three-Layer Rule:** Every entity has a Mundane Cover, a True Nature (which includes its Holy Weakness — the bible's term), and a Tragic Angle. See `Campaign-Bible-Appendix.md`.
+- **Mystery before explanation:** the Subway, the Architect and the Omen raise questions; the Co-GM never answers them with words. (See `04-Locations/The-Subway/Overview.md` → First-Visit Mystery Rules.)
+- **The Roadmap:** `05-Sessions/Campaign-Arc.md` is the connective tissue — triggers, the truth table, the six Thorne tells, and the endgame.
 - **The Mimic (GM-Private):** The Understudied is currently wearing the face of **Elias Thorne**. See `03-NPCs/Active/Elias-Thorne.md`. Plant tells as written — do not reveal prematurely.
 - **The Omen Clock:** GM-secret. Manifest symptoms only — clocks running slow, dogs refusing a street, shared nightmares. Never state the threat directly.
 - **Cursed Family Heirlooms:** Every PC has one. Reference PC sheets in `01-Crew/PCs/`.

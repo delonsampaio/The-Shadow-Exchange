@@ -1,7 +1,7 @@
 ---
 type: npc
 status: active
-first_seen: Session 1 (Subway, post-Heist 2)
+first_seen: Session 2 (the first descent)
 location: The Subway
 faction: The Subway Community
 ---

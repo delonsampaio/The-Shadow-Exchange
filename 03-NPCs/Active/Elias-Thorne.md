@@ -22,13 +22,13 @@ mimic_face: true
 
 ## Cover Story
 
-Elias Thorne has been a Ministry field liaison for eleven years. True Believer — he genuinely thinks the Ministry is right. The crew will meet him in Session 1 following up on the Merton envelope. He reappears in Session 2 appearing to run interference on the Apex Aegis compliance ping.
+Elias Thorne has been a Ministry field liaison for eleven years. True Believer — he genuinely thinks the Ministry is right. He was newly assigned to this firm's file after their previous handler retired; the crew meets him in Session 1 as the Ministry's on-scene liaison after the Merton job. He reappears in Session 2 appearing to run interference on the Apex Aegis compliance ping.
 
 ---
 
 ## The Truth (GM-Eyes Only)
 
-Elias Thorne is a face the Mimic has worn for eleven years. The real Thorne — if there was one — is not retrievable. The Mimic has been in this role long enough to genuinely believe some of Thorne's convictions. The memory bleed is real.
+Elias Thorne is a face the Mimic has worn for eleven years. The real Thorne is **alive**, relocated to a coastal property under a fabricated early retirement (see `The-Casting-Mask.md`) — he has been trying to figure out who to tell for eleven years. The Mimic has been in this role long enough to genuinely believe some of Thorne's convictions. The memory bleed is real.
 
 **Goal:** Build crew trust. Feed manufactured intel. Use the Ministry position to intercept their reports and redirect them away from Mimic operations. Advance the Subway Decay Clock from the institutional end.
 
@@ -36,8 +36,8 @@ Elias Thorne is a face the Mimic has worn for eleven years. The real Thorne — 
 
 ## Planted Tells — Seed In Order
 
-**Tell 1 (Session 1 — Opening scene):**
-Thorne greets the crew and uses one PC's first name before formal introductions have been made. He moves past it without correction.
+**Tell 1 (Session 1 — debrief, when he arrives after the Surge):**
+Thorne uses one PC's first name before formal introductions have been made. He moves past it without correction.
 
 **Tell 2 (Session 1 — Post-Merton debrief):**
 He mentions "your setup in the basement" when referring to the Containment Suite. No Ministry liaison would know a licensed firm's private lair layout without a formal inspection on record.
@@ -48,8 +48,13 @@ Walking past Emmerich's shop, Thorne pauses a half-second too long before lookin
 **Tell 4 (Session 2 — Post-score follow-up):**
 References "last Tuesday's conversation" — a conversation that did not happen on Tuesday and that the crew remembers differently.
 
-**Tell 5 (Ongoing):**
-The ring. Plain silver band, right hand, slightly too loose. He touches it when uncertain. It belongs to a face he wore before this one.
+**Tell 5 (Session 3 — the evening call):**
+He mentions **the pier** the crew surfaced on after the Subway — a place no one told him. (The Ministry does not know the Subway exists.)
+
+**Tell 6 (Ongoing — the ring):**
+Plain silver band, right hand, slightly too loose. He touches it when uncertain. It belonged to **Tamsin Solano's grandmother** — a face he wore before this one.
+
+> **How it knows what it shouldn't:** the Understudied has been *watching the shop for months* (the Mask copies a person after ~72 hours of contact; proximity teaches the rest). Tells 1–2 are watching; 3 is recognition; 4 is memory bleed; 5 is knowing the Subway; 6 is grief for a prior face. **Gerald the dog will not go near him** (dogs know).
 
 ---
 
@@ -66,6 +71,8 @@ Warm in a way that is just slightly too well-calibrated. Listens well. Asks foll
 ## Reveal Timing
 
 Mid-game, after real emotional investment. The reveal is a betrayal scene, not a fight. Suggested trigger: the crew acts on Thorne's intel and the outcome is catastrophic. The reveal is the explanation of why.
+
+**Staging (Scooby → real):** begin as a literal *unmasking* — the Mask comes off, and the table laughs in disbelief at how obvious it was in hindsight (cue the banner `UNMASKED!`) — then Thorne's own voice, warm, *without* the Mask, explains. The room stops laughing. That is the point.
 
 ---
 

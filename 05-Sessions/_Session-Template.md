@@ -41,7 +41,7 @@ What is true now that wasn't before? (e.g., **[Faction: The Ministry]** is on hi
 ### Comic Beats (Optional)
 *At least one per session. Label each `🔒 GM ONLY — COMIC BEAT (OPTIONAL):` so the GM can use or skip it. See `00-Canon/CoGM-Core-Instructions.md` for tone rules.*
 
-* **[Scene or moment]:** [What happens. One or two sentences. Deadpan — the situation is funny, not the narration.]
+* **[Scene or moment]:** [What happens. One or two sentences. Perform it — see 00-Canon/Comedy-Playbook.md; label it 🎭 COMEDY BEAT.]
 
 ---
 

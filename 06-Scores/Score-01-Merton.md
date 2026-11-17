@@ -12,7 +12,7 @@ payout: 4 Coin (Standard)
 
 # Score 01 — The Standard Job
 
-**Premise:** Ministry pest control. A politician's dog has two human hands where its front paws should be. Retrieve, document, destroy. The crew knows a Barghest Adrenal Gland fetches serious money.
+**Premise:** Ministry pest control. Councilman Pruitt's bulldog **Gerald** has two human hands where his front paws should be (Merton's failing collar has been bleeding Resonance into the basement where Gerald sleeps). Retrieve, document, destroy. *(See `Session-01-Prep.md` — the Surge replaces forced combat; see `Merton.md` and `Gerald.md`.)* The crew knows a Barghest Adrenal Gland fetches serious money.
 
 ---
 
@@ -29,7 +29,7 @@ payout: 4 Coin (Standard)
 ## The Anchor Item
 
 **[Item: Leather Dog Collar]** — 1823. Worn leather. Smells older than it should.
-- **Seizure fallout:** He knows immediately. Goes still. Will not attack. Will wait.
+- **Seizure fallout:** He knows immediately and goes very still. **The Surge** (a 6-segment clock, see `Session-01-Prep.md`) is already building — the crew's job is to *survive, soothe, or restrain* it, not to start a fight.
 - **Destruction consequence:** Loses armor and control. 1d6 hours before transformation is irreversible. He does not want this.
 
 ---
@@ -54,7 +54,7 @@ payout: 4 Coin (Standard)
 
 ## Wrap-Up Dilemma
 
-**Play it Safe:** Hand everything to Ministry/Apex. 4 Coin, 0 Heat. Collar destroyed. Photograph disappears into evidence.
+**Play it Safe:** Hand everything to the Ministry (via liaison Elias Thorne). 4 Coin, 0 Heat. Collar destroyed. Photograph disappears into evidence.
 
 **Double Bookkeeping:** Roll Sway to omit the Adrenal Gland from paperwork. Keep the Gland. Tick [Clock: The Ministry Audit] on 4-5.
 

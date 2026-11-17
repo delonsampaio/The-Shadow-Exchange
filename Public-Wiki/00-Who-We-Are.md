@@ -25,16 +25,15 @@ The bookstore has three layers. Your characters know all of them.
 ### The Front Shop
 A real bookstore with a rotary phone, a half-knitted sweater on the reading chair, and a cat named **Consequence** who has never once reacted to anything unusual and who you have all decided to find reassuring. The till is manual. The books are organized by a system only the crew understands. This is where you deal with the public.
 
-In the back corner: an old Zoltar fortune-teller machine. Coin slot non-functional. His painted eyes face the door. The latch for the back room is behind him.
+In the back corner: an old Zoltar fortune-teller machine. Unplugged for decades; the coin slot looks dead. It isn't — if you know the sequence. His painted eyes face the door.
 
-### The Back Room
-Behind Zoltar. Contains:
+### The Containment Suite — behind Zoltar
+Eleven iron steps down into one long, cold room. Contains:
 - **The Post-Op Table** — stainless steel, medical-grade, don't ask where it came from
 - **The Hunter's Journal** — the firm's case record, two generations of entries before yours
-- **The Scanner Station** — detects Resonance activity within two blocks, green light always on
+- **The Scanner Station** — three shortwave radios intercepting Ministry bounty traffic, plus a Resonance detector (one green lamp, always on, about two blocks)
 
-### The Containment Suite (Basement)
-Down a narrow staircase behind the Post-Op table. This is where the serious work happens.
+**Along the far wall and in the brick:**
 - **Cold Storage Locker** — behind a false wall. Keeps biological material from spoiling. Two of the four compartments require gloves.
 - **Lead-Lined Vault** — built into the original foundation. Nothing stored here shows up on any scanner.
 
@@ -60,17 +59,12 @@ Some of what you handle are dangerous biological anomalies. Some are more compli
 
 **The Twice-Born:** People — for lack of a better word — who have found a way to exist in both the human world and something older. They are not a faction you work against. They are complicated.
 
-**The Subway:** You don't know about this yet. You will.
 
 ---
 
 ## What You Don't Know Yet
 
 There is more going on than The Ministry is telling you. There always is.
-
-One of the contacts you'll meet in your first session is not who they appear to be.
-
-The firm's first two jobs were chosen for reasons that aren't in the paperwork.
 
 ---
 

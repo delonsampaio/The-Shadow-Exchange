@@ -20,8 +20,8 @@ Every Anchor Item the crew has seized, destroyed, returned, or refused. Names. C
 ---
 
 ## On the table — known but not yet touched
-Anchors the crew is aware of but hasn't acted on yet.
-* **[Item: Silver Thimble]** — given by his daughter before her death in 1847. Belongs to **[NPC: Emmerich]**. **[Faction: The Ministry]** classifies as Tier 1 Contraband.
+Anchors the crew is aware of but hasn't acted on yet. *(Empty at campaign start — the Emmerich job arrives in Session 2.)*
+* *(GM note: **[Item: Silver Thimble]** — Emmerich's, given by his daughter before her death in 1847; Tier 1 Contraband. The crew does **not** know it yet.)*
 
 ## AI Ledger Directives
 * **Karmic Blowback:** When generating rumors or complications in the Subway, check the "Moral Consequence" column. If the crew has been ruthless with Anchors, Twice-Born NPCs will be hostile or refuse service.
