@@ -258,7 +258,7 @@ At the end of every session, directly update the HTML dashboard:
 
 Also update `05-Sessions/Campaign-Current-State.md` to reflect the new narrative starting point for next session.
 
-**Player wiki:** after the state updates, follow `00-Canon/Wiki-Update-Protocol.md` — recap draft → **spoiler check** → publish to `The-Shadow-Exchange.wiki/` (recap page, `Session-Recaps` index, `The-Anchor-Ledger`, `Known-Contacts`; `Our-Lair`/`Home` only if changed). Push only when the GM asks.
+**Player wiki:** after the state updates, follow `00-Canon/Wiki-Update-Protocol.md` — recap draft → **spoiler check** → publish to `The-Shadow-Exchange-Players/docs/` (recap page, `Session-Recaps` index, `The-Anchor-Ledger`, `Known-Contacts`; `Our-Lair`/`Home` only if changed). Push only when the GM asks.
 
 **If the GM said this is a mock session, skip all file updates entirely.**
 

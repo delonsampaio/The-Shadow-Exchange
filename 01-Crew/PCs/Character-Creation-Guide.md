@@ -6,7 +6,7 @@ purpose: "Pointer. The one maintained player guide lives in the wiki."
 
 # Character Creation Guide
 
-**The player guide now lives in one place — the wiki:** `The-Shadow-Exchange.wiki/Character-Creation-Guide.md` (on GitHub: the wiki's *Character Creation Guide* page).
+**The player guide now lives in one place — the wiki:** `The-Shadow-Exchange-Players/docs/Character-Creation-Guide.md` (on the player site: *Character Creation*).
 
 *(This file used to duplicate it; the copies had drifted apart, so it is now a pointer. Edit the wiki version only.)*
 

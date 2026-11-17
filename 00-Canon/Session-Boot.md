@@ -114,7 +114,7 @@ last_updated: 2026-11-16
 2. `GM-Dashboard.html`: update `INIT_*` constants; **bump `SAVE_VERSION`**.
 3. `05-Sessions/Campaign-Current-State.md`; `07-Clocks/Active-Clocks.md`; `08-Loot-and-Anchors/Anchor-Ledger.md` + `Inventory.md`; `02-Factions/Faction-Tracker.md`; `09-Threads/*` (tells, plants); `Campaign-Arc.md` (check triggers).
 4. **Generate the next session's Cold Open** (see Core → Session Cold Open) into the prep file.
-5. **Update the player-facing wiki** — follow `00-Canon/Wiki-Update-Protocol.md` exactly: draft the recap in `Public-Wiki/Session-Recaps/`, run the **spoiler check**, then add the recap + update `Session-Recaps`, `The-Anchor-Ledger`, `Known-Contacts` (and `Our-Lair` / `Home` if changed) in `The-Shadow-Exchange.wiki/`. Push only if the GM asks.
+5. **Update the player-facing wiki** — follow `00-Canon/Wiki-Update-Protocol.md` exactly: draft the recap in `Public-Wiki/Session-Recaps/`, run the **spoiler check**, then add the recap + update `Session-Recaps`, `The-Anchor-Ledger`, `Known-Contacts` (and `Our-Lair` / `Home` if changed) in `The-Shadow-Exchange-Players/docs/` (the player website; a push republishes it). Push only if the GM asks.
 6. Reset `player-screen/scene.js` to the title card (`rev` + 1).
 7. Commit: `chore: update state after session N` (**only** if the GM asks to commit).
 

@@ -59,7 +59,7 @@ Then update GM-Dashboard.html, Campaign-Current-State.md, and any changed tracki
 ```
 The session is complete. Generate two outputs:
 
-OUTPUT 1 — PUBLIC WIKI (player-facing, no GM secrets) — follow 00-Canon/Wiki-Update-Protocol.md exactly (draft → spoiler check → publish to The-Shadow-Exchange.wiki/):
+OUTPUT 1 — PUBLIC WIKI (player-facing, no GM secrets) — follow 00-Canon/Wiki-Update-Protocol.md exactly (draft → spoiler check → publish to The-Shadow-Exchange-Players/docs/, which republishes the player website):
 Session recap following the template in Public-Wiki/_Session-Recap-Template.md. Include what happened from the crew's perspective, mechanical outcomes, and one open question. Do NOT include GM-private information (Mimic identity, Architect details, The Innocent arc).
 
 OUTPUT 2 — PRIVATE REPO UPDATES:

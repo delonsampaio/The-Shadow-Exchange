@@ -1,6 +1,6 @@
 # Gemini Wiki Review Prompt (player-facing clarity & ease of use)
 
-Paste the block into Gemini (it has local file access; paths are repo-relative to `The-Shadow-Exchange/`, wiki is `../The-Shadow-Exchange.wiki/`). Claude triages the result per `Gemini-Triage-Protocol.md` — Gemini suggests, Claude decides.
+Paste the block into Gemini (it has local file access; paths are repo-relative to `The-Shadow-Exchange/`, the player guide source is `../The-Shadow-Exchange-Players/docs/`). Claude triages the result per `Gemini-Triage-Protocol.md` — Gemini suggests, Claude decides.
 
 ````
 ROLE
@@ -8,10 +8,10 @@ You are two things at once:
 (1) a new tabletop-RPG player: a 28-year-old who has played some D&D/Pathfinder but has NEVER played Blades in the Dark, has never done much roleplaying beyond rolling dice, and is reading this on a phone the night before the first session; and
 (2) a professional technical writer / UX editor who specializes in onboarding documents for new tabletop players.
 
-You are reviewing the PLAYER-FACING wiki for a Blades in the Dark campaign called "The Shadow Exchange" for CLARITY, EASE OF USE, and FIRST-TIME-PLAYER FRIENDLINESS. You have local access to the workspace: read the files directly. Paths are relative to the repo root "The-Shadow-Exchange/"; the wiki is the sibling folder "../The-Shadow-Exchange.wiki/".
+You are reviewing the PLAYER-FACING wiki for a Blades in the Dark campaign called "The Shadow Exchange" for CLARITY, EASE OF USE, and FIRST-TIME-PLAYER FRIENDLINESS. You have local access to the workspace: read the files directly. Paths are relative to the repo root "The-Shadow-Exchange/"; the wiki is the sibling folder "../The-Shadow-Exchange-Players/docs/".
 
 READ ONLY THESE (this is exactly what the players will see — do not read GM-private files; do not use GM knowledge):
-- ../The-Shadow-Exchange.wiki/*.md  (Home, Quick-Start, What-Kind-of-Game, Our-Lair, Known-Contacts, Rules-and-Mechanics, Character-Creation-Guide, Downtime-Guide, Session-0-Agenda, Session-Recaps, The-Anchor-Ledger)
+- ../The-Shadow-Exchange-Players/docs/*.md  (index [the Home page], Quick-Start, What-Kind-of-Game, Our-Lair, Known-Contacts, Rules-and-Mechanics, Character-Creation-Guide, Downtime-Guide, Session-0-Agenda, Session-Recaps, The-Anchor-Ledger)
 - Public-Wiki/00-Who-We-Are.md
 - 00-Canon/Player-Reference.md
 - 01-Crew/PCs/Character-Creation-Guide.md
@@ -27,7 +27,7 @@ METHOD
 2. BUILD A JARGON LIST: every Blades-specific or campaign-specific term a new player would meet (Position, Effect, Resonance, Anchor Item, Twice-Born, Tier, Heat, Coin, Rep, Trauma, Heirloom, etc.). For each: is it defined where first used? If not, where should it be defined?
 3. MAP THE REDUNDANCY: which pages repeat each other (e.g., Our-Lair vs Public-Wiki/00-Who-We-Are.md vs Player-Reference; Rules-and-Mechanics vs Quick-Start vs Player-Reference; Character-Creation-Guide in the wiki vs 01-Crew/PCs/Character-Creation-Guide.md)? Which should be merged, cut, or cross-linked? Do any two pages DISAGREE?
 4. CHECK THE TASK FLOW: what exactly must a player DO before Session 0 (build a character, pick a Vice/Friend/Rival/Heirloom, send the GM something)? Is that list in ONE obvious place with a clear deadline and a clear "send it to whom, how"? If not, say so.
-5. CHECK NAVIGATION: do all [[wiki links]] resolve to a real page (GitHub wiki turns [[Page Name]] into Page-Name.md; [[Text|Page-Name]] is the alias form)? Is there a sensible Home page, sidebar logic, and "next step" at the bottom of each page?
+5. CHECK NAVIGATION: do all Markdown links resolve to a real page (links are `[Text](Page-Name.md)`; the site is built with MkDocs Material)? Is there a sensible Home page, sidebar/nav logic (nav lives in mkdocs.yml), and "next step" at the bottom of each page?
 6. CHECK LAYOUT FOR PHONES: very long pages, wide tables, long unbroken paragraphs, headings that don't tell you what's below.
 7. CHECK TONE & SPOILERS: does the wiki promise both the dread and the humor? Does anything reveal GM secrets (the Mimic, what the Subway is, the Architect, Thorne's true nature)? Does any page tell a player to do something that the GM's plan contradicts?
 8. CHECK RULES CLARITY & ACCURACY (spot-check against the SRD): the dice rule, Position/Effect, Stress & Resistance, Flashbacks, downtime (two free activities, one of which can be Indulge Vice), character creation dots, playbook list.

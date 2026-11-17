@@ -7,14 +7,15 @@ last_updated: 2026-11-16
 
 # Wiki Update Protocol (after every session)
 
-There are **two places** with player-facing content. Know the difference:
+The player-facing guide is now a **website**: **https://delonsampaio.github.io/The-Shadow-Exchange-Players/** — built with MkDocs Material and published by GitHub Pages from the repo **`The-Shadow-Exchange-Players`** (sibling folder). Players read the site; they never see this private repo.
 
 | Place | What it is | Who sees it |
 |---|---|---|
-| **`The-Shadow-Exchange.wiki/`** (sibling folder; its own git repo → GitHub wiki) | **The real player wiki.** Players read this. | Players |
-| `The-Shadow-Exchange/Public-Wiki/` | A **staging area** inside the private repo: the recap draft and `00-Who-We-Are.md`. | GM only until copied |
+| **`The-Shadow-Exchange-Players/docs/`** (its own public git repo → GitHub Pages) | **The one maintained player guide.** Edit the Markdown here; a push rebuilds the site in ~1 minute. | Everyone with the link |
+| `The-Shadow-Exchange/Public-Wiki/` | A **staging area** in the private repo: recap drafts. | GM only until copied |
+| `The-Shadow-Exchange.wiki/` (the old GitHub wiki) | **Deprecated.** Do not edit. It may be disabled. | — |
 
-**Never edit the wiki with anything from a 🔒 GM ONLY block, any `GM-Private/` file, `Campaign-Arc.md`, the Casting Mask, the Architect, Kress, Stalls = Apex, the six Thorne tells, or the Omen's cause.**
+**Never publish anything from a 🔒 GM ONLY block, any `GM-Private/` file, `Campaign-Arc.md`, the Casting Mask, the Architect, Kress, Stalls = Apex, the six Thorne tells, or the Omen's cause.**
 
 ---
 
@@ -38,23 +39,24 @@ Before copying anything to the wiki, scan for these and **remove** them:
 - [ ] Any NPC's secret (Mabel's Thomas, Emmerich's naming secret, Thorne's ring) **unless the crew learned it in play**
 - [ ] Anything the crew did **not** actually see or hear
 
-### 3. Publish to the wiki
-In `The-Shadow-Exchange.wiki/`:
-1. **Add** `Session-NN-Recap.md` (copy the reviewed draft).
-2. **Update** `Session-Recaps.md` (the index): add one line — `- [[Session NN Recap]] — [title] — [one-sentence hook]`.
-3. **Update** `The-Anchor-Ledger.md`: add one row per Anchor transaction — *Date · Location · Anchor Description · Status* (Seized / Destroyed / Returned / Refused). **Do not** include GM-private consequences. Use the *player-known* description.
-4. **Update** `Known-Contacts.md`: add NPCs the crew has *actually met* (one paragraph, in-world voice, no secrets). Use the **crew's perspective** (e.g., Cosma — "retired schoolteacher; helped us through the stairs").
-5. **Update** `Our-Lair.md` **only** if the lair changed (a new upgrade, a new room, the van, a new rule on the Wall).
-6. **Update** `Home.md` only if a new top-level page was added.
-7. **Check** all `[[wiki links]]` resolve.
+### 3. Publish to the player site
+In `The-Shadow-Exchange-Players/` (it has its own `MAINTAINING.md` and `CLAUDE.md` for anyone working inside that repo; the spoiler check stays **here**, in the private repo):
+1. **Add** `docs/Session-NN-Recap.md` (copy the reviewed draft). Use **normal Markdown links** — `[Text](Page-Name.md)` — **not** `[[wiki links]]`.
+2. **Add the page to the nav** in `mkdocs.yml` under *The Campaign* (e.g. `- Session 1 Recap: Session-01-Recap.md`).
+3. **Update** `docs/Session-Recaps.md` (the index): add one line — `- [Session NN Recap](Session-NN-Recap.md) — **Title** — one-sentence hook.`
+4. **Update** `docs/The-Anchor-Ledger.md`: add one row per Anchor transaction — *Date · Location · Anchor Description · Status* (Seized / Destroyed / Returned / Refused). **Do not** include GM-private consequences; use the *player-known* description.
+5. **Update** `docs/Known-Contacts.md`: add NPCs the crew has *actually met* (one paragraph, in-world voice, no secrets; crew's perspective).
+6. **Update** `docs/Our-Lair.md` **only** if the lair changed (new upgrade, room, van, a new rule on the Wall).
+7. **Update** `docs/index.md` / `mkdocs.yml` only if a new top-level page is added.
+8. **Check the build** (optional but recommended): `mkdocs build --strict` — it fails on broken links.
 
 ### 4. Commit & push *(only when the GM asks)*
-The wiki repo's branch is `master`.
+The players repo's branch is `main`. **A push publishes the site automatically** (GitHub Actions → Pages, ~1 minute).
 ```
-cd "…/The-Shadow-Exchange.wiki"
+cd "…/The-Shadow-Exchange-Players"
 git add -A && git commit -m "docs: session N recap and updates" && git push
 ```
-Never push the private repo's `Public-Wiki/` staging folder to the public wiki wholesale.
+Never copy the private repo's `Public-Wiki/` staging folder to the site wholesale.
 
 ### 5. Report to the GM
 `GM ONLY — WIKI UPDATED: [files changed]. Spoiler check: passed/flagged X.`

@@ -10,7 +10,7 @@ Print one per player. Keep it next to your character sheet.
 
 ---
 
-**Free official playbook sheets and rules:** see the wiki page *Official Resources* (links to every playbook PDF and the official rules on bladesinthedark.com).
+**Free official playbook sheets and rules:** see the player site's *Official Resources* page (links to every playbook PDF and the official rules on bladesinthedark.com).
 
 ---
 
@@ -154,7 +154,7 @@ These are not trick questions. The honest answer to each is a real choice that s
 
 ## Your Lair — Curios & Chronicles
 
-Your characters know this space before Session 0. See the wiki's **Our Lair** page for the full tour.
+Your characters know this space before Session 0. See the player site's **Our Lair** page for the full tour.
 
 **The Front Shop:** The public bookstore (a former savings bank). Rotary phone, reading chair, cat named Consequence. Real books, real cover. An old Zoltar fortune-teller machine in the back corner — unplugged for decades; push the crew's coin sequence and the wall behind him slides open.
 
