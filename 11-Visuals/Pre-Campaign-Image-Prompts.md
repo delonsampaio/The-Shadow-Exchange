@@ -195,12 +195,12 @@ Clean composition, no text, no watermarks, no signatures.
 ---
 
 ### Greta Fenn — Ministry Field Compliance Officer
-Save as: `npc-greta-fenn.png`
+Save as: `npc-greta-fenn.png` *(table/TV image — Sessions 1–3, where Greta is in person at the bookshop. **Same Gemini chat as the wiki portrait; the portrait is already in the conversation, so the prompt refers to it instead of re-describing her.**)*
 
 ```
-A woman in her fifties in a Ministry-gray coat standing on a rain-slicked sidewalk, clipboard held in both hands, reading glasses on a lanyard around her neck. She is writing something on the form. Behind her, visible through a broken ground-floor window, something large and indistinct is happening in the dark — shadowed, wrong in shape, clearly not a normal thing. She has not turned to look at it.
-Flat overcast daylight — the even, shadowless light of a Tuesday morning in autumn. No drama. Her face lit evenly and clearly, expression focused entirely on the clipboard. The broken window and the shadow behind it are slightly out of focus but readable.
-Ministry-gray coat with correct lapels, clipboard with a stack of forms, pen in motion, reading glasses on a lanyard. The indistinct shadow behind her — large, irregular, visible but unresolved. The expression of someone who has already noted it in the appropriate field and is now recording the square footage. Professional detachment as a complete worldview.
+Using the woman in the portrait above as the exact character — identical face, hair, glasses, red pen, badge and coat — create a wide 16:9 scene of her inside a cozy cluttered second-hand bookshop at night. She stands at the old marble counter writing on a form on her clipboard without looking down at it; she is looking calmly straight at the viewer, mid-sentence, unbothered. A stack of Ministry forms sits on the counter with a red rubber stamp beside it, and a large grey cat sleeps on top of the forms. A brass lamp glows beside her. Behind her, a shelf of old books and a rain-streaked window with a cold blue city night.
+Warm amber from the brass lamp on the right, cold blue spill from the rainy window on the left, a soft amber rim along her coat. Her face lit clearly and evenly.
+Forms with ruled boxes (no legible text), a red stamp with a worn wooden handle, grey cat fur, old marble counter with coffee rings. The expression of someone who has already filed the supernatural under the appropriate section.
 Clean composition, no text, no watermarks, no signatures.
 ```
 
@@ -413,12 +413,20 @@ Clean composition, no text, no watermarks, no signatures.
 ```
 
 ### Harlan's Diner — Exterior *(Session 4)*
-Save as: `location-harlans-diner.png`
+Save as: `location-harlans-diner.png` *(Session 4 — the approach; no people)*
 ```
-A 24-hour roadside diner at night in rain, forty minutes from any city; chrome-trimmed, a single neon sign half-lit ("HARLAN'S — OPEN"), three pickup trucks and a motorcycle in the gravel lot; a corkboard visible through the window.
-Warm yellow neon and heat-lamp glow through the window against cold blue rain-light; wet gravel reflecting both.
-Chipped chrome, steam on the glass, a bumper sticker for a long-gone hunting supply. The only warm thing for miles. A safe room that is not safe.
-Clean composition, no text, no watermarks, no signatures.
+A wide 16:9 shot of a lone 24-hour roadside diner at night in steady rain, forty minutes from any city, with nothing around it but dark fields and a distant tree line. A chrome-trimmed silver railcar diner with a flat roof and a single half-lit neon sign reading HARLAN'S on the roof. Three battered pickup trucks and one motorcycle sit in the wet gravel lot, parked at careful angles. Warm yellow light spills from the windows with steam on the glass.
+Warm yellow neon and window glow against cold blue rain-light, wet gravel reflecting both, a faint orange rim on the truck roofs. The glow is the only warmth for miles.
+Chipped chrome, dented panels, a faded hunting-supply bumper sticker on one truck with no legible text, rain beading on the glass, a gravel lot pocked with puddles. A safe room that is not safe.
+Clean composition; the only legible text is the neon sign reading HARLAN'S; no other text, no watermarks, no signatures.
+```
+
+Save as: `location-wall-of-the-missing.png` *(Session 4 reveal — the back wall of the diner; no people)*
+```
+A wide 16:9 shot of the back wall of a roadside diner covered floor to ceiling in a huge corkboard pinned with dozens of photographs of different people — hunters, in different decades, in work clothes and field gear — each photograph labeled with a small tag of case-number scribbles, with faded ribbons, pressed flowers and a few melted candle stubs on a shelf below. Most photographs are faded and curling. One photograph near the center is newer and sharper, with a short note beside it written in red ink in a hand unlike all the others. A single bare bulb hangs above, and a booth with a half-finished cup of coffee is in the foreground.
+A single warm bulb from above, amber on the photographs, deep shadow in the corners, a thin cold blue line from the rainy window at the edge of the frame.
+Yellowed photographs with curling corners, handwriting in pencil and pen layered over itself, pushpins of different ages, wax drips, a vinyl booth with a cracked seat. Quiet, reverent and slightly eerie; every face looking out is someone who did not come back.
+Clean composition, no text, no watermarks, no signatures. (All handwriting is abstract scribble, no legible words; faces are indistinct and not detailed.)
 ```
 
 ### Renwick Stalls *(Session 3–4)*
@@ -463,11 +471,11 @@ Clean composition, no text, no watermarks, no signatures.
 ```
 
 ### Harlan Okafor *(Session 4)*
-Save as: `npc-harlan-okafor.png`
+Save as: `npc-harlan-okafor.png` *(table/TV image — Session 4 debut. **Same Gemini chat as his wiki portrait**; the Wall of the Missing is its own image, shown later.)*
 ```
-A broad, weathered man in his sixties behind a diner counter wiping a glass that is already clean, a grease-stained apron, a corkboard of photographs on the wall behind him (the Wall of the Missing); he is looking at the door, not at the camera.
-Warm yellow heat-lamp glow over the counter against cold blue rain-light through the window.
-Chrome and Formica, steam on the glass, faded photographs with case numbers. A man who has lived three lives and kept the good parts of each.
+Using the man in the portrait above as the exact character — identical face, hair, beard, scar, apron and dish towel — create a wide 16:9 scene of him behind the counter of an old roadside diner at night in the rain, wiping a glass that is already clean, looking toward the front door and not at the viewer. A mug of coffee and a pie under a glass dome sit on the chrome-and-Formica counter, a coffee pot on the warmer behind him, a rain-streaked window with cold blue light. The wall behind him is plain and empty except for a menu board with no legible text — no corkboard, no photographs.
+Warm yellow heat-lamp and tungsten glow over the counter against cold blue rain-light through the window; steam rising from the mug.
+Chipped chrome, cracked red vinyl stools, steam on the glass, a counter worn pale where elbows have rested for decades. The only warm place for miles. A safe room that is not safe.
 Clean composition, no text, no watermarks, no signatures.
 ```
 
@@ -584,5 +592,42 @@ A wide shot of a brick wall in a cold underground workshop covered by a huge cor
 Cool overhead fluorescent light on the wall, with a warmer reading-lamp glow on the journal in the foreground. The polaroids pick up small highlights. The red string and red marker are the only strong colour.
 Yellowed polaroids with curling corners, pushpins of different ages, handwriting in pencil and pen layered over itself, a worn leather cover with a ribbon bookmark. Generations of work, shared. The earliest photos near the top are the faintest. Warm, lived-in, slightly eerie.
 Clean composition, no text, no watermarks, no signatures. (All handwriting is abstract scribble, no legible words; the photographs show indistinct shapes, no clear faces.)
+```
+
+---
+
+## Wiki Portraits *(rule: `00-Canon/Wiki-Update-Protocol.md` §3b — dedicated, spoiler-free, one per NPC)*
+**Template:** `A 3:2 landscape waist-up portrait of [WHO], subject centered with the head about one-third from the top, facing the viewer or three-quarter turned, plain softly-lit [neutral setting], no props that carry plot, nothing happening behind them.` Then the usual 3 paragraphs, ending *Clean composition, no text, no watermarks, no signatures.* + the Master Style Suffix. Save as `wiki-<name>.png`.
+
+### Greta Fenn — wiki portrait  *(generate FIRST — this fixes her face for every later image)*
+**Consistency workflow:** generate this portrait until you love it. Then **stay in the same Gemini chat**, attach this portrait, and generate the bookshop scene below with *"Use this woman as the character reference — same face, hair, glasses, red pen and coat."* Re-attach the portrait for any later Greta image.
+**Greta look block (reuse verbatim in every Greta prompt):** a woman in her mid-fifties with a neat, chin-length silver-grey bob with a side part; a long, lined, intelligent face with straight dark eyebrows and a firm, patient mouth; thin brass-rimmed reading glasses hanging on a black cord on her chest; a red pen tucked behind one ear; a Ministry badge on a lanyard with the photo and print too small to read; a heavy double-breasted Ministry-grey wool coat with wide notched lapels and dark buttons; a wooden clipboard.
+Save as: `wiki-greta-fenn.png`
+```
+A 3:2 landscape waist-up portrait of a woman in her mid-fifties with a neat, chin-length silver-grey bob with a side part; a long, lined, intelligent face with straight dark eyebrows and a firm, patient mouth; thin brass-rimmed reading glasses hanging on a black cord on her chest; a red pen tucked behind one ear; a Ministry badge on a lanyard with the photo and print too small to read; a heavy double-breasted Ministry-grey wool coat with wide notched lapels and dark buttons; a wooden clipboard. She holds the clipboard against her chest with both hands and faces the viewer with the calm, slightly weary expression of someone who has found everything manageable. Subject centered, head about one-third from the top. Plain softly-lit pale institutional wall behind her, nothing else in frame, no props that carry plot.
+Soft flat overcast-window light from the left, even on her face, gentle shadow on the right. No dramatic lighting.
+Wool coat with a faint nap, the lanyard slightly twisted, a pen clipped to the clipboard, a faint crease between the eyebrows. Professional detachment as a complete worldview.
+Clean composition, no text, no watermarks, no signatures.
+```
+
+### Harlan Okafor — wiki portrait  *(generate FIRST — it fixes his face; publish on the wiki only after he first appears, Session 4)*
+**Consistency workflow:** keep this chat. After you love the portrait, make the diner-counter scene below in the **same chat** (portrait already in the conversation).
+**Harlan look block:** a broad-shouldered man in his sixties with close-cropped grey hair and a short grey beard, deep lines around tired watchful eyes, a pale scar splitting his left eyebrow, forearms marked with old scars, a grease-stained apron over a rolled-sleeve flannel shirt, and a dish towel over one shoulder. *(Canon gives only "lived three lives, grease-stained apron"; I left ethnicity unspecified — add it here if you have one in mind, and the portrait will lock it in.)*
+Save as: `wiki-harlan-okafor.png`
+```
+A 3:2 landscape waist-up portrait of a broad-shouldered man in his sixties with close-cropped grey hair and a short grey beard, deep lines around tired watchful eyes, a pale scar splitting his left eyebrow, forearms marked with old scars, a grease-stained apron over a rolled-sleeve flannel shirt, and a dish towel over one shoulder. His arms are folded loosely and he looks at the viewer with tired, watchful patience, as if he has just glanced at the door and decided you are probably fine. Subject centered, head about one-third from the top. Plain softly-lit warm cream wall behind him, nothing else in frame — no photographs, no corkboard, no counter, no props that carry plot.
+Warm even tungsten light from the front-left, soft shadow on the right, a faint warm rim on the apron.
+Faded flannel, apron stains, a dish towel with a worn hem, short grey stubble. A man who has lived three lives and kept the good parts of each.
+Clean composition, no text, no watermarks, no signatures.
+```
+
+### Consequence — wiki portrait  *(cat anchor — generate in a chat where you attach the current grey `npc-consequence.png`)*
+**Workflow:** attach `npc-consequence.png` (the large grey cat on the desk) and send the prompt below. Keep the resulting portrait as the reference for every later Consequence image, including fixing the cat in Greta's scene.
+Save as: `wiki-consequence.png`
+```
+Using the cat in the attached image as the exact character — same large blue-grey tabby body and fur pattern, same notched ear, same worn red collar with a small brass tag — create a 3:2 landscape portrait of her sitting upright and facing the viewer with total indifference, centered, head about one-third from the top. Plain softly-lit warm wooden-counter-colored background, nothing else in frame — no paperwork, no lamp, no props that carry plot.
+Soft warm lamp light from the right, gentle cool fill from the left, a thin amber rim along the fur.
+Dense fur texture, long white whiskers catching the light, half-lidded amber eyes, one paw tucked beneath her. The only creature in the building who has never reacted to anything.
+Clean composition, no text, no watermarks, no signatures.
 ```
 

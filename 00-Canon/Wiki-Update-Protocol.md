@@ -50,6 +50,14 @@ In `The-Shadow-Exchange-Players/` (it has its own `MAINTAINING.md` and `CLAUDE.m
 7. **Update** `docs/index.md` / `mkdocs.yml` only if a new top-level page is added.
 8. **Check the build** (optional but recommended): `mkdocs build --strict` — it fails on broken links.
 
+### 3b. Wiki images — dedicated portraits only *(rule adopted 2026-11-17)*
+**Never reuse a session/TV image on the wiki.** Table images are *scenes* — they carry props, clues and reveals (Greta's has a shape in the window; Harlan's has the Wall of the Missing) and the crew should first see them *at the table*.
+- **Each NPC gets a separate wiki portrait** — head-and-shoulders or full-body, **plain/neutral setting, no scene clues, no GM-secret props**. A **true form** (e.g. Merton's Barghest) may get a portrait **only after the crew has seen it at the table**, and it must show the *outcome as it actually ended* (e.g. whether the collar was returned, kept or destroyed) — including the shop cat (Consequence).
+- **Publish an NPC's portrait only after the crew has met them on screen** (for backstory contacts like Greta and Harlan: after their first appearance). Until then the Known Contacts entry is text only.
+- **Format:** 3:2 landscape, subject centered, head about one-third from the top (so the site's float-right desktop card *and* the cropped phone banner both work). Save as `wiki-<name>.png` in `11-Visuals/_Saved-Images/`; resize to ~900 px wide JPG into the players repo's `docs/assets/`, and **crop out any generator corner logo**.
+- **A portrait may also go on the Player Screen** at the NPC's introduction — it is spoiler-free by construction. The reverse is never allowed.
+- Location images follow the same test: fine for the wiki only if they show nothing the crew hasn't visited and no clue (the shop exterior is fine).
+
 ### 4. Commit & push *(only when the GM asks)*
 The players repo's branch is `main`. **A push publishes the site automatically** (GitHub Actions → Pages, ~1 minute).
 ```

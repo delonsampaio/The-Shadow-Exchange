@@ -51,6 +51,34 @@ purpose: "Everything still to generate, in priority order, with the exact filena
 
 **Optional cues added to Run Sheets for prompts that already existed:** `npc-bernard-janitor` (S1 4a), `npc-drennick-foss` (S2 beat 6), `map-subway-schematic` (S2 beat 8), `npc-renwick-stalls` (S3 Stalls's Pitch), `location-ashby-interior` (S3 beat 4), `item-mabel-knitting-needle` (S3 beat 7). **Prompt updated:** `location-ashby-exterior` now shows the three 11:47 clocks through the front window.
 
+### Wiki portraits 🆕 *(rule adopted 2026-11-17 — see Wiki-Update-Protocol §3b)*
+Dedicated, spoiler-free, one per NPC; **never reuse a table/TV image on the wiki.** Prompts are at the end of `Pre-Campaign-Image-Prompts.md`.
+| ☐ | File | Replaces / used on |
+|---|---|---|
+| ✅ | `wiki-consequence.png` — **generated 2026-11-17**; now on the FAQ (cropped, 900 px). Anchor for every later cat image. | FAQ |
+| ✅ | `npc-greta-fenn.png` — **redone 2026-11-17** (bookshop scene, same face as the portrait). Cat polished to match the grey Consequence (blue-grey, collar + tag). | S1 Downtime / S2 / S3 TV image |
+| ✅ | `wiki-greta-fenn.png` — **generated 2026-11-17** (anchors her look; attach it for every Greta image). **Do not publish until the crew has met her** — crop tighter (head/shoulders/clipboard) and strip nothing else; no logo present. | Known Contacts (**photo removed until she's met** — her old image has a monster in the window) |
+| ✅ | `wiki-harlan-okafor.png` — generated (see Harlan set) | Known Contacts (publish after his first appearance — S4) |
+After each session: any NPC the crew met → generate their `wiki-*` portrait (use the template) → publish with the recap.
+
+### Harlan set 🆕 *(all Session 4 + wiki; prompts at the end of `Pre-Campaign-Image-Prompts.md`)*
+Order: **1)** `wiki-harlan-okafor.png` → **2)** `npc-harlan-okafor.png` (same chat, portrait as reference) → **3)** `location-harlans-diner.png` → **4)** `location-wall-of-the-missing.png` (his reveal beat; one red-ink note — the Architect thread).
+| ☐ | File | Used in |
+|---|---|---|
+| ✅ | `wiki-harlan-okafor.png` — **generated 2026-11-17** (anchor; scar is through his RIGHT eyebrow = viewer's left; head sits high — add `object-position: center 15%` to the mobile `.portrait` CSS when publishing) | Anchor + wiki (hold until S4) |
+| ✅ | `npc-harlan-okafor.png` — generated 2026-11-17 | S4 TV: Harlan at the counter (no Wall in frame) |
+| ✅ | `location-harlans-diner.png` — generated 2026-11-17 (the darker night version; the dusk alternate was not kept) | S4 TV: the approach |
+| ✅ | `location-wall-of-the-missing.png` — generated 2026-11-17 (monster hunters; **the red-ink note reads "HE WENT BACK"** beside the sharpest photo — GM decides who "he" is; same hand as the Journal's red page) | S4 TV: the Wall reveal (GM-secret clue — table only, never the wiki) |
+
+### Session 1 redo 🆕 *(old S1 images all carry the generator sparkle; full paste-ready sheet: `Session-01-Redo-Prompts.md`)*
+| ☐ | File | Notes |
+|---|---|---|
+| ✅ | `wiki-merton-human.png` — redone 2026-11-17 to match the scene face (plain beige wall, SECURITY badge, waist-up; hands just clipped at the bottom edge — crop for the card; head high, add `object-position` CSS when publishing) | wiki after S1 |
+| ✅ | `npc-merton-human.png` ✅ · `npc-merton-true-form.png` ✅ (prone, chained, cracked glowing collar — the heavier of two options) | same chat as the portrait |
+| ✅ / ☐ | `npc-elias-thorne.png` ✅ (**mirrored** from the Gemini output so the plain silver ring is on his RIGHT hand per Tell 6; worn, not thumbed — perform the thumbing at the table) · `npc-bernard-janitor.png` ☐ | own chats |
+| ☐ | `location-fairground-theater.png` · `location-theater-auditorium.png` · `location-containment-suite.png` · `location-curios-exterior.png` · `item-leather-collar.png` | locations/props |
+| ☐ | `wiki-merton-barghest.png` | **after S1** — depends on what happened to the collar; wiki with the recap |
+
 ### P1 — S2/S3 optional beats and S4 prep
 | ☐ | File | Prompt |
 |---|---|---|
@@ -61,7 +89,7 @@ purpose: "Everything still to generate, in priority order, with the exact filena
 | ☐ | `npc-senna-calder.png` | exists |
 | ☐ | `npc-mara-halliday.png` | exists |
 | ☐ | `map-subway-schematic.png` | exists |
-| ☐ | `location-harlans-diner.png` 🆕 | S4 debut |
+| ☐ | `location-harlans-diner.png` 🆕 | S4 debut (see Harlan set above) |
 | ☐ | `npc-drennick-foss.png` 🆕 | S2 (optional) |
 | ☐ | `npc-renwick-stalls.png` 🆕 | S3/S4 |
 | ☐ | `npc-dev-last-stop.png` 🆕 | Subway second visit |
