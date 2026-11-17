@@ -10,6 +10,10 @@ Print one per player. Keep it next to your character sheet.
 
 ---
 
+**Free official playbook sheets and rules:** see the wiki page *Official Resources* (links to every playbook PDF and the official rules on bladesinthedark.com).
+
+---
+
 ## The 12 actions at a glance
 **INSIGHT (thinking):** Hunt (track/shoot) · Study (research/read people) · Survey (spot trouble) · Tinker (gadgets, locks, field surgery). **PROWESS (body):** Finesse (sleight of hand, driving) · Prowl (sneak) · Skirmish (brawl) · Wreck (smash). **RESOLVE (will):** Attune (sense the supernatural) · Command (intimidate) · Consort (friends & contacts) · Sway (lie, charm). *(An attribute's rating = how many of its four actions have at least 1 dot.)* *(Full descriptions in the wiki's Rules and Mechanics page.)*
 

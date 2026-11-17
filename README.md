@@ -62,3 +62,7 @@ These are the Shadow Exchange specifics — see `00-Canon/Tone-and-Style.md` for
 - **The Cover-Up is sacred.** Public exposure ends careers and licenses. Frame complications around exposure risk often.
 - **The Omen Clock is GM-secret.** Players see symptoms, not segments.
 - **The Subway is a mystery, not a feature.** Its `Mysteries.md` accumulates hypotheses; nothing gets resolved without an explicit canon update.
+
+---
+
+*This work is based on [Blades in the Dark](http://www.bladesinthedark.com/), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the [Creative Commons Attribution 3.0 Unported license](http://creativecommons.org/licenses/by/3.0/). Free official playbook sheets and rules are linked from the wiki's *Official Resources* page.*

@@ -96,6 +96,7 @@ Lyria 3 Pro generates **≥ 30 s**. For `music-sting-ruhroh` and `music-sting-bo
 ---
 
 ## 🛠 Tech to-dos (not assets, but before Session 0)
+- ☐ **Players' playbook sheets:** free PDFs are linked from the wiki's *Official Resources* page (verified; all load). Print or share the *Core Play Sheets* for the table.
 - ☐ Open `GM-Dashboard.html` — it loads **React, Tailwind and Babel from CDNs** → **needs internet**. *(Offer: vendor them locally so it works offline.)*
 - ☐ Open `Player-Screen.html` on the TV; F11; confirm the title card; ask the Co-GM to update `scene.js` once to test a crossfade.
 - ☐ Test `fade-switch.sh` once (QuickTime Player must be permitted to be controlled; macOS may prompt).
