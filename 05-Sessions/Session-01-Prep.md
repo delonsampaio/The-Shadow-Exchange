@@ -25,8 +25,9 @@ mechanical_focus: "TEACH: Resistance, Flashback, Devil's Bargain, Vice & Heat. R
 | 2 | Plan & Gear | "go" → suite | `music-containment-suite-loop` | `location-containment-suite` | Cover Story Roulette | **Flashback**; Engagement roll *(simple)* |
 | 3 | Approach | "go" | `music-approach` | — | — | — |
 | 3b | Fairground walk | "go" | `music-vocal-fairground` ⚠ *(vocal — after the read-aloud)* | — | — | — |
-| 4a | Theater lobby | "go" | `music-theater-loop` | `location-fairground-theater` | Bernard the janitor | Position & Effect *(reinforce)* |
-| 4b | Gerald in the basement | inline | `music-sting-ruhroh` ❌ | `npc-gerald-dog` ❌ | 🟢 GERALD | **Devil's Bargain** |
+| 4a | Theater lobby | "go" | `music-theater-loop` | `location-fairground-theater` → `npc-bernard-janitor` ❌ *(optional, when he rounds the corner)* | Bernard the janitor | Position & Effect *(reinforce)* |
+| 4a | The dark auditorium | inline | — | `location-theater-auditorium` ❌ *(optional; after the read-aloud)* | — | Position |
+| 4b | Gerald in the basement | inline | `music-sting-ruhroh` ❌ | `npc-gerald-dog` ✅ | 🟢 GERALD | **Devil's Bargain** |
 | 5 | Merton's locker 🔴 | "go" | `music-s01-mertons-locker` | `npc-merton-human` | 🔴 none | Study; Anchor weight |
 | 6 | True form & The Surge | "go" | `music-s01-true-form-reveal` → `music-s01-merton-fight` | `npc-merton-true-form` | the Lever & stage-prop gags (after the plea) | **Resistance** *(reinforce)*, **Desperate = XP**; Harm *(just in time)* |
 | 7 | The Choice 🔴 | "go" | `music-s01-the-choice` | `item-leather-collar` | 🔴 none | **Anchor Ledger** |

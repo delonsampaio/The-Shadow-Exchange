@@ -21,7 +21,7 @@
 
     // Bump SAVE_VERSION whenever the INIT_* constants below are updated at end of session.
     // The dashboard auto-saves to this browser; a refresh will NOT lose state mid-session.
-    const SAVE_VERSION = 'S0-pre-campaign';
+    const SAVE_VERSION = 'S0-v4';
     function usePersist(key, init) {
       const k = 'se_' + SAVE_VERSION + '_' + key;
       const [v, setV] = useState(() => {
@@ -34,12 +34,12 @@
     // ─── Campaign Data ──────────────────────────────────────────────────────────
     // After each session, update the values below to reflect final session state.
 
-    const INIT_CREW = { heat: 0, coin: 0, rep: 0, wanted: 0, tier: 0, hold: false };
+    const INIT_CREW = { heat: 0, coin: 0, rep: 0, wanted: 0, tier: 0, xp: 0, hold: false };
 
     const INIT_PCS = [
-      { id: 1, name: '[PC 1]', role: '—', stress: 0, harm: [0, 0, 0] },
-      { id: 2, name: '[PC 2]', role: '—', stress: 0, harm: [0, 0, 0] },
-      { id: 3, name: '[PC 3]', role: '—', stress: 0, harm: [0, 0, 0] },
+      { id: 1, name: '[PC 1]', role: '—', stress: 0, harm: [0, 0, 0], trauma: 0, xp: 0, vice: '', purveyor: '', heirloom: '', pattern: '', stage: 0, friend: '', rival: '' },
+      { id: 2, name: '[PC 2]', role: '—', stress: 0, harm: [0, 0, 0], trauma: 0, xp: 0, vice: '', purveyor: '', heirloom: '', pattern: '', stage: 0, friend: '', rival: '' },
+      { id: 3, name: '[PC 3]', role: '—', stress: 0, harm: [0, 0, 0], trauma: 0, xp: 0, vice: '', purveyor: '', heirloom: '', pattern: '', stage: 0, friend: '', rival: '' },
     ];
 
     const INIT_CLOCKS = [
@@ -78,7 +78,7 @@
     ];
     const TELL_LABELS = ['—', 'Planted', 'CAUGHT'];
     const TELL_CLS = [
-      'border-zinc-800 text-zinc-600 bg-zinc-900',
+      'border-zinc-800 text-zinc-500 bg-zinc-900',
       'border-amber-700 text-amber-400 bg-amber-950/20',
       'border-emerald-700 text-emerald-400 bg-emerald-950/20',
     ];
@@ -104,7 +104,7 @@
     ];
     const TAUGHT_LABELS = ['—', 'Introduced', 'Understood'];
     const TAUGHT_CLS = [
-      'border-zinc-800 text-zinc-600 bg-zinc-900',
+      'border-zinc-800 text-zinc-500 bg-zinc-900',
       'border-amber-700 text-amber-400 bg-amber-950/20',
       'border-emerald-700 text-emerald-400 bg-emerald-950/20',
     ];
@@ -117,13 +117,16 @@
       { id: 'ptol', label: 'PTOLEMY’s charges so far',     note: '' },
       { id: 'zol',  label: 'Zoltar cards dropped',         note: '' },
       { id: 'gerald', label: 'Gerald status',              note: '' },
+      { id: 'nick',  label: 'PC nicknames',                 note: '' },
+      { id: 'coin',  label: 'Zoltar coin code',             note: '' },
+      { id: 'lease', label: 'Lease theories',               note: '' },
     ];
 
     // ─── Lookup Tables ──────────────────────────────────────────────────────────
 
     const HARM_LABELS = ['None', 'L1', 'L2', 'L3'];
     const HARM_CLS = [
-      'border-zinc-700 text-zinc-700 bg-zinc-900',
+      'border-zinc-700 text-zinc-500 bg-zinc-900',
       'border-yellow-700 text-yellow-400 bg-yellow-950/30',
       'border-orange-600 text-orange-400 bg-orange-950/30',
       'border-red-600 text-red-400 bg-red-950/30',
@@ -136,7 +139,7 @@
       'border-amber-700 text-amber-400 bg-amber-950/20',
       'border-red-700 text-red-400 bg-red-950/20',
       'border-orange-700 text-orange-400 bg-orange-950/20',
-      'border-zinc-800 text-zinc-700 bg-zinc-950',
+      'border-zinc-800 text-zinc-500 bg-zinc-950',
     ];
 
     const STAND_LABELS = ['−3', '−2', '−1', 'Neutral', '+1', '+2', '+3'];
@@ -162,7 +165,7 @@
 
     // ─── Clock Component ────────────────────────────────────────────────────────
 
-    function Clock({ c, onSet }) {
+    function Clock({ c, onSet, hot, veilCls }) {
       const [hovered, setHovered] = useState(null);
       const r = 43, cx = 50, cy = 50;
       const segs = Array.from({ length: c.total }, (_, i) => {
@@ -172,13 +175,13 @@
         const x1 = cx + r * Math.cos(a1), y1 = cy + r * Math.sin(a1);
         const large = 1 / c.total > 0.5 ? 1 : 0;
         const filled = i < c.cur;
-        const segFill = filled ? c.fill : hovered === i ? '#3f3f46' : '#27272a';
+        const segFill = filled ? c.fill : hovered === i ? '#52525b' : '#18181b';
         return (
           <path
             key={i}
             d={`M${cx},${cy}L${x0},${y0}A${r},${r} 0 ${large},1 ${x1},${y1}Z`}
             fill={segFill}
-            stroke="#09090b"
+            stroke="#52525b"
             strokeWidth="2"
             style={{ cursor: 'pointer', transition: 'fill 0.15s' }}
             onClick={() => onSet(c.id, filled ? i : i + 1)}
@@ -189,9 +192,14 @@
       });
 
       return (
-        <div className="flex flex-col items-center bg-zinc-900/60 border border-zinc-800 rounded-xl p-3 hover:border-zinc-700 transition-colors">
+        <div className={`flex flex-col items-center bg-zinc-900/60 border rounded-xl p-2.5 transition-all ${
+          hot ? 'ring-2 ring-amber-400 bg-amber-950/30 ' : ''}${
+          c.cur === c.total ? 'border-red-500 bg-red-950/20' :
+          (c.cur > 0 && c.cur >= c.total - 1) ? 'border-amber-500 bg-amber-950/15' :
+          c.cur === 0 ? 'border-zinc-800/70 opacity-60 hover:opacity-100' : 'border-zinc-600'
+        } ${c.secret ? veilCls : ''}`}>
           {c.secret && (
-            <span className="text-[8px] font-mono text-purple-500 uppercase tracking-widest mb-1">
+            <span className="text-[11px] font-mono text-purple-500 uppercase tracking-widest mb-1">
               ⬡ SECRET
             </span>
           )}
@@ -210,10 +218,14 @@
               {c.cur}
             </text>
           </svg>
-          <p className={`text-[9px] font-bold uppercase tracking-wide text-center mt-2 leading-tight ${c.secret ? 'text-purple-400' : 'text-zinc-500'}`}>
+          <p className={`text-[12px] font-bold uppercase tracking-wide text-center mt-2 leading-tight ${c.secret ? 'text-purple-400' : 'text-zinc-500'}`}>
             {c.name}
           </p>
-          <p className="text-[8px] font-mono text-zinc-700 mt-0.5">{c.cur}/{c.total}</p>
+          <p className="text-[11px] font-mono text-zinc-500 mt-0.5">{c.cur}/{c.total}</p>
+          <div className="flex gap-1 mt-1">
+            <button onClick={() => onSet(c.id, c.cur - 1)} className="w-6 h-5 rounded bg-zinc-800/70 hover:bg-zinc-700 text-zinc-300 text-xs font-bold leading-none">−</button>
+            <button onClick={() => onSet(c.id, c.cur + 1)} className="w-6 h-5 rounded bg-zinc-800/70 hover:bg-zinc-700 text-zinc-300 text-xs font-bold leading-none">+</button>
+          </div>
         </div>
       );
     }
@@ -234,11 +246,110 @@
       const cycleTaught = (id) => setTaught(p => p.map(t => t.id === id ? { ...t, state: (t.state + 1) % 3 } : t));
       const cycleTell = (id) => setTells(p => p.map(t => t.id === id ? { ...t, state: (t.state + 1) % 3 } : t));
       const setGagNote = (id, note) => setGags(p => p.map(g => g.id === id ? { ...g, note } : g));
-      const resetAll = () => { if (confirm('Reset the dashboard to the saved INIT state?')) {
-        try { Object.keys(localStorage).filter(k => k.startsWith('se_')).forEach(k => localStorage.removeItem(k)); } catch (e) {}
+      const resetAll = () => { if (confirm('Reset the dashboard to the saved INIT state (ignoring ops already in the feed)?')) {
+        const maxSeq = ((window.DASH_FEED && window.DASH_FEED.ops) || []).reduce((m, o) => Math.max(m, o.seq || 0), 0);
+        try {
+          Object.keys(localStorage).filter(k => k.startsWith('se_')).forEach(k => localStorage.removeItem(k));
+          localStorage.setItem('se_' + SAVE_VERSION + '_feedseq', String(maxSeq));
+        } catch (e) {}
         location.reload(); } };
+      const [veil, setVeil] = usePersist('veil', false);
+      const [flash, setFlash] = useState({});
+      const veilCls = veil ? 'blur-[6px] hover:blur-none transition-all select-none' : '';
+      useEffect(() => {
+        const onKey = (e) => {
+          const tag = (document.activeElement && document.activeElement.tagName) || '';
+          if ((e.key === 'p' || e.key === 'P') && tag !== 'INPUT' && tag !== 'TEXTAREA') setVeil(v => !v);
+        };
+        window.addEventListener('keydown', onKey);
+        return () => window.removeEventListener('keydown', onKey);
+      }, []);
       const [newAnchor, setNewAnchor] = useState('');
       const [newNpc, setNewNpc]       = useState('');
+
+      // ── Live feed from the Co-GM (dashboard-feed/feed.js) ─────────────────────
+      const [feedLog, setFeedLog] = usePersist('feedlog', []);
+      const [scene, setScene] = usePersist('scene', { beat: '—', title: 'Waiting for the session to start', next: '' });
+      const applyOp = (o) => {
+        const clamp = (v, lo, hi) => Math.max(lo, Math.min(hi, v));
+        switch (o.op) {
+          case 'crew':    setCrew(p => ({ ...p, [o.key]: Math.max(0, o.delta !== undefined ? (p[o.key] || 0) + o.delta : o.value) })); break;
+          case 'clock':   setClocks(p => p.map(c => c.id === o.id ? { ...c, cur: clamp(o.delta !== undefined ? c.cur + o.delta : o.value, 0, c.total) } : c)); break;
+          case 'stress':  setPcs(p => p.map(pc => pc.id === o.pc ? { ...pc, stress: clamp(o.value, 0, 9) } : pc)); break;
+          case 'harm':    setPcs(p => p.map(pc => pc.id === o.pc ? { ...pc, harm: pc.harm.map((h, i) => i === o.slot ? clamp(o.value, 0, 3) : h) } : pc)); break;
+          case 'pc':      setPcs(p => p.map(pc => pc.id === o.pc ? { ...pc, ...(o.name !== undefined ? { name: o.name } : {}), ...(o.role !== undefined ? { role: o.role } : {}) } : pc)); break;
+          case 'tell':    setTells(p => p.map(t => t.id === o.id ? { ...t, state: clamp(o.state, 0, 2) } : t)); break;
+          case 'taught':  setTaught(p => p.map(t => t.id === o.id ? { ...t, state: clamp(o.state, 0, 2) } : t)); break;
+          case 'gag':     setGags(p => p.some(g => g.id === o.id) ? p.map(g => g.id === o.id ? { ...g, note: o.note } : g) : [...p, { id: o.id, label: o.label || o.id, note: o.note || '' }]); break;
+          case 'faction': setFactions(p => p.map(f => f.id === o.id ? { ...f, standing: clamp(o.standing, 0, 6) } : f)); break;
+          case 'anchor_add':    setAnchors(p => [...p, { id: Date.now() + Math.random(), name: o.name, status: o.status || 0 }]); break;
+          case 'anchor_status': setAnchors(p => p.map(a => a.name === o.name ? { ...a, status: o.status } : a)); break;
+          case 'npc_add': setNpcs(p => [...p, { id: Date.now() + Math.random(), name: o.name, faction: o.faction || '—', note: o.note || '', status: o.status === undefined ? 1 : o.status }]); break;
+          case 'pcinfo':  setPcs(p => p.map(pc => pc.id === o.pc ? { ...pc, ...Object.fromEntries(Object.entries(o).filter(([k]) => ['vice','purveyor','heirloom','pattern','stage','friend','rival','trauma','xp'].includes(k))) } : pc)); break;
+          case 'scene':   setScene(p => ({ ...p, ...(o.beat !== undefined ? { beat: o.beat } : {}), ...(o.title !== undefined ? { title: o.title } : {}), ...(o.next !== undefined ? { next: o.next } : {}) })); break;
+          default: break;
+        }
+      };
+      useEffect(() => {
+        const seqKey = 'se_' + SAVE_VERSION + '_feedseq';
+        const poll = () => {
+          const sc = document.createElement('script');
+          sc.src = 'dashboard-feed/feed.js?t=' + Date.now();
+          sc.onload = () => {
+            try {
+              const ops = (window.DASH_FEED && window.DASH_FEED.ops) || [];
+              let last = 0; try { last = parseInt(localStorage.getItem(seqKey) || '0', 10); } catch (e) {}
+              const maxSeq = ops.reduce((m, o) => Math.max(m, o.seq || 0), 0);
+              if (maxSeq < last) { last = 0; try { localStorage.setItem(seqKey, '0'); } catch (e) {} }   // feed.js was reset
+              const fresh = ops.filter(o => o.seq > last).sort((a, b) => a.seq - b.seq);
+              if (fresh.length) {
+                fresh.forEach(applyOp);
+                try { localStorage.setItem(seqKey, String(fresh[fresh.length - 1].seq)); } catch (e) {}
+                const t = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+                const touched = {};
+                fresh.forEach(o => {
+                  if (o.op === 'crew') touched['crew:' + o.key] = 1;
+                  else if (o.op === 'clock') touched['clock:' + o.id] = 1;
+                  else if (['stress', 'harm', 'pc', 'pcinfo'].includes(o.op)) touched['pc:' + o.pc] = 1;
+                  else if (o.op === 'tell') touched['tell:' + o.id] = 1;
+                  else if (o.op === 'taught') touched['taught:' + o.id] = 1;
+                  else if (o.op === 'gag') touched['gag:' + o.id] = 1;
+                  else if (o.op === 'faction') touched['faction:' + o.id] = 1;
+                });
+                setFlash(touched); setTimeout(() => setFlash({}), 3500);
+                const entries = [...fresh].reverse().map(o => ({
+                  t, secret: o.op === 'tell' || o.id === 'omen' || o.pattern !== undefined || o.stage !== undefined,
+                  text: o.note || (o.op + ' ' + JSON.stringify(o).slice(0, 60))
+                }));
+                setFeedLog(p => [...entries, ...p].slice(0, 60));
+              }
+            } catch (e) {}
+            sc.remove();
+          };
+          sc.onerror = () => sc.remove();
+          document.head.appendChild(sc);
+        };
+        poll(); const id = setInterval(poll, 2000); return () => clearInterval(id);
+      }, []);
+
+      const [copied, setCopied] = useState(false);
+      const copySnapshot = () => {
+        const snap = {
+          crew,
+          pcs: pcs.map(p => ({ id: p.id, name: p.name, role: p.role, stress: p.stress, harm: p.harm, trauma: p.trauma, xp: p.xp, vice: p.vice, heirloom: p.heirloom, pattern: p.pattern, stage: p.stage, friend: p.friend, rival: p.rival })),
+          clocks: clocks.map(c => c.name + ': ' + c.cur + '/' + c.total),
+          factions: factions.map(f => f.name + ': ' + STAND_LABELS[f.standing]),
+          anchors: anchors.map(a => a.name + ' (' + ANCHOR_STATUSES[a.status] + ')'),
+          npcs: npcs.map(n => n.name + ' (' + STATUS_LABELS[n.status] + ')'),
+          tells: tells.filter(t => t.state > 0).map(t => t.label + ': ' + TELL_LABELS[t.state]),
+          taught: taught.filter(t => t.state > 0).map(t => t.label + ': ' + TAUGHT_LABELS[t.state]),
+          gags: gags.filter(g => g.note).map(g => g.label + ': ' + g.note)
+        };
+        const text = '```json\n' + JSON.stringify(snap, null, 2) + '\n```';
+        const done = () => { setCopied(true); setTimeout(() => setCopied(false), 2500); };
+        try { navigator.clipboard.writeText(text).then(done, () => window.prompt('Copy this and paste it to the Co-GM:', text)); }
+        catch (e) { window.prompt('Copy this and paste it to the Co-GM:', text); }
+      };
 
       const adjCrew    = (k, d) => setCrew(p => ({ ...p, [k]: Math.max(0, p[k] + d) }));
       const toggleHold = ()     => setCrew(p => ({ ...p, hold: !p.hold }));
@@ -291,29 +402,35 @@
           <div className="fixed inset-0 pointer-events-none opacity-[0.025] bg-[linear-gradient(rgba(0,0,0,0)_50%,rgba(0,0,0,0.3)_50%)] bg-[length:100%_3px] z-50" />
 
           {/* ── HEADER ── */}
-          <header className="max-w-6xl mx-auto mb-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 pb-5 border-b border-zinc-800">
+          <header className="max-w-[1760px] mx-auto mb-3 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 pb-3 border-b border-zinc-800">
             <div>
               <h1 className="text-2xl font-black tracking-tighter text-amber-400 uppercase leading-none">
                 The Shadow Exchange
               </h1>
-              <p className="text-[9px] font-mono text-zinc-600 uppercase tracking-[0.2em] mt-1">
+              <p className="text-[12px] font-mono text-zinc-500 uppercase tracking-[0.2em] mt-1">
                 Curios &amp; Chronicles · Session Status
               </p>
             </div>
 
-            <div className="flex items-center gap-0.5 bg-zinc-900 border border-zinc-800 rounded-xl p-2.5 flex-wrap">
+            <div className="flex items-center gap-2 flex-wrap justify-end">
+            <button onClick={() => setVeil(v => !v)} title="Press P"
+              className={`text-xs font-mono px-2.5 py-1.5 rounded-lg border ${veil ? 'border-purple-500 text-purple-300 bg-purple-950/30' : 'border-zinc-700 text-zinc-400'}`}>
+              {veil ? '🔒 Secrets blurred (P)' : '👁 Secrets visible (P)'}
+            </button>
+            <div className="flex items-center gap-0.5 bg-zinc-900 border border-zinc-800 rounded-xl p-2 flex-wrap">
               {[
                 ['Heat',   'heat',   'text-orange-400', 'text-orange-500'],
                 ['Coin',   'coin',   'text-amber-400',  'text-amber-500'],
                 ['Rep',    'rep',    'text-zinc-300',   'text-zinc-400'],
                 ['Wanted', 'wanted', 'text-red-400',    'text-red-500'],
+                ['XP',     'xp',     'text-sky-400',    'text-sky-500'],
               ].map(([label, key, color, dim]) => (
-                <div key={key} className="flex flex-col items-center px-2 sm:px-3">
-                  <span className={`text-[8px] uppercase font-bold tracking-wide ${dim}`}>{label}</span>
+                <div key={key} className={`flex flex-col items-center px-2 sm:px-3 rounded-lg transition-all ${flash['crew:' + key] ? 'ring-2 ring-amber-400 bg-amber-950/30' : ''}`}>
+                  <span className={`text-[11px] uppercase font-bold tracking-wide ${dim}`}>{label}</span>
                   <div className="flex items-center gap-1 mt-0.5">
-                    <button onClick={() => adjCrew(key, -1)} className="text-zinc-700 hover:text-zinc-400 text-sm leading-none w-3">−</button>
+                    <button onClick={() => adjCrew(key, -1)} className="w-6 h-6 flex items-center justify-center rounded bg-zinc-800/70 hover:bg-zinc-700 text-zinc-300 hover:text-amber-400 text-sm font-bold leading-none">−</button>
                     <span className={`text-lg font-mono font-black ${color} min-w-[1.5rem] text-center`}>{crew[key]}</span>
-                    <button onClick={() => adjCrew(key, 1)} className="text-zinc-700 hover:text-zinc-400 text-sm leading-none w-3">+</button>
+                    <button onClick={() => adjCrew(key, 1)} className="w-6 h-6 flex items-center justify-center rounded bg-zinc-800/70 hover:bg-zinc-700 text-zinc-300 hover:text-amber-400 text-sm font-bold leading-none">+</button>
                   </div>
                 </div>
               ))}
@@ -321,60 +438,103 @@
               <div className="w-px h-10 bg-zinc-800 mx-1" />
 
               <div className="flex flex-col items-center px-2 sm:px-3">
-                <span className="text-[8px] uppercase font-bold tracking-wide text-zinc-500">Tier</span>
+                <span className="text-[11px] uppercase font-bold tracking-wide text-zinc-500">Tier</span>
                 <div className="flex items-center gap-1 mt-0.5">
-                  <button onClick={() => adjCrew('tier', -1)} className="text-zinc-700 hover:text-zinc-400 text-sm leading-none w-3">−</button>
+                  <button onClick={() => adjCrew('tier', -1)} className="w-6 h-6 flex items-center justify-center rounded bg-zinc-800/70 hover:bg-zinc-700 text-zinc-300 hover:text-amber-400 text-sm font-bold leading-none">−</button>
                   <span className="text-lg font-mono font-black text-zinc-200 min-w-[1.5rem] text-center">{crew.tier}</span>
-                  <button onClick={() => adjCrew('tier', 1)} className="text-zinc-700 hover:text-zinc-400 text-sm leading-none w-3">+</button>
+                  <button onClick={() => adjCrew('tier', 1)} className="w-6 h-6 flex items-center justify-center rounded bg-zinc-800/70 hover:bg-zinc-700 text-zinc-300 hover:text-amber-400 text-sm font-bold leading-none">+</button>
                 </div>
               </div>
 
               <div className="flex flex-col items-center px-2 sm:px-3">
-                <span className="text-[8px] uppercase font-bold tracking-wide text-zinc-500">Hold</span>
+                <span className="text-[11px] uppercase font-bold tracking-wide text-zinc-500">Hold</span>
                 <button onClick={toggleHold}
-                  className={`mt-0.5 text-[9px] font-mono font-bold px-2 py-0.5 rounded border transition-all ${
+                  className={`mt-0.5 text-[12px] font-mono font-bold px-2 py-0.5 rounded border transition-all ${
                     crew.hold ? 'border-amber-700 text-amber-400 bg-amber-950/20' : 'border-zinc-700 text-zinc-500 bg-zinc-900'
                   }`}>
                   {crew.hold ? 'Strong' : 'Weak'}
                 </button>
               </div>
             </div>
+            </div>
           </header>
 
-          <div className="max-w-6xl mx-auto space-y-6">
+          <div className="max-w-[1760px] mx-auto space-y-4">
+
+            <div className="grid grid-cols-1 xl:grid-cols-2 gap-4 items-stretch">
+            {/* ── NOW / NEXT (set by the Co-GM) ── */}
+            <section>
+              <div className="bg-zinc-900/40 border border-amber-900/40 rounded-xl px-5 py-4 flex flex-wrap items-baseline gap-x-6 gap-y-1">
+                <span className="text-[12px] font-black uppercase tracking-[0.2em] text-amber-500">Now</span>
+                <span className="text-xl font-bold text-amber-300"><span className="font-mono text-amber-500 mr-2">{scene.beat}</span>{scene.title}</span>
+                {scene.next && <span className="text-[14px] text-zinc-500"><span className="text-zinc-500 uppercase tracking-wide mr-1">next</span>{scene.next}</span>}
+              </div>
+            </section>
+
+            {/* ── CO-GM UPDATES (live feed log) ── */}
+            <section>
+              <div className="bg-zinc-900/30 border border-emerald-900/40 rounded-xl p-3 h-full max-h-32 overflow-y-auto">
+                <div className="flex items-center justify-between mb-1">
+                  <span className="text-[12px] font-black uppercase tracking-[0.2em] text-emerald-400 flex items-center gap-1.5">
+                    <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" /> Co-GM Updates · live
+                  </span>
+                  <span className="text-[11px] font-mono text-zinc-500">{feedLog[0] ? 'Last: ' + feedLog[0].t : 'Idle'}</span>
+                </div>
+                {feedLog.length === 0 && <p className="text-[13px] font-mono text-zinc-500 italic">Waiting for Co-GM feed ops…</p>}
+                {feedLog.map((f, i) => (
+                  <div key={i} className="flex gap-2 text-[13px] font-mono leading-snug">
+                    <span className="text-zinc-500 flex-shrink-0">{f.t}</span>
+                    <span className={`${i === 0 ? 'text-emerald-300 font-bold' : 'text-zinc-400'} ${f.secret ? veilCls : ''}`}>{f.text}</span>
+                  </div>
+                ))}
+              </div>
+            </section>
+
+            </div>
 
             {/* ── PC VITALS ── */}
             <section>
-              <h2 className="text-[9px] font-black uppercase tracking-[0.2em] text-zinc-600 mb-3">PC Vitals</h2>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <h2 className="text-[12px] font-black uppercase tracking-[0.2em] text-zinc-500 mb-2">PC Vitals</h2>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
                 {pcs.map(pc => (
-                  <div key={pc.id} className="bg-zinc-900/40 border border-zinc-800 rounded-xl p-4 hover:border-zinc-700 transition-colors">
-                    <div className="mb-4">
-                      <input value={pc.role} onChange={e => editPc(pc.id, 'role', e.target.value)} placeholder="playbook" className="bg-transparent text-[8px] font-mono text-amber-700 uppercase tracking-widest w-full focus:outline-none focus:text-amber-400" />
-                      <input value={pc.name} onChange={e => editPc(pc.id, 'name', e.target.value)} className="bg-transparent text-base font-bold text-zinc-100 leading-tight w-full focus:outline-none border-b border-transparent focus:border-amber-800" />
-                    </div>
+                  <div key={pc.id} className={`bg-zinc-900/40 border rounded-xl p-3 transition-all ${flash['pc:' + pc.id] ? 'border-amber-400 ring-2 ring-amber-400/70 bg-amber-950/20' : 'border-zinc-800 hover:border-zinc-700'}`}>
                     <div className="mb-3">
-                      <div className="flex justify-between mb-1.5">
-                        <span className="text-[8px] uppercase font-bold text-zinc-600 tracking-wide">Stress</span>
-                        <span className="text-[8px] font-mono text-zinc-700">{pc.stress}/9</span>
+                      <input value={pc.role} onChange={e => editPc(pc.id, 'role', e.target.value)} placeholder="playbook" className="bg-transparent text-[11px] font-mono text-amber-400 uppercase tracking-widest w-full focus:outline-none focus:text-amber-400" />
+                      <input value={pc.name} onChange={e => editPc(pc.id, 'name', e.target.value)} className="bg-transparent text-base font-bold text-zinc-100 leading-tight w-full focus:outline-none border-b border-transparent focus:border-amber-800" />
+                      {(pc.vice || pc.heirloom || pc.friend || pc.rival || pc.trauma > 0 || pc.xp > 0) && (
+                        <div className="mt-2 space-y-0.5 text-[12px] font-mono leading-snug">
+                          {pc.vice && <div className="text-zinc-400"><span className="text-zinc-400 font-bold">VICE</span> {pc.vice}{pc.purveyor ? ' · ' + pc.purveyor : ''}</div>}
+                          {pc.heirloom && <div className="text-purple-300"><span className="text-purple-400 font-bold">HEIRLOOM</span> {pc.heirloom}{pc.pattern ? <span className={veilCls}>{' · ' + pc.pattern + ' · stage ' + pc.stage}</span> : ''}</div>}
+                          {pc.friend && <div className="text-emerald-300"><span className="text-emerald-400 font-bold">FRIEND</span> {pc.friend}</div>}
+                          {pc.rival && <div className="text-red-300"><span className="text-red-400 font-bold">RIVAL</span> {pc.rival}</div>}
+                          {(pc.trauma > 0 || pc.xp > 0) && <div className="text-zinc-500">TRAUMA {pc.trauma || 0}/4 · XP {pc.xp || 0}</div>}
+                        </div>
+                      )}
+                    </div>
+                    <div className="mb-2">
+                      <div className="flex justify-between mb-1">
+                        <span className="text-[11px] uppercase font-bold text-zinc-400 tracking-wide">Stress</span>
+                        <span className={`text-xs font-mono font-bold ${pc.stress >= 7 ? 'text-red-400 animate-pulse' : 'text-amber-400'}`}>{pc.stress}/9</span>
                       </div>
-                      <div className="flex gap-[3px]">
-                        {Array.from({ length: 9 }, (_, i) => (
-                          <div key={i} onClick={() => setStress(pc.id, i)}
-                            className={`flex-1 h-3 rounded-[2px] cursor-pointer border transition-all ${
-                              i < pc.stress
-                                ? 'bg-amber-500 border-amber-400 shadow-[0_0_6px_rgba(245,158,11,0.3)]'
-                                : 'bg-zinc-800 border-zinc-700 hover:bg-zinc-700'
-                            }`} />
-                        ))}
+                      <div className="flex gap-1">
+                        {Array.from({ length: 9 }, (_, i) => {
+                          const on = i < pc.stress, danger = i >= 6;
+                          return (
+                            <button key={i} onClick={() => setStress(pc.id, i)}
+                              className={`flex-1 h-6 rounded text-[11px] font-mono font-bold border transition-all ${
+                                on ? (danger ? 'bg-red-500 border-red-300 text-zinc-950 shadow-[0_0_8px_rgba(239,68,68,0.5)]' : 'bg-amber-500 border-amber-300 text-zinc-950 shadow-[0_0_6px_rgba(245,158,11,0.35)]')
+                                   : 'bg-zinc-950 border-zinc-600 text-zinc-500 hover:border-zinc-400'
+                              }`}>{i + 1}</button>
+                          );
+                        })}
                       </div>
                     </div>
                     <div>
-                      <span className="text-[8px] uppercase font-bold text-zinc-600 tracking-wide block mb-1.5">Harm</span>
+                      <span className="text-[11px] uppercase font-bold text-zinc-400 tracking-wide block mb-1">Harm</span>
                       <div className="flex gap-1.5">
                         {pc.harm.map((h, slot) => (
                           <button key={slot} onClick={() => cycleHarm(pc.id, slot)}
-                            className={`flex-1 text-[9px] font-mono font-bold py-1 rounded border transition-all ${HARM_CLS[h]}`}>
+                            className={`flex-1 text-[12px] font-mono font-bold py-1 rounded border transition-all ${HARM_CLS[h]}`}>
                             {HARM_LABELS[h]}
                           </button>
                         ))}
@@ -386,50 +546,52 @@
             </section>
 
             {/* ── CLOCKS + INTEL ── */}
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
 
               <section className="lg:col-span-7">
-                <h2 className="text-[9px] font-black uppercase tracking-[0.2em] text-zinc-600 mb-3">Active Clocks</h2>
-                <div className="grid grid-cols-3 gap-3">
-                  {clocks.map(c => <Clock key={c.id} c={c} onSet={setClock} />)}
+                <h2 className="text-[12px] font-black uppercase tracking-[0.2em] text-zinc-500 mb-2">Active Clocks</h2>
+                <div className="grid grid-cols-3 xl:grid-cols-4 2xl:grid-cols-7 gap-2">
+                  {clocks.map(c => <Clock key={c.id} c={c} onSet={setClock} hot={!!flash['clock:' + c.id]} veilCls={veilCls} />)}
                 </div>
-                <div className="mt-4 bg-zinc-900/20 border border-zinc-800/60 rounded-xl p-4">
-                  <p className="text-[8px] font-black uppercase tracking-widest text-zinc-600 mb-3">Position / Effect Quick Ref</p>
-                  <table className="w-full text-[10px] font-mono border-collapse">
-                    <tbody>
-                      {[
-                        ['Controlled', 'text-emerald-500', 'Crit: +1 Effect · Success: Standard · Fail: No harm'],
-                        ['Risky',      'text-amber-400',   'Crit: +1 Effect · Success: Standard · Fail: Consequence'],
-                        ['Desperate',  'text-red-500',     'Crit: +1 Effect · Success: Standard · Fail: Severe harm'],
-                      ].map(([pos, cls, rule]) => (
-                        <tr key={pos} className="border-b border-zinc-800/50 last:border-0">
-                          <td className={`py-1.5 pr-3 font-bold ${cls} w-24`}>{pos}</td>
-                          <td className="py-1.5 text-zinc-600">{rule}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
+                <div className="mt-3">
+                <div>
+                  <h2 className="text-[12px] font-black uppercase tracking-[0.2em] text-zinc-500 mb-2">Faction Standing</h2>
+                  <div className="grid grid-cols-2 gap-2">
+                    {factions.map(f => (
+                      <div key={f.id} className={`flex items-center justify-between px-3 py-1.5 bg-zinc-900/40 border rounded-lg transition-all ${flash['faction:' + f.id] ? 'border-amber-400 ring-2 ring-amber-400/60' : 'border-zinc-800'}`}>
+                        <span className="text-xs font-bold text-zinc-300">{f.name}</span>
+                        <div className="flex items-center gap-1.5">
+                          <button onClick={() => adjStanding(f.id, -1)} className="w-6 h-6 flex items-center justify-center rounded bg-zinc-800/70 hover:bg-zinc-700 text-zinc-300 hover:text-amber-400 text-sm font-bold leading-none">−</button>
+                          <span className={`text-[12px] font-mono font-bold px-2 py-0.5 rounded border min-w-[4.5rem] text-center transition-all ${STAND_CLS[f.standing]}`}>
+                            {STAND_LABELS[f.standing]}
+                          </span>
+                          <button onClick={() => adjStanding(f.id, 1)} className="w-6 h-6 flex items-center justify-center rounded bg-zinc-800/70 hover:bg-zinc-700 text-zinc-300 hover:text-amber-400 text-sm font-bold leading-none">+</button>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
                 </div>
               </section>
 
-              <section className="lg:col-span-5 space-y-5">
+              <section className="lg:col-span-5 space-y-3">
 
                 <div>
-                  <h2 className="text-[9px] font-black uppercase tracking-[0.2em] text-zinc-600 mb-3">NPC Intel</h2>
-                  <div className="space-y-2">
+                  <h2 className="text-[12px] font-black uppercase tracking-[0.2em] text-zinc-500 mb-2">NPC Intel</h2>
+                  <div className="space-y-1.5">
                     {npcs.map(n => (
-                      <div key={n.id} className="flex items-center justify-between gap-2 p-3 bg-zinc-900/40 border border-zinc-800 rounded-xl">
+                      <div key={n.id} className="flex items-center justify-between gap-2 px-3 py-2 bg-zinc-900/40 border border-zinc-800 rounded-xl">
                         <div className="min-w-0 flex-1">
                           <p className="text-sm font-bold text-zinc-200 leading-tight truncate">{n.name}</p>
-                          <p className="text-[8px] text-zinc-600 font-mono truncate">{n.faction}{n.note ? ` · ${n.note}` : ''}</p>
+                          <p className="text-[11px] text-zinc-500 font-mono truncate">{n.faction}{n.note ? ` · ${n.note}` : ''}</p>
                         </div>
                         <div className="flex items-center gap-1.5 flex-shrink-0">
                           <button onClick={() => cycleStatus(n.id)}
-                            className={`text-[8px] font-mono font-bold px-2 py-0.5 rounded-full border uppercase tracking-wide transition-all ${STATUS_CLS[n.status]}`}>
+                            className={`text-[11px] font-mono font-bold px-2 py-0.5 rounded-full border uppercase tracking-wide transition-all ${STATUS_CLS[n.status]}`}>
                             {STATUS_LABELS[n.status]}
                           </button>
                           <button onClick={() => archiveNpc(n.id)}
-                            className="text-zinc-800 hover:text-zinc-600 text-xs transition-colors" title="Move to Graveyard">×</button>
+                            className="text-zinc-500 hover:text-zinc-300 text-sm transition-colors px-1" title="Move to Graveyard">×</button>
                         </div>
                       </div>
                     ))}
@@ -438,41 +600,44 @@
                     <input value={newNpc} onChange={e => setNewNpc(e.target.value)}
                       onKeyDown={e => e.key === 'Enter' && addNpc()}
                       placeholder="Add NPC..."
-                      className="flex-1 bg-zinc-950 border border-zinc-800 rounded-lg px-3 py-1.5 text-[10px] text-zinc-300 placeholder-zinc-700 focus:outline-none focus:border-amber-800" />
+                      className="flex-1 bg-zinc-950 border border-zinc-800 rounded-lg px-3 py-1.5 text-[13px] text-zinc-300 placeholder-zinc-700 focus:outline-none focus:border-amber-800" />
                     <button onClick={addNpc}
-                      className="px-3 py-1.5 bg-zinc-900 border border-zinc-700 rounded-lg text-[10px] text-zinc-400 hover:border-amber-800 hover:text-amber-400 transition-colors">
+                      className="px-3 py-1.5 bg-zinc-900 border border-zinc-700 rounded-lg text-[13px] text-zinc-400 hover:border-amber-800 hover:text-amber-400 transition-colors">
                       Add
                     </button>
                   </div>
                 </div>
 
-                <div>
-                  <h2 className="text-[9px] font-black uppercase tracking-[0.2em] text-zinc-600 mb-3">Faction Standing</h2>
-                  <div className="space-y-1.5">
-                    {factions.map(f => (
-                      <div key={f.id} className="flex items-center justify-between px-3 py-2 bg-zinc-900/40 border border-zinc-800 rounded-lg">
-                        <span className="text-xs font-bold text-zinc-300">{f.name}</span>
-                        <div className="flex items-center gap-1.5">
-                          <button onClick={() => adjStanding(f.id, -1)} className="text-zinc-700 hover:text-zinc-400 text-sm w-4 leading-none">−</button>
-                          <span className={`text-[9px] font-mono font-bold px-2 py-0.5 rounded border min-w-[4.5rem] text-center transition-all ${STAND_CLS[f.standing]}`}>
-                            {STAND_LABELS[f.standing]}
-                          </span>
-                          <button onClick={() => adjStanding(f.id, 1)} className="text-zinc-700 hover:text-zinc-400 text-sm w-4 leading-none">+</button>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
 
+                <div className="bg-zinc-900/30 border border-zinc-800/70 rounded-xl px-3 py-2 text-[12px] font-mono leading-relaxed space-y-0.5">
+                  <div><b className="text-emerald-400">Controlled</b> <span className="text-zinc-400">4–5: withdraw, or a minor consequence · 1–3: seize a risky chance, or withdraw</span></div>
+                  <div><b className="text-amber-400">Risky</b> <span className="text-zinc-400">4–5: success + harm / complication / reduced effect / desperate · 1–3: it goes badly, lose the chance</span></div>
+                  <div><b className="text-red-400">Desperate</b> <span className="text-zinc-400">4–5: success + severe harm or serious complication · 1–3: worst outcome · </span><b className="text-sky-400">roll = +1 XP</b></div>
+                  <div className="text-zinc-500">Crit (two 6s): increased effect · Effect is separate: great / standard / limited</div>
+                </div>
               </section>
             </div>
 
-            {/* ── ANCHOR LEDGER ── */}
+            {/* ── GAGS · ANCHORS · TELLS · TAUGHT ── */}
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 items-start">
+              <section>
+  <h2 className="text-[12px] font-black uppercase tracking-[0.2em] text-zinc-500 mb-2">Running Gags &amp; Table Canon</h2>
+  <div className="bg-zinc-900/30 border border-zinc-800 rounded-xl p-3 space-y-1.5">
+    {gags.map(g => (
+      <div key={g.id} className={`flex items-center gap-2 rounded px-1 ${flash['gag:' + g.id] ? 'ring-2 ring-amber-400 bg-amber-950/30' : ''}`}>
+        <span className="text-[13px] text-zinc-500 w-36 flex-shrink-0">{g.label}</span>
+        <input value={g.note} onChange={e => setGagNote(g.id, e.target.value)}
+          placeholder="…"
+          className="flex-1 bg-zinc-950 border border-zinc-800 rounded px-2 py-1 text-[13px] text-zinc-300 placeholder-zinc-700 focus:outline-none focus:border-amber-800" />
+      </div>
+    ))}
+  </div>
+</section>
             <section>
-              <h2 className="text-[9px] font-black uppercase tracking-[0.2em] text-zinc-600 mb-3">Anchor Ledger</h2>
-              <div className="bg-zinc-900/30 border border-zinc-800 rounded-xl p-4">
+              <h2 className="text-[12px] font-black uppercase tracking-[0.2em] text-zinc-500 mb-2">Anchor Ledger</h2>
+              <div className="bg-zinc-900/30 border border-zinc-800 rounded-xl p-3">
                 {anchors.length === 0 && (
-                  <p className="text-[10px] text-zinc-700 font-mono italic text-center py-2">— No active anchors —</p>
+                  <p className="text-[13px] text-zinc-500 font-mono italic text-center py-2">— No active anchors —</p>
                 )}
                 {anchors.length > 0 && (
                   <div className="space-y-2 mb-3">
@@ -481,11 +646,11 @@
                         <span className="text-xs text-zinc-300 flex-1 truncate">{a.name}</span>
                         <div className="flex items-center gap-1.5 flex-shrink-0">
                           <button onClick={() => cycleAnchorStatus(a.id)}
-                            className={`text-[9px] font-mono font-bold px-2 py-0.5 rounded border transition-all ${ANCHOR_CLS[a.status]}`}>
+                            className={`text-[12px] font-mono font-bold px-2 py-0.5 rounded border transition-all ${ANCHOR_CLS[a.status]}`}>
                             {ANCHOR_STATUSES[a.status]}
                           </button>
                           <button onClick={() => archiveAnchor(a.id)}
-                            className="text-zinc-800 hover:text-zinc-600 text-xs transition-colors" title="Move to Graveyard">×</button>
+                            className="text-zinc-500 hover:text-zinc-300 text-sm transition-colors px-1" title="Move to Graveyard">×</button>
                         </div>
                       </div>
                     ))}
@@ -495,72 +660,54 @@
                   <input value={newAnchor} onChange={e => setNewAnchor(e.target.value)}
                     onKeyDown={e => e.key === 'Enter' && addAnchor()}
                     placeholder="Add anchor item..."
-                    className="flex-1 bg-zinc-950 border border-zinc-800 rounded-lg px-3 py-1.5 text-[10px] text-zinc-300 placeholder-zinc-700 focus:outline-none focus:border-amber-800" />
+                    className="flex-1 bg-zinc-950 border border-zinc-800 rounded-lg px-3 py-1.5 text-[13px] text-zinc-300 placeholder-zinc-700 focus:outline-none focus:border-amber-800" />
                   <button onClick={addAnchor}
-                    className="px-3 py-1.5 bg-zinc-900 border border-zinc-700 rounded-lg text-[10px] text-zinc-400 hover:border-amber-800 hover:text-amber-400 transition-colors">
+                    className="px-3 py-1.5 bg-zinc-900 border border-zinc-700 rounded-lg text-[13px] text-zinc-400 hover:border-amber-800 hover:text-amber-400 transition-colors">
                     Add
                   </button>
                 </div>
               </div>
             </section>
-
-            {/* ── GM-SECRET: THORNE TELLS + RUNNING GAGS ── */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <section>
-                <h2 className="text-[9px] font-black uppercase tracking-[0.2em] text-purple-700 mb-3">GM-Secret · Thorne Tells</h2>
-                <div className="bg-zinc-900/30 border border-zinc-800 rounded-xl p-4 space-y-2">
-                  {tells.map(t => (
-                    <div key={t.id} className="flex items-center justify-between gap-2">
-                      <span className="text-[11px] text-zinc-400 flex-1">{t.label}</span>
-                      <button onClick={() => cycleTell(t.id)}
-                        className={`text-[9px] font-mono font-bold px-2 py-0.5 rounded border transition-all ${TELL_CLS[t.state]}`}>
-                        {TELL_LABELS[t.state]}
-                      </button>
-                    </div>
-                  ))}
-                  <p className="text-[9px] text-zinc-700 font-mono pt-1">Caught ≥3 and told someone → the Understudied accelerates.</p>
-                </div>
-              </section>
-              <section>
-                <h2 className="text-[9px] font-black uppercase tracking-[0.2em] text-zinc-600 mb-3">Running Gags &amp; Table Canon</h2>
-                <div className="bg-zinc-900/30 border border-zinc-800 rounded-xl p-4 space-y-2">
-                  {gags.map(g => (
-                    <div key={g.id} className="flex items-center gap-2">
-                      <span className="text-[10px] text-zinc-500 w-40 flex-shrink-0">{g.label}</span>
-                      <input value={g.note} onChange={e => setGagNote(g.id, e.target.value)}
-                        placeholder="…"
-                        className="flex-1 bg-zinc-950 border border-zinc-800 rounded px-2 py-1 text-[10px] text-zinc-300 placeholder-zinc-700 focus:outline-none focus:border-amber-800" />
-                    </div>
-                  ))}
-                </div>
-              </section>
-            </div>
-
-            {/* ── MECHANICS TAUGHT (players are new to Blades) ── */}
+  <h2 className="text-[12px] font-black uppercase tracking-[0.2em] text-purple-400 mb-2">GM-Secret · Thorne Tells</h2>
+  <div className={`bg-zinc-900/30 border border-zinc-800 rounded-xl p-3 space-y-1.5 ${veilCls}`}>
+    {tells.map(t => (
+      <div key={t.id} className={`flex items-center justify-between gap-2 rounded px-1 ${flash['tell:' + t.id] ? 'ring-2 ring-amber-400 bg-amber-950/30' : ''}`}>
+        <span className="text-[14px] text-zinc-400 flex-1">{t.label}</span>
+        <button onClick={() => cycleTell(t.id)}
+          className={`text-[12px] font-mono font-bold px-2 py-0.5 rounded border transition-all ${TELL_CLS[t.state]}`}>
+          {TELL_LABELS[t.state]}
+        </button>
+      </div>
+    ))}
+    <p className="text-[12px] text-zinc-500 font-mono pt-1">Caught ≥3 and told someone → the Understudied accelerates.</p>
+  </div>
+</section>
             <section>
-              <h2 className="text-[9px] font-black uppercase tracking-[0.2em] text-zinc-600 mb-3">Mechanics Taught · max 4 new per session</h2>
-              <div className="bg-zinc-900/30 border border-zinc-800 rounded-xl p-4 grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-2">
+              <h2 className="text-[12px] font-black uppercase tracking-[0.2em] text-zinc-500 mb-2">Mechanics Taught · max 4 / session</h2>
+              <div className="bg-zinc-900/30 border border-zinc-800 rounded-xl p-3 space-y-1.5">
                 {taught.map(t => (
-                  <div key={t.id} className="flex items-center justify-between gap-2">
-                    <span className="text-[11px] text-zinc-400 flex-1">{t.label}</span>
+                  <div key={t.id} className={`flex items-center justify-between gap-2 rounded px-1 ${flash['taught:' + t.id] ? 'ring-2 ring-amber-400 bg-amber-950/30' : ''}`}>
+                    <span className="text-[14px] text-zinc-400 flex-1">{t.label}</span>
                     <button onClick={() => cycleTaught(t.id)}
-                      className={`text-[9px] font-mono font-bold px-2 py-0.5 rounded border transition-all ${TAUGHT_CLS[t.state]}`}>
+                      className={`text-[12px] font-mono font-bold px-2 py-0.5 rounded border transition-all ${TAUGHT_CLS[t.state]}`}>
                       {TAUGHT_LABELS[t.state]}
                     </button>
                   </div>
                 ))}
               </div>
             </section>
+            </div>
 
             {/* ── GRAVEYARD ── */}
             {graveyard.length > 0 && (
               <section>
-                <h2 className="text-[9px] font-black uppercase tracking-[0.2em] text-zinc-700 mb-3">Graveyard</h2>
+                <h2 className="text-[12px] font-black uppercase tracking-[0.2em] text-zinc-500 mb-3">Graveyard</h2>
                 <div className="space-y-1.5 opacity-50">
                   {graveyard.map((g, i) => (
                     <div key={i} className="flex justify-between items-center px-3 py-1.5 bg-zinc-950 border border-zinc-900 rounded-lg">
-                      <span className="text-[10px] text-zinc-600">{g.name}</span>
-                      <span className="text-[8px] font-mono text-zinc-700">{g.type} · {g.fate}</span>
+                      <span className="text-[13px] text-zinc-500">{g.name}</span>
+                      <span className="text-[11px] font-mono text-zinc-500">{g.type} · {g.fate}</span>
                     </div>
                   ))}
                 </div>
@@ -569,11 +716,14 @@
 
           </div>
 
-          <footer className="max-w-6xl mx-auto mt-10 pt-4 border-t border-zinc-900 text-center">
-            <p className="text-[8px] font-mono text-zinc-800 uppercase tracking-widest">
+          <footer className="max-w-[1760px] mx-auto mt-10 pt-4 border-t border-zinc-900 text-center">
+            <p className="text-[11px] font-mono text-zinc-600 uppercase tracking-widest">
               Cover Status: Nominal · Resonance Field: Contained · <span style={{animation: 'pulse 2s infinite'}}>Recording...</span>
             </p>
-            <button onClick={resetAll} className="mt-2 text-[8px] font-mono text-zinc-800 hover:text-zinc-500 uppercase tracking-widest">reset saved state</button>
+            <div className="mt-2 flex items-center justify-center gap-4">
+              <button onClick={copySnapshot} className="text-[12px] font-mono px-3 py-1 rounded border border-zinc-700 text-zinc-300 hover:border-amber-600 hover:text-amber-400">{copied ? '✓ Copied — paste it to the Co-GM' : 'Copy end-of-session snapshot'}</button>
+              <button onClick={resetAll} className="text-[11px] font-mono text-zinc-600 hover:text-zinc-400 uppercase tracking-widest">reset saved state</button>
+            </div>
           </footer>
 
         </div>

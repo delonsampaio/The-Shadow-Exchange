@@ -46,12 +46,12 @@ Clean composition, no text, no watermarks, no signatures.
 ---
 
 ### The Subway — Main Hall
-Save as: `location-subway-main-hall.png`
+Save as: `location-subway-main-hall-v2.png` *(v1 = `location-subway-main-hall.png`, the shadow-monster version — keep as an alternate)*
 
 ```
-A grand underground transit hall with high vaulted ceilings and cracked Art Deco tile work — a station that does not appear on any official map. A hand-drawn transit map visible on the far wall, one line marked in red ink. A mixed crowd of men and women moving through the space — business suits, coats, working clothes — none making eye contact with any other. One figure near the far wall that looks entirely human — dressed normally, walking at normal pace. The shadow it casts on the tiled wall behind it is the silhouette of something massive and upright — broad hunched shoulders, elongated arms, a head too wide and low for a human neck. The shape of something that walks on two legs but is not a person. Completely inconsistent with the ordinary figure casting it. The crowd moves past it without acknowledgment. Nothing that would cause alarm at a glance. Something that would not survive a second look.
-Cool greenish-white fluorescent strip lighting along the ceiling vault as the dominant overhead source — industrial, unflattering. Secondary warm amber from practical wall sconces, too dim to compete with the overhead. The overall color temperature of the space reads cool and institutional. Patches of deep shadow between light pools.
-Cracked Art Deco tile with original gold leaf still intact in places, worn stone floor with path-shaped wear patterns, the institutional green-tinted light flattening all depth. Eerie bureaucratic normalcy. A place that has always existed and does not require acknowledgment from those who use it.
+A vast vaulted underground transit hall in a wide 16:9 composition, the size of a train station, with a cracked Art Deco tiled arched ceiling disappearing into green shadow high above, and a floor of pale old-bone-colored tile. The hall curves gently out of sight in both directions like a runway. A hand-drawn transit map hangs on the far wall, with one line marked in newer, brighter red ink. A mixed crowd of commuters in coats and suits walks and waits, all with eyes down, no one looking at the camera or at each other. Hidden among them, quiet details that are wrong: a man in a suit on a bench reading a newspaper with his shoes on backwards; a woman in a bright yellow coat laughing with her companion, whose hand has too many fingers; a teenager in a school uniform asleep against a pillar with a backpack in his lap, his shadow stretching in the opposite direction from every other shadow in the hall. In the far corner, almost lost in the shadows, a stack of old leather luggage with brass clasps, shown small. In the distance, one dim lit stall with a striped awning, and a back booth deep in shadow.
+Light is a cold, greenish ambient glow with no visible source, like the light inside a fish tank, evenly lying across the tile and the people with no fixtures in sight. A faint wash of green on every surface. Very few warm lights at all, perhaps one dim amber lamp over the distant stall. The people cast shadows that don't quite agree.
+Cracked tile with original gold leaf in the arches, worn stone floor with paths worn by thousands of feet, wet-looking reflections on the floor, long-ago painted station lettering too faded to read. Eerie bureaucratic normalcy: a place that has always existed and does not require acknowledgment. Keep the lower-left of the frame clear of important detail, with only floor and legs.
 Clean composition, no text, no watermarks, no signatures.
 ```
 
@@ -207,12 +207,12 @@ Clean composition, no text, no watermarks, no signatures.
 ---
 
 ### Consequence — The Bookshop Cat
-Save as: `npc-consequence.png`
+Save as: `npc-consequence.png` *(v1 = orange tabby on the desk — keep as `npc-consequence-desk.png`; canon says Consequence is LARGE and GREY)*
 
 ```
-A small tabby cat asleep directly in the center of an open manila folder on a worn wooden counter — the folder contains a Ministry Wanted poster and a grainy surveillance photograph. The cat is completely relaxed, one front paw extended, covering the photograph entirely. A 1962 Sears catalog is half-visible under the folder.
-Warm amber lamplight from the right — the bookshop's characteristic interior warmth. Soft and focused, catching the cat's fur along the spine in a single warm line. The Wanted poster text visible at the edge of the frame beneath the paw, just enough to read "PEST CONTROL AUTH—" before the paw covers the rest.
-Worn paper edges of the folder, tabby fur catching amber light, the Wanted poster readable at the margins, old wooden counter with worn surface. Domestic comfort in the middle of operational intelligence. The cat does not know. The cat has never cared. The cat is named Consequence and this is, in fact, a consequence.
+A very large, solid grey cat, round and heavy, sleeping on a cluttered old wooden bookshop counter, filling the middle of a wide 16:9 composition. She is draped over a stack of old paperwork — a manila folder, a 1962 department-store catalog and a government notice — with one paw hanging off the edge and one ear half-turned. A small tag on her collar catches the light but its lettering is too small to read. She has the profound indifference of an animal that has never once been moved by anything. Behind her, a rain-streaked shop window shows a cold blue city night. A brass reading lamp on the counter lights her from the side.
+Warm amber from the brass lamp on the right, cold blue spill from the rainy window behind her. Fur edged with amber light, soft shadow under her belly.
+Dense grey fur with subtle darker tabby striping and a slightly lighter chest, a notched ear, long whiskers catching the lamp, a worn red collar with a brass tag. Paper edges curled and yellow, a coffee ring, rain beading on the glass behind. Warm, comic, completely unbothered. The only creature in the building who has never reacted to anything.
 Clean composition, no text, no watermarks, no signatures.
 ```
 
@@ -288,7 +288,7 @@ Clean composition, no text, no watermarks, no signatures.
 Save as: `location-ashby-exterior.png`
 
 ```
-A late-Victorian townhouse on a residential street — three stories, managed ivy on the facade, curtains visible in the upper right window. The front path is swept. A single teacup sits on the porch railing with nothing near it. The neighboring houses are ordinary. This one is slightly too still.
+A late-Victorian townhouse on a residential street — three stories, managed ivy on the facade, curtains visible in the upper right window. Through the ground-floor front window, three clocks are just visible on the parlor walls and mantel, all showing the same time: 11:47. The front path is swept. A single teacup sits on the porch railing with nothing near it. The neighboring houses are ordinary. This one is slightly too still.
 Late afternoon grey-cloud light, no direct sun, the street itself dim and flat — but the upper right window has a warm amber glow from inside that does not match the time of day. The light is on when it should not need to be.
 Brick darkened by decades of city air, ivy trimmed rather than sprawling — tended by someone who cares about it. Curtains in the upper window catch light from inside in a way that suggests movement without showing any. Muted palette: grey stone, dark green ivy, amber window light as the only warmth. A house that looks lived-in but is not.
 Clean composition, no text, no watermarks, no signatures.
@@ -388,9 +388,9 @@ Clean composition, no text, no watermarks, no signatures.
 ### The Subway Entrance — the Railing in the Alley *(Session 2 — the big reveal)*
 Save as: `location-subway-entrance.png`
 ```
-A dead-end alley at dusk, viewed from the street end; a green-painted iron railing set into the concrete, waist-high, leading down into darkness; a white ceramic-tile sign above it reads "LINE 0 — ETHEREAL EXPRESS." In the middle distance a businessman in a suit walks directly through the railing, phone to his ear, unaware; he is slightly translucent where the railing passes through him.
-The only light is a flat sodium-orange streetlamp behind the camera; the railing and sign receive almost none of it — they look *lit from within,* a cold, sourceless green on the tile that lights nothing around it.
-Cold-painted iron with tiny rust freckles, tile with hairline cracks, wet brick; green-white sign against orange dusk. A thing that should not be here, looking like it has always been.
+A narrow city alley at dusk in a wide 16:9 composition, viewed from the street end looking toward a dead end of wet brick. Near the far end, a waist-high green-painted iron railing is set into the concrete and leads down a steep stairwell into darkness. Above the stairwell, a sign tiled in white ceramic, in the style of an old municipal subway station from the 1920s, reads "LINE 0 — ETHEREAL EXPRESS". In the middle distance, a businessman in a dark suit, seen from behind, walks at full stride with a phone to his ear straight through the railing and the sign, slightly translucent where the iron passes through him, completely unaware. The alley is otherwise empty and ordinary: a dumpster, a downspout, a puddle.
+The only real light is a flat sodium-orange streetlamp behind the camera, lighting the brick and the wet concrete. The railing and the sign receive almost none of it. They look lit from within, with a cold, sourceless green on the tile that lights nothing around it. The green is faint and exact, not a glow or fog.
+Cold-painted iron with tiny rust freckles, white tiles with hairline cracks and no manufacturer's mark, wet brick, a slick of orange reflections on the concrete. Green-white sign against orange dusk. A thing that should not be here, looking like it has always been.
 Clean composition; the only legible text is the white-tile sign reading LINE 0 — ETHEREAL EXPRESS; no other text, no watermarks, no signatures.
 ```
 
@@ -403,12 +403,12 @@ Folded skin on the bulldog's brow, careful human knuckles with a faint tan line 
 Clean composition, no text, no watermarks, no signatures.
 ```
 
-### Zoltar — The Machine *(Session 0)*
+### Zoltar — The Machine *(Session 0, beat 3b — on the TV during the read-aloud)*
 Save as: `location-zoltar-machine.png`
 ```
-A glass-fronted fortune-teller booth the size of a phone box in the back corner of a dusty bookshop, a robed automaton with a painted beard and a turban, brass hands resting on a velvet pedestal; moldering atlases stacked in front; his painted eyes face the viewer. The coin slot has a slight greenish glow.
-A single amber lamp from the shop behind; a very thin green line of light along the slot. Dust on the glass.
-Cracked paint on the cheeks, brass worn bright where hands once touched it, velvet sun-faded. A fortune that has not been told yet. Wry and slightly menacing.
+A tall, floor-standing fortune-teller booth, roughly seven feet high and about the width of a phone box — taller than a grown man — shown full-length from its base to its carved pediment, standing flush against a plain plaster wall in the back corner of a dusty second-hand bookshop. Shot from a wide, slightly low angle at roughly standing eye level, pulled back far enough to show the wooden floorboards, the booth's heavy plinth base, and the full height of the wall above it. Behind the front glass: a robed automaton in a turban with a painted beard, seated, brass hands resting on a velvet pedestal where fortune cards used to lie, glass eyes facing the viewer. Below the glass, a hip-height panel with a narrow brass coin slot giving off a very thin green glow and an empty card tray. The wall behind the booth is smooth and seamless except for a faint vertical seam on either side of the booth, as if the whole wall could slide back. An unplugged power cord coils on the floor. Atlases are stacked beside it, small and ordinary against the booth's height, and a bookshelf with hand-lettered OCCULT and FOLKLORE labels stands to one side.
+A single warm amber lamp from the bookshop behind the viewer, casting a soft pool on the glass and leaving the corners dark. A thin, steady line of green light along the coin slot — the only green in the frame. Dust motes drift in the amber light. Faint reflections of bookshelves ripple across the glass front.
+Cracked and flaking paint on the automaton's cheeks, a hand-painted beard with individual strokes visible, brass fingers worn bright where hands once rested, sun-faded red velvet, thick dust on the glass with one clean finger-streak near the slot, curling old gold lettering on the booth's frame too worn to read. A fortune that has not been told yet. Wry, patient, slightly menacing — a machine that has been waiting to be asked.
 Clean composition, no text, no watermarks, no signatures.
 ```
 
@@ -527,3 +527,62 @@ Warm amber from a café stall beside her; cold green Subway light behind.
 Scuffed boots, a patch on her sleeve (a small brass lantern), an expression of happy competition. A person who keeps score and means it kindly.
 Clean composition, no text, no watermarks, no signatures.
 ```
+
+---
+
+## Round 3 — Gap fill *(added 2026-11-17 audit)*
+
+### The Fairground Grand — Auditorium & Ghost Light *(Session 1)*
+Save as: `location-theater-auditorium.png`
+```
+The inside of a dark, shuttered old theater, viewed from the center aisle looking toward the stage. Rows of velvet seats fade into blackness. The stage is bare except for one bare bulb on a tall stand — a ghost light — standing alone at center stage. Stage left, a door painted the same black as the wall is propped open with a brick, a faint warm glow leaking up from a stairwell behind it.
+The ghost light is the only real source: a small warm pool on the stage boards, everything beyond ten feet a rumor. Faint warm spill from the open stairwell door. Dust hanging in the air catches the bulb as slow drifting motes.
+Faded red velvet seats with worn arms, gilded proscenium plaster flaking at the edges, rigging ropes disappearing into the dark overhead, scuffed stage boards with old spike-tape marks. Empty-room hush — a place where something happens at night. Mysterious with a hint of "someone is down there, and they're being very quiet about it."
+Clean composition, no text, no watermarks, no signatures.
+```
+
+### The Meridian — Shopping District at Dusk *(Session 2 — the street and the Door Chase)*
+Save as: `location-meridian-street.png`
+```
+A busy upscale shopping street at blue-hour dusk, seen from the middle of the sidewalk. Boutique windows glow warm; a florist's buckets of flowers spill onto the pavement; across the street, a second-floor window with gold-leaf lettering glows amber. A revolving door at the foreground-left, mid-spin, with a faint blur of motion. Shoppers with bags walk past, all too busy to look up.
+Warm amber and gold from the shop windows against cool blue dusk sky and cold blue LED streetlamps. Gentle reflections on slightly damp pavement. The mood is polished and ordinary — a place where nobody would ever notice a thing — with just a hint that there are slightly too many doors.
+Plate-glass shopfronts with brass trim, striped awnings, wrought-iron lamp posts, clean cobbled pavement, a revolving door with brass handrails, window displays of tailored coats and perfume bottles. Upscale, inviting, faintly comic.
+Clean composition, no text, no watermarks, no signatures.
+```
+
+### The Pier — Where the Subway Lets You Out *(Session 2 exit)*
+Save as: `location-pier-exit.png`
+```
+A weathered wooden pier at early evening, looking back from the water toward land. The city skyline stands in the distance across the harbor. Behind the viewer's shoulder, in the foreground, a plain brick wall with a faded painted advertisement for cigarettes, long out of date, stands at the end of the pier planks — it is only a wall, with no railing, no sign, nothing to suggest a door. A single gull on a bollard. A tug far out on the water.
+Low violet-and-amber dusk light across the water, the skyline a soft cutout against the sky, cold blue shadows along the planks. The wall catches the last warm light and looks completely ordinary.
+Salt-stained pilings, wet planks with iron nail-heads, peeling brick with faded paint, drifting diesel haze over the water, a few lit windows across the harbor. Quiet, solitary, slightly eerie — the feeling of having just been somewhere impossible and being unable to prove it.
+Clean composition, no text, no watermarks, no signatures.
+```
+
+### The Hunters' Journal *(Session 0 — Containment Suite prop)*
+Save as: `item-hunters-journal.png`
+```
+An old leather-bound journal lying open on a wooden reading stand beside a stainless-steel surgical table. Its pages are covered in overlapping handwriting from many hands — some in pencil, some in pen, margin notes crowded in between. One entry near the middle is written in red ink, a different hand from all the others, slanted and tidy, with a short line underlined twice.
+Cool overhead surgical lamp light, flat and clinical, with a warmer reading-lamp glow pooled on the open pages. The steel table behind is out of focus, catching a thin line of reflection.
+Cracked leather cover with a brass corner guard, thick yellowed pages with soft curled edges, coffee-ring stain on one corner, a ribbon bookmark, a ballpoint pen clipped to the spine. Layered, lived-in, passed down. The red ink is the only thing in the frame that doesn't belong, and it's the first thing the eye finds.
+Clean composition, no text, no watermarks, no signatures. (Handwriting should be abstract scribble — do not render legible words.)
+```
+
+### The Scanner Station *(Session 0, beat 3d)*
+Save as: `location-scanner-station.png`
+```
+A rolling metal cart half-buried in cabling against a brick wall in a cold underground workshop, carrying three modified shortwave radios with hand-wired knobs and strips of masking tape for labels. Beside them sits a fourth unit, older than the rest, with a single steady green lamp. A coffee mug and a spoon sit on the cart, a tangle of cables behind it. No person in frame.
+Cool fluorescent light from above, flat and clinical, with the green lamp as the only saturated colour, throwing a soft green wash over the nearest radio dials and the brick. A faint amber glow from the radio dial displays.
+Scuffed enamel, taped labels in marker, dust on the cable bundles, a coil of copper wire, a thin wash of visible static-like haze in the air around the green lamp. The feeling of a machine that has been listening for a long time and will keep listening. Mysterious and slightly lonely.
+Clean composition, no text, no watermarks, no signatures.
+```
+
+### The Trophy Corkboard & the Hunters' Journal *(Session 0, beat 3e)*
+Save as: `location-corkboard-wall.png`
+```
+A wide shot of a brick wall in a cold underground workshop covered by a huge cork board pinned with dozens of faded polaroid photographs, each with a scrap of paper annotated in red marker, connected here and there by red string. In the foreground, an old leather-bound journal lies open on a wooden reading stand beside a zinc-topped table. One page in the journal is written in a different, red ink.
+Cool overhead fluorescent light on the wall, with a warmer reading-lamp glow on the journal in the foreground. The polaroids pick up small highlights. The red string and red marker are the only strong colour.
+Yellowed polaroids with curling corners, pushpins of different ages, handwriting in pencil and pen layered over itself, a worn leather cover with a ribbon bookmark. Generations of work, shared. The earliest photos near the top are the faintest. Warm, lived-in, slightly eerie.
+Clean composition, no text, no watermarks, no signatures. (All handwriting is abstract scribble, no legible words; the photographs show indistinct shapes, no clear faces.)
+```
+

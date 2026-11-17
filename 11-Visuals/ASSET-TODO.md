@@ -1,7 +1,7 @@
 ---
 entity_type: Tracker
 name: "Asset To-Do — Images & Music"
-last_updated: 2026-11-16
+last_updated: 2026-11-17
 purpose: "Everything still to generate, in priority order, with the exact filenames the session prep files cue. Prompts live in Pre-Campaign-Image-Prompts.md / Music-Prompts.md / Album-Cover-Prompts.md."
 ---
 
@@ -21,12 +21,12 @@ purpose: "Everything still to generate, in priority order, with the exact filena
 ### P0 — Needed for Sessions 0–3 as written
 | ☐ | File | Cued in | Prompt |
 |---|---|---|---|
-| ☐ | `location-zoltar-machine.png` 🆕 | S0 (optional but great) | Pre-Campaign prompts (end) |
-| ☐ | `npc-gerald-dog.png` 🆕 | S1 (Gerald reveal) | Pre-Campaign prompts (end) |
+| ✅ | `location-zoltar-machine.png` 🆕 | **S0 beat 3b — needed** (shows during the read-aloud; the lair image is the *reveal* after the wall opens). Alt: `location-zoltar-machine-dusty.png` (moodier, darker — keep as a variant) | Pre-Campaign prompts (end) |
+| ✅ | `npc-gerald-dog.png` 🆕 | S1 (Gerald reveal) | Pre-Campaign prompts (end) |
 | ☐ | `location-emmerichs-shop.png` | S2 | exists |
 | ☐ | `npc-emmerich.png` | S2 | exists |
 | ☐ | `item-silver-thimble.png` | S2 | exists |
-| ☐ | `location-subway-entrance.png` 🆕 | S2 (the reveal) | Pre-Campaign prompts (end) |
+| ✅ | `location-subway-entrance.png` 🆕 | S2 (the reveal) | Pre-Campaign prompts (end) |
 | ☐ | `npc-ptolemy.png` | S2 *(not yet cued in older files — now cued)* | exists |
 | ☐ | `npc-cosma-linden.png` | S2 | exists |
 | ☐ | `location-ashby-exterior.png` | S3 | exists |
@@ -34,6 +34,22 @@ purpose: "Everything still to generate, in priority order, with the exact filena
 | ☐ | `npc-mabel-ashby-wraith.png` | S3 | exists |
 | ☐ | `item-grief-jars.png` | S3 | exists |
 | ☐ | `npc-agnes-pell.png` | S3 | exists |
+
+### P0b — Gap-fill images 🆕 *(2026-11-17 audit; prompts at end of `Pre-Campaign-Image-Prompts.md`, Round 3)*
+| ☐ | File | Cued in |
+|---|---|---|
+| ☐ | `location-meridian-street.png` | S2 beat 4 (street beat, before the shop image) |
+| ☐ | `location-pier-exit.png` | S2 beat 12 (the pier exit read-aloud) |
+| ☐ | `location-theater-auditorium.png` | S1 beat 4a (optional; ghost light) |
+| ✅ | `location-scanner-station.png` | S0 beat 3d (the green lamp; keeps the AM-man mystery) |
+| ✅ | `location-corkboard-wall.png` | S0 beat 3e (polaroids + the journal on its stand) |
+| ☐ | `item-hunters-journal.png` | S0 beat 3e (optional close-up; the red-ink page) |
+
+**Subway hall (2026-11-17):** main image `location-subway-main-hall.png` = the darker green version (v2a). Alternates kept in `_Saved-Images/`: `-shadow` (the monster-shadow version, good for a later visit), `-v2b` (the brighter option; v2a = the main image). Known gaps in v2a: backwards shoes / extra fingers / wrong-way shadow did not render — the read-aloud carries them.
+
+**Consequence (2026-11-17):** main image `npc-consequence.png` is now the large grey cat (canon). The older orange-tabby image is kept as `npc-consequence-desk.png`.
+
+**Optional cues added to Run Sheets for prompts that already existed:** `npc-bernard-janitor` (S1 4a), `npc-drennick-foss` (S2 beat 6), `map-subway-schematic` (S2 beat 8), `npc-renwick-stalls` (S3 Stalls's Pitch), `location-ashby-interior` (S3 beat 4), `item-mabel-knitting-needle` (S3 beat 7). **Prompt updated:** `location-ashby-exterior` now shows the three 11:47 clocks through the front window.
 
 ### P1 — S2/S3 optional beats and S4 prep
 | ☐ | File | Prompt |
@@ -81,6 +97,7 @@ Verify visually: `cover-*` set matches the track; `npc-merton-true-form.png` is 
 | ☐ | `music-greta-waltz.mp3` 🆕 | Greta scenes (S1+ downtime) |
 
 ### Already saved but not yet cued
+- **Music audit (2026-11-17): no new tracks needed for Sessions 0–3.** Van rides / end of a good score → `music-road-rock` (P1); Greta's scenes → `music-greta-waltz`; S4 diner → `music-harlans-diner`. Pier exit uses `music-aftermath`.
 - `music-score.mp3` — use during the **Surge** or heist action (S1 Beat 6) as an alternate to `music-s01-merton-fight`.
 - `music-vocal-bookshop-radio.mp3` — AM-radio vocal; good for the S0 Scanner Station or a Downtime vignette.
 

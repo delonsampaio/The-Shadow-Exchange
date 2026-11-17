@@ -28,7 +28,7 @@ last_updated: 2026-11-16
    Cold Open ready: [yes/no — if the placeholder is unfilled, generate it now].
    Asset gaps this session: [list the ❌ items]
    ```
-8. **Present ONE beat and stop** (see §4).
+8. **Present ONE beat and stop** (see §4). *(Push `scene` for that beat to the dashboard first — §2b.)*
 
 *(If this is a **mock session**: read-only — no file writes, no commits, no scene.js changes except to demo.)*
 
@@ -51,6 +51,46 @@ last_updated: 2026-11-16
 **Music command (Mac):** `bash ".../11-Visuals/fade-switch.sh" ".../11-Visuals/_Saved-Music/<file>.mp3"`. **Stop all music:** `osascript -e 'tell application "QuickTime Player" to close every document'`.
 
 **One cue per stop point.** Several cues in a beat = several stops.
+
+---
+
+### 2b. Dashboard Live Feed — **automatic by default**
+
+**The GM should never have to type or click on the dashboard.** You keep it current yourself, every beat, **without being asked**. Use the helper — it appends to the feed and numbers the ops for you (never rewrite `feed.js`):
+
+```
+bash "…/11-Visuals/dashboard-feed/push.sh" \
+  '{"op":"scene","beat":"3a","title":"The Shop","next":"Coin Code → Zoltar opens","note":"Now: Beat 3a — The Shop"}' \
+  '{"op":"clock","id":"det","value":1,"note":"Detection 1/4"}'
+```
+The dashboard polls every 2 s, applies each op once, and shows a **"Co-GM Updates · live"** log (plus a **Now / Next** bar) so the GM sees what changed. **One `push.sh` call per beat** — batch all that beat's ops in it.
+
+**Do it at these moments (event → ops):**
+
+| Event | Push |
+|---|---|
+| **Starting any beat** | `scene` (beat, title, next cue) |
+| A player introduces a PC | `pc` (name, role); `pcinfo` (vice/purveyor, heirloom, friend, rival) as they're revealed |
+| Heirloom pattern chosen (GM-private) | `pcinfo` → `pattern`, `stage` |
+| Table-invented canon (nickname, coin code, cover story, lease theory…) | `gag` (`nick`, `coin`, `cov`, `lease`, …) |
+| A roll's cost / push / resist / flashback | `stress` (absolute new value) |
+| Harm taken or healed | `harm` |
+| Trauma / XP marked | `pcinfo` (`trauma`, `xp`); crew XP → `crew` key `xp` |
+| A clock ticks | `clock` (`det`, `surge`, `bio`, `sub`, `omen`, `aud`, `cor`) |
+| Heat / Coin / Rep / Wanted / Tier change | `crew` |
+| New NPC meets the crew | `npc_add` |
+| Anchor taken / returned / refused / destroyed | `anchor_add` / `anchor_status` **and** the matching `faction` standing |
+| A Thorne tell is planted / caught (GM-secret) | `tell` (state 1 planted, 2 caught) |
+| A mechanic is taught / understood | `taught` (state 1 / 2) |
+| Running gag beat (Consequence's spot, Greta's form no., PTOLEMY's charge, Zoltar card) | `gag` |
+
+**Rules**
+- **Absolute values** (`value`), not `delta` — the GM might also click, and absolute sets don't drift.
+- **Always include a short `note`** (it is the log line the GM reads). For a `gag` op the `note` is also the stored text.
+- **Secrets are fine here** (the dashboard is GM-only): Thorne tells, the Omen, Heirloom patterns. **Never** put them on the Player Screen.
+- Also print the chat line `[Change: …]` (Core → Mechanical Change Log) for the record.
+- **You can't read the dashboard**, so keep your own running tally and, **at every score boundary and at session end, ask the GM one question: "Does the dashboard match?"** Fix any drift with absolute ops.
+- Full op list: the header of `dashboard-feed/push.sh`. Mock sessions: demo freely, then reset (§6).
 
 ---
 
@@ -85,7 +125,7 @@ last_updated: 2026-11-16
 7. **Anchor choices:** surface the human cost *before* the payout. Log every seizure/return in `08-Loot-and-Anchors/Anchor-Ledger.md`.
 8. **The players have NEVER played Blades.** Follow `00-Canon/Mechanics-Teaching-Ladder.md`: announce each mechanic by name once, say it in ≤30 s with the D&D bridge, **max 2 new mechanics per beat / 4 per session**, defer what the Ladder defers, keep the training wheels (Position & Effect every roll; offer Resistance every time through S3; 3-option menus when stuck).
 9. **Players are new to roleplay.** Accept short answers; build around them; never re-prompt or shame.
-10. **You don't see the dashboard.** Its state lives in the GM's browser. Track changes with the **Mechanical Change Log** (`[Change: …]`) and, at the end, **ask the GM for final values** before updating INIT_*.
+10. **You can't *read* the dashboard (its state lives in the GM's browser), but you can *write* to it live** through the feed file — see §2b. Keep your own running tally, push changes as **absolute values**, and **at the end ask the GM to confirm final values** (they may have clicked things too) before updating INIT_*.
 
 ---
 
@@ -110,12 +150,12 @@ last_updated: 2026-11-16
 
 ## 6. End-of-Session Checklist (skip all if mock)
 
-1. Ask the GM for final values (Heat/Coin/Rep/Tier, PC Stress/Harm, clocks, Thorne tells planted/caught, gags, **mechanics taught — introduced vs understood**).
+1. Ask the GM for final values (Heat/Coin/Rep/Tier, PC Stress/Harm, clocks, Thorne tells planted/caught, gags, **mechanics taught — introduced vs understood**). **Shortcut:** the dashboard footer has a **“Copy end-of-session snapshot”** button — ask the GM to press it and paste the JSON; it captures any manual clicks you couldn't see.
 2. `GM-Dashboard.html`: update `INIT_*` constants; **bump `SAVE_VERSION`**.
 3. `05-Sessions/Campaign-Current-State.md`; `07-Clocks/Active-Clocks.md`; `08-Loot-and-Anchors/Anchor-Ledger.md` + `Inventory.md`; `02-Factions/Faction-Tracker.md`; `09-Threads/*` (tells, plants); `Campaign-Arc.md` (check triggers).
 4. **Generate the next session's Cold Open** (see Core → Session Cold Open) into the prep file.
 5. **Update the player-facing wiki** — follow `00-Canon/Wiki-Update-Protocol.md` exactly: draft the recap in `Public-Wiki/Session-Recaps/`, run the **spoiler check**, then add the recap + update `Session-Recaps`, `The-Anchor-Ledger`, `Known-Contacts` (and `Our-Lair` / `Home` if changed) in `The-Shadow-Exchange-Players/docs/` (the player website; a push republishes it). Push only if the GM asks.
-6. Reset `player-screen/scene.js` to the title card (`rev` + 1).
+6. Reset `player-screen/scene.js` to the title card (`rev` + 1) **and reset `dashboard-feed/feed.js` to its header only (the 2 comment lines + `window.DASH_FEED = { ops: [] };`)** (after you've written the confirmed final values into the `INIT_*` constants and bumped `SAVE_VERSION`).
 7. Commit: `chore: update state after session N` (**only** if the GM asks to commit).
 
 ---

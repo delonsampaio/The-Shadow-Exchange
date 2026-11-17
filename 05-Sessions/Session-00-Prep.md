@@ -24,10 +24,10 @@ runtime: "~2.5–3 hours"
 | 1 | The Pitch | start | `music-s00-the-pitch` *(inline, before read-aloud; 90 s, fades)* | — | — | Tone |
 | 2 | Introductions | pitch ends | `music-bookshop-loop` | — | Banter seeds | Voices |
 | 3a | Crew basics + the shop | "go" | `music-bookshop-loop` | `location-curios-exterior` | **The Coin Code** | Cover |
-| 3b | Zoltar opens | inline | `music-s00-zoltar-opens` *(inline — fire at "Zoltar" description)* | `location-containment-suite` *(after the stinger)* | Zoltar judges | Reveal |
+| 3b | Zoltar opens | inline | `music-s00-zoltar-opens` *(inline — fire at "Zoltar" description)* | `location-zoltar-machine` ✅ *(on TV **during** the read-aloud — the closed machine)* → `location-containment-suite` *(the moment the wall slides open)* | Zoltar judges | Reveal |
 | 3c | Lair tour | stinger fades | `music-containment-suite-loop` | — | **The Wall of Rules** | Onboarding |
-| 3d | Scanner Station | "STOP HERE" | `music-vocal-scanner-station` ⚠ *vocal — fire after reading, not under it* | — | — | Lore |
-| 3e | Corkboard + Journal | switch back | `music-containment-suite-loop` | — | — | Hooks |
+| 3d | Scanner Station | "STOP HERE" | `music-vocal-scanner-station` ⚠ *vocal — fire after reading, not under it* | `location-scanner-station` ✅ | — | Lore |
+| 3e | Corkboard + Journal | switch back | `music-containment-suite-loop` | `location-corkboard-wall` ✅ *(on TV for the read-aloud)* → `item-hunters-journal` ❌ *(optional close-up, when they open it)* | — | Hooks |
 | 3f | Upstairs: rep, abilities | return | `music-bookshop-loop` | — | — | Crew sheet |
 | 4 | Friends, Rivals, Heirlooms | — | `music-bookshop-loop` | — | — | Seeds |
 | 4b | **The Trial Run** | after Beat 4 | `music-bookshop-loop` | `npc-consequence` | **Consequence knocks it over** | **Dice, Position, Effect, Stress, Resistance** |
@@ -36,7 +36,7 @@ runtime: "~2.5–3 hours"
 **Asset status:** all music and both images exist ✅. (`npc-consequence.png` also available for the closing.)
 
 ### Tech checklist (before players arrive)
-- [ ] Open `11-Visuals/GM-Dashboard.html` on the GM screen (F11). Enter the three PC names when known.
+- [ ] Open `11-Visuals/GM-Dashboard.html` on the GM screen (F11). *(The Co-GM fills PC names, nicknames and table canon in live through the dashboard feed — see `Session-Boot.md` §2b.)*
 - [ ] Open `11-Visuals/Player-Screen.html` on the shared TV (F11). It should show the title card. *(Co-GM updates `player-screen/scene.js` — see Core Instructions.)*
 - [ ] Test `fade-switch.sh` with one track; confirm QuickTime Player is allowed to be controlled.
 - [ ] Printed `Player-Reference.md` ×3; `GM-Cheat-Sheet.md` at your elbow.
@@ -127,13 +127,15 @@ runtime: "~2.5–3 hours"
 
 **[MUSIC CUE: music-s00-zoltar-opens.mp3]** *(inline — fire now, before reading; let it establish a beat)*
 
+**[IMAGE CUE: location-zoltar-machine.png]** *(on TV now — fire with the stinger, before the read-aloud)* ✅
+
 > 🔊 **READ ALOUD — PART 2 (read the Zoltar passage while the stinger plays):**
 >
 > "In the back corner, near the Occult & Folklore section, behind a stack of moldering atlases, stands an old **Zoltar machine** — a glass-fronted booth the size of a phone box. Inside: a robed automaton with a painted beard, a turban, brass hands resting on a velvet pedestal where a deck of fortune cards used to be. The cards are long gone. The machine has been unplugged at the wall for decades. You push a specific coin into the slot in a specific sequence — a code only you know — and Zoltar's glass eyes flicker once, green; his head turns one degree to the left; and the wall behind him slides back with the heavy pneumatic hiss of a train door."
 
-**→ GM MOVE: STOP.** Then fire the image.
+**→ GM MOVE: STOP.** Then swap the image.
 
-**[IMAGE CUE: location-containment-suite.png]** *(show now — the wall has opened)*
+**[IMAGE CUE: location-containment-suite.png]** *(show now — the wall has opened; the TV has been showing `location-zoltar-machine.png` until this moment. The Zoltar image is generated — never show the lair before the wall opens)*
 
 > 🎭 **COMEDY BEAT — Zoltar (🟢):** Zoltar's head turns *one degree* — and if the table named a bad coin, he turns the *wrong* way and the wall doesn't move. Someone has to do it again. Let them perform the sequence out loud.
 
@@ -288,5 +290,5 @@ The crew starts with the lair fixtures above and **Double Bookkeeping** *(custom
 - Update each PC file in `01-Crew/PCs/` with anything that emerged.
 - Update `01-Crew/Crew-Sheet.md` — reputation, hunting grounds, ability, upgrade, the **coin code**, the **nicknames**.
 - Update `01-Crew/Contacts.md` — Friend and Rival NPCs.
-- Enter PC names on `GM-Dashboard.html` (INIT_PCS) and bump `SAVE_VERSION`.
+- Write the confirmed PC names, nicknames and table canon into `GM-Dashboard.html` (INIT_PCS / INIT_GAGS), bump `SAVE_VERSION`, and reset `dashboard-feed/feed.js`.
 - Co-GM generates **Session 1's Cold Open** (see Core Instructions).

@@ -23,15 +23,15 @@ mechanical_focus: "TEACH: Entanglements, Acquire Assets, Push Yourself. REINFORC
 | 0 | Cold open | start | `music-bookshop-loop` *(inline)* | — | — | — |
 | 1 | The briefing | "go" | `music-bookshop-loop` | `location-curios-exterior` | Greta's extra pages | **Acquire Assets**, Entanglements |
 | 2 | Approach | "go" | `music-ashby-approach` ❌ | — | — | — |
-| 3 | The house | "go" | — | `location-ashby-exterior` ❌ | The door that opens itself | Position choices |
-| 4 | First contact | "go" | `music-ashby-interior` ❌ → `music-sting-boo` ❌ *(inline, then back)* | `npc-mabel-ashby-alive` ❌ | **The fake-out haunt** | Devil's Bargains |
+| 3 | The house | "go" | — | `location-ashby-exterior` ❌ *(window clocks read 11:47 — Observe reveals it)* | The door that opens itself | Position choices |
+| 4 | First contact | "go" | `music-ashby-interior` ❌ → `music-sting-boo` ❌ *(inline, then back)* | `location-ashby-interior` ❌ *(optional)* → `npc-mabel-ashby-alive` ❌ | **The fake-out haunt** | Devil's Bargains |
 | 5 | The Grief Jars | inline | — | `item-grief-jars` ❌ | The hum | Flashback / Resist |
-| 6 | Agnes | "go" | `music-comic-interlude` ⚠ *(rename file — see Asset TODO)* | `npc-agnes-pell` ❌ | The tureen | — |
-| 7 | **The Moral Pivot** | "go" | `music-s01-the-choice` | `npc-mabel-ashby-wraith` ❌ | 🔴 none | **Anchor Ledger** |
+| 6 | Agnes | "go" | `music-comic-interlude` | `npc-agnes-pell` ❌ | The tureen | — |
+| 7 | **The Moral Pivot** | "go" | `music-s01-the-choice` | `npc-mabel-ashby-wraith` ❌ → `item-mabel-knitting-needle` ❌ *(optional, at the Extraction)* | 🔴 none | **Anchor Ledger** |
 | 8 | Return + Thorne's call | "go" | `music-bookshop-loop` | — | — | *(Tell 5)* |
 | 9 | Close | end | — | *(Zoltar card on Player Screen)* | Zoltar | — |
 
-**Asset status:** ❌ = prompt exists in `11-Visuals/` but not yet generated (see `ASSET-TODO.md`). `music-comic-interlude.mp3` is saved as `cover-comic-interlude.mp3` — **rename before play.**
+**Asset status:** ❌ = prompt exists in `11-Visuals/` but not yet generated (see `ASSET-TODO.md`).
 
 ---
 
@@ -108,6 +108,7 @@ mechanical_focus: "TEACH: Entanglements, Acquire Assets, Push Yourself. REINFORC
 **GM Prompt:** "Renwick Stalls is available to meet this afternoon if you want the pitch in person. The form covers extraction only — what you do with the needle after is your business. What are we doing before we go in?"
 
 ### Optional — Stalls's Pitch *(🟡, ~5 min; skip if time is short — he reappears in Session 4)*
+**[IMAGE CUE: npc-renwick-stalls.png]** *(optional — the new-coat man at the coffee shop; not yet generated)*
 > 🔊 **READ ALOUD (if the crew takes the meeting — a coffee shop two blocks from the house):**
 > "A nervous man in an expensive coat a size too large is already at the table, two cups in front of him, one of which he has taken a sip from and put back, as if he'd forgotten whose it was. He stands, sits, stands again. 'Mr. Stalls,' he says, and offers two business cards; neither phone number rings. 'It's a *wonderful* opportunity. A truly wonderful *investment opportunity.*'"
 >

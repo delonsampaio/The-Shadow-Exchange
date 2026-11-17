@@ -24,16 +24,16 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 | 1 | The envelope | after cold open | `music-bookshop-loop` | `location-curios-exterior` | Routing slip / Consequence | — |
 | 2 | Approach | "go" | `music-approach` | — | Cover-story callback | Flashback |
 | 3 | Thorne on the street | inline | — | `npc-elias-thorne` | — | *(Tell 3)* |
-| 4 | Emmerich's shop | "go" | — | `location-emmerichs-shop` ❌, `npc-emmerich` ❌ | The cologne → then silence | Position & Effect *(reinforce)*, Flashback |
+| 4 | Emmerich's shop | "go" | — | `location-meridian-street` ❌ *(street beat)* → `location-emmerichs-shop` ❌, `npc-emmerich` ❌ | The cologne → then silence | Position & Effect *(reinforce)*, Flashback |
 | 5 | The Choice | "go" | `music-s01-the-choice` | `item-silver-thimble` ❌ | 🔴 none | Anchor weight |
-| 6 | **Door Chase** | inline | `music-caper-chase` ❌ *(new — see Asset TODO)* | — | 🟢 Drennick & Foss | **Group Action**, **Assist**, Detection |
-| 7 | The entrance | "go" | `music-s02-the-railing` ❌ *(fallback `music-supernatural`)* | `location-subway-entrance` ❌ | 🔵 none | Flashback to escape |
-| 8 | Descent + Hall | "go" | `music-subway-loop` | `location-subway-main-hall` | 🔵 none — uncanny crowd | Etiquette |
+| 6 | **Door Chase** | inline | `music-caper-chase` ❌ *(new — see Asset TODO)* | `npc-drennick-foss` ❌ *(optional, on first sighting)* | 🟢 Drennick & Foss | **Group Action**, **Assist**, Detection |
+| 7 | The entrance | "go" | `music-s02-the-railing` ❌ *(fallback `music-supernatural`)* | `location-subway-entrance` ✅ | 🔵 none | Flashback to escape |
+| 8 | Descent + Hall | "go" | `music-subway-loop` | `location-subway-main-hall` → `map-subway-schematic` ❌ *(optional, at the wrong transit map)* | 🔵 none — uncanny crowd | Etiquette |
 | 9 | PTOLEMY's charge | inline | — | `npc-ptolemy` ❌ | 🔵 uncanny-specific charges | Ledger/favor |
 | 10 | Cosma | "go" | — | `npc-cosma-linden` ❌ | 🔵 none (quiet warmth only) | **Twice-Born Favor** |
 | 11 | *(optional)* Aldric / Job Board / Broker | — | — | `npc-aldric-voss` ❌, `npc-crossroads-broker` ❌ | — | — |
-| 12 | Exit | "go" | `music-aftermath` | — | — | — |
-| 13 | Return → Downtime → Greta → Thorne's call → Zoltar card *(in that order)* | "go" | `music-bookshop-loop` | `npc-greta-fenn` | 🎭 Greta's forms | **Heat, Downtime** |
+| 12 | Exit | "go" | `music-aftermath` | `location-pier-exit` ❌ | — | — |
+| 13 | Return → Downtime → Greta → Thorne's call → Zoltar card *(in that order)* | "go" | `music-bookshop-loop` → `music-greta-waltz` ❌ *(optional, when Greta enters)* | `npc-greta-fenn` | 🎭 Greta's forms | **Heat, Downtime** |
 | 14 | Close | end | — | *(Zoltar card on Player Screen)* | Zoltar | — |
 
 **Asset status:** ❌ = not yet generated (`[IMAGE/MUSIC CUE: … — not yet generated]`); prompts for every cue exist in `11-Visuals/` (see `ASSET-TODO.md`).

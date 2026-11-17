@@ -228,7 +228,7 @@ Paste into Gemini music chat:
 
 ## Mechanical Change Log
 
-After any response where a mechanical change occurs, append a compact log entry. This is a chat record — not for pasting anywhere:
+After any response where a mechanical change occurs, append a compact log entry **and push the same change to the GM's dashboard automatically** with `11-Visuals/dashboard-feed/push.sh` (`Session-Boot.md` §2b — do this every beat, without being asked; the GM should never have to enter data). The chat log is the record:
 
 ```
 [Change: Detection Clock 0/4 → 1/4 | Vera Stress 0 → 2]
