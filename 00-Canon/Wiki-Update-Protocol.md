@@ -58,6 +58,17 @@ git add -A && git commit -m "docs: session N recap and updates" && git push
 ```
 Never copy the private repo's `Public-Wiki/` staging folder to the site wholesale.
 
+### 5b. Evolve the Home page *(after Session 1 is played, then every session)*
+Home (`docs/index.md`) is the site's front door. **Before Session 1 it is an onboarding page** (the three "Start here" cards). **After the first recap is published it becomes campaign-first:**
+- **Keep** the hero and the pitch quote.
+- **Replace** the three "Start here" cards with three **current-state cards** (template in the players repo's `MAINTAINING.md`):
+  1. **Latest recap** — link to the newest `Session-NN-Recap.md` + a one-sentence hook.
+  2. **Where we left off** — 2–3 sentences from the **crew's perspective** (what they carry into the next session).
+  3. **What we're wondering** — 2–4 open questions the *players* have, **no answers**.
+- **Add** a one-line pointer under the cards: *"New here? [Start here](Quick-Start.md)."* The **Start Here** tab and the onboarding pages stay for reference.
+- **Optional "Crew status" table** (Coin, Heat, Rep and any clock the players have actually *seen*; never the Omen, Subway Decay, or Audit unless the crew knows about them).
+- **Every session:** refresh the three cards. They get the **same spoiler check** as the recap.
+
 ### 5. Report to the GM
 `GM ONLY — WIKI UPDATED: [files changed]. Spoiler check: passed/flagged X.`
 
