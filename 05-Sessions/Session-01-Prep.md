@@ -25,9 +25,9 @@ mechanical_focus: "TEACH: Resistance, Flashback, Devil's Bargain, Vice & Heat. R
 | 2 | Plan & Gear | "go" → suite | `music-containment-suite-loop` | `location-containment-suite` | Cover Story Roulette | **Flashback**; Engagement roll *(simple)* |
 | 3 | Approach | "go" | `music-approach` | — | — | — |
 | 3b | Fairground walk | "go" | `music-vocal-fairground` ⚠ *(vocal — after the read-aloud)* | — | — | — |
-| 4a | Theater lobby | "go" | `music-theater-loop` | `location-fairground-theater` → `npc-bernard-janitor` ❌ *(optional, when he rounds the corner)* | Bernard the janitor | Position & Effect *(reinforce)* |
-| 4a | The dark auditorium | inline | — | `location-theater-auditorium` ❌ *(optional; after the read-aloud)* | — | Position |
-| 4b | Gerald in the basement | inline | `music-sting-ruhroh` ❌ | `npc-gerald-dog` ✅ | 🟢 GERALD | **Devil's Bargain** |
+| 4a | Theater lobby | "go" | `music-theater-loop` | `location-fairground-theater` → `npc-bernard-janitor` ✅ *(optional, when he rounds the corner)* | Bernard the janitor | Position & Effect *(reinforce)* |
+| 4a | The dark auditorium | inline | — | `location-theater-auditorium` ✅ *(optional; after the read-aloud)* | — | Position |
+| 4b | Gerald in the basement | — | *(no sting — the scene music keeps playing)* | `npc-gerald-dog` ✅ | 🟢 GERALD | **Devil's Bargain** |
 | 5 | Merton's locker 🔴 | "go" | `music-s01-mertons-locker` | `npc-merton-human` | 🔴 none | Study; Anchor weight |
 | 6 | True form & The Surge | "go" | `music-s01-true-form-reveal` → `music-s01-merton-fight` | `npc-merton-true-form` | the Lever & stage-prop gags (after the plea) | **Resistance** *(reinforce)*, **Desperate = XP**; Harm *(just in time)* |
 | 7 | The Choice 🔴 | "go" | `music-s01-the-choice` | `item-leather-collar` | 🔴 none | **Anchor Ledger** |
@@ -38,7 +38,7 @@ mechanical_focus: "TEACH: Resistance, Flashback, Devil's Bargain, Vice & Heat. R
 
 > **New mechanics tonight: Flashback · Devil's Bargain · Vice & Heat · Desperate = XP** (4). Resistance was practised in Session 0. **Group Action, Load, Harm tables, Entanglements: deferred.**
 
-**Asset status:** all exist except `npc-gerald-dog.png`, `music-sting-ruhroh.mp3` (see `11-Visuals/ASSET-TODO.md`). If missing → `[IMAGE CUE: … — not yet generated]`.
+**Asset status:** all exist (see `11-Visuals/ASSET-TODO.md`). If missing → `[IMAGE CUE: … — not yet generated]`.
 
 **Vocal-track note:** `music-vocal-fairground` has lyrics. Fire it *after* the read-aloud and let it play under the walking description only — lyrics under spoken narration fight the GM's voice.
 
@@ -171,8 +171,8 @@ Councilman Pruitt's bulldog **Gerald** is boarded most nights at the Fairground 
 > Stage left, a door painted the same black as the wall is propped open with a brick. Warm air comes up the stairwell, carrying wet dog, cold coffee, and under both, old leather. Someone goes down there every night. The someone has not come back up yet."
 
 ### Gerald — the Ruh-Roh
-**[MUSIC CUE: music-sting-ruhroh.mp3]** ❌ *(inline — fire as the crew gets to the bottom step, then immediately read)*
-**[IMAGE CUE: npc-gerald-dog.png]** ❌ *(when Gerald is described)*
+*No music cue — the scene music keeps playing through the Ruh-Roh. (GM decision 2026-11-17: the sting clashed with the loop; the read-aloud carries the joke.)*
+**[IMAGE CUE: npc-gerald-dog.png]** ✅ *(when Gerald is described)*
 
 > 🎭 **COMEDY BEAT — GERALD (🟢 FULL SCOOBY):**
 > 🔊 **READ ALOUD (full dread build-up, then flip):**

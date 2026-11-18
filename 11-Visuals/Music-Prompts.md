@@ -333,18 +333,18 @@ Structure: Seamless loop — no clear beginning or end, no melodic resolution, j
 
 ---
 
-**The Caper Chase** — the Meridian Door Chase (Session 2), any Scooby chase *(one-shot loop, 90 s)*
+**The Caper Chase** — the Meridian Door Chase (Session 2), any Scooby chase *(loop, ~75–90 s)*
 Save as: `music-caper-chase.mp3`
 ```
 [Instrumental] Genre: 1960s spy-caper / surf-rock chase with a wink. BPM: 148. Key: E minor, bright and propulsive.
 Instrumentation: Lead — twangy reverb electric guitar playing a fast descending riff. Support — walking bass, bongos and congas, brass stabs, a slide whistle accent on every fourth bar, wood-block "tip-toe" breaks. Cartoon-pizzicato strings on the bridge.
 Production: Dry, bright, slightly lo-fi spy-film mix; tape-saturated brass; sound-effect punctuation (boing, door slam) between phrases.
-Structure: Intro 0:00–0:08 (riff teaser). Verse chase 0:08–0:40 (full band). "Tip-toe" breakdown 0:40–0:55 (woodblock, bass only; tension gag). Re-entry 0:55–1:25 (everything back, key lift). Outro stinger at 1:25–1:30 (slide-whistle drop, one cymbal). Seamless loop possible at the downbeat of 0:08.
+Structure: Built to LOOP (scene songs loop until the next scene): no intro, no outro, no stinger, no fade. Verse chase 0:00–0:30 (full band). "Tip-toe" breakdown 0:30–0:45 (woodblock, bass only; tension gag). Re-entry 0:45–1:15 (everything back, key lift). The last bar leads straight back into the first bar of the verse riff, same tempo and key, at full energy, ending on the dominant so the repeat is seamless.
 ```
 
 ---
 
-**Ruh-Roh Sting** — the scare that turns out to be a dog *(stinger, ~4 s)*
+**Ruh-Roh Sting** — ✖ **DROPPED 2026-11-17** (GM: "no sting needed, just play the music"; it sounded like a second song cutting in). Kept for reference only. *(stinger, ~4 s)*
 Save as: `music-sting-ruhroh.mp3`
 ```
 [Instrumental] Genre: horror sting that curdles into comedy. BPM: free.
@@ -407,3 +407,112 @@ Instrumentation: Lead — bowed saw, very far away. Support — a subway tone (d
 Production: Dry and enormous. Nothing sounds like a real room. The silence has a texture.
 Structure: Seamless loop; no beat; no resolution.
 ```
+
+---
+
+## How audio generation behaves — field notes *(from Gemini, 2026-11-17; **verify by testing**)*
+**Where Gemini's answer was contradicted by our own results — trust the results:** it said Lyria can't speak text and can't follow exact timing; the Session 0 AM-radio track (a man speaking, a 10 s static intro, voice at 0:10, a hard cut at 1:50) came out as specified. Quoted text is spoken verbatim.
+**Adopted:**
+- **Length:** trimming by hand is the only way (≥30 s outputs). Wording that eases trimming: *"a single isolated hit followed by complete silence, sparse, minimal."*
+- **Voice consistency:** no seed/voice lock in the app (AI Studio lets you pin a named voice). **Batch every fortune in one chat.**
+- **Loops:** "seamless loop" doesn't make a true loop. Use *"constant volume and texture, no intro, no outro, no fade out,"* then trim ~2 s each end and crossfade ~1 s.
+- **Filtering:** AM-radio / tape hiss / vinyl crackle prompts work. "Muffled through a wall" doesn't — use a low-pass filter (~400 Hz) in an editor.
+- **Colons** can be read oddly — prefer a comma or "…".
+**To test:** pure **foley SFX** (a music model may add rhythm). Test with the shop bell: *"Foley field recording only… no music, no melody, no rhythm."* If it comes out musical, use a free sound-effects library (check the licence) for the pure effects (bell, phone, clasps).
+**Second opinion agreed:** the audio tool is **Lyria 3, a music model**; fixed **30 s** clips; **no seed, no named voices, no reference audio**; every generation is a new voice; loops are never sample-accurate (use a beatless, constant texture and crossfade the ends yourself); AM-radio / tape-hiss / vinyl wording is reliable. Use strict non-music wording for effects: *"Isolated non-musical sound effect of X, followed by silence. Field recording style, dry acoustic space, no melody, no instruments, no background music, no rhythm."*
+**Identify the tool:** ask it to say *"Testing one two three"* in a dry voice with no music — clear speech means a speech-capable model.
+
+---
+
+## SFX & voice — Sessions 0–2 *(added 2026-11-17; optional extras, ordered by reuse value)*
+**Naming:** one-shots are named `music-sting-<name>` so `fade-switch.sh` plays them **once** automatically (no code change). **Generation tip:** Lyria makes ≥30 s; put the sound in the first 1–4 s, silence after, then **trim** in QuickTime (Edit → Trim). If a result comes out musical instead of a foley sound, say *"foley sound effect only, no music, no melody"* and regenerate. After a sting, the Run Sheet switches back to the scene's loop.
+
+### A. Reused every session
+Save as: `music-sting-shop-bell.mp3` *(S0 ATM customer; S1 & S2 courier/customer; any visitor)*
+```
+[Instrumental] Foley sound effect only, no music, no melody. A single brass shop-door bell chiming once as an old wooden door opens, a faint rain patter drifting in from outside, then the door closing and the bell settling to silence. Dry, close-mic'd, realistic. One-shot, 4 seconds, then silence.
+```
+Save as: `music-sting-fortune-card.mp3` *(closes **every** session — the Zoltar card)*
+```
+[Instrumental] Foley sound effect only, no music. A small, apologetic mechanical clunk from inside an old fairground fortune machine, a card dropping into a metal tray, then a warm, faint electrical hum that fades out over two seconds. Dry, close-mic'd. One-shot, 5 seconds, then silence.
+```
+Save as: `music-sting-zoltar-whirr.mp3` *(the coin-code gag, S0 and any wrong attempt)*
+```
+[Instrumental] Foley sound effect only, no music. An old automaton's tiny sad mechanical whirr: gears winding down, a small descending whine, and one reluctant click, like a machine politely disapproving. Dry, close-mic'd. One-shot, 3 seconds, then silence.
+```
+
+### B. Session 1
+Save as: `music-sting-bernard-scream.mp3` *(Bernard's very small scream)*
+```
+[Instrumental] Foley sound effect only, no music. A grown man's extremely small, high, polite scream, like a squeaky toy: "eep", cut off at once, followed by a flat tired exhale. Dry, close-mic'd, comic. One-shot, 2 seconds, then silence.
+```
+Save as: `music-sting-lever-trapdoor.mp3` *(the DO NOT PULL lever, trapdoor, stage-prop gags)*
+```
+[Instrumental] Foley sound effect only, no music except the final gag. A heavy theater lever being pulled with a clunk, a trapdoor dropping with a rumble and thud, a rotating stage motor whirring and winding down, then a single sad muted trombone slide. Dry, close-mic'd, comic timing with silence between each beat. One-shot, 8 seconds, then silence.
+```
+
+### C. Session 2
+Save as: `music-sting-ptolemy-clasps.mp3` *(PTOLEMY's brass clasps, recurring)*
+```
+[Instrumental] Foley sound effect only, no music. Slow, deliberate brass luggage clasps clicking against old leather in a pattern that is almost morse code but isn't: clack... clack-clack... clack, with a faint dry-leather creak between. Quiet, close-mic'd, uncanny and patient, in a large echoing tiled hall. One-shot, 10 seconds, then silence.
+```
+Save as: `music-s02-the-descent.mp3` *(the stairs; plays ONCE — see fade-switch)*
+```
+[Instrumental] Foley and ambience only, no melody. Footsteps descending iron stairs with a slow echo, rain and distant city traffic around them for the first 20 seconds, then at exactly 0:20 everything cuts to dead silence as if a door closed; after that only the listener's own breathing, the iron handrail creaking under a hand, and a very low sourceless hum that grows slowly for the final 20 seconds. Uncanny, quiet, no comedy. One-shot, 50 seconds.
+```
+Save as: `music-sting-rotary-phone.mp3` *(Thorne's evening call, S2/S3; the shop phone)*
+```
+[Instrumental] Foley sound effect only, no music. An old rotary telephone ringing twice with its mechanical double-bell ring, in a quiet room with rain at the window, then picked up with a plastic click and the room tone settling. Dry, realistic, slightly lonely. One-shot, 6 seconds, then silence.
+```
+Save as: `music-pier-ambience-loop.mp3` *(the pier exit — loops)*
+```
+[Instrumental] Ambience only, no melody, no rhythm. Steady, unchanging ambience at constant volume and texture throughout: a quiet pier at dusk, low tide lapping against wooden pilings, a distant diesel engine, a gull now and then, wind in a loose rope, calm and lonely and slightly unreal. No intro, no outro, no fade out. (Trim the first and last 2 seconds in QuickTime/an editor and crossfade ~1 s if the loop point clicks.)
+```
+
+### Z. Zoltar's spoken fortune — ONE reusable prompt *(change only the quoted line each session)*
+Save as: `music-sting-zoltar-fortune-s00.mp3` (then `-s01`, `-s02`, … — the name contains `sting`, so it plays once). Gemini speaks quoted text **exactly**.
+```
+Speak exactly the following text, once, and nothing else: "You will soon receive an envelope. It will not be good news. It will be damp."
+Voice: an old fairground fortune-telling automaton. A gravelly, mid-range male voice with a faint mechanical wobble, slow and ceremonial, as if each sentence were being read off a card by a machine that takes its job very seriously. Dry, close-mic'd, a touch of small wooden-cabinet reverb. One second of silence between sentences; the last word delivered with weary finality. No music, no sound effects, no extra words. One-shot, about 10 seconds, then silence.
+```
+**Keep ONE voice: generate all the closing fortunes in a single sitting, in a single chat** (the lines are fixed in advance) — the app has no voice seed, so batching is the consistency tool. For a "See: Thursday" style colon, write *"See, Thursday."* so the colon isn't read oddly.
+**BEST METHOD (2nd Gemini answer, 2026-11-17): generate two lines in ONE 30-second track and slice them apart** — one track = one voice, so no drift. Two tracks: **A = S0 + S1**, **B = S2 + S3**. Slice with Audacity (free) or QuickTime (open a copy, select a region, Edit → Trim, save as the target name).
+
+**⚠ v1 of these prompts (one run-on paragraph: "Spoken word only, no singing, no background music…") came back as SINGING / MUSIC (user test 2026-11-17).** Lesson: the format that produced real speech is the **Vocal-preset layout** used by the scanner-station broadcast — `Lyria 3 Pro` header, `Vocal Profile / Delivery / Mix Placement / Structure / Topic`, a timestamped plan. Don't write "no singing / no music" (naming them invites them): say what it IS — *"spoken-word recording… flat speaking voice… voice only"*. The v2 prompts below copy that layout.
+
+**Track A (save the raw track as `zoltar-fortunes-A-raw.mp3`, then slice → `music-sting-zoltar-fortune-s00.mp3`, `…-s01.mp3`):**
+```
+Lyria 3 Pro. 30-second track. A spoken-word recording of one voice reciting two fortunes aloud. A recitation, not a song.
+Vocal Profile: Male, elderly, raspy mechanical baritone. A fairground fortune-telling automaton reading cards off a spindle. Stiff, theatrical cadence; every sentence delivered like an announcement.
+Delivery: Slow and ceremonial, in a flat speaking voice with no melody and no rising pitch. The second fortune is flat and deadpan, with no menace.
+Mix Placement: Dry mono, close inside a small wooden cabinet. Tinny vintage speaker resonance, slight tape hiss underneath. The voice is the only sound in the recording.
+Structure: Faint tape hiss from 0:00. At 0:02 the voice speaks fortune one, exactly: "You will soon receive an envelope. It will not be good news. It will be damp." Then 5 seconds of silent tape hiss. Then the voice speaks fortune two, exactly: "A man who knows your name has never been told it." Then silent tape hiss until 0:30.
+Topic: A fortune-telling machine reading two fortunes aloud.
+```
+**Track B (raw → `zoltar-fortunes-B-raw.mp3`, then slice → `…-s02.mp3`, `…-s03.mp3`):**
+```
+Lyria 3 Pro. 30-second track. A spoken-word recording of one voice reciting two fortunes aloud. A recitation, not a song.
+Vocal Profile: Male, elderly, raspy mechanical baritone. A fairground fortune-telling automaton reading cards off a spindle. Stiff, theatrical cadence; every sentence delivered like an announcement.
+Delivery: Slow and ceremonial, in a flat speaking voice with no melody and no rising pitch.
+Mix Placement: Dry mono, close inside a small wooden cabinet. Tinny vintage speaker resonance, slight tape hiss underneath. The voice is the only sound in the recording.
+Structure: Faint tape hiss from 0:00. At 0:02 the voice speaks fortune one, exactly: "The road down is longer than the road up. Bring a snack." Then 5 seconds of silent tape hiss. Then the voice speaks fortune two, exactly: "The dead are polite. The living are not. See, Thursday." Then silent tape hiss until 0:30.
+Topic: A fortune-telling machine reading two fortunes aloud.
+```
+**RESULT (2026-11-17): v2 still sang the words (music gone, melodic speech remained). Lyria is a music model — don't use it for spoken lines.** **Use Gemini video (Veo) instead:** a static close-up of the automaton speaking the quoted line, then extract the audio with `ffmpeg -i clip.mp4 -vn -ac 1 -b:a 192k out.mp3` (Veo speaks quoted dialogue). User confirmed "the video stuff works"; credits are daily, so these are at the back of the queue. Keep all four fortunes in the same chat ("the same automaton… exactly the same voice as the previous videos"). The ladder below is superseded except item 3 (local `say` fallback).
+
+**If v2 still sings (escalation ladder):**
+1. Reframe as the proven radio format — *"AM radio broadcast, a man reading two items aloud at 2am"* — then add the automaton voice profile and **filter in an editor** (tinny band-pass, ~300 Hz–3 kHz) to make it machine-like. Speech on AM radio is the one thing already confirmed to work.
+2. One line per track (shorter = less room to drift into melody); accept a slightly different voice per session.
+3. **Local fallback (Claude can do this without Gemini):** macOS `say` + an ffmpeg/sox filter chain gives one perfectly consistent robot-fairground voice for ALL four fortunes, with the exact words guaranteed. Less organic than Gemini, but it never sings and the voice never drifts between sessions.
+
+If a track runs out before the second line, regenerate (the lines are long for 30 s), or generate each line as its own track and accept a slightly different voice per session.
+
+**Lines (exact):**
+- **S0:** "You will soon receive an envelope. It will not be good news. It will be damp."
+- **S1:** "A man who knows your name has never been told it." *(deadpan — this is the Thorne clue; no menace in the delivery)*
+- **S2:** "The road down is longer than the road up. Bring a snack."
+- **S3:** "The dead are polite. The living are not. See: Thursday."
+
+### D. Later (not needed for Sessions 0–2)
+The Conductor's PA announcements (Subway, Session 3+): a flat, tired, tannoy-filtered voice delaying trains "due to Thursday." Write the prompt when it's needed.
+

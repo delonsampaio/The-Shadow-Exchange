@@ -134,3 +134,41 @@ Clean composition, no text, no watermarks, no signatures.
 
 Industrial-occult noir. Fractured amber and cold blue light sources cutting across rain-slicked surfaces — wet asphalt and glass fragmenting every light source into scattered reflections. Visible film grain, aged surface textures, micro-details on worn materials. A modern city built on century-old bones. Quiet unease — not horror. The world looks ordinary until the light hits it wrong. Clean composition, no text, no watermarks, no signatures.
 ```
+
+---
+
+## Session 1 wiki portraits  *(every NPC seen gets one — rule in `Wiki-Update-Protocol.md` §3b; publish after Session 1 with the recap; attach the NPC's saved table image as the face reference)*
+
+## 11. Elias Thorne — wiki portrait  → `wiki-elias-thorne.png`
+**Designed to NOT spotlight his tells:** head-and-shoulders, **no hands, no ring, no clipboard, dry shoulders.** (Attach `npc-elias-thorne.png`.)
+```
+Using the man in the attached image as the exact character — identical face and hair — create a 3:2 landscape head-and-shoulders portrait of him facing the viewer with a warm, attentive, slightly-too-pleased expression. He wears a crisp charcoal field-coat collar over a dark shirt; the coat is completely dry. No hands, no ring, no clipboard, no lanyard in frame. Subject centered, head about one-third from the top. Plain softly-lit warm grey wall behind him, nothing else in frame — no props that carry plot.
+Soft warm even light from the front-left, gentle shadow on the right. No dramatic lighting.
+Fine charcoal wool texture at the collar, short neat brown hair, clean-shaven. A warm, helpful Ministry man.
+Clean composition, no text, no watermarks, no signatures.
+
+Industrial-occult noir. Fractured amber and cold blue light sources cutting across rain-slicked surfaces — wet asphalt and glass fragmenting every light source into scattered reflections. Visible film grain, aged surface textures, micro-details on worn materials. A modern city built on century-old bones. Quiet unease — not horror. The world looks ordinary until the light hits it wrong. Clean composition, no text, no watermarks, no signatures.
+```
+
+## 12. Bernard the janitor — wiki portrait  → `wiki-bernard-janitor.png`
+(Attach `npc-bernard-janitor.png`.)
+```
+Using the man in the attached image as the exact character — identical face, hair, brown cardigan and grey work shirt with name tag — create a 3:2 landscape waist-up portrait of him with his hands at his sides, facing the viewer with a tired, decent, entirely unbothered expression, as if he has seen everything and filed it under not-his-department. No mop, no bucket. Subject centered, head about one-third from the top. Plain softly-lit warm grey wall behind him, nothing else in frame.
+Soft warm even light from the front-left, gentle shadow on the right.
+Pilled knit cardigan, a name tag with print too small to read, creased work shirt, weathered face with grey stubble. Tired, decent and done.
+Clean composition, no text, no watermarks, no signatures.
+
+Industrial-occult noir. Fractured amber and cold blue light sources cutting across rain-slicked surfaces — wet asphalt and glass fragmenting every light source into scattered reflections. Visible film grain, aged surface textures, micro-details on worn materials. A modern city built on century-old bones. Quiet unease — not horror. The world looks ordinary until the light hits it wrong. Clean composition, no text, no watermarks, no signatures.
+```
+
+## 13. Gerald the dog — wiki portrait  → `wiki-gerald.png`   *(publish only after the crew has seen his hands, Session 1)*
+(Attach `npc-gerald-dog.png`.)
+```
+Using the bulldog in the attached image as the exact character — the same fawn English bulldog with two pale human hands where his front paws should be — create a 3:2 landscape portrait of him sitting very upright, facing the viewer with an expression of great sincerity and goodwill, one human hand raised in a polite wave and the other resting on his knee. Subject centered, head about one-third from the top. Plain softly-lit warm cream wall behind him, nothing else in frame — no stool, no basement, no ghost light, no props that carry plot.
+Soft warm even light from the front-left, gentle shadow on the right.
+Folded skin on the brow, careful human knuckles with a faint tan line at the wrist, a damp black nose. The most sincere creature in the room. Comic and deeply sad at once.
+Clean composition, no text, no watermarks, no signatures.
+
+Industrial-occult noir. Fractured amber and cold blue light sources cutting across rain-slicked surfaces — wet asphalt and glass fragmenting every light source into scattered reflections. Visible film grain, aged surface textures, micro-details on worn materials. A modern city built on century-old bones. Quiet unease — not horror. The world looks ordinary until the light hits it wrong. Clean composition, no text, no watermarks, no signatures.
+```
+

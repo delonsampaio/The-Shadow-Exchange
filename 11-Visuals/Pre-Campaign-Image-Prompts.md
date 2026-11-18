@@ -11,6 +11,21 @@ Generate these before Session 0. Save outputs to `11-Visuals/_Saved-Images/`.
 
 ---
 
+## How image generation behaves — field notes *(from Gemini, 2026-11-17; **verify by testing** — Gemini flagged parts as uncertain and has invented details before)*
+**Adopted (they match problems we actually had):**
+- **Consistency:** re-attach the **anchor image(s) every time**, even in the same chat — a chat only holds a face for ~1–2 turns, then drifts (this caused the Merton mismatch). Best: 2–3 references of one character (face close-up + full outfit), not one.
+- **Left/right:** never "his right hand" (ambiguous). Say *"on the left side of the image frame, the hand holding the pencil."* (Cause of Thorne's ring on the wrong hand.)
+- **Counting:** avoid exact counts above 3; describe items by position/state instead.
+- **Targeted edits:** the app has no mask tool. Draw a red circle on the source and destination (e.g. both hands), re-upload, and say *"move the ring from the left circle to the right circle, remove both circles."* Otherwise it regenerates the whole image.
+- **Short signs:** quote the exact words in CAPS, give the font and surface, **one sign per image**. Ampersands can blend into flourishes (ours worked).
+- **Aspect ratio:** the Gemini *app* has no ratio control — state "16:9" / "3:2" in the prompt. If you edit with a 3:2 portrait attached, it may force 3:2; attach a blank 16:9 rectangle and say "use Image 2 only as the canvas size."
+- **Seeds:** none in the app. To keep a *look*, attach a favorite image as a **style anchor** ("use Image 1 only for colour, grain and lighting").
+**To test, only if needed:**
+- **Borders / edge scratches:** words like "noir", "vintage", "film grain" pull in the look of scanned prints, and **negative phrasing ("no scratches") can summon what it names**. If a border returns, try a suffix variant: replace "Visible film grain" with "Subtle film grain" and end with *"Full-bleed, edge-to-edge clean digital frame."* (A/B it on a prompt that produced a border.) Don't change a suffix that is working.
+- **Corner sparkle logo:** a visible mark on consumer-app images; developer endpoints (API / AI Studio) carry only the invisible SynthID mark. Our recent images are clean — **note which surface produced them and keep using it.** The invisible mark is always present. Prefer generating clean over cropping.
+
+---
+
 ## Master Style Suffix
 
 **Append this to the end of every prompt for visual consistency:**

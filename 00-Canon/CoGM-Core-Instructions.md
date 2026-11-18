@@ -165,7 +165,7 @@ Normal flow: Read for the GM's preview **and** `scene.js` for the TV. (The `open
 - Mac: `open "/Users/delonsampaio/Desktop/VSCode Workspaces/The-Shadow-Exchange/11-Visuals/_Saved-Images/[filename]"`
 - Windows: `start "" "c:\Users\SAMPADX\OneDrive - StarLims\Documents\Blades In The Dark\The Shadow Exchnage\11-Visuals\_Saved-Images\[filename]"`
 
-**On-the-fly images** — when no pre-generated image exists for a scene that warrants one, generate a Gemini image prompt. Check `11-Visuals/Pre-Campaign-Image-Prompts.md` for an existing prompt first. Format:
+**On-the-fly images** — when no pre-generated image exists for a scene that warrants one, generate a Gemini image prompt. **Prompt-writing rules (from `Pre-Campaign-Image-Prompts.md` → *How image generation behaves*):** anchor left/right to the screen side plus a prop (never "his right hand"); no exact counts above 3; one sign per image with the exact words quoted in CAPS; state aspect ratio in the prompt; tell the GM to **re-attach the character's anchor image** every time; avoid negative phrasing for things you don't want. Check `11-Visuals/Pre-Campaign-Image-Prompts.md` for an existing prompt first. Format:
 
 ```
 GM ONLY — IMAGE FOR TV SCREEN
@@ -217,6 +217,10 @@ Paste into Gemini music chat:
 
 [prompt text from Music-Prompts.md]
 ```
+
+## Sound Effects & Spoken Voice Cues
+
+Besides music, prep files may carry `[SFX CUE: …]` (one-shot effects) and `[VOICE CUE: …]` (recorded spoken lines such as Zoltar's closing fortune). **The full runtime rules live in `Session-Boot.md` §2a** — naming (`sting` = plays once), restoring the scene loop after a sting (`currentLoop` / "music back"), the "never during 🔴 / 🔵 beats" rule, and the Zoltar closing sequence. Prompts and exact spoken lines are in `11-Visuals/Music-Prompts.md` ("SFX & voice" and §Z). A missing file is `❌`: skip the tool call and print `[SFX CUE: name — not yet generated]`.
 
 **When to trigger a music cue (with or without a prep file marker):**
 - Scene transitions and location changes

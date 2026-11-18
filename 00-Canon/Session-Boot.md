@@ -47,10 +47,21 @@ last_updated: 2026-11-16
 | `❌` on a file name | Not yet generated → skip the tool call; output `[IMAGE CUE: name — not yet generated]` / `[MUSIC CUE: name — not yet generated]`. |
 | `⚠ vocal` | A track with lyrics. Fire it **after** the read-aloud, never under it. |
 | *(timed stinger, "fades out naturally")* | Fire, output `GM ONLY — WAIT FOR STINGER (~N s)`, and wait. Exception: inline. |
+| `[SFX CUE: music-sting-<name>.mp3]` | A one-shot sound effect (door bell, scream, clasps, phone). Same timing as music: unmarked → wait for "go"; **(inline)** → fire first. It plays **once, layered OVER the scene music** — the loop keeps playing underneath (dipped to 25% while the sting plays, then back to full). It never replaces or stops the loop. |
+| `[VOICE CUE: music-sting-<name>.mp3]` | A recorded **spoken** line (Zoltar's fortune, a PA announcement). Fire **after** the GM has finished reading — never under live speech. Zoltar's fortune fires when the card lands on the TV. |
 
 **Music command (Mac):** `bash ".../11-Visuals/fade-switch.sh" ".../11-Visuals/_Saved-Music/<file>.mp3"`. **Stop all music:** `osascript -e 'tell application "QuickTime Player" to close every document'`.
 
 **One cue per stop point.** Several cues in a beat = several stops.
+
+### 2a. Sound effects, music and spoken voice — runtime rules *(added 2026-11-17)*
+**Naming tells you how a file plays** (`fade-switch.sh` decides by name): any file containing `sting` is a **one-shot that OVERLAYS** the scene music (SFX, spoken lines, comic stings — e.g. `music-sting-shop-bell`, `music-sting-zoltar-fortune-s01`). **Every other track is a scene song and LOOPS** until the next scene's song replaces it (all our songs are designed to loop — including `the-pitch`, `zoltar-opens`, `envelope-drops`, `s00-closing`, `ashby-approach`, `the-descent`).
+**The scene music never goes silent by accident.** A sting layers over the loop, so nothing needs restoring. Only a *different scene song* replaces the loop, or the GM saying "stop music"/"silence" (a deliberate beat of silence is allowed). If a scene needs no music, say so on the Run Sheet. Keep a note of `currentLoop` anyway; **"music back"** re-fires it if the GM stopped it.
+**Never fire a comic sting during** a 🔴 or 🔵 beat, an Anchor choice, a Merton plea, or the Subway's first visit. Comic stings (scream, trombone, bell gag) belong to 🟢 beats only. One sting per beat; never two on top of each other; never under the GM's read-aloud.
+**Zoltar's closing fortune.** At every session close, with the card on the TV: fire `music-sting-fortune-card` (the clunk + hum), then `music-sting-zoltar-fortune-sNN` (NN = session number; the exact line is in `11-Visuals/Music-Prompts.md` §Z). Deliver it **deadpan** — the Session 1 line is a clue, so it must not sound ominous. If a file is missing (`ls 11-Visuals/_Saved-Music/`), show the card only and say `[VOICE CUE: name — not yet generated]`.
+**Audio palette (ad-lib on request or at a 🟢 beat — only if the file exists):** `music-sting-shop-bell` (any visitor) · `music-sting-zoltar-whirr` (wrong coin) · `music-sting-bernard-scream` · `music-sting-lever-trapdoor` · `music-sting-boo` · `music-sting-ptolemy-clasps` · `music-sting-rotary-phone` · `music-sting-fortune-card`.
+**If the GM asks for a sound that isn't saved:** output a Gemini prompt in the `Music-Prompts.md` style — begin `[Instrumental] Foley sound effect only, no music, no melody.`, say it is one-shot with a length, and name the file `music-sting-<name>.mp3` so it auto-plays once. For **spoken lines**, quote the exact words (Gemini speaks quoted text verbatim) and describe the voice. Then add the prompt to `Music-Prompts.md`.
+**Generated audio is trimmed by hand:** Lyria makes ≥30 s; the GM trims in QuickTime. Stings are trimmed short; **scene songs are never trimmed — they loop whole.**
 
 ---
 
@@ -143,6 +154,7 @@ The dashboard polls every 2 s, applies each op once, and shows a **"Co-GM Update
 | "roll the entanglement" / "heat" | Use the session prep's tables; announce results |
 | "who's [NPC]?" | Voice them in full dialogue; do not paraphrase |
 | "stop the music" | Run the stop command |
+| "music back" | Re-fire `currentLoop` (the scene's looping track) if the music was stopped |
 | "end session" | §6 |
 | "improvise [scene]" | Use `Urban-Legends`, `Resonance-Complications`, `Living-Subway` tables; keep dial consistent |
 

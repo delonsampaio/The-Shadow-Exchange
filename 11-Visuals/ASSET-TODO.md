@@ -70,13 +70,14 @@ Order: **1)** `wiki-harlan-okafor.png` → **2)** `npc-harlan-okafor.png` (same 
 | ✅ | `location-harlans-diner.png` — generated 2026-11-17 (the darker night version; the dusk alternate was not kept) | S4 TV: the approach |
 | ✅ | `location-wall-of-the-missing.png` — generated 2026-11-17 (monster hunters; **the red-ink note reads "HE WENT BACK"** beside the sharpest photo — GM decides who "he" is; same hand as the Journal's red page) | S4 TV: the Wall reveal (GM-secret clue — table only, never the wiki) |
 
-### Session 1 redo 🆕 *(old S1 images all carry the generator sparkle; full paste-ready sheet: `Session-01-Redo-Prompts.md`)*
+### Session 1 redo ✅ **COMPLETE 2026-11-17** *(all 12 table images regenerated, logo-free; the post-session wiki portraits below are still to do)*
 | ☐ | File | Notes |
 |---|---|---|
 | ✅ | `wiki-merton-human.png` — redone 2026-11-17 to match the scene face (plain beige wall, SECURITY badge, waist-up; hands just clipped at the bottom edge — crop for the card; head high, add `object-position` CSS when publishing) | wiki after S1 |
 | ✅ | `npc-merton-human.png` ✅ · `npc-merton-true-form.png` ✅ (prone, chained, cracked glowing collar — the heavier of two options) | same chat as the portrait |
-| ✅ / ☐ | `npc-elias-thorne.png` ✅ (**mirrored** from the Gemini output so the plain silver ring is on his RIGHT hand per Tell 6; worn, not thumbed — perform the thumbing at the table) · `npc-bernard-janitor.png` ☐ | own chats |
-| ☐ | `location-fairground-theater.png` · `location-theater-auditorium.png` · `location-containment-suite.png` · `location-curios-exterior.png` · `item-leather-collar.png` | locations/props |
+| ✅ / ☐ | `npc-elias-thorne.png` ✅ (**mirrored** from the Gemini output so the plain silver ring is on his RIGHT hand per Tell 6; worn, not thumbed — perform the thumbing at the table) · `npc-bernard-janitor.png` ✅ (photo-print border cropped off) | own chats |
+| ☐ | `location-fairground-theater.png` ✅ (edge scratches cropped) · `location-theater-auditorium.png` ✅ · `location-containment-suite.png` ✅ · `location-curios-exterior.png` ✅ · `item-leather-collar.png` ✅ (intact but failing — not severed) | locations/props |
+| ☐ | `wiki-elias-thorne.png` (no hands/ring/rain) · `wiki-bernard-janitor.png` · `wiki-gerald.png` | **portrait for every NPC seen (GM rule)** — generate with the TV image or attach it as reference; publish after S1 |
 | ☐ | `wiki-merton-barghest.png` | **after S1** — depends on what happened to the collar; wiki with the recap |
 
 ### P1 — S2/S3 optional beats and S4 prep
@@ -104,6 +105,32 @@ Verify visually: `cover-*` set matches the track; `npc-merton-true-form.png` is 
 
 ---
 
+## 🔊 AUDIO AUDIT — Sessions 0–2 *(2026-11-17)*
+**Music cues:** S0 ✅ all 6 exist · S1 ✅ all (Gerald gets no sting — scene music keeps playing) · S2 missing `music-caper-chase`, `music-s02-the-railing` *(fallback `music-supernatural`)*, optional `music-greta-waltz`. **All four have prompts** in `Music-Prompts.md`.
+**New SFX/voice prompts** (same file, "SFX & voice — Sessions 0–2"), reuse-ranked:
+| ☐ | File | Used |
+|---|---|---|
+| ☐ | `music-caper-chase` · `music-s02-the-railing` · `music-greta-waltz` | existing prompts — **the real gaps** |
+| ☐ | `music-sting-shop-bell` · `music-sting-fortune-card` · `music-sting-zoltar-whirr` | **every session** (bell, closing card, the coin gag) |
+| ☐ | `music-sting-bernard-scream` · `music-sting-lever-trapdoor` | S1 gags |
+| ☐ | `music-sting-ptolemy-clasps` · `music-s02-the-descent` · `music-sting-rotary-phone` · `music-pier-ambience-loop` | S2 |
+New SFX get Run-Sheet cues **after** they exist.
+
+**Audio plan (revised 2026-11-17 — video credits ran out for the day):**
+Lyria (the music tool) **sang** the spoken Zoltar lines even with music removed → anything spoken or pure-foley now goes through **Gemini video (Veo)** and Claude extracts the audio (`ffmpeg -vn`). Veo's first test worked. Video credits are limited per day, so those items are at the **back of the queue**.
+
+**NOW (images + music — no video credits):**
+1. S2 images: `location-emmerichs-shop`, `npc-emmerich`, `item-silver-thimble`, `npc-ptolemy`, `npc-cosma-linden` (+ paired wiki portraits per NPC), optional `location-meridian-street`, `location-pier-exit`, `npc-drennick-foss`.
+2. S1 music: **none needed** (ruhroh sting dropped 2026-11-17 — it clashed with the loop; Gerald plays under the scene music).
+3. S2 music: `music-caper-chase`, `music-s02-the-railing`, `music-s02-the-descent`, optional `music-greta-waltz`; try `music-pier-ambience-loop` in Lyria first (constant texture) and move it to the video queue if it fails.
+
+**BACK OF QUEUE (needs Veo video credits; one 8 s clip each; same chat so the voice carries over; Claude extracts audio):**
+1. Zoltar spoken fortunes, in this order: `music-sting-zoltar-fortune-s00` (**test clip may already exist — user was waiting on it**), `-s01`, `-s02`, `-s03`. Prompts in `Music-Prompts.md` §Z and Claude's chat; local `say` candidates in `_Saved-Music/_zoltar-candidates/` are the fallback.
+2. Pure foley, S0 extras (every session): `music-sting-shop-bell`, `music-sting-fortune-card`, `music-sting-zoltar-whirr`.
+3. S1 gags: `music-sting-bernard-scream`, `music-sting-lever-trapdoor`.
+4. S2 gags: `music-sting-ptolemy-clasps`, `music-sting-rotary-phone`.
+Veo foley prompts (a picture of the object making the sound) are **not written yet** — write them when credits return. Run-Sheet cues for each are added after the file exists. Every one is optional; the GM can improvise the missing ones.
+
 ## 🎵 MUSIC
 
 ### P0 — Needed for Sessions 0–3 as written
@@ -113,7 +140,7 @@ Verify visually: `cover-*` set matches the track; `npc-merton-true-form.png` is 
 | ☐ | `music-ashby-interior.mp3` | S3 | exists |
 | ✅ | `music-comic-interlude.mp3` | S3 (renamed) | — |
 | ☐ | `music-caper-chase.mp3` 🆕 | S2 (Door Chase) | Music-Prompts (end) |
-| ☐ | `music-sting-ruhroh.mp3` 🆕 | S1 (Gerald) | Music-Prompts (end) |
+| ✖ | `music-sting-ruhroh.mp3` | **dropped** — Gerald plays under the scene music (raw kept in `_Saved-Music/`) | — |
 | ☐ | `music-sting-boo.mp3` 🆕 | S3 (Mabel's fake-out haunt) | Music-Prompts (end) |
 | ☐ | `music-s02-the-railing.mp3` 🆕 | S2 (mystery entrance; fallback `music-supernatural`) | Music-Prompts (end) |
 
