@@ -42,7 +42,7 @@ Open mysteries and unresolved beats. Update after every session. Mark threads CL
 ## Thread 5: The Subway's Master
 *(See `04-Locations/The-Subway/Mysteries.md`. Do not resolve until players are close.)*
 
-## Thread 6: The Cursed Family Heirlooms
+## Thread 6: The Cursed Heirlooms
 *(One per PC, set during character creation. Tracked directly in `01-Crew/PCs/<pc>.md`.)*
 
 ---

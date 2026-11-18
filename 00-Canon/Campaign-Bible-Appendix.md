@@ -52,7 +52,7 @@ Out of town, no lair access: Detection Clock **3** segments; Spoilage ticks **tw
 ## Urban Legends as Job Sources — The Ritual
 Each Downtime a PC can read small-town papers / late-night AM / police blotters: roll **Attune or Study** → 1–3 leads of varying urgency (`10-Generators/Urban-Legends.md`). Three incidents in one district = something is nesting.
 
-## Cursed Family Heirlooms — starter examples
+## Cursed Heirlooms — starter examples
 | Heirloom | Wrong thing | How it gets worse |
 |---|---|---|
 | Pocket watch | Stopped at the moment someone died; ticks backward | Hands speed toward something |

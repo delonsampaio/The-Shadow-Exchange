@@ -463,4 +463,4 @@ At the end of every session, generate a **Session Cold Open** for the next sessi
 - **The Roadmap:** `05-Sessions/Campaign-Arc.md` is the connective tissue — triggers, the truth table, the six Thorne tells, and the endgame.
 - **The Mimic (GM-Private):** The Understudied is currently wearing the face of **Elias Thorne**. See `03-NPCs/Active/Elias-Thorne.md`. Plant tells as written — do not reveal prematurely.
 - **The Omen Clock:** GM-secret. Manifest symptoms only — clocks running slow, dogs refusing a street, shared nightmares. Never state the threat directly.
-- **Cursed Family Heirlooms:** Every PC has one. Reference PC sheets in `01-Crew/PCs/`.
+- **Cursed Heirlooms:** Every PC has one. Reference PC sheets in `01-Crew/PCs/`.

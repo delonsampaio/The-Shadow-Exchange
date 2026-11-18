@@ -34,7 +34,7 @@ Default load: ___
 * **Friend:** **[NPC: Name]** — *(Briefly describe the relationship)*
 * **Rival:** **[NPC: Name]** — *(Briefly describe the relationship)*
 
-## The Cursed Family Heirloom
+## The Cursed Heirloom
 *(From character creation: "What object did you carry into this life that you should have left behind?")*
 
 * **Object:** **[Item: Name of Heirloom]**
