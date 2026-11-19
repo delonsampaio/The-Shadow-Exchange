@@ -24,16 +24,16 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 | 1 | The envelope | after cold open | `music-bookshop-loop` | `location-curios-exterior` | Routing slip / Consequence | — |
 | 2 | Approach | "go" | `music-approach` | — | Cover-story callback | Flashback |
 | 3 | Thorne on the street | inline | — | `npc-elias-thorne` | — | *(Tell 3)* |
-| 4 | Emmerich's shop | "go" | — | `location-meridian-street` ❌ *(street beat)* → `location-emmerichs-shop` ❌, `npc-emmerich` ❌ | The cologne → then silence | Position & Effect *(reinforce)*, Flashback |
-| 5 | The Choice | "go" | `music-s01-the-choice` | `item-silver-thimble` ❌ | 🔴 none | Anchor weight |
-| 6 | **Door Chase** | inline | `music-caper-chase` ❌ *(new — see Asset TODO)* | `npc-drennick-foss` ❌ *(optional, on first sighting)* | 🟢 Drennick & Foss | **Group Action**, **Assist**, Detection |
-| 7 | The entrance | "go" | `music-s02-the-railing` ❌ *(fallback `music-supernatural`)* | `location-subway-entrance` ✅ | 🔵 none | Flashback to escape |
+| 4 | Emmerich's shop | "go" | — | `location-meridian-street` ✅ *(street beat)* → `location-emmerichs-shop` ✅, `npc-emmerich` ✅ | The cologne → then silence | Position & Effect *(reinforce)*, Flashback |
+| 5 | The Choice | "go" | `music-s01-the-choice` | `item-silver-thimble` ✅ | 🔴 none | Anchor weight |
+| 6 | **Door Chase** | inline | `music-caper-chase` ✅ | `npc-drennick-foss` ✅ *(optional, on first sighting)* | 🟢 Drennick & Foss | **Group Action**, **Assist**, Detection |
+| 7 | The entrance | "go" | `music-s02-the-railing` ✅ | `location-subway-entrance` ✅ | 🔵 none | Flashback to escape |
 | 8 | Descent + Hall | "go" | `music-subway-loop` | `location-subway-main-hall` → `map-subway-schematic` ❌ *(optional, at the wrong transit map)* | 🔵 none — uncanny crowd | Etiquette |
-| 9 | PTOLEMY's charge | inline | — | `npc-ptolemy` ❌ | 🔵 uncanny-specific charges | Ledger/favor |
-| 10 | Cosma | "go" | — | `npc-cosma-linden` ❌ | 🔵 none (quiet warmth only) | **Twice-Born Favor** |
+| 9 | PTOLEMY's charge | inline | — | `npc-ptolemy` ✅ | 🔵 uncanny-specific charges | Ledger/favor |
+| 10 | Cosma | "go" | — | `npc-cosma-linden` ✅ | 🔵 none (quiet warmth only) | **Twice-Born Favor** |
 | 11 | *(optional)* Aldric / Job Board / Broker | — | — | `npc-aldric-voss` ❌, `npc-crossroads-broker` ❌ | — | — |
-| 12 | Exit | "go" | `music-aftermath` | `location-pier-exit` ❌ | — | — |
-| 13 | Return → Downtime → Greta → Thorne's call → Zoltar card *(in that order)* | "go" | `music-bookshop-loop` → `music-greta-waltz` ❌ *(optional, when Greta enters)* | `npc-greta-fenn` | 🎭 Greta's forms | **Heat, Downtime** |
+| 12 | Exit | "go" | `music-aftermath` | `location-pier-exit` ✅ | — | — |
+| 13 | Return → Downtime → Greta → Thorne's call → Zoltar card *(in that order)* | "go" | `music-bookshop-loop` → `music-greta-waltz` ✅ *(optional, when Greta enters)* | `npc-greta-fenn` | 🎭 Greta's forms | **Heat, Downtime** |
 | 14 | Close | end | — | *(Zoltar card on Player Screen)* | Zoltar | — |
 
 **Asset status:** ❌ = not yet generated (`[IMAGE/MUSIC CUE: … — not yet generated]`); prompts for every cue exist in `11-Visuals/` (see `ASSET-TODO.md`).
@@ -125,14 +125,14 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 > - *Offer:* *"If Apex makes a move on you, call me before you do anything. I mean that."* (This is the "runs interference" setup; he *does* run interference later — to keep the crew in the story he wants.)
 > - **Do not** let him enter the shop. He wishes the crew luck, and walks away *into* the crowd.
 
-**[IMAGE CUE: location-emmerichs-shop.png]** ❌ *(show now — the shop)*
+**[IMAGE CUE: location-emmerichs-shop.png]** ✅ *(show now — the shop)*
 
 > "Mid-morning on a weekday. The shopping district is loud in a way that makes the Resonance scanner readouts hard to parse — too many people moving too many things with too many minor resonance signatures, none of them individually remarkable, all of them noise. Emmerich's shop is on the second floor — a window painted with the words **EMMERICH & DAUGHTER, BESPOKE TAILOR** in gold leaf. The 'and Daughter' has been there a long time. Not painted over. Not updated. They just never removed it."
 
 > ⏸ **PAUSE — Wait for the table's reaction and confirm they move to observe before continuing.**
 
 ### Read Aloud (The Observation)
-**[IMAGE CUE: npc-emmerich.png]** ❌ *(show as the crew observes him through the window)*
+**[IMAGE CUE: npc-emmerich.png]** ✅ *(show as the crew observes him through the window)*
 > "Through the upstairs window, you can see him. He's measuring a small child for a school uniform — holding the tape at her shoulder, saying something that makes the child laugh. He waits for her to stop before writing the measurement down. There is a woman on the bench by the window — the child's mother, from the look of it. She is not watching him work. She is watching her daughter. The kind of watching that means she has seen this before, maybe many times, maybe this exact bench. Emmerich says something to the mother. She smiles. They have known each other a long time. Probably their whole lives. Probably more than that.
 >
 > He is a tailor. He has always been a tailor. The silver thimble is on his right hand."
@@ -151,7 +151,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 > ⏸ **PAUSE — Say "go" when the crew faces the decision.**
 
 **[MUSIC CUE: music-s01-the-choice.mp3]** *(fire on "go")*
-**[IMAGE CUE: item-silver-thimble.png]** ❌ *(show when the thimble becomes the focus)*
+**[IMAGE CUE: item-silver-thimble.png]** ✅ *(show when the thimble becomes the focus)*
 
 * **Option A: Seize [Item: Silver Thimble].** Ministry payout (Coin). Emmerich unravels in 1d6 hours. Crew earns **Enmity** with **[Faction: The Twice-Born]**.
 * **Option B: Warn him and walk away.** No payout. Crew earns **+1 Favor** with **[Faction: The Twice-Born]**. Potential Heat with **[Faction: The Ministry]**.
@@ -166,7 +166,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 
 ## The Door Chase 🎭 (🟢 FULL SCOOBY — ~15 min)
 
-**[MUSIC CUE: music-caper-chase.mp3]** ❌ *(inline — fire as the crew leaves the building; no "go" pause)*
+**[MUSIC CUE: music-caper-chase.mp3]** ✅ *(inline — fire as the crew leaves the building; no "go" pause)*
 **[PLAYER SCREEN: banner "RUH-ROH?"]**
 
 > 🔊 **READ ALOUD:**
@@ -201,7 +201,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 > ⏸ **PAUSE — Say "go" as the alley dead-ends.**
 
 **[IMAGE CUE: location-subway-entrance.png]** ❌ *(on "go" — the railing in the alley)*
-**[MUSIC CUE: music-s02-the-railing.mp3]** ❌ *(on "go" — pure unease, plays through the entrance and the descent; **fallback:** `music-supernatural.mp3`)*
+**[MUSIC CUE: music-s02-the-railing.mp3]** ✅ *(on "go" — pure unease, loops through the entrance and the descent)*
 
 > 🔊 **READ ALOUD:**
 >
@@ -269,7 +269,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 > **The first charge is small and specific.** Examples: the weight of the heaviest thing they are carrying right now. The last name of the youngest person in the room. The specific smell they associate with the shop's back room. PTOLEMY doesn't need this. The ledger needs it. The distinction is important.
 >
 > 🔵 **MYSTERY BEAT — PTOLEMY's Charges (uncanny, never a joke on the first visit — its *funny* charges begin in Session 3):**
-> **[IMAGE CUE: npc-ptolemy.png]** ❌ *(before the first charge)* — Perform a flat *clack-clack-clack* with a pencil. Charge each PC **one thing PTOLEMY could not possibly know:**
+> **[IMAGE CUE: npc-ptolemy.png]** ✅ *(before the first charge)* — Perform a flat *clack-clack-clack* with a pencil. Charge each PC **one thing PTOLEMY could not possibly know:**
 > 1. **The exact weight of your Cursed Heirloom, in grams — it already knows.**
 > 2. **The last sentence you spoke before you stepped into the alley.**
 > 3. **Two minutes of silence, to be collected later at PTOLEMY's discretion.**
@@ -288,7 +288,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 
 ### Subway Beat 4 — Cosma *(essential)*, then Aldric & the Job Board *(optional — cut if past 2 h 40)*
 
-**[IMAGE CUE: npc-cosma-linden.png]** ❌ *(show when Cosma approaches)*
+**[IMAGE CUE: npc-cosma-linden.png]** ✅ *(show when Cosma approaches)*
 
 > 🔵 **QUIET WARMTH (not a joke — this is the Subway's first visit):** Cosma reaches into a pocket and offers the nearest PC a **hard candy** — *"for the stairs. Everyone's stomach does something on the stairs."* It is the kindest thing anyone has said to them all night. *(Her coat-pocket comedy — the 1987 transit schedule that "might come up" — is saved for the **second visit**, Session 3.)*
 

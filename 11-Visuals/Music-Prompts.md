@@ -394,7 +394,7 @@ Save as: `music-greta-waltz.mp3`
 [Instrumental] Genre: bureaucratic light waltz, perfectly polite. BPM: 96. Key: C major.
 Instrumentation: Lead — typewriter (percussive, in time), glockenspiel melody. Support — pizzicato strings, a stapler on the off-beat (yes, a stapler), soft brush snare.
 Production: A government office lobby on a Tuesday; spotless, slightly muffled; the typewriter carriage bell lands on each phrase end.
-Structure: Seamless loop; phrases end on a *ding.*
+Structure: Built to LOOP: constant tempo and energy, no intro, no outro, no fade out; the last phrase leads straight back into the first. Phrases end on a *ding.*
 ```
 
 ---
@@ -499,6 +499,12 @@ Structure: Faint tape hiss from 0:00. At 0:02 the voice speaks fortune one, exac
 Topic: A fortune-telling machine reading two fortunes aloud.
 ```
 **RESULT (2026-11-17): v2 still sang the words (music gone, melodic speech remained). Lyria is a music model — don't use it for spoken lines.** **Use Gemini video (Veo) instead:** a static close-up of the automaton speaking the quoted line, then extract the audio with `ffmpeg -i clip.mp4 -vn -ac 1 -b:a 192k out.mp3` (Veo speaks quoted dialogue). User confirmed "the video stuff works"; credits are daily, so these are at the back of the queue. Keep all four fortunes in the same chat ("the same automaton… exactly the same voice as the previous videos"). The ladder below is superseded except item 3 (local `say` fallback).
+
+**CURRENT METHOD — Veo video prompt (2026-11-18).** Use Gemini **image-to-video** with `_Saved-Images/location-zoltar-machine.png` attached as the first frame (our canon machine: bearded figure, turban, striped robe, gold hands on a red box), then extract the audio (`ffmpeg -vn`). Voice = *raspy, elderly, mechanical baritone with a theatrical, generic Eastern-European (Hungarian-flavoured) fairground-fortune-teller accent, slow and ceremonial, flat speaking voice with no melody* (the classic Zoltar machine accent — GM note). Repeat the voice description word for word every clip, same chat; if the voices drift, run one identical ffmpeg filter chain (tinny band-pass, slight wobble, cabinet echo) over all four. One fortune per clip (~8 s).
+```
+Using the attached image as the first frame, locked-off, with no camera movement. The painted figure inside the glass cabinet, the fortune-telling machine called Zoltar, comes to life: its painted jaw clicks open and shut stiffly as it speaks in a raspy, elderly, mechanical baritone with a theatrical, generic Eastern European fairground fortune-teller accent, slow and ceremonial, in a flat speaking voice with no melody: "<LINE>" After the last word it falls still and silent. Audio: only the voice, with a tinny vintage-speaker resonance and a faint wooden cabinet hum. No subtitles, no captions, no on-screen text.
+```
+Lines: S0 "You will soon receive an envelope. It will not be good news. It will be damp." · S1 "A man who knows your name has never been told it." (flat, no menace) · S2 "The road down is longer than the road up. Bring a snack." · S3 "The dead are polite. The living are not. See, Thursday."
 
 **If v2 still sings (escalation ladder):**
 1. Reframe as the proven radio format — *"AM radio broadcast, a man reading two items aloud at 2am"* — then add the automaton voice profile and **filter in an editor** (tinny band-pass, ~300 Hz–3 kHz) to make it machine-like. Speech on AM radio is the one thing already confirmed to work.

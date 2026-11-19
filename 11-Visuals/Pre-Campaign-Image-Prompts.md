@@ -73,13 +73,13 @@ Clean composition, no text, no watermarks, no signatures.
 ---
 
 ### The Meridian — Emmerich's Shop
-Save as: `location-emmerichs-shop.png`
+Save as: `location-emmerichs-shop.png`  *(v2 2026-11-18 — 16:9, exact sign text, suffix included)*
 
 ```
-A second-floor tailor shop viewed from street level below, looking up at a warm-lit window. A gold leaf sign on the glass reads something — the lettering faded at different rates, some words newer than others. A single figure barely visible through rain-streaked glass, bent over a worktable, not looking up.
-Warm amber lamplight from a single desktop lamp inside the shop casting the figure as a warm silhouette against the window. The street below lit by cold blue LED streetlamps. Rain on the glass refracts the interior amber light into small elongated prisms on the wet pavement below.
-Old gold leaf paint on glass with uneven aging across the lettering, rain-streaked single-pane window with interior condensation, stone building facade with wrought iron window details, amber against cold blue — the warmth of work happening long after reasonable hours. Something that has been true for too long to question.
-Clean composition, no text, no watermarks, no signatures.
+A 16:9 wide cinematic night shot of a narrow old stone building on a wet city street, seen from the pavement looking up at its second-floor window, which glows amber. A gold-leaf sign painted on the window glass reads "EMMERICH & DAUGHTER" in a classic serif, with nothing else written on it. The lettering has aged unevenly: "EMMERICH" is bright and recently touched up, while "& DAUGHTER" is faded and flaking almost to nothing. Through the rain-streaked glass a single elderly man, a warm silhouette, is bent over a worktable and does not look up.
+Warm amber light from one desk lamp inside casts the man as a silhouette against the window. The street below is lit by cold blue LED streetlamps. Rain on the glass breaks the amber light into small elongated reflections on the wet pavement.
+Old gold-leaf paint on glass with uneven aging, a single-pane window with interior condensation, stone facade with wrought-iron window details, a closed shop on the ground floor below. Amber against cold blue: the warmth of work happening long after reasonable hours.
+Industrial-occult noir. Fractured amber and cold blue light sources cutting across rain-slicked surfaces — wet asphalt and glass fragmenting every light source into scattered reflections. Visible film grain, aged surface textures, micro-details on worn materials. A modern city built on century-old bones. Quiet unease — not horror. The world looks ordinary until the light hits it wrong. Clean composition, no text, no watermarks, no signatures.
 ```
 
 ---
@@ -125,14 +125,20 @@ Clean composition, no text, no watermarks, no signatures.
 
 ---
 
-### Emmerich
-Save as: `npc-emmerich.png`
-
+### Emmerich — wiki portrait FIRST (anchor), then table scene *(v2 2026-11-18)*
+**Step 1 — wiki portrait.** Attach `location-emmerichs-shop.png` so he matches the man in the lit window. Save as `wiki-emmerich.png`. Publish only after the crew has met him.
 ```
-An elderly man in a well-kept vest and shirtsleeves at a tailor's worktable — close-medium frame. Both hands on fabric, measuring with practiced precision, a silver thimble on his right index finger. The posture of someone performing a task they have performed ten thousand times, with no diminishment of attention.
-A single amber desk lamp to his left — warm, focused, the pool of light ending sharply at the table edge. A rain-streaked window behind him admitting diffuse cold blue light from the street. The amber lamp dominates his face and working hands; the street light creates a cool rim on his right shoulder and the back of his head.
-Fine fabric under precise hands, the silver thimble catching amber lamplight as a small curved reflection, worn worktable surface with old pin marks and chalk residue at the edges, fabric scissors with aged wooden handles. Patient mastery. Skill that has not decided to decline.
-Clean composition, no text, no watermarks, no signatures.
+A 3:2 landscape waist-up portrait of Emmerich, an elderly tailor, subject centered with the head about one-third from the top, facing the viewer in a calm three-quarter turn, against a plain softly-lit dark workshop wall. He is the same man as the elderly tailor seen at the worktable in the attached image: mid-seventies, short thinning white hair combed straight back, a deeply lined face, steady pale-grey eyes, no glasses. He wears a white shirt with the sleeves neatly rolled to the forearm, a dark waistcoat, and a yellow cloth tape measure draped around his neck. His expression is patient and attentive, not smiling, the look of a man who has finished a great many last orders.
+Soft warm amber light from the left on his face, a faint cool blue rim light on the right shoulder from a rain-streaked window out of frame.
+Fine wool waistcoat fabric, rolled linen cuffs, the tape measure's worn numerals, deep skin texture. Nothing happening behind him.
+Industrial-occult noir. Fractured amber and cold blue light sources cutting across rain-slicked surfaces — wet asphalt and glass fragmenting every light source into scattered reflections. Visible film grain, aged surface textures, micro-details on worn materials. A modern city built on century-old bones. Quiet unease — not horror. The world looks ordinary until the light hits it wrong. Clean composition, no text, no watermarks, no signatures.
+```
+**Step 2 — table scene (same chat, re-attach the portrait). Save as `npc-emmerich.png`.**
+```
+A 16:9 cinematic medium shot of the man in the attached portrait, Emmerich, at his tailor's worktable. Both hands rest on dark wool cloth, measuring it with practiced precision; a silver thimble is on the index finger of his right hand, which is in the foreground of the image's right half. The posture of someone who has done this task ten thousand times with no loss of attention. He does not look up.
+A single amber desk lamp to his left; the pool of light ends sharply at the table edge. A rain-streaked window behind him lets in diffuse cold blue light from the street, rimming his right shoulder and the back of his head.
+Fine fabric under precise hands, the silver thimble catching a small curved amber reflection, a worn worktable with old pin marks and chalk at the edges, shears with aged wooden handles.
+Industrial-occult noir. Fractured amber and cold blue light sources cutting across rain-slicked surfaces — wet asphalt and glass fragmenting every light source into scattered reflections. Visible film grain, aged surface textures, micro-details on worn materials. A modern city built on century-old bones. Quiet unease — not horror. The world looks ordinary until the light hits it wrong. Clean composition, no text, no watermarks, no signatures.
 ```
 
 ---
@@ -149,14 +155,14 @@ Clean composition, no text, no watermarks, no signatures.
 
 ---
 
-### PTOLEMY
+### PTOLEMY *(v2 2026-11-18 — 16:9, suffix included; attach `location-subway-main-hall.png` so the hall matches)*
 Save as: `npc-ptolemy.png`
 
 ```
-A stack of mismatched old leather travel cases in the corner of an underground transit hall — three cases of varying sizes, arranged with the largest at the base. The brass clasps on the top case are not latched randomly: they form a deliberate pattern, each one oriented with intention. Figures moving through the hall in the background, none looking toward the luggage.
-Greenish fluorescent overhead light from the transit hall — institutional, unflattering. The light seems to reach the luggage with slight reluctance — a barely perceptible pool of relative shadow around the cases. The brass clasps catch the greenish fluorescent as dull warm points.
-Aged leather with old travel labels from cities not on current maps, brass clasps with deliberate patina — green in the recesses, polished on the contact surfaces — visible micro-texture on the leather surface. Ancient intelligence in a mundane container. Something that has been in this corner longer than the station has existed and intends to remain.
-Clean composition, no text, no watermarks, no signatures.
+A 16:9 cinematic wide shot of a stack of three mismatched old leather travel cases in a corner of the underground transit hall shown in the attached image, with the largest case at the bottom and the smallest on top, filling the lower left of the frame. The brass clasps on the top case are latched in a deliberate pattern, each one angled with intention, like a sentence. Far behind them, commuters cross the hall and every one of them is facing away from the luggage.
+Greenish fluorescent overhead light from the transit hall, institutional and unflattering. The light seems to reach the luggage reluctantly, leaving a small pool of relative shadow around the cases. The brass clasps catch the green light as dull warm points.
+Aged leather with faded travel labels from cities that are not on current maps, brass clasps with deliberate patina: green in the recesses, polished where fingers have touched them, visible leather micro-texture. Ancient intelligence in a mundane container, in this corner longer than the station has existed and intending to stay.
+Industrial-occult noir. Fractured amber and cold blue light sources cutting across rain-slicked surfaces — wet asphalt and glass fragmenting every light source into scattered reflections. Visible film grain, aged surface textures, micro-details on worn materials. A modern city built on century-old bones. Quiet unease — not horror. The world looks ordinary until the light hits it wrong. Clean composition, no text, no watermarks, no signatures.
 ```
 
 ---
@@ -197,14 +203,20 @@ Clean composition, no text, no watermarks, no signatures.
 
 ---
 
-### Cosma Linden (Twice-Born — The Teacher)
-Save as: `npc-cosma-linden.png`
-
+### Cosma Linden (Twice-Born — The Teacher) — wiki portrait FIRST (anchor), then table scene *(v2 2026-11-18)*
+**Step 1 — wiki portrait.** Save as `wiki-cosma-linden.png`. Publish only after the crew has met her (S2).
 ```
-An older woman in a coat with visibly overfull pockets — things pressing against the fabric from inside — seated at a corner table in an underground hall, speaking to someone across from her. Medium frame. Her hands moving while she speaks, arranging something invisible on the table surface between them — a habit she is not aware of.
-Greenish fluorescent overhead light from the hall making all skin tones slightly wrong. A marginally warmer light from an indeterminate source near the table — not enough to explain, just enough to make her expression readable. Her face patient, focused, completely present.
-Coat pockets distorted by their contents, hands mid-gesture over a table surface with nothing on it, the posture of someone who has spent decades explaining frightening things to frightened people and has never found a shorter path to clarity. The kindness of someone who knows exactly how serious it is. Patient catastrophe management.
-Clean composition, no text, no watermarks, no signatures.
+A 3:2 landscape waist-up portrait of Cosma Linden, a woman in her late sixties, subject centered with the head about one-third from the top, facing the viewer in a calm three-quarter turn, against a plain softly-lit dark wall. Grey-streaked dark hair pinned loosely up with a pencil, a warm, weathered, kind face with laugh lines and steady dark eyes, no glasses. She wears a long wool coat in muted plum-brown with deep patch pockets that bulge visibly with whatever is inside them, and a soft grey scarf. Her expression is patient and fully present, the look of someone who has explained frightening things to frightened people for decades.
+Soft warm light from the left on her face, a faint cool green rim light on the right shoulder. Nothing happening behind her.
+Wool coat texture, pockets pulled out of shape by their contents, fine lines on her hands, a faint pencil smudge on one knuckle. Nothing else in the frame.
+Industrial-occult noir. Fractured amber and cold blue light sources cutting across rain-slicked surfaces — wet asphalt and glass fragmenting every light source into scattered reflections. Visible film grain, aged surface textures, micro-details on worn materials. A modern city built on century-old bones. Quiet unease — not horror. The world looks ordinary until the light hits it wrong. Clean composition, no text, no watermarks, no signatures.
+```
+**Step 2 — table scene (same chat, re-attach the portrait; attach `location-subway-main-hall.png` too). Save as `npc-cosma-linden.png`.**
+```
+A 16:9 cinematic medium shot of the woman in the attached portrait, Cosma Linden, seated at a folding table in the underground transit hall shown in the second attached image, talking to someone across the table who is just out of frame on the left. Her hands are mid-gesture over the table, arranging something invisible on its bare surface, a habit she does not notice. Her coat pockets bulge with their contents. There are more empty folding chairs around the table than there should be.
+Greenish fluorescent light from the hall overhead makes every skin tone slightly wrong. A warmer light from an indeterminate source near the table is just enough to make her expression readable: patient, focused, fully present.
+Coat pockets distorted by what is in them, hands mid-gesture over a bare table, the posture of someone who has spent decades explaining frightening things and has never found a shorter route to clarity. The kindness of someone who knows exactly how serious it is.
+Industrial-occult noir. Fractured amber and cold blue light sources cutting across rain-slicked surfaces — wet asphalt and glass fragmenting every light source into scattered reflections. Visible film grain, aged surface textures, micro-details on worn materials. A modern city built on century-old bones. Quiet unease — not horror. The world looks ordinary until the light hits it wrong. Clean composition, no text, no watermarks, no signatures.
 ```
 
 ---
@@ -259,14 +271,14 @@ Clean composition, no text, no watermarks, no signatures.
 
 ---
 
-### The Silver Thimble (Emmerich's Anchor)
+### The Silver Thimble (Emmerich's Anchor) *(v2 2026-11-18 — 16:9, suffix included; attach `npc-emmerich.png` so the lamp and worktable match)*
 Save as: `item-silver-thimble.png`
 
 ```
-A small silver thimble standing upright on a worn wooden worktable — extreme close-up, centered in frame. Single object. The worktable surface extends to the edges of the frame, its texture visible in the low-angle light.
-A single amber lamp source from the left — the thimble catching the light in a curved band of reflection along its upper rim. Deep warm shadow falling to the right. The wood grain of the worktable rendered in sharp low-angle light, showing wear patterns and old pin marks in the surface.
-Silver with micro-scratches covering the entire surface from decades of use — visible as a fine texture in the light, the dimpled grip pattern on the body catching amber light in dozens of small individual points, old worktable wood with chalk residue and pin punctures at the frame edge. An object maintained with care by someone who no longer maintains it. Something that has not been moved. Personal absence made physical.
-Clean composition, no text, no watermarks, no signatures.
+A 16:9 extreme close-up of a single small silver thimble standing upright on a worn wooden tailor's worktable, centered in the frame, the only object in the shot. The worktable surface fills the frame to the edges, its grain and wear visible in low-angle light. It is the same worktable and the same amber lamp as in the attached image.
+One amber lamp from the left makes a curved band of reflection along the thimble's upper rim, with deep warm shadow falling to the right. The wood grain is sharp in the low light, showing wear patterns and old pin marks.
+The silver is covered in micro-scratches from decades of use, the dimpled grip pattern catching the amber light in dozens of small points; old wood with chalk residue and a few pin punctures at the frame edge. An object kept with great care by someone who no longer needs to keep it. Nothing else on the table.
+Industrial-occult noir. Fractured amber and cold blue light sources cutting across rain-slicked surfaces — wet asphalt and glass fragmenting every light source into scattered reflections. Visible film grain, aged surface textures, micro-details on worn materials. A modern city built on century-old bones. Quiet unease — not horror. The world looks ordinary until the light hits it wrong. Clean composition, no text, no watermarks, no signatures.
 ```
 
 ---
@@ -453,13 +465,29 @@ Camel coat, new shoes that don't fit his stride, a tie slightly crooked. A man w
 Clean composition, no text, no watermarks, no signatures.
 ```
 
-### Drennick & Foss *(Session 2)*
-Save as: `npc-drennick-foss.png`
+### Drennick & Foss *(Session 2)* — three images, same chat, in this order *(v2 2026-11-18)*
+Wiki portraits first (one per man; publish after the crew meets them), then the table scene with both portraits attached. No logos or lettering on their gear.
+
+**1. `wiki-drennick.png`**
 ```
-Two Apex Aegis Peacekeepers in dark coats and earpieces on a rainy Meridian sidewalk: Drennick (tall, calm, clipboard held like a menu) and Foss (short, intense, jaw tight), mid-argument, one gesturing with a pen; neither is looking at the person they are following.
-Cold blue storefront light; warm boutique window behind them.
-Dark wool, rain on shoulders, matching clipboards, one smudged beet-colored stain on a cuff. Dangerous and petty in equal measure.
-Clean composition, no text, no watermarks, no signatures.
+A 3:2 landscape waist-up portrait of Drennick, a tall, calm Apex Aegis peacekeeper in his mid-forties, subject centered with the head about one-third from the top, facing the viewer, against a plain softly-lit dark wall. Rain-pale skin, short dark hair combed neatly, a composed, unhurried expression with a hint of patient weariness, a small earpiece in his left ear. He wears a long dark wool coat with the collar turned up and holds a clipboard against his chest, one hand under it like a waiter holding a menu. Nothing written on the clipboard.
+Soft cool blue light from the right, a faint warm amber rim light on the left side of his face.
+Dark wool texture with fine beads of rain on the shoulders, the clipboard's worn clip, the curl of the earpiece wire. Nothing happening behind him.
+Industrial-occult noir. Fractured amber and cold blue light sources cutting across rain-slicked surfaces — wet asphalt and glass fragmenting every light source into scattered reflections. Visible film grain, aged surface textures, micro-details on worn materials. A modern city built on century-old bones. Quiet unease — not horror. The world looks ordinary until the light hits it wrong. Clean composition, no text, no watermarks, no signatures.
+```
+**2. `wiki-foss.png`** *(v2 — v1 attached the Drennick portrait and Gemini copied his face. Start a NEW chat or do NOT attach Drennick; Foss must be a visibly different man: short, stocky, sandy buzz cut, ruddy, flat collar.)*
+```
+A 3:2 landscape waist-up portrait of Foss, a short, stocky, intense Apex Aegis peacekeeper in his late thirties, subject centered with the head about one-third from the top, facing the viewer, against a plain softly-lit dark wall. He is a completely different man from a tall pale slick-haired one: a broad square face with a heavy brow, a ruddy complexion, pale-blue narrowed eyes, a close-cropped sandy-blond buzz cut, a day of stubble, and a tightly clenched jaw. He is noticeably broad through the shoulders and a head shorter than the average man. He wears a long dark wool coat with the collar worn flat, and a small earpiece in the ear on the right side of the frame. He holds a clipboard flat against his chest with both hands, chin slightly lowered, like a charge sheet he is about to read aloud. Nothing written on the clipboard.
+Soft cool blue light from the right, a faint warm amber rim light on the left side of his face.
+Dark wool with fine beads of rain on the shoulders, white knuckles on the clipboard, the curl of the earpiece wire. Nothing happening behind him.
+Industrial-occult noir. Fractured amber and cold blue light sources cutting across rain-slicked surfaces — wet asphalt and glass fragmenting every light source into scattered reflections. Visible film grain, aged surface textures, micro-details on worn materials. A modern city built on century-old bones. Quiet unease — not horror. The world looks ordinary until the light hits it wrong. Clean composition, no text, no watermarks, no signatures.
+```
+**3. `npc-drennick-foss.png`** *(attach both portraits and `location-meridian-street.png`)*
+```
+A 16:9 cinematic medium shot of the two men in the attached portraits walking along the rainy, upscale shopping street shown in the third attached image, mid-argument: Drennick, the tall, lean, calm one, holding his clipboard like a menu, and Foss, the shorter, broad, sandy-buzz-cut one, on his right, stabbing a pen toward the clipboard. Neither is looking at the people they are following, who are small and out of focus far down the pavement. A single smudged beet-red stain on Foss's cuff.
+Cold blue streetlamp light and warm gold boutique windows behind them, wet pavement reflections.
+Dark wool coats beaded with rain, matching clipboards, earpieces, one tall and lean and one shorter and broad, side by side. Dangerous and petty in equal measure.
+Industrial-occult noir. Fractured amber and cold blue light sources cutting across rain-slicked surfaces — wet asphalt and glass fragmenting every light source into scattered reflections. Visible film grain, aged surface textures, micro-details on worn materials. A modern city built on century-old bones. Quiet unease — not horror. The world looks ordinary until the light hits it wrong. Clean composition, no text, no watermarks, no signatures.
 ```
 
 ### Dev & The Last Stop *(Session 3+, Subway)*
@@ -564,22 +592,22 @@ Faded red velvet seats with worn arms, gilded proscenium plaster flaking at the 
 Clean composition, no text, no watermarks, no signatures.
 ```
 
-### The Meridian — Shopping District at Dusk *(Session 2 — the street and the Door Chase)*
+### The Meridian — Shopping District at Dusk *(Session 2 — the street and the Door Chase; v2 2026-11-18, attach `location-emmerichs-shop.png` so the tailor's window matches)*
 Save as: `location-meridian-street.png`
 ```
-A busy upscale shopping street at blue-hour dusk, seen from the middle of the sidewalk. Boutique windows glow warm; a florist's buckets of flowers spill onto the pavement; across the street, a second-floor window with gold-leaf lettering glows amber. A revolving door at the foreground-left, mid-spin, with a faint blur of motion. Shoppers with bags walk past, all too busy to look up.
-Warm amber and gold from the shop windows against cool blue dusk sky and cold blue LED streetlamps. Gentle reflections on slightly damp pavement. The mood is polished and ordinary — a place where nobody would ever notice a thing — with just a hint that there are slightly too many doors.
-Plate-glass shopfronts with brass trim, striped awnings, wrought-iron lamp posts, clean cobbled pavement, a revolving door with brass handrails, window displays of tailored coats and perfume bottles. Upscale, inviting, faintly comic.
-Clean composition, no text, no watermarks, no signatures.
+A 16:9 cinematic wide shot of a busy upscale shopping street at blue-hour dusk, seen from the middle of the pavement. Boutique windows glow warm gold; a florist's buckets of flowers spill onto the damp pavement; on the far side of the street, a second-floor window with gold-leaf lettering reading "EMMERICH & DAUGHTER" glows amber, the same window as in the attached image. A revolving door at the left foreground is caught mid-spin with a faint blur of motion. Shoppers with bags walk past, none of them looking up.
+Warm amber and gold from the shop windows against a cool blue dusk sky and cold blue LED streetlamps, with soft reflections on the damp pavement. The mood is polished and ordinary, a place where nobody would ever notice anything, with one detail slightly off: there are more doors along this street than the buildings could account for, such as a second revolving door beside the first and a plain door set between two shop windows.
+Plate-glass shopfronts with brass trim, striped awnings, wrought-iron lamp posts, clean cobbles, window displays of tailored coats and perfume bottles. Upscale, inviting, faintly comic.
+Industrial-occult noir. Fractured amber and cold blue light sources cutting across rain-slicked surfaces — wet asphalt and glass fragmenting every light source into scattered reflections. Visible film grain, aged surface textures, micro-details on worn materials. A modern city built on century-old bones. Quiet unease — not horror. The world looks ordinary until the light hits it wrong. Clean composition, no text, no watermarks, no signatures.
 ```
 
-### The Pier — Where the Subway Lets You Out *(Session 2 exit)*
+### The Pier — Where the Subway Lets You Out *(Session 2 exit; v2 2026-11-18)*
 Save as: `location-pier-exit.png`
 ```
-A weathered wooden pier at early evening, looking back from the water toward land. The city skyline stands in the distance across the harbor. Behind the viewer's shoulder, in the foreground, a plain brick wall with a faded painted advertisement for cigarettes, long out of date, stands at the end of the pier planks — it is only a wall, with no railing, no sign, nothing to suggest a door. A single gull on a bollard. A tug far out on the water.
-Low violet-and-amber dusk light across the water, the skyline a soft cutout against the sky, cold blue shadows along the planks. The wall catches the last warm light and looks completely ordinary.
-Salt-stained pilings, wet planks with iron nail-heads, peeling brick with faded paint, drifting diesel haze over the water, a few lit windows across the harbor. Quiet, solitary, slightly eerie — the feeling of having just been somewhere impossible and being unable to prove it.
-Clean composition, no text, no watermarks, no signatures.
+A 16:9 cinematic wide shot looking back along a weathered wooden pier from near its water end toward the land at early evening. At the far end of the planks, filling the right half of the frame, stands a plain brick wall with a faded painted advertisement of a cigarette pack on it, so weathered that no lettering can be read. The wall has no railing, no door and no sign, and it looks completely ordinary. On the left of the frame, across the harbor, the city skyline is a soft cutout against the sky. A single gull sits on a bollard in the foreground, and a tug is far out on the water.
+Low violet-and-amber dusk light across the water, with cold blue shadows along the planks. The wall catches the last warm light.
+Salt-stained pilings, wet planks with iron nail-heads, peeling brick with faded paint, drifting diesel haze over the water, a few lit windows across the harbor. Quiet, solitary, slightly eerie: the feeling of having just been somewhere impossible and being unable to prove it.
+Industrial-occult noir. Fractured amber and cold blue light sources cutting across rain-slicked surfaces — wet asphalt and glass fragmenting every light source into scattered reflections. Visible film grain, aged surface textures, micro-details on worn materials. A modern city built on century-old bones. Quiet unease — not horror. The world looks ordinary until the light hits it wrong. Clean composition, no text, no watermarks, no signatures.
 ```
 
 ### The Hunters' Journal *(Session 0 — Containment Suite prop)*

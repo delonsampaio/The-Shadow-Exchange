@@ -23,12 +23,12 @@ purpose: "Everything still to generate, in priority order, with the exact filena
 |---|---|---|---|
 | ✅ | `location-zoltar-machine.png` 🆕 | **S0 beat 3b — needed** (shows during the read-aloud; the lair image is the *reveal* after the wall opens). Alt: `location-zoltar-machine-dusty.png` (moodier, darker — keep as a variant) | Pre-Campaign prompts (end) |
 | ✅ | `npc-gerald-dog.png` 🆕 | S1 (Gerald reveal) | Pre-Campaign prompts (end) |
-| ☐ | `location-emmerichs-shop.png` | S2 | exists |
-| ☐ | `npc-emmerich.png` | S2 | exists |
-| ☐ | `item-silver-thimble.png` | S2 | exists |
+| ✅ | `location-emmerichs-shop.png` | S2 (redone 2026-11-18) | exists |
+| ✅ | `npc-emmerich.png` | S2 (2026-11-18; waistcoat + tape measure, thimble on right hand; alt = `npc-emmerich-alt.png`, shirt only, two thimbles) | exists |
+| ✅ | `item-silver-thimble.png` | S2 (2026-11-18) | exists |
 | ✅ | `location-subway-entrance.png` 🆕 | S2 (the reveal) | Pre-Campaign prompts (end) |
-| ☐ | `npc-ptolemy.png` | S2 *(not yet cued in older files — now cued)* | exists |
-| ☐ | `npc-cosma-linden.png` | S2 | exists |
+| ✅ | `npc-ptolemy.png` | S2 (2026-11-18; labels Thule/Atlantis/Lemuria/Ys; alt = `npc-ptolemy-alt.png` — people not facing away, garbled labels; wiki portrait of the luggage = later, plain-lit, after S2) | exists |
+| ✅ | `npc-cosma-linden.png` | S2 (2026-11-18; letterbox bars cropped; alt = `npc-cosma-linden-alt.png`, wide, many empty chairs) | exists |
 | ☐ | `location-ashby-exterior.png` | S3 | exists |
 | ☐ | `npc-mabel-ashby-alive.png` | S3 | exists |
 | ☐ | `npc-mabel-ashby-wraith.png` | S3 | exists |
@@ -38,8 +38,8 @@ purpose: "Everything still to generate, in priority order, with the exact filena
 ### P0b — Gap-fill images 🆕 *(2026-11-17 audit; prompts at end of `Pre-Campaign-Image-Prompts.md`, Round 3)*
 | ☐ | File | Cued in |
 |---|---|---|
-| ☐ | `location-meridian-street.png` | S2 beat 4 (street beat, before the shop image) |
-| ☐ | `location-pier-exit.png` | S2 beat 12 (the pier exit read-aloud) |
+| ✅ | `location-meridian-street.png` | S2 beat 4 (2026-11-18; second revolving door + plain door planted; first option rejected — real brand names Chloé/Dior) |
+| ✅ | `location-pier-exit.png` | S2 beat 12 (2026-11-18; big faded pack ad, no lettering; alt `location-pier-exit-alt.png`; option with a One-WTC-like spire rejected) |
 | ☐ | `location-theater-auditorium.png` | S1 beat 4a (optional; ghost light) |
 | ✅ | `location-scanner-station.png` | S0 beat 3d (the green lamp; keeps the AM-man mystery) |
 | ✅ | `location-corkboard-wall.png` | S0 beat 3e (polaroids + the journal on its stand) |
@@ -59,6 +59,10 @@ Dedicated, spoiler-free, one per NPC; **never reuse a table/TV image on the wiki
 | ✅ | `npc-greta-fenn.png` — **redone 2026-11-17** (bookshop scene, same face as the portrait). Cat polished to match the grey Consequence (blue-grey, collar + tag). | S1 Downtime / S2 / S3 TV image |
 | ✅ | `wiki-greta-fenn.png` — **generated 2026-11-17** (anchors her look; attach it for every Greta image). **Do not publish until the crew has met her** — crop tighter (head/shoulders/clipboard) and strip nothing else; no logo present. | Known Contacts (**photo removed until she's met** — her old image has a monster in the window) |
 | ✅ | `wiki-harlan-okafor.png` — generated (see Harlan set) | Known Contacts (publish after his first appearance — S4) |
+| ✅ | `wiki-foss.png` — **generated 2026-11-18** (v2; sandy buzz cut, ruddy, broad, glare, fists on clipboard, plain wall; alt `wiki-foss-alt.png` more natural but street background). v1 rejected: Gemini copied Drennick's face when his portrait was attached. **Publish after the crew meets him (S2)**. | Known Contacts (after S2) |
+| ✅ | `wiki-drennick.png` — **generated 2026-11-18** (anchor; slicked dark hair, coiled earpiece on the ear at the LEFT of the frame, clipboard upright against chest, black coat with rain beads). **Publish after the crew meets him (S2)**. | Known Contacts (after S2) |
+| ✅ | `wiki-cosma-linden.png` — **generated 2026-11-18** (anchor; plum-brown coat, grey scarf, pencil in bun, hands clasped, grey cloth spilling from both pockets). **Publish after the crew meets her (S2)**. | Known Contacts (after S2) |
+| ✅ | `wiki-emmerich.png` — **generated 2026-11-18** (anchor; plain workshop, white hair, dark waistcoat + tape measure, no thimble). **Publish after the crew meets him (S2)**; head sits high, add `object-position`. | Known Contacts (after S2) |
 After each session: any NPC the crew met → generate their `wiki-*` portrait (use the template) → publish with the recap.
 
 ### Harlan set 🆕 *(all Session 4 + wiki; prompts at the end of `Pre-Campaign-Image-Prompts.md`)*
@@ -91,7 +95,7 @@ Order: **1)** `wiki-harlan-okafor.png` → **2)** `npc-harlan-okafor.png` (same 
 | ☐ | `npc-mara-halliday.png` | exists |
 | ☐ | `map-subway-schematic.png` | exists |
 | ☐ | `location-harlans-diner.png` 🆕 | S4 debut (see Harlan set above) |
-| ☐ | `npc-drennick-foss.png` 🆕 | S2 (optional) |
+| ✅ | `npc-drennick-foss.png` | S2 (2026-11-18; both attached, Meridian street matches; alt `npc-drennick-foss-alt.png` — Drennick stares at camera) |
 | ☐ | `npc-renwick-stalls.png` 🆕 | S3/S4 |
 | ☐ | `npc-dev-last-stop.png` 🆕 | Subway second visit |
 
@@ -106,11 +110,11 @@ Verify visually: `cover-*` set matches the track; `npc-merton-true-form.png` is 
 ---
 
 ## 🔊 AUDIO AUDIT — Sessions 0–2 *(2026-11-17)*
-**Music cues:** S0 ✅ all 6 exist · S1 ✅ all (Gerald gets no sting — scene music keeps playing) · S2 missing `music-caper-chase`, `music-s02-the-railing` *(fallback `music-supernatural`)*, optional `music-greta-waltz`. **All four have prompts** in `Music-Prompts.md`.
+**Music cues:** S0 ✅ all 6 exist · S1 ✅ all (Gerald gets no sting — scene music keeps playing) · S2 ✅ `music-caper-chase`, `music-s02-the-railing`, `music-greta-waltz` — **Session 2 music complete** (`the-descent` and `pier-ambience-loop` dropped — not cued; the railing loop runs through the descent). **All four have prompts** in `Music-Prompts.md`.
 **New SFX/voice prompts** (same file, "SFX & voice — Sessions 0–2"), reuse-ranked:
 | ☐ | File | Used |
 |---|---|---|
-| ☐ | `music-caper-chase` · `music-s02-the-railing` · `music-greta-waltz` | existing prompts — **the real gaps** |
+| ✅ `music-caper-chase` (done 2026-11-17, loops; raw kept) · ✅ `music-s02-the-railing` (done 2026-11-18, loops; raw kept) · ✅ `music-greta-waltz` (done 2026-11-18, loops; raw kept) | **all Session 0–2 music done** |
 | ☐ | `music-sting-shop-bell` · `music-sting-fortune-card` · `music-sting-zoltar-whirr` | **every session** (bell, closing card, the coin gag) |
 | ☐ | `music-sting-bernard-scream` · `music-sting-lever-trapdoor` | S1 gags |
 | ☐ | `music-sting-ptolemy-clasps` · `music-s02-the-descent` · `music-sting-rotary-phone` · `music-pier-ambience-loop` | S2 |
@@ -120,10 +124,11 @@ New SFX get Run-Sheet cues **after** they exist.
 Lyria (the music tool) **sang** the spoken Zoltar lines even with music removed → anything spoken or pure-foley now goes through **Gemini video (Veo)** and Claude extracts the audio (`ffmpeg -vn`). Veo's first test worked. Video credits are limited per day, so those items are at the **back of the queue**.
 
 **NOW (images + music — no video credits):**
-1. S2 images: `location-emmerichs-shop`, `npc-emmerich`, `item-silver-thimble`, `npc-ptolemy`, `npc-cosma-linden` (+ paired wiki portraits per NPC), optional `location-meridian-street`, `location-pier-exit`, `npc-drennick-foss`.
+1. S2 images: ~~`location-emmerichs-shop`, `npc-emmerich`, `item-silver-thimble`, `npc-ptolemy`, `npc-cosma-linden`~~ ✅ **all required S2 images done 2026-11-18** (wiki portraits ✅ for Emmerich + Cosma; Ptolemy's luggage wiki shot later). Optional: ~~`location-meridian-street`~~ ✅, ~~`npc-drennick-foss`~~ ✅ (+ `wiki-drennick` ✅ `wiki-foss` ✅), ~~`location-pier-exit`~~ ✅. **Session 2 images: ALL DONE (required + optional).**
 2. S1 music: **none needed** (ruhroh sting dropped 2026-11-17 — it clashed with the loop; Gerald plays under the scene music).
-3. S2 music: `music-caper-chase`, `music-s02-the-railing`, `music-s02-the-descent`, optional `music-greta-waltz`; try `music-pier-ambience-loop` in Lyria first (constant texture) and move it to the video queue if it fails.
+3. S2 music: ~~`music-caper-chase`~~ ✅, ~~`music-s02-the-railing`~~ ✅, ~~`music-greta-waltz`~~ ✅. ~~`music-s02-the-descent`~~ dropped (railing loops through the descent). Pier ambience: no Run Sheet cue, optional/video queue only; (old note: try `music-pier-ambience-loop` in Lyria first (constant texture) and move it to the video queue if it fails.
 
+**⏸ ON HOLD (GM, 2026-11-18): all Zoltar / voice / foley audio — resume later. Method + prompts are saved in `Music-Prompts.md` §Z ("CURRENT METHOD — Veo"); upload-ready first frame was `~/Downloads/zoltar-first-frame.jpg` (regenerate from `_Saved-Images/location-zoltar-machine.png` with `sips -Z 1920`).**
 **BACK OF QUEUE (needs Veo video credits; one 8 s clip each; same chat so the voice carries over; Claude extracts audio):**
 1. Zoltar spoken fortunes, in this order: `music-sting-zoltar-fortune-s00` (**test clip may already exist — user was waiting on it**), `-s01`, `-s02`, `-s03`. Prompts in `Music-Prompts.md` §Z and Claude's chat; local `say` candidates in `_Saved-Music/_zoltar-candidates/` are the fallback.
 2. Pure foley, S0 extras (every session): `music-sting-shop-bell`, `music-sting-fortune-card`, `music-sting-zoltar-whirr`.
@@ -139,17 +144,17 @@ Veo foley prompts (a picture of the object making the sound) are **not written y
 | ☐ | `music-ashby-approach.mp3` | S3 | exists |
 | ☐ | `music-ashby-interior.mp3` | S3 | exists |
 | ✅ | `music-comic-interlude.mp3` | S3 (renamed) | — |
-| ☐ | `music-caper-chase.mp3` 🆕 | S2 (Door Chase) | Music-Prompts (end) |
+| ✅ | `music-caper-chase.mp3` | S2 (Door Chase) | Music-Prompts (end) |
 | ✖ | `music-sting-ruhroh.mp3` | **dropped** — Gerald plays under the scene music (raw kept in `_Saved-Music/`) | — |
 | ☐ | `music-sting-boo.mp3` 🆕 | S3 (Mabel's fake-out haunt) | Music-Prompts (end) |
-| ☐ | `music-s02-the-railing.mp3` 🆕 | S2 (mystery entrance; fallback `music-supernatural`) | Music-Prompts (end) |
+| ✅ | `music-s02-the-railing.mp3` | S2 (mystery entrance) | Music-Prompts (end) |
 
 ### P1
 | ☐ | File | Cued in |
 |---|---|---|
 | ☐ | `music-road-rock.mp3` 🆕 | van rides / end of a good score |
 | ☐ | `music-harlans-diner.mp3` 🆕 | S4 |
-| ☐ | `music-greta-waltz.mp3` 🆕 | Greta scenes (S1+ downtime) |
+| ✅ | `music-greta-waltz.mp3` | Greta scenes (S1+ downtime) |
 
 ### Already saved but not yet cued
 - **Music audit (2026-11-17): no new tracks needed for Sessions 0–3.** Van rides / end of a good score → `music-road-rock` (P1); Greta's scenes → `music-greta-waltz`; S4 diner → `music-harlans-diner`. Pier exit uses `music-aftermath`.
