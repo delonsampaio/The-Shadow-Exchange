@@ -282,7 +282,8 @@ window.SCENE = {
   subcaption: "Old City · raining",          // optional italic line
   nowPlaying: "music-bookshop-loop",         // cosmetic label; audio is fade-switch.sh
   clocks: [{ name: "Detection", total: 4, cur: 1, color: "#dc2626" }],  // PUBLIC clocks only
-  card: null,                                // or { style:"contract"|"newspaper"|"note"|"fortune"|"sign", title:"…", lines:["…"] }
+  card: null,                                // or { style:"contract"|"newspaper"|"note"|"fortune"|"sign"|"recap", title:"…", lines:["…"], bullets:["…"] }
+  crew: null,                                // optional: { heat: 2, coin: 3, rep: 4 } — public crew numbers only; null during scores
   banner: null,                              // or "RUH-ROH?" — big comic pop-up, 2.6 s (fires once per banner+bannerId)
   bannerId: 0                                // increment to re-fire the same banner text; set banner:null afterwards
 };
@@ -294,9 +295,13 @@ window.SCENE = {
 | New location / NPC | `image` + `caption` |
 | A document the players hold (Ministry contract, newspaper clipping, a note) | `card` (`contract` / `newspaper` / `note`) |
 | Zoltar's end-of-session card | `card` style `fortune` |
+| Session start (after Boot, while the table settles) | `card` style `recap`: title "Previously…", 1–2 short lines + at most 2 `bullets`, written **only from the public player recap** (the one published to the wiki) — never from prep notes, Campaign-Arc, or GM-only tells. The first beat's update sets `card: null`. Skip it for Session 0/1 (nothing to recap). |
+| Free play / planning / Downtime | optional `crew: { heat, coin, rep }` strip; set `crew: null` the moment a score starts. Only those three public keys exist — never add a hidden faction clock or Wanted level |
 | A comedy beat (Ruh-Roh, Boo, Gerald) | `banner` (+ increment `bannerId` to re-fire the same text; clear to `null` after) |
-| Detection / Surge / Audit moves | `clocks` (never include the Omen) |
+| Detection / Surge / Audit moves | `clocks` (never include the Omen). When a clock's `cur` goes up the page pulses it automatically — no extra field or write needed |
 | Returning to a neutral moment | `card: null`, `banner: null` |
+
+**Physical TV (GM, 2026-11-18):** 75-inch screen, ~10 ft from the table. Keep each card to ~8 short lines (cards do not scroll; overflow spills), and banners short (about 20 characters fits on one line; longer wraps). **Do NOT put on the TV:** Position/Effect tags, roll results, "where we are" objective lines, per-player Stress/Harm, an initiative tracker, a permanent map — Gemini's review agreed these cost a mid-beat write each and lag behind the table (Position/Effect belongs on the printed table card: `11-Visuals/handouts/Table-Card.pdf`, source `Table-Card.html`).
 
 **Image generated on the fly:** save to `_Saved-Images/`, then point `image` at it. **Missing asset:** leave `image` null, show a `caption`, and output `[IMAGE CUE: filename.png — not yet generated]`.
 

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>The Shadow Exchange — Table Card</title>
+<style>
+  @page { size: letter; margin: 0.4in; }
+  :root { --amber:#b45309; --ink:#111; --soft:#555; --line:#bbb; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:'Helvetica Neue',Arial,sans-serif; font-size:10.6pt; line-height:1.3; color:var(--ink); }
+  header { display:flex; justify-content:space-between; align-items:flex-end; border-bottom:2.5px solid var(--amber); padding-bottom:5px; margin-bottom:9px; }
+  h1 { margin:0; font-size:16pt; letter-spacing:.05em; text-transform:uppercase; white-space:nowrap; }
+  header span { white-space:nowrap; font-size:8.6pt; color:var(--soft); letter-spacing:.08em; text-transform:uppercase; }
+  .grid { display:grid; grid-template-columns:1fr 1fr; gap:13px 20px; }
+  section { break-inside:avoid; }
+  h2 { margin:0 0 4px; font-size:10.8pt; letter-spacing:.1em; text-transform:uppercase; color:var(--amber); border-bottom:1px solid var(--line); padding-bottom:2px; }
+  table { border-collapse:collapse; width:100%; }
+  td, th { text-align:left; vertical-align:top; padding:2.2px 5px 2.2px 0; }
+  th { font-size:8.6pt; color:var(--soft); text-transform:uppercase; letter-spacing:.06em; }
+  td:first-child { font-weight:800; white-space:nowrap; width:1%; padding-right:9px; }
+  ul { margin:0; padding-left:15px; }
+  li { margin:1.5px 0; }
+  .note { color:var(--soft); font-size:9.2pt; margin-top:3px; }
+  .wide { grid-column:1 / -1; }
+  .box { border:1.5px solid var(--ink); padding:5px 8px; }
+  footer { margin-top:8px; border-top:1px solid var(--line); padding-top:4px; font-size:8pt; color:var(--soft); display:flex; justify-content:space-between; }
+</style>
+</head>
+<body>
+<header><h1>Shadow Exchange · Table Card</h1><span>Blades in the Dark · quick reference</span></header>
+
+<div class="grid">
+
+<section>
+<h2>1 · Roll the dice</h2>
+<p style="margin:0 0 3px">Roll d6s equal to your <b>action rating</b>. <b>0 dots?</b> Roll 2 and take the <b>lowest</b>. Read the <b>highest</b> die.</p>
+<table>
+<tr><td>6</td><td>You do it. Clean.</td></tr>
+<tr><td>4–5</td><td>You do it, <b>but</b> there's a cost.</td></tr>
+<tr><td>1–3</td><td>It goes wrong. Something bad happens.</td></tr>
+<tr><td>Two 6s</td><td>Critical: it goes <i>better</i> than expected.</td></tr>
+</table>
+<p class="note">Before every roll the GM names <b>Position</b> and <b>Effect</b>. You may negotiate them.</p>
+</section>
+
+<section>
+<h2>2 · Position — if it goes wrong</h2>
+<table>
+<tr><td>Controlled</td><td>You act on your terms. Lesser consequences.</td></tr>
+<tr><td>Risky</td><td>Head to head, under fire. <i>(Default.)</i> Standard consequences.</td></tr>
+<tr><td>Desperate</td><td>You overreach. Severe consequences.</td></tr>
+</table>
+<p class="note"><b>Rolling Desperate = mark 1 XP</b> in that action's attribute, win or lose.</p>
+</section>
+
+<section>
+<h2>3 · Effect — if it goes right</h2>
+<table>
+<tr><td>Limited</td><td>Less than usual. Clock: <b>1 tick</b>.</td></tr>
+<tr><td>Standard</td><td>The normal result. Clock: <b>2 ticks</b>.</td></tr>
+<tr><td>Great</td><td>More than usual. Clock: <b>3 ticks</b>.</td></tr>
+</table>
+<p class="note">Big problems use a <b>progress clock</b> (4, 6 or 8 segments), not hit points.</p>
+</section>
+
+<section>
+<h2>4 · Consequences the GM can choose</h2>
+<ul>
+<li><b>Reduced Effect</b> — it works, but less.</li>
+<li><b>Complication</b> — trouble: +Heat, a clock ticks, a new threat.</li>
+<li><b>Lost Opportunity</b> — try again a different way.</li>
+<li><b>Worse Position</b> — Controlled → Risky → Desperate.</li>
+<li><b>Harm</b> — an injury, by level (see 6).</li>
+</ul>
+<p class="note">A complication never cancels a roll that succeeded.</p>
+</section>
+
+<section class="wide box">
+<h2 style="border:none; margin-bottom:2px">5 · Stress — spend it, don't fear it</h2>
+<table>
+<tr><td>Resist</td><td>Say <i>"I resist."</i> Roll your <b>attribute</b> (Insight / Prowess / Resolve). Pay <b>6 − highest die</b> in Stress. A 6 is free; a critical clears 1. The consequence is reduced or avoided. <b>It always works.</b> Once per consequence.</td></tr>
+<tr><td>Push yourself</td><td><b>2 Stress</b> for <i>one</i>: +1 die, or +1 Effect, or act while incapacitated.</td></tr>
+<tr><td>Assist</td><td>A teammate spends <b>1 Stress</b>: you get +1 die. No roll.</td></tr>
+<tr><td>Devil's Bargain</td><td>The GM (or a player) offers +1 die for a complication. You may refuse.</td></tr>
+<tr><td>Flashback</td><td>"I already did that." <b>0 / 1 / 2 Stress</b> by how plausible and risky the prep was.</td></tr>
+<tr><td>Bonus dice cap</td><td>At most <b>2</b>: one Assist + <i>either</i> Push <i>or</i> a Devil's Bargain (not both).</td></tr>
+<tr><td>Armor</td><td>Mark an armor box <i>instead of</i> rolling to resist. No Stress. Restored when you pick your next Load.</td></tr>
+</table>
+<p class="note"><b>Stress tops out at 9.</b> The last box means <b>Trauma</b>: you drop out of the scene, come back at 0 Stress, and take a permanent quirk.</p>
+</section>
+
+<section>
+<h2>6 · Harm</h2>
+<table>
+<tr><th>Level</th><th>Effect on you</th></tr>
+<tr><td>1 Lesser</td><td>Reduced Effect when it applies.</td></tr>
+<tr><td>2 Moderate</td><td>−1 die when it applies.</td></tr>
+<tr><td>3 Severe</td><td>Can't act without help or a Push.</td></tr>
+<tr><td>4 Fatal</td><td>Out. A full row pushes harm up a level.</td></tr>
+</table>
+</section>
+
+<section>
+<h2>7 · A score, start to finish</h2>
+<ol style="margin:0; padding-left:17px">
+<li><b>Plan:</b> pick a plan + one detail. Pick your <b>Load</b>.</li>
+<li><b>Engagement roll</b> sets where you start.</li>
+<li><b>Play the score.</b> Flashback instead of planning.</li>
+<li><b>Downtime:</b> clear Stress (Vice), heal, reduce Heat, train.</li>
+</ol>
+<p class="note">No initiative. The GM never rolls. Every roll is yours.</p>
+</section>
+
+</div>
+<footer><span>Rules summarised from the free Blades in the Dark SRD (bladesinthedark.com, CC BY 3.0).</span><span>Print 1-sided, letter or A4.</span></footer>
+</body>
+</html>
