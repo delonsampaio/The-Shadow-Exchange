@@ -43,9 +43,10 @@ last_updated: 2026-11-20
 |---|---|
 | `[MUSIC CUE: file.mp3]` *(no marker)* | **Wait for the GM to say "go"** (they've finished reading aloud), then fire it. Never in the same response as the text it follows. |
 | `[MUSIC CUE: file.mp3]` marked **(inline)**, "fire now", "start before", "start just before the read-aloud", "on the first line" | Fire it **first**, then present the text in the same response. No "go" pause. |
-| `[IMAGE CUE: file.png]` | Same timing as music. **How:** (a) `Read` the image for the GM's private preview; (b) update `11-Visuals/player-screen/scene.js` (see Core → *Player Screen — Live TV Protocol*). |
+| `[IMAGE CUE: file.png]` | Same timing as music. **How:** (a) `Read` the image for the GM's private preview; (b) update `11-Visuals/player-screen/scene.js` (see Core → *Player Screen — Live TV Protocol*). **Never leave a stale image up:** when the location changes and the Run Sheet has no image for the new place, set `image: null` and a `caption` for the new place (title-card look). |
 | `[PLAYER SCREEN: banner "TEXT"]` | Set `banner` in `scene.js` (and a new `bannerId` if repeating the same text), bump `rev`. Fire when the line lands (usually inline); clear it afterwards. |
-| `[PLAYER SCREEN: card style `fortune`]` (or `contract` / `newspaper` / `note` / `sign`) | Set `card:{style, title, lines}` from the text just read; bump `rev`. Clear it (`card:null`) at the next beat. |
+| `[PLAYER SCREEN: clocks …]` (a public clock appears or moves) | Update `clocks` in `scene.js`. **The first time a clock appears, say its one-line explanation first** (Ladder card 17), even if the prep lacks it. Never show the Omen or a hidden clock. |
+| `[PLAYER SCREEN: card style `fortune`]` (or `contract` / `newspaper` / `note` / `sign`) | Set `card:{style, title, lines}` from the text just read; bump `rev`. Clear it (`card:null`) at the next beat. **Unscripted documents and secrets: Core → *TV policy for unscripted cards*.** |
 | `⏸ PAUSE — Say "go"…` | **Stop.** Wait for the GM. |
 | `❌` on a file name | Not yet generated → skip the tool call; output `[IMAGE CUE: name — not yet generated]` / `[MUSIC CUE: name — not yet generated]`. |
 | `⚠ vocal` | A track with lyrics. Fire it **after** the read-aloud, never under it — **unless the prep marks it inline** (the Scanner Station's AM voice is part of the scene, so the GM allows it during the read-aloud). |

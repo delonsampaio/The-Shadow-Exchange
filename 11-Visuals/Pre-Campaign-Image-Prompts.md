@@ -62,6 +62,54 @@ Clean composition, no text, no watermarks, no signatures.
 
 ---
 
+### Curios & Chronicles — The Shop Floor (the front room)
+Save as: `location-curios-interior.png` *(optional; the room for the Session 0 ATM gag, Session 1 Beat 1, every Downtime and every recap. Until it exists the TV shows a caption)*
+
+```
+The inside of a narrow, struggling bookshop that used to be a savings bank, seen from just inside the front door. A long old marble teller counter on the left with a rotary phone, a brass till and a half-knitted sweater draped over a stool. Tall wooden shelves of dusty books to the right, overstuffed and slightly crooked. A large grey cat asleep on a stack of papers on the counter. Deep in the back corner, behind a stack of atlases, the glass-fronted wooden booth of an old fortune-teller machine. Rain streaking the front window and the dim street beyond.
+Warm amber lamplight from a green-shaded desk lamp on the counter, with cold blue-grey street light through the rain-streaked window. Dust motes in the air.
+Marble worn smooth at the edges, scuffed floorboards, curling paper, brass gone dull. Palette of amber, oak, faded green and slate blue. Cosy and shabby, a place that makes twenty dollars a day on purpose. Quiet unease, not horror.
+Clean composition, no legible text, no watermarks, no signatures.
+```
+
+---
+
+### Curios & Chronicles — The Annex (2nd floor)
+Save as: `location-annex.png` *(optional; Session 0 beat 3f and every downtime scene upstairs)*
+
+```
+A cramped second-floor room above a bookshop: a kitchenette with a single hot plate and a dented kettle, three mismatched armchairs facing each other (one green velvet, one cracked leather, one patterned tweed), a corkboard of takeout menus, and a large whiteboard on the right wall covered in handwriting too small to read and a column of tally marks. A tall window onto a rain-streaked brick wall. Books stacked on the floor beside every chair.
+Warm tungsten lamp light from a floor lamp between two of the chairs, with cold blue-grey daylight from the window across the floorboards. Steam rising from the kettle. A grey cat asleep on the arm of the green chair, facing the room.
+Worn upholstery, scuffed floorboards, chipped mugs, paper curling at the edges of the takeout menus. Palette of amber, oatmeal, faded green and slate blue. Cosy and slightly lived-in to the point of shabby, with the faintest feeling that the room is being watched over. Quiet unease, not horror.
+Clean composition, no legible text, no watermarks, no signatures.
+```
+
+---
+
+### The Fairground Grand — Merton's Locker (Locker 7)
+Save as: `location-merton-locker.png` *(optional; Session 1 beat 5, the emotional centre. Until it exists the TV shows the caption "Locker 7")*
+
+```
+A single dented grey metal staff locker standing open in a dim theater basement corridor, seen from a low three-quarter angle. Inside: a work shirt pressed flat on a wire hanger, a dented steel thermos on the shelf, a paperback western with a pale bus ticket sticking out as a bookmark, and fixed to the inside of the door a small yellowed keychain photograph in a scratched plastic sleeve showing a woman and two small children squinting into sunlight, soft and faded. Beside the locker, on a nail in the cinderblock wall where a man would hang his keys, a worn, dark leather dog collar with a rubbed-smooth brass tag. Other lockers along the corridor are shut.
+Low warm light from a single bare bulb overhead, with a faint amber glow coming from the collar itself and cold blue spill from the stairwell at the far end. Dust in the air.
+Cracked paint, scuffed steel, soft old leather, creased paper, a faint sheen of damp on the floor. Palette of amber, steel grey and faded sepia. Quiet, tender, sad; the sense of a life kept very carefully. Quiet unease, not horror.
+Clean composition, no legible text, no watermarks, no signatures.
+```
+
+---
+
+### Merton — The Reveal (standing, holding the collar)
+Save as: `npc-merton-reveal.png` *(optional but recommended; Session 1 beat 6, the reveal. The existing `npc-merton-true-form.png` shows him crouched and chained with the collar on, so it belongs to the pump-room / Surge-resolved moment, not the reveal)*
+
+```
+A tall figure standing in a dim concrete basement corridor, half man and half enormous black dog: broad hunched shoulders splitting a grey security uniform along every seam, a long dog's jaw, ears flat back, eyes with too much amber light in them, and a man's weary posture. He holds both open hands out in front of him, empty, as if he is about to be asked to give something back. Behind him an open staff locker with a pressed shirt on a hanger and, on a nail beside it, nothing: the empty place where a collar hung. A bare overhead bulb.
+Low cold bulb light from above, a faint amber glow from the collar in his hands lighting his chin and chest, cold blue spill from the stairwell behind the viewer.
+Matted dark fur, split grey cloth, soft old leather, damp concrete. Palette of charcoal, steel blue and a single ember of amber. Not a monster pose: sorrowful, restrained, terrifying only because of how carefully he is holding still. Quiet unease, not horror.
+Clean composition, no legible text, no watermarks, no signatures.
+```
+
+---
+
 ### The Subway — Main Hall
 Save as: `location-subway-main-hall-v2.png` *(v1 = `location-subway-main-hall.png`, the shadow-monster version — keep as an alternate)*
 

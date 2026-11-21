@@ -14,7 +14,10 @@ Updated 2026-11-20. Anything I recommend that only you can do (generate an image
 
 ## Optional before Session 0 (nice to have)
 - [ ] A fairground street image for the Session 1 approach (prompt drafted in the chat; optional — the map and the theater image already cover it).
+- [ ] `location-merton-locker.png` (optional; Session 1 beat 5, the emotional centre; prompt in `Pre-Campaign-Image-Prompts.md` → *Merton's Locker*; until then the TV shows the caption "Locker 7").
 - [ ] `item-hunters-journal.png` close-up (optional; the corkboard image covers it).
+- [ ] `location-curios-interior.png` (optional; the shop floor: ATM gag, S1 Beat 1 and Downtime, every recap; prompt in `Pre-Campaign-Image-Prompts.md` → *The Shop Floor*; until then a caption).
+- [ ] `location-annex.png` (optional; the upstairs room for Session 0 beat 3f and every downtime scene; prompt in `11-Visuals/Pre-Campaign-Image-Prompts.md` → *The Annex*; until then the TV shows the title card with the caption "The Annex").
 - [ ] Zoltar and foley audio — **on hold** until video credits return (`Music-Prompts.md` §Z).
 
 ## Before Session 1
@@ -34,7 +37,9 @@ Updated 2026-11-20. Anything I recommend that only you can do (generate an image
 - [x] **Bestiary** — `docs/review/Gemini-Bestiary-Ideas-Prompt.md` (run; raw result saved as `docs/review/Gemini-Bestiary-Raw-2026-11-20.txt`).
 - [x] **Bestiary source check** (done 2026-11-20: all 40 links live; folklore details marked as adaptations) — `docs/review/Gemini-Bestiary-Source-Check-Prompt.md` (Gemini verified the 40 sources and the living-faith cautions).
 - [x] **World atlas and venues** — `docs/review/Gemini-World-Atlas-Ideas-Prompt.md` (run 2026-11-20; built into `04-Locations/Venues-Bank.md` and `Gazetteer.md`).
-- [ ] **Regression check** after the mock, once the preps are final (Claude will draft the prompt).
+- [ ] **Opus beat-by-beat audit of Sessions 0–3** (plan and ready prompt: `docs/review/Opus-Beat-Audit-Plan.md`; run after the Session 1 mock; GM approves the cost first).
+- [ ] **Regression check** of the fixed Sessions 0–3 — `docs/review/Gemini-Regression-Check-Prompt.md` (drafted 2026-11-21; run it next).
+- [x] **Bestiary slips** (the Anchor Cover Rule for all 40 entries): run 2026-11-21 and applied to `10-Generators/Bestiary.md`; raw result in `docs/review/Gemini-Bestiary-Slips-Raw-2026-11-21.txt`.
 - [ ] A cross-check of the Opus content bank in `docs/review/draft-content/` once it is triaged.
 
 ## Decisions waiting on you

@@ -30,3 +30,4 @@ purpose: "The GM-side routine for the week between sessions, so a weekly 2–3 h
 ## Monthly
 - [ ] Refresh the **Living Finale Envelope** (`Express-Ending-Kit.md` §6) after every mid-arc climax.
 - [ ] Check the Score Catalog §E dread budget over the last ten sessions.
+- [ ] **Repo size:** run `du -sh .git` in the campaign repo (it was ~1.0 GB on 2026-11-20; GitHub recommends staying under 1 GB and asks for a trim around 5 GB). Media (images, music, covers) is deliberately kept in git for now. **Trigger to act: at about 1.5 GB**, tell the Co-GM to move new media to Google Drive (git-ignore `_Saved-Images`, `_Saved-Music`, `_Album-Covers`; back them up with Drive for desktop). Note: git-ignoring stops *growth*; shrinking existing history needs a history rewrite, which is the GM's call.

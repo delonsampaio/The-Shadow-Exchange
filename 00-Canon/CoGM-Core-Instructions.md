@@ -76,10 +76,19 @@ window.SCENE = {
 | Session start (after Boot, while the table settles) | `card` style `recap`: title "Previously…", 1–2 short lines + at most 2 `bullets`, written **only from the public player recap** (the one published to the wiki) — never from prep notes, Campaign-Arc, or GM-only tells. The first beat's update sets `card: null`. Skip it for Session 0/1 (nothing to recap). |
 | Free play / planning / Downtime | optional `crew: { heat, coin, rep }` strip; set `crew: null` the moment a score starts. **Whenever you push a `crew` op to the dashboard, update `scene.js` `crew` in the same step if the strip is showing, so the TV and the GM's numbers never drift.** The dashboard has an "On the TV" line that shows what `scene.js` currently holds (card, crew strip, clocks); a red line means a crew strip is up during a public clock — clear it. Only those three public keys exist — never add a hidden faction clock or Wanted level |
 | A comedy beat (Ruh-Roh, Boo, Gerald) | `banner` (+ increment `bannerId` to re-fire the same text; clear to `null` after) |
-| Detection / Surge / Audit moves | `clocks` (never include the Omen). When a clock's `cur` goes up the page pulses it automatically — no extra field or write needed |
+| Detection / Surge / Subdue moves | `clocks` (never include the Omen, and never the **Ministry Audit: GM-secret until S4**). When a clock's `cur` goes up the page pulses it automatically — no extra field or write needed |
 | Returning to a neutral moment | `card: null`, `banner: null` |
 
 **Physical TV (GM, 2026-11-18):** 75-inch screen, ~10 ft from the table. Keep each card to ~8 short lines (cards do not scroll; overflow spills), and banners short (about 20 characters fits on one line; longer wraps). **Do NOT put on the TV:** Position/Effect tags, roll results, "where we are" objective lines, per-player Stress/Harm, an initiative tracker, a permanent map — Gemini's review agreed these cost a mid-beat write each and lag behind the table (Position/Effect belongs on the printed table card: `11-Visuals/handouts/Table-Card.pdf`, source `Table-Card.html`).
+
+**TV policy for unscripted cards (GM request 2026-11-21)** — a card may appear when the fiction produces a *document*, scripted or not (a player searches a desk and finds a note; reads a plaque; opens a letter; is handed a form; a text arrives). The test: **(1) could the characters read these exact words in front of them, and (2) is every word safe for all three players to see at once?** Both yes → show a `card` (style `note` / `contract` / `newspaper` / `sign`), built **only from what the characters can see**; one card at a time; ≤8 short lines; clear it (`card:null`) when the beat moves on. Otherwise **it does not go on the TV**:
+- *A secret inside the document* (a hidden meaning, a name that gives the game away): show only the surface text, with redactions as `████`; if the whole text is secret, read aloud only what the characters understand.
+- *Information only one PC perceives* (an Heirloom symptom, a private hunch, a voice only one hears): a `READ ALOUD` addressed to that player, or a slip of paper: write the text for the GM to hand over; never the TV.
+- *GM-only reasoning, tells, the Omen, hidden clocks, roll results, outcomes, who someone really is:* never (this is the dashboard's job).
+- *No picture and no document* (a spoken or atmospheric moment): no card; keep the caption only (`image: null`, a caption for the place). Never leave the last image or card up.
+- During a 🔴 / 🔵 beat a card is allowed only if it is a calm, in-fiction document; no banners.
+- **Clocks on the TV:** the first time any clock appears, say one line about it in the same beat (what it is, what fills it, what happens when it fills; Ladder card 17), whether or not the prep wrote it. Never put a secret clock (the Omen, hidden Decay) on the TV.
+Log any improvised card on the dashboard (`gag` or a `[Change: …]` line) so it can come back.
 
 **Image generated on the fly:** save to `_Saved-Images/`, then point `image` at it. **Missing asset:** leave `image` null, show a `caption`, and output `[IMAGE CUE: filename.png — not yet generated]`.
 

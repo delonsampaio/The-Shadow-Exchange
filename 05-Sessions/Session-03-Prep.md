@@ -4,7 +4,7 @@ session_number: 3
 title: "Tea and Consequences"
 status: Prep
 goal: "Extract the anchor item from a haunted house — and deal with the ghost, who has been dead for forty years and has opinions about it."
-mechanical_focus: "TEACH: Entanglements, Acquire Assets, Push Yourself. REINFORCE everything prior. DEFER: Harm tables, XP, Load. (See 00-Canon/Mechanics-Teaching-Ladder.md.)"
+mechanical_focus: "TEACH: Entanglements, Acquire Assets, Push Yourself. REINFORCE everything prior. DEFER: Harm tables, XP. Load was taught in S1. The Ministry Audit clock stays GM-secret until S4. (See 00-Canon/Mechanics-Teaching-Ladder.md.)"
 ---
 
 # Session 3 — Tea and Consequences
@@ -16,8 +16,8 @@ mechanical_focus: "TEACH: Entanglements, Acquire Assets, Push Yourself. REINFORC
 
 ## RUN SHEET (read this first)
 
-**Time budget:** Cold open 5 → Fallout/free play 10 → *(optional Subway second visit 15)* → Briefing + new mechanics 15 → Approach 5 → Entry + first contact 20 → The House (jars, tea, Mabel) 35 → Agnes 10 → **The Moral Pivot 20** → Return + Thorne's call 10 → Downtime 20 → Close 5.
-**Cut-list if running long:** 1) Stalls's pitch (already optional); 2) the Subway second visit; 3) the Inspection grading question; 4) Acquire Assets (offer one item only); 5) the Fake-Out Haunt's "make the noise" question.
+**Time budget:** Cold open 5 → Fallout/free play 10 → *(optional Subway second visit 15)* → Briefing + new mechanics 15 → Approach 5 → Entry + first contact 20 → The House (jars, tea, Mabel) 35 → Agnes 10 → **The Moral Pivot 20** → Return + Downtime 20 → Omen + Thorne's call 10 → Close 5.
+**Cut-list if running long:** 1) Stalls's pitch (already optional); 2) the Subway second visit; 3) the Inspection grading question; 4) Acquire Assets (offer one item only; **keep the Parish Records available**, or Option B has no way in); 5) the Fake-Out Haunt's "make the noise" question.
 
 | # | Beat | Trigger | 🎵 Music | 🖼 Image | 🎭 Comedy | Teaches |
 |---|---|---|---|---|---|---|
@@ -28,10 +28,10 @@ mechanical_focus: "TEACH: Entanglements, Acquire Assets, Push Yourself. REINFORC
 | 4 | First contact | "go" | `music-ashby-interior` ❌ *(+ SFX overlay `music-sting-boo` ❌ at the fake-out)* | `location-ashby-interior` ✅ *(optional)* → `npc-mabel-ashby-alive` ✅ | **The fake-out haunt** | Devil's Bargains |
 | 5 | The Grief Jars | inline | *(continues: `music-ashby-interior`)* | `item-grief-jars` ✅ | The hum | Flashback / Resist |
 | 6 | Agnes | "go" | `music-comic-interlude` | `npc-agnes-pell` ✅ | The tureen | — |
-| 7 | **The Moral Pivot** | "go" | `music-s01-the-choice` | `npc-mabel-ashby-wraith` ✅ → `item-mabel-knitting-needle` ✅ *(optional, at the Extraction)* | 🔴 none | **Anchor Ledger** |
-| 8 | The Return | "go" | `music-bookshop-loop` | — | — | — |
-| 8b | Downtime + Omen + Thorne's call | after the Return | `music-bookshop-loop` *(continues)* | — | Greta's forms | Downtime, **Heat** *(Tell 5)* |
-| 9 | Close | end | `music-bookshop-loop` *(continues)* + `music-sting-fortune-card` ❌ · Zoltar voice ❌ *(on hold)* | *(Zoltar card on Player Screen)* | Zoltar | — |
+| 7 | **The Moral Pivot** | "go" | `music-s01-the-choice` | `npc-mabel-ashby-alive` ✅ *(clears Agnes)* → `npc-mabel-ashby-wraith` ✅ *(as she thins)* → `item-mabel-knitting-needle` ✅ *(optional, at the Extraction)* | 🔴 none | **Anchor Ledger** |
+| 8 | The Return | "go" | `music-bookshop-loop` | `location-curios-exterior` *(clears Mabel)* | — | — |
+| 8b | Downtime + Omen + Thorne's call | after the Return | `music-bookshop-loop` *(continues)* | `location-curios-exterior` → caption "Thorne's call" | Greta's forms | Downtime, **Heat** *(Tell 5)* |
+| 9 | Close | end | `music-bookshop-loop` *(continues)* + `music-sting-fortune-card` ❌ · Zoltar voice ❌ *(on hold)* | `location-curios-exterior` + Zoltar card | Zoltar | — |
 
 **Asset status:** ❌ = prompt exists in `11-Visuals/` but not yet generated (see `ASSET-TODO.md`). **Optional extra:** `npc-drennick-foss` ✅ for the Apex Aegis beat, only if a noise complication brings them to the door.
 
@@ -48,7 +48,7 @@ mechanical_focus: "TEACH: Entanglements, Acquire Assets, Push Yourself. REINFORC
 > **[AI FILLS IN AFTER SESSION 2]**
 > *Cover: the Emmerich job — what the crew chose about the thimble, the first walk into the Subway, what PTOLEMY charged them for. End on the bookshop clock running four minutes slow.*
 
-> **Remember:**
+> 🔊 **READ ALOUD (continued, the bullets are read too):** **Remember:**
 > * **[AI FILLS IN]** — thimble disposition and Twice-Born standing (Enmity, Favor, or Ambivalence)
 > * **[AI FILLS IN]** — what PTOLEMY charged each PC, and the shop clock running four minutes slow *(mention a Thorne detail ONLY if a player explicitly caught and questioned it in Session 2)*
 
@@ -94,8 +94,8 @@ mechanical_focus: "TEACH: Entanglements, Acquire Assets, Push Yourself. REINFORC
 - 🔊 **The turnstile exit (roll a d6):** "The turnstile lets you out somewhere different each time." *(Best result: "…your own front door.")*
 - 🎭 **Cosma's coat:** 🔊 "Cosma produces a 1987 transit schedule from a pocket." 🗣 **SAY** *(Cosma — warm, certain)*: *"For exactly this."* 🔊 "It does not come up. Later, a second pocket produces something that does."
 - 🎭 **The Conductor:** 🗣 **SAY** *(a flat, tired tannoy)*: *"Passenger [PC name]: your train is delayed."*
-- 🎭 **Dev's café:** 🔊 "Dev serves a flat white to a creature with no mouth."
-- 🎭 **Officer Bram:** 🗣 **SAY** *(Bram — solemn, at length)*: *"Loitering with intent. I have views."*
+- 🎭 **Dev's café:** 🔊 "A tiny espresso bar under an archway: Dev behind the counter, who serves a flat white to a creature with no mouth."
+- 🎭 **Officer Bram:** 🔊 "A transit cop in an unidentifiable 1970s uniform, notebook out." 🗣 **SAY** *(Bram — solemn, at length)*: *"Loitering with intent. I have views."*
 - 🎭 **PTOLEMY's second charge (the funny ones now):** 🗣 **SAY** *(PTOLEMY, through the clasps — flat and patient; one per PC)*: *"The ledger charges you: the name of your first pet — and the pet's opinion of you."* · *"…the exact sound you make when you laugh at something you shouldn't."* · *"…the weight of your grudges, in pounds."* · *"…a promise to return a borrowed umbrella to someone you haven't met."*
 - 🔒 **One thing that *costs*:** a rumor, a Favor, or PTOLEMY's second charge. **Reminder:** the Broker is still **not** a deal — one nod, nothing more.
 
@@ -143,25 +143,26 @@ mechanical_focus: "TEACH: Entanglements, Acquire Assets, Push Yourself. REINFORC
 
 🗣 **SAY** *(explain it first)*: *"After a score, the crew rolls to see whether the Heat they've built up has attracted attention. That's called an **Entanglement** — a problem that finds you before you can go to work. We'll roll one now, before the job, so you can see how it works."*
 ❓ **ASK THE GM TO ROLL:** *"Roll the Entanglement for the crew."* *(SRD: dice = Wanted level; Wanted 0 → roll two dice and keep the **lowest**. Then read the column for current Heat: 0–3 / 4–5 / 6+. Result table: `07-Clocks/Heat-and-Entanglements.md` §2.)* ⏸ **REACTION STOP — next part depends on:** the result. Read only the matching line.
-> → **1–2:** 🔊 **READ ALOUD** "A Ministry sub-contractor has heard about your crew and wants a referral fee. They are polite. The paperwork will take weeks."
-> → **3–4:** 🔊 **READ ALOUD** "An Apex Aegis officer stops by the shop. Not about anything specific. Just questions. They have a clipboard."
-> → **5–6:** 🔊 **READ ALOUD** "Someone has been reviewing the shop's invoice receipts."
-> 🔒 **GM ONLY:** **[Clock: The Ministry Audit]** ticks one segment.
+> *(Read the column for the crew's **current Heat** (0–3 / 4–5 / 6+) in `07-Clocks/Heat-and-Entanglements.md` §2 and use that row's city skin and ways out. The examples below are the **0–3 column** only.)*
+> → **1–3 (Gang Trouble / The Usual Suspects):** 🔊 **READ ALOUD** "A Ministry sub-contractor has heard about your crew and wants a referral fee. They are polite. The paperwork will take weeks."
+> → **4–5 (Rivals / Unquiet Dead):** 🔊 **READ ALOUD** "An Apex Aegis officer stops by the shop. Not about anything specific. Just questions. They have a clipboard."
+> → **6 (Cooperation):** 🔊 **READ ALOUD** "A quiet night: nobody comes calling." *(With no +3 faction, no entanglement.)*
+> 🔒 **GM ONLY:** tick **[Clock: The Ministry Audit]** one segment **behind the screen** only on a **Ministry** entanglement (Usual Suspects, Questioning, Interrogation, Arrest). It is GM-secret until S4: never on the TV, never explained.
 > 🔒 **GM ONLY:** **Heat** is what the players see; at Heat 9 the crew gains +1 **Wanted** level and Heat clears (SRD; see `00-Canon/House-Rules.md`). The GM never rolls against the players — the only GM dice are the Entanglement and fortune rolls.
 
 ---
 
 ### Acquire Assets
 
-🗣 **SAY** *(explain it first)*: *"Before you head in, one of you can **Acquire an Asset** — borrowed gear, a service, or records for this job. Tonight it's a free practice run; normally it costs a Downtime activity."*
+🗣 **SAY** *(explain it first; examples: "borrowed salt and a dampener", "the parish records on the house", "a photograph from the archive")*: *"Before you head in, one of you can **Acquire an Asset** — borrowed gear, a service, or records for this job. Tonight it's a free practice run; normally it costs a Downtime activity."*
 🗣 **SAY** *(how it works — short)*: *"Roll your crew's Tier — at Tier 0, roll two dice and take the lower. A 1 to 3 gives you something a level below your Tier, a 4 or 5 matches your Tier, and a 6 is a level above. You can spend 1 Coin after the roll to raise the result a step, and a friend or contact who helps gives you +1 die."*
 ❓ **ASK THE TABLE:** *"Does anyone want to acquire something for this job?"* ⏸ **REACTION STOP — next part depends on:** what they ask for.
 
 > 🔒 **GM ONLY — suggested assets for this score:**
 > * **Resonance Dampener** (quality 0 — easy: any 4–5) — muffles spectral activity in a small area. Mrs. Ashby will notice it and ask where they got it.
 > * **Salt Barrier Components** (quality 0 — easy) — standard wraith deterrent. Mrs. Ashby has opinions about salt on her floors.
-> * **Parish Records: Ashby, M.** (quality 1 — needs a 6 at Tier 0; **or** spend 1 Coin to bump a 4–5; **or** have Greta or Harlan help for +1d) — marriage certificate, death record (1986), property deed history. Reveals Thomas Ashby died in 1991. This is the key to Option B.
-> * **Period Photograph, 1952** (quality 1 — same routes) — shows the house and garden. Something in the garden is different. Mrs. Ashby will not explain what.
+> * **Parish Records: Ashby, M.** (quality 1 — needs a 6 at Tier 0; **or** spend 1 Coin to bump a 4–5; **or** have Greta or a PC's Friend help for +1d; Harlan counts only if a PC named him as a Friend) — marriage certificate, death record (1986), property deed history. Reveals Thomas Ashby died in 1991. This is the key to Option B.
+> * **Period Photograph, 1952** (quality 1 — same routes) — shows the house and garden. A rosebush Thomas planted beside the porch stands in the 1952 picture and is gone now. Mrs. Ashby will not explain it.
 
 ---
 
@@ -182,23 +183,24 @@ mechanical_focus: "TEACH: Entanglements, Acquire Assets, Push Yourself. REINFORC
 > 🔊 **READ ALOUD:**
 > "The Ashby house is on a street that has mostly kept up with the century. The Ashby house has not. The ivy is managed — someone trims it. There is a light on in the upper right room. The front path has been swept recently."
 
-> 🎭 **COMEDY BEAT — The Door (🟡):**
-> 🔊 **READ ALOUD:** "The front door is unlocked. It opens before anyone knocks. There is no one behind it."
-> 🗣 **SAY** *(Mabel — from somewhere upstairs, unhurried, as if you were late)*: *"I'll be down in a moment. Put the kettle on."*
-
 ### Approaches to Entry
 🗣 **SAY** *(the menu — one per line)*:
 > "**Walk in** — she invited you; the door is already open.
 > **Breach and clear** — fast and loud; good if you expect a fight.
 > **Watch first** — from outside; good if you want to know what you are walking into."
+> 🔒 **GM ONLY — IF THEY STALL:** at 2 minutes 🗣 **SAY** *"Steal one or give me your own."* **Walk in:** *"knock first anyway"* · *"let the friendliest one lead"* · *"leave the kit in the van"*. **Breach and clear:** *"the back door while one of you distracts the front"* · *"cut the porch light"* · *"the kit stays under the coats"*. **Watch first:** *"one of you around the back"* · *"photograph the clocks"* · *"listen at the mail slot"*. **A Friend or a weak-point detail: +1 die; a tangled plan: −1.** Still stuck: *walk in* (Controlled / Standard). Load: *"same as before: Light, Normal or Heavy?"*
 
 ❓ **ASK THE TABLE:** *"How do you go in?"* ⏸ **REACTION STOP — next part depends on:** their choice.
 > → **If they watch first (and the roll succeeds):** 🔊 **READ ALOUD** *"Through the front window you can see a mantel clock; it reads 11:47. So does the wall clock behind it, and so does the one on the stove. The curtains move when you look at them directly, but not when you look at the window. A teacup sits on the porch railing — dry, and it was not there this morning."* *(🔒 Only if a PC asks the neighbor across the street: she is not surprised, and says so.)*
+> 🔒 **GM ONLY:** *if they attack on sight, use the IF THEY FIGHT block at the Moral Pivot (Beat 7).*
 > 🔒 **GM ONLY — Position / Effect (say them out loud every roll):**
 > 1. **Walk in:** Controlled / Standard. Complication: she has already decided what the crew is there for and has set out biscuits.
 > 2. **Breach and clear:** Risky / Standard. Devil's Bargain: she lets them get three steps inside, then turns off every light in the house at once.
-> 3. **Watch first:** Controlled / Limited. On a success, read the **"Watch first" passage** below.
+> 3. **Watch first:** Controlled / Limited. On a success, read the **"Watch first" passage** above.
 
+> 🎭 **COMEDY BEAT — The Door (🟡)** *(read it after they choose and move up the path, on every approach; on "Breach", they reach for the lock and it is already open)*:
+> 🔊 **READ ALOUD:** "The front door is unlocked. It opens before anyone knocks. There is no one behind it. Every clock you can see in the hall reads 11:47."
+> 🗣 **SAY** *(Mabel — from somewhere upstairs, unhurried, as if you were late)*: *"I'll be down in a moment. Put the kettle on."*
 ---
 
 ## First Contact — Mrs. Ashby
@@ -257,7 +259,7 @@ mechanical_focus: "TEACH: Entanglements, Acquire Assets, Push Yourself. REINFORC
 
 ### Read Aloud (The Cabinet)
 > 🔊 **READ ALOUD:**
-> "The cabinet in the kitchen is labeled **PRIVATE** in capital letters, in the handwriting of someone who meant it. Inside: forty-three small glass jars, each hand-labeled. *Tuesday, 1978. Thomas's birthday, the good one. The argument about the curtains — I was right. March.* They are sealed with wax. The jars are warm."
+> "The cabinet in the kitchen is labeled **PRIVATE** in capital letters, in the handwriting of someone who meant it. Inside: forty-three small glass jars, each hand-labeled. *Tuesday, 1978. Thomas's birthday, the good one. The argument about the curtains — I was right. March. November, 1991 — the quiet one.* They are sealed with wax. The jars are warm."
 
 > 🔒 **GM ONLY:** do **not** open a jar for the crew. A die result or a deliberate player choice does it. When one opens, pick the jar and read its memory below *(tender, sensory, twenty to thirty seconds; it is not dangerous)*.
 
@@ -265,13 +267,14 @@ mechanical_focus: "TEACH: Entanglements, Acquire Assets, Push Yourself. REINFORC
 🔊 **READ ALOUD — the memory** *(read only the jar that opened)*:
 > - **"Tuesday, 1978":** "A kitchen. Someone is singing badly in the next room. Something is burning slightly, and no one has corrected it. You feel completely content."
 > - **"Thomas's birthday, the good one":** "He doesn't like the cake. You know he doesn't. He eats three pieces anyway. You don't talk about it. You never have to."
+> - **"November, 1991 — the quiet one":** "A kitchen. The kettle is going. A chair across the table is pulled out a little, as if someone has just stood up; a man's coat is folded over its back. The front door closes on the last morning anyone else lived here. You understand Thomas is gone, and that she has been making his tea since."
 > - **"The argument about the curtains":** "You are right about the curtains. They do look better on the east window. You aren't in the memory — only the curtains."
 
 🗣 **SAY** *(Mabel — from elsewhere in the house, without raising her voice)*: *"Put that back."* ⏸ **REACTION STOP — next part depends on:** whether they put it back.
 
 > 🎭 **COMEDY BEAT — The Hum (🟢):** whoever opened the jar is **infected** with Thomas's terrible, *joyful* singing.
 > 🔊 **READ ALOUD:** "You find you are humming a flat, cheerful, wrong tune, and you can't stop."
-> ❓ **ASK THAT PLAYER:** *"Hum it."* ⏸ **REACTION STOP.** *(Say "the tune" and they hum it again for the rest of the session — even in tense moments.)*
+> ❓ **ASK THAT PLAYER:** *"Hum it."* ⏸ **REACTION STOP.** *(Say "the tune" and they may hum it again later, **never during the 🔴 Moral Pivot or a fight (Menace Rule)**; both humming prompts are opt-in: "Does anyone…?")*
 > 🗣 **SAY** *(Mabel — from the next room, without surprise)*: *"He never did get the second verse."*
 >
 > 🔒 **GM ONLY:** it has no mechanical effect. It fades after the Pivot — or doesn't, if the crew chooses Option B: the tune stays with that PC as a soft memory.
@@ -288,6 +291,7 @@ mechanical_focus: "TEACH: Entanglements, Acquire Assets, Push Yourself. REINFORC
 
 > 🎭 **COMEDY BEAT — Agnes Arrives (🟢)** — *right after someone opens a Grief Jar, and before the Moral Pivot:*
 > 🔊 **READ ALOUD:** "Someone knocks at the front door."
+> 🔒 **GM ONLY:** if the crew hides or intercepts Agnes, Mabel opens the door herself: 🗣 **SAY** *(Mabel)*: *"Don't be silly, Agnes, come in."*
 > 🗣 **SAY** *(Mabel — without breaking her conversation)*: *"That'll be Agnes."* ⏸ **REACTION STOP — next part depends on:** what the crew does about the door.
 > 🔊 **READ ALOUD:** "Agnes Pell comes in with a large tureen of leek and potato soup. It is still hot. She has brought her own ladle. She sets it on the counter without asking permission, and announces she is staying twenty minutes."
 > 🗣 **SAY** *(Agnes — warm, cheerful, quite oblivious)*: *"I've read about you, you know. In the **Brass Lantern Irregulars.** One of you has — what is it — 'a jaw like a butcher's slab.' I won't say which."*
@@ -312,7 +316,8 @@ mechanical_focus: "TEACH: Entanglements, Acquire Assets, Push Yourself. REINFORC
 > ⏸ **PAUSE — Say "go" when the crew faces the decision.**
 
 **[MUSIC CUE: music-s01-the-choice.mp3]** *(fire on "go")*
-**[IMAGE CUE: npc-mabel-ashby-wraith.png]** ✅ *(show only if she drops the living appearance — she forgets herself)*
+**[IMAGE CUE: npc-mabel-ashby-alive.png]** ✅ *(on "go"; this clears the Agnes image so the 🔴 pivot never plays under her)*
+**[IMAGE CUE: npc-mabel-ashby-wraith.png]** ✅ *(show when she drops the living appearance: she forgets herself, or on Option A as she thins)*
 
 > 🔒 **GM ONLY:** she will eventually ask, directly or indirectly, why they are here. She already knows. She is giving them the chance to be honest. If they are, she listens. She does not argue. She makes tea. **The moral pivot is whether the crew tells her about Thomas.** Do not joke here.
 
@@ -330,16 +335,19 @@ mechanical_focus: "TEACH: Entanglements, Acquire Assets, Push Yourself. REINFORC
 
 > 🔒 **GM ONLY — what each option does:**
 > * **A — Extract the needle:** Mabel loses cohesion; the dissipation takes a few minutes. The Grief Jars are worth serious Coin to collectors and alchemists. Greta files Form 88-D (completed). Full Ministry payout; standard **Coin**.
-> * **B — Tell her about Thomas:** requires **Parish Records** (Acquire Assets) or a **Critical Success on Study or Attune.** She has known since 1991 (she stopped pretending in 1994); she just has not been ready. Telling her gives her permission she will not give herself. The needle stays. No Ministry payout — but the Twice-Born hear. **+1 Twice-Born Favor** (wraiths are not Twice-Born, but the community remembers who treats the dead with courtesy). She leaves the Grief Jars to the crew specifically.
+> * **B — Tell her about Thomas:** requires **Parish Records** (Acquire Assets), the **November 1991 jar** (or any jar, if the table pieces it together), or a **Critical Success on Study or Attune.** She has known since 1991 (she stopped pretending in 1994); she just has not been ready. Telling her gives her permission she will not give herself. The needle stays. No Ministry payout — but the Twice-Born hear. **+1 Twice-Born Favor** (wraiths are not Twice-Born, but the community remembers who treats the dead with courtesy). She leaves the Grief Jars to the crew specifically.
+> 🔒 **GM ONLY — IF THEY FIGHT (allowed; added 2026-11-21).** *No jokes at the moment of harm.* **Mabel:** blows pass through her; only the needle, salt or iron touch her. If attacked she goes cold: **Desperate, Level 1 cold harm**. "Killing" her means taking the needle by force (Option A, but violent): the Twice-Born note it (**−1 standing**), and Agnes hears. **Drennick & Foss** (if they appear): **Skirmish is Desperate / Limited** (armour), blows **Level 2 harm**; a kill is **+2 Heat, Apex −2** and a Wanted check, with Cleaners later. Offer Resistance first; offer the other doors once.
 > * **C — Leave her alone:** this is not a joke. Renwick Stalls has seventeen follow-up questions; Greta has a form for incomplete extraction. Partial Coin and one complication of the GM's choice.
 
 ### Choice-Specific Read Alouds
 **[IMAGE CUE: item-mabel-knitting-needle.png]** ✅ *(optional — show with The Extraction read-aloud only, after the table has chosen to take the needle)*
-* **The Extraction:** "She sits in the chair by the window and folds her hands in her lap. The needle comes out of her hair easily — warmer than it should be, much warmer. The knitting falls off the basket needles. She does not look at it."
-* **The Telling:** "'I know,' she says. Very quietly. 'I've known for a long time.' A pause. 'He was terrible at curtains, you know. Completely wrong about curtains.' She smiles. Then she isn't there anymore."
-* **The Withdrawal:** "She sees you to the door. She offers biscuits for the road. She has already wrapped them."
+* **The Extraction:** 🔊 **READ ALOUD:** "She sits in the chair by the window and folds her hands in her lap. The needle comes out of her hair easily — warmer than it should be, much warmer. The knitting falls off the basket needles. She does not look at it. The light goes through her. She is thinner each time you look."
+* **The Telling:** 🔊 **READ ALOUD:** "'I know,' she says. Very quietly. 'I've known for a long time.' A pause. 'He was terrible at curtains, you know. Completely wrong about curtains.' She smiles. Then she isn't there anymore."
+* **The Withdrawal:** 🔊 **READ ALOUD:** "She sees you to the door. She offers biscuits for the road. She has already wrapped them."
 
 ---
+
+> 🗣 **SAY** *(teach PUSH YOURSELF at the first Risky or Desperate roll inside the house, right before a player rolls; Ladder)*: *"One more tool: you can **push yourself**. Take 2 Stress, before you roll, for +1 die or +1 effect."*
 
 ## Devil's Bargain Menu (Session-Specific)
 🗣 **SAY** *(only when a player is about to roll and has not chosen yet; offer **one** at a time, straight-faced — the premise is the joke)*: *"Before you roll: I can give you +1 die. The price happens **whatever the roll** turns out to be. Here's the price:"* — then read **one** line below, and:
@@ -381,7 +389,7 @@ mechanical_focus: "TEACH: Entanglements, Acquire Assets, Push Yourself. REINFORC
 > → **If the crew left Mabel alone (C):** 🔊 **READ ALOUD** "Behind you, in the house on the hill, a lamp is still on in the upper right window. Next Thursday, Agnes Pell will bring soup."
 
 ### Downtime — After the Ashby House *(run after the Return read-aloud, ~20 min)*
-🗣 **SAY:** *"You're back in the shop. Each of you gets two Downtime activities, and Indulge Vice is one of them. The other can be Recover, Reduce Heat, a Long-Term Project, Train, or Acquire Asset. Extras cost 1 Coin or 1 Rep."*
+🗣 **SAY:** *"You're back in the shop. Each of you gets two Downtime activities, any two: Indulge Vice (a good pick if you're carrying Stress), Recover, Reduce Heat, a Long-Term Project, Train, or Acquire Asset. Extras cost 1 Coin or 1 Rep."*
 ❓ **ASK EACH PLAYER** *(one at a time)*: *"What does your character do?"* ⏸ **REACTION STOP.**
 
 > 🔒 **GM ONLY — HEAT:** Quiet resolution **+0** · Loud, or Drennick & Foss came to the door **+2** · Left Mabel alone (Option C) **+1** (Stalls complains to the Ministry) · Double Bookkeeping failed **+1**.
@@ -390,17 +398,20 @@ mechanical_focus: "TEACH: Entanglements, Acquire Assets, Push Yourself. REINFORC
 > → **If they took the needle (Option A):** 🔊 **READ ALOUD** *"Greta files Form 88-D and hands back the shop's half-knitted sweater. It is finished. It has three sleeves."* 🗣 **SAY** *(Greta — dry, unbothered)*: *"The pattern was ambiguous."* ⏸ **REACTION STOP.**
 > → **If they told Mabel (B) or left her (C):** 🔊 **READ ALOUD** *"Greta puts a form on the counter: Form 31, Incomplete Engagement — Spectral Subject Declined Removal."* 🗣 **SAY** *(Greta — mild, professional)*: *"Who had the tea?"* ⏸ **REACTION STOP.**
 > **Grief Jars** (if bequeathed or taken): log in `08-Loot-and-Anchors/Inventory.md` — worth **4 Coin** to alchemists, or keep for **+1d Consort/Attune with ghosts**.
-> **Next:** roll the **Entanglement** at the start of Session 4's Downtime (every score; Heat sets the dice — see Entanglements above).
+> **Next:** roll the **Entanglement** at the start of Session 4's Downtime (every score; Wanted sets the dice, Heat sets the column — see Entanglements above).
+
+> 🔊 **READ ALOUD** *(only if a PC looks out of the shop window; one line, no name, no face)*: "Across the street, a worn canvas jacket on a stoop, and a notebook. The woman writing in it glances up at the shop, then at you, then goes."
+> 🔒 **GM ONLY — PURPOSE:** Mara Halliday, Reappearance Stage 1 again (Coincidence). A plant for the cost of the cover-up; not a Subway hint. Never show her face on the TV.
 
 > 🔵 **THE OMEN — symptom only, never named (Session 3):**
-> 🔊 **READ ALOUD:** "One of you notices: the bookshop clock didn't just run slow this morning. It stopped completely at 11:47 last night. It has started again now. No one was in the shop overnight."
+> 🔊 **READ ALOUD:** "One of you notices: the bookshop clock didn't just run slow this morning. It stopped completely at 11:47 last night. It has started again now. No one touched it."
 > 🔒 **GM ONLY:** do not explain it. Tick **The Omen** one segment (secret).
 
 ### The Evening Call — Thorne's Tell 5
 > 🔊 **READ ALOUD:** "The rotary phone rings."
 > ❓ **ASK THE TABLE:** *"Who answers?"* ⏸ **REACTION STOP.**
-> 🗣 **SAY** *(Thorne — warm, easy)*: *"I heard about the Ashby house. Whatever you decided — that one was a hard sell for the neighbors."* *(Option A: say "Heard you cleared the Ashby house. Well done.")*
-> 🗣 **SAY** *(Thorne — a shade too casual)*: *"And I hear you made it back from the pier all right the other night."*
+> 🗣 **SAY** *(Thorne — warm, easy)*: *"I heard about the Ashby house. Whatever you decided, I hope it was kind to the neighbors."* *(Option A: say "Heard you cleared the Ashby house. Well done.")*
+> 🗣 **SAY** *(Thorne — a shade too casual)*: *"And I hear you came up on the eastern pier all right, after the Meridian."* *(If a PC already told him about the pier on the S2 call, swap in: **"Nothing down there but the old drainage tunnels"**; nobody mentioned tunnels.)*
 > ⏸ **REACTION STOP — next part depends on:** whether the player questions how he knows about the pier.
 > → **If they don't challenge it:** 🗣 **SAY** *(Thorne — warm)*: *"Good night, then."* 🔊 **READ ALOUD** *"The line clicks off."*
 > → **If they challenge it:** 🗣 **SAY** *(Thorne — smooth)*: *"It was in the Meridian report."* 🔊 **READ ALOUD** *"The line is silent for one second."*

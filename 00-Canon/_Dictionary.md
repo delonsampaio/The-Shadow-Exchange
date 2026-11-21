@@ -9,7 +9,7 @@ name: "Campaign Dictionary"
 
 Strict definitions of homebrew concepts. These mechanics must never be conflated with generic fantasy tropes.
 
-* **Anchor:** An everyday object tying a supernatural entity to the physical world. It always has a human cost or memory attached to it. Seizing it is a transaction with a person, not just taking loot.
+* **Anchor:** An everyday object tying a supernatural entity to the physical world **and to its human cover**: while it is whole and near, the entity holds its mundane shape and life; separated, the cover slips (see `10-Generators/Three-Layer-Monster.md` → Anchor Cover Rule). It always has a human cost or memory attached to it. Seizing it is a transaction with a person, not just taking loot.
 * **Biological:** A physical, harvestable piece of a supernatural entity. Highly valuable but rots quickly. Must be stored in a Cold Storage Locker or it triggers a Spoilage Clock.
 * **Crossroads Broker:** An entity that offers exactly what the crew wants but takes something they will miss later. The cost is tracked in the Crossroads Cost Ledger.
 * **Double Bookkeeping:** A specialized crew ability to successfully fudge Ministry paperwork, allowing the crew to skim an Anchor, Relic, or Biological off a government bounty without detection.

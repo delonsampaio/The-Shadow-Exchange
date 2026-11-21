@@ -44,6 +44,11 @@ purpose: "Everything still to generate, in priority order, with the exact filena
 | ✅ | `location-scanner-station.png` | S0 beat 3d (the green lamp; keeps the AM-man mystery) |
 | ✅ | `location-corkboard-wall.png` | S0 beat 3e (polaroids + the journal on its stand) |
 | ☐ | `item-hunters-journal.png` | S0 beat 3e (optional close-up; the red-ink page) |
+| ☐ | `npc-merton-reveal.png` 🆕 | S1 beat 6 (the reveal: standing, holding the collar). Prompt: Pre-Campaign-Image-Prompts → *Merton — The Reveal*. Keep `npc-merton-true-form.png` for the pump-room / chained moment |
+| ☐ | `location-merton-locker.png` 🆕 | S1 beat 5 (optional; the locker, the keychain photo and the collar on its nail). Prompt: Pre-Campaign-Image-Prompts → *Merton's Locker*. Until it exists the TV shows the caption "Locker 7" |
+| ☐ | `npc-merton-corridor.png`, `npc-elias-thorne-street.png` (coffee cups, café), `location-emmerichs-shop-day.png` (second floor, daytime, child and mother) 🆕 | S1 beat 5b; S2 beats 3 and 4 (optional; the existing images mismatch their read-alouds; captions until then). Prompts to write |
+| ☐ | `location-curios-interior.png` 🆕 | S0 beat 3a (ATM gag), S1 beat 1 and Downtime, every recap/downtime scene (optional; the shop floor). Prompt: Pre-Campaign-Image-Prompts → *The Shop Floor*. Until it exists: title card + caption |
+| ☐ | `location-annex.png` 🆕 | S0 beat 3f (optional; TV while upstairs) and every Annex/downtime scene. Prompt: Pre-Campaign-Image-Prompts → *The Annex*. Until it exists the TV shows the title card with the caption "The Annex" |
 
 **Subway hall (2026-11-17):** main image `location-subway-main-hall.png` = the darker green version (v2a). Alternates kept in `_Saved-Images/`: `-shadow` (the monster-shadow version, good for a later visit), `-v2b` (the brighter option; v2a = the main image). Known gaps in v2a: backwards shoes / extra fingers / wrong-way shadow did not render — the read-aloud carries them.
 

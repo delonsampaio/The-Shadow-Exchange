@@ -19,13 +19,16 @@ anchor_item: "[Item: Leather Dog Collar] (1823)"
 2. **True Nature:** a **Barghest**. Anchor: the **Leather Dog Collar** (1823). *Holy Weakness:* severing the collar removes his armor and drops his threat to zero. *Surge:* nightly, near midnight.
 3. **Tragic Angle:** summoned without consent in 1823. The woman and two children in his keychain photo died 150 years ago; the photograph is how he stays *someone's.* The summoner is long dead; no one can undo it.
 
+## How the collar works *(GM ruling 2026-11-21)*
+The collar is his **Anchor** (see the Anchor Cover Rule in `Three-Layer-Monster.md`), not a disguise: he does **not** have to wear it. While it is whole and within his reach (on the nail beside his desk) he keeps his human shape, except for the nightly **Surge** near midnight, when the failing binding slips and he changes anyway (he chains himself at the pump-room ring until it passes). If someone **takes the collar away from him**, it *pulls* at him and he changes: that is the Surge starting early. The crack running through the leather beside the brass tag is the failure; **severing it** drops his threat to zero (Holy Weakness). In true form the collar always belongs at his neck: that is why the chained image shows it on him.
+
 ## What he wants
 To get through tonight without hurting anyone — and, very quietly, for someone to ask him how he is.
 
 ## Voice *(tired, courteous, apologetic; never menacing)*
 - *Opening:* "You came for the collar." *(Not a question.)*
 - *To a PC who touches the photograph:* "Please. That's the only one I have."
-- *Mid-Surge, to a PC pinned under a prop:* "I'm so sorry. Mind the sandbag."
+- *In the aftermath (never during the Surge; Menace Rule), to a PC pinned under a prop:* "I'm so sorry. Mind the sandbag."
 - *If soothed:* "Thank you for not saying it's all right."
 - *If the collar is returned:* "...I'd forgotten what quiet felt like."
 - 🎭 *On the fern:* "Doreen's been here longer than the theater's manager. She has seniority."

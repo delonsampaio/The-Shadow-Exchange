@@ -84,7 +84,7 @@ These make the world move between sessions without railroading.
 | 1 | S1 debrief | Uses a PC's first name before introductions | It has been watching them |
 | 2 | S1 debrief | "Your setup in the basement" | It has been inside the shop |
 | 3 | S2 approach | Pauses outside Emmerich's shop | It recognizes Emmerich |
-| 4 | S2 follow-up | "Last Tuesday's conversation" | Memory bleed from a prior face |
+| 4 | S2 follow-up | "Thanks for dropping by my office last Tuesday" (a visit that never happened) | Memory bleed from a prior face |
 | 5 | S3 debrief | Mentions "the pier" the crew surfaced on — a place no one told him about | The Ministry doesn't know the Subway exists; **he does** |
 | 6 | Ongoing | The ring, right hand, too loose | Tamsin Solano's grandmother's ring |
 | 7 *(optional)* | S9–11 | Uses Dasha Lowe's private filing shorthand from the Vantage & Lowe files — something only she and the file know | It has read the file; it has been in the Docks records |

@@ -81,5 +81,18 @@ if os.path.isdir(os.path.join(PLAYERS,'docs')):
             if re.search(w,txt,re.I): sw.append(f'{os.path.relpath(p,PLAYERS)}: /{w}/')
     report("E. secret words in the players' site",sw)
 else: print("• E. skipped (players' repo not found)")
+# F. comedy beats must be labelled read-aloud (the GM never acts anything out)
+fb=[]
+for n in range(0,4):
+    pth=os.path.join(ROOT,f'05-Sessions/Session-0{n}-Prep.md')
+    if not os.path.exists(pth): continue
+    ls=open(pth,encoding='utf-8').read().split('\n')
+    for i,l in enumerate(ls):
+        if 'COMEDY BEAT' in l and '🎭' in l:
+            body=re.sub(r'\*\*\[[^\]]*\]\*\*','',l.split(':**',1)[1] if ':**' in l else '').strip(' >*—-')
+            if len(re.sub(r'\*[^*]*\*','',body).strip())>25 and not re.search(r'READ ALOUD|SAY',l):
+                nxt=' '.join(ls[i+1:i+4])
+                if not re.search(r'READ ALOUD|SAY',nxt): fb.append(f'{rel(pth)}:{i+1}')
+report('F. comedy beats with unlabelled narration (must be 🔊 READ ALOUD or 🗣 SAY)',fb)
 print('\nRESULT:','CLEAN' if bad==0 else f'{bad} issue(s)')
 sys.exit(1 if bad else 0)

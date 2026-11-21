@@ -22,7 +22,7 @@
 
     // Bump SAVE_VERSION whenever the INIT_* constants below are updated at end of session.
     // The dashboard auto-saves to this browser; a refresh will NOT lose state mid-session.
-    const SAVE_VERSION = 'S0-v4';
+    const SAVE_VERSION = 'S0-v8';
     function usePersist(key, init) {
       const k = 'se_' + SAVE_VERSION + '_' + key;
       const [v, setV] = useState(() => {
@@ -47,10 +47,11 @@
       { id: 'det',  name: 'Detection',             total: 4, cur: 0, fill: '#dc2626', secret: false },
       { id: 'surge',name: 'The Surge (S1 only)',   total: 6, cur: 0, fill: '#c2410c', secret: false },
       { id: 'bio',  name: 'Bio Spoilage',          total: 3, cur: 0, fill: '#ea580c', secret: false },
-      { id: 'sub',  name: 'Subway Decay',          total: 6, cur: 0, fill: '#7f1d1d', secret: false },
+      { id: 'sub',  name: 'Subway Decay',          total: 6, cur: 0, fill: '#7f1d1d', secret: true  },
       { id: 'omen', name: 'The Omen',              total: 8, cur: 0, fill: '#7c3aed', secret: true  },
-      { id: 'aud',  name: 'Ministry Audit',        total: 4, cur: 0, fill: '#b45309', secret: false },
-      { id: 'cor',  name: "Innocent's Corruption", total: 4, cur: 0, fill: '#be185d', secret: false },
+      { id: 'aud',  name: 'Ministry Audit (GM-secret until S4)', total: 4, cur: 0, fill: '#b45309', secret: true  },
+      { id: 'subdue',name: 'Subdue (a fight only)', total: 6, cur: 0, fill: '#9a3412', secret: false },
+      { id: 'cor',  name: "Innocent's Corruption", total: 4, cur: 0, fill: '#be185d', secret: true  },
     ];
 
     const INIT_NPCS = [
@@ -73,7 +74,7 @@
       { id: 1, label: '1 · First name before intros (S1)', state: 0 },
       { id: 2, label: '2 · "Your setup in the basement" (S1)', state: 0 },
       { id: 3, label: '3 · Pause outside Emmerich’s (S2)', state: 0 },
-      { id: 4, label: '4 · "Last Tuesday’s conversation" (S2)', state: 0 },
+      { id: 4, label: '4 · "Dropping by my office last Tuesday" (S2)', state: 0 },
       { id: 5, label: '5 · Knows about the pier / Subway (S3)', state: 0 },
       { id: 6, label: '6 · The ring, right hand (ongoing)', state: 0 },
     ];
@@ -91,7 +92,7 @@
       { id: 'pos',   label: 'Position  (S0)',                         state: 0 },
       { id: 'eff',   label: 'Effect  (S0)',                           state: 0 },
       { id: 'str',   label: 'Stress  (S0)',                           state: 0 },
-      { id: 'res',   label: 'Resistance  (S1)',                       state: 0 },
+      { id: 'res',   label: 'Resistance  (S0 practice → S1)',                       state: 0 },
       { id: 'fb',    label: 'Flashback  (S1)',                        state: 0 },
       { id: 'devil', label: "Devil's Bargain  (S1)",                  state: 0 },
       { id: 'vice',  label: 'Vice & Heat (Downtime)  (S1)',           state: 0 },
@@ -101,6 +102,9 @@
       { id: 'ent',   label: 'Entanglements  (S3)',                    state: 0 },
       { id: 'acq',   label: 'Acquire Assets  (S3)',                   state: 0 },
       { id: 'push',  label: 'Push Yourself  (S1/S3)',                 state: 0 },
+      { id: 'load',  label: 'Load (the standard kit)  (S1)',          state: 0 },
+      { id: 'clocks',label: 'Clocks (what they are)  (S1)',           state: 0 },
+      { id: 'despxp',label: 'Desperate = XP  (S1)',                   state: 0 },
       { id: 'harm',  label: 'Harm levels  (when it happens)',         state: 0 },
     ];
     const TAUGHT_LABELS = ['—', 'Introduced', 'Understood'];
@@ -119,8 +123,13 @@
       { id: 'zol',  label: 'Zoltar cards dropped',         note: '' },
       { id: 'gerald', label: 'Gerald status',              note: '' },
       { id: 'nick',  label: 'PC nicknames',                 note: '' },
+      { id: 'city',  label: 'City canon (avoided district…)', note: '' },
+      { id: 'rules', label: 'Wall of Rules claims',         note: '' },
+      { id: 'trophy',label: 'Trophy Wall (+1d Study types)', note: '' },
+      { id: 'crewdef',label: 'Crew: reputation / ability / upgrade', note: '' },
       { id: 'coin',  label: 'Zoltar coin code',             note: '' },
       { id: 'lease', label: 'Lease theories',               note: '' },
+      { id: 'stalls',label: 'Stalls: investment opportunities (target 4+)', note: '' },
     ];
 
     // ─── Lookup Tables ──────────────────────────────────────────────────────────

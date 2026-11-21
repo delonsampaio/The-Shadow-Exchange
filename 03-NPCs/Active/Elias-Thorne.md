@@ -46,7 +46,7 @@ He mentions "your setup in the basement" when referring to the Containment Suite
 Walking past Emmerich's shop, Thorne pauses a half-second too long before looking away. If asked, he says he "heard it was a good shop." He has no Meridian connections in his cover story.
 
 **Tell 4 (Session 2 — Post-score follow-up):**
-References "last Tuesday's conversation" — a conversation that did not happen on Tuesday and that the crew remembers differently.
+Thanks the crew for "dropping by my office last Tuesday" — a visit that never happened (a different face visited him; the memory bleed). The crew has never been to his office.
 
 **Tell 5 (Session 3 — the evening call):**
 He mentions **the pier** the crew surfaced on after the Subway — a place no one told him. (The Ministry does not know the Subway exists.)

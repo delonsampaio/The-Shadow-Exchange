@@ -30,6 +30,8 @@ After a **mid-arc climax**, also ask: "What do you want more of in the next arc?
 ## 4. Next session's Cold Open *(moved from CoGM-Core-Instructions, 2026-11-20)*
 At the end of every session, generate a **Session Cold Open** for the next session's prep file. It is read aloud by the GM before anything else — before mechanics, before the opening scene, before the bookshop lamp is on.
 
+**When the Co-GM shows it at the start of a session, label the whole block `🔊 READ ALOUD`, including the "Remember:" bullets: the GM reads all of it (the paragraph, then "Remember:", then each bullet).**
+
 **Format:**
 ```
 > "[2–3 sentences. What the crew did last time — specific choices, not general events. Written in second person, dry noir voice. End on the thing they are carrying into this session.]"

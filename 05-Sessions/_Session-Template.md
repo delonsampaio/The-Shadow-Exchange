@@ -45,6 +45,7 @@ runtime: "~3 hours"
 > ⏸ **REACTION STOP — next part depends on:** {what the table says/does}
 > → *if they {A}:* … · *if they {B}:* …
 > 🔒 **GM ONLY:** {resolution, clocks, example answer, what it seeds, what NOT to say}.
+> 🗣 **SAY** *(only the first time a clock appears on the TV; one line, Ladder card 17)*: *"{clock name}: when it fills, {what happens}."*
 
 **→ GM MOVE: STOP.** *(⏸ PAUSE — say "go" before Beat 2.)*
 

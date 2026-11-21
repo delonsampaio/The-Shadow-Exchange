@@ -18,7 +18,7 @@ runtime: "~2.5–3 hours"
 ## RUN SHEET (read this first)
 
 **Time budget:** Pitch 5 → Introductions 25 → Crew creation + lair tour 50 → Friends/Rivals/Heirlooms 20 → **Trial Run 15** → Closing montage 15 → buffer 20 (≈ 2 h 30 of play).
-**Cut-list if running long:** 1) skip the nickname questions; 2) skip the city-map question (3a); 3) skip the Scanner Station (3d) and the shelf question at the end of 3e; 4) trim the closing questions to two.
+**Cut-list if running long:** 1) skip the nickname questions; 2) skip the shelf question at the end of 3e; 3) skip the ATM gag; 4) skip the "other monsters" question in 3f; 5) trim the closing questions to two. *(Keep the no-subway line in 3a and the Scanner Station: they plant Session 2.)*
 
 | # | Beat | Trigger | 🎵 Music | 🖼 Image | 🎭 Comedy | Purpose |
 |---|---|---|---|---|---|---|
@@ -29,18 +29,18 @@ runtime: "~2.5–3 hours"
 | 3c | Lair tour | wall opens | `music-containment-suite-loop` | — | **The Wall of Rules** | Onboarding |
 | 3d | Scanner Station | "STOP HERE" | `music-vocal-scanner-station` *(vocal — GM OK'd firing it **inline, during** the read-aloud; it opens with ~10 s of static)* | `location-scanner-station` ✅ | — | Lore |
 | 3e | Corkboard + Journal | switch back | `music-containment-suite-loop` | `location-corkboard-wall` ✅ *(on TV for the read-aloud)* → `item-hunters-journal` ❌ *(optional close-up, when they open it)* | — | Hooks |
-| 3f | Upstairs: rep, abilities | return | `music-bookshop-loop` | — | — | Crew sheet |
-| 4 | Friends, Rivals, Heirlooms | — | `music-bookshop-loop` | — | — | Seeds |
-| 4b | **The Trial Run** | after Beat 4 | `music-bookshop-loop` | `npc-consequence` | **Consequence knocks it over** | **Dice, Position, Effect, Stress, Resistance** |
-| 5 | Closing montage | "go" | `music-s00-closing` *(+ `music-sting-fortune-card` ❌ and the Zoltar voice line ❌ — Zoltar on hold)* | — | Consequence; **Zoltar's card** | Promise |
+| 3f | Upstairs: rep, abilities | return | `music-bookshop-loop` | `location-annex` ❌ *(optional; until it exists: title card, `image: null`, caption "The Annex")* | — | Crew sheet |
+| 4 | Friends, Rivals, Heirlooms | — | `music-bookshop-loop` | `location-annex` ❌ *(optional; stays on screen)* | — | Seeds |
+| 4b | **The Trial Run** | after Beat 4 | `music-bookshop-loop` | *(TV: caption "Consequence", `image: null`; `npc-consequence.png` shows her asleep, so it is held for Beat 5)* | **Consequence knocks it over** | **Dice, Position, Effect, Stress, Resistance** |
+| 5 | Closing montage | "go" | `music-s00-closing` *(+ `music-sting-fortune-card` ❌ and the Zoltar voice line ❌ — Zoltar on hold)* | `npc-consequence` ✅ *(on the TV with the "Where is Consequence?" answer)* | Consequence; **Zoltar's card** | Promise |
 
-**Asset status:** all music and images exist ✅ except the optional `item-hunters-journal.png` ❌ (a close-up; skip it).
+**Asset status:** all required music and images exist ✅. Optional ❌: `item-hunters-journal.png` (a close-up; skip it), `location-annex.png` (the upstairs room; until it exists the TV shows the title card with the caption "The Annex"), `location-curios-interior.png`, and the Zoltar sting and voice line (on hold).
 
 ### Tech checklist (before players arrive)
 - [ ] Open `11-Visuals/GM-Dashboard.html` on the GM screen (F11). *(The Co-GM fills PC names, nicknames and table canon in live through the dashboard feed — see `Session-Boot.md` §2b.)*
 - [ ] Open `11-Visuals/Player-Screen.html` on the shared TV (F11). It should show the title card. *(Co-GM updates `player-screen/scene.js` — see Core Instructions.)*
 - [ ] Test `fade-switch.sh` with one track; confirm QuickTime Player is allowed to be controlled.
-- [ ] Printed `Player-Reference.md` ×3; **Table Card** (`11-Visuals/handouts/Table-Card.pdf`) one per player + a spare — Position, Effect, Stress and Harm on one page; `GM-Cheat-Sheet.md` at your elbow.
+- [ ] Printed `Player-Reference.md` ×3 and `01-Crew/Hunter-Kit.md` ×3 (the kit list taught in Session 1); **Table Card** (`11-Visuals/handouts/Table-Card.pdf`) one per player + a spare — Position, Effect, Stress and Harm on one page; `GM-Cheat-Sheet.md` at your elbow.
 
 ---
 
@@ -144,7 +144,7 @@ runtime: "~2.5–3 hours"
 >
 > 🗣 **SAY** *(only after their answer, plainly, then wait for the groans):* *"It used to be a bank. It makes twenty dollars a day."*
 
-> 🗣 **SAY** *(optional, in passing):* *"Out back in the alley is your van — a retired bookmobile with 'C&C MOBILE LIBRARY — ASK ABOUT OUR LATE FEES' painted on the side. It starts on the second try."*
+> 🗣 **SAY** *(in passing; Sessions 1 and 3 assume the crew has the van):* *"Out back in the alley is your van — a retired bookmobile with 'C&C MOBILE LIBRARY — ASK ABOUT OUR LATE FEES' painted on the side. It starts on the second try."*
 > 🔒 **GM ONLY:** Session 1 already assumes the crew drives it (the Lair Upgrade later *armors* it). Don't expand on it.
 
 **→ GM MOVE:** That's the shop. Next: the back corner — **3b, Zoltar and the Coin Code.**
@@ -223,6 +223,7 @@ runtime: "~2.5–3 hours"
 > ❓ **ASK THE TABLE:** *"Which of these rules exists because of something one of you did — and what did you do?"*
 > ⏸ **REACTION STOP — next part depends on:** which rules they claim. Log them on the dashboard.
 >
+> 🔒 **GM ONLY — PURPOSE:** Rule Six is a plant: the tea contract that comes due at Mabel Ashby's house (Session 3) and the building's unexplained history. Nobody confesses; never explain it.
 > 🔒 **GM ONLY:** Nobody confesses to Rule Six — keep it unexplained. *If they stall, offer:* **Rule One** — someone said "basement" to a customer · **Rule Two** — someone left something in a coat for a weekend · **Rule Five** — someone fed the cat something that turned out to be evidence.
 
 **→ GM MOVE: STOP HERE.** Then fire the scanner music.
@@ -238,6 +239,8 @@ runtime: "~2.5–3 hours"
 > "Half-buried in cabling against the side wall, the Scanner Station — three modified shortwave radios on a rolling cart, each tuned to a different government frequency. They intercept Ministry bounty traffic before the public list updates, which is how you sometimes know who's about to be hunted before whoever's hunting them does. Beside them sits a fourth unit, older than the rest, with a single green lamp that has not been off in two years: the Resonance detector. It reaches about two blocks. There is a soft wash of static at all hours. You stopped hearing it months ago. It is always there.
 >
 > On clear nights, between the official broadcasts, you can pick up a signal that sounds like another state — you have never been able to triangulate it. A man broadcasts on AM without a call sign. His voice is flat, unhurried, slightly too close to the microphone — the voice of someone who has been talking for a long time and expects to keep talking. He reports locations. Not addresses — coordinates, landmarks, the kind of description that tells you where something is without naming what the something is. He is wrong about the cause. He is wrong about the history. He is never wrong about where. You have driven to three of his locations. You found something at all three. You have not been able to reach him to ask how he knows."
+
+> 🔒 **GM ONLY — PURPOSE:** the AM voice is **Aldric Voss**'s broadcast (he meets the crew in Session 2 only if they go to his workshop doorway). Never identify him tonight.
 
 **→ GM MOVE: STOP HERE.** Switch music.
 
@@ -272,6 +275,7 @@ runtime: "~2.5–3 hours"
 ### 3f — Reputation, Abilities, Upgrades
 
 **[MUSIC CUE: music-bookshop-loop.mp3]** *(switch back when the group returns upstairs)*
+**[IMAGE CUE: location-annex.png]** ❌ *(optional; until it exists: TV = title card, `image: null`, caption "The Annex"; clears the corkboard)*
 
 🗣 **SAY** *(set it up):* *"Back upstairs, with the kettle on. The firm has a reputation in the small circle that knows you at all, and a few trade secrets. Let's write them down."*
 
@@ -297,6 +301,8 @@ The crew starts with the lair fixtures above and **Double Bookkeeping** *(custom
 | **Pack Rats** | +1d to acquire assets | Gear & black-market access |
 | **Accord** | Treat up to three faction statuses at +3 as turf | Mid-game pick |
 
+> 🗣 **SAY** *(first):* *"You can swap these freely after Session 1, once you've seen the rules in play."*
+>
 > 🗣 **SAY** *(first, so they know what they already have):* *"Your firm already has one trick: **Double Bookkeeping**. After a Ministry job, you can quietly keep one small item off the books. We'll see how it works when it comes up. Now pick **one more** ability."*
 >
 > 🗣 **SAY** *(the menu — one option per line; what you get, and who it suits)*:
@@ -376,11 +382,12 @@ The crew starts with the lair fixtures above and **Double Bookkeeping** *(custom
 
 > 🔒 **GM ONLY:** The players have **never played Blades.** Do one **low-stakes practice roll** so Session 1 isn't a cold start. Teach only: **dice, Position, Effect, Stress, Resistance.** (See `00-Canon/Mechanics-Teaching-Ladder.md`, cards 1–4 and 6.) **Do not** mention anything else.
 
-**[IMAGE CUE: npc-consequence.png]**
+**[IMAGE CUE: none]** *(TV: title card, caption "Consequence". The picture `npc-consequence.png` shows her asleep, so it is held for Beat 5.)*
 > 🔊 **READ ALOUD:**
 > "A customer is about to walk in — you can see the shape of them at the front window. And Consequence, from the counter, with the slow deliberation of a creature who has never once regretted anything, pushes the **Hunter's Journal** — one of you carried it up from the lair earlier — off the edge with one paw. It hits the floor. It falls open. It is open to a page that says, in a hand that is not yours, **DO NOT SHELVE THIS WHERE CUSTOMERS CAN SEE.** You have about ninety seconds."
 
-> 🎭 **COMEDY BEAT (🟢):** **[PLAYER SCREEN: banner "CONSEQUENCE!"]** Consequence stares at the nearest PC. She does not apologize.
+> 🎭 **COMEDY BEAT (🟢):** **[PLAYER SCREEN: banner "CONSEQUENCE!"]**
+> 🔊 **READ ALOUD:** "Consequence stares at the nearest one of you. She does not apologize."
 
 **→ GM MOVE:** *Hand out the printed **Table Cards** now — "This is the whole game on one page."*
 
@@ -404,7 +411,7 @@ The crew starts with the lair fixtures above and **Double Bookkeeping** *(custom
 6. 🗣 **SAY** *(Stress — the cost)*: *"The cost is **6 minus your highest die** — so a 5 costs you 1 Stress, and a 6 is free. Stress is your reserve of willpower. Fill all nine boxes and you take a Trauma, which is actually good, because it makes your character more interesting. That's it. That's the whole game. We'll do this for real next time."*
 
 ❓ **CHECK FOR UNDERSTANDING** *(one question, not a quiz):* *"What would you have done differently if the customer were two minutes away?"* ⏸ **REACTION STOP.**
-> 🔒 **GM ONLY:** If they say "gone slower", they've understood Position. **Mark on the dashboard (Mechanics Taught): dice, Position, Effect, Stress, Resistance.**
+> 🔒 **GM ONLY:** *This practice Stress clears before Session 1.* Invite the other two players to make one quick roll or Assist so all three have rolled. If they say "gone slower", they've understood Position. **Mark on the dashboard (Mechanics Taught): dice, Position, Effect, Stress, Resistance.**
 
 ---
 
@@ -422,6 +429,7 @@ The crew starts with the lair fixtures above and **Double Bookkeeping** *(custom
 >
 > 🔒 **GM ONLY:** She has never once been helpful. She has never once been removed.
 
+**[IMAGE CUE: npc-consequence.png]** ✅ *(on the TV with the "Where is Consequence?" answer; the picture shows her asleep)*
 > 🔊 **READ ALOUD:**
 >
 > "It's late. The shop is closed. Consequence the cat is asleep on **[wherever the table said she is — make it the worst possible place; if nobody answered, use: the counter, on top of a 1962 mail-order catalog that has no business being there]**. The rotary phone has not rung. The kettle is cooling. From the back room, behind the Zoltar machine, the Scanner Station is humming on its own frequency — a quiet wash of static that you stopped noticing months ago.
@@ -437,11 +445,11 @@ The crew starts with the lair fixtures above and **Double Bookkeeping** *(custom
 >
 > ❓ **ASK PLAYER 1:** 🗣 **SAY** *"I want to know what keeps your character coming back to this job."* ❓ **ASK:** *"Why is your character still doing this work?"* ⏸
 >
-> ❓ **ASK PLAYER 2:** 🗣 **SAY** *"This one is for you, not your character."* ❓ **ASK:** *"What do you want me, as the GM, to make sure I do in this campaign?"* ⏸
+> ❓ **ASK PLAYER 2:** 🗣 **SAY** *"Every good story has something to lose."* ❓ **ASK:** *"What is your character most afraid will happen here?"* ⏸
 >
-> ❓ **ASK PLAYER 3:** 🗣 **SAY** *"Every good story has something to lose."* ❓ **ASK:** *"What is your character most afraid will happen here?"* ⏸
+> ❓ **ASK PLAYER 3:** 🗣 **SAY** *"Last one for your character: what they are like when nobody is watching."* ❓ **ASK:** *"What does your character do when no one else is in the bookshop?"* ⏸
 >
-> ❓ **ASK PLAYER 1 again** *(the fourth question rotates back):* 🗣 **SAY** *"Last one — what your character is like when nobody is watching."* ❓ **ASK:** *"What does your character do when no one else is in the bookshop?"* ⏸
+> ❓ **ASK THE WHOLE TABLE** *(this one is for you, not your characters)*: 🗣 **SAY** *"What do you want me, as the GM, to make sure I do in this campaign?"* ⏸
 >
 > *(One question per message: ask, stop, wait for the answer in chat, then the next.)*
 

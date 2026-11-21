@@ -38,6 +38,7 @@ last_updated: 2026-11-20
 | Between-session factions and the Apex clock | `02-Factions/Faction-Turn-Procedure.md` |
 | A no-prep night; street scenes, rumours, gags, derailment fixes | `05-Sessions/Evergreen-Episodes.md`, `10-Generators/Improv-Kit.md` (§5 = the table zigs) |
 | Downtime projects | `01-Crew/Downtime-Menu.md` |
+| The standard kit and Load (items a Hunter can pull from their coat) | `01-Crew/Hunter-Kit.md` |
 | Weekly routine | `00-Canon/Weekly-Prep-Checklist.md` |
 | **A change happened: what else must change?** | `00-Canon/Change-Propagation-Map.md`; the live record is `05-Sessions/Live-Ledger.md`; the staleness check is `docs/tools/consistency_check.py` (retired phrases: `docs/tools/stale-phrases.txt`; players-site secrets: `docs/tools/spoiler-words.txt`) |
 | A Zoltar fortune card | `00-Canon/Zoltar-Card-Deck.md` |

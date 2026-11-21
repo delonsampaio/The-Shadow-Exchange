@@ -15,7 +15,7 @@ last_updated: 2026-11-18
 
 ## 2. Shape of a prep file (in this order)
 1. Front-matter, title, one **tone line** (🟢 Full Scooby / 🟡 Half / 🔴 Zero / 🔵 Mystery — what the dial is tonight).
-2. **RUN SHEET** (table, first): `# | Beat | Trigger | Music | Image | Comedy | Purpose / mechanics`. **Every beat names its music**, so the table is never silent by accident. Mark each asset ✅ (exists) or ❌ (not yet generated); end with an **Asset status** line.
+2. **RUN SHEET** (table, first): `# | Beat | Trigger | Music | Image | Comedy | Purpose / mechanics`. **Every beat names its music and what the TV shows** (an image, or "title card + caption" when there is none, so a stale picture never stays up), so the table is never silent by accident. Mark each asset ✅ (exists) or ❌ (not yet generated); end with an **Asset status** line.
 3. Time budget, **cut-list for overrun** (what to drop first), tech checklist, GM-only pre-session checklist.
 4. The beats, in play order. 5. An "After this session" block (state updates; next Cold Open).
 
@@ -56,6 +56,7 @@ last_updated: 2026-11-18
 ## 6. Sound, picture, TV
 - **Music:** every non-`sting` file is a scene song and **loops** until the next scene's song replaces it. A `music-sting-*` file is a one-shot that **overlays** the loop. Don't write beats that need silence unless it is a deliberate dramatic beat — say so on the Run Sheet.
 - **Comic stings/gags** only in 🟢 beats — never in 🔴/🔵, an Anchor choice, a Merton plea, or the Subway's first visit.
+- **First appearance of a public clock (GM request 2026-11-21):** when a clock first goes on the TV the prep must carry a one-line `🗣 SAY` explaining it at that beat, in the same breath as the tick (what it is, what fills it, what happens when it fills). Use `Mechanics-Teaching-Ladder.md` card 17 for the wording. Count it against the max-2-new-mechanics-per-beat limit.
 - **TV:** image + caption per location/NPC; documents as `card`s — **every job envelope, poster or contract the crew is handed gets a `contract` card** (≤ ~8 short lines; a `recap` card opens Session 2+); public clocks only. **Never** Position/Effect tags, roll results, objective lines or per-PC Stress/Harm (see Core → Player Screen). Position/Effect lives on the printed Table Card.
 
 ## 7. Spoilers and mystery
@@ -85,3 +86,4 @@ List every ❌ in `11-Visuals/ASSET-TODO.md`; prompts live in `Pre-Campaign-Imag
 - [ ] Every `❓ ASK` is followed by a full `⏸ REACTION STOP`; no outcome is written in the same block as the question.
 - [ ] Anything that depends on an earlier session's choice is a branch or fill-in, and item names match the earlier prep.
 - [ ] Every rule line was checked against the SRD / Teaching Ladder.
+- [ ] **Clocks:** every clock that will appear on the TV for the first time this session has a `🗣 SAY` at *that beat* explaining it in one line (what it is, what fills it, what changes when it fills; Ladder card 17), and the Run Sheet lists which clocks appear and when. Secret clocks (the Omen, Decay while hidden, the Mimic) never go on the TV and are never explained to the players.
