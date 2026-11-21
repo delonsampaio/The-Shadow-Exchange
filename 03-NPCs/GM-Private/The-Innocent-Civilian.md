@@ -27,7 +27,7 @@ Near the theater during the Merton job (Session 1). Doing a pickup from the thea
 | 1 — Coincidence | Crew appears near her route in Sessions 2–3 | Recognizes one PC. Does not approach. |
 | 2 — Intent | She's been making notes | Approaches a PC carefully. Fishing. |
 | 3 — The Journal | Crew is careless with the Hunter's Journal | She finds it. She wants in. |
-| 4 — The Clock | Each score exposure or act of brutality she witnesses | Tick the Corruption Clock |
+| 4 — The Clock | Each score exposure or act of brutality she witnesses | Tick the Corruption Clock (4 segments; the milestones below). **One track:** Stages 1–3 are story beats; the Corruption Clock only starts at Stage 4 |
 
 ---
 

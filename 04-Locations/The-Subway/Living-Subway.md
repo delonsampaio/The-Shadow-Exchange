@@ -54,7 +54,7 @@ last_updated: 2026-11-16
 | **Platform 2 — The Quiet Platform** | Twice-Born residents; **Cosma's** folding table; **Senna's** archive nook; **Aldric's** workshop door | Moral weight; the Anchor ledger's audience |
 | **Platform 3 — Lost & Found** | **Wim's** counter; everything anyone ever lost | A PC's lost thing is here (Heirloom hook) |
 | **The Mezzanine** | The **Job Board**; **The Whisperer's** booth (location shifts) | Jobs, intel |
-| **Line 0 Platform** | A red platform, no train, one ticking departure board | Endgame location; the train that arrives at Omen 8 |
+| **Line 0 Platform** | A red platform, no train, one ticking departure board | Endgame location; the train that arrives at Omen 8. **Train rule (GM decision 2026-11-20): nobody boards a train before Arc IV.** One earlier *pass-by* is allowed — a train slides through without stopping, lit windows, faces in them, one familiar — never boardable, never explained. |
 | **The Back Booth** | **The Crossroads Broker**, 1987 suit | Deals |
 | **Past the Yellow Line** | Tunnels. "Don't." | Nesting; the thing the Subway keeps in; Option B's builder |
 | **The Turnstiles** | Where you leave: **never the same exit** (table below) | A free Scooby-style "where did we come out?" gag |
@@ -92,12 +92,12 @@ last_updated: 2026-11-16
 | **Find a lost thing** | Wim (Lost & Found) | Study to describe it; may return something unasked |
 | **Calm down** | Dev's café | Clear 1 Stress / free rumor |
 | **Take a non-gov job** | The Job Board | See table below |
-| **Make a deal** | The Broker | Cost d6 (secret); *Session 8+ unless provoked* |
+| **Make a deal** | The Broker | Cost d6 (secret); *Session 12+ unless provoked* |
 | **Safe harbor / lore / anchor intervention** | Twice-Born (Favors) | See `The-Twice-Born.md` |
 
 ### Job Board — d6 *(non-government jobs; no Ministry/Apex oversight)*
 1. *A brass compass that always points to Calloway Alley.* (Pays: the story of how it got there. → The sailor's Anchor.)
-2. *"Someone has been asking about Line 0 above ground. No uniform. Twice in two weeks."* (Warning; the Mimic mapping entrances.)
+2. *"Someone has been asking about Line 0 above ground. No uniform. Twice in two weeks."* (Warning; the Mimic trying to predict where it appears.)
 3. *Escort a very nervous Twice-Born to a wedding.* 🎭 (Complication: the wedding is a monster wedding.)
 4. *Retrieve something from the Lost & Found that Wim says "isn't lost."*
 5. *Sealed envelope, red pin.* (PTOLEMY's clasps click once. **Not tonight.** → Architect.)

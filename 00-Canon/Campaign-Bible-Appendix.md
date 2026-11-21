@@ -27,7 +27,7 @@ The v5 bible kept the axioms but dropped working mechanics that other files stil
 - **Cold Iron Rounds:** +1 Harm to supernatural targets; prevent shifting for the scene.
 - **Siphons:** suppress a Relic's power for the scene. Siphoned items sell at half at The Fence. A Tinker roll in Downtime may restore; failure is permanent.
 - **Anchor Scanners:** detect Anchor Item Resonance within **200 ft**. Carrying a seized Anchor near Apex = flagged immediately.
-- **The Cleaner Protocol:** at Apex Heat 3+, Cleaners are assigned to disrupt scores and damage the shop.
+- **The Cleaner Protocol:** at crew Heat 6+ (or Apex standing ≤ −2), Cleaners are assigned to disrupt scores and damage the shop.
 
 ## Loot Catalogue
 - **Biologicals** (perishable; 3-seg Spoilage Clock, ticks each Downtime; ticks twice per scene on Away Jobs): Ethereal/Barghest Adrenal Gland, Vampire Blood (healing/life extension), Gorgon Scalp (temporary petrification), Phase-Shifter Heart (phase through one wall per use).
@@ -39,7 +39,7 @@ The v5 bible kept the axioms but dropped working mechanics that other files stil
 |---|---|---|
 | Sessions 1–3 | **Detection** (4) | The only clock the crew sees |
 | Session 4 | **Biological Spoilage** (3) | Their first Biological starts to rot between sessions |
-| Session 5 | **Subway Decay** (6) | They walk in and see it inked on the transit map |
+| Session 6 | **Subway Decay** (6) | They walk in and see it inked on the transit map |
 | Mid-game | **Tragedy** (4, secret) | Only if the Monkey's Paw is used |
 | From S2 | **Omen** (8, secret) | Symptoms only (see `Active-Clocks.md`) |
 | Late | **Crossroads Cost** | Arrives as a consequence, never as a system |

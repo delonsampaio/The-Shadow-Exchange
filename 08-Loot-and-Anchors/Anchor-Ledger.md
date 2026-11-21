@@ -16,6 +16,7 @@ Every Anchor Item the crew has seized, destroyed, returned, or refused. Names. C
 | :--- | :--- | :--- | :--- | :--- |
 | *Session 1* | **[NPC: Merton (Barghest)]** | **[Item: Leather Dog Collar]** | [To be filled] | [To be filled] |
 | *Session 2* | **[NPC: Emmerich]** | **[Item: Silver Thimble]** | [To be filled] | [Did we earn a Favor, Enmity, or Ambivalence?] |
+| *Session 3* | **[NPC: Mabel Ashby (wraith)]** | **[Item: Mabel's Knitting Needle]** | [To be filled] | [Extracted, told about Thomas, or left alone?] |
 
 ---
 

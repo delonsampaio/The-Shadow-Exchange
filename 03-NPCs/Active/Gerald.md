@@ -22,7 +22,7 @@ role: potential cohort / mascot / running gag / uncomfortable witness risk
 - Thumbs-up that lasts too long.
 - **Refuses to go near Elias Thorne.** Hides behind the nearest PC and whines. (Dogs know. Tell for the Understudied; also an Omen echo.)
 
-## As a Cohort *(proposed — if the table keeps him)*
+## As a Cohort *(SRD: a cohort costs two crew upgrades; free here as a house rule — the GM's call)* *(proposed — if the table keeps him)*
 - **Type:** Expert (a "door-opener / witness-detector").
 - **Edges:** Opens anything; knows when someone is lying (barks).
 - **Flaws:** Cannot lie about what he saw; scene-stealer; one human-handed thumbs-up away from exposing the cover-up.

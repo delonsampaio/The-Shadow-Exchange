@@ -34,7 +34,7 @@ Ministry field liaison. True Believer — the Understudied chose this face becau
 
 ### Face 2 — Tamsin Solano *(7 years — 18 to 11 years ago)*
 
-Civilian. Journalist who covered municipal infrastructure. The Understudied wore her to maintain a watching brief on a city planning process that would have disrupted a Subway entrance location. The face was necessary for approximately eight months. The Understudied kept it for seven years.
+Civilian. Journalist who covered municipal infrastructure. The Understudied wore her to maintain a watching brief on a planning survey that kept logging a dry pocket where the Subway had appeared. The face was necessary for approximately eight months. The Understudied kept it for seven years.
 
 **The ring:** Tamsin's ring. Her grandmother's. She wore it on her right hand. The Understudied kept wearing it after taking Thorne's face — habit, or the accumulation of seven years, or something harder to explain. It is slightly too loose on Thorne's hand. When the Understudied reaches for it and it isn't where it should be, what it's reaching for is Tamsin, not Thorne.
 

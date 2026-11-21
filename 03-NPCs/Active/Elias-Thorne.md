@@ -54,6 +54,8 @@ He mentions **the pier** the crew surfaced on after the Subway — a place no on
 **Tell 6 (Ongoing — the ring):**
 Plain silver band, right hand, slightly too loose. He touches it when uncertain. It belonged to **Tamsin Solano's grandmother** — a face he wore before this one.
 
+**Optional Tells 7–9 (added 2026-11-20, for the S15 unmasking):** (7, S9–11) he uses Dasha Lowe's private filing shorthand from the Vantage & Lowe files; (8, S12–13) Greta notices his signature changes hand between early and later forms; (9, S13–14) Reyes denies ever sending the "source" he cited for the S14 job. They give the table three independent routes to the truth (tells, Emmerich's name, the Casting Mask's file trail).
+
 > **How it knows what it shouldn't:** the Understudied has been *watching the shop for months* (the Mask copies a person after ~72 hours of contact; proximity teaches the rest). Tells 1–2 are watching; 3 is recognition; 4 is memory bleed; 5 is knowing the Subway; 6 is grief for a prior face. **Gerald the dog will not go near him** (dogs know).
 
 ---

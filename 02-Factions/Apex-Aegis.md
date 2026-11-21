@@ -24,8 +24,8 @@ Hostile takeovers, tactical "Cleaners," and high-tech resonance dampeners. They 
 * **Stalls Holdings / Renwick Stalls:** an Apex shell that buys cleared property — the front for the Session 3 contract. See `03-NPCs/Active/Renwick-Stalls.md`.
 
 ## Current Operations & Clocks
-* **Current Focus:** Triangulating the entrance to the "Architect's" original vault.
-* **Active Clocks:** **[Clock: Apex Aegis Acquisition Push]** (TBD).
+* **Current Focus:** Triangulating the Subway's next appearance (it has no fixed address) and anything that might point to whoever made it; Apex believes there is a vault, and does not know there is none.
+* **Active Clocks:** **[Clock: Apex Aegis Acquisition Push]** (6 segments; triggers in `02-Factions/Faction-Turn-Procedure.md`).
 
 ## AI Roleplay & Operation Directives
 * **Operative Vibe:** Corporate, efficient, and technologically superior. They treat the supernatural as a math problem or a resource to be mined.

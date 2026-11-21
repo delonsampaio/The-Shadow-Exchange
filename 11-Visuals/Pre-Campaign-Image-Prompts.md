@@ -17,6 +17,8 @@ Generate these before Session 0. Save outputs to `11-Visuals/_Saved-Images/`.
 - **Left/right:** never "his right hand" (ambiguous). Say *"on the left side of the image frame, the hand holding the pencil."* (Cause of Thorne's ring on the wrong hand.)
 - **Counting:** avoid exact counts above 3; describe items by position/state instead.
 - **Targeted edits:** the app has no mask tool. Draw a red circle on the source and destination (e.g. both hands), re-upload, and say *"move the ring from the left circle to the right circle, remove both circles."* Otherwise it regenerates the whole image.
+- **Brand names:** fine — this is a private table of friends (GM decision 2026-11-20). Earlier rejections for real brand names or Starbucks-style lookalikes are no longer required; still check every image for the generator's own sparkle/watermark.
+- **Style line:** don't append the generic "industrial-occult noir" tag to scene prompts — each prompt carries its own palette/mood, and the tag pushes everything dark and grainy (bad for the warm images: Agnes, the Grief Jars). Use it only as a fix when an image comes out too bright or cheerful. **Always keep** the closing line "Clean composition, no text, no watermarks, no logos, no signatures." (2026-11-20)
 - **Short signs:** quote the exact words in CAPS, give the font and surface, **one sign per image**. Ampersands can blend into flourishes (ours worked).
 - **Aspect ratio:** the Gemini *app* has no ratio control — state "16:9" / "3:2" in the prompt. If you edit with a 3:2 portrait attached, it may force 3:2; attach a blank 16:9 rectangle and say "use Image 2 only as the canvas size."
 - **Seeds:** none in the app. To keep a *look*, attach a favorite image as a **style anchor** ("use Image 1 only for colour, grain and lighting").
@@ -181,12 +183,13 @@ Clean composition, no text, no watermarks, no signatures.
 
 ### Aldric Voss (Twice-Born — The Technician)
 Save as: `npc-aldric-voss.png`
+*(Revised 2026-11-20: was a broadcast control room with headphones on and a hand on a fader — that gave away that he is the AM voice. Session 2 only shows him in his repair workshop; the reveal comes only if a PC asks about the AM broadcasts.)*
 
 ```
-An older man in a worn corduroy jacket seated in a radio station control room, facing slightly away from camera at three-quarter angle. Headphones on. The room behind him filled with reel-to-reel equipment and analog consoles with hand-labeled tape strips — nothing updated since the 1970s. One hand resting lightly on a fader.
-Amber instrument indicator lights across the console — many small warm points of light in an otherwise dim room. A single overhead incandescent bulb. The VU meters on the reel-to-reel lit in amber and red, needles moving. His face lit primarily by the ambient glow of the equipment.
-Worn corduroy at the elbows, analog knobs with faded marker tape labels, reel-to-reel tape in motion with visible tape path, the accumulated weight of equipment that has been continuously running. The expression of someone who has been listening to the same warning for sixty years and has not found a reason to stop. Tired, permanent vigilance.
-Clean composition, no text, no watermarks, no signatures.
+A wide 16:9 landscape, seen from a workshop doorway. An elderly man in his eighties — a retired radio technician — sits at a cluttered repair bench in a small underground workshop, looking up from his work towards the doorway with a wary, tired look, as if someone has come in who should not touch anything. He wears a worn corduroy jacket, soft and thin at the elbows, with a pair of old headphones resting around his neck. One hand rests on a half-disassembled vintage radio, the back off and its valves showing; a fine screwdriver is in his other hand. On the bench: more radios in pieces, spools of fine wire, a soldering iron on its stand, a few old reel-to-reel tape machines on the shelves behind him with hand-labelled strips of tape.
+Warm amber from a single hanging incandescent bulb over the bench and the small amber indicator lights of old equipment glowing across the shelves. At the edges of the frame, from the corridor behind the viewer, a faint cool green light that seems to come from nowhere. His face is lit mainly by the bulb. The expression is that of someone who has been listening to the same warning for sixty years and has not found a reason to stop. Tired, permanent vigilance. Not hostile.
+Worn corduroy, a grey stubbled face, deep lines, careful steady hands; faded marker-tape labels on the shelves, none legible.
+Clean composition, no readable text, no watermarks, no logos, no signatures.
 ```
 
 ---
@@ -247,12 +250,13 @@ Clean composition, no text, no watermarks, no signatures.
 
 ### The Crossroads Broker
 Save as: `npc-crossroads-broker.png`
+*(Revised 2026-11-20: 16:9, explicitly ordinary — his one Session 2 line carries the menace — and tied to the Subway hall.)*
 
 ```
-A man in a gray suit and narrow tie seated alone in a back booth of an underground hall, facing camera. A drink on the table in front of him — untouched, condensation forming on the glass. He is looking up and slightly to the left, toward someone approaching. His expression is the expression of someone who knows how this conversation ends, has had it before, and has no impatience about it.
-A single light source above the booth — warm, focused, like a booth lamp. The hall behind him darker and less defined, figures at distance. His face fully and evenly lit — no shadows obscuring his expression. The untouched drink reflects the booth light on its surface.
-Gray suit with the slight sheen of fabric that has held its press for forty years, a narrow tie of a period that has passed, the condensation ring beginning on the table from the drink, hands resting flat — not clasped, not tense. Calm authority that predates the room. A man who arrived before the concept of this meeting existed.
-Clean composition, no text, no watermarks, no signatures.
+A wide 16:9 landscape. A man in a gray suit and narrow tie sits alone in a back booth of a large underground hall, facing the camera. A drink stands on the table in front of him, untouched, with condensation forming on the glass. He is looking up and slightly to one side, towards someone approaching. His expression is that of someone who knows how this conversation ends, has had it before, and has no impatience about it. He is a perfectly ordinary-looking man of no particular age, with neat grey-brown hair and a calm, open face; nothing about him looks sinister, supernatural or dramatic.
+A single warm lamp above the booth, focused like a booth lamp. The hall behind him is darker and less defined, with a faint cool green light at a distance and a few vague figures far off. His face is fully and evenly lit, with no shadows hiding his expression. The untouched drink catches the lamp's reflection.
+A gray suit with the slight sheen of fabric that has held its press for forty years, a narrow tie of a period that has passed, the condensation ring beginning on the table beneath the glass, hands resting flat on the table, not clasped, not tense. Calm authority that predates the room. A man who arrived before the idea of this meeting existed.
+Clean composition, no text, no watermarks, no logos, no signatures.
 ```
 
 ---
@@ -313,24 +317,26 @@ Clean composition, no text, no watermarks, no signatures.
 
 ### The Ashby House — Exterior
 Save as: `location-ashby-exterior.png`
+*(Revised 2026-11-20: the clocks at 11:47 and the porch teacup were removed from the image — Session 3 reveals them only on the "Watch first" option. The house sits at the end of a hillside terrace because the Overhang is its district on the living map.)*
 
 ```
-A late-Victorian townhouse on a residential street — three stories, managed ivy on the facade, curtains visible in the upper right window. Through the ground-floor front window, three clocks are just visible on the parlor walls and mantel, all showing the same time: 11:47. The front path is swept. A single teacup sits on the porch railing with nothing near it. The neighboring houses are ordinary. This one is slightly too still.
-Late afternoon grey-cloud light, no direct sun, the street itself dim and flat — but the upper right window has a warm amber glow from inside that does not match the time of day. The light is on when it should not need to be.
-Brick darkened by decades of city air, ivy trimmed rather than sprawling — tended by someone who cares about it. Curtains in the upper window catch light from inside in a way that suggests movement without showing any. Muted palette: grey stone, dark green ivy, amber window light as the only warmth. A house that looks lived-in but is not.
-Clean composition, no text, no watermarks, no signatures.
+A wide 16:9 landscape. A late-Victorian townhouse at the end of a terraced row on a quiet hillside residential street — three stories of dark brick, managed ivy trimmed neatly on the facade, a swept front path, a small iron gate. The curtains in the upper right window of the house are drawn, and that window glows with warm amber light from inside. The neighbouring terraced houses are ordinary, with ordinary lit and unlit windows. This one is slightly too still.
+Late afternoon grey-cloud light, no direct sun, the street dim and flat — but the upper right window has a warm amber glow from inside that does not match the time of day. The light is on when it should not need to be.
+Brick darkened by decades of city air, ivy trimmed rather than sprawling — tended by someone who cares about it. Muted palette: grey stone, dark green ivy, damp slate roof, amber window light as the only warmth. A house that looks lived-in but is not. Nothing is visible through the ground-floor window except a dim interior.
+Clean composition, no text, no house numbers, no street signs, no watermarks, no logos, no signatures.
 ```
 
 ---
 
 ### The Ashby House — Interior Parlor
 Save as: `location-ashby-interior.png`
+*(Revised 2026-11-20: generate with `npc-mabel-ashby-wraith.png` attached so the room matches her portraits — same wallpaper, chair, basket and lamp, with nobody in it.)*
 
 ```
-A Victorian parlor frozen in the mid-1980s. A mantelpiece clock stopped at 11:47. An armchair by the window with a knitting basket beside it — needles mid-row, work in progress, as if someone stepped away and will return. A tea tray on a side table with two cups, one used, one placed for a guest. Bookshelves along one wall.
-Warm low interior light — a floor lamp in one corner, amber-toned, casting soft shadows. The stopped clock catches light on its glass face. Steam rises from the fresh teacup, backlit by the lamp.
-Wallpaper with a subtle floral pattern that is slightly different at the edges of the frame than at the center — not dramatically, just enough to notice on second look. Heavy fabric textures — curtains, armchair upholstery, braided rug — all maintained and clean, nothing neglected. Amber and cream palette with occasional dark wood. The room has been kept as if someone intends to return.
-Clean composition, no text, no watermarks, no signatures.
+Using the room in the attached image as the exact reference — the same floral wallpaper, the same carved wooden armchair with its upholstered back, the same wicker knitting basket with yarn and needles, the same floor lamp, bookshelves, framed black-and-white photographs, lace doilies and curtains — create a wide 16:9 landscape image of this Victorian parlor with nobody in it, as it looks to someone just stepping through the door. The room feels frozen in the mid-1980s. A mantelpiece clock on the mantel is stopped. The armchair by the window has its knitting basket beside it, the needles mid-row, as if someone stepped away and will return. On a small side table, a tea tray with two cups, one with a little steam rising. Bookshelves along one wall.
+Warm, low interior light: the floor lamp in one corner, amber-toned, casting soft shadows, with the tint of the room warmer than in the attached image. The clock's glass face catches the lamp. The steam from the one cup is backlit by the lamp.
+Heavy fabric textures — curtains, upholstery, a braided rug — all maintained and clean, nothing neglected. Amber and cream palette with dark wood. The room has been kept as if someone intends to return.
+Clean composition, no readable text, no clock numbers or hands legible, no watermarks, no logos, no signatures.
 ```
 
 ---
@@ -373,38 +379,41 @@ Clean composition, no text, no watermarks, no signatures.
 
 ### The Grief Jars
 Save as: `item-grief-jars.png`
+*(Revised 2026-11-20: no exact count, labels left illegible — the label text is read aloud, and Gemini garbles several small texts — and "PRIVATE" is the single legible word.)*
 
 ```
-An open kitchen cabinet containing forty-three small glass jars in neat rows. Each jar sealed with dark wax and hand-labeled in careful small script. Front-row labels visible: "Tuesday, 1978." "Thomas's birthday, the good one." "The argument about the curtains — I was right." The jars are slightly warm — the light inside them has a faint amber quality that should not be possible in sealed glass.
-Flat overhead kitchen light, functional and harsh, illuminating the cabinet clearly. The warm amber from inside the jars is its own source, cooler than the overhead, emanating from within.
-Glass jars with the slight variation of handmade production. Wax seals in slightly different colors, applied at different times. Labels in consistent handwriting, applied carefully. The cabinet door itself labeled PRIVATE in capitals in the same hand, visible at the frame edge.
-Clean composition, no text, no watermarks, no signatures.
+A wide 16:9 landscape. The open door of a kitchen cabinet, packed with rows of small glass jars on wooden shelves — a full cabinet, many dozens of jars in neat rows. Each jar is sealed with dark wax, in slightly different shades of red-brown, black and amber wax, applied at different times. Each jar has a small hand-written paper label in careful, tiny cursive handwriting; the labels are too small and too slanted to read, just rows of neat handwriting. The glass has the slight variation of handmade jars.
+The inside of the cabinet door, visible at the left edge of the frame, has a single hand-painted word in capital letters: "PRIVATE". It is the only legible word in the image.
+Flat overhead kitchen light, functional and harsh, lights the cabinet clearly. But the jars glow faintly warm amber from within, as if each one held a tiny lit lamp, which should not be possible in sealed glass. The amber is its own light source, warmer and softer than the harsh overhead light, and it falls on the shelf edges in front of the jars.
+A small domestic kitchen around it: cream paint, a strip of floral wallpaper at the edge of the frame, nothing else of note. The effect is tender rather than frightening.
+Clean composition, no other text, no watermarks, no logos, no signatures.
 ```
 
 ---
 
 ### The Knitting Needle — Anchor Item
 Save as: `item-mabel-knitting-needle.png`
+*(Revised 2026-11-20: generate with `npc-mabel-ashby-alive.png` attached so the needle matches the one in her hair.)*
 
 ```
-A single thin silver knitting needle on a dark wood surface. A few strands of grey hair still clinging to it — not many, just enough. The needle is old and elegant: silver darkened with decades of handling, the point still precise. It is warm. The surface beneath it has the grain of wood that has been in a house for a long time.
-A single narrow overhead light source, the needle lit clearly against the dark wood. The hair strands catch the light. Nothing else in the frame.
-Silver with patina — not tarnished, darkened with use, the grip end worn smooth precisely where a hand held it for forty years. The hair strands are grey and fine. This is the kind of object that belonged to someone specifically.
-Clean composition, no text, no watermarks, no signatures.
+Using the long thin silver needle pinned through the grey bun of the woman in the attached image as the exact reference, create a wide 16:9 landscape image of that single needle lying alone on a dark wood surface: long, thin and straight, with a small rounded silver knob at one end and a fine precise point at the other. A few fine grey hairs still cling to it — not many, just enough. The needle is old and elegant: silver darkened with decades of handling, the grip end worn smooth exactly where a hand held it. It is warm. The wood beneath it has the grain of a surface that has been in a house for a long time.
+A single narrow overhead light source lights the needle clearly against the dark wood; the hair strands catch the light. The needle is small in the frame, with generous dark space around it. Nothing else in the frame.
+Silver with patina — not tarnished, darkened with use. The hair strands are grey and fine. This is the kind of object that belonged to someone specifically.
+Clean composition, no text, no watermarks, no logos, no signatures.
 ```
 
 ---
 
 ### The Subway — Schematic
 Save as: `map-subway-schematic.png`
+*(Revised 2026-11-20: the five invented station names were removed — nothing in canon names them and Gemini garbles small text. "LINE 0" is the one legible word, matching the entrance sign. In Session 2 this is the hall's north-wall transit map: lines match no city, one line in newer red ink.)*
 
 ```
-A transit map filling the full frame for a system called "Line 0" — lines that do not correspond to normal city geography, rendered in the visual language of an official transit authority. One line marked in red ink by hand, added after the original printing. Station names in small type: "Threshold," "The Still Point," "Last Platform," "Confluence," "The Mouth."
-Flat document lighting with a slight greenish tint — as if the map has absorbed the light of the space it belongs to. Aged paper catching the light unevenly, slightly brighter at center, dimming toward the edges.
-Printed lines with the precision of official cartography, the red handwritten addition slightly smeared — added in haste, or in poor light, or somewhere the pen didn't want to work. Paper with a greenish aging tint, the official printing fading at the edges. A document that is correct in format and wrong in content. The kind of map that looks authoritative until you try to use it to go somewhere.
-Clean composition, no text, no watermarks, no signatures.
+A wide 16:9 landscape, filling the whole frame: an official transit-authority map of an underground rail system, printed on aged, slightly yellowed paper, as if photographed flat on a wall. At the top, the only legible text on the map, large and in a clean transit-authority typeface: "LINE 0". Everything else is tiny printed lettering too small to read — station labels beside small circle and tick markers, and a boxed legend in one corner with unreadable small print.
+The network is drawn with the precision of official cartography, but it is wrong: the coloured lines run in geometry that corresponds to no city — angles that don't resolve, loops that return to themselves, a branch that ends in the middle of the page and a station that appears on two lines at once. There is no river, no streets, nothing that could be a real place. One line is marked over in red ink by hand: slightly smeared, newer than the rest of the printing, added in haste, or in poor light, or somewhere the pen did not want to work.
+Flat document lighting with a slight greenish tint, as if the map has absorbed the light of the space it belongs to. The paper is aged and greenish at the edges, catching the light unevenly, slightly brighter at the centre and dimming towards the edges; the official printing fades at the margins. A document that is correct in format and wrong in content. It looks authoritative until you try to use it to go anywhere.
+Clean composition, no other legible text, no real city names, no watermarks, no signatures.
 ```
-
 
 ---
 
@@ -458,11 +467,13 @@ Clean composition, no text, no watermarks, no signatures. (All handwriting is ab
 
 ### Renwick Stalls *(Session 3–4)*
 Save as: `npc-renwick-stalls.png`
+*(Revised 2026-11-20: the scene is the coffee-shop pitch in the Session 3 prep — two cups, one sipped and put back — not a street of townhouses. He is also the man in the ill-fitting new coat who delivers the Form 88-D envelope.)*
 ```
-A nervous property developer in an expensive coat a size too large, holding two business cards in one hand, smiling a half-second too early; a pitch-deck folder under his arm; standing on a street of late-Victorian townhouses.
-Cold overcast daylight; a warm window glow behind him in an old house.
-Camel coat, new shoes that don't fit his stride, a tie slightly crooked. A man who has been told not to ask questions.
-Clean composition, no text, no watermarks, no signatures.
+A wide 16:9 landscape. A nervous man in his forties — Renwick Stalls, a property developer — in a cozy neighbourhood coffee shop in the late afternoon, standing half out of his chair at a small round table, as if he cannot decide whether to sit or stand. He wears an expensive camel overcoat that is a size too large, as if bought for a better version of him, with new leather shoes that do not fit his stride and a tie slightly crooked. One hand holds two blank white business cards fanned out like a poker hand; a glossy pitch-deck folder is tucked under his other arm. He is smiling, and the smile has arrived a half-second too early. His eyes are slightly too wide. He looks like a man who has been told not to ask questions.
+On the table in front of him are two plain white coffee cups: one has a sip taken from it and has been put back, as if he has forgotten whose it was.
+Warm amber light from the shop windows and pendant lamps behind him, with the cool grey of an overcast street through the glass. Muted palette: camel, cream, warm wood, grey.
+Plain unbranded cups and cards; no logos, no signs, nothing legible anywhere in the frame.
+Clean composition, no text, no watermarks, no logos, no signatures.
 ```
 
 ### Drennick & Foss *(Session 2)* — three images, same chat, in this order *(v2 2026-11-18)*

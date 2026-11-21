@@ -21,7 +21,7 @@
   @keyframes drift { from { transform:scale(1.02) translate(0,0); } to { transform:scale(1.09) translate(-1%,-1%); } }
   /* rain-slicked noir finish */
   .vignette { position:absolute; inset:0; pointer-events:none;
-    background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,.72) 100%); }
+    background: linear-gradient(to top, rgba(0,0,0,.55) 0, rgba(0,0,0,0) 30%), radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,.72) 100%); }
   .grain { position:absolute; inset:-50%; pointer-events:none; opacity:.07; mix-blend-mode:overlay;
     background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
     animation: grain 1.2s steps(6) infinite; }
@@ -35,21 +35,22 @@
   #caption.show { opacity:1; transform:none; }
   #caption .t { font-size:3.2vh; letter-spacing:.12em; text-transform:uppercase; color:var(--amber);
     text-shadow:0 2px 4px rgba(0,0,0,.95), 0 4px 16px rgba(0,0,0,.85); font-family: 'Helvetica Neue', Arial, sans-serif; font-weight:800; }
-  #caption .s { font-size:2.3vh; color:#f4f4f5; text-shadow:0 2px 6px rgba(0,0,0,.95), 0 4px 14px rgba(0,0,0,.8); margin-top:.4vh; font-style:italic; }
+  #caption .s { font-size:2.8vh; color:#f4f4f5; text-shadow:0 2px 6px rgba(0,0,0,.95), 0 4px 14px rgba(0,0,0,.8); margin-top:.4vh; font-style:italic; }
 
   /* public clocks */
   #clocks { position:absolute; right:3vw; top:4vh; display:flex; gap:1.6vw; }
   .clk { text-align:center; font-family:'Helvetica Neue',Arial,sans-serif; }
   .clk svg { width:8vh; height:8vh; filter:drop-shadow(0 2px 8px #000); }
-  .clk .n { font-size:2vh; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:#f4f4f5; margin-top:.4vh; text-shadow:0 2px 6px #000; }
+  .clk .n { font-size:2.4vh; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:#f4f4f5; margin-top:.4vh; text-shadow:0 2px 6px #000; }
   .clk.tick svg { animation: tickpulse 1.2s ease-out; }
   @keyframes tickpulse { 0%{transform:scale(1)} 25%{transform:scale(1.18); filter:drop-shadow(0 0 2.2vh var(--amber))} 100%{transform:scale(1)} }
 
   /* now playing */
-  #np { position:absolute; right:3vw; bottom:4vh; font:1.9vh 'Helvetica Neue',Arial,sans-serif; letter-spacing:.14em;
-    text-transform:uppercase; color:#a1a1aa; text-shadow:0 1px 6px rgba(0,0,0,.95); max-width:28vw; white-space:nowrap;
+  #np { position:absolute; right:3vw; bottom:4vh; font:2.2vh 'Helvetica Neue',Arial,sans-serif; letter-spacing:.14em;
+    text-transform:uppercase; color:#d4d4d8; text-shadow:0 1px 6px rgba(0,0,0,.95); max-width:28vw; white-space:nowrap;
     overflow:hidden; text-overflow:ellipsis; opacity:0; transition:opacity 1s; }
   #np.show { opacity:.85; }
+  #np.dim { opacity:.35; }
 
   /* player-facing cards */
   #card { position:absolute; inset:0; display:flex; align-items:center; justify-content:center;
@@ -67,14 +68,16 @@
   .sheet.newspaper h1 { font-family:Georgia,serif; text-align:center; font-size:5.4vh; border-top:.5vh double #1a1a1a; border-bottom:.5vh double #1a1a1a; padding:1vh 0; }
   .sheet.note { background:#f3ecd2; color:#1d2a52; font-family:'Bradley Hand','Segoe Script','Comic Sans MS',cursive; transform:rotate(1.6deg); }
   .sheet.note p, .sheet.note h1 { font-family:inherit; }
-  .sheet.fortune { background:#2a0f3a; color:#fbbf24; border:.8vh double #fbbf24; text-align:center; max-width:34vw; }
+  .sheet.note p { font-size:3.4vh; }
+  .sheet.dense p { font-size:2.3vh; margin:.7vh 0; } .sheet.dense h1 { font-size:3.2vh; }
+  .sheet.fortune { background:#2a0f3a; color:#fbbf24; border:.8vh double #fbbf24; text-align:center; max-width:44vw; }
   .sheet.fortune h1 { font-size:3vh; letter-spacing:.3em; }
   .sheet.fortune p { font-size:3.2vh; font-weight:700; letter-spacing:.06em; }
   .sheet.recap { background:rgba(10,10,12,.94); color:var(--paper); border-top:.4vh solid var(--amber); border-bottom:.4vh solid var(--amber);
     transform:none; animation:none; max-width:68vw; }
   .sheet.recap h1 { color:var(--amber); font-family:'Helvetica Neue',Arial,sans-serif; text-transform:uppercase; letter-spacing:.18em; font-size:3.2vh; }
   .sheet.recap p { font-size:2.8vh; line-height:1.45; }
-  .sheet.recap ul { margin:2vh 0 0; padding-left:2.2vw; font-size:2.4vh; color:#d4d4d8; line-height:1.5; }
+  .sheet.recap ul { margin:2vh 0 0; padding-left:2.2vw; font-size:2.8vh; color:#d4d4d8; line-height:1.5; }
   .sheet.recap li::marker { color:var(--amber); }
   .sheet.sign { background:#0f1f14; color:#d1fae5; border:.8vh solid #6ee7b7; text-align:center; font-family:'Helvetica Neue',Arial,sans-serif; text-transform:uppercase; letter-spacing:.14em; }
 
@@ -82,7 +85,7 @@
   #banner { position:absolute; left:50%; top:46%; transform:translate(-50%,-50%) scale(.2) rotate(-6deg); opacity:0;
     font:900 15vh 'Impact','Haettenschweiler','Arial Black',sans-serif; text-transform:uppercase; color:#fde047;
     -webkit-text-stroke:.5vh #111; text-shadow:.8vh .8vh 0 #111, 0 0 5vh rgba(251,191,36,.6); width:max-content; max-width:90vw; white-space:normal; text-align:center; line-height:1.05; pointer-events:none; }
-  #banner.pop { animation: pop 2.6s cubic-bezier(.2,1.3,.3,1) forwards; }
+  #banner.pop { animation: pop 3.4s cubic-bezier(.2,1.3,.3,1) forwards; }
   @keyframes pop { 0%{opacity:0; transform:translate(-50%,-50%) scale(.2) rotate(-14deg)} 14%{opacity:1; transform:translate(-50%,-50%) scale(1.1) rotate(-5deg)}
     22%{transform:translate(-50%,-50%) scale(1) rotate(-6deg)} 85%{opacity:1} 100%{opacity:0; transform:translate(-50%,-50%) scale(1.05) rotate(-6deg)} }
 
@@ -95,8 +98,8 @@
     border:1px solid rgba(251,191,36,.35); font-family:'Helvetica Neue',Arial,sans-serif; text-transform:uppercase;
     opacity:0; transition:opacity .8s ease; }
   #crew.show { opacity:1; }
-  #crew .k { font-size:1.6vh; letter-spacing:.14em; color:#a1a1aa; }
-  #crew .v { font-size:2.5vh; font-weight:700; color:#f4f4f5; }
+  #crew .k { font-size:2vh; letter-spacing:.14em; color:#d4d4d8; }
+  #crew .v { font-size:3.2vh; font-weight:700; color:#f4f4f5; }
   #crew .v.hot { color:#dc2626; }
 </style>
 </head>
@@ -122,17 +125,24 @@ const $ = id => document.getElementById(id);
 
 function esc(s){ return String(s).replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
 
+let imgTok = 0;
 function setImage(src){
   const stage = $('stage');
-  if(!src){ [...stage.children].forEach(c => c.classList.remove('show')); $('blank').style.opacity = 1; return; }
-  $('blank').style.opacity = 0;
-  const l = document.createElement('div'); l.className = 'layer';
-  l.style.backgroundImage = `url("${src}")`;
-  stage.appendChild(l);
-  // fade in new, fade out and remove old
-  requestAnimationFrame(() => requestAnimationFrame(() => l.classList.add('show')));
-  const olds = [...stage.children].filter(c => c !== l);
-  olds.forEach(o => { o.classList.remove('show'); setTimeout(() => o.remove(), 1600); });
+  if(!src){ imgTok++; [...stage.children].forEach(c => c.classList.remove('show')); $('blank').style.opacity = 1; return; }
+  const tok = ++imgTok, probe = new Image();
+  probe.onload = () => {
+    if(tok !== imgTok) return;                       // a newer image request superseded this one
+    $('blank').style.opacity = 0;
+    const l = document.createElement('div'); l.className = 'layer';
+    l.style.backgroundImage = `url("${src}")`;
+    stage.appendChild(l);
+    // fade in new, fade out and remove old
+    requestAnimationFrame(() => requestAnimationFrame(() => l.classList.add('show')));
+    const olds = [...stage.children].filter(c => c !== l);
+    olds.forEach(o => { o.classList.remove('show'); setTimeout(() => o.remove(), 1600); });
+  };
+  probe.onerror = () => { console.warn('Player Screen: missing image', src); };   // keep the current picture
+  probe.src = src;
 }
 
 function drawClock(c){
@@ -152,7 +162,8 @@ function setCard(card){
   if(!card){ el.classList.remove('show'); return; }
   const lines = (card.lines || []).map(l => `<p>${esc(l)}</p>`).join('');
   const bullets = (card.bullets || []).length ? `<ul>${card.bullets.map(b => `<li>${esc(b)}</li>`).join('')}</ul>` : '';
-  el.innerHTML = `<div class="sheet ${esc(card.style || 'contract')}">${card.title ? `<h1>${esc(card.title)}</h1>` : ''}${lines}${bullets}</div>`;
+  const dense = ((card.lines||[]).length + (card.bullets||[]).length > 7 || (card.title||'').length > 40) ? ' dense' : '';
+  el.innerHTML = `<div class="sheet ${esc(card.style || 'contract')}${dense}">${card.title ? `<h1>${esc(card.title)}</h1>` : ''}${lines}${bullets}</div>`;
   el.classList.add('show');
 }
 
@@ -165,6 +176,7 @@ let lastImg = '__init__', lastCard = '__init__', lastBannerKey = null, lastClock
 function apply(s){
   const img = s.image || null;
   if(img !== lastImg){ lastImg = img; setImage(img); }          // only crossfade when the image actually changes
+  if(!img && s.caption) $('blank').style.opacity = .25;          // title card dims behind a caption
   const cap = $('caption');
   if(s.caption){ cap.querySelector('.t').textContent = s.caption; cap.querySelector('.s').textContent = s.subcaption || ''; cap.classList.add('show'); }
   else cap.classList.remove('show');
@@ -177,7 +189,7 @@ function apply(s){
     cw.innerHTML = `<div><div class="k">Heat</div><div class="v${cr.heat >= 6 ? ' hot' : ''}">${num(cr.heat)}</div></div><div><div class="k">Coin</div><div class="v">${num(cr.coin)}</div></div><div><div class="k">Rep</div><div class="v">${num(cr.rep)}</div></div>`;
     cw.classList.add('show');
   } else cw.classList.remove('show');
-  const np = $('np'); if(s.nowPlaying){ np.textContent = '♪ ' + s.nowPlaying.replace(/^music-/, '').replace(/\.mp3$/, '').replace(/-/g, ' '); np.classList.add('show'); } else np.classList.remove('show');
+  const np = $('np'); if(s.nowPlaying){ const t = '♪ ' + s.nowPlaying.replace(/^music-/, '').replace(/\.mp3$/, '').replace(/-/g, ' ').replace(/\bloop\b/i, '').trim(); if(np.textContent !== t){ np.textContent = t; np.classList.remove('dim'); clearTimeout(window._npT); window._npT = setTimeout(() => np.classList.add('dim'), 15000); } np.classList.add('show'); } else np.classList.remove('show');
   const ck = JSON.stringify(s.card || null);
   if(ck !== lastCard){ lastCard = ck; setCard(s.card || null); } // don't re-animate an unchanged card
   const bk = s.banner ? (s.banner + '|' + (s.bannerId || 0)) : null;
@@ -189,8 +201,16 @@ function poll(){
   const sc = document.createElement('script');
   sc.src = SCENE_FILE + '?t=' + Date.now();
   sc.onload = () => { try {
-      const s = window.SCENE; if(s && s.rev !== lastRev){ lastRev = s.rev; apply(s); }
-    } catch(e){} sc.remove(); };
+      const s = window.SCENE;
+      if(s && s.rev !== lastRev){
+        const A = v => Array.isArray(v) ? v : (v == null ? [] : [v]);   // tolerate sloppy scene.js
+        s.clocks = A(s.clocks).filter(c => c && c.total > 0);
+        if(s.card){ s.card.lines = A(s.card.lines); s.card.bullets = A(s.card.bullets); }
+        if(s.nowPlaying != null) s.nowPlaying = String(s.nowPlaying);
+        try { apply(s); } catch(e){ console.warn('Player Screen: apply failed', e); }
+        lastRev = s.rev;                                               // record the rev only after applying
+      }
+    } catch(e){ console.warn(e); } sc.remove(); };
   sc.onerror = () => sc.remove();
   document.head.appendChild(sc);
 }

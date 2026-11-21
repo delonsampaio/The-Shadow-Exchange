@@ -41,7 +41,7 @@ Plant in Session 1 or 2 as a trusted, helpful contact. Candidates the bible sugg
 
 - **How it was planted:** The crew receives the Merton envelope in Session 1. Thorne follows up as the Ministry contact on the job, positioned as a reform-minded liaison who prefers working *with* firms rather than above them. Warm, attentive, slightly too invested to be neutral.
 - **What it has done for the crew so far that built trust:** First contact post-Merton. Appears in Session 2 running interference on an Apex Aegis compliance ping — seemingly protecting the crew.
-- **Planted tells:** Six tells seeded in Sessions 1–3 (see `05-Sessions/Campaign-Arc.md` §5 and `Elias-Thorne.md`). Tell 1: first name before introductions. Tell 6 (ongoing): plain silver ring — belongs to a prior face (Tamsin Solano's grandmother's).
+- **Planted tells:** Six canonical tells seeded in Sessions 1–3, plus three optional (S9–14) (see `05-Sessions/Campaign-Arc.md` §5 and `Elias-Thorne.md`). Tell 1: first name before introductions. Tell 6 (ongoing): plain silver ring — belongs to a prior face (Tamsin Solano's grandmother's).
 
 ## Its Tell
 

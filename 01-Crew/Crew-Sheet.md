@@ -3,7 +3,7 @@ entity_type: Crew
 name: "Curios & Chronicles"
 crew_type: Hunters
 tier: 0
-hold: Weak
+hold: Weak *(house rule — the SRD starts a crew at strong hold)*
 rep: 0
 coin: 0
 heat: 0
@@ -32,7 +32,7 @@ A struggling bookstore on a narrow brick lot between two glass-and-steel skyscra
 
 ## Special Abilities
 * **Double Bookkeeping** *(custom)*: When finishing a government bounty, roll **Sway** to fudge the paperwork and keep one minor Biological, Relic, or Anchor Item.
-  * **6:** clean — it goes in the **Lead-Lined Vault**, the Ministry never notices.
+  * **6:** clean — a Relic or Anchor goes in the **Lead-Lined Vault**, a Biological in **Cold Storage**; the Ministry never notices.
   * **4–5:** you keep it, but the Ministry noticed something — **tick [Clock: The Ministry Audit] 1/4.**
   * **1–3:** the Ministry noticed — **tick Audit 1/4 and the item must be surrendered.**
 * *(Second ability chosen at Session 0.)*

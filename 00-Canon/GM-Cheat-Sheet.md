@@ -128,7 +128,7 @@ Witnesses, phones, leaked documents are scarier than damage. When you need a bad
 ### Tragedy Clock — Monkey's Paw only
 4-seg. **GM ticks secretly.** Players know something is coming.
 
-### Subway Decay Clock — Session 5+
+### Subway Decay Clock — Session 6+
 6-seg. Visible on the Subway transit map. Ticks from Mimic activity, exposure events, Resonance leaks.
 
 ### Omen Clock — GM-secret, mid-game

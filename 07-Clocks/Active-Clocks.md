@@ -48,6 +48,7 @@ Clock notation: `[ ◌ ]` empty, `[ ● ]` filled.
 
 ### [Clock: The Omen] [8-Segment] *(GM-SECRET)*
 * **Progress:** `[ ◌ ◌ ◌ ◌ ◌ ◌ ◌ ◌ ]` (0/8)
+* **Pacing (GM decision 2026-11-20 — an 80-session campaign):** 2 by Session 3 (already played-ready); hold at 2 until ~S11 (3); **4 at S25** (Aldric's broadcasts stop); 6 at the end of Season 2; 7 at ~S67; **8 only at the Waking** (~S78–80). Between thresholds use un-ticked weirdness as texture. The Omen ticks on **fiction**, not session counts, so a slow table gets a faster world.
 * **Trigger:** The boundary between worlds thinning naturally. GM ticks secretly as time passes or major occult events occur. 
 * **Symptoms by Segment:**
     * **1–2:** Clocks run slow (the shop clock, four minutes — Session 2), then **stop** at one specific time (11:47 — Session 3). Watches disagree.

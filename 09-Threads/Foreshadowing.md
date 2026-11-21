@@ -44,13 +44,19 @@ purpose: "Track narrative seeds planted but not yet resolved."
 * **Target Payoff:** Mimic reveal — when confronted, he reaches for the ring and it isn't where it should be. He reaches for a different comfort gesture and finds nothing.
 * **Status:** Dormant
 
+### Plants 7–9 — Optional tells (S9–S14)
+* **Seed:** (7) Thorne uses Dasha Lowe's private filing shorthand from the Vantage & Lowe files; (8) Greta notices his signature changes hand between early and later forms; (9) Reyes denies ever sending the "source" Thorne cited for the S14 job.
+* **Planted:** Sessions 9–14 (all optional; any one is enough to point at the truth).
+* **Target Payoff:** the Session 15 unmasking — three independent routes to the same truth.
+* **Status:** Dormant
+
 ## Other Plants (non-Mimic)
 * **The routing slip with a smudged "E." stamp** (Session 2 envelope) → the contract was manufactured via Thorne's liaison channel.
 * **Gerald won't go near Thorne** (Sessions 1+) → dogs know; also an Omen-adjacent beat.
 * **The red-ink Journal entry** → Architect thread (Harlan reacts to the name).
 * **PTOLEMY's ledger: their names, dated three days before the entrance** → someone chose them first.
 * **Zoltar's fortune cards** → each is one-third funny, two-thirds true (`Comedy-Playbook.md`).
-* **Consequence never reacts** → she reacts to exactly one thing, ~Session 10.
+* **Consequence never reacts** → she reacts to exactly one thing, ~Session 26 (*The Triangulation*).
 * **The two extra pages on Form 88-D** (Session 3) → Stalls Holdings = Apex (pays off Session 4).
 
 ## AI Tracking Directives

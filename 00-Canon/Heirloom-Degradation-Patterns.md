@@ -9,7 +9,7 @@ Every PC has a Cursed Heirloom — an object that anchors them to their life bef
 
 **Assignment:** During Session 0, as each player describes their heirloom, privately select the pattern that fits the object and the character. Never tell the player which pattern you've assigned — only show them symptoms.
 
-**Advancement:** Each pattern has four stages. Advance one stage per major arc, or when the PC does something that specifically stresses the heirloom's resonance (see individual patterns).
+**Advancement:** Each pattern has four stages. Advance on the campaign's schedule — stage 2 by ~S15, stage 3 by ~S41, stage 4 at ~S67 (mid-arc beats are *symptoms within a stage*) — or when the PC does something that specifically stresses the heirloom's resonance (see individual patterns).
 
 ---
 

@@ -47,6 +47,9 @@ for i in $(seq "$STEPS" -1 0); do
     sleep "$INTERVAL"
 done
 
+# Make sure QuickTime Player is running (AppleScript alone can fail with -600 if it was quit)
+if ! pgrep -x "QuickTime Player" >/dev/null; then open -g -a "QuickTime Player"; sleep 2; fi
+
 # Open new track in QuickTime Player (looping, minimized)
 osascript << APPLESCRIPT
 tell application "QuickTime Player"

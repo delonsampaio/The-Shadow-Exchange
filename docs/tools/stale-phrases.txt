@@ -1,0 +1,10 @@
+# One retired phrase (a regex) per line, then " :: " and why. Add a line EVERY time a canon fact changes (00-Canon/Change-Propagation-Map.md).
+# The check fails if a retired phrase still appears in live files (history folders are skipped).
+Act IV.{0,20}Session 13 :: Act IV now begins at S78 (or earlier on "wrap it N")
+Session 12 score \(the Deal Gone Wrong\) :: the Broker's first deal is the S13 score
+Heat instead of Wanted :: Heat 9 gives +1 Wanted and clears Heat (SRD); see House-Rules
+quiet, no witnesses \*\*\+1\*\* :: Heat is the SRD 0/2/4/6 table (Heat-and-Entanglements section 1)
+splatter for shock :: gore is allowed (GM ruling 2026-11-20)
+monsters that are \*only\* threats :: Menace Rule replaced it
+Documented Relocation form is half price :: removed from the Entanglement table
+the Understudied.{0,30}Session 12 :: the unmasking is S15

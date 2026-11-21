@@ -15,7 +15,7 @@ Treat each station as a room. Players can explore them. Things happen in them. A
 
 > "The stairs go down further than they should.
 >
-> This is not a figure of speech. Count them if you want — you have time. The alley above you is two stories deep at most. You are on step thirty-seven and still going. The city sounds — traffic, wind, the specific ambient noise of the world above — cut off completely on step fourteen. Not gradually. On step fourteen exactly, as though someone closed a door. After that: your own breathing. The iron railing under your hand is cold and real and slightly damp.
+> This is not a figure of speech. Count them if you want — you have time. The alley above you is two stories deep at most. You are on step thirty-seven and still going — in a city where no cellar goes down more than a single floor. The city sounds — traffic, wind, the specific ambient noise of the world above — cut off completely on step fourteen. Not gradually. On step fourteen exactly, as though someone closed a door. After that: your own breathing. The iron railing under your hand is cold and real and slightly damp.
 >
 > The light changes on the way down. Street-level sodium orange. Then fluorescent. Then something greenish and sourceless that you cannot locate — it's not coming from any fixture you can see. It's just there, ambient, like the light inside a fish tank.
 >
@@ -93,7 +93,7 @@ Too far back for the physical dimensions of the space. One occupant. Gray suit. 
 
 He looks up when someone approaches. He has been expecting this specific person.
 
-**What he offers:** What you want — the thing you actually want, not what you asked for. Price: a Memory, a Relationship, or a Future Favor. He specifies. He is not unreasonable.
+**What he offers:** What you want — the thing you actually want, not what you asked for. Price: one of six kinds (a Memory, a Relationship, a Year, a Future Favor, a Truth or a Name), rolled on the Cost Table in `Crossroads-Broker.md`. He states the kind up front, never the extent. He is not unreasonable.
 
 **Dialogue voice:** Unhurried. "Sit down. I know why you're here. I usually do."
 

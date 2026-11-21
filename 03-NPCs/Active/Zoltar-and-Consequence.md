@@ -11,7 +11,7 @@ role: the shop's two silent characters — the running-gag engine
 **Role** — The door. And, at the end of every session, a **fortune card** that drops from the slot though the machine is unplugged.
 **Personality (🎭)** — He is *visibly disappointed* in a wrong sequence: a small sad whirr; the head turns *right.* He never speaks. He is always a little too accurate.
 
-### Fortune Card Table *(d8 — use after Session 4; keep each one-third funny, two-thirds true)*
+### Fortune Card Table *(RETIRED for S4+: use `00-Canon/Zoltar-Card-Deck.md`; #7 is a Mimic hint, so strike it)*
 1. *YOU WILL COME INTO A LARGE SUM. IT WILL BE MOSTLY BEETS.*
 2. *THE PERSON YOU TRUST MOST HAS A SECOND PAIR OF SHOES.*
 3. *A CAT IS WATCHING YOU. IT HAS BEEN WATCHING FOR A WHILE.*
@@ -23,7 +23,7 @@ role: the shop's two silent characters — the running-gag engine
 
 ## Consequence — the cat
 **Look** — Large, grey, profoundly indifferent. Tag reads CONSEQUENCE.
-**Role** — **Has never reacted to a single supernatural event.** The crew finds it reassuring. *(Payoff, ~Session 10: she reacts to exactly one thing. Make it count.)*
+**Role** — **Has never reacted to a single supernatural event.** The crew finds it reassuring. *(Payoff, ~Session 26, *The Triangulation*: she reacts to exactly one thing. Make it count.)*
 **Personality (🎭)** — Always asleep on the single most inconvenient object. **Each session, ask a player where she is *before* revealing it.**
 
 ### Where Is Consequence? *(d12)*

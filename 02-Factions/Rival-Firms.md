@@ -48,8 +48,8 @@ Two-person firm, now gone. Filed a Ministry retirement notice ninety-three days 
 
 **The Apex black site:** A climate-controlled archive facility disguised as a private medical storage company in the Docks. The entity from the contract is there. So is the evidence of the manufactured job. So, probably, are Vantage and Lowe — in whatever condition Apex decides is acceptable.
 
-**Hook:** This is Score 4 or 5 material. The crew hears a rumor, follows the thread, and finds something Apex doesn't want found. If they extract Vantage and/or Lowe, they gain the most experienced outside allies available — and make Apex into a committed enemy.
+**Hook:** Docks & Daughters, Sessions 8–11 (`Season-1-Plan.md` Mid-Arc 2). The crew hears a rumor, follows the thread, and finds something Apex doesn't want found. **Emery Vantage is dead** (by Sessions 10–11). If they extract **Dasha Lowe**, they gain the most experienced outside allies available — and make Apex into a committed enemy.
 
 **Who did what (canon chain — GM-private):** the **Understudied** (as Corvin Pryce, later Thorne) supplied the Ministry routing exploit; **Section Chief Kress** signed the originating form; **Apex Aegis** profited and ran the black site. *The Preservation Order on the Bounty Board is the same bait.*
 
-**Standing:** — *(firm is gone; if Vantage and/or Lowe are recovered, track their standing individually)*
+**Standing:** — *(firm is gone; if Dasha Lowe is recovered, track her standing individually)*

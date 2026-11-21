@@ -29,7 +29,7 @@ gm_secret: cost_table
 
 ## What it takes
 
-The crew agrees to "a fair price" before knowing what it is. **GM rolls d6 secretly on the Cost Table.**
+**GM rolls the d6 secretly on the Cost Table before making the offer.** The Broker states the **kind** of price up front (a Memory, a Relationship, a Year, a Future Favor, a Truth or a Name) — never how much it will take. The crew agrees knowing the kind, not the extent.
 
 | d6 | The Cost |
 |---|---|
@@ -46,5 +46,5 @@ It never takes something the crew values lightly. It always takes something that
 
 ## Notes
 
-- Curious, not angry. Notes them as interesting if they fail. Offers a deal of its own if they succeed at Job 6.
+- Curious, not angry. Notes them as interesting if they fail. Offers a deal of its own if they succeed at the Session 13 score (the Broker job).
 - Do not introduce as a system. Introduce as a consequence.

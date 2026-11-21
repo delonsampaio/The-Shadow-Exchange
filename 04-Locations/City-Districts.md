@@ -8,6 +8,8 @@ status: canon
 
 Five districts that matter for this campaign. Each has a sensory signature and a Resonance note for GM mechanical reference.
 
+**Getting around:** car, bike, taxi, bus, and a single **elevated train**. **The city has no subway system and never could** (GM decision 2026-11-20): the water table is about one storey down, as in Florida, so nothing is dug deeper than a single pumped cellar (every cellar has a sump pump; the lair's runes keep it dry). The Subway is the only underground railway, and it is on no map. Everyone who lives here knows this.
+
 ---
 
 ## Old City
@@ -17,7 +19,7 @@ Narrow brick lots between glass-and-steel intruders. Streets built for horse car
 
 **Sensory signature:** Wet brick, old paper, the specific silence of a street that was busy a hundred years ago. Sound echoes wrong — too many hard surfaces, too close.
 
-**Key locations:** Curios & Chronicles. Ministry field office (six blocks east — plain door, no sign). Harlan Okafor's diner (forty minutes out, city's edge).
+**Key locations:** Curios & Chronicles. Ministry field office (six blocks east — plain door, no sign). *(Harlan Okafor's diner is outside the five districts — forty minutes out, at the city's edge; see the regional map in `11-Visuals/Living-Map.md`.)*
 
 **Resonance note:** Highest density of century-old buildings in the city. Resonance residue is common. Apex scanners filter it — and sometimes filter things they shouldn't.
 

@@ -1,7 +1,7 @@
 ---
 entity_type: Core_Canon
 authority_level: absolute
-purpose: "The three players have NEVER played Blades in the Dark (and are new to roleplay). This is the teaching plan: which mechanic is introduced when, the 30-second script for each, and what is deliberately deferred. The Co-GM and the GM both follow it."
+purpose: "The three players have NEVER played Blades in the Dark (they are experienced D&D-style tabletop players — new to this system, not to roleplay). This is the teaching plan: which mechanic is introduced when, the 30-second script for each, and what is deliberately deferred. The Co-GM and the GM both follow it."
 last_updated: 2026-11-16
 ---
 
@@ -41,7 +41,7 @@ Each: **SAY** (≤30 s, D&D bridge) · **SHOW** (example) · **CHECK** (a questi
 ### 1. Action Roll & the dice *(S0)*
 - **SAY:** "You roll as many six-sided dice as your rating in that action. You only look at the **highest** one. **6** is a clean win. **4–5** is a win *with a cost*. **1–3** is a miss with a consequence. Two 6s is a critical."
 - **SHOW:** "Two dice, 3 and 5 → a 5. You do it, but something costs you."
-- **CHECK:** "What do you want your character to do — and which of your skills is that?"
+- **CHECK:** "What do you want your character to do — and which of your actions is that?"
 - **WATCH FOR:** adding dice, or treating a 4–5 as a failure. *(It's the most common result.)*
 
 ### 2. Position *(S0)*
@@ -89,7 +89,7 @@ Each: **SAY** (≤30 s, D&D bridge) · **SHOW** (example) · **CHECK** (a questi
 - **SAY:** "Protecting a Twice-Born earns a **Favor** (max 3). Spend them for safe harbor, rare gear, or lore. They also *notice* what you do."
 
 ### 13. Entanglements *(S3)*
-- **SAY:** "After a score, you roll to see if your accumulated Heat has attracted attention. Low Heat, low risk — and it's the engine for *consequences with consequences.*"
+- **SAY:** "After a score, you roll to see *which* trouble comes — an entanglement follows every score, and your Heat decides how bad. Low Heat, low risk — and it's the engine for *consequences with consequences.*"
 
 ### 14. Acquire Assets *(S3)*
 - **SAY:** "In Downtime you can **get gear or a service** for a score. Roll your crew's **Tier** (at Tier 0, roll two dice and take the *lower*). The result sets the *quality* of the asset relative to your Tier: **1–3 one level below, 4–5 your Tier, 6 one above** (a critical, if you have dice to roll one, two above). Spend 1 Coin after the roll to raise the result a step; a friend or contact helping gives +1d."
@@ -139,3 +139,28 @@ RESIST a consequence — it ALWAYS works; the die sets the cost.
 VICE (Downtime): roll your LOWEST attribute; clear Stress = highest die.
 GROUP ACTION: best die counts · leader takes 1 Stress per teammate who rolled 1–3.
 ```
+
+---
+
+## Appendix — D&D bridges and exact first-use scripts *(moved from CoGM-Core-Instructions, 2026-11-20)*
+
+**First-time bridges (say once, ≤30 s, in D&D-adjacent terms):**
+  - *Position* — "Think of this like how exposed your character is. Controlled is safe ground. Risky is out in the open. Desperate means you're cornered and something is already going wrong."
+  - *Effect* — "This is your ceiling for what you can accomplish on a success. Limited means partial progress. Standard is a clean win. Great means you exceed expectations."
+  - *Stress* — "Stress works like a reserve of willpower you burn to resist consequences or push yourself harder. It refills when you indulge your vice in Downtime. Trauma is what happens when you run out — it's permanent and changes who your character is."
+  - *Resistance rolls* — "This is like using a reaction to reduce damage, except you choose it after seeing the consequence. You roll your relevant attribute; higher roll = less Stress spent. Sometimes you negate the consequence entirely."
+  - *Flashback* — "Flashbacks let you establish something your character prepared before the scene started. It costs 0 Stress if simple, up to 2 if complex. Think of it as retroactive planning — 'actually, I would have scouted that.'"
+
+**Exact bridges for the first time a mechanic triggers (Sessions 1–3):**
+
+**First Action Roll:**
+> "Before you roll — in Blades, we set two things first: Position and Effect. Position is how exposed [character] is right now. Effect is how much they can accomplish if they succeed. I'm calling this [Risky / Controlled / Desperate] Position and [Standard / Limited / Great] Effect. That means if you succeed, [explain specific outcome ceiling]. If you fail, [explain specific risk]. Roll your [Action] dice and take the highest."
+
+**First Resistance Roll:**
+> "You can resist this consequence. Resisting costs Stress — you roll your [Attribute] dice (Insight, Prowess, or Resolve depending on what you're resisting), take the highest, and spend Stress equal to 6 minus that result; on a 6 you spend none. Want to try?" *(Wait for the answer. Only if they say yes:)* "Then roll your [Attribute]."
+
+**First Flashback:**
+> "Before we move forward — anyone can call a Flashback right now. It lets you establish something your character prepared or did before this scene started. It costs 0 Stress if it's simple, 1 Stress if it's complicated, and 2 Stress if it's elaborate. Think of it as retroactive planning. Does anyone want to use one?"
+
+**First Devil's Bargain:**
+> "I can give you an extra die on this roll. The cost: [specific bargain — a clock tick, a complication, a witness]. The cost happens whatever the roll turns out to be, so decide before you roll. Up to you."

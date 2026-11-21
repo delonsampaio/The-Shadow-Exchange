@@ -22,7 +22,7 @@ PC-specific friends and rivals live in `01-Crew/PCs/`. This file tracks contacts
 
 ## Hostile / wary
 
-- **Apex Aegis Cleaners** — Triggered if the crew's Heat with Apex Aegis reaches 3+.
+- **Apex Aegis Cleaners** — Triggered if crew Heat reaches 6+ or standing with Apex falls to −2.
 
 ## Twice-Born standing
 

@@ -29,18 +29,18 @@ purpose: "Everything still to generate, in priority order, with the exact filena
 | ✅ | `location-subway-entrance.png` 🆕 | S2 (the reveal) | Pre-Campaign prompts (end) |
 | ✅ | `npc-ptolemy.png` | S2 (2026-11-18; labels Thule/Atlantis/Lemuria/Ys; alt = `npc-ptolemy-alt.png` — people not facing away, garbled labels; wiki portrait of the luggage = later, plain-lit, after S2) | exists |
 | ✅ | `npc-cosma-linden.png` | S2 (2026-11-18; letterbox bars cropped; alt = `npc-cosma-linden-alt.png`, wide, many empty chairs) | exists |
-| ☐ | `location-ashby-exterior.png` | S3 | exists |
-| ☐ | `npc-mabel-ashby-alive.png` | S3 | exists |
-| ☐ | `npc-mabel-ashby-wraith.png` | S3 | exists |
-| ☐ | `item-grief-jars.png` | S3 | exists |
-| ☐ | `npc-agnes-pell.png` | S3 | exists |
+| ✅ | `location-ashby-exterior.png` | S3 (2026-11-20; three-storey end of a sloping terrace, amber upper-right window, **no clocks/teacup** — those are revealed by "Watch first") | exists |
+| ✅ | `npc-mabel-ashby-alive.png` | S3 (2026-11-20; long silver needle through the grey bun, separate knitting needles + yarn in lap, looks past camera; daylight through the lace curtain is a minor mismatch with a night job; **anchor for the wraith + wiki portrait**) | exists |
+| ✅ | `npc-mabel-ashby-wraith.png` | S3 (2026-11-20; see-through standing beside the chair, hand raised to the needle; the fog version was rejected) | exists |
+| ✅ | `item-grief-jars.png` | S3 (2026-11-20; jars glow amber from within, worn cabinet, PRIVATE on the door, labels illegible) | exists |
+| ✅ | `npc-agnes-pell.png` | S3 (2026-11-20; straw hat, cream-and-blue tureen, ceramic ladle, steam; alt `npc-agnes-pell-alt.png` = tweed hat, black door, grey hair) | exists |
 
 ### P0b — Gap-fill images 🆕 *(2026-11-17 audit; prompts at end of `Pre-Campaign-Image-Prompts.md`, Round 3)*
 | ☐ | File | Cued in |
 |---|---|---|
 | ✅ | `location-meridian-street.png` | S2 beat 4 (2026-11-18; second revolving door + plain door planted; first option rejected — real brand names Chloé/Dior) |
 | ✅ | `location-pier-exit.png` | S2 beat 12 (2026-11-18; big faded pack ad, no lettering; alt `location-pier-exit-alt.png`; option with a One-WTC-like spire rejected) |
-| ☐ | `location-theater-auditorium.png` | S1 beat 4a (optional; ghost light) |
+| ☑ | `location-theater-auditorium.png` | S1 beat 4a (exists) |
 | ✅ | `location-scanner-station.png` | S0 beat 3d (the green lamp; keeps the AM-man mystery) |
 | ✅ | `location-corkboard-wall.png` | S0 beat 3e (polaroids + the journal on its stand) |
 | ☐ | `item-hunters-journal.png` | S0 beat 3e (optional close-up; the red-ink page) |
@@ -87,16 +87,16 @@ Order: **1)** `wiki-harlan-okafor.png` → **2)** `npc-harlan-okafor.png` (same 
 ### P1 — S2/S3 optional beats and S4 prep
 | ☐ | File | Prompt |
 |---|---|---|
-| ☐ | `npc-aldric-voss.png` | exists |
-| ☐ | `npc-crossroads-broker.png` | exists |
-| ☐ | `location-ashby-interior.png` | exists |
-| ☐ | `item-mabel-knitting-needle.png` | exists |
+| ✅ | `npc-aldric-voss.png` | S2 optional (2026-11-20; repair bench, wary look to the doorway, headphones at neck, green corridor light at the edge — no broadcast-booth spoiler) | exists |
+| ✅ | `npc-crossroads-broker.png` | S2 optional (2026-11-20; wood-panelled booth, lamp above, untouched drink with ring, ordinary calm man; alt `-alt.png` = stone vaulted hall, beer already half drunk) | exists |
+| ✅ | `location-ashby-interior.png` | S3 optional (2026-11-20; same room as the Mabel images, basket on the chair, glare hides the clock hands, one steaming cup; alt `-alt.png` = wide view with fireplace, basket on rug, readable clock dial) | exists |
+| ✅ | `item-mabel-knitting-needle.png` | S3 optional (2026-11-20; small, quiet, pale grey hairs, worn silver grip; alt `-alt.png` = bolder, dark long hairs) | exists |
 | ☐ | `npc-senna-calder.png` | exists |
 | ☐ | `npc-mara-halliday.png` | exists |
 | ☐ | `map-subway-schematic.png` | exists |
 | ☐ | `location-harlans-diner.png` 🆕 | S4 debut (see Harlan set above) |
 | ✅ | `npc-drennick-foss.png` | S2 (2026-11-18; both attached, Meridian street matches; alt `npc-drennick-foss-alt.png` — Drennick stares at camera) |
-| ☐ | `npc-renwick-stalls.png` 🆕 | S3/S4 |
+| ✅ | `npc-renwick-stalls.png` 🆕 | S3/S4 (2026-11-20; plain café, camel coat too big, two blank cards + folder, two cups; the first option looked like a Starbucks and was rejected) |
 | ☐ | `npc-dev-last-stop.png` 🆕 | Subway second visit |
 
 ### P2 — Later / GM-only
@@ -174,8 +174,19 @@ Lyria 3 Pro generates **≥ 30 s**. For `music-sting-ruhroh` and `music-sting-bo
 
 ## 🛠 Tech to-dos (not assets, but before Session 0)
 - ☐ **Players' playbook sheets:** free PDFs are linked from the wiki's *Official Resources* page (verified; all load). Print or share the *Core Play Sheets* for the table.
-- ☐ Open `GM-Dashboard.html` — it loads **React, Tailwind and Babel from CDNs** → **needs internet**. *(Offer: vendor them locally so it works offline.)*
+- ✅ `GM-Dashboard.html` now loads **pinned local copies** of React, ReactDOM, Babel and Tailwind from `11-Visuals/vendor/` (2026-11-20) and works offline; if a library is missing it shows a message instead of a blank page. Open it once to confirm.
 - ☐ Open `Player-Screen.html` on the TV; F11; confirm the title card; ask the Co-GM to update `scene.js` once to test a crossfade.
 - ☐ Test `fade-switch.sh` once (QuickTime Player must be permitted to be controlled; macOS may prompt).
 - ☐ Enter the three PC names into `GM-Dashboard.html` (`INIT_PCS`) and bump `SAVE_VERSION`.
 - ☐ Windows paths in `CoGM-Core-Instructions.md` (`The Shadow Exchnage` misspelling, the OneDrive path) — only matter if you run from the Windows machine.
+
+
+### Living map (see `Living-Map.md` for rules and prompts)
+| ☐ | File | Notes |
+|---|---|---|
+| ✅ | `map-city-s00.png` | C&C labelled — done 2026-11-20 |
+| ✅ | `map-city-s01.png` | Fairground Grand pinned — done 2026-11-20 |
+| ✅ | `map-city-s02.png` | Emmerich & Daughter pinned — done 2026-11-20 |
+| ✅ | `map-city-s03.png` | Eastern Pier + Ashby House pinned — done 2026-11-20 |
+| ✅ | `map-city-base.png` | new base map (2026-11-20); the old `map-city-districts*.png` are retired — also the fallback until the s00–s03 maps exist |
+| ☐ | `map-region-s04.png` | regional map for Harlan's diner (first time outside the city) — prompt in `Living-Map.md` |

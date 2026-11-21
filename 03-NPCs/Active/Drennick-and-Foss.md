@@ -23,7 +23,7 @@ role: recurring antagonists / running gag / Scooby-villain duo
 2. **S3 (Ashby):** Mid-argument; they arrive finishing a sentence about *the aftertaste.*
 3. **S4+:** Foss brings a **thermos of beet soup** to a stakeout out of spite.
 4. **Mid-campaign:** They cooperate with the crew *against an Apex Cleaner team* — because the team insulted the beets. (Pay it off. The crew is gobsmacked.)
-5. **S11 (the Offer):** Foss, at the worst moment: *"For the record — I was right."* (He is.)
+5. **S12 (The Squeeze, the buyout offer):** Foss, at the worst moment: *"For the record — I was right."* (He is.)
 
 ## Voice
 - *Opening a pursuit:* "—and *that's* my point. Right. Get them."
@@ -31,4 +31,4 @@ role: recurring antagonists / running gag / Scooby-villain duo
 - *Foss, seeing the crew's cover story:* "Municipal Department of — Drennick, is that real?" "...Noted."
 
 ## Mechanics
-At Heat 3+ or standing −2 with Apex, they are joined by **Cleaners** (a more serious team). If the crew has been *funny* to them, Drennick quietly lowers the standing penalty by 1 — a rare mercy.
+At crew Heat 6+ or standing −2 with Apex, they are joined by **Cleaners** (a more serious team). If the crew has been *funny* to them, Drennick quietly lowers the standing penalty by 1 — a rare mercy.

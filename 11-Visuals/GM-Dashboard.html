@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>The Shadow Exchange — GM Dashboard</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="vendor/tailwind-3.4.17.js"></script>
   <style>
     body { margin: 0; background: #09090b; }
   </style>
@@ -12,9 +12,10 @@
 <body>
   <div id="root"></div>
 
-  <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="vendor/react.production.min.js"></script>
+  <script src="vendor/react-dom.production.min.js"></script>
+  <script src="vendor/babel.min.js"></script>
+  <script>if(!window.React||!window.ReactDOM||!window.Babel){document.body.insertAdjacentHTML('afterbegin','<p style="color:#fbbf24;font:18px sans-serif;padding:24px">Dashboard libraries missing — check 11-Visuals/vendor/ (react, react-dom, babel, tailwind).</p>');}</script>
 
   <script type="text/babel">
     const { useState, useEffect } = React;
@@ -203,7 +204,7 @@
               ⬡ SECRET
             </span>
           )}
-          <svg viewBox="0 0 100 100" className="w-16 h-16">
+          <svg viewBox="0 0 100 100" className="w-12 h-12">
             <circle cx={cx} cy={cy} r={r + 2} fill="none" stroke="#3f3f46" strokeWidth="1" />
             {segs}
             <circle cx={cx} cy={cy} r="17" fill="#09090b" />
@@ -223,8 +224,8 @@
           </p>
           <p className="text-[11px] font-mono text-zinc-500 mt-0.5">{c.cur}/{c.total}</p>
           <div className="flex gap-1 mt-1">
-            <button onClick={() => onSet(c.id, c.cur - 1)} className="w-6 h-5 rounded bg-zinc-800/70 hover:bg-zinc-700 text-zinc-300 text-xs font-bold leading-none">−</button>
-            <button onClick={() => onSet(c.id, c.cur + 1)} className="w-6 h-5 rounded bg-zinc-800/70 hover:bg-zinc-700 text-zinc-300 text-xs font-bold leading-none">+</button>
+            <button onClick={() => onSet(c.id, c.cur - 1)} className="w-8 h-7 rounded bg-zinc-800/70 hover:bg-zinc-700 text-zinc-300 text-sm font-bold leading-none">−</button>
+            <button onClick={() => onSet(c.id, c.cur + 1)} className="w-8 h-7 rounded bg-zinc-800/70 hover:bg-zinc-700 text-zinc-300 text-sm font-bold leading-none">+</button>
           </div>
         </div>
       );
@@ -255,6 +256,17 @@
         location.reload(); } };
       const [veil, setVeil] = usePersist('veil', false);
       const [flash, setFlash] = useState({});
+      const [tv, setTv] = useState(null);
+      useEffect(() => {
+        const poll = () => {
+          const sc = document.createElement('script');
+          sc.src = 'player-screen/scene.js?t=' + Date.now();
+          sc.onload = () => { try { const s = window.SCENE; if (s) setTv({ image: s.image, caption: s.caption, card: s.card, crew: s.crew, clocks: s.clocks }); } catch (e) {} sc.remove(); };
+          sc.onerror = () => sc.remove();
+          document.head.appendChild(sc);
+        };
+        poll(); const id = setInterval(poll, 2500); return () => clearInterval(id);
+      }, []);
       const veilCls = veil ? 'blur-[6px] hover:blur-none transition-all select-none' : '';
       useEffect(() => {
         const onKey = (e) => {
@@ -270,6 +282,22 @@
       // ── Live feed from the Co-GM (dashboard-feed/feed.js) ─────────────────────
       const [feedLog, setFeedLog] = usePersist('feedlog', []);
       const [scene, setScene] = usePersist('scene', { beat: '—', title: 'Waiting for the session to start', next: '' });
+      const describe = (o) => o.note || ({
+        scene: `Now: ${o.beat !== undefined ? o.beat : ''} ${o.title !== undefined ? o.title : ''}${o.next ? ' → next ' + o.next : ''}`,
+        stress: `PC ${o.pc} Stress → ${o.value}`,
+        harm: `PC ${o.pc} Harm slot ${o.slot + 1} → ${HARM_LABELS[o.value]}`,
+        clock: `Clock ${o.id} → ${o.value !== undefined ? o.value : '+' + o.delta}`,
+        crew: `${o.key} → ${o.value !== undefined ? o.value : '+' + o.delta}`,
+        taught: `Taught ${o.id}: ${TAUGHT_LABELS[o.state]}`,
+        tell: `Tell ${o.id}: ${TELL_LABELS[o.state]}`,
+        pc: `PC ${o.pc}: ${o.name || ''}`,
+        pcinfo: `PC ${o.pc} details updated`,
+        faction: `Faction ${o.id} → ${STAND_LABELS[o.standing]}`,
+        npc_add: `New NPC: ${o.name}`,
+        anchor_add: `Anchor: ${o.name}`,
+        anchor_status: `${o.name} → ${ANCHOR_STATUSES[o.status]}`,
+        gag: `Note: ${o.label || o.id}`
+      }[o.op] || o.op);
       const applyOp = (o) => {
         const clamp = (v, lo, hi) => Math.max(lo, Math.min(hi, v));
         switch (o.op) {
@@ -280,7 +308,7 @@
           case 'pc':      setPcs(p => p.map(pc => pc.id === o.pc ? { ...pc, ...(o.name !== undefined ? { name: o.name } : {}), ...(o.role !== undefined ? { role: o.role } : {}) } : pc)); break;
           case 'tell':    setTells(p => p.map(t => t.id === o.id ? { ...t, state: clamp(o.state, 0, 2) } : t)); break;
           case 'taught':  setTaught(p => p.map(t => t.id === o.id ? { ...t, state: clamp(o.state, 0, 2) } : t)); break;
-          case 'gag':     setGags(p => p.some(g => g.id === o.id) ? p.map(g => g.id === o.id ? { ...g, note: o.note } : g) : [...p, { id: o.id, label: o.label || o.id, note: o.note || '' }]); break;
+          case 'gag':     setGags(p => p.some(g => g.id === o.id) ? p.map(g => g.id === o.id ? { ...g, note: (document.activeElement && document.activeElement.dataset && document.activeElement.dataset.gag === o.id) ? g.note : o.note } : g) : [...p, { id: o.id, label: o.label || o.id, note: o.note || '' }]); break;
           case 'faction': setFactions(p => p.map(f => f.id === o.id ? { ...f, standing: clamp(o.standing, 0, 6) } : f)); break;
           case 'anchor_add':    setAnchors(p => [...p, { id: Date.now() + Math.random(), name: o.name, status: o.status || 0 }]); break;
           case 'anchor_status': setAnchors(p => p.map(a => a.name === o.name ? { ...a, status: o.status } : a)); break;
@@ -319,7 +347,7 @@
                 setFlash(touched); setTimeout(() => setFlash({}), 3500);
                 const entries = [...fresh].reverse().map(o => ({
                   t, secret: o.op === 'tell' || o.id === 'omen' || o.pattern !== undefined || o.stage !== undefined,
-                  text: o.note || (o.op + ' ' + JSON.stringify(o).slice(0, 60))
+                  text: describe(o)
                 }));
                 setFeedLog(p => [...entries, ...p].slice(0, 60));
               }
@@ -469,6 +497,14 @@
                 <span className="text-xl font-bold text-amber-300"><span className="font-mono text-amber-500 mr-2">{scene.beat}</span>{scene.title}</span>
                 {scene.next && <span className="text-[14px] text-zinc-500"><span className="text-zinc-500 uppercase tracking-wide mr-1">next</span>{scene.next}</span>}
               </div>
+              <div className="mt-2 px-1 text-[12px] font-mono text-zinc-500">
+                <span className="uppercase tracking-wide mr-2">On the TV</span>
+                {tv ? (
+                  <span className={(tv.crew && (tv.clocks || []).length > 0) ? 'text-red-400' : 'text-zinc-400'}>
+                    {tv.image ? '' : 'title card · '}{tv.caption || 'no caption'} · card: {tv.card ? (tv.card.style + (tv.card.title ? ' “' + tv.card.title + '”' : '')) : '—'} · crew strip: {tv.crew ? 'ON' : 'off'} · clocks: {(tv.clocks || []).map(c => c.name).join(', ') || '—'}
+                  </span>
+                ) : <span>(waiting for scene.js)</span>}
+              </div>
             </section>
 
             {/* ── CO-GM UPDATES (live feed log) ── */}
@@ -550,7 +586,7 @@
 
               <section className="lg:col-span-7">
                 <h2 className="text-[12px] font-black uppercase tracking-[0.2em] text-zinc-500 mb-2">Active Clocks</h2>
-                <div className="grid grid-cols-3 xl:grid-cols-4 2xl:grid-cols-7 gap-2">
+                <div className="grid grid-cols-4 lg:grid-cols-7 gap-2">
                   {clocks.map(c => <Clock key={c.id} c={c} onSet={setClock} hot={!!flash['clock:' + c.id]} veilCls={veilCls} />)}
                 </div>
                 <div className="mt-3">
@@ -590,8 +626,8 @@
                             className={`text-[11px] font-mono font-bold px-2 py-0.5 rounded-full border uppercase tracking-wide transition-all ${STATUS_CLS[n.status]}`}>
                             {STATUS_LABELS[n.status]}
                           </button>
-                          <button onClick={() => archiveNpc(n.id)}
-                            className="text-zinc-500 hover:text-zinc-300 text-sm transition-colors px-1" title="Move to Graveyard">×</button>
+                          <button onClick={() => { if (window.confirm('Move ' + n.name + ' to the Graveyard?')) archiveNpc(n.id); }}
+                            className="text-zinc-500 hover:text-zinc-300 text-base transition-colors px-2 py-1" title="Move to Graveyard">×</button>
                         </div>
                       </div>
                     ))}
@@ -614,6 +650,7 @@
                   <div><b className="text-amber-400">Risky</b> <span className="text-zinc-400">4–5: success + harm / complication / reduced effect / desperate · 1–3: it goes badly, lose the chance</span></div>
                   <div><b className="text-red-400">Desperate</b> <span className="text-zinc-400">4–5: success + severe harm or serious complication · 1–3: worst outcome · </span><b className="text-sky-400">roll = +1 XP</b></div>
                   <div className="text-zinc-500">Crit (two 6s): increased effect · Effect is separate: great / standard / limited</div>
+                  <div><b className="text-sky-400">Resist</b> <span className="text-zinc-400">decide first, then roll: Stress = 6 − highest die (crit clears 1) · </span><b className="text-sky-400">Push</b> <span className="text-zinc-400">2 Stress → +1d or +1 effect · 9 Stress → Trauma, out of the scene, back at 0</span></div>
                 </div>
               </section>
             </div>
@@ -626,7 +663,7 @@
     {gags.map(g => (
       <div key={g.id} className={`flex items-center gap-2 rounded px-1 ${flash['gag:' + g.id] ? 'ring-2 ring-amber-400 bg-amber-950/30' : ''}`}>
         <span className="text-[13px] text-zinc-500 w-36 flex-shrink-0">{g.label}</span>
-        <input value={g.note} onChange={e => setGagNote(g.id, e.target.value)}
+        <input data-gag={g.id} value={g.note} onChange={e => setGagNote(g.id, e.target.value)}
           placeholder="…"
           className="flex-1 bg-zinc-950 border border-zinc-800 rounded px-2 py-1 text-[13px] text-zinc-300 placeholder-zinc-700 focus:outline-none focus:border-amber-800" />
       </div>
@@ -649,8 +686,8 @@
                             className={`text-[12px] font-mono font-bold px-2 py-0.5 rounded border transition-all ${ANCHOR_CLS[a.status]}`}>
                             {ANCHOR_STATUSES[a.status]}
                           </button>
-                          <button onClick={() => archiveAnchor(a.id)}
-                            className="text-zinc-500 hover:text-zinc-300 text-sm transition-colors px-1" title="Move to Graveyard">×</button>
+                          <button onClick={() => { if (window.confirm('Move ' + a.name + ' to the Graveyard?')) archiveAnchor(a.id); }}
+                            className="text-zinc-500 hover:text-zinc-300 text-base transition-colors px-2 py-1" title="Move to Graveyard">×</button>
                         </div>
                       </div>
                     ))}

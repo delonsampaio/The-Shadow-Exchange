@@ -7,7 +7,7 @@ last_updated: 2026-11-16
 
 # Comedy Playbook — *Supernatural* Banter + *Scooby-Doo* Chaos
 
-**The tone promise:** a monster-of-the-week show. Real dread, real grief, and — between them — **obviously, openly funny** scenes. The players should never have to wonder "was that a joke?" If a beat is funny, the GM **performs it**: big voice, a sound sting, a visual gag, a pause for the laugh. Subtle comedy that only works if the GM stops and waits is the wrong tool for this table.
+**The tone promise:** a monster-of-the-week show. Real dread, real grief, and — between them — **obviously, openly funny** scenes. The players should never have to wonder "was that a joke?" If a beat is funny, **make it obvious in the text**: a clearly funny read-aloud line, a TV banner, a sound sting, a visual gag. The GM reads it; **the GM never acts anything out** (the only exception is reading an NPC's quoted line in the way the label says). Subtle comedy that only works if the GM stops and waits is the wrong tool for this table.
 
 > This playbook **replaces** the old "deadpan, one beat, never slapstick" rule. Where `CoGM-Core-Instructions.md`, `Tone-and-Style.md`, or any session file disagrees, this file wins.
 
@@ -30,10 +30,10 @@ Every session alternates **dread → laugh → dread**. The laugh makes the drea
 ## How to Deliver a Comedy Beat (for the GM / Co-GM)
 
 1. **Label it.** Every prep file marks these `🎭 COMEDY BEAT` (not "optional comic beat"). Run at least **two per session**, plus the running gags.
-2. **Cue it.** Each beat lists a sting/track and, where useful, an image. Fire the cue *with* the line (inline cue — no "go" pause), so the room reacts together.
-3. **Perform it.** Do the voice. Make the sound. If Agnes is unstoppable, *be* unstoppable.
+2. **Cue it.** Each beat lists a sting/track and, where useful, an image. Mark the comic sting *(inline)* in the prep and fire it with the line (no "go" pause) so the room reacts together; unmarked cues follow `Session-Boot.md` §2.
+3. **Make it unmistakable on the page.** The joke is in the read-aloud text, the banner and the sting — not in the GM's acting. If Agnes is unstoppable, *write* her unstoppable.
 4. **Escalate once, then move on.** Setup → bigger payoff → out. Don't explain the joke.
-5. **Hand the table a role.** New roleplayers find jokes easier than speeches. Every beat should give players an easy way to join in (invent the fake ID, name the cat's hiding place, pick the PC who has to hum).
+5. **Hand the table a role.** Jokes are easier to join than speeches, even for veterans. Every beat should give players an easy way to join in (invent the fake ID, name the cat's hiding place, pick the PC who has to hum).
 6. **Co-GM generation rule:** when improvising, default to the 🟡 dial and ask the table for the punchline ("Who's holding the fake Ministry badge? What does it say?").
 
 ---
@@ -41,7 +41,7 @@ Every session alternates **dread → laugh → dread**. The laugh makes the drea
 ## The Menu — Overt Comedy Tools
 
 ### *Scooby-Doo* tools
-- **The Chase.** Hallway of doors, one pursuer, everyone in and out of the wrong room. Run as a Group Action: lead rolls, each door is a 1–3 tick of Detection. Chase music: `music-caper-chase.mp3`.
+- **The Chase.** Hallway of doors, one pursuer, everyone in and out of the wrong room. Run as a Group Action: everyone involved rolls, the best die counts, and each door that goes wrong ticks Detection. Chase music: `music-caper-chase.mp3`.
 - **Ruh-Roh Scare.** A fully scary build-up (full dread) that resolves into something harmless and silly — the thing in the dark is a cat, a dog with hands, a janitor in a mask. *Then*, rarely, the next scare is real.
 - **The Trap That Backfires.** The crew builds an elaborate plan; the GM lets it go wrong in the most visible, ridiculous way (rope, net, fog machine, the wrong person).
 - **The Red Herring Suspect.** A grumpy NPC *looks* guilty and isn't. (Use for the Mimic mystery: the crew suspects the wrong person, loudly.)
@@ -63,11 +63,11 @@ Every session alternates **dread → laugh → dread**. The laugh makes the drea
 
 | Gag | How it runs | Payoff |
 |---|---|---|
-| **Consequence the Cat** | Appears asleep on the single most inconvenient object each session (evidence, the envelope, a live Anchor). **Each session, ask a player where she is *before* you reveal it.** She never reacts to anything supernatural. | Session ~10: she reacts to exactly one thing. Everyone will remember which. |
+| **Consequence the Cat** | Appears asleep on the single most inconvenient object each session (evidence, the envelope, a live Anchor). **Each session, unless the prep already scripts her spot, ask a player where she is *before* you reveal it.** She never reacts to anything supernatural. | Session ~26 (*The Triangulation*): she reacts to exactly one thing. Everyone will remember which. |
 | **Zoltar's Fortune Cards** | Zoltar is unplugged. At the *end* of each session, a card drops out of the slot anyway. Cheeky, cryptic, always a little too accurate. | Foreshadowing delivered as a joke. (Card list below.) |
 | **Greta's Forms** | Every incident has a form number. They get *higher and weirder*. "Form 91-C. There is no box for this. I will find one." | When the Mimic is revealed she needs a form for it. She does not have one. She is, for the first time, speechless — then asks for the square footage. |
 | **PTOLEMY's Charges** | Fair, accurate, absurd. The weight of your heaviest regret. The name of your first pet *and its opinion of you*. | The one time it charges something genuinely heavy, nobody laughs. |
-| **Drennick & Foss** | Two Apex Peacekeepers arguing about the Ministry canteen's beet special. Introduced Session 2, recurring. They are competent. They will finish the argument. | Foss is *right about the beets*. This matters in Session 11. |
+| **Drennick & Foss** | Two Apex Peacekeepers arguing about the Ministry canteen's beet special. Introduced Session 2, recurring. They are competent. They will finish the argument. | Foss is *right about the beets*. This matters in Session 12 (the buyout offer). |
 | **Agnes's Penny Dreadful** | Each session she's read a new installment of a serial about "the monster hunters." The details are wrong and confident. | The serial eventually gets one thing right and no one knows who told her. (Mimic / Mara thread.) |
 | **Gerald the Dog** | The politician's dog with human hands (Session 1). If the crew keeps him: a Scooby-style mascot who opens doors, high-fives, and is brave exactly once. | Gerald notices the Mimic before any PC does. He won't go near Thorne. (Dogs know — Omen.) |
 | **"Late fees"** | The bookshop van and the shop's cover are endless library puns. | — |
@@ -78,8 +78,8 @@ Every session alternates **dread → laugh → dread**. The laugh makes the drea
 | 0 | *YOU WILL SOON RECEIVE AN ENVELOPE. IT WILL NOT BE GOOD NEWS. IT WILL BE DAMP.* |
 | 1 | *A MAN WHO KNOWS YOUR NAME HAS NEVER BEEN TOLD IT.* |
 | 2 | *THE ROAD DOWN IS LONGER THAN THE ROAD UP. BRING A SNACK.* |
-| 3 | *THE DEAD ARE POLITE. THE LIVING ARE NOT. SEE: THURSDAY.* |
-| 4+ | *(Write from `Campaign-Arc.md` — each card should be one-third funny, two-thirds true.)* |
+| 3 | *THE DEAD ARE POLITE. THE LIVING ARE NOT. SEE, THURSDAY.* |
+| 4+ | *(Pick from `00-Canon/Zoltar-Card-Deck.md`; one-third funny, two-thirds true.)* |
 
 ---
 
@@ -95,7 +95,7 @@ Every session alternates **dread → laugh → dread**. The laugh makes the drea
 
 **Session 3 — Tea and Consequences.** Mabel passes through a PC ("excuse me"); a Scooby-style *fake-out haunt* where she pretends to be scary for exactly four seconds, then asks about posture; a Grief Jar of Thomas singing badly *infects* the PC who opened it (they hum it, involuntarily, for the rest of the session); Agnes + tureen mid-pivot (🟢→🔴 hard cut when Mabel says "I know").
 
-**Session 4+ —** see `05-Sessions/Campaign-Arc.md`; Session 10 (the Away Job) is a deliberate full-Scooby homage: fake haunting, human culprit, unmasking — and one real monster behind it.
+**Session 4+ —** see `05-Sessions/Campaign-Arc.md`; Session 16 (the Away Job) is a deliberate full-Scooby homage: fake haunting, human culprit, a trap that backfires (no mask-pull: the Understudied is unmasked at S15) — and one real monster behind it.
 
 ---
 
@@ -107,3 +107,35 @@ Every session alternates **dread → laugh → dread**. The laugh makes the drea
 - Mara Halliday's corruption.
 
 If a joke lands during a 🔴 beat by accident, let it breathe, then say the true thing plainly. The contrast is the point.
+
+---
+
+## The Menace Rule (GM decision 2026-11-20)
+
+The monsters are meant to be **scary**. The comedy lives in the *people* (the crew's cover stories, the Ministry's forms, Greta, Drennick & Foss, the cat), never in the threat itself.
+
+- **A real threat stays a real threat while it is on screen.** Do not undercut it with a joke, a gag banner or a comic sting while the crew is in danger. Describe what it *does* (the cost, the harm, the Stress), not a cartoon.
+- **Only a deliberate "Ruh-Roh" may look scary and turn out harmless** (Gerald, Mabel's four-second haunt). Mark it 🟢 on the Run Sheet. If it is not marked, it is not a fake-out — it is dangerous.
+- **Keep a dread budget.** Roughly a third of monsters in a season should be genuinely frightening (🔴/🔵), a third mixed (scary, then sad or strange), and a third comic. Merton's Surge, the Docks black site, the Echo, the Mimic and the Omen are the scary ones; never promote them to jokes.
+- **Scary first.** Default to the Tone-and-Style dread (wrongness, silence, scale and consequence); gore and violence are allowed when they serve the scene (GM, 2026-11-20). A monster can frighten and still be tragic (the Three-Layer rule).
+- **Laugh, then land.** The joke comes before the gut-punch, never during it.
+
+---
+
+## NPC comic patterns — tools for any session *(moved from CoGM-Core-Instructions, 2026-11-20)*
+
+**NPC comic patterns — tools for any session:**
+- **Tough Guy Freakout:** A hardened NPC has an uncool, high-pitched reaction to a minor jump scare or gross-out — then immediately clears their throat and acts professional again. One beat, never repeated in the same scene. The competence is real before and after. Only the moment is uncool.
+- **Dysfunctional Groups:** Enemy or ally groups bicker over petty things right before or during an engagement. The competence is real. The pettiness is also real. Do not make them incompetent — make them annoying to work with.
+- **Penny Dreadful Reference:** NPCs in the city read cheap serialized fiction. One may have read about the crew. The details will be wrong. The NPC will be confident about them.
+- **Inappropriate Fixation:** One NPC per session may have an intense, petty preoccupation they will not release regardless of circumstances. Introduce it once, let it recur naturally if the scene allows. Never force a second appearance. The fixation is never the monster — it's always something mundane: a specific procedural detail, a personal grievance, a professional credential.
+- **Competence Inversion:** A character who is expert at the dramatic thing is hilariously bad at something adjacent and mundane. The best hunter in the room cannot parallel park. The scariest interrogator cannot use the coffee machine. One beat per session, played straight — no winking.
+- **The Straight Man Trap:** Put the crew's most serious member in a situation that requires them to play along with something absurd in order to maintain cover. They do it. Perfectly. With full commitment. The humor is in their dignity intact under impossible circumstances.
+- **Bureaucracy Wins:** The supernatural event is resolved. The paperwork is not. A Ministry form requires information that does not exist for a creature that was never supposed to exist. Greta Fenn needs a species classification. There is no box for this. She will find one.
+- **The Grudging Admission:** A character who was wrong about something small admits it with the exact same energy they'd use to admit a war crime. One line. No follow-up. Move on.
+
+**NPCs who carry it:**
+- **Greta Fenn** — Ministry Field Compliance Officer. Has a form for everything.
+- **PTOLEMY** — The charges are always fair. They are never reasonable.
+- **Cosma Linden** — The coat has a pocket for this. It contains something else.
+- **Aldric Voss** — He has listened to his own old broadcasts. He has opinions.

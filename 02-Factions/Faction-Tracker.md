@@ -20,7 +20,7 @@ Single-page state board. Update after every session. Detail lives in the per-fac
 | Harrow & Sons | I | weak | 0 | — |
 | The Meridian Group | II | strong | 0 | *(40% Apex-owned, most staff don't know)* |
 | Castellan Retrieval | I | weak | 0 | *(hunter is Twice-Born, handler doesn't know)* |
-| [Unnamed firm] | 0 | — | — | *(disappeared three months ago — investigation hook)* |
+| Vantage & Lowe *(Tier I — disappeared)* | 0 | — | — | *(disappeared three months ago — investigation hook; see `Rival-Firms.md`)* |
 
 ## What changed last session
 

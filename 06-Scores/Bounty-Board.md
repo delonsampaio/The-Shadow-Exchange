@@ -30,7 +30,8 @@ name: "Bounty Board"
 * **Client:** **[Faction: The Ministry]**
 * **Target:** Secure and transport Tier 1 Biologicals from the Docks.
 * **Payout:** 2 Coin + 1 Tier Upgrade for **[Location: Cold Storage Locker]**.
-* *(GM-private: this is the fabricated-contract bait that took Vantage & Lowe — Session 7. See `Rival-Firms.md`.)*
+* *(GM-private: this is the fabricated-contract bait that took Vantage & Lowe — Session 10 (Mid-Arc 2, S8–11). See `Rival-Firms.md`.)*
 
 ## AI Generation Directives
+* **Source of leads:** draw each new lead from `06-Scores/Score-Catalog.md` (the GM's master list); this Board is only the in-fiction view the crew sees.
 * **Lead Refresh:** After every score, the AI will suggest one new [MIN] or [SUB] lead based on current Faction Standings.

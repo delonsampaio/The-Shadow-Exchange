@@ -4,6 +4,8 @@ purpose: "Player-facing overview of the crew, the lair, and the world — update
 last_updated: 2026-05-10
 ---
 
+> **OBSOLETE staging copy — the live site is in `The-Shadow-Exchange-Players`. Do not publish.**
+
 # Who We Are — Curios & Chronicles
 
 *What your characters know before the first session. Read this before Session 0.*

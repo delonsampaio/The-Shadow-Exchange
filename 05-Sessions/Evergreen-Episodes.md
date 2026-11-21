@@ -1,0 +1,25 @@
+---
+entity_type: Campaign_Plan
+status: ADOPTED 2026-11-20
+purpose: "What to run when there is no prep: arc-independent episodes and the no-prep score. Use for a missed prep week, an off-plan table, or a short session."
+---
+
+# Evergreen Episodes (no-prep nights)
+
+**Rule:** an evergreen night must never plant or pay off a spine thread. It can plant a *flavour* thread only. Log it in the Score Catalog as an episode and keep the arc clocks where they were (the Faction Turn still runs).
+
+## Pick one (all from `06-Scores/Score-Catalog.md`; none depends on arc state)
+| Option | Dread | Why it is safe |
+|---|---|---|
+| **Episode 2: The Taxidermist's Choir** (Old City) | 🟢 | Standalone creature; its Aldric-warning plant is optional |
+| **Episode 5: The Sub-Zero Intern** (Meridian) | 🟢 | Apex shell only as flavour; skip the sweep-memo plant |
+| **Episode 8: The Neighbor's Generator** (Overhang) | 🟢🟡 | Human problem, no canon NPC needed |
+| **Urban Legend 5: The Empty Apartment** / **7: The Night Porter** | 🔵 | `10-Generators/Urban-Legends.md`, no arc dependency |
+| **Urban Legend 10: The Meridian Complaint** | 🟡 | Unassigned lead |
+| **The no-prep score** | any | `10-Generators/Improv-Kit.md` §7: target, where, complication, twist, choice, out in ~90 minutes |
+
+## Running it
+1. Open with the contract card within ten minutes (use a rumour from Improv Kit §2).
+2. Run a Faction Turn first (unless one already ran this week) so the world still moves (`02-Factions/Faction-Turn-Procedure.md`).
+3. Keep the Menace Rule: about a third of nights scary, so if the last two were comic, pick 🔵.
+4. After: ordinary end-of-session ritual; the table's "more of / less of" choose the next lead.

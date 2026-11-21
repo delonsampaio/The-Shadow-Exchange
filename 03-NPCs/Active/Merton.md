@@ -2,7 +2,7 @@
 type: npc
 status: active
 first_seen: Session 1 (Fairground Grand Theater, basement)
-location: Fairground Grand Theater — night security; Locker 7; the sub-basement ring
+location: Fairground Grand Theater — night security; Locker 7; the pump-room ring
 faction: none (Twice-Born in all but name — Barghest)
 anchor_item: "[Item: Leather Dog Collar] (1823)"
 ---
@@ -12,7 +12,7 @@ anchor_item: "[Item: Leather Dog Collar] (1823)"
 **Look** — Gray security uniform ironed to a razor's edge, a gooseneck lamp, a crossword on the desk, a fern he waters by name (*Doreen*). Late fifties in appearance. Moves slowly on purpose, like a man carrying something full.
 **Mannerism** — Waters the fern first. Says "sorry" when no one needs him to. Hangs his keys on the same nail every night.
 **Drive** — Get through the night. He has been getting through the night for two hundred years.
-**Secret** — The collar is failing. He knows it. He has been chaining himself to a ring in the sub-basement at midnight, and the Surge is coming earlier each week.
+**Secret** — The collar is failing. He knows it. He has been chaining himself to a ring in the pump room (a sunken sump chamber below the basement corridor) at midnight, and the Surge is coming earlier each week.
 
 ## Three Layers
 1. **Mundane Cover:** night security for eleven years; pays rent on time; has a pension plan he does not think he'll collect; babysits Councilman Pruitt's bulldog (**Gerald**) for cash, "because someone should."

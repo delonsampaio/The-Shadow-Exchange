@@ -56,7 +56,7 @@ payout: 4 Coin (Standard)
 
 **Play it Safe:** Hand everything to the Ministry (via liaison Elias Thorne). 4 Coin, 0 Heat. Collar destroyed. Photograph disappears into evidence.
 
-**Double Bookkeeping:** Roll Sway to omit the Adrenal Gland from paperwork. Keep the Gland. Tick [Clock: The Ministry Audit] on 4-5.
+**Double Bookkeeping:** Roll Sway to omit the Adrenal Gland from paperwork. Keep the Gland. **6** clean · **4–5** you keep it, tick [Clock: The Ministry Audit] 1/4 · **1–3** the Ministry noticed — tick Audit and surrender it.
 
 **Shadow Ghost:** Take Collar and Gland without filing. +2 Heat. Ministry notices within 48 hours.
 

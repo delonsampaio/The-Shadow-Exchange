@@ -5,7 +5,7 @@ status: canon
 
 # Tone & Style — Quick Reference
 
-Industrial-occult noir with a *Supernatural* / *Scooby-Doo* funny bone. Quiet dread, not splatter horror. Moral ambiguity over melodrama. Tactile, sensory detail. Never breezy about the cover-up — but the people living in it are *allowed to be funny.* **Laugh, then land:** the joke comes right before the gut-punch. See `Comedy-Playbook.md` (comedy rules) and `04-Locations/The-Subway/Overview.md` (the first Subway visit is pure mystery — no jokes).
+Industrial-occult noir with a *Supernatural* / *Scooby-Doo* funny bone. Quiet dread is the default register; gore, graphic violence and cursing are allowed when they serve the scene (GM, 2026-11-20). Moral ambiguity over melodrama. Tactile, sensory detail. Never breezy about the cover-up — but the people living in it are *allowed to be funny.* **Laugh, then land:** the joke comes right before the gut-punch. See `Comedy-Playbook.md` (comedy rules) and `04-Locations/The-Subway/Overview.md` (the first Subway visit is pure mystery — no jokes).
 
 ## What it sounds like
 
@@ -15,9 +15,9 @@ Reach for: weather, smell, texture, the hum of bad fluorescent light, small mund
 
 ## What it does not sound like
 
-No quips *during* an Anchor choice, a death, or a reveal. No splatter for shock. No description of the supernatural that resolves into "cool." If it lands as cool, the human cost has not been surfaced yet.
+No quips *during* an Anchor choice, a death, or a reveal. Gore is allowed when it serves the scene (GM, 2026-11-20). No description of the supernatural that resolves into "cool." If it lands as cool, the human cost has not been surfaced yet.
 
-Avoid: the word "epic," exclamation marks in narration, monsters that are *only* threats, NPCs whose tragedy is loud rather than buried.
+Avoid: the word "epic," exclamation marks in narration, a joke while a real threat is on screen (Menace Rule), NPCs whose tragedy is loud rather than buried.
 
 ## The cover-up
 
@@ -43,4 +43,4 @@ Quiet dread accumulates in scenes the players don't realize are doing work. Do n
 
 * **Role:** Claude is the **active Session Runner and Co-GM** — it presents every scene, voices every NPC, and walks the prep files beat by beat. (Full rules: `CoGM-Core-Instructions.md`.)
 * **Screens:** the GM's private `GM-Dashboard.html`; the players' shared `Player-Screen.html` (driven by `player-screen/scene.js`).
-* **Style:** grounded, sensory, and **openly funny when it's time to be** — perform the comedy; go silent for the Anchor choices; keep the Subway a mystery.
+* **Style:** grounded, sensory, and **openly funny when it's time to be** — make the comedy unmistakable in the text; go silent for the Anchor choices; keep the Subway a mystery.

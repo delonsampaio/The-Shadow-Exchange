@@ -10,6 +10,8 @@ Underground neutral ground where non-evil monsters and vetted hunters coexist. A
 
 ## What it is
 
+> **Canon (GM decision 2026-11-20): the city has no subway system, and cannot have one.** The water table is about one storey down (think Florida), so nothing is dug deeper than a single pumped cellar: no metro, no second basements. The Containment Suite's eleven steps are exactly that deep, kept dry by its runes. People travel by car, bike, taxi, bus or the **elevated (above-ground) train**. Anyone who has lived here knows it. That is what makes the entrance wrong at first sight, why it is named **Line 0** — a line before the first — and why the long, *dry* descent is impossible.
+
 Not metaphorically a subway — literally one. Or at least, the entrance is. A green-painted iron railing in a dead-end alley with a sign reading **Line 0 — Ethereal Express**. A businessman walks directly through where the railing stands. The crew sees it. They don't know why.
 
 ## How access works
@@ -20,6 +22,9 @@ The Subway's entrances are invisible to hostile or purely extractive presences. 
 - **Hunters chosen:** those whose reasons go beyond profit or institutional loyalty.
 - **The crew:** access begins after the **Emmerich score (Session 2).** Something about them — or that specific moment — qualified. They don't know what. *(See `04-Locations/The-Subway/Mysteries.md`.)*
 - **Apex Aegis:** never found an entrance. Bribed hunters lose access immediately afterward.
+
+## It is magical, and it does not obey physics *(GM decision 2026-11-20)*
+The Subway is a ghostly, magical place that **appears**; it does not exist at a fixed address. Its entrances have no permanent location: one manifests, for whoever it has chosen, wherever they happen to be, and is not there for anyone else — or the next day. Nobody has "walked past it for years". It is bigger inside than the space allows, dry and dozens of steps deep in a city where the water table is about a storey down, and it can let you out miles away (the pier). Never pin an entrance on a map, never give it a street address, and never explain how it works. The mystery of *what it is* stays open. *("Magical" is GM shorthand only. Players hear "impossible", "wrong", "not on any map" — never "magic" or "spell", per `Session-Boot.md`. The Bible's "no magic, only Resonance and Ethereal mechanics" is the in-world explanation the table is allowed to hear.)*
 
 There is **no Subway Token** mechanic. Access is who they are, not what they carry.
 
@@ -73,7 +78,7 @@ The pitch tells the players they sell "to a market the Ministry doesn't know exi
 
 The entrance appears after the Emmerich score. They are not looking for it. They are in a dead-end alley, and it is just there.
 
-> "The alley ends in a brick wall. That's what it should be. Except there's a green-painted iron railing set into the concrete at the far end — waist high, leading down, the kind of railing you'd find at any subway entrance in any city. A sign above it, tiled in white ceramic, reads: **LINE 0 — ETHEREAL EXPRESS**. The tiles look original. They look like they've been there since the twenties.
+> "The alley ends in a brick wall. That's what it should be. Except there's a green-painted iron railing set into the concrete at the far end — waist high, leading down, the kind of railing you'd find at any subway entrance in any city, except that this city has never had a subway. A sign above it, tiled in white ceramic, reads: **LINE 0 — ETHEREAL EXPRESS**. The tiles look original. They look like they've been there since the twenties.
 >
 > A man in a suit rounds the corner behind you at full stride, phone to his ear, and walks directly through the railing without slowing. Through the sign. Through the top step. He doesn't stumble. He doesn't notice. He turns the corner at the end of the alley and is gone.
 >

@@ -81,7 +81,7 @@ Three bunks (one per PC), a window onto an airshaft, clothes line, a locked foot
 | **The Scanner Station** | Half-buried in cabling: **three modified shortwave radios** on a rolling cart, each tuned to a government frequency (they intercept Ministry bounty traffic before the public list updates) — plus a **fourth, older unit with one green lamp** that has not been off in two years: the Resonance detector, reach ≈ two blocks. A soft wash of static at all hours. On clear nights: *a voice on AM that sounds like another state and can't be triangulated — never wrong about where.* | Tinker for a specific signature; Survey for general detection |
 | **The Trophy Wall** | A corkboard on the back wall pinned with **polaroids**, each annotated in red marker — a date, a name, a cause of death that is *not* the one the Ministry filed. Every hunt this building has ever witnessed. The earliest photo is older than one of the crew. None of them pinned it. | **+1d Study** for a monster type already hunted. Auto-Heat if the Ministry raids |
 | **The Hunter's Journal** | Old leather-bound journal on a reading stand near the Post-Op table. Half the handwriting is the crew's; half isn't. Two generations of entries pre-date them. The handwriting changes at entry 47 with no explanation. **One entry, in red ink, four years old, in a hand no one recognizes** (→ Architect thread). | **+1d Study** when consulted before a score vs. a known type. Lost if confiscated |
-| **The Wall of Rules** *(new)* | Hand-lettered on the plaster by the stair, in four different hands: **1.** Nobody says "basement." **2.** Cold things go in the cold place. *Today.* **3.** If it hums, it goes in the vault. **4.** If it sings, it goes in the vault *and you leave.* **5.** Do not feed Consequence from the evidence. **6.** *(Added in a fifth hand, in red:)* Do not trust anything that offers you tea. *(→ Session 3 payoff.)* | Onboarding + comedy: when a rule is broken, someone adds a tally |
+| **The Wall of Rules** *(new)* | Hand-lettered on the plaster by the stair, in five different hands: **1.** Nobody says "basement." **2.** Cold things go in the cold place. *Today.* **3.** If it hums, it goes in the vault. **4.** If it sings, it goes in the vault *and you leave.* **5.** Do not feed Consequence from the evidence. **6.** *(Added in a sixth hand, in red:)* Do not trust anything that offers you tea. *(→ Session 3 payoff.)* | Onboarding + comedy: when a rule is broken, someone adds a tally |
 | **The Late-Fees Drawer** *(new)* | A drawer of overdue library cards from every customer who has borrowed a book and not returned it. Nobody collects. It is the only "ledger" the shop keeps that isn't an Anchor ledger. | Cover; gag |
 
 **What new crew members are told on day one:** *"The Cold Storage pauses the spoilage clock — anything biological goes in there immediately, not tomorrow. The vault is lead-lined; nothing inside pings a scanner. Do not leave Relics in the Post-Op or the front shop. Resonance bleeds. The neighbors don't report gas leaks, but they do talk."*
@@ -105,7 +105,7 @@ Three bunks (one per PC), a window onto an airshaft, clothes line, a locked foot
 - **Who signed the lease** — no one. The deed trail loops; PTOLEMY's ledger contains the building's address three days before the crew arrived. (Architect / Subway thread.)
 - **The red-ink journal entry** — a hand that reappears in Harlan's Wall of the Missing (Session 4+).
 - **Entry 47** — the handwriting change is the death of a previous owner of the shop (Harlan knows).
-- **Consequence** — the only thing in the lair that hasn't reacted to the Omen. *(Payoff Session ~10: she does.)*
+- **Consequence** — the only thing in the lair that hasn't reacted to the Omen. *(Payoff Session ~26: she does.)*
 
 
 ---
@@ -125,7 +125,7 @@ Three bunks (one per PC), a window onto an airshaft, clothes line, a locked foot
 2. 🎭 **Consequence has relocated the cold-storage thermometer.** Ask where.
 3. 🔵 **A hum from the vault** that wasn't there yesterday — it's the Resonance bleeding off an old Relic.
 4. 🎭 **Greta Fenn sends a form for the form.** Number: *Form 93-F (Notice of Intent to File).*
-5. 🔵 **The Wall of Rules has a new line.** In a sixth hand. *Rule 7: Don't stare at the Zoltar on Tuesdays.* (No one added it.)
+5. 🔵 **The Wall of Rules has a new line.** In the same red sixth hand. *Rule 7: Don't stare at the Zoltar on Tuesdays.* (No one added it.)
 6. 🎭 **Gerald has opened every door in the building.** Including ones that should not open.
 7. 🔵 **The Hunter's Journal has a new entry in red ink.** (Architect thread +1.)
 8. 🎭 **A customer wants to buy the Zoltar.** They are *very* persistent. They offer a surprisingly large sum. *(It is Thorne's face in a different hat? No — it is a perfectly ordinary customer. The table will not believe it.)*

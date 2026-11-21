@@ -1,0 +1,13 @@
+# Words that must never appear in the players' site (regex, case-insensitive). Add one whenever a new secret is created.
+Understudied
+\bMimic\b
+The Architect
+Stalls Holdings.{0,40}Apex|Stalls is an Apex shell
+Line 0
+\bOmen\b
+\bSubway Decay\b|\bDecay (clock|[0-9])
+PTOLEMY's ledger
+Casting Mask
+Ministry.{0,20}split
+HE WENT BACK
+Thorne.{0,30}(Understudied|Mimic|not real)

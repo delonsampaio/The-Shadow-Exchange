@@ -32,7 +32,7 @@ The Subway acts through individual operators rather than centralized policy. Rep
 
 - **Crew access:** none until after the Emmerich score (Session 2).
 - **Standing with the crew:** 0.
-- **Active clocks:** Subway Decay Clock — see `07-Clocks/Active-Clocks.md` *(introduced Session 5+)*.
+- **Active clocks:** Subway Decay Clock — see `07-Clocks/Active-Clocks.md` *(introduced Session 6+)*.
 
 ## The Selection — what gets in
 

@@ -51,7 +51,7 @@ Nobody knows who controls the **[Location: The Subway]**. It simply exists and "
 ### Key Subway Entities
 * **[NPC: PTOLEMY]:** Sentient luggage. Appraises items, never lies, always charges a favor in his ledger.
 * **[NPC: The Fence]:** Buys **[Item: Biologicals]** and **[Item: Relics]**. Pays half for Siphoned goods.
-* **[NPC: The Crossroads Broker]:** Found in the back booth. Offers miracles at a "Fair Price" (Memory, Relationship, or Future Favor).
+* **[NPC: The Crossroads Broker]:** Found in the back booth. Offers miracles at a "Fair Price" (one of six kinds — see `Crossroads-Broker.md`; he names the kind, never the extent).
 
 ---
 

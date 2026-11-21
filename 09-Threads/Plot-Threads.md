@@ -15,7 +15,7 @@ Open mysteries and unresolved beats. Update after every session. Mark threads CL
 * **Key Actors:** **[NPC: The Architect]**, **[Faction: Unknown]**
 * **Linked Clocks:** None yet.
 * **The Situation:** Who—or what—set the crew on this specific path? Connected to the Subway Selection; the "quality" the crew demonstrated may be what the Architect needed.
-* **Knowledge Sources:** The John Doe Twice-Born once memory is restored (Session 5, *The John Doe*); the rival hunter at the Away Job (Session 10).
+* **Knowledge Sources:** The John Doe Twice-Born once memory is restored (Session 6, *The John Doe*); the rival hunter at the Away Job (Session 16).
 * **Next Escalation:** Reveal target is mid-game. Trigger when the crew has formed real emotional investment. 
 
 ## Thread 2: The Mimic / The Understudied
@@ -48,7 +48,7 @@ Open mysteries and unresolved beats. Update after every session. Mark threads CL
 ---
 
 ## Foreshadowing — Planted but not yet landed
-*(See `09-Threads/Foreshadowing.md` for full list. Six Mimic tells (see `Campaign-Arc.md` §5).)*
+*(See `09-Threads/Foreshadowing.md` for full list. Six canonical Mimic tells plus three optional (7–9) (see `Campaign-Arc.md` §5).)*
 
 ---
 

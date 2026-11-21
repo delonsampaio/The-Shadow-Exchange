@@ -25,8 +25,8 @@ Survive the work. Protect their own. Keep the Ministry and Apex Aegis at arm's l
 
 - **Harlan Okafor** — see `03-NPCs/Active/Harlan-Okafor.md`.
 - **The Wall of the Missing** — corkboard at Harlan's. Photos, names, case numbers of hunters who didn't come back. Anyone can add. Anyone can take a case from it. The crew's names are not on it yet.
-- **The AM Host** — late-night radio host who believes in everything. Frequently describes real events badly. Never wrong about a location. Always wrong about the cause.
-- **The Rival Hunter** *(Job 8 — Away Job)* — independent, doesn't like the crew's reputation, isn't entirely wrong about some of it.
+- **The AM Host** — late-night radio host who believes in everything. Frequently describes real events badly. Never wrong about a location. Always wrong about the cause. *(GM: the Host is **Aldric Voss**, Twice-Born — see `03-NPCs/Twice-Born/Aldric-Voss.md`. He sounds like a crackpot on purpose, so neither the Ministry nor Apex takes him seriously. The Underground listens because he is never wrong about where.)*
+- **The Rival Hunter** *(Session 16 — the Away Job)* — independent, doesn't like the crew's reputation, isn't entirely wrong about some of it.
 
 ## Intel Advantage
 

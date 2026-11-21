@@ -20,19 +20,19 @@ purpose: "Rumor pool for The Ritual downtime activity and GM improvisation."
 * **Cover:** Structural settlement in a Meridian apartment block. Residents report "reflective distortion."
 * **Truth:** A Twice-Born was evicted during renovation and their Anchor Item was accidentally destroyed by a contractor. The building stands but every mirror shows a different floor than the one you're on.
 * **Tell:** The structural engineer's report shows no damage. The contractor who handled the renovation quit the same week and has not worked since.
-* **Urgency:** Left unresolved past Session 4, tick [Clock: The Omen] by 1. The mirrors are getting worse.
+* **Urgency:** Left unresolved four sessions after the lead is first heard, the mirrors worsen. The Omen ticks only at its scheduled thresholds (`07-Clocks/Active-Clocks.md`). The mirrors are getting worse.
 
 ### 2 — The Fisherman's Report
 * **Cover:** Bioluminescent algae in the drainage tunnels under the eastern Docks pier. Environmental report filed; low priority.
 * **Truth:** A Biological entity — classification unknown, large — is nesting in the drainage system. The algae is a Resonance byproduct of its resting state.
 * **Tell:** The algae only glows when the tide goes out *and* someone is watching. Monitoring cameras see nothing. Environmental officers have noted this and filed it as a calibration issue.
-* **Urgency:** If unresolved by Session 3, a Nesting clock (4-seg) begins. At full: too large to extract without a major exposure event.
+* **Urgency:** If unresolved three sessions after the lead is first heard, a Nesting clock (4-seg) begins. At full: too large to extract without a major exposure event.
 
 ### 3 — The Children's Game
 * **Cover:** Playground urban legend spreading through the Overhang. Kids playing a "pretend" game with unusual rules.
 * **Truth:** Three children have been playing the same game since September with rules none of them can explain. The game involves an object — small, dark, "heavy for its size" — that no parent has seen.
 * **Tell:** The children won't play when adults are watching. The game always ends at the same time, to the minute, regardless of when it started.
-* **Urgency:** The object is a Relic. Left unresolved past Session 5, one child begins to exhibit Resonance sensitivity.
+* **Urgency:** The object is a Relic. Left unresolved five sessions after the lead is first heard, one child begins to exhibit Resonance sensitivity.
 
 ### 4 — The Radio Signal
 * **Cover:** Pirate radio. FCC notified. Investigation pending.

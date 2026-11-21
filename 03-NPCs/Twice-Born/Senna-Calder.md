@@ -3,7 +3,7 @@ type: npc
 status: active
 faction: The Twice-Born
 location: The Subway — near The Fence's stall
-anchor_item: A borrower's card from the Meridian Public Library, 1943
+anchor_item: A borrower's card from the Meridian Public Library (dated 1903; it came to her in 1943)
 available: After crew earns Subway access
 ---
 
