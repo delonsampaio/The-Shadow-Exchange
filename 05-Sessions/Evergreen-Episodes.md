@@ -1,7 +1,7 @@
 ---
 entity_type: Campaign_Plan
 status: ADOPTED 2026-11-20
-purpose: "What to run when there is no prep: arc-independent episodes and the no-prep score. Use for a missed prep week, an off-plan table, or a short session."
+purpose: "What to run when there is no prep: arc-independent episodes and the no-prep score. Use for a missed prep week, or an off-plan table."
 ---
 
 # Evergreen Episodes (no-prep nights)

@@ -31,7 +31,7 @@ last_updated: 2026-11-20
    Cold Open ready: [yes/no — if the placeholder is unfilled, generate it now].
    Asset gaps this session: [list the ❌ items]
    ```
-8. **Present ONE beat and stop** (see §4). *(Push `scene` for that beat to the dashboard first — §2b. From Session 2 on, set the TV to the `recap` card — "Previously…", written only from the public player recap; Core → Player Screen — and let the first beat's update clear it.)*
+8. **Present ONE beat and stop** (see §4). *(Push `scene` for that beat to the dashboard first — §2b. From Session 2 on, set the TV to the `recap` card — "Previously…", written only from the public player recap; Core → Player Screen — and let the first beat's update clear it. **After a Pause (any session, S0 included), build the card from the Pause's one-line recap (Ritual §0b), which is written player-safe.**)*
 
 *(If this is a **mock session**: read-only — no file writes, no commits, no scene.js changes except to demo.)*
 
@@ -150,7 +150,7 @@ The dashboard polls every 2 s, applies each op once, and shows a **"Co-GM Update
 5. **Funny means funny** — deliver 🎭 beats as read-aloud text, banner and sting (the GM never acts); **but never joke during an Anchor choice, a trauma, a death, or the Mimic's emotional reveal**, and **never inside the Subway on the first visit (Session 2).**
 6. **Mystery stays mysterious.** The Subway, the Architect, and the Omen raise questions; you don't answer them with words.
 7. **Anchor choices:** surface the human cost *before* the payout. Log every seizure/return in `08-Loot-and-Anchors/Anchor-Ledger.md`.
-7a. **Never offer to cut, skip or shorten content.** Every prep is played in full (GM ruling 2026-11-21: the session should be perfect; it may take two sittings, meaning real evenings). If the evening is running long, say "GM ONLY — next safe stop is X" and offer to stop there. **A sitting that ends mid-session runs only the Pause** (a "To be continued" TV card, one line of recap, a Night Log row; nothing story-final). **Zoltar's card, the XP tally and the retrospective happen only when the session is finished.** The next sitting opens with a "Previously" recap card and resumes at the saved beat. Never end a sitting on a Choice, a reveal or an Anchor decision.
+7a. **Never offer to cut, skip or shorten content.** Every prep is played in full (GM ruling 2026-11-21: the session should be perfect; it may take two sittings, meaning real evenings). **About 45 minutes before the agreed end, name the last safe stop that can be reached in time; if none can be, offer the previous one.** At a safe stop, a sitting that ends mid-session runs **only the Pause** (a "To be continued" TV card, one line of recap, a Night Log row; nothing story-final). **Zoltar's card, the XP tally, the retrospective and the Faction Turn happen only when the session is finished.** The next sitting opens with a "Previously" recap card and resumes at the saved beat. Never end a sitting on a Choice, a reveal or an Anchor decision. *(Existing decision clocks, such as the two-minute clock and the planning cap of about ten minutes, are not "rush" instructions; they keep the table deciding.)*
 8. **The players have NEVER played Blades.** Follow `00-Canon/Mechanics-Teaching-Ladder.md`: announce each mechanic by name once, say it in ≤30 s with the D&D bridge, **max 2 new mechanics per beat / 4 per session** (one exception: the Session 0 Trial Run teaches dice, Position+Effect, Stress and Resistance as one chain, split by a ⏸ at Resistance), defer what the Ladder defers, keep the training wheels (Position & Effect every roll; offer Resistance every time through S3; 3-option menus when stuck).
 9. **Players are experienced tabletop roleplayers (20+ years) — new only to Blades.** Don't coach roleplay or reassure like beginners; teach Blades mechanics per the Ladder. Accept short answers and build around them; never re-prompt or shame.
 10a. **Reaction stops (GM rule, 2026-11-18).** Whenever an NPC acts, offers, threatens or speaks in a way the players may answer, **stop and ask the GM for their reaction before writing the next part** — do not pre-write follow-ups that assume what they will do. End with `⏸ REACTION STOP` and name what the next part depends on. If the prep has branches ("if they accept / if they refuse"), show only the branch the reaction selects.
@@ -175,11 +175,13 @@ The dashboard polls every 2 s, applies each op once, and shows a **"Co-GM Update
 | "stop the music" | Run the stop command |
 | "music back" | Re-fire `currentLoop` (the scene's looping track) if the music was stopped |
 | "wrap it 2" / "wrap it 3" / "wrap it 4" | Switch to the express finale: read `05-Sessions/Express-Ending-Kit.md`, report the Living Finale Envelope, declare Arc IV early, run the Compress Protocol and prep the 3–4 session finale |
-| "end session" | §6 (step 0 runs the End-of-Session Ritual) |
+| "end session" *(only when the session is finished)* | §6 (step 0 runs the End-of-Session Ritual) |
+| "pause here" / "stop for tonight" | `End-of-Session-Ritual.md` §0b **only** (keep `scene.js`, `feed.js`, the Live Ledger and `INIT_*`; do not run §6) |
+| "continue session N" | Boot §1 step 3b plus the Previously card (from the Pause recap); **do not re-read the Cold Open; start at the beat saved in `Night-Log.md`** |
 | "no prep" / "evergreen" | `05-Sessions/Evergreen-Episodes.md` plus `10-Generators/Improv-Kit.md` §7 |
 | "they zigged" / "off the rails" | `10-Generators/Improv-Kit.md` §5 |
 | "faction turn" | `02-Factions/Faction-Turn-Procedure.md` (GM-side; never in READ ALOUD) |
-| "short session" / "[player] is absent" | `00-Canon/House-Rules.md` C9 / C10 |
+| "short night" / "[player] is absent" | `00-Canon/House-Rules.md` C9 / C10 |
 | "zoltar card" | `00-Canon/Zoltar-Card-Deck.md` (run its leak check first) |
 | "new NPC" | Check the name against `03-NPCs/NPC-Index.md` and `NPC-Bench.md` before inventing one |
 | "resume" | Boot §1 step 3b |
@@ -189,7 +191,7 @@ The dashboard polls every 2 s, applies each op once, and shows a **"Co-GM Update
 
 ## 6. End-of-Session Checklist (skip all if mock)
 
-0. Run `00-Canon/End-of-Session-Ritual.md` first (the Zoltar card fires at the close, before XP; XP every session from S1; the three-minute retrospective), then continue. Also update `03-NPCs/NPC-Index.md` (who was met, who died).
+0. *(Finished sessions only; a Pause runs Ritual §0b and nothing else in this section.)* Run `00-Canon/End-of-Session-Ritual.md` first (the Zoltar card fires at the close, before XP; XP every session from S1; the three-minute retrospective), then continue. Also update `03-NPCs/NPC-Index.md` (who was met, who died).
 1. Ask the GM for final values (Heat/Coin/Rep/Tier, PC Stress/Harm, clocks, Thorne tells planted/caught, gags, **mechanics taught — introduced vs understood**). **Shortcut:** the dashboard footer has a **“Copy end-of-session snapshot”** button — ask the GM to press it and paste the JSON; it captures any manual clicks you couldn't see.
 2. `GM-Dashboard.html`: update `INIT_*` constants; **bump `SAVE_VERSION`**.
 3. `05-Sessions/Campaign-Current-State.md`; `07-Clocks/Active-Clocks.md`; `08-Loot-and-Anchors/Anchor-Ledger.md` + `Inventory.md`; `02-Factions/Faction-Tracker.md`; `09-Threads/*` (tells, plants); `Campaign-Arc.md` (check triggers).

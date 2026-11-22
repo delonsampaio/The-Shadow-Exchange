@@ -17,7 +17,7 @@ mechanical_focus: "TEACH: Acquire Assets, Push Yourself. REINFORCE everything pr
 ## RUN SHEET (read this first)
 
 **Time budget (estimates; nothing is cut):** Cold open 5 → Fallout/free play 10 → *(optional Subway second visit 15)* → Briefing + Acquire 20 → Approach 5 → Entry + first contact 20 → The House (jars, tea, Mabel) 35 → Agnes 10 → **The Moral Pivot 20** → Return + Downtime 25 (incl. Entanglement) → Omen + Thorne's call 10 → Close 20 (Zoltar + XP incl. crew XP + retro).
-🔒 **If they attack anyone (Mabel, Agnes, Stalls, Drennick & Foss, Greta):** `05-Sessions/Lethal-Path-Quick-Table.md`. **Safe stops:** **Nothing is cut:** every beat is played in full. If the evening runs out, stop at one of these **safe stops**: run the short **pause** (a "To be continued" TV card, one line of recap for next time, and a `Night-Log.md` row), and the next sitting opens with a "Previously" card. **Zoltar's card, the XP tally and the retrospective happen only when the session itself is finished.** **Never end a night on a Choice, a reveal or an Anchor decision.** **(A)** after the briefing and Acquire Assets, before the approach · **(B)** after Agnes leaves, before the Moral Pivot (resume with the Previously card and one line of the house) · **(C)** after the Return, before Downtime. Keep the Parish Records available (Option B needs them).
+🔒 **If they attack anyone (Mabel, Agnes, Stalls, Drennick & Foss, Greta):** `05-Sessions/Lethal-Path-Quick-Table.md`. **Safe stops:** **Nothing is cut:** every beat is played in full. If the evening runs out, stop at one of these **safe stops**: run the short **pause** (a "To be continued" TV card, one line of recap for next time, and a `Night-Log.md` row), and the next sitting opens with a "Previously" card. **Zoltar's card, the XP tally, the retrospective and the Faction Turn happen only when the session itself is finished.** **Never end a night on a Choice, a reveal or an Anchor decision.** **(A)** after the briefing and Acquire Assets, before the approach · **(B, last resort)** after Agnes leaves, before the Moral Pivot: never if the November 1991 jar opened that sitting; resume with 🔊 *"The house is quiet. Every clock reads 11:47. Mabel stands in the kitchen doorway with the teapot."* · **(B2)** after the Pivot's matching read-aloud, before the Return · **(C)** after the Return, before Downtime.
 
 | # | Beat | Trigger | 🎵 Music | 🖼 Image | 🎭 Comedy | Teaches |
 |---|---|---|---|---|---|---|
@@ -86,13 +86,13 @@ mechanical_focus: "TEACH: Acquire Assets, Push Yourself. REINFORCE everything pr
 ---
 
 ## Optional — The Second Subway Visit *(free play, ~15 min; comedy is allowed now — the first visit was a mystery)*
-*(Only if Session 2's Aldric / Job Board / Broker beats were cut, or the crew asks to go back. Reach for `04-Locations/The-Subway/Living-Subway.md` and `03-NPCs/Active/Subway-Regulars.md`.)*
+*(If the crew asks to go back. Reach for `04-Locations/The-Subway/Living-Subway.md` and `03-NPCs/Active/Subway-Regulars.md`.)*
 
 *(Each of these is a read-aloud or a ready line — pick what fits; comedy is allowed now.)*
 
 **How they get back in (canon: the Subway appears, it has no fixed address):** when the crew goes somewhere quiet and out of sight and wants the Subway, a green railing is there — an alley, a stairwell, the lair's loading door. It never appears while Apex or the Ministry are watching, and never for anyone it hasn't chosen. No roll. 🗣 **SAY** *"Find somewhere quiet. Where do you go?"* ⏸ **REACTION STOP.** The exit is never the same place twice (the turnstile line below).
 
-- 🔒 **If the crew seized the thimble (Enmity):** 🔊 **READ ALOUD** *"The Quiet Platform goes quiet in a ring around you."* Cosma does not appear and her coat gag is skipped; PTOLEMY's second charge is doubled. **If the crew never made the S2 descent (it was cut), this is a FIRST visit: run S2's Subway Beats 1–3 with no comedy.** If they try to board a train: 🔊 *"The red platform is empty. The departure board ticks."* Aldric and the Job Board: use the S2 lines. At the exit, re-cue `location-curios-exterior`.
+- 🔒 **If the crew seized the thimble (Enmity):** 🔊 **READ ALOUD** *"The Quiet Platform goes quiet in a ring around you."* Cosma does not appear and her coat gag is skipped; PTOLEMY's second charge is doubled. If they try to board a train: 🔊 *"The red platform is empty. The departure board ticks."* Aldric and the Job Board: use the S2 lines. At the exit, re-cue `location-curios-exterior`.
 - 🔊 **The turnstile exit (roll a d6):** "The turnstile lets you out somewhere different each time." *(Best result: "…your own front door.")*
 - 🎭 **Cosma's coat:** 🔊 "Cosma produces a 1987 transit schedule from a pocket." 🗣 **SAY** *(Cosma — warm, certain)*: *"For exactly this."* 🔊 "It does not come up. Later, a second pocket produces something that does."
 - 🎭 **The Conductor:** 🗣 **SAY** *(a flat, tired tannoy)*: *"Passenger [PC name]: your train is delayed."*
@@ -127,7 +127,7 @@ mechanical_focus: "TEACH: Acquire Assets, Push Yourself. REINFORCE everything pr
 🗣 **SAY** *(set it up)*: *"Renwick Stalls is available to meet this afternoon if you want the pitch in person. The form covers extraction only — what you do with the needle after is your business."*
 ❓ **ASK THE TABLE:** *"What are you doing before you go in?"* ⏸ **REACTION STOP — next part depends on:** whether they take the meeting.
 
-### Optional — Stalls's Pitch *(🟡, ~5 min; skip if time is short — he reappears in Session 4)*
+### Stalls's Pitch *(🟡, ~5 min; played if the crew takes the meeting — he reappears in Session 4)*
 **[IMAGE CUE: npc-renwick-stalls.png]** ✅ *(optional — show when the crew takes the meeting, with the coffee-shop read-aloud)*
 > 🔊 **READ ALOUD** *(if the crew takes the meeting — a coffee shop two blocks from the house)*:
 > "A nervous man in an expensive coat a size too large is already at the table, two cups in front of him, one of which he has taken a sip from and put back, as if he'd forgotten whose it was. He stands, sits, stands again."

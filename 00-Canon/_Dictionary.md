@@ -11,6 +11,10 @@ Strict definitions of homebrew concepts. These mechanics must never be conflated
 
 * **Anchor:** An everyday object tying a supernatural entity to the physical world **and to its human cover**: while it is whole and near, the entity holds its mundane shape and life; separated, the cover slips (see `10-Generators/Three-Layer-Monster.md` → Anchor Cover Rule). It always has a human cost or memory attached to it. Seizing it is a transaction with a person, not just taking loot.
 * **Biological:** A physical, harvestable piece of a supernatural entity. Highly valuable but rots quickly. Must be stored in a Cold Storage Locker or it triggers a Spoilage Clock.
+* **Sitting:** one real evening at the table. A *session* is one prep file (a unit of story) and may take two or more sittings. Never confuse a sitting with an in-game night.
+* **Safe stop:** a point listed in each prep where a sitting may end mid-session (never on a Choice, a reveal or an Anchor decision).
+* **Pause:** what a sitting that ends mid-session runs: a "To be continued" TV card, one player-safe recap line, a Night Log row. No Zoltar card, XP tally, retrospective or Faction Turn until the session is finished (`End-of-Session-Ritual.md` §0b).
+* **Previously card:** the `recap` TV card that opens the next sitting; after a Pause it is built from the Pause's one-line recap.
 * **Crossroads Broker:** An entity that offers exactly what the crew wants but takes something they will miss later. The cost is tracked in the Crossroads Cost Ledger.
 * **Double Bookkeeping:** A specialized crew ability to successfully fudge Ministry paperwork, allowing the crew to skim an Anchor, Relic, or Biological off a government bounty without detection.
 * **The Ministry:** The bureaucratic, government arm that issues bounties on the supernatural. Dangerous because they believe they are doing the moral, correct thing. Cover-ups are sacred to them.

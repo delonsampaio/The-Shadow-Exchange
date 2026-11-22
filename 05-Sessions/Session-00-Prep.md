@@ -18,7 +18,7 @@ runtime: "~2.5–3 hours"
 ## RUN SHEET (read this first)
 
 **Time budget (estimates; nothing is cut):** Pitch 5 → Introductions 25 → Crew creation + lair tour 50 → Friends/Rivals/Heirlooms 20 → **Trial Run 15** → Closing montage 15 → buffer 20 (≈ 2 h 30 of play; the beats run closer to 2 h 45 with all the stops, so plan a safe stop).
-**Cold Open: none (Session 0).** **Safe stops:** **Nothing is cut:** every beat is played in full. If the evening runs out, stop at one of these **safe stops**: run the short **pause** (a "To be continued" TV card, one line of recap for next time, and a `Night-Log.md` row), and the next sitting opens with a "Previously" card. **Zoltar's card, the XP tally and the retrospective happen only when the session itself is finished.** **Never end a night on a Choice, a reveal or an Anchor decision.** **(A)** after Introductions (Beat 2) · **(B)** after the lair tour and crew creation (Beat 3f) · **(C)** after Friends, Rivals and Heirlooms (Beat 4) · then the Trial Run and the closing montage together.
+**Cold Open: none (Session 0).** **Safe stops:** **Nothing is cut:** every beat is played in full. If the evening runs out, stop at one of these **safe stops**: run the short **pause** (a "To be continued" TV card, one line of recap for next time, and a `Night-Log.md` row), and the next sitting opens with a "Previously" card. **Zoltar's card, the XP tally, the retrospective and the Faction Turn happen only when the session itself is finished.** **Never end a night on a Choice, a reveal or an Anchor decision.** **(A)** after Introductions (Beat 2) · **(B)** after the lair tour and crew creation (Beat 3f) · **(C)** after Friends, Rivals and Heirlooms (Beat 4) · then the Trial Run and the closing montage together.
 
 | # | Beat | Trigger | 🎵 Music | 🖼 Image | 🎭 Comedy | Purpose |
 |---|---|---|---|---|---|---|
@@ -86,7 +86,7 @@ runtime: "~2.5–3 hours"
 ❓ **ASK THE SAME PLAYER:** *"What is one thing your character carries that they wouldn't lend to anyone here?"* ⏸ **REACTION STOP.**
 ❓ **ASK THE SAME PLAYER:** *"What's your Vice, and who supplies it?"* ⏸ **REACTION STOP.** *(Stall menu once: a night-market cook · a bookie · a very good tea importer. Write it down; Downtime uses it.)*
 
-**→ GM MOVE:** Cap each introduction at about 2 minutes. If someone runs long: 🗣 **SAY** *"Great — we'll see more in play. Next."*
+**→ GM MOVE:** If an answer stalls, offer the stall menu (one try); the introductions get the time they need.
 
 > 🎭 **COMEDY SEED (🟡)** *(after each introduction):*
 > 🗣 **SAY** *"You've worked with [Name] for two years, so you have opinions."*

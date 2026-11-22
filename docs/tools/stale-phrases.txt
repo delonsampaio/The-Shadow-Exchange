@@ -28,3 +28,9 @@ introduces it at S4 :: XP is taught at the close of S1
 Cut-list if running long :: nothing is cut; use Safe stops (GM 2026-11-21)
 cut-list for overrun :: nothing is cut; use safe stops
 "text-message" round :: no shortened downtime mode; play to the next safe stop
+skip if time is short :: nothing is cut
+beats were cut :: nothing is cut
+(it was cut) :: nothing is cut
+five-minute fast-forward :: never fast-forward; stop at a safe stop
+in 90 minutes, merge :: run the Pause on a short evening
+Short night \(90 minutes\) :: nothing is cut; safe stops

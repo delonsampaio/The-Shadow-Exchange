@@ -17,7 +17,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 ## RUN SHEET (read this first)
 
 **Time budget (estimates; nothing is cut; the session runs about 3 h 15, so expect two nights):** Cold open 5 → Envelope & plan 10 → Approach + Thorne on the street 10 → Observation 10 → Inside the Shop 5 → Moral choice 20 → **Door Chase 15** → Entrance + descent 10 → Hall + PTOLEMY + Cosma 30 → Aldric/Job Board/Broker 15 → Exit 5 → Return + Downtime (incl. Entanglement) + Greta + Thorne's call + quiet moment + Close (Zoltar + XP + retro) **60**.
-🔒 **If they attack anyone (Thorne, Greta, Emmerich, Drennick & Foss):** `05-Sessions/Lethal-Path-Quick-Table.md`. **Safe stops:** **Nothing is cut:** every beat is played in full. If the evening runs out, stop at one of these **safe stops**: run the short **pause** (a "To be continued" TV card, one line of recap for next time, and a `Night-Log.md` row), and the next sitting opens with a "Previously" card. **Zoltar's card, the XP tally and the retrospective happen only when the session itself is finished.** **Never end a night on a Choice, a reveal or an Anchor decision.** **(A)** the railing: after the Door Chase, when the alley dead-ends and the railing is there · **(B)** after the Exit, before the Return · then Downtime, Greta, Thorne's call and the Close together. PTOLEMY's charge, Cosma and every Subway beat are played in full.
+🔒 **If they attack anyone (Thorne, Greta, Emmerich, Drennick & Foss):** `05-Sessions/Lethal-Path-Quick-Table.md`. **Safe stops:** **Nothing is cut:** every beat is played in full. If the evening runs out, stop at one of these **safe stops**: run the short **pause** (a "To be continued" TV card, one line of recap for next time, and a `Night-Log.md` row), and the next sitting opens with a "Previously" card. **Zoltar's card, the XP tally, the retrospective and the Faction Turn happen only when the session itself is finished.** **Never end a night on a Choice, a reveal or an Anchor decision.** **(A)** after the Emmerich Choice: the matching passage read, before the crew leaves the building (resume with the Door Chase, caper music inline) · **(A2)** after Cosma's Favor lesson, before Aldric and the Job Board · **(B)** after the Exit, before the Return. **Never stop at the railing:** the chase, the Twist and "do we go down?" are all still open · then Downtime, Greta, Thorne's call and the Close together. PTOLEMY's charge, Cosma and every Subway beat are played in full.
 
 | # | Beat | Trigger | 🎵 Music | 🖼 Image | 🎭 Comedy | Teaches |
 |---|---|---|---|---|---|---|
@@ -32,7 +32,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 | 8 | Descent + Hall | "go" | `music-subway-loop` | `location-subway-main-hall` → `map-subway-schematic` ❌ *(optional, at the wrong transit map)* | 🔵 none — uncanny crowd | Etiquette |
 | 9 | PTOLEMY's charge | inline | — | `npc-ptolemy` ✅ | 🔵 uncanny-specific charges | Ledger/favor |
 | 10 | Cosma | "go" | — | `npc-cosma-linden` ✅ | 🔵 none (quiet warmth only) | **Twice-Born Favor** |
-| 11 | *(optional)* Aldric / Job Board / Broker | — | — | `npc-aldric-voss` ✅, `npc-crossroads-broker` ✅ | — | — |
+| 11 | Aldric / Job Board / Broker *(player-driven: offered in full, played if the crew engages; Aldric "do not force")* | — | — | `npc-aldric-voss` ✅, `npc-crossroads-broker` ✅ | — | — |
 | 12 | Exit | "go" | `music-aftermath` | `location-pier-exit` ✅ | — | — |
 | 13 | Return → Downtime → Greta → Thorne's call → Zoltar card *(in that order)* | "go" | `music-bookshop-loop` → `music-greta-waltz` ✅ *(optional, when Greta enters)* | `location-curios-exterior` → `npc-greta-fenn` → `location-curios-exterior` *(clears Greta before the call)* | 🎭 Greta's forms | **Heat, Downtime** |
 | 14 | Close | end | `music-sting-fortune-card` ❌ · Zoltar voice ❌ *(on hold)* | `location-curios-exterior` + Zoltar card | Zoltar | **XP tally** |
@@ -459,7 +459,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 
 ---
 
-### Subway Beat 5 — The Broker *(optional — one nod, nothing more)* and the Exit
+### Subway Beat 5 — The Broker *(player-driven: one nod, nothing more)* and the Exit
 
 **[IMAGE CUE: npc-crossroads-broker.png]** ✅ *(show when the Broker is described — then do not develop further)*
 > 🔊 **READ ALOUD** *(only if the crew notices the back booth)*: "In the back booth sits a man in a gray suit with a narrow tie — dressed for 1987. He glances up when anyone looks at him. He nods, just at one of you."

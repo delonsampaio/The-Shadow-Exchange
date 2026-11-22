@@ -42,5 +42,5 @@ purpose: "Every kind of change → what to do DURING the session → every file 
 ## 3. Close-out (always last)
 1. Run `python3 -I docs/tools/consistency_check.py`. It checks: every referenced file exists · every NPC file is in the NPC Index · every canon file is in the File Index · no retired phrase remains · no secret word is on the players' site. **Fix everything it reports.** (A file named in the docs that is deliberately not created yet goes in the script's `PLANNED` list; remove it when the file exists.)
 2. Say, in one line each: what you updated, what the check said, and what is **NOT PUSHED**.
-3. Clear `05-Sessions/Live-Ledger.md` back to its header (the lines are now in the files). Reset `scene.js` and `feed.js` (Boot §6 step 6).
+3. *(Finished sessions only; a Pause keeps the ledger, `scene.js` and `feed.js`.)* Clear `05-Sessions/Live-Ledger.md` back to its header (the lines are now in the files). Reset `scene.js` and `feed.js` (Boot §6 step 6).
 4. A fact that you cannot place in this map is a gap in the map: add a row to it now.

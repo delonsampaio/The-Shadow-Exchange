@@ -6,7 +6,8 @@ purpose: "The GM-side routine for the week between sessions, so a weekly 2–3 h
 
 # Weekly Prep Checklist
 
-## Day after the session (15 min)
+## Day after a **finished** session (15 min)
+*(After a Pause, nothing here runs except checking that the Night Log row and the Live Ledger are saved; the next sitting starts with "continue session N".)*
 - [ ] Say **"end session"** to the Co-GM if it was not run; check the end-of-session checklist in `Session-Boot.md` §6 ran (the ritual, the dashboard feed, the recap).
 - [ ] Ask the Co-GM for the **Faction Turn** (`02-Factions/Faction-Turn-Procedure.md`) and the **next lead** from the Score Catalog, using the table's "more of / less of".
 - [ ] Publish the recap and update the players' site (`Wiki-Update-Protocol.md`); strict build passes; **say "push" only when you want it live.**
@@ -24,7 +25,7 @@ purpose: "The GM-side routine for the week between sessions, so a weekly 2–3 h
 
 ## On the night (10 min before)
 - [ ] Open `GM-Dashboard.html` and `Player-Screen.html` on the TV; confirm the title card.
-- [ ] Say **"start session N"**; the Co-GM boots from `Campaign-Current-State.md`.
+- [ ] Say **"start session N"** (a new session) or **"continue session N"** (after a Pause); the Co-GM boots from `Campaign-Current-State.md`.
 - [ ] If there's no prep: run `05-Sessions/Evergreen-Episodes.md`.
 
 ## Monthly

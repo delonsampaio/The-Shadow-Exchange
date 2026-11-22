@@ -7,7 +7,7 @@ last_updated: 2026-11-20
 
 # Express Ending Kit
 
-The table plays weekly for 2–3 hours and may need to end earlier than planned (≈ 6 months / ~26 sessions, 1 year / ~50, 1.5 years / ~75, or any time on short notice). This kit lets the GM wrap the **main story** in 3–4 sessions without it feeling rushed or abandoned. Everything here respects the single endgame in `Campaign-Arc.md` §6 and the 2026-11-20 canon (see `docs/review/Canon-Change-Log-2026-11-20.md`).
+The table plays weekly for 2–3 hours and may need to end earlier than planned (≈ 6 months / ~26 sessions (sessions, not evenings; see `Night-Log.md`), 1 year / ~50, 1.5 years / ~75, or any time on short notice). This kit lets the GM wrap the **main story** in 3–4 sessions without it feeling rushed or abandoned. Everything here respects the single endgame in `Campaign-Arc.md` §6 and the 2026-11-20 canon (see `docs/review/Canon-Change-Log-2026-11-20.md`).
 
 ## 1. The command
 GM says **"wrap it 2"** (F1 and F2 merged, then F3), **"wrap it 3"** or **"wrap it 4"** (the number of sessions left).

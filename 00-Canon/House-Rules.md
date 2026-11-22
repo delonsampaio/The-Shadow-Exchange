@@ -36,13 +36,13 @@ Players roll every action and resistance roll. **The GM never rolls against the 
 1. **Ten-minute envelope.** The contract card is on the TV within ten minutes of the start.
 2. **Two-minute decision clock.** After five minutes of planning the Co-GM offers three options; at minute eight the GM reads: "Two minutes, then we go with whatever's on top."
 3. **Every PC rolls in the key scene.** Point the next complication at whoever has rolled least.
-4. **One big reveal per session.** A second reveal becomes next week's cold open.
+4. **One big reveal per session.** A second reveal becomes the next session's cold open.
 5. **Cover-up first.** When a consequence is needed and nobody wants harm, use exposure (a witness, a phone, a form) before injury.
 6. **Rules lookups take 60 seconds.** Otherwise the GM rules, the Co-GM logs it, and it is checked against the SRD afterwards.
-7. **Hard stop at the agreed time.** If a score runs late, offer "cliffhanger here, or a five-minute fast-forward?" Never run more than 15 minutes over without the table agreeing.
+7. **Hard stop at the agreed time.** If the evening is ending, stop at a safe stop and run the Pause (item 9). Never fast-forward. Never run more than 15 minutes over without the table agreeing.
 8. **One table-invented detail per session goes into canon**, logged at once.
-9. **Short night.** Nothing is cut: play to the next safe stop in the prep, run the **Pause** (a "To be continued" card, one recap line, a Night Log row; no Zoltar, XP or retrospective until the session is finished), and resume next sitting with a "Previously" recap card.
-10. **Absent player.** Their PC is on the job but offscreen (or "on another call"). They earn the crew's XP and half of their own triggers; others may only **Assist** for them; Heirloom and spotlight beats are held back.
+9. **Short night.** Nothing is cut: play to the next safe stop in the prep, run the **Pause** (a "To be continued" card, one recap line, a Night Log row; no Zoltar, XP, retrospective or Faction Turn until the session is finished), and resume next sitting with a "Previously" recap card.
+10. **Absent player.** Their PC is on the job but offscreen (or "on another call"). They earn the crew's XP and half of their own triggers (counted per session, not per sitting); others may only **Assist** for them; Heirloom and spotlight beats are held back.
 
 ## D. Canon protections the Co-GM always keeps *(🔒 GM ONLY: do not copy to the players' site)*
 - No boarding a Subway train before Arc IV (one pass-by only). No digging below one storey. The Subway has no fixed address.

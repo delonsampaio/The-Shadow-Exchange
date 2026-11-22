@@ -110,4 +110,4 @@ date: 2026-11-20
 5. **Twist (d6, halfway):** 1 the client lied · 2 the target is protecting someone · 3 the Anchor belongs to someone the crew knows · 4 a form that reads wrong (🔒 GM ONLY: the Mimic's paper trail) · 5 it pays well because it's bait · 6 the cat is involved.
 6. **Choice with a cost:** two options, each saying what the crew gets and who it hurts. Surface the human cost before the payout. 🔴, no jokes.
 7. **Out:** payoff (the Board's 4 Coin standard; 2 for Subway odd jobs); Heat (SRD: 2 standard, 4 loud; +1 in the Overhang); a Turnstile exit or the van; Zoltar's card.
-**Time:** ~20 min per step from step 3; in 90 minutes, merge steps 4–5.
+**Time:** ~20 min per step from step 3; on a short evening, stop after step 3 or 4 and run the Pause.
