@@ -6,7 +6,10 @@ purpose: "The last ten minutes of every session: XP, a three-minute retrospectiv
 
 # End-of-Session Ritual (≈10 minutes)
 
-**The Zoltar card fires at the close (Boot §2a) before XP.** **Order:** cliffhanger or close → Zoltar → XP → retrospective → Co-GM logs. XP and the retrospective run **every session from Session 1** (Session 0 has no score). Skip all of this in a mock.
+**The Zoltar card fires at the close (Boot §2a) before XP.** **Order:** cliffhanger or close → Zoltar → XP → retrospective → Co-GM logs. XP and the retrospective run **at the end of every finished session from Session 1** (Session 0 has no score). Skip all of this in a mock.
+
+## 0b. The Pause (a sitting ends mid-session)
+When the evening ends at a safe stop and the session is **not** finished: show a title card (caption "To be continued"), 🗣 **SAY** one line of recap for next time (where the story stands, no spoilers), append the Night Log row (`05-Sessions/Night-Log.md`), and make sure the Live Ledger is current. **No Zoltar card, no XP tally, no retrospective and no Faction Turn** until the session is finished. The next sitting opens with a "Previously" recap card and continues at the saved beat.
 
 ## 1. XP (SRD)
 Per PC, for each **XP trigger** on their sheet: **1 XP if it happened, 2 if it happened a lot**; mark it on **any track** (an attribute or the playbook track). Desperate-roll XP was already marked on the attribute in the moment. Then the **crew XP triggers** (`GM-Rules-Reference.md` Part 3): 1 each, 2 if multiple or major.
@@ -16,8 +19,8 @@ Per PC, for each **XP trigger** on their sheet: **1 XP if it happened, 2 if it h
 - 🗣 **SAY** *(crew XP, the four SRD triggers; first time and whenever asked)*: "The firm marks XP too: **(1)** you did what this firm is for (an Anchor, Relic or Biological job); **(2)** you took on something above your station; **(3)** you built or bolstered the firm's reputation; **(4)** something showed what kind of firm this is." ❓ **ASK THE TABLE:** "Which of those happened tonight, once or a lot?" ⏸ **REACTION STOP.** *(1 crew XP each, 2 if it happened a lot; up to 8. The crew track is 8.)* **If any track is full: 🗣 teach Ladder card 22 (one SAY), clear it, and take the advance.**
 - Co-GM keeps the tally; the GM confirms. Log it on the advancement note in the crew file (what was taken, when, and the one-sentence "how we got it").
 
-## 1b. Night log
-After the retrospective, append the night's row to `05-Sessions/Night-Log.md` (beat reached, finished or not, natural stop or out of time, and the GM's one word: dragged, right, or rushed). No clock.
+## 1b. Night log (every sitting)
+On a finished session, after the retrospective (on a Pause, as part of §0b), append the night's row to `05-Sessions/Night-Log.md` (beat reached, finished or not, natural stop or out of time, and the GM's one word: dragged, right, or rushed). No clock.
 
 ## 2. Three-minute retrospective
 `❓ ASK EACH PLAYER`, one player and one question at a time (the Co-GM asks one question per message):

@@ -25,3 +25,6 @@ skipped in Sessions 0–3 :: XP and Entanglements are not skipped; they run from
 Skip XP in Sessions 0–3 :: XP runs every session from S1
 XP from S4 :: XP every session from S1
 introduces it at S4 :: XP is taught at the close of S1
+Cut-list if running long :: nothing is cut; use Safe stops (GM 2026-11-21)
+cut-list for overrun :: nothing is cut; use safe stops
+"text-message" round :: no shortened downtime mode; play to the next safe stop

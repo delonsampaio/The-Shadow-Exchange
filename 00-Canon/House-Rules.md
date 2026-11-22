@@ -41,7 +41,7 @@ Players roll every action and resistance roll. **The GM never rolls against the 
 6. **Rules lookups take 60 seconds.** Otherwise the GM rules, the Co-GM logs it, and it is checked against the SRD afterwards.
 7. **Hard stop at the agreed time.** If a score runs late, offer "cliffhanger here, or a five-minute fast-forward?" Never run more than 15 minutes over without the table agreeing.
 8. **One table-invented detail per session goes into canon**, logged at once.
-9. **Short session (90 minutes).** Open on the engagement roll, run one score, run downtime as a two-minute "text-message" round (one sentence per activity), recap by TV card.
+9. **Short night.** Nothing is cut: play to the next safe stop in the prep, run the **Pause** (a "To be continued" card, one recap line, a Night Log row; no Zoltar, XP or retrospective until the session is finished), and resume next sitting with a "Previously" recap card.
 10. **Absent player.** Their PC is on the job but offscreen (or "on another call"). They earn the crew's XP and half of their own triggers; others may only **Assist** for them; Heirloom and spotlight beats are held back.
 
 ## D. Canon protections the Co-GM always keeps *(🔒 GM ONLY: do not copy to the players' site)*

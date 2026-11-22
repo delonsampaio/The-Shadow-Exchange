@@ -16,7 +16,7 @@ last_updated: 2026-11-18
 ## 2. Shape of a prep file (in this order)
 1. Front-matter, title, one **tone line** (🟢 Full Scooby / 🟡 Half / 🔴 Zero / 🔵 Mystery — what the dial is tonight).
 2. **RUN SHEET** (table, first): `# | Beat | Trigger | Music | Image | Comedy | Purpose / mechanics`. **Every beat names its music and what the TV shows** (an image, or "title card + caption" when there is none, so a stale picture never stays up), so the table is never silent by accident. Mark each asset ✅ (exists) or ❌ (not yet generated); end with an **Asset status** line.
-3. Time budget, **cut-list for overrun** (what to drop first), tech checklist, GM-only pre-session checklist.
+3. Time budget (estimates), **safe stops** (nothing is cut: where a night may end and resume; never on a Choice, a reveal or an Anchor decision), tech checklist, GM-only pre-session checklist.
 4. The beats, in play order. 5. An "After this session" block (state updates; next Cold Open).
 
 ## 3. Every beat, same layout
@@ -80,7 +80,7 @@ List every ❌ in `11-Visuals/ASSET-TODO.md`; prompts live in `Pre-Campaign-Imag
 - [ ] Every NPC action the players may answer is followed by a `⏸ REACTION STOP` with branches, not a pre-written payoff.
 - [ ] No GM-private information outside `🔒 GM ONLY`.
 - [ ] The session's map is named on the Run Sheet, each new location has a district, and the pin ledger in `11-Visuals/Living-Map.md` is updated.
-- [ ] Time budget and cut-list present (ordered: what to drop first); next session's Cold Open noted.
+- [ ] Time budget and safe stops present (nothing is cut); next session's Cold Open noted.
 - [ ] Every cue in a beat body appears on the Run Sheet (and vice-versa); the Music column says *(continues: track)* rather than "—" where a loop keeps playing.
 - [ ] No `READ ALOUD`, `SAY` or `ASK` is nested inside a `🔒 GM ONLY` block.
 - [ ] Every `❓ ASK` is followed by a full `⏸ REACTION STOP`; no outcome is written in the same block as the question.

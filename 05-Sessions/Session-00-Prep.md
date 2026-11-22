@@ -17,8 +17,8 @@ runtime: "~2.5–3 hours"
 
 ## RUN SHEET (read this first)
 
-**Time budget:** Pitch 5 → Introductions 25 → Crew creation + lair tour 50 → Friends/Rivals/Heirlooms 20 → **Trial Run 15** → Closing montage 15 → buffer 20 (≈ 2 h 30 of play; the beats run closer to 2 h 45 with all the stops, so use the cut-list early).
-**Cold Open: none (Session 0).** **Cut-list if running long:** 0) the extra practice rolls in the Trial Run; 1) skip the nickname questions; (map: if cut, still SAY its last sentence, the no-subway line); 2) skip the shelf question at the end of 3e; 3) skip the ATM gag; 4) skip the "other monsters" question in 3f; 5) trim the closing questions to one shared PC question plus the GM question. *(Keep the no-subway line in 3a and the Scanner Station: they plant Session 2.)*
+**Time budget (estimates; nothing is cut):** Pitch 5 → Introductions 25 → Crew creation + lair tour 50 → Friends/Rivals/Heirlooms 20 → **Trial Run 15** → Closing montage 15 → buffer 20 (≈ 2 h 30 of play; the beats run closer to 2 h 45 with all the stops, so plan a safe stop).
+**Cold Open: none (Session 0).** **Safe stops:** **Nothing is cut:** every beat is played in full. If the evening runs out, stop at one of these **safe stops**: run the short **pause** (a "To be continued" TV card, one line of recap for next time, and a `Night-Log.md` row), and the next sitting opens with a "Previously" card. **Zoltar's card, the XP tally and the retrospective happen only when the session itself is finished.** **Never end a night on a Choice, a reveal or an Anchor decision.** **(A)** after Introductions (Beat 2) · **(B)** after the lair tour and crew creation (Beat 3f) · **(C)** after Friends, Rivals and Heirlooms (Beat 4) · then the Trial Run and the closing montage together.
 
 | # | Beat | Trigger | 🎵 Music | 🖼 Image | 🎭 Comedy | Purpose |
 |---|---|---|---|---|---|---|
@@ -113,7 +113,7 @@ runtime: "~2.5–3 hours"
 
 ### 3a — The Shop
 
-**[IMAGE CUE: map-city-s00.png]** ✅ *(the city map with the lair labelled. Show it first; the shop exterior replaces it when you read PART 1. Cut it if the clock is tight — see the cut-list.)*
+**[IMAGE CUE: map-city-s00.png]** ✅ *(the city map with the lair labelled. Show it first; the shop exterior replaces it when you read PART 1. Play it in full; it carries the no-subway line.)*
 
 🗣 **SAY** *(set it up — the city they work in; one line each)*:
 > "This is your city, with your shop marked in Old City. **Old City** is wet brick and old paper — on the edge of the old town where the Meridian's glass towers begin. **The Meridian** is glass towers and shopping, with cameras on every corner. **The Fairground District** is theaters and late nights; nobody asks questions at 2 a.m. **The Docks** are salt, rust and warehouses. **The Overhang** is apartment blocks, where the neighbors report everything. You get around by car, bike, taxi, bus or the elevated train — nobody ever built a subway here, because dig down more than a single floor in this city and you hit water."
@@ -424,7 +424,7 @@ The crew starts with the lair fixtures above and **Double Bookkeeping** *(custom
 6. 🗣 **SAY** *(Stress — the cost)*: *"The cost is **6 minus your highest die** — so a 5 costs you 1 Stress, and a 6 is free. Stress is your reserve of willpower. Fill all nine boxes and you take a Trauma: you're out of the scene and you gain a lasting quirk worth playing into; a fourth Trauma retires the character. That's it. That's the whole game. We'll do this for real next time."*
 
 ❓ **CHECK FOR UNDERSTANDING** *(one question, not a quiz):* *"What would you have done differently if the customer were two minutes away?"* ⏸ **REACTION STOP.**
-> 🔒 **GM ONLY:** *This practice Stress clears before Session 1.* Invite the other two to make one quick roll each (Assist is taught in S2: do not offer it): **(1)** the customer asks about cat books (Sway); **(2)** Consequence goes for the till (Finesse). 🗣 **SAY** *"Erase that Stress; it was practice."* *(Cut-list: these extra rolls go first.)* If they say "gone slower", they've understood Position. **Mark on the dashboard (Mechanics Taught): dice, Position, Effect, Stress, Resistance.**
+> 🔒 **GM ONLY:** *This practice Stress clears before Session 1.* Invite the other two to make one quick roll each (Assist is taught in S2: do not offer it): **(1)** the customer asks about cat books (Sway); **(2)** Consequence goes for the till (Finesse). 🗣 **SAY** *"Erase that Stress; it was practice."* If they say "gone slower", they've understood Position. **Mark on the dashboard (Mechanics Taught): dice, Position, Effect, Stress, Resistance.**
 
 ---
 

@@ -14,7 +14,7 @@ runtime: "~3 hours"
 
 ## RUN SHEET (read this first)
 
-**Time budget:** {beat} {min} → … → buffer. **Cut-list if running long:** {what to drop first}.
+**Time budget:** {beat} {min} → … → buffer. **Safe stops (nothing is cut):** {where a night may end; never on a Choice, a reveal or an Anchor decision}.
 
 | # | Beat | Trigger | 🎵 Music (every beat names one) | 🖼 Image | 🎭 Comedy | Purpose / mechanics taught |
 |---|---|---|---|---|---|---|

@@ -10,14 +10,14 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 # Session 2 — The Hollow Pedestrian
 
 > **Tone for tonight:** 🟡 banter on the way in, 🔴 ZERO at the Emmerich choice, 🟢 FULL SCOOBY for the Door Chase — then the mood **drops**: **🔵 MYSTERY** for the entrance, the descent and the hall. **No jokes inside the Subway tonight.** A railing that appears where there is none is not a gag; it is the first thing in the campaign that *shouldn't be possible.* Let the laughter from the chase die on the stairs. Humor returns on the pier and at the shop. See `00-Canon/Comedy-Playbook.md` (Mystery overrides Comedy here).
-> **Runtime ~3 h.** If the night passes about **1 h 45** before the Subway (the safe stop above), or **2 h 30** after the descent,, **cut Subway Beat 4's Aldric/Job Board and Subway Beat 5's Broker** and carry them to Session 3's free play ("the second visit"). The *entrance, the hall, PTOLEMY's charge and Cosma* are the non-negotiable debut.
+> **Runtime ~3 h (about 3 h 15 with everything; it may take two nights).** Nothing is cut: the safe stops are listed in the Run Sheet. The *entrance, the hall, PTOLEMY's charge and Cosma* are the debut; Aldric, the Job Board and the Broker are played too (they can be a second-night opening).
 
 ---
 
 ## RUN SHEET (read this first)
 
-**Time budget (add Inside the Shop 5; the full session runs about 3 h 15, so it is built as TWO NIGHTS if needed):** **SAFE STOP:** if the night has run about 1 h 45 when the Door Chase ends, **stop at the railing** (🔊 the alley dead-ends and the railing is there; ⏸) and resume next night with a "Previously" card; run the XP tally and the retrospective that night (`Night-Log.md`). Cold open 5 → Envelope & plan 10 → Approach + Thorne on the street 10 → Observation 10 → Moral choice 20 → **Door Chase 15** → Entrance + descent 10 → Hall + PTOLEMY + Cosma 30 → *(optional: Aldric/Job Board/Broker 15)* → Exit 5 → Return + Downtime (incl. Entanglement) + Greta + Thorne's call + quiet moment + Close (Zoltar + XP + retro) **60** (the Return-to-Close block took 60 in the simulation: payoff, Entanglement, Downtime, Greta, the call); cut the optional Aldric/Job Board/Broker beat first.
-🔒 **If they attack anyone (Thorne, Greta, Emmerich, Drennick & Foss):** `05-Sessions/Lethal-Path-Quick-Table.md`. **Never cut the Entanglement roll or the XP tally.** **Cut-list if running long:** *(text-message Downtime mode keeps Greta and the Entanglement)* 1) the Aldric / Job Board / Broker beats (already optional); 2) the Cologne gag; 3) trim the chase gags to one or two; 4) run Downtime in House Rules C9 "text-message" mode (one sentence per activity); 5) the quiet-moment question for each PC. *(Never skip PTOLEMY's charge for a PC: it is each player's spotlight.)*
+**Time budget (estimates; nothing is cut; the session runs about 3 h 15, so expect two nights):** Cold open 5 → Envelope & plan 10 → Approach + Thorne on the street 10 → Observation 10 → Inside the Shop 5 → Moral choice 20 → **Door Chase 15** → Entrance + descent 10 → Hall + PTOLEMY + Cosma 30 → Aldric/Job Board/Broker 15 → Exit 5 → Return + Downtime (incl. Entanglement) + Greta + Thorne's call + quiet moment + Close (Zoltar + XP + retro) **60**.
+🔒 **If they attack anyone (Thorne, Greta, Emmerich, Drennick & Foss):** `05-Sessions/Lethal-Path-Quick-Table.md`. **Safe stops:** **Nothing is cut:** every beat is played in full. If the evening runs out, stop at one of these **safe stops**: run the short **pause** (a "To be continued" TV card, one line of recap for next time, and a `Night-Log.md` row), and the next sitting opens with a "Previously" card. **Zoltar's card, the XP tally and the retrospective happen only when the session itself is finished.** **Never end a night on a Choice, a reveal or an Anchor decision.** **(A)** the railing: after the Door Chase, when the alley dead-ends and the railing is there · **(B)** after the Exit, before the Return · then Downtime, Greta, Thorne's call and the Close together. PTOLEMY's charge, Cosma and every Subway beat are played in full.
 
 | # | Beat | Trigger | 🎵 Music | 🖼 Image | 🎭 Comedy | Teaches |
 |---|---|---|---|---|---|---|
@@ -417,7 +417,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 
 ---
 
-### Subway Beat 4 — Cosma *(essential)*, then Aldric & the Job Board *(optional — cut if past 2 h 30 into the night)*
+### Subway Beat 4 — Cosma *(essential)*, then Aldric & the Job Board *(played in full; may open the second night)*
 
 **[IMAGE CUE: npc-cosma-linden.png]** ✅ *(show when Cosma approaches)*
 
