@@ -83,8 +83,8 @@ purpose: "Rumor pool for The Ritual downtime activity and GM improvisation."
 
 * "Something patient is waiting under the city. I don't know what it's waiting for. I think it does."
 * "The clocks are running slow for a reason, people. Check your watch against your phone. Check again in an hour."
-* "It found the frequency. Don't use the frequency."
-* "Three cities. Same drawing. Same face. No eyes. Draw your own conclusions."
+* "It found the frequency. Don't use the frequency." *(S24+ only)*
+* "Three cities. Same drawing. Same face. No eyes. Draw your own conclusions." *(Omen 7 / ~S67+ only)*
 * "The dogs know. The dogs have always known. Ask the dogs."
 * "If you're listening to this, you already know something's wrong. That's why you found this station."
 

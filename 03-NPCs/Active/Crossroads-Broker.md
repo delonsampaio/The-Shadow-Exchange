@@ -22,7 +22,7 @@ gm_secret: cost_table
 
 ## What it offers
 
-- Clear a Wanted Clock instantly.
+- Lower the crew's Wanted level by 1, instantly (once).
 - Restore a Spoiled Biological to full quality.
 - Restore a Siphoned Relic.
 - Grant a free Critical on one roll of the crew's choice.

@@ -1,6 +1,6 @@
 ---
 entity_type: Review_Draft
-status: DRAFT — GM-facing bench; nothing here is canon until used at the table or adopted
+status: SUPERSEDED by `03-NPCs/NPC-Bench.md`; do not use
 purpose: "30 drop-in NPCs: name, role, district, look, want, one SAY line, a secret or hook, and (for six) who they could replace."
 date: 2026-11-20
 ---

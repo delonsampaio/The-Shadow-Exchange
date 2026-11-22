@@ -18,7 +18,7 @@ purpose: "Pool of thematic consequences for failed or mixed rolls."
 
 ## [Category: Cover-Up Exposure]
 * **The Witness:** A passerby has a 17-second video already uploading.
-* **Ministry Liaison:** The liaison assigned to this district is **[Faction: The Mimic]**; the report will be compromised.
+* **Ministry Liaison:** The liaison assigned to this district is a cold, over-helpful Ministry clerk; the report will be compromised. 🔒 GM ONLY: the clerk is mundane; the report is compromised because it routes through Thorne's desk (the Understudied). Never name it on screen.
 * **The Leak:** A child saw it and is telling a parent, who is calling the police.
 * **Live Stream:** A neighborhood teenager is already streaming a vertical video titled *"Why are library people carrying rock salt at 2am?"* with 43 live viewers.
 * **Form Audit:** Greta's pager buzzes: a Resonance sensor just opened an incident ticket, and she expects a three-page justification by 8am.
@@ -35,7 +35,7 @@ purpose: "Pool of thematic consequences for failed or mixed rolls."
 * **PTOLEMY's Receipt:** A damp, brass-stamped receipt slips into a PC's coat pocket billing them for an "unscheduled Resonance overdraft" they haven't spent yet.
 * **Dry Dust:** Fine, dry railway soot, impossible above this water table, drifts up through a storm grate at the crew's feet and draws a stray dog's stare.
 * **The Broker's Counter-Offer** *(S13 and later)*: A folded diner napkin appears under Consequence the Cat with one handwritten line from the Crossroads Broker: *"You'll need a favor before Thursday."*
-* **Passing Rumble** *(Omen 3+; never in the same session as a Subway visit)*: The floor trembles for six seconds with the vibration of a fast train passing deep under a district that has no subway. Nobody else notices.
+* **Passing Rumble** *(Omen 3+; never in the same session as a Subway visit)*: The floor hums for six seconds with a dry, low vibration from somewhere beneath the foundation, like a distant machine. Nobody else notices. *(Never describe it as a train before S28.)*
 
 ## AI Facilitation Directives
 * **Trigger Logic:** When a roll results in a complication, choose one item from a category that matches the current narrative stakes (e.g., use "Subway-Adjacent" if the crew is near an entrance).

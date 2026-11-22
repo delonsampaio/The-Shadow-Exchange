@@ -1,11 +1,13 @@
 ---
-entity_type: Draft_Catalog
-status: DRAFT for GM review (2026-11-20)
+entity_type: Catalog
+status: ADOPTED 2026-11-21 (corrected after the Gemini content-bank cross-check; GM-only; update through the Change-Propagation-Map)
 gm_secret: true
 purpose: "Every secret: who knows, first clue, three or more clue routes, reveal window, the scene that delivers it, what it changes. Then a Sessions 4–28 clue map."
 ---
 
 # Secrets & Reveals Schedule
+
+**Canon locks used here:** Decay ≤ 3 through Season 1 (first Decay 4 ≈ S41; Omen 5 ≈ S41); the Ministry Audit clock is GM-secret until S4; AM-host lines are gated ("It found the frequency" S24+; "Three cities. Same drawing." Omen 7 / ~S67+).
 
 **Source key:** CA = `Campaign-Arc.md` · S1P = `Season-1-Plan.md` · SC = `Score-Catalog.md` · FS = `Foreshadowing.md` · CM = `The-Casting-Mask.md` · Arch = `The-Architect.md` · MY = `Mysteries.md` · LS = `Living-Subway.md` · OV = `Overview.md` · UL = `Urban-Legends.md` · C&C = `Curios-and-Chronicles.md`. **Players know?** = what the players' site (`The-Shadow-Exchange-Players/docs/`) or play has already shown them. **PROPOSAL** = invented here. ⚠ = fewer than three independent routes.
 
@@ -40,6 +42,7 @@ purpose: "Every secret: who knows, first clue, three or more clue routes, reveal
 | 25 | **Red-ink Journal entry & entry 47** | Harlan (entry 47 = death of a previous owner) | They've seen the entry | S0 | (a) Harlan; (b) red hand on the Wall; (c) Lair incident d8 #7 | S4 – ~S54 | Harlan's reaction | Architect route | C&C |
 | 26 | **Consequence reacts once** | — | No | — | Single payoff by design | S26 | *The Triangulation* | Everyone remembers what she reacted to | `Comedy-Playbook.md` |
 | 27 | **The Broker is the Subway's master (MY option C)** | ? | No | S2 nod | (a) stillness one second long; (b) "You've been figuring this out"; ⚠ (*PROPOSAL: PTOLEMY pays him once*) | ~S54+ | A deal + one forbidden question | Option C only | MY |
+| 28 | **The Ministry Audit clock** | Ministry (Kress watches it) | **No: GM-secret until S4** | S2–S3 silent ticks (Double Bookkeeping, Entanglements) | (a) Form 44-C appears S4+; (b) Greta's cross-referencing; (c) a Ministry inspector locks the shop at 4 | **S4 first visible** | S4 or later: Greta slides over Form 44-C | Locks down Curios & Chronicles at 4 segments | `Active-Clocks.md` |
 
 ## B. Session-by-session clue map (Sessions 4–28)
 
@@ -47,7 +50,7 @@ purpose: "Every secret: who knows, first clue, three or more clue routes, reveal
 
 | S | Clues carried | ★ |
 |---|---|---|
-| 4 | Stalls = Apex (#5); Wall of the Missing + HE WENT BACK (#16); the word "Architect" (#9); V&L photo + Harlan's story (#7); AM fragments (#15) | ★ #5 · ⚑ **five threads in one session** — plant #16 and #9 as silence, keep the reveal to Stalls |
+| 4 | Stalls = Apex (#5); Wall of the Missing + HE WENT BACK (#16); the word "Architect" (#9); V&L photo + Harlan's story (#7); AM fragments (#15; gated lines only); **Audit clock first visible (#28)** | ★ #5 · ⚑ **five threads in one session** — plant #16 and #9 as silence, keep the reveal to Stalls |
 | 5 | Episode: Emmerich second attempt (#2, if warned); lacquered box / master key | — |
 | 6 | Reyes's visit (#21); John Doe's Architect memory (#9); Decay live; Ministry split | — |
 | 7 | Kress's letterhead (#6); lease appraisal (#13) | ★ #6 (name) |
@@ -55,10 +58,10 @@ purpose: "Every secret: who knows, first clue, three or more clue routes, reveal
 | 9 | Radio Signal: Aldric (#15); tell 7 (#1); Mini-Arc C mirrors (#10 dry corridors) | — |
 | 10 | Preservation Order (#7); originating form (#6) | — |
 | 11 | Vantage dead, Dasha, Artie (#7); Dasha's form number (#8); tell 7 window closes | ★ #7 · ⚑ **Decay 2 + Omen 3 + death + Apex hot in one session** |
-| 12 | Kress freezes license; buyout; tell 8 (#1); Harrow mention (#23); Mara stage 2 (#19) | — |
+| 12 | Kress freezes license; buyout; tell 8 (#1); Harrow mention (#23); Mara stage 2 (#19); **Foss: "For the record — I was right." (the beets payoff)** | — |
 | 13 | Ghost Map shard; Broker; controller clue #2 (#10); heirloom symptom; tell 8/9 | — |
 | 14 | Thorne's tip blows up; tell 9 — Reyes denies the source (#1) | (staged exposure) |
-| 15 | Unmasking (#1, #3, #8); truce → #4 | ★★ ⚑ **two big reveals** (#1 plus #8 "why Emmerich"): let #8 come out *inside* the talk, not as its own beat |
+| 15 | Unmasking (#1, #3, #8); truce → #4 (the truce **suspends the license; Decay holds ≤ 3**) | ★★ ⚑ **two big reveals** (#1 plus #8 "why Emmerich"): let #8 come out *inside* the talk, not as its own beat |
 | 16 | Rumour of "Elias Thorne" (#4); Rival Hunter's Architect clue (#9); Mara knows (#19) | — |
 | 17 | Pryce's files: true name (#2), routing anomalies (#3) | ★ #2 |
 | 18 | Real Thorne / Tamsin (#3, #4); Tamsin's survey (#10) | — |
@@ -71,7 +74,7 @@ purpose: "Every secret: who knows, first clue, three or more clue routes, reveal
 | 25 | Aldric's signal stops (#15, #14) | ★ |
 | 26 | Consequence reacts (#26); Kress's rig | ★ |
 | 27 | Siege; Twice-Born address list (#23 payoff) | — |
-| 28 | Pass-by train, HE WENT BACK face (#16); Kress falls/rogue (#6) | ★ |
+| 28 | Pass-by train, HE WENT BACK face (#16); Kress falls/rogue (#6); the Ghost Map overload **holds Decay at 3 and costs Twice-Born Favor −1** | ★ |
 
 ## C. Flags
 

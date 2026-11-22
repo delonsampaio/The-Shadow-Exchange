@@ -29,9 +29,9 @@ last_updated: 2026-11-20
 | Finish the story early ("wrap it N") | `05-Sessions/Express-Ending-Kit.md` |
 | Every planned score and episode | `06-Scores/Score-Catalog.md`; the crew-facing board is `06-Scores/Bounty-Board.md` |
 | A one-session monster idea | `10-Generators/Bestiary.md` (40), `10-Generators/Urban-Legends.md`, `Three-Layer-Monster.md`; resonance side effects: `Resonance-Complications.md`; names: `Names-and-Looks.md` |
-| Clocks, Omen, Decay | `07-Clocks/Active-Clocks.md`, `Clock-History.md` |
-| Planted clues and threads | `09-Threads/Foreshadowing.md`, `Plot-Threads.md` |
-| Anchors and loot | `08-Loot-and-Anchors/Anchor-Ledger.md`, `Inventory.md` |
+| Clocks, Omen, Decay | `07-Clocks/Active-Clocks.md`, `Clock-History.md`, `Clocks-Calendar.md` (planned values by session) |
+| Planted clues and threads | `09-Threads/Foreshadowing.md`, `Plot-Threads.md`, `Secrets-and-Reveals-Schedule.md` (every secret: who knows, clue routes, reveal window; GM-only) |
+| Anchors and loot | `08-Loot-and-Anchors/Anchor-Ledger.md`, `Inventory.md`, `Anchor-and-Heirloom-Catalog.md` (planned Anchor choices; Heirloom patterns) |
 | Heirloom patterns | `00-Canon/Heirloom-Degradation-Patterns.md` |
 | End of a session (XP + retrospective) | `00-Canon/End-of-Session-Ritual.md` |
 | Heat, Wanted and Entanglements | `07-Clocks/Heat-and-Entanglements.md` |
@@ -42,6 +42,7 @@ last_updated: 2026-11-20
 | Weekly routine | `00-Canon/Weekly-Prep-Checklist.md` |
 | **A change happened: what else must change?** | `00-Canon/Change-Propagation-Map.md`; the live record is `05-Sessions/Live-Ledger.md`; the staleness check is `docs/tools/consistency_check.py` (retired phrases: `docs/tools/stale-phrases.txt`; players-site secrets: `docs/tools/spoiler-words.txt`) |
 | A Zoltar fortune card | `00-Canon/Zoltar-Card-Deck.md` |
+| A running gag, or the next Greta form number | `00-Canon/Running-Gags-and-Forms-Register.md` (form numbers only go up, above 140-A) |
 | Every NPC's status; the 30-NPC bench | `03-NPCs/NPC-Index.md`, `03-NPCs/NPC-Bench.md` |
 
 ## People, factions, places

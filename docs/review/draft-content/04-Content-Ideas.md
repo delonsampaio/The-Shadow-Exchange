@@ -11,7 +11,7 @@ date: 2026-11-20
 - **Real manila envelopes, pre-dampened for S4–S7.** The envelope is the show's opening ritual, so make it tactile. → `11-Visuals/Props-List.md`
 - **A printed Greta form pad** (blank Ministry forms with a box for "square footage"). Players fill one in during downtime, which hands them the joke. → `11-Visuals/Handouts/Ministry-Form-Pad.md`
 - **Three physical Twice-Born Favor tokens** (old transit transfers). The max-3 rule and losing a token at Decay 4 hit harder when someone has to hand one back. → `Props-List.md`
-- **A Zoltar card deck printed in advance** (S4–S28). A card dropped on the table beats one on the TV for the end-of-session sting. → `00-Canon/Zoltar-Card-Deck.md`
+- ✅ DONE (`00-Canon/Zoltar-Card-Deck.md`): **A Zoltar card deck printed in advance** (S4–S28). A card dropped on the table beats one on the TV for the end-of-session sting. → `00-Canon/Zoltar-Card-Deck.md`
 - **A pocket Heat and Entanglement card** for the players. New-to-Blades players forget that Heat matters until the roll. → `Handouts/Heat-Card.md`
 
 ## TV card ideas (`scene.js`)
@@ -32,7 +32,7 @@ date: 2026-11-20
 
 ## Image needs (`Pre-Campaign-Image-Prompts.md`)
 - Portraits of the six bench NPCs most likely to appear first: Penhallow, Prudence, Kip, Teddy, Winnie, Fitch. Every NPC the crew meets needs a wiki portrait.
-- Locations: the S6 hospital corridor, a Docks cold-storage aisle, *The Lantern Room* exterior, Mercy's laundromat, the Tannery Row crossing.
+- Locations: the S6 hospital corridor, a Docks cold-storage aisle, *The Amber Room* exterior, Mercy's laundromat, the Tannery Row crossing.
 - **The Wall of the Missing close-ups** (single photos as `note` cards), so a single missing hunter can be shown on the TV when the crew takes a case from the Wall.
 
 ## Wiki pages to add (players' site, spoiler-checked)
@@ -48,13 +48,13 @@ date: 2026-11-20
 - **Kip's baskets escalate** (fruit → cheese → an edible arrangement shaped like the shop), until the S12 buyout, when it's a single envelope. The comedy stops when the offer turns real.
 - **Penhallow's lamp count.** Each session he logs one more lamp; the players will start buying lamps on purpose.
 - **Prudence's van tally** goes on the TV strip, and hitting 20 triggers a Watch "community meeting" episode.
-- **Drennick & Foss beets → a scoreboard.** Track who is winning the canteen argument until the S14 payoff.
+- **Drennick & Foss beets → a scoreboard (payoff S12).** Track who is winning the canteen argument until the S12 payoff.
 
 ## Missing canon files noticed
-- `00-Canon/Ministry-Form-Registry.md`: form numbers must only go up, and nothing tracks them across 80 sessions.
-- `03-NPCs/NPC-Index.md`: 40+ files plus the proposed names; prevents name clashes and resurrections.
+- ✅ DONE (`00-Canon/Running-Gags-and-Forms-Register.md`): `Ministry-Form-Registry`: form numbers must only go up, and nothing tracks them across 80 sessions.
+- ✅ DONE (`03-NPCs/NPC-Index.md`): 40+ files plus the proposed names; prevents name clashes and resurrections.
 - `02-Factions/Apex-Aegis.md` **Acquisition Push clock**: marked TBD, but Apex drives Mid-Arcs 1, 2, 3 and 5.
-- `04-Locations/Vice-Purveyors.md`: Indulge Vice needs a place in each district; the players will name it, so offer a menu.
+- ✅ DONE (`04-Locations/Venues-Bank.md` §2): `Vice-Purveyors`: Indulge Vice needs a place in each district; the players will name it, so offer a menu.
 - `04-Locations/Sites-of-Interest/Old-City-Mercy.md` (name proposed): the S6 hospital and Room 412 have no location file yet.
 - `03-NPCs/Wall-of-the-Missing-Roster.md`: names and one-line cases for the photos, so any visit can turn into a job.
 - `02-Factions/Ministry-Org-Chart.md`: Oversight, Compliance, Suppression, Records, Requisitions and Remediation on one page, with who reports to whom (Kress's aide, Greta's desk).

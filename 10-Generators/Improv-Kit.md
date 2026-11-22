@@ -14,11 +14,11 @@ date: 2026-11-20
 |---|---|---|
 | 1 | Old City | "A converted gas lamp buzzes, dims and recovers. Under it, a man in a cardigan lowers his binoculars and studies a pigeon very hard." *(Penhallow)* |
 | 2 | Old City | "Rain sheets off a fire escape. A shop bell rings behind you, the exact note of your own shop's bell." |
-| 3 | Old City | "An elevated-train ad reads 'SEE THE CITY FROM ABOVE — IT'S THE ONLY WAY.' Someone has added in marker: 'not the only way.'" |
+| 3 | Old City | "A bus-shelter ad reads 'SEE THE CITY FROM ABOVE — IT'S THE ONLY WAY.' Someone has added in marker: 'not the only way.'" |
 | 4 | Meridian | "Rolling luggage, soft shoes, a dozen food smells. A lamppost scanner turns its glass eye toward you, then away." |
 | 5 | Meridian | "A woman with a ring light clipped to a tactical vest lowers her phone and mouths: *are you guys hunters?*" *(Teddy)* |
 | 6 | Fairground | "Bass from three clubs fights in the street. A giant foam popcorn kernel sits on the kerb with its head in its hands." *(Rollo)* |
-| 7 | Fairground | "A silent queue outside *The Lantern Room*. Nobody in it is talking. Every one of them is smiling." |
+| 7 | Fairground | "A silent queue outside *The Amber Room*. Nobody in it is talking. Every one of them is smiling." |
 | 8 | Docks | "Salt, diesel, a crane groaning with nobody in the cab. A woman in hi-vis photographs a puddle and logs it as overtime." *(Roz)* |
 | 9 | Docks | "Under a flickering tube light, someone has chalked a tally on the wall, then crossed out the last mark." |
 | 10 | Overhang | "Four TVs through thin walls, four channels, one laugh track, all laughing at the same moment." |
@@ -32,7 +32,7 @@ date: 2026-11-20
 3. [HARLAN] "A cold-storage foreman is asking hunters about his brother and Unit Six." *(Tomasz)*
 4. [HARLAN] "Harrow & Sons hasn't paid its tab in a month. Harlan hasn't asked." *(Delphine)*
 5. [SUB] "Wanted: carry a sealed hatbox across the Meridian. Do not open it, look at it, or discuss it."
-6. [SUB] "The lamplighter says Platform 2 is three bulbs short. She wants to know who took them." *(Ysolde)*
+6. [SUB] "The lamplighter says Platform 2 is three bulbs short. She wants to know who took them." *(Ysolde; S3+ only, after the first Subway visit)*
 7. [SUB] "Reward: one borrowed umbrella. It knows the way home. It is not going there."
 8. [MIN] "A Meridian boutique's mannequins have moved overnight, four nights running. CCTV shows nothing."
 9. [HARLAN] "An Apex scan van keeps idling at the same Overhang crossing at the same hour." *(Abel)*
@@ -49,12 +49,12 @@ date: 2026-11-20
 20. [HARLAN] "There's a fresh photo on the Wall of the Missing, still wet from the rain. Nobody saw who pinned it."
 
 ## 3. Downtime events (d12, once per downtime, optional)
-1. 🎭 Kip leaves a fruit basket at the shop. Inside is a cease-and-desist. It's a lovely basket.
+1. 🎭 *(S12+ only, after Kip has appeared)* Kip leaves a fruit basket at the shop. Inside is a cease-and-desist. It's a lovely basket.
 2. ☕ Winnie's bingo: one PC clears 1 Stress without rolling, *or* the crew takes a rumour.
 3. 🔴 Tomasz waits outside at closing, cap in hand. He doesn't come in.
 4. 🎭 Penhallow starts a "Buy Local, Buy Honest" sign war across the street.
 5. A project clock gets +1 from an unexpected helper, and now you owe them.
-6. 🕷 Lionel Sparrowe reads in the shop's window seat, buys nothing and leaves a pencil.
+6. 🕷 *(S12+ only)* Lionel Sparrowe reads in the shop's window seat, buys nothing and leaves a pencil.
 7. ☕ Dr. Oduya calls: "your dog" was seen. *(If Gerald wasn't kept, it's a stray with very clean paws.)*
 8. Greta's post: three forms, one asking for the crew's "preferred method of being audited".
 9. 🔴 A Twice-Born the crew helped sends thanks with no return address. +1 to the next Subway Consort roll.
@@ -63,7 +63,7 @@ date: 2026-11-20
 12. Consequence sleeps on one PC's sheet. That PC tells one memory of the job: a free Train (playbook), once per season.
 
 ## 4. Ministry bureaucracy gags
-*Form numbers only go up: these continue the series after 47-B, 88-D and 91-C.*
+*Form numbers only go up. The forms below (104-F, 117-C, 129-M) are **early-campaign gags (S1–S5)**; after S5 take the next free number above the last one used (`00-Canon/Running-Gags-and-Forms-Register.md`). Read **one gag per beat**, then ⏸ REACTION STOP and let the table answer before the next.*
 1. SAY (Greta — not looking up): "Form 104-F. 'Entity Declined to Be Contained.' There is a box for 'politely'."
 2. SAY (Greta — pen poised): "Did the incident occur indoors, outdoors, or 'both, regrettably'?"
 3. SAY (Fitch Ambrose — apologetic): "Your stake is approved. Wood is back-ordered. Would you accept a ruler?"
@@ -87,7 +87,7 @@ date: 2026-11-20
 6. **They befriend the target.** Good. Offer the Anchor choice early; Greta has a "Documented Relocation" form at half pay.
 7. **They split up.** Cut between them each beat; rejoin via the Turnstile table.
 8. **They chase a minor NPC all night.** That NPC overheard one of tonight's prep clues, and becomes the doorway.
-9. **They take the Apex buyout early.** Run it: Kip becomes their handler and envelopes arrive on Apex letterhead. It is a valid path (check the Express Kit end states).
+9. **They take the Apex buyout early.** *(Only once Apex has actually made the offer, S12+; before that, Stalls Holdings' "investment opportunity" (S3–S7) is the offer.)* Run it: Kip becomes their handler and envelopes arrive on Apex letterhead. It is a valid path (check the Express Kit end states).
 10. **They tell a civilian everything.** Winnie or Prudence hears it. ❓ ASK THE TABLE: "Do you want this to stick? The Ministry will hear." ⏸ REACTION STOP. If yes, Decay +1 at the next faction turn (Season 1: never above 3; above that, Heat +2 instead).
 
 ## 6. Cover-story twists

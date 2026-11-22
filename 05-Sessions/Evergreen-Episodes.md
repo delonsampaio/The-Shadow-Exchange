@@ -16,7 +16,12 @@ purpose: "What to run when there is no prep: arc-independent episodes and the no
 | **Episode 8: The Neighbor's Generator** (Overhang) | 🟢🟡 | Human problem, no canon NPC needed |
 | **Urban Legend 5: The Empty Apartment** / **7: The Night Porter** | 🔵 | `10-Generators/Urban-Legends.md`, no arc dependency |
 | **Urban Legend 10: The Meridian Complaint** | 🟡 | Unassigned lead |
+| **Episode 6: The Grief-Hound Funeral** (Old City) | 🔵 | Cemetery job; skip the C&C envelope plant (it is a spine thread) |
+| **Urban Legend 6: The Dog-Route Corner** | 🟡 | Standalone mystery; hold the Omen 3 route change |
 | **The no-prep score** | any | `10-Generators/Improv-Kit.md` §7: target, where, complication, twist, choice, out in ~90 minutes |
+
+## Never use as an evergreen night
+Anything that plants or pays off a spine thread: the Understudied/Thorne, the Architect, the lease, PTOLEMY's dated ledger, Aldric's silence, the Yellow Line, Kress's role, Stalls = Apex, the Mimic reveal. Also never an Anchor-choice night for a canon NPC (Merton, Emmerich, Mabel) unless the arc already ran it.
 
 ## Running it
 1. Open with the contract card within ten minutes (use a rumour from Improv Kit §2).

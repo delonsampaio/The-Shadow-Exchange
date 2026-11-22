@@ -11,17 +11,17 @@ A **long-term project** is a clock the crew fills with a downtime action each ti
 | Project | Clock | What finishing it gets you |
 |---|---|---|
 | **Research your Heirloom** (one PC) | 6 | A clue to what it is becoming; a stage warning before it advances |
-| **Recruit or train a cohort** | 4 | A new Thug/Expert cohort (SRD: cohorts need two upgrades to be Elite) |
-| **Build a Workshop item** | 6 | A tool or Biological preservation upgrade (the lair's cap is 4 Coin per upgrade) |
+| **Recruit or train a cohort** | 4 | A new Thug/Expert cohort (finishing the clock fields the cohort **and** takes the SRD's two crew-upgrade slots; a third Elite upgrade is separate) |
+| **Build a Workshop item** | 6 | A tool or Biological preservation upgrade (upgrade cost per the SRD crew-upgrade rules; the lair's tier sets how many fit) |
 | **Forge a cover identity** | 4 | A clean second name; −1 Heat from one score |
 | **Befriend a Twice-Born** | 6 | +1 Twice-Born Favor and a reliable contact |
-| **Chase the red-ink journal entry** | 8 | The next page of the entry; a lead toward the Understudied's true name |
+| **Chase the red-ink journal entry** | 8 | The next red-ink page of the entry; a clue to *who wrote it* (🔒 GM ONLY: grants the Architect +1 clue segment, never a name) |
 | **Map an Away Job** | 4 | Controlled position on the next out-of-town score |
 | **Fix the lair** (a leak, a lock, a wall) | 4 | A comic problem resolved; Tier/Quality bonus where the fiction fits |
-| **Pay the Ministry audit down** | 6 | Slows the Ministry Audit clock by one segment |
+| **Pay the Ministry audit down** *(S4+ only; the Audit clock is GM-secret before S4)* | 6 | Slows the Ministry Audit clock by one segment |
 | **Write the season's lore** (a long-term research project into a creature type) | 8 | A rule: a "free" Holy Weakness hint on the next monster of that kind |
 
-**Reduce Heat** and **Recover** work as in the book. Per-faction ways to reduce Heat: the Ministry (a favour for Greta), Apex (a bribe of Coin), rival firms (a Sway job for them), the Underground (a debt to Harlan). Vice purveyors per district will come from the world-atlas pass (`docs/review/Gemini-World-Atlas-Ideas-Prompt.md`).
+**Reduce Heat** and **Recover** work as in the book. Per-faction ways to reduce Heat: the Ministry (a favour for Greta), Apex (a bribe of Coin), rival firms (a Sway job for them), the Underground (a debt to Harlan). Vice purveyors per district: `04-Locations/Venues-Bank.md` §2. Two extra Vice-flavoured options: **Subway Visit** (only if the Subway has called; GM-gated, never before its scheduled session) and **The Ritual** (a crew-wide Weird vice beat, GM-offered).
 
 ---
 
@@ -36,7 +36,7 @@ A **long-term project** is a clock the crew fills with a downtime action each ti
 6. **Acquire Asset (`Pulse Electronics`, Meridian):** PC 1 haggles over RF parts while PC 2 chats up off-shift Rhys Okonedo; Rhys slips a sticky note of Apex drone battery dead-zones into the soldering-iron box *(MA2/MA3 asset)*.
 7. **Reduce Heat (`The Watch Shed`, Overhang):** All three bring hot pastries to Prudence Abernathy-Kask; while she proudly shows off her Suspicious Activity Log to clear their van, they spot three timestamps for an unmarked white Apex van outside Abel Mwangi's crossing *(MA5 / S27 seed)*.
 8. **Long-Term Project (`Meridian Deeds & Zoning Annex`, Meridian):** Tracing Stalls Holdings takes two PCs on microfiche while PC 3 pulls Curios & Chronicles' deed out of curiosity — and gets back a chilling `FILE PULLED — ARCHIVE HOLD` slip *(S24 plant)*.
-9. **Recover (`Helios Wellness`, Meridian):** While PC 1 gets an IV drip and bruises taped, Teddy Vasquez-Lim bursts in filming a "post-gym glow" clip and accidentally complains about "our new 40% corporate overlords" *(MA5 lead)*.
+9. **Recover (`Helios Wellness`, Meridian):** While PC 1 gets an IV drip and bruises taped, Teddy Vasquez-Lim bursts in filming a "post-gym glow" clip and accidentally films a corner of the clinic wall where somebody's very corporate-looking accounts are watching her grid *(MA5 lead, no number named)*.
 10. **Hangout / Gather Info (`The Red Curtain Diner`, Fairground):** Sharing 3 AM waffles with Bernard and Rollo Dunkirk, Rollo whispers that his foam-kernel head-cam accidentally recorded two men in windbreakers dragging a crate out of the Fairground Hotel *(UL #7 / Apex Cleaners)*.
 11. **Acquire Asset (`Kerrigan Marine Welding`, Docks):** Getting cold-iron bars cut for the bookmobile, Maeve Kerrigan tosses a scrap offcut onto the bench and complains about the "picky medical-storage client" who wanted a welded scanner cage by Friday *(S10–11 Apex black site clue)*.
 12. **Reduce Heat (`Salt Flats Wrecking`, Docks):** While Rico Delgado swaps the bookmobile's plates, PC 3 spots a half-crushed station wagon with a scraped Ministry bumper decal and Emery Vantage's business card wedged under the visor *(S8 *The Legacy* lead)*.
@@ -44,9 +44,9 @@ A **long-term project** is a clock the crew fills with a downtime action each ti
 14. **Indulge Vice — Obligation (`Overhang Community Hall`, Overhang):** Helping Winnie Achterberg haul bingo chairs, Agnes Pell leans in to ask whether the crew has noticed a quiet neighbor still leaving soup bowls outside the "gas-leak" third-floor flat *(UL #5)*.
 15. **Acquire Asset (`Quick-Ink Printing`, Fairground):** Picking up fake city-inspector passes, PC 2 spots a fresh proof stack of *The Brass Lantern Irregulars* describing a detail from their last score — with an invoice note thanking a "local college tipster" *(Mini-Arc B / Mara)*.
 16. **Recover (`Nurse Hester's Parlor`, Overhang):** Getting Resonance shock treated with peppermint tea and quiet competence, PC 1 sees a familiar surname from Harlan's Wall crossed out on Hester's private witness-remediation sheet *(Harlan / Ministry guilt thread)*.
-17. **Train (`The Foundry Gym`, Meridian):** Sparring at 5:30 AM, PC 1 notices Castellan Retrieval's hunter refuses to remove a battered signet ring even under boxing wraps — and the iron bench beside it frosts slightly *(MA5 Twice-Born hunter clue)*.
+17. **Train (`The Iron-Bell Gym`, Meridian):** Sparring at 5:30 AM, PC 1 notices Castellan Retrieval's hunter refuses to remove a battered signet ring even under boxing wraps — and the iron bench beside it frosts slightly *(MA5 Twice-Born hunter clue)*.
 18. **Acquire Asset (`Hillside Hardware & Sump-Pump`, Overhang):** Buying 100 pounds of rock salt and crowbars, Stan Petrescu shakes his head over three terraced houses on Calloway whose sumps haven't pumped a drop in a month despite the rain *(Omen symptom)*.
 19. **Gather Info (`The Roast & Ledger`, Meridian):** Drinking espresso directly under the Ministry scanner station, Mateo Rivera tips them off that the upstairs techs just ordered six triple shots and locked the stairwell — a live district sweep begins at midnight *(Countdown clock warning)*.
-20. **Indulge Vice — Weird (`Croft's Shortwave Attic`, Overhang):** Sitting in the dark while Silas Croft plays back last night's harbor static, all three PCs recognize the unmistakable voice of **Aldric Voss** warning, *"It found the frequency"* — followed by a five-second stretch of absolute dead air *(S9 / S25 foreshadow)*.
+20. **Indulge Vice — Weird (`Croft's Shortwave Attic`, Overhang):** Sitting in the dark while Silas Croft plays back last night's harbor static, all three PCs hear a half-familiar older voice warning of something in the static, followed by a five-second stretch of absolute dead air *(foreshadow only; **use Aldric's voice after S9, and the line "It found the frequency" only S24+**; before that, use an unidentified voice)*.
 
 ---

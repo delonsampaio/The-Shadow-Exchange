@@ -192,7 +192,7 @@ purpose: "40 one-session monsters and urban legends beyond the ten Urban Legends
 - **Score seed, choice, thread:**
   - **Seed:** A night watchman nearly got dragged into Culvert 12; the Ministry orders quiet erasure.
   - **Choice:** Destroy the watch to disperse him immediately (no evidence left for his widow) *or* burn the passage offering and pull the 1976 valve log to expose the cover-up (Ministry standing −1).
-  - **Thread:** The 1976 valve was shut to stop water leaking into an "unmapped lower tunnel" (Subway clue).
+  - **Thread:** The 1976 valve was shut to stop water leaking into a cavity below the culvert that the survey said was solid clay (a small wrongness; later Subway clue, never a tunnel).
 - ⚠ **Living tradition (Chinese folk religion (Ghost Festival)):** the problem is always human accountability; offerings and customs *work*; the spirit is never the punchline.
 - **Slip (Anchor Cover Rule; Gemini 2026-11-21, checked):** **Anchor kept:** resting beside his rusted toolbox on the storm-culvert lip · **Slip:** Lifting the stopped union watch from the culvert edge turns the soaked city worker's face grey and swollen with 1976 river silt as black drainwater pours steadily from his collar and cuffs. He stops asking politely for help and stands waist-deep in the rising culvert, staring down at his bare wrist with the cold stillness of an unacknowledged death. · **Speed:** minutes · **Menace:** The storm drain fills faster than the rain, turning the curb slick with mud as his freezing grip snatches any wrist or ankle nearby to claim a replacement—calmed only by burning spirit money on a dry stone at the culvert lip.
 
@@ -242,7 +242,7 @@ purpose: "40 one-session monsters and urban legends beyond the ten Urban Legends
 - **Score seed, choice, thread:**
   - **Seed:** A demolition crew fled after a "janitor" bent their crowbar in half; Ministry wants it pulverized.
   - **Choice:** Deactivate it quietly and bury the clay in consecrated river earth (developer tears down the building) *or* transfer the *shem* to protect the neighboring tenant co-op (Kress logs an Audit tick).
-  - **Thread:** The 1973 scholar's margins mention "dry tracks beneath the river clay" (Subway history).
+  - **Thread:** The 1973 scholar's margins mention "a dry, perfectly straight seam beneath the river clay where no water ever sits" (later Subway clue).
 - ⚠ **Living tradition (Jewish):** the problem is always human accountability; offerings and customs *work*; the spirit is never the punchline.
 - **Slip (Anchor Cover Rule; Gemini 2026-11-21, checked):** **Anchor kept:** tucked inside the cracked mortar collar of its coveralls · **Slip:** Stripped of its maintenance-worker tether, the hulking janitor's coveralls split down the seams as wet river clay sloughs off its shoulders, revealing the unadorned 1973 protector underneath—silent, heavy, and cracking deeper with each step as degraded instructions drive it to seal every stair and doorway of the condemned walk-up. · **Speed:** 1d6 hours · **Menace:** Seven hundred pounds of cracking, unstable river clay bends steel and crushes load-bearing stairwells to bar all passage until deactivated with reverence by wiping the first letter of its forehead inscription (*emet* → *met*) with a damp cloth.
 - ⚠ **Cover Anchor (adopted):** the original Anchor is a poor fit for the rule; use **the condemned walk-up's 1973 brass superintendent key ring (or a mortar trowel in its coat pocket); the *shem* stays sacred as its animating core** as the cover Anchor.
@@ -326,12 +326,12 @@ purpose: "40 one-session monsters and urban legends beyond the ten Urban Legends
 - **Score seed, choice, thread:**
   - **Seed:** Apex's logistics shell is hemorrhaging cargo and blames a hostile haunt.
   - **Choice:** Cook real buttered porridge and make the firm sign an "eternal dairy addendum" (warehouse saved; consultant humiliated) *or* steal the bowl for the Ministry (the old pier falls into structural decay).
-  - **Thread:** One misrouted pallet is addressed to an unmarked Apex black site at Pier 11.
+  - **Thread:** One misrouted pallet is addressed to an unmarked Apex warehouse annex at Pier 11.
 - **Slip (Anchor Cover Rule; Gemini 2026-11-21, checked):** **Anchor kept:** set on an oak beam high above the old Docks stable-bay rafters · **Slip:** Taking the chipped blue-enamel porridge bowl snaps his hidden-sabotage cover on the spot—the automated warehouse aisles go dark and a knee-high, white-bearded guardian in a worn grey wool cap steps out between the pallets, eyes bright with the cold wrath of a century's care scorned. · **Speed:** instant · **Menace:** Exercising the strength of ten men openly, he hurls three-ton pallet jacks and steel racking down pitch-dark aisles with lethal precision until appeased with warm rice porridge topped with real salted butter.
 
-### #19 The Wager-Goblin of Pier 6
+### #19 The Wager-Goblin of the Brass-Bell Boxing Club
 **Origin:** *Dokkaebi* (Korean folklore) · [source](https://en.wikipedia.org/wiki/Dokkaebi) · ☑ link live; the core folklore matches, but weaknesses/Anchors/details marked in the entry are **our table's adaptations, not folklore**
-**Where/dread:** **The Fairground District** · comic · **Flex pool**
+**Where/dread:** **The Fairground District** · comic · **Flex pool** · *(its own Fairground boxing club; not the Meridian Iron-Bell Gym, Venues-Bank #24)*
 - **Three Layers:**
   - **Appears:** Towering blue-lit silhouette blocking a Fairground boxing/wrestling gym after midnight, challenging stray patrons to *ssireum* (belt-wrestling) for bundles of real cash.
   - **Is:** Capricious Twice-Born spirit born from a century-old sweat-stained gym broom—capable of flipping a delivery van onto a roof if cheated. **Anchor:** Split oak broom wrapped in brass wire. **Weakness:** Buckwheat jelly (*memil-muk*) and an honest bout; silver coins insult him.
@@ -376,7 +376,7 @@ purpose: "40 one-session monsters and urban legends beyond the ten Urban Legends
 - **Score seed, choice, thread:**
   - **Seed:** A Meridian brokerage bought the townhouse and its security team ran out after the walls recited their passwords.
   - **Choice:** Snare and hand it to the Ministry (silences a leak; kills a lonely voice) *or* move the biscuit tin into C&C's bookshop walls (no Coin; now the crew has a snarky, occasionally useful house-pest).
-  - **Thread:** It overheard two Apex operatives mentioning "the red-ink ledger at Line 0."
+  - **Thread:** It overheard two Apex operatives arguing over "the red-ink ledger" (a Mimic/Understudied clue; never name Line 0 here).
 - **Slip (Anchor Cover Rule; Gemini 2026-11-21, checked):** **Anchor kept:** wedged inside the brick townhouse's narrow chimney flue · **Slip:** Pulling the 1931 biscuit tin from the flue kills the cheeky disembodied-voice act—every light shorts out at once, plaster splits along the laths, and a lean, wide-eyed, razor-clawed burrower scrambles out of the dark wall whispering the crew's real addresses in desperate fear of the empty house falling silent. · **Speed:** minutes · **Menace:** Stripped live electrical wiring arcs across the floorboards while the cornered burrower strikes from blind wall-holes at lethal speed until caught in an aniseed-baited brass snare or bound by a written silence pact.
 
 ### #22 The Scrap-Metal Devourer
@@ -426,7 +426,7 @@ purpose: "40 one-session monsters and urban legends beyond the ten Urban Legends
 - **Score seed, choice, thread:**
   - **Seed:** Three VIPs went missing for six hours and returned covered in marsh mud and blackberry stains.
   - **Choice:** Unbolt the bridle buckle to ground him (ends the threat; removes the Fairground's only ride who protects stranded night-shift workers) *or* broker a curfew pact via Harlan (Ministry docks pay).
-  - **Thread:** One passenger swears the car briefly drove beside an elevated track that dipped *underground*.
+  - **Thread:** One passenger swears the car briefly drove beside a long line of pale lamps that sank below street level and kept going down.
 - **Slip (Anchor Cover Rule; Gemini 2026-11-21, checked):** **Anchor kept:** bolted beneath the vintage towncar's steering column · **Slip:** Unbolting the silver-plated bridle buckle rips the spotless black 1920s towncar cover apart on the spot—glossy paint ripples into wet, steaming horsehide, the grille parts into teeth, and the headlights flare into pale eyes as the narrow Fairground alley drops away into marsh fog and open cloud. · **Speed:** instant · **Menace:** Doors lock tight and the bucking, shapeshifting ride tears across rooftops at ninety miles an hour, threatening to pitch arrogant riders into freezing marsh ditches unless checked by iron spurs or unbroken courtesy until dawn.
 
 ### #25 The Inside-Out Alley
@@ -504,7 +504,7 @@ purpose: "40 one-session monsters and urban legends beyond the ten Urban Legends
   - **Became:** An incorruptible coroner died mid-inquest into Ministry cover-ups and refuses burial until someone judges the crime fairly.
 - **Scare / comedy:**
   - **Scare:** Heavy footsteps pace upside-down along the cold-room ceiling ducts while a calm voice asks a question that cuts straight to a PC's worst secret.
-  - **Comedy:** The crew has to carry a loudly opinionated, riddle-spinning body across four Old City blocks while **not saying a single word**—forcing frantic silent charades when Officer Bram stops them to chat.
+  - **Comedy:** The crew has to carry a loudly opinionated, riddle-spinning body across four Old City blocks while **not saying a single word**—forcing frantic silent charades when a chatty beat cop stops them to ask about the weather.
 - **Score seed, choice, thread:**
   - **Seed:** The Ministry desperately needs the corpse transferred before Apex steals the autopsy files.
   - **Choice:** Gag the Echo by pulling the copper coin (buries the coroner's evidence forever) *or* answer its riddle truthfully at the canal bridge (frees the spirit, exposes a Deputy Director's old cover-up).
@@ -583,7 +583,7 @@ purpose: "40 one-session monsters and urban legends beyond the ten Urban Legends
 **Origin:** *Polybius* (American urban legend, ~2000) · [source](https://en.wikipedia.org/wiki/Polybius_(urban_legend)) · ☑ link live; the core folklore matches, but weaknesses/Anchors/details marked in the entry are **our table's adaptations, not folklore**
 **Where/dread:** **The Fairground District** · mystery · **Suggested:** Season 2, pick 8 · *Mixed*
 - **Three Layers:**
-  - **Appears:** Unmarked matte-black 1981 vector-graphics arcade cabinet rolled into a Fairground bowling alley overnight, giving high-score players amnesia, nosebleeds, and identical dreams of an underground station.
+  - **Appears:** Unmarked matte-black 1981 vector-graphics arcade cabinet rolled into a Fairground bowling alley overnight, giving high-score players amnesia, nosebleeds, and identical dreams of an empty tiled waiting room with one lit door. *(Quarter-Drop Arcade's LINE 0 screen (Omen 3+, Season 1) comes first; the Black Cabinet (Season 2) must not reuse the LINE 0 image in the same arc.)*
   - **Is:** Experimental Resonance-harvesting Echo trapped inside custom circuit boards. **Anchor:** Unlabeled EPROM chip soldered to the coin-counter. **Weakness:** Unplugging does nothing—inserting a copper-washed slug while grounding the frame to a cold-water pipe kills the screen.
   - **Became:** A 1981 Ministry researcher built a covert test rig to screen civilians for Resonance sensitivity, died mid-project, and his machine kept dialing home.
 - **Scare / comedy:**
@@ -668,7 +668,7 @@ purpose: "40 one-session monsters and urban legends beyond the ten Urban Legends
 **Where/dread:** **The Overhang** · comic · **Suggested:** Season 1, pick 10 · *Funny*
 - **Three Layers:**
   - **Appears:** Overly polite pairs of pale strangers in identical beige raincoats knocking on Overhang doors with badges from "Municipal Occupancy Verification," asking which bedroom gets coldest at night—and vanishing if a neighbor steps out.
-  - **Is:** Mimic-hive reconnaissance Echo mimicking Ministry audit procedures to map hidden Twice-Born apartments. **Anchor:** Self-filling carbon-copy clipboard carried by the lead inspector. **Weakness:** Demanding their Form 0-A supervisor countersignature breaks their script and forces their ink-stained hollow faces to crack.
+  - **Is:** Reconnaissance Echoes shed by the Mimic (one entity, many fragments; GM-only) mimicking Ministry audit procedures to map hidden Twice-Born apartments. **Anchor:** Self-filling carbon-copy clipboard carried by the lead inspector. **Weakness:** Demanding their Form 0-A supervisor countersignature breaks their script and forces their ink-stained hollow faces to crack.
   - **Became:** A burned-out Ministry census clerk's discarded audit binder soaked up Mimic Resonance and started running door-to-door sweeps on autopilot.
 - **Scare / comedy:**
   - **Scare:** They smile too wide in the porch light, write down the exact time you woke up this morning without asking, and step backward into a stairwell that doesn't have enough steps.
@@ -677,7 +677,7 @@ purpose: "40 one-session monsters and urban legends beyond the ten Urban Legends
   - **Seed:** Three Twice-Born families in the Overhang packed bags in panic after "Ministry auditors" visited unannounced.
   - **Choice:** Burn the self-filling clipboard (saves the families; loses proof of who leaked the census list) *or* hand the clipboard to Greta (Greta traces the leak to Kress's desk, but now the Ministry holds the addresses).
   - **Thread:** The carbon-copy list includes Curios & Chronicles with a handwritten note: `CHECK CELLAR RUNES`.
-- **Slip (Anchor Cover Rule; Gemini 2026-11-21, checked):** **Anchor kept:** clutched against the chest of the lead Overhang beige-raincoat inspector · **Slip:** Snatching the self-filling carbon-copy clipboard shatters their overly polite "Municipal Occupancy Verification" cover at once—their too-wide smiles slide sideways off hollow, paper-thin faces, wet blue carbon ink runs from their mouths, and they step backward in unison into stairwells that lack enough steps. · **Speed:** instant · **Menace:** Stripped of bureaucratic script, the Mimic-hive scrambles hallway door numbers to trap witnesses and lunges with cold, ink-stained hands for anyone holding the census list unless shattered by demanding their Form 0-A supervisor countersignature.
+- **Slip (Anchor Cover Rule; Gemini 2026-11-21, checked):** **Anchor kept:** clutched against the chest of the lead Overhang beige-raincoat inspector · **Slip:** Snatching the self-filling carbon-copy clipboard shatters their overly polite "Municipal Occupancy Verification" cover at once—their too-wide smiles slide sideways off hollow, paper-thin faces, wet blue carbon ink runs from their mouths, and they step backward in unison into stairwells that lack enough steps. · **Speed:** instant · **Menace:** Stripped of bureaucratic script, the Mimic-fragment scrambles hallway door numbers to trap witnesses and lunges with cold, ink-stained hands for anyone holding the census list unless shattered by demanding their Form 0-A supervisor countersignature.
 
 ### #40 The Passport From Nowhere
 **Origin:** *The Man from Taured / John Zegrus* (Modern urban legend, 1954/1960) · [source](https://en.wikipedia.org/wiki/John_Zegrus) · ✅ page supports the core folklore and the claims made on it
@@ -691,7 +691,7 @@ purpose: "40 one-session monsters and urban legends beyond the ten Urban Legends
   - **Comedy:** Port Authority, Ministry Oversight, and Apex Aegis spend two hours screaming about jurisdiction and calling nonexistent embassies while the prisoner politely critiques their coffee—then steps straight through a solid brick wall the instant nobody looks.
 - **Score seed, choice, thread:**
   - **Seed:** A locked-room escape at Pier 3 ferry terminal left three federal guards swearing the wall blinked.
-  - **Choice:** Stamp his passport with iron-gall ink and hand him to Vance (closes the spatial crack; puts a harmless refugee in an Apex-adjacent black site) *or* forge him real city papers via the Fence and confiscate the brass stamp (Costs 2 Coin; gains a master smuggler contact).
+  - **Choice:** Stamp his passport with iron-gall ink and hand him to Apex Aegis (closes the spatial crack; puts a harmless refugee in an Apex holding cell) *or* forge him real city papers via the Fence and confiscate the brass stamp (Costs 2 Coin; gains a master smuggler contact).
   - **Thread:** His passport's earliest entry stamp is dated `LINE 0 — ARRIVAL ONLY`.
 - **Slip (Anchor Cover Rule; Gemini 2026-11-21, checked):** **Anchor kept:** tucked inside the inner breast pocket of his impeccably tailored suit · **Slip:** Separating him from the heavy brass customs stamp dissolves his crisp, exasperated diplomat cover—his tailored suit frays into rain-soaked 1954 refugee wool, his fluent legalese fractures into overlapping border-checkpoint static, and his outline smears sideways through solid masonry like double-exposed film. · **Speed:** 1d6 hours · **Menace:** Unanchored spatial cracks ripple through Docks customs booths and locked cells—spinning every wristwatch steadily backward and tearing walls open onto silent dark corridors until wet iron-gall ink stamps his passport and pins him to local geography until sunset.
 

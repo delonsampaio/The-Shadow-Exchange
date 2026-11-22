@@ -39,12 +39,12 @@ The v5 bible kept the axioms but dropped working mechanics that other files stil
 |---|---|---|
 | Sessions 1–3 | **Detection** (4) | The only clock the crew sees |
 | Session 4 | **Biological Spoilage** (3) | Their first Biological starts to rot between sessions |
-| Session 6 | **Subway Decay** (6) | They walk in and see it inked on the transit map |
+| Session 6 | **Subway Decay** (6; **capped at 3 through Season 1**) | They walk in and see it inked on the transit map |
 | Mid-game | **Tragedy** (4, secret) | Only if the Monkey's Paw is used |
 | From S2 | **Omen** (8, secret) | Symptoms only (see `Active-Clocks.md`) |
 | Late | **Crossroads Cost** | Arrives as a consequence, never as a system |
 
-*Exception:* the **Ministry Audit** (4) can appear as soon as Double Bookkeeping fails — explain it as a consequence, not a rule.
+*Exception:* the **Ministry Audit** (4) ticks silently as soon as Double Bookkeeping fails but is **GM-secret until S4**; from S4 explain it as a consequence, not a rule.
 
 ## Away Job Rules
 Out of town, no lair access: Detection Clock **3** segments; Spoilage ticks **twice** per scene; **Load −2**; **no Subway access**; **Harlan's Bonus** on completion (extra Coin + Hunter Underground rep).

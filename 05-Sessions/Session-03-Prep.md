@@ -59,7 +59,7 @@ mechanical_focus: "TEACH: Entanglements, Acquire Assets, Push Yourself. REINFORC
 ### Session 2 Fallout Checklist
 *AI: Review the recap or Campaign-Current-State.md before starting this scene.*
 * [ ] **Emmerich Check:** If the crew **seized the [Item: Silver Thimble]**, check whether Emmerich unraveled. If he did, **[Faction: The Twice-Born]** has noted it. Cosma Linden does not appear this session but has sent a message — a single folded card under the bookshop door: *"We noted the choice. We always do."*
-* [ ] **Audit Check:** If **[Clock: The Ministry Audit]** is active, Greta Fenn arrives before the briefing with Form 44-C (Ongoing Premises Review). She needs three signatures. She has a follow-up question about the square footage from her last visit.
+* [ ] **Audit Check (🔒 GM ONLY):** if the Audit clock has ticked, change nothing on screen and say nothing; Greta visits only with her follow-up question about the square footage from her last visit. **Form 44-C (Ongoing Premises Review, three signatures) waits for S4.**
 * [ ] **Omen Check:** The bookshop clock has been running four minutes slow every morning since Session 2. If any PC noticed it, they have been tracking it. It has not corrected.
 
 ### GM / AI Core Directives
@@ -147,7 +147,7 @@ mechanical_focus: "TEACH: Entanglements, Acquire Assets, Push Yourself. REINFORC
 > → **1–3 (Gang Trouble / The Usual Suspects):** 🔊 **READ ALOUD** "A Ministry sub-contractor has heard about your crew and wants a referral fee. They are polite. The paperwork will take weeks."
 > → **4–5 (Rivals / Unquiet Dead):** 🔊 **READ ALOUD** "An Apex Aegis officer stops by the shop. Not about anything specific. Just questions. They have a clipboard."
 > → **6 (Cooperation):** 🔊 **READ ALOUD** "A quiet night: nobody comes calling." *(With no +3 faction, no entanglement.)*
-> 🔒 **GM ONLY:** tick **[Clock: The Ministry Audit]** one segment **behind the screen** only on a **Ministry** entanglement (Usual Suspects, Questioning, Interrogation, Arrest). It is GM-secret until S4: never on the TV, never explained.
+> 🔒 **GM ONLY:** tick **[Clock: The Ministry Audit]** one segment **behind the screen** only on a **Ministry** entanglement (Usual Suspects, Questioning, Interrogation, Arrest, or Show of Force by a Ministry sweep). It is GM-secret until S4: never on the TV, never explained.
 > 🔒 **GM ONLY:** **Heat** is what the players see; at Heat 9 the crew gains +1 **Wanted** level and Heat clears (SRD; see `00-Canon/House-Rules.md`). The GM never rolls against the players — the only GM dice are the Entanglement and fortune rolls.
 
 ---

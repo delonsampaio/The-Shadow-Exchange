@@ -42,6 +42,7 @@ Clock notation: `[ ◌ ]` empty, `[ ● ]` filled.
 ### [Clock: The Subway Decay] [6-Segment]
 * **Progress:** `[ ◌ ◌ ◌ ◌ ◌ ◌ ]` (0/6)
 * **Trigger:** Mimic activity, mundane exposure events, and Resonance leaks the crew fails to contain.
+* **Season 1 cap:** **Decay never exceeds 3 in Season 1** (first Decay 4 ≈ S41). The S15 truce suspends the license instead of ticking Decay; the S28 overload holds Decay at 3 and costs Twice-Born Favor −1.
 * **Milestones:**
     * **At 4 Segments:** Merchants pack up. Twice-Born flee. Apex Aegis intel triangulates.
     * **Full Effect (6 Segments):** The cover-up collapses. Campaign endgame.
@@ -62,6 +63,7 @@ Clock notation: `[ ◌ ]` empty, `[ ● ]` filled.
 ## Faction & Consequence Clocks
 
 ### [Clock: The Ministry Audit] [4-Segment]
+* **Visibility:** 🔒 **GM-secret until S4.** Tick it silently before then; the players first see it (and Form 44-C appears) at S4 or later.
 * **Progress:** `[ ◌ ◌ ◌ ◌ ]` (0/4)
 * **Trigger:** **Double Bookkeeping** (Sway): a 4–5 ticks it 1 and the crew keeps the item; a 1–3 ticks it 1 *and* the item must be surrendered. Entanglements may also tick it. 
 * **Full Effect:** A Ministry inspector locks down Curios & Chronicles. The Vault and Cold Storage are inaccessible until a massive bribe is paid.

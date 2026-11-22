@@ -1,6 +1,6 @@
 ---
-entity_type: Draft_Catalog
-status: DRAFT for GM review (2026-11-20)
+entity_type: Retired_Draft
+status: RETIRED 2026-11-21 (superseded by 04-Locations/Venues-Bank.md, Gazetteer.md and 11-Visuals/Living-Map.md; its ten unplaced map pins were moved to the Living-Map placement plan). Do not use: it still says 'one elevated train' and 'dry corridors below the water table'.
 gm_secret: true
 purpose: "Every place by district: what it is, who is there, which sessions use it, its secret, image/music status, map status, a scene seed."
 ---

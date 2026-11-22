@@ -40,7 +40,8 @@ Updated 2026-11-20. Anything I recommend that only you can do (generate an image
 - [ ] **Opus beat-by-beat audit of Sessions 0–3** (plan and ready prompt: `docs/review/Opus-Beat-Audit-Plan.md`; run after the Session 1 mock; GM approves the cost first).
 - [ ] **Regression check** of the fixed Sessions 0–3 — `docs/review/Gemini-Regression-Check-Prompt.md` (drafted 2026-11-21; run it next).
 - [x] **Bestiary slips** (the Anchor Cover Rule for all 40 entries): run 2026-11-21 and applied to `10-Generators/Bestiary.md`; raw result in `docs/review/Gemini-Bestiary-Slips-Raw-2026-11-21.txt`.
-- [ ] A cross-check of the Opus content bank in `docs/review/draft-content/` once it is triaged.
+- [ ] **Content-bank cross-check** (NPC bench, Improv Kit, Venues Bank, Gazetteer, Bestiary, Zoltar deck, procedures, and the five draft catalogs) — `docs/review/Gemini-Content-Bank-Cross-Check-Prompt.md` (drafted 2026-11-21; run it next).
+- [ ] **Opus (or higher) re-audit of the files changed since the beat audit** (verify the ~100 fixes did not break anything): run after the content-bank cross-check; no per-token cost (monthly plan).
 
 ## Decisions waiting on you
 - [ ] Review the draft content in `docs/review/draft-content/` when the Opus agents finish (NPC bench, improv kit, gaps and rules, catalogs).

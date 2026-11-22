@@ -31,17 +31,17 @@ last_updated: 2026-11-20
 | Director Vance | Active/Director-Vance.md | HINGE (S19+) | N | S19 | |
 | The Fence | Active/The-Fence.md | CAN | N | S2 | Standby: Yardley Pike |
 | The Whisperer | Active/The-Whisperer.md | CAN | N | S2 | |
-| Subway Regulars (Dev, Officer Bram, Quill, Wim …) | Active/Subway-Regulars.md | Dev CAN; Bram HINGE (Decay 5+) | N | S2 | Dev standby: Marigold Oyelaran |
+| Subway Regulars (Dev, Officer Bram, Quill, Wim …) | Active/Subway-Regulars.md | Dev CAN; Bram HINGE (Decay 5+) | N | S3+ (second visit; never on the S2 first visit) | Dev standby: Marigold Oyelaran |
 | Aldric Voss | Twice-Born/Aldric-Voss.md | CAN (silent at Omen 4) | N | S9 contact | |
 | Cosma Linden | Twice-Born/Cosma-Linden.md | HINGE (S24+) | N | S2 | |
-| Senna Calder | Twice-Born/Senna-Calder.md | CAN (S9+) | N | S6 | |
-| Section Chief Kress | GM-Private/Section-Chief-Kress.md | HINGE (S28) | N | S7 name | 🔒 |
+| Senna Calder | Twice-Born/Senna-Calder.md | CAN (S9+) | N | S9+ | |
+| Section Chief Kress | GM-Private/Section-Chief-Kress.md | HINGE (S28) | N | S3–S4 name only | 🔒 |
 | The Architect | GM-Private/The-Architect.md | PROT | N | — | 🔒 never read aloud |
 | The Casting Mask | GM-Private/The-Casting-Mask.md | PROT | N | — | 🔒 |
 | Mara (the Innocent Civilian) | GM-Private/The-Innocent-Civilian.md | ALIVE | glimpse S1 | S1 | 🔒 Corruption Clock from Stage 4 |
 
 ## Planned (no file yet; see Season-1-Plan §4)
-Emery Vantage (dead by S10–11) · Dasha Lowe (MA2) · Artie Bell (S10–11, Twice-Born, Anchor: laminated bus drawing) · Henrik Dane (S16) · Soren Kade (Rival Hunter, S16) · Callum Oates (Mini-Arc C) · Nadia Kestrel (Mini-Arc E) · Valerie Crane (Season 2) · Tamsin Solano · Corvin Pryce (files, S17).
+Emery Vantage (dead by S10–11) · Dasha Lowe (MA2) · Artie Bell (S10–11, Twice-Born, Anchor: laminated bus drawing) · Henrik Dane (S16) · Soren Kade (Rival Hunter, S16) · Callum Oates (Mini-Arc C) · Nadia Kestrel (Mini-Arc E) · Barnaby Finch (see Season-1-Plan) · the Castellans (Castellan Retrieval, rival hunters; MA5) · Councilman Pruitt (Gerald's owner, nominal; S1 offscreen) · the Harrow Patriarch (HINGE S23; selling hunting records to Apex) · Valerie Crane (Season 2) · Tamsin Solano · Corvin Pryce (files, S17).
 
 ## The bench (30, unused, in `03-NPCs/NPC-Bench.md`)
 Penhallow · Marisol Quintero · Rev. Josiah Kemble (S6 door) · Teddy Vasquez-Lim · Céleste Varga · Saoirse Dunmore · Rollo Dunkirk · Jasper Wilde · **Mercy Adeyemi** (Harlan standby) · Roz Tuttle · Tomasz Wrona · Dr. Femi Oduya · **Yardley Pike** (Fence standby) · Prudence Abernathy-Kask · Abel Mwangi · Agathe Tull · **Winnie Achterberg** (Agnes standby) · Fitch Ambrose · **Hester Lyle** (Reyes standby, ally role) · Lionel Sparrowe · Oswin Tabor · **Kip Hollander** (Stalls standby) · Dr. Imogen Halse · Holt Brannigan · Rhys Okonedo · Delphine Arkwright · Pim Halvard · Ysolde Marr · Mr. Saltonstall · **Marigold Oyelaran** (Dev standby).

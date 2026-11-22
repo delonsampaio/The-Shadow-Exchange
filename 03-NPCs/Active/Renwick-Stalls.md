@@ -4,7 +4,7 @@ status: active
 classification: GM-PRIVATE (Apex front)
 first_seen: Session 3 (via a man in a new coat; phone only)
 faction: Apex Aegis (shell: Stalls Holdings LLC)
-role: the "would've gotten away with it" villain of the Session 3–4 arc
+role: the "would've gotten away with it" villain of the Session 3–7 Paper Pipeline arc (phone only S3; unmasked S4; binder and Kress's letterhead S7; CAN DIE / LEAVE after S7)
 ---
 
 # Renwick Stalls — Property Developer
@@ -18,7 +18,7 @@ role: the "would've gotten away with it" villain of the Session 3–4 arc
 Stalls Holdings is an Apex shell that buys property where a **Resonance anomaly** is "hindering development," has the Ministry clear the anomaly (via a legitimate-looking Form 88-D), and flips the cleared parcel to Apex. The **two extra pages** on his version of Form 88-D are an assignment of proceeds.
 
 ## 🎭 The Scooby Villain
-When the crew eventually confronts him (Session 4), play it as a classic unmasking: he panics, throws a (small, ineffective) tantrum, and says some version of *"I would have gotten away with it if it weren't for you meddling hunters!"* — and **means it sincerely.** Then, quieter: he's terrified of the people above him. That gives the crew a choice.
+**Timeline:** S3 phone-only contract (Form 88-D, two extra pages) → **S4** unmasking and tantrum (he is a patsy, not the top) → S5–6 he is pressed or hides → **S7** *The Shell Game*: his binder carries Kress's letterhead and the C&C appraisal marked "LEASEHOLDER UNVERIFIABLE — HOLD"; the crew chooses his fate. When the crew confronts him (Session 4), play it as a classic unmasking: he panics, throws a (small, ineffective) tantrum, and says some version of *"I would have gotten away with it if it weren't for you meddling hunters!"* — and **means it sincerely.** Then, quieter: he's terrified of the people above him. That gives the crew a choice.
 
 ## Voice
 - "It's a *wonderful* opportunity."

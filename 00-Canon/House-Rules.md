@@ -13,8 +13,8 @@ This page ranks **second** in the priority order, right after `Session-Boot.md` 
 | Rule | What we do | SRD says |
 |---|---|---|
 | Crew start | **Weak hold, 0 Coin** | Strong hold, 2 Coin |
-| **Heat and Wanted** | **We use the SRD exactly.** Heat is the track the players see. At **Heat 9** the crew gains **+1 Wanted level** and Heat **clears** (excess rolls over). Wanted level is on the crew sheet (`wanted:`) and sets which Entanglement column is used. *(An older Session 3 note said Heat replaced Wanted; that was wrong and is removed.)* | same |
-| XP | Skipped in Sessions 0–3 (the Teaching Ladder introduces it at S4) | every session |
+| **Heat and Wanted** | **We use the SRD exactly.** Heat is the track the players see. At **Heat 9** the crew gains **+1 Wanted level** and Heat **clears** (excess rolls over). **Wanted level sets the dice** rolled on the Entanglement roll (dice = Wanted level; **at Wanted 0 roll two dice and keep the lowest**); **Heat sets the result column** (0–3 / 4–5 / 6+). Wanted is on the crew sheet (`wanted:`). *(An older Session 3 note said Heat replaced Wanted; that was wrong and is removed.)* | same |
+| XP | End-of-session XP tally and advancement are skipped in Sessions 0–3 (the Teaching Ladder introduces them at S4); **Desperate-roll XP and Hunter-Kit/Load basics start in S1** | every session |
 | Gerald | Counts as the crew's **cohort** (a "house rule" in the same sense) | n/a |
 | Entanglement | Rolled **after every score** | every score |
 | Resistance | The Co-GM **offers it after every consequence through Session 3** ("You can resist that: want to?"); after that the players call for it themselves | player's choice |
@@ -40,6 +40,9 @@ Players roll every action and resistance roll. **The GM never rolls against the 
 
 ## D. Canon protections the Co-GM always keeps *(🔒 GM ONLY: do not copy to the players' site)*
 - No boarding a Subway train before Arc IV (one pass-by only). No digging below one storey. The Subway has no fixed address.
+- **Season 1 numbers:** Decay stays ≤ 3 (first Decay 4 ≈ S41; Omen 5 ≈ S41). The **Ministry Audit clock is GM-secret until S4** (players see nothing of it before then).
+- **Anchor Cover Rule:** every disguised entity keeps its human cover only while its Anchor is intact and present; see `10-Generators/Three-Layer-Monster.md` and the Anchor line in each Bestiary entry.
+- **Load and Kit:** Load is taught in S1 paired with Flashback (`01-Crew/Hunter-Kit.md`); anything a PC uses was shown, packed or a Flashback.
 - Protected NPCs bend, they don't break: the fiction stops the table, narrated as a consequence, never as a refusal.
 - Menace Rule: no comic sting while a real threat is on screen; monsters get no punchlines (the joke belongs to a person).
 - The GM never acts anything out; they read labelled lines.
@@ -51,4 +54,4 @@ Anything goes: gore, graphic violence, cursing, horror and grief are all fine fo
 - **Dead PC:** their Heirloom goes to the vault (or Wim, or another PC if the table wants); their photo goes on Harlan's Wall; the next PC arrives as a hunter from the Wall, a rival firm's survivor, or a Twice-Born asking for work. Friend and Rival NPCs carry over.
 - **Player leaves:** the PC retires on screen or becomes a contact or cohort. For a crew of two: one fewer Detection tick per score; re-deal the climax-anchor PC rotation. Check the Express Ending Kit's "Before the credits" scenes.
 
-*Companion procedures (written 2026-11-20):* `00-Canon/End-of-Session-Ritual.md`, `07-Clocks/Heat-and-Entanglements.md`, `02-Factions/Faction-Turn-Procedure.md`, `05-Sessions/Evergreen-Episodes.md`, `01-Crew/Downtime-Menu.md`, `10-Generators/Improv-Kit.md` (also the derailment playbook, §5). Players' version: players' site *House Rules*.
+*Companion procedures (written 2026-11-20):* `00-Canon/End-of-Session-Ritual.md`, `07-Clocks/Heat-and-Entanglements.md`, `02-Factions/Faction-Turn-Procedure.md`, `05-Sessions/Evergreen-Episodes.md`, `01-Crew/Downtime-Menu.md`, `10-Generators/Improv-Kit.md` (also the derailment playbook, §5), `10-Generators/Bestiary.md`, `04-Locations/Venues-Bank.md`, `04-Locations/Gazetteer.md`, `05-Sessions/Express-Ending-Kit.md`, `05-Sessions/Live-Ledger.md`, `00-Canon/Change-Propagation-Map.md`, `00-Canon/File-Index.md`. Players' version: players' site *House Rules*.

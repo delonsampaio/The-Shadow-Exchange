@@ -1,6 +1,6 @@
 ---
 entity_type: Review_Draft
-status: DRAFT — live-read tables for the GM and Co-GM
+status: SUPERSEDED by `10-Generators/Improv-Kit.md`; do not use
 purpose: "Roll or pick, then read: street scenes, rumours, downtime events, Ministry gags, zig recovery, cover-story twists, and a no-prep score."
 date: 2026-11-20
 ---

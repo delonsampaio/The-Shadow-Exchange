@@ -1,5 +1,5 @@
 ---
-entity_type: Review_Draft
+entity_type: NPC
 status: ADOPTED 2026-11-20 as a bench of standbys (no canon NPC has been replaced; see "Standby" tags)
 purpose: "30 drop-in NPCs: name, role, district, look, want, one SAY line, a secret or hook, and (for six) the canon NPC they stand by for."
 date: 2026-11-20
@@ -49,7 +49,7 @@ SAY (hushed, delighted): "Overdue since 1961. I've been dying to know who has it
 SAY (muffled, earnest): "I saw it. I was the kernel. Nobody listens to the kernel."
 **Layers:** a mascot / the best-placed witness on the Fairground strip / people stopped looking at him years ago, so he sees everything. **Hook:** a witness for any Fairground score. The camera in his costume head recorded something he hasn't watched yet, which is a cover-up problem.
 
-**8. Jasper Wilde** 🕷 — owner of *The Lantern Room*, one of the three Resonance-adjacent after-hours clubs. **Look:** a velvet jacket, too many rings and the smile of a man who knows the Ministry's thresholds exactly. **Wants:** to stay one notch under the scanners' alarm level.
+**8. Jasper Wilde** 🕷 — owner of *The Amber Room*, one of the three Resonance-adjacent after-hours clubs. **Look:** a velvet jacket, too many rings and the smile of a man who knows the Ministry's thresholds exactly. **Wants:** to stay one notch under the scanners' alarm level.
 SAY (smiling, a little too close): "Everybody down here's trying to feel something. I just charge at the door."
 **Layers:** a club owner / he farms Resonance bleed as "atmosphere" / he grew up poor next to a haunted building and noticed that people paid to stand near it. **Hook:** his bouncer is a Twice-Born held by debt. Freeing him earns Favor and makes an enemy of a man with Apex friends.
 

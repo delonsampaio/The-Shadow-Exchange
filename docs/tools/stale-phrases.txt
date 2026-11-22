@@ -8,3 +8,16 @@ splatter for shock :: gore is allowed (GM ruling 2026-11-20)
 monsters that are \*only\* threats :: Menace Rule replaced it
 Documented Relocation form is half price :: removed from the Entanglement table
 the Understudied.{0,30}Session 12 :: the unmasking is S15
+Wanted level is on the crew sheet \(`wanted:`\) and sets which Entanglement column :: Wanted sets the dice; Heat sets the column
+HANDWRITING IS A KIND OF FACE :: replaced in the Zoltar deck
+WRONG MASK :: no mask-pull before S16; card rewritten
+FORTY PERCENT OF EVERYTHING :: S20 leak; card rewritten
+our new 40% corporate overlords :: leaked S20; Downtime-Menu reworded
+Mimic-hive :: the Mimic is one entity (say "fragments")
+The Wager-Goblin of Pier 6 :: renamed Iron-Bell Gym
+The Foundry Gym :: renamed Iron-Bell Gym
+The Lantern Room :: renamed The Amber Room
+Clear a Wanted Clock :: Wanted is a level, not a clock
+Wanted 0 = 1 die :: SRD: at Wanted 0 roll two dice, keep the lowest
+Wager-Goblin of the Iron-Bell Gym :: renamed Brass-Bell Boxing Club (Fairground)
+Form 44-C \(Ongoing Premises Review\)\. She needs :: 44-C waits for S4 (Audit GM-secret)

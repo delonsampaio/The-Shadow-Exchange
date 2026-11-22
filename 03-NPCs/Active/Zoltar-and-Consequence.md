@@ -11,14 +11,13 @@ role: the shop's two silent characters — the running-gag engine
 **Role** — The door. And, at the end of every session, a **fortune card** that drops from the slot though the machine is unplugged.
 **Personality (🎭)** — He is *visibly disappointed* in a wrong sequence: a small sad whirr; the head turns *right.* He never speaks. He is always a little too accurate.
 
-### Fortune Card Table *(RETIRED for S4+: use `00-Canon/Zoltar-Card-Deck.md`; #7 is a Mimic hint, so strike it)*
+### Fortune Card Table *(RETIRED for S4+: use `00-Canon/Zoltar-Card-Deck.md`; #7 (a Mimic hint) has been deleted; the table is d8: reroll a 7)*
 1. *YOU WILL COME INTO A LARGE SUM. IT WILL BE MOSTLY BEETS.*
 2. *THE PERSON YOU TRUST MOST HAS A SECOND PAIR OF SHOES.*
 3. *A CAT IS WATCHING YOU. IT HAS BEEN WATCHING FOR A WHILE.*
 4. *THE DEAD HAVE SENT YOU A CASSEROLE. DO NOT ASK WHO MADE IT.*
 5. *BEWARE OF A MAN WHO OFFERS TO HELP. ALSO BEWARE OF A MAN WHO DOES NOT.*
 6. *THE TRAIN IS DELAYED. THE TRAIN IS ALSO COMING.*
-7. *SOMEONE IS WEARING YOUR FACE. THIS IS NOT ALWAYS BAD NEWS.*
 8. *YOUR LUCKY NUMBER IS 11:47. IT HAS BEEN SINCE BEFORE YOU WERE BORN.*
 
 ## Consequence — the cat

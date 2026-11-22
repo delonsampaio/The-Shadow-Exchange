@@ -37,9 +37,9 @@ Maximum 3 Favor tokens held at once. If the Subway Decay Clock advances while th
 - **Cosma Linden** — retired teacher; Anchor: a child's crayon drawing, 1951 *(distinct from "the hunted one's" laminated drawing below)*. Welcomes newcomers to the Subway. (Session 2)
 - **Aldric Voss** — retired radio technician with a Subway workshop; Anchor: a 1951 AM frequency dial. He is the AM Host. (Session 2, optional)
 - **Senna Calder** — borrower's card (Meridian Public Library, dated 1903; it came to her in 1943) Anchor Item. Has been cataloguing this city's supernatural history since the 1940s. Holds copies of thirty years of Ministry Resonance incident reports. Full file: `03-NPCs/Twice-Born/Senna-Calder.md`. Available after Subway access.
-- **The former sailor** — brass compass that always points to one alley. *(Bible NPC, not yet placed.)*
-- **The hunted one** — laminated child's drawing of a family long dead *(a different drawing from Cosma's crayon one)*. *(Bible NPC, not yet placed.)*
-- **The recent arrival** — coin from no country, hums at 3am. Behavior unclear. PTOLEMY appraisal needed. *(Bible NPC, not yet placed.)*
+- **The former sailor** — **Callum Oates** (Mini-Arc C, S9–14): brass compass that always points to one alley.
+- **The hunted one** — **Artie Bell** (Docks & Daughters, S10–11): Anchor is a laminated child's drawing of a bus full of people long dead *(a different drawing from Cosma's crayon one)*.
+- **The recent arrival** — **Nadia Kestrel** (Mini-Arc E, S17–23): coin from no country, hums at 3am. PTOLEMY appraisal needed.
 
 ## Current Favor count
 
