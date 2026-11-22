@@ -40,8 +40,14 @@ last_updated: 2026-11-20
 | The Casting Mask | GM-Private/The-Casting-Mask.md | PROT | N | — | 🔒 |
 | Mara (the Innocent Civilian) | GM-Private/The-Innocent-Civilian.md | ALIVE | glimpse S1 | S1 | 🔒 Corruption Clock from Stage 4 |
 
-## Planned (no file yet; see Season-1-Plan §4)
+## Season 1B / 2 cards (`03-NPCs/Season-1B-Cast-Cards.md`)
+Emery Vantage · Dasha Lowe · Artie Bell · Callum Oates · Valerie Crane · Henrik Dane · Soren Kade · the real Elias Thorne · Tamsin Solano · the Harrow Patriarch · the Castellans · Nadia Kestrel · Barnaby Finch: one card each (look, wants, SAY, secret, hook, status).
+
+## Planned (cards are in `Season-1B-Cast-Cards.md` except Corvin Pryce and Councilman Pruitt; see Season-1-Plan §4)
 Emery Vantage (dead by S10–11) · Dasha Lowe (MA2) · Artie Bell (S10–11, Twice-Born, Anchor: laminated bus drawing) · Henrik Dane (S16) · Soren Kade (Rival Hunter, S16) · Callum Oates (Mini-Arc C) · Nadia Kestrel (Mini-Arc E) · Barnaby Finch (see Season-1-Plan) · the Castellans (Castellan Retrieval, rival hunters; MA5) · Councilman Pruitt (Gerald's owner, nominal; S1 offscreen) · the Harrow Patriarch (HINGE S23; selling hunting records to Apex) · Valerie Crane (Season 2) · Tamsin Solano · Corvin Pryce (files, S17).
+
+## The Wall of the Missing (13 photos and cases, in `03-NPCs/Wall-of-the-Missing-Roster.md`)
+Emery Vantage & Dasha Lowe · Pavel Wrona · the 1969 crew · Billie Strand · Ambrose Teague · Dennis Pilch · Josie Marsh · Cal & Rudy Mulvaney · Dr. Petra Frayne · Sol Katz · Sister Dorothea Hale · Lars Ekdahl · *(the unnamed "HE WENT BACK" photo: no name, no answer in Season 1)*. All are missing hunters and their people, not live NPCs; any can become a case.
 
 ## The bench (30, unused, in `03-NPCs/NPC-Bench.md`)
 Penhallow · Marisol Quintero · Rev. Josiah Kemble (S6 door) · Teddy Vasquez-Lim · Céleste Varga · Saoirse Dunmore · Rollo Dunkirk · Jasper Wilde · **Mercy Adeyemi** (Harlan standby) · Roz Tuttle · Tomasz Wrona · Dr. Femi Oduya · **Yardley Pike** (Fence standby) · Prudence Abernathy-Kask · Abel Mwangi · Agathe Tull · **Winnie Achterberg** (Agnes standby) · Fitch Ambrose · **Hester Lyle** (Reyes standby, ally role) · Lionel Sparrowe · Oswin Tabor · **Kip Hollander** (Stalls standby) · Dr. Imogen Halse · Holt Brannigan · Rhys Okonedo · Delphine Arkwright · Pim Halvard · Ysolde Marr · Mr. Saltonstall · **Marigold Oyelaran** (Dev standby).

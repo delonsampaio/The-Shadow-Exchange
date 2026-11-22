@@ -4,20 +4,20 @@ session_number: 2
 title: "The Hollow Pedestrian"
 status: Prep
 goal: "Introduce Anchor Items as moral weight; reveal the Subway as an impossible, unexplained first visit."
-mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Resistance, Flashback. DEFER: Entanglements, Acquire Assets, XP. (See 00-Canon/Mechanics-Teaching-Ladder.md — max 4 new.)"
+mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Resistance, Flashback. REINFORCE also: Entanglements and XP (taught in S1). DEFER: Acquire Assets. (See 00-Canon/Mechanics-Teaching-Ladder.md — max 4 new.)"
 ---
 
 # Session 2 — The Hollow Pedestrian
 
 > **Tone for tonight:** 🟡 banter on the way in, 🔴 ZERO at the Emmerich choice, 🟢 FULL SCOOBY for the Door Chase — then the mood **drops**: **🔵 MYSTERY** for the entrance, the descent and the hall. **No jokes inside the Subway tonight.** A railing that appears where there is none is not a gag; it is the first thing in the campaign that *shouldn't be possible.* Let the laughter from the chase die on the stairs. Humor returns on the pier and at the shop. See `00-Canon/Comedy-Playbook.md` (Mystery overrides Comedy here).
-> **Runtime ~3 h.** If the clock passes **2 h 00** before the Subway, **cut Subway Beat 4's Aldric/Job Board and Subway Beat 5's Broker** and carry them to Session 3's free play ("the second visit"). The *entrance, the hall, PTOLEMY's charge and Cosma* are the non-negotiable debut.
+> **Runtime ~3 h.** If the night passes about **1 h 45** before the Subway (the safe stop above), or **2 h 30** after the descent,, **cut Subway Beat 4's Aldric/Job Board and Subway Beat 5's Broker** and carry them to Session 3's free play ("the second visit"). The *entrance, the hall, PTOLEMY's charge and Cosma* are the non-negotiable debut.
 
 ---
 
 ## RUN SHEET (read this first)
 
-**Time budget:** Cold open 5 → Envelope & plan 10 → Approach + Thorne on the street 10 → Observation 10 → Moral choice 20 → **Door Chase 15** → Entrance + descent 10 → Hall + PTOLEMY + Cosma 30 → *(optional: Aldric/Job Board/Broker 15)* → Exit 5 → Return + Downtime + Greta + Thorne's call + quiet moment + Close 35.
-**Cut-list if running long:** 1) the Aldric / Job Board / Broker beats (already optional); 2) the Cologne gag; 3) trim the chase gags to one or two; 4) run Downtime in House Rules C9 "text-message" mode (one sentence per activity); 5) the quiet-moment question for each PC. *(Never skip PTOLEMY's charge for a PC: it is each player's spotlight.)*
+**Time budget (add Inside the Shop 5; the full session runs about 3 h 15, so it is built as TWO NIGHTS if needed):** **SAFE STOP:** if the night has run about 1 h 45 when the Door Chase ends, **stop at the railing** (🔊 the alley dead-ends and the railing is there; ⏸) and resume next night with a "Previously" card; run the XP tally and the retrospective that night (`Night-Log.md`). Cold open 5 → Envelope & plan 10 → Approach + Thorne on the street 10 → Observation 10 → Moral choice 20 → **Door Chase 15** → Entrance + descent 10 → Hall + PTOLEMY + Cosma 30 → *(optional: Aldric/Job Board/Broker 15)* → Exit 5 → Return + Downtime (incl. Entanglement) + Greta + Thorne's call + quiet moment + Close (Zoltar + XP + retro) **60** (the Return-to-Close block took 60 in the simulation: payoff, Entanglement, Downtime, Greta, the call); cut the optional Aldric/Job Board/Broker beat first.
+🔒 **If they attack anyone (Thorne, Greta, Emmerich, Drennick & Foss):** `05-Sessions/Lethal-Path-Quick-Table.md`. **Never cut the Entanglement roll or the XP tally.** **Cut-list if running long:** *(text-message Downtime mode keeps Greta and the Entanglement)* 1) the Aldric / Job Board / Broker beats (already optional); 2) the Cologne gag; 3) trim the chase gags to one or two; 4) run Downtime in House Rules C9 "text-message" mode (one sentence per activity); 5) the quiet-moment question for each PC. *(Never skip PTOLEMY's charge for a PC: it is each player's spotlight.)*
 
 | # | Beat | Trigger | 🎵 Music | 🖼 Image | 🎭 Comedy | Teaches |
 |---|---|---|---|---|---|---|
@@ -27,7 +27,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 | 3 | Thorne on the street | inline | — | `location-meridian-street` ✅, caption "Elias Thorne" | — | *(Tell 3)* |
 | 4 | Emmerich's shop | "go" | — | `location-meridian-street` ✅ *(stays through the observation)* → `npc-emmerich` ✅ *(after the child leaves)* | The cologne → then silence | Position & Effect *(reinforce)*, Flashback |
 | 5 | The Choice | "go" | `music-s01-the-choice` | `item-silver-thimble` ✅ | 🔴 none | Anchor weight |
-| 6 | **Door Chase** | inline | `music-caper-chase` ✅ | `npc-drennick-foss` ✅ *(optional, on first sighting)* | 🟢 Drennick & Foss | **Group Action**, **Assist**, Detection |
+| 6 | **Door Chase** | inline | `music-caper-chase` ✅ | `npc-drennick-foss` ✅ *(required: it clears the thimble from the TV)* | 🟢 Drennick & Foss | **Group Action**, **Assist**, Detection |
 | 7 | The entrance | "go" | `music-s02-the-railing` ✅ | `location-subway-entrance` ✅ | 🔵 none | Flashback to escape |
 | 8 | Descent + Hall | "go" | `music-subway-loop` | `location-subway-main-hall` → `map-subway-schematic` ❌ *(optional, at the wrong transit map)* | 🔵 none — uncanny crowd | Etiquette |
 | 9 | PTOLEMY's charge | inline | — | `npc-ptolemy` ✅ | 🔵 uncanny-specific charges | Ledger/favor |
@@ -35,7 +35,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 | 11 | *(optional)* Aldric / Job Board / Broker | — | — | `npc-aldric-voss` ✅, `npc-crossroads-broker` ✅ | — | — |
 | 12 | Exit | "go" | `music-aftermath` | `location-pier-exit` ✅ | — | — |
 | 13 | Return → Downtime → Greta → Thorne's call → Zoltar card *(in that order)* | "go" | `music-bookshop-loop` → `music-greta-waltz` ✅ *(optional, when Greta enters)* | `location-curios-exterior` → `npc-greta-fenn` → `location-curios-exterior` *(clears Greta before the call)* | 🎭 Greta's forms | **Heat, Downtime** |
-| 14 | Close | end | `music-sting-fortune-card` ❌ · Zoltar voice ❌ *(on hold)* | `location-curios-exterior` + Zoltar card | Zoltar | — |
+| 14 | Close | end | `music-sting-fortune-card` ❌ · Zoltar voice ❌ *(on hold)* | `location-curios-exterior` + Zoltar card | Zoltar | **XP tally** |
 
 **Asset status:** ❌ = not yet generated (`[IMAGE/MUSIC CUE: … — not yet generated]`); prompts for every cue exist in `11-Visuals/` (see `ASSET-TODO.md`).
 
@@ -62,7 +62,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 
 ### Session 1 Fallout Checklist
 *AI: Review the transcript or Recap-01 before starting this scene.*
-* [ ] **Audit Check:** If **[Clock: The Ministry Audit]** ticked in Session 1, place a plainclothes agent in the bookstore during the opening.
+* [ ] **Audit Check (🔒 GM ONLY; the clock is secret until S4):** if it ticked in Session 1, add this to the opening: 🔊 **READ ALOUD** *"A man in a grey raincoat has read the same paperback by the window for twenty minutes. He leaves when the envelope arrives."* If asked: 🗣 *(the man)* *"Just browsing."* Never say "Audit".
 * [ ] **Inventory Check:** If **[Item: Barghest Adrenal Gland]** was stolen, it is vibrating in the runed cold drawers.
   > 🎭 **COMEDY BEAT (🟡):**
   > 🔊 **READ ALOUD:** "Someone notices it before anyone says a word: the whole building has been vibrating all night. No one is sure when it started. Consequence the cat has relocated to the opposite end of the building."
@@ -115,7 +115,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 > 🗣 **SAY:** *"Whoever signs for the envelope has to explain to Greta why the firm's managing partner is a cat."*
 > ❓ **ASK THE TABLE:** *"Who signs?"* ⏸ **REACTION STOP.**
 
-❓ **ASK THE PLAYER WHO OPENED IT:** *"What does your character's face do when they reach the line that says 'do not disturb civilian routine'?"* ⏸ **REACTION STOP.**
+❓ **ASK THE PLAYER WHO OPENED IT:** *"What does your character's face do when they reach the line that says 'ANCHOR ITEM RETRIEVAL — ONE SILVER THIMBLE'?"* ⏸ **REACTION STOP.**
 
 > ⏸ **PAUSE — Let the table react to the job before continuing.**
 
@@ -126,7 +126,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 **[MUSIC CUE: music-approach.mp3]** *(fire on "go" — crew is moving)*
 **[IMAGE CUE: map-city-s02.png]** ✅ *(living map, with the music; caption "Old City → The Meridian")*
 
-> ⏸ **PAUSE — Say "go" on arrival in the Meridian. Then run the street beat below, *then* show the shop image.**
+> ⏸ **PAUSE — Say "go" on arrival in the Meridian. Then run the street beat below.** *(No shop image tonight: keep the street image through the observation.)*
 
 ### Street Beat — Thorne on the Street (Tell 3)
 
@@ -134,7 +134,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 
 > 🔒 **GM ONLY — District: The Meridian** *(`04-Locations/City-Districts.md`)*: glass towers, climate-controlled air, the city's most aggressive Apex scanner network. Anything overtly supernatural here ticks Detection faster — which is why the Door Chase matters. The map is `map-city-s02` once generated.
 
-**[IMAGE CUE: location-meridian-street.png]** ✅ *(on arrival in the Meridian — show this first, then the shop image after Thorne walks away)*
+**[IMAGE CUE: location-meridian-street.png]** ✅ *(on arrival in the Meridian; keep it through the observation)*
 
 **[IMAGE CUE: none]** *(TV: keep `location-meridian-street`, caption "Elias Thorne". `npc-elias-thorne.png` is the S1 backstage shot with a clipboard; here he carries two paper cups outside a café. An image of him with coffee is an optional TODO.)*
 
@@ -148,7 +148,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 > ❓ **ASK THE TABLE:** *"What do you do?"* ⏸ **REACTION STOP — next part depends on:** whether anyone mentions his pause at the window or the coffee.
 >
 > → **If someone asks about the window:** 🗣 **SAY** *(Thorne — lightly, looking away)*: *"I heard it was a good shop."* *(If pressed:)* 🗣 **SAY** *(Thorne — a small shrug)*: *"A colleague mentioned it."*
-> → **Either way, before he goes:** 🗣 **SAY** *(Thorne — warm, and he means it)*: *"If Apex makes a move on you, call me before you do anything. I mean that."*
+> → **Either way, before he goes:** 🗣 **SAY** *(Thorne — warm, and he means it)*: *"If Apex makes a move on you, call me before you do anything. I mean that."* 🗣 **SAY** *(the GM, one line)*: *"Apex Aegis: the private security firm that scans the Meridian for anything Resonant."*
 > → 🔊 **READ ALOUD:** *"He wishes you luck and walks away into the crowd."*
 >
 > 🔊 **READ ALOUD** *(only if a PC looks back at the street; one line, no name, no face)*: "Across the street, a worn canvas jacket and a courier bag. A woman at a lamppost with a notebook open against the post. She looks up at the second-floor window, then at you, then walks on."
@@ -158,14 +158,14 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 **[IMAGE CUE: location-meridian-street.png]** *(keep it up through the observation: its sign is on the second floor, as the text says. `location-emmerichs-shop.png` shows a ground-level window at night, so hold it; an updated shop image is an optional TODO.)*
 
 > 🔊 **READ ALOUD:**
-> "Mid-morning on a weekday. The shopping district is loud in a way that drowns out your instincts: too many people moving too many things with too many minor Resonance signatures, none of them individually remarkable, all of them noise. Emmerich's shop is on the second floor: a window painted with the words **EMMERICH & DAUGHTER** in gold leaf. The 'and Daughter' has been there a long time. Not painted over. Not updated. They just never removed it."
+> "Late afternoon on a weekday, the lamps coming on. The shopping district is loud in a way that drowns out your instincts: too many people moving too many things with too many minor Resonance signatures, none of them individually remarkable, all of them noise. Emmerich's shop is on the second floor: a window painted with the words **EMMERICH & DAUGHTER** in gold leaf. The 'and Daughter' has been there a long time. Not painted over. Not updated. They just never removed it."
 
 > ⏸ **PAUSE — Wait for the table's reaction and confirm they move to observe before continuing.**
 
 > 🎭 **COMEDY BEAT — The Cologne (🟢) — laugh first, *then* land (this comes BEFORE the observation):**
 > 🔊 **READ ALOUD:** "Across the Meridian, a boutique clerk mistakes the three of you — lurking, trench-coated — for secret shoppers. He is thrilled. He raises a bottle labelled **MIDNIGHT IN BRUSSELS.**"
 > ❓ **ASK THE TABLE:** *"Does anyone let him spritz them?"* ⏸ **REACTION STOP.**
-> → **If someone does:** 🗣 **SAY** *"You get +1d to blend in — and for the rest of the session every NPC remarks how expensive you smell."*
+> → **If someone does:** 🗣 **SAY** *"You get +1d to blend in — and for the rest of the session every NPC in the Meridian remarks how expensive you smell, until you leave it."*
 > → **If nobody does:** 🗣 **SAY** *"He takes it personally. Nothing else happens."*
 > 🔊 **READ ALOUD:** "The clerk wanders off."
 
@@ -189,7 +189,20 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 ❓ **ASK EACH PLAYER** *(one at a time)*: *"Light, Normal or Heavy?"* ⏸ **REACTION STOP.**
 🗣 **SAY:** *"I'll tell you how many dice. Roll them, and tell me the highest."* ❓ **ASK A PLAYER:** *"Roll [N] dice. What's the highest?"* ⏸ **REACTION STOP.** *(6 Controlled · 4–5 Risky · 1–3 Desperate: say the starting Position out loud.)*
 > 🔒 **GM ONLY — IF THEY STALL:** at 2 minutes 🗣 **SAY** *"Steal one or give me your own."* **Wait for the shop to empty:** *"watch the door from the café across the street"* · *"come back at closing"* · *"send the friendly face to hold the owner at the counter"*. **Pose as the Ministry:** *"the clipboard and the badge from last week"* · *"ask to inspect the measuring tape"* · *"have the loudest one complain about noise"*. **Walk in as buyers:** *"ask to be measured for a coat"* · *"say it's for a wedding in three weeks"* · *"admire the thimble"*. **A plan that uses a Friend or a detail that hits the weak point: +1 die; a tangled plan: −1.** Still stuck: you pick *"wait for the shop to empty"* (Risky / Standard).
-> 🔒 **GM ONLY — Position / Effect (say them out loud every roll):** *Wait for the shop to empty:* Risky / Standard. *Ministry pretense:* Controlled / Limited. *Walk in as buyers:* Risky / Limited.
+> 🔒 **GM ONLY — Position / Effect (say them out loud every roll):** *Wait for the shop to empty:* Risky / Standard. *Ministry pretense:* Controlled / Limited. *Walk in as buyers:* Risky / Limited. *(The engagement roll sets the **Position**; these lines give the **Effect** only, used for the roll inside the shop.)*
+
+---
+
+## Inside the Shop *(the crew goes in; the engagement Position applies; Effect from the line above)*
+
+> ⏸ **PAUSE — Say "go" when they walk in.** *(TV: the street image stays; caption "Emmerich & Daughter".)*
+> 🔊 **READ ALOUD** *(pick the one that matches their plan)*:
+> - **Wait for the shop to empty:** "The child and her mother leave, and the bell rings behind them. The shop is empty except for one man with a tape measure around his neck."
+> - **Ministry pretense:** "The bell rings. Emmerich looks up, and does not look surprised."
+> - **Walk in as buyers:** "The bell rings. Emmerich smiles the way a shopkeeper smiles at a customer, and then looks at the room."
+> 🗣 **SAY** *(Emmerich — gentle, unhurried)*: *"You're not here for a coat."*
+> ❓ **ASK THE TABLE:** *"Who speaks, and what do they say?"* ⏸ **REACTION STOP.**
+> 🔒 **GM ONLY:** one roll at the engagement Position and the plan's Effect (Sway or Consort). **Ministry pretense:** he goes still; use his Aggro Trigger line in `03-NPCs/Active/Emmerich.md` and keep him gentle: he does not fight. Roll any action that matches their approach (Sway, Consort, Finesse, Command). **6:** he steps away from the window and gives them time; Detection starts at 0 and Drennick & Foss arrive late. **4–5:** he stays quiet but the street watches: Detection +1. **1–3:** early Apex pressure, a scanner chirps outside: Detection +2. Then run the Choice.
 
 ---
 
@@ -209,11 +222,16 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 ❓ **ASK THE TABLE:** *"What does the crew do?"* ⏸ **REACTION STOP — next part depends on:** their choice. Read only the matching passage.
 
 > 🔒 **GM ONLY — what each choice does:**
-> - **Seize:** Ministry payout (Coin). Emmerich unravels in 1d6 hours. Crew earns **Enmity** with **[Faction: The Twice-Born]**.
-> - **Warn and walk:** no payout. **+1 Favor** with **[Faction: The Twice-Born]**. Potential Heat with **[Faction: The Ministry]**.
-> - **Partial:** take it but warn first. Half Coin. **Ambivalence** (a Transactional reputation).
+> - **Seize:** Ministry payout **4 Coin**, Rep +2. Emmerich unravels in 1d6 hours. Crew earns **Enmity** with **[Faction: The Twice-Born]**.
+> - **Warn and walk:** no payout (0 Coin, Rep 0: the job was not completed). **+1 Favor** with **[Faction: The Twice-Born]**. Heat as in the single Heat line in Downtime.
+> - **Partial:** take it but warn first. **2 Coin**, Rep +2. **Ambivalence** (a Transactional reputation).
 >
 > 🔒 **GM ONLY — IF THEY ATTACK EMMERICH (fight to kill; allowed, no jokes; added 2026-11-21):** he does not fight back (he has been waiting for this). One **Risky / Standard** roll; no Subdue clock needed. Killing him is the same as seizing the thimble *and worse*: the child and her mother **witness it** (**Detection +2**, a witness who will remember), **+2 Heat** (killing), the Twice-Born gain **Enmity** with the crew, and **the one person who knew the Understudied's true name is gone** (surface it later as "a convenient absence"). Offer the other doors once ("He hasn't raised a hand. He's looking at the child."), then let the table decide.
+
+### If they KILL him *(fight to kill; no jokes)*
+🔊 **READ ALOUD:** "He doesn't raise his hands. The tape measure is still around his neck."
+❓ **ASK THE TABLE:** *"What do you do with the thimble?"* ⏸ **REACTION STOP.**
+> 🔒 **GM ONLY:** if the shop was empty there is **no witness** (no Detection +2); otherwise the child and her mother saw it. Payout 4 Coin only if the thimble is handed to the Ministry. **After a kill, play the chase straight: no "RUH-ROH?" banner, no caper music (use `music-approach`), no gags, and Drennick and Foss are cold, not funny (Menace Rule).**
 
 ### If they SEIZE it
 🔊 **READ ALOUD:** "It's small enough to disappear in a closed fist. Silver, scratched from a lifetime of needles. It is warm — warmer than it should be, warm like something that was just let go of. Behind you, Emmerich has stopped talking. He is sitting down where he stands, hands in his lap, looking at the place where the thimble was. He does not look at you. He looks at the child's uniform on the table, half-pinned." *(If the shop was emptied first, there is no child: the half-pinned uniform lies on the table with nobody to collect it.)*
@@ -221,7 +239,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 
 ### If they WARN him
 🗣 **SAY** *(Emmerich — very quietly; he has been waiting for this conversation for a long time)*: *"How long do I have?"*
-❓ **ASK THE TABLE:** *"What do you tell him?"* ⏸ **REACTION STOP.**
+❓ **ASK THE TABLE:** *"What do you tell him?"* ⏸ **REACTION STOP.** 🗣 **SAY** *(Emmerich)*: *"Thank you."* 🔊 **READ ALOUD:** "He goes back to the uniform on the table and picks up the tape measure."
 
 ### If they take it but warn him first *(the partial)*
 ❓ **ASK THE TABLE:** *"Who tells him, and what do you say?"* ⏸ **REACTION STOP.**
@@ -236,9 +254,9 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 
 ## The Door Chase 🎭 (🟢 FULL SCOOBY — ~15 min)
 
-**[MUSIC CUE: music-caper-chase.mp3]** ✅ *(inline — fire as the crew leaves the building; no "go" pause)*
+**[MUSIC CUE: music-caper-chase.mp3]** ✅ *(inline — fire as the crew leaves the building; no "go" pause. If anyone died: `music-approach` instead, and skip the banner.)*
 **[PLAYER SCREEN: banner "RUH-ROH?"]**
-**[IMAGE CUE: npc-drennick-foss.png]** ✅ *(optional — on first sighting of the Peacekeepers)*
+**[IMAGE CUE: npc-drennick-foss.png]** ✅ *(required here: it clears the thimble from the TV)*
 
 > 🔊 **READ ALOUD:**
 > "Two of them wait at the bottom of the stairs: dark coats, earpieces, clipboards — standard compliance posture. They are in the middle of an argument. They finish it before they notice you."
@@ -252,17 +270,17 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 >
 > → **If the crew warned Emmerich and carry nothing:** 🗣 **SAY** *(Foss — quite loudly)*: *"That's the bookshop. The ones from the **thing.**"*
 >
-> ❓ **ASK THE TABLE:** *"What do you do?"* ⏸ **REACTION STOP — next part depends on:** whether they talk to the Peacekeepers or run.
-> 🔒 **GM ONLY — IF THEY FIGHT DRENNICK & FOSS (allowed; added 2026-11-21):** they are competent. **Skirmish is Desperate / Limited** (body armour under the coats); their blows are **Level 2 harm**. Resistance is always offered. **A kill:** **+2 Heat**, **Apex standing −2**, and a Wanted check; Apex sends **Cleaners** later (see the Arc trigger). **No beet jokes once weapons are out (Menace Rule):** they go cold and professional until the fight ends. Offer the chase or the compliance interview once as the other doors.
-> → **If they stand and talk:** the Peacekeepers want a **compliance interview** (clipboard, signatures). 🗣 **SAY** *(Foss — official)*: *"Right. Get the paperwork."* It stays funny and slow. 🔒 **Bridge to the Subway:** when the interview ends, a second Apex scanner van turns into the street and Foss says *"Hold on —"*; the crew ducks into the nearest side alley, where the railing waits (no chase needed).
+> ❓ **ASK THE TABLE:** *"What do you do?"* *(Stall help, once: talk to them · bluff · bolt.)* ⏸ **REACTION STOP — next part depends on:** whether they talk to the Peacekeepers or run.
+> 🔒 **GM ONLY — IF THEY FIGHT DRENNICK & FOSS (allowed; added 2026-11-21):** they are competent. **Skirmish is Desperate / Limited** (body armour under the coats); their blows are **Level 2 harm**. Resistance is always offered. **A kill:** **+2 Heat**, **Apex standing −2**, (Heat may reach 9, so Wanted +1); Apex sends **Cleaners** later (see the Arc trigger). **No beet jokes once weapons are out (Menace Rule):** they go cold and professional until the fight ends. Offer the chase or the compliance interview once as the other doors.
+> → **If they stand and talk:** the Peacekeepers want a **compliance interview** (clipboard, signatures). 🗣 **SAY** *(Foss — official)*: *"Right. Get the paperwork."* It stays funny and slow. 🗣 **SAY** *(Foss — official)*: *"Name of the firm?"* · *"Reason for the extraction?"* · *"Is the cat licensed?"* ❓ **ASK THE TABLE:** *"Who signs?"* ⏸ **REACTION STOP.** *(Teach Group Action here: everyone signs together, rolling Consort; the best die counts.)* 🔒 **Bridge to the Subway:** when the interview ends, a second Apex scanner van turns into the street and Foss says *"Hold on —"*; ❓ **ASK THE TABLE:** *"Where do you duck?"* ⏸ **REACTION STOP** *(any alley works; the railing waits at the end of it; no chase needed)*.
 > → **If they run:** 🗣 **SAY** *(Foss — mid-argument, to Drennick)*: *"Right. Get them."* The chase begins — see below.
 
 > 🔒 **GM ONLY — DRENNICK & FOSS:** they are **competent**, and they always **finish the thought** before giving chase. Drennick (tall, calm) defends the beet; Foss (short, intense) hates it. Running turns a compliance interview into a chase.
 
 ### Running the chase *(only if they run)*
 🗣 **SAY** *(teach Group Action — about 30 seconds)*: *"When all of you do the same thing together, one of you leads, and everyone involved rolls. The best die counts for the whole team. The leader pays 1 Stress for each teammate whose best die was a 1 to 3."*
-🗣 **SAY** *(Detection, one line, the first time it shows tonight)*: *"Detection again: four segments. Fill it and Apex has you."*
-**Group Action (Prowl — everyone involved rolls; the best die counts):** the Meridian becomes a **hallway of doors**. Each success ticks nothing. **Only the group's best die sets Detection: 6 = no tick, 4–5 = +1, 1–3 = +2** (individual 1–3s cost the leader 1 Stress each, per the SRD, not Detection); **4 Detection = Foss is waiting at the mouth of the dead end** (see Subway Beat 1 — a very *Scooby* near-capture: cartoonish, then genuinely worrying).
+🗣 **SAY** *(Detection, one line, the first time it shows tonight)*: *"Detection again: four segments. Fill it and Foss is waiting at the dead end."*
+**Group Action (Prowl — everyone involved rolls; the best die counts):** the Meridian becomes a **hallway of doors** (**Risky / Standard**; up to **three** group rolls, one per "door"). **Only the group's best die sets Detection: 6 = no tick, 4–5 = +1, 1–3 = +2** (individual 1–3s cost the leader 1 Stress each, per the SRD, not Detection); **4 Detection = Foss is waiting at the mouth of the dead end** (see Subway Beat 1 — a very *Scooby* near-capture: cartoonish, then genuinely worrying).
 
 > 🎭 **THE GAGS — pick one per beat, read it straight:**
 > - 🔊 "The boutique's changing-room door opens onto a florist. The florist is not surprised."
@@ -275,7 +293,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 
 > 🎭 **Cover Story Roulette (reprise):** 🗣 **SAY** *(a Peacekeeper — shouting)*: *"Ministry-licensed?"* ❓ **ASK THE TABLE:** *"What cover story do you shout back?"* ⏸ *(Reward the funniest; the Session 1 credential comes back immediately.)*
 
-> 🎭 **Teach Assist here:** when a PC is stuck behind a door: 🗣 **SAY** *"A teammate can spend 1 Stress to give you +1 die."* ❓ **ASK THE TABLE:** *"Does anyone want to spend 1 Stress to help?"* ⏸ **REACTION STOP.** → **If yes:** ❓ **ASK THAT PLAYER:** *"How do you help?"* ⏸ *(e.g. "I hold the revolving door for you.")*
+> 🎭 **Teach Assist here, on one PC's own roll (never inside the group roll):** when a PC is stuck behind a door: 🗣 **SAY** *"One teammate can spend 1 Stress to give you +1 die on your own roll, and they share the consequence."* ❓ **ASK THE TABLE:** *"Does anyone want to spend 1 Stress to help?"* ⏸ **REACTION STOP.** → **If yes:** ❓ **ASK THAT PLAYER:** *"How do you help?"* ⏸ *(e.g. "I hold the revolving door for you.")*
 
 > 🔒 **GM ONLY — how it ends:** the chase ends **when the crew's route dead-ends in an alley** — see Subway Beat 1. If Detection hit 4, it is the *same* dead end, but with Foss standing at the mouth of it.
 
@@ -287,8 +305,8 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 
 ## The Twist — First Sight of The Subway
 
-🗣 **SAY** *(set it up)*: *"You're being chased, and the alley ahead of you may be a dead end. You can flash back to something you prepared — for 0 to 2 Stress, depending on how big it is."*
-❓ **ASK THE TABLE:** *"Does anyone flash back to help the crew get away?"* ⏸ **REACTION STOP.**
+🗣 **SAY** *(set it up)*: *"You're being watched, and the alley ahead of you may be a dead end. You can flash back to something you prepared — for 0 to 2 Stress, depending on how big it is."*
+❓ **ASK THE TABLE:** *"Does anyone flash back to help the crew get away? (a rope someone left; a door you jammed earlier; a van that is already warm.)"* ⏸ **REACTION STOP.** *(A success: Detection −1.)*
 > 🔒 **GM ONLY:** the entrance appears mid-escape — they are not looking for it. It is simply there.
 
 ---
@@ -297,14 +315,14 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 
 > ⏸ **PAUSE — Say "go" as the alley dead-ends.**
 
-**[IMAGE CUE: location-subway-entrance.png]** ✅ *(on "go" — the railing in the alley)*
+**[IMAGE CUE: location-subway-entrance.png]** ✅ *(on "go" — the railing in the alley; also clear the clocks, `clocks: []`)*
 **[MUSIC CUE: music-s02-the-railing.mp3]** ✅ *(on "go" — pure unease, loops through the entrance and the descent)*
 
 > 🔊 **READ ALOUD:**
 >
 > "The alley ends in a brick wall. That's what it should be. Except there's a green-painted iron railing set into the concrete at the far end — waist high, leading down, the kind of railing you'd find at any subway entrance in any city, except that this city has never had a subway. A sign above it, tiled in white ceramic, reads: **LINE 0 — ETHEREAL EXPRESS**. The tiles look original. They look like they've been there since the twenties.
 >
-> A man in a suit rounds the corner behind you at full stride, phone to his ear, and walks directly through the railing without slowing. Through the sign. Through the top step. He doesn't stumble. He doesn't notice. He turns the corner at the end of the alley and is gone.
+> A man in a suit rounds the corner behind you at full stride, phone to his ear, and walks directly through the railing without slowing. Through the sign. Through the top step. He doesn't stumble. He doesn't notice. He walks on, back the way he came, and is gone.
 >
 > The railing is still there. You can see it. You could reach out right now and put your hand on it and feel the cold paint. You didn't do anything to earn this. Nothing changed about you between the street and this alley. The railing is there anyway."
 
@@ -330,7 +348,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 >
 > "The stairs go down further than they should.
 >
-> This is not a figure of speech. Count them if you want — you have time. The alley above you is two stories deep at most. You are on step thirty-seven and still going — in a city where no cellar goes down more than a single floor. The city sounds — traffic, wind, the specific ambient noise of the world above — cut off completely on step fourteen. Not gradually. On step fourteen exactly, as though someone closed a door. After that: your own breathing. The iron railing under your hand is cold and real and slightly damp.
+> This is not a figure of speech. Count them if you want — you have time. Whatever is above you is one storey of cellar at most. You are on step thirty-seven and still going — in a city where no cellar goes down more than a single floor. The city sounds — traffic, wind, the specific ambient noise of the world above — cut off completely on step fourteen. Not gradually. On step fourteen exactly, as though someone closed a door. After that: your own breathing. The iron railing under your hand is cold and real and completely dry.
 >
 > The light changes on the way down. Street-level sodium orange. Then fluorescent. Then something greenish and sourceless that you cannot locate — it's not coming from any fixture you can see. It's just there, ambient, like the light inside a fish tank.
 >
@@ -350,8 +368,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 >
 > "The space you step into is a vaulted hall — arched ceiling lost in greenish shadow somewhere high above, tile floors the color of old municipal bone. It shouldn't fit here. It is the size of a train station. Forty feet across, easy, and it extends in both directions further than you can see, curving gently out of sight like a runway.
 >
-> There is a transit map on the north wall. None of the lines match anything: not the city above, not any city. One of them is marked in red ink that looks newer than the rest. Your street is not on it. Nothing you recognize is.
-> 🔒 **GM ONLY — PURPOSE:** the fresh red line is the Omen / Line 0 plant (a route that is being drawn now). Never explain it; the crew may study it later.
+> There is a transit map on the north wall. None of the lines match anything: not the city above, not any city. One of them is drawn in faint pencil that looks newer than the rest. Your street is not on it. Nothing you recognize is.
 >
 > There are people here.
 >
@@ -362,6 +379,8 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 > Nobody looks at you. Not yet. This is a place with etiquette you don't know yet, and you can feel that getting it wrong would be immediately obvious. Like walking into a dinner party mid-conversation and not knowing anyone's name.
 >
 > In the far corner — before you have had time to take any of this in — a piece of old leather luggage shifts. Brass clasps, cracked leather. No visible eyes. The clasps are moving in a slow deliberate pattern, like morse code except it isn't morse code. It is looking at you. It has been looking at you since before you came down the stairs. It has been waiting."
+
+> 🔒 **GM ONLY — PURPOSE:** the fresh pencil line is the Omen / Line 0 plant (the red Decay ink comes later, S6) (a route that is being drawn now). Never explain it; the crew may study it later.
 
 > ⏸ **PAUSE — Let the table absorb. Take reactions. Then say "PTOLEMY charges them."**
 
@@ -393,22 +412,25 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 > - Do not approach the back booth on a first visit — the Broker is not a first-visit resource.
 > - Do not speak to a Twice-Born as a target, mark, or contract — others in the room notice instantly.
 > - Do not ask PTOLEMY a question without bringing something to offer first.
-> 🔒 **GM ONLY — IF THEY PULL A WEAPON OR START A FIGHT IN THE HALL:** the hall goes dead silent, PTOLEMY's clasps slam shut, and Cosma steps between them: 🗣 **SAY** *(Cosma, calm)*: *"Not down here. Not if you want the stairs back."* The stairs do not come back until they stop. *(If they refuse to descend at all, the railing is simply there tomorrow; nothing is lost but the debut.)*
+> 🔒 **GM ONLY — IF THEY TRY TO BOARD A TRAIN OR DIG:** train: 🔒 *Platforms; no train tonight.* 🔊 "Past the yellow line the tunnel is dark and dry. Nothing comes." Dig: 🔊 "Under the tile is more tile."
+> 🔒 **GM ONLY — IF THEY PULL A WEAPON OR START A FIGHT IN THE HALL:** the hall goes dead silent, PTOLEMY's clasps slam shut, and Cosma steps between them: 🗣 **SAY** *(Cosma, calm)*: *"Not down here. Not if you want the stairs back."* The stairs do not come back until they stop. *(If they refuse to descend at all: 🔊 **READ ALOUD** "When you look back, it is a brick wall." The debut moves to S3, somewhere else; the Subway has no fixed address.)*
 
 ---
 
-### Subway Beat 4 — Cosma *(essential)*, then Aldric & the Job Board *(optional — cut if past 2 h 15)*
+### Subway Beat 4 — Cosma *(essential)*, then Aldric & the Job Board *(optional — cut if past 2 h 30 into the night)*
 
 **[IMAGE CUE: npc-cosma-linden.png]** ✅ *(show when Cosma approaches)*
 
 > 🔵 **QUIET WARMTH** *(not a joke — this is the Subway's first visit; her coat-pocket comedy, the 1987 transit schedule, is saved for the second visit in Session 3)*
+>
+> **CHECK FIRST (read this branch before Cosma walks over):** if the crew carries the thimble (seized or partial): 🔊 **READ ALOUD** *"The hall goes quiet in a ring around you."* 🗣 **SAY** *(Cosma — flat, then kind)*: *"You're carrying someone."* She still sits, but the warmth costs something. **If Emmerich was killed:** Cosma does not get up; she stays at her table and says nothing unless asked. **If a sealed containment jar holds the thimble,** the hall does not react.
 >
 > 🔊 **READ ALOUD:** "Near PTOLEMY's corner, a woman in a coat with too many pockets gets up from a folding table and walks toward you. She is not surprised. She moves like someone who has been making this walk — toward new arrivals who look exactly the way you look right now — for a very long time. She reaches into a pocket and offers the nearest of you a hard candy."
 > 🗣 **SAY** *(Cosma — warm, matter-of-fact)*: *"For the stairs. Everyone's stomach does something on the stairs."*
 > 🔊 **READ ALOUD:** "She pulls a chair from somewhere. There are more chairs than there should be."
 > 🗣 **SAY** *(Cosma — calm, unhurried)*: *"My name is Cosma. Sit down, if you like."*
 >
-> ❓ **ASK THE TABLE:** *"What do you ask her?"* ⏸ **REACTION STOP — next part depends on:** what they ask. Give only the matching answer.
+> ❓ **ASK THE TABLE:** *"What do you ask her? (Who are they? · Why us? · What's the luggage?)"* ⏸ **REACTION STOP — next part depends on:** what they ask. Give only the matching answer.
 >
 > → **About the Twice-Born, or who is down here:** 🗣 **SAY** *(Cosma — plain, serious)*: *"I'll answer the questions that don't get you killed. The ones that might — you'll have to work out. The Twice-Born aren't what the Ministry's paperwork says they are. They're people. Some of them have been people longer than anyone in this room has been alive. The ones down here aren't hiding from you — they're hiding from Apex, and from the parts of the Ministry that would rather they didn't exist. There's a difference."*
 > → **About why they can see this, or why them:** 🗣 **SAY** *(Cosma — honest, a little tired)*: *"You're wondering why you can see this. Everyone wonders that first. I couldn't tell you why — I've watched it do this for sixty years and I still couldn't. What I can tell you is that it can stop being there."*
@@ -417,7 +439,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 >
 > 🔒 **GM ONLY — mystery rule (overrides everything above):** Cosma keeps her unprompted opening to two sentences (the candy, her name). She gives the three answers **only when the players ask**, then stops. She is not withholding — she does not know. That is what should unsettle them.
 
-> 🗣 **SAY** *(teach Twice-Born Favor, **always read**; +1 Favor if the crew warned or protected Emmerich, otherwise add "for next time: they notice either way")*: *"Protecting a Twice-Born earns a **Favor**, up to three. You can spend them for safe harbor, rare gear or lore. They also notice what you do."*
+> 🗣 **SAY** *(teach Twice-Born Favor, **always read**; +1 Favor if the crew warned or protected Emmerich, otherwise add "for next time: they notice either way")*: *"The Twice-Born are people like Emmerich: they live a human life on top of something older. Protecting one earns a **Favor**, up to three. You can spend them for safe harbor, rare gear or lore. They also notice what you do."*
 
 **[IMAGE CUE: npc-aldric-voss.png]** ✅ *(optional — show only if a PC goes to the workshop doorway; he reads as a repairman, the AM-voice reveal comes only if they ask)*
 
@@ -466,7 +488,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 > - The Job Board exists — three postings, none immediately actionable
 > - Aldric Voss is in the workshop; he has not decided about them yet
 > - The back booth has a man who nods at one of them
-> - The transit map has a red line that doesn't match the city above
+> - The transit map has a new pencil line that doesn't match the city above
 > - The entrance is perceived by the Subway, not found by the crew — and it can stop being visible
 
 ---
@@ -488,48 +510,52 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 
 ### Downtime — After the Emmerich Job *(step 2 of the Return Sequence)*
 
+🗣 **SAY** *(Payoff, Step 0)*: *"First the score pays: Coin and Rep."* 🔒 Use the Coin and Rep lines in *what each choice does* (Seize 4 · Partial 2 · Warn 0 · Kill 4 if turned in; Rep +2, or 0 if the job was not completed). Then Heat, then the Entanglement, then the activities.
+
 > 🔒 **GM ONLY — WHEN TO RUN IT:**
 > The Subway entrance lands best as a surprise *mid-flight*, so **do not** stop for Downtime before it. Run this block when the crew is back in the bookshop. Each PC gets **two** free activities, **any two** (Indulge Vice is recommended to anyone carrying Stress; not forced), plus Heat as in Session 1.
 
-🗣 **SAY:** *"Now that the dust has settled, everyone gets two Downtime activities, any two. Indulge Vice is a good pick if you're carrying Stress."*
+> 🔒 **GM ONLY — HEAT (the single rule; ignore any other Heat remark in this file):** talked it out = **2** (contained) · ran the chase = **4** (loud) · **+1** the Meridian (hostile turf: Apex scanners) · **+2** if anyone died. If Heat reaches **9**: Wanted +1, Heat clears and the excess rolls over (that also changes the Entanglement dice).
+
+> 🔒 **GM ONLY — ENTANGLEMENT (after Heat, every score; taught in S1):** roll as in S1 (Wanted 0 → two dice, keep the lowest; column for current Heat; cues in `10-Generators/Entanglement-and-Complication-Cues.md`); play the result **before Greta's visit and before the activities** (pick inside the rolled cell, as in S1: Gang Trouble only with Gerald kept, else Usual Suspects on a non-canon Friend or Purveyor a player volunteers; 4–5 Rivals; 6 a quiet night; Heat 4–5 Questioning / Reprisals / Show of Force; Heat 6+ Interrogation / Show of Force / Arrest, Demonic Notice only through the Omen, never naming the Subway or the Omen; offer Resistance); Ministry rows tick the Audit silently (GM-secret until S4).
+
+🗣 **SAY:** *"Now that the dust has settled, everyone gets two Downtime activities, any two: **Indulge Vice**, **Recover**, **Reduce Heat**, a **Long-Term Project**, or **Train**. Indulge Vice is a good pick if you're carrying Stress."*
 ❓ **ASK EACH PLAYER** *(one at a time)*: *"What does your character do?"* ⏸ **REACTION STOP.**
 
-> 🔒 **GM ONLY — DOWNTIME ACTIONS AVAILABLE (remind only if asked):**
-> 🗣 **SAY** *(the whole menu, read aloud first)*: *"Two activities each, any two: **Indulge Vice**, **Recover**, **Reduce Heat**, a **Long-Term Project**, or **Train**."*
+> 🔒 **GM ONLY — one line per activity (SRD):** **Recover:** the healer rolls (a PC with Physicker rolls Tinker, otherwise the NPC's quality; toughing it out alone costs 1 Stress and rolls 0d) and you mark that many segments on a **4-segment healing clock** (1–3: 1 · 4–5: 2 · 6: 3 · crit: 5); a full clock reduces **every** harm by one level · **Reduce Heat:** make an action roll that fits what you do (Consort, Command, Sway…): **1–3 clears 1 Heat, 4–5 clears 2, 6 clears 3, a critical clears 5** · **Long-Term Project:** name a clock and its size; each activity ticks it · **Train:** mark 1 XP on one track (2 with the Training upgrade), **once per track per downtime** · **Vice:** below. Extras cost 1 Coin or 1 Rep.
 > - **Recover:** Heal **Harm** with a physicker or rest. *Suggested fiction: the back-alley clinic on Linder Street, or just a locked door and an hour.*
 > - ~~Acquire Assets~~ — **do not offer tonight** (taught in Session 3).
 > - **Long-Term Project:** Tick a clock. *Example: Research the Twice-Born — the first tick turns up Cosma's sixty-year history, or a lead on Aldric or the compass.*
 > - **Reduce Heat:** A quiet word, a misdirection, a favor called in. *The Emmerich job may have generated Heat depending on what the crew chose.*
-> - **Train:** mark XP in an attribute or playbook track (a light touch; full advancement is taught in S4).
+> - **Train:** mark XP in an attribute or playbook track.
 > - **Vice:** Roll dice equal to your **lowest** attribute; clear Stress equal to your **highest** die. If that clears *more* than you had marked, you **overindulge** — pick a consequence (attract trouble, brag +2 Heat, disappear a few weeks, get cut off).
-
-> 🔒 **GM ONLY — HEAT (add to the crew total):** use `07-Clocks/Heat-and-Entanglements.md` §1 (SRD). The Door Chase counts as a loud, chaotic score (4) if they ran; Double Bookkeeping failed +1.
 
 > 🔒 **GM ONLY — WHAT CHANGES BASED ON EMMERICH CHOICE:**
 > - **Seized the thimble:** The ledger entry updates quietly. If anyone rolls Vice tonight, describe a brief intrusive thought — something warm in a closed fist, a child laughing. No mechanical effect. Just texture.
-> - **Warned Emmerich:** The crew took a Heat tick from the Apex ping and no Coin. Reduce Heat is a logical first action. If a PC researches the Twice-Born, they turn up Cosma's sixty-year history, or a lead on Aldric and the compass.
+> - **Warned Emmerich:** Heat comes from the single Heat line in Downtime (the Apex ping still counts) and there is no Coin. Reduce Heat is a logical first action. If a PC researches the Twice-Born, they turn up Cosma's sixty-year history, or a lead on Aldric and the compass.
 > - **Partial complicity:** Half payout. If anyone counts the Coin tonight, it is correct to the penny. It does not feel correct.
 
 ---
 
 ### Greta Fenn — Downtime *(she comes in whichever way the Emmerich job went)*
 > 🎭 **COMEDY BEAT — Greta's forms (🟡):**
-**[IMAGE CUE: npc-greta-fenn.png]** ✅ · **[MUSIC CUE: music-greta-waltz.mp3]** ✅ *(optional — when she enters)*
+**[MUSIC CUE: music-greta-waltz.mp3]** ✅ *(optional — when she enters)* · **[IMAGE CUE: npc-greta-fenn.png]** ✅ *(fire after her first line, not before)*
 
 > 🔊 **READ ALOUD:** "The shop door opens, and Greta Fenn comes in shaking the rain off a clipboard."
 > → **If they seized the thimble:** 🗣 **SAY** *(Greta — dry, brisk)*: *"Form 22-A. Anchor Item Extraction, Biological Subject Ambulatory. Two signatures, please."*
 > → **If they warned him:** 🗣 **SAY** *(Greta — dry)*: *"Form 31. Incomplete Engagement. I need two signatures explaining why the job wasn't finished."*
 > → **If they took it but warned him (the partial):** 🗣 **SAY** *(Greta — dry)*: *"Form 22-A, with an attachment: why you warned the subject in advance. Two signatures and a short explanation."* ⏸ **REACTION STOP.**
-> → **If Apex Aegis got involved:** 🔊 **READ ALOUD** *"She puts seven forms on the counter."* 🗣 **SAY** *(Greta — a mild expression of professional disappointment)*: *"I have seven forms."*
+> → **Add-on, if the scanners pinged (any branch where the van was called):** 🔊 **READ ALOUD** *"She puts seven forms on the counter."* ⏸ **REACTION STOP.** 🗣 **SAY** *(Greta — a mild expression of professional disappointment)*: *"I have seven forms."*
 > 🔒 **GM ONLY:** she always has the right form, and she is always slightly put-upon about having to use it.
 
 ### The Evening Call — Thorne's Tell 4
+**[MUSIC CUE: music-bookshop-loop.mp3]** *(switch back from the waltz as the line rings)*
 **[IMAGE CUE: location-curios-exterior.png]** *(clears Greta before the call)*
 > 🔊 **READ ALOUD:** "The rotary phone rings — the shop's only public number."
 > ❓ **ASK THE TABLE:** *"Who answers?"* ⏸ **REACTION STOP.**
 >
 > 🗣 **SAY** *(Thorne — warm, effortless)*: *"I wanted to check you got out clean. I heard there was an Apex ping in the Meridian. I ran some interference — you're a **flag**, not a **file.** That's a good place to be."*
-> 🗣 **SAY** *(Thorne — easy, a shade too sincere)*: *"Thanks again for dropping by my office last Tuesday. You seemed rattled."* *(The crew has never been to his office.)*
+> 🗣 **SAY** *(Thorne — easy, a shade too sincere)*: *"Thanks again for dropping by my office last Tuesday. You seemed rattled."* 🔒 *(GM ONLY: the crew has never been to his office.)*
 >
 > ⏸ **REACTION STOP — next part depends on:** whether the player says they were never in his office on Tuesday.
 > → **If they do:** 🗣 **SAY** *(Thorne — smooth, unbothered)*: *"Of course — my mistake. It's been a long week."* 🔊 **READ ALOUD:** *"The line stays silent for exactly one second too long."*
@@ -546,9 +572,10 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 > 🔒 **GM ONLY:** tick **The Omen** one segment (secret). By midnight it is correct again; by morning it is four minutes slow once more. If a PC checks it against the Scanner Station time, the Scanner Station agrees with the clock — it is not the clock that is wrong.
 
 ### Zoltar's card (S2)
+> 🔒 **GM ONLY — XP:** after the card, run `00-Canon/End-of-Session-Ritual.md` §1 (every session from S1). **If a track fills, teach Ladder card 22 now; it counts as one of tonight's new lessons.**
 **[PLAYER SCREEN: card style `fortune`, "ZOLTAR SAYS" — "THE ROAD DOWN IS LONGER THAN THE ROAD UP. BRING A SNACK."]**
 > 🔊 **READ ALOUD:** "At the very end, from the back of the shop, a small, apologetic *clunk.* A card drops into the tray: **THE ROAD DOWN IS LONGER THAN THE ROAD UP. BRING A SNACK.**"
-> 🔒 **GM ONLY — audio:** `[SFX CUE: music-sting-fortune-card — not yet generated]` · `[VOICE CUE: music-sting-zoltar-fortune-s02 — not yet generated]` *(Zoltar is on hold)* — then **end the session.**
+> 🔒 **GM ONLY — audio:** `[SFX CUE: music-sting-fortune-card — not yet generated]` · `[VOICE CUE: music-sting-zoltar-fortune-s02 — not yet generated]` *(Zoltar is on hold)* — then run the **XP tally (with crew XP) and the retrospective** (`00-Canon/End-of-Session-Ritual.md` §1–§2), then end the session.
 
 ---
 

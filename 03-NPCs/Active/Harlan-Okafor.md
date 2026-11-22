@@ -33,6 +33,6 @@ last_seen_session: "00"
 - *Offering information:* Sets the coffee down. "Here's what I know. Here's what it costs. Don't order the pie — it's been there since Tuesday."
 - *On The Architect:* Looks at the door. A pause that goes one beat too long. "Where'd you hear that name?" Not angry. Careful.
 
-## Wall of the Missing — what the image shows *(canon from the 2026-11-17 image: `location-wall-of-the-missing.png`)*
+## Wall of the Missing — what the image shows *(roster of cases: `03-NPCs/Wall-of-the-Missing-Roster.md`)* *(canon from the 2026-11-17 image: `location-wall-of-the-missing.png`)*
 A cork wall of night photographs of monster hunters (rain slickers, headlamps, axes, flashlights), candle stubs, ribbons and dried flowers below. **One sharper photo near the center — a man in a leather work coat with a cane and headlamp cap — has a note in red ink: "HE WENT BACK."** It is the same red hand as the Hunters' Journal's red page (Architect thread). **GM decides who "he" is and where he went back to** — do not answer in Session 4; let Harlan go quiet and wipe the counter.
 

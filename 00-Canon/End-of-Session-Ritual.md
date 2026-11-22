@@ -1,17 +1,23 @@
 ---
 entity_type: Procedure
 status: ADOPTED 2026-11-20 (from the gap list; checked against the SRD XP rules)
-purpose: "The last ten minutes of every session: XP, a three-minute retrospective, and the log. Teaches XP at Session 4 (the Ladder defers it until then)."
+purpose: "The last ten minutes of every session: XP, a three-minute retrospective, and the log. Taught at the close of Session 1 and run every session after."
 ---
 
 # End-of-Session Ritual (≈10 minutes)
 
-**The Zoltar card fires at the close (Boot §2a) before XP.** **Order:** cliffhanger or close → Zoltar → XP → retrospective → Co-GM logs. Skip XP in Sessions 0–3 (the Teaching Ladder introduces it at S4); the retrospective runs from Session 1. Skip all of this in a mock.
+**The Zoltar card fires at the close (Boot §2a) before XP.** **Order:** cliffhanger or close → Zoltar → XP → retrospective → Co-GM logs. XP and the retrospective run **every session from Session 1** (Session 0 has no score). Skip all of this in a mock.
 
 ## 1. XP (SRD)
-Per PC, for each **XP trigger** on their sheet: **1 XP if it happened, 2 if it happened a lot**; they may mark XP on any track they want (an attribute or the playbook track). Desperate rolls already gave XP in the moment. Then the **crew XP triggers** (`GM-Rules-Reference.md` Part 3): 1 each, 2 if multiple or major.
-- 🗣 **SAY** *(calm, practical)*: "XP time. Each of you: which of your triggers happened tonight, and was it once or a lot?" ⏸ **REACTION STOP** after each PC.
+Per PC, for each **XP trigger** on their sheet: **1 XP if it happened, 2 if it happened a lot**; mark it on **any track** (an attribute or the playbook track). Desperate-roll XP was already marked on the attribute in the moment. Then the **crew XP triggers** (`GM-Rules-Reference.md` Part 3): 1 each, 2 if multiple or major.
+- 🗣 **SAY** *(first time, S1 only; ≤ 30 s)*: "At the end of every session you mark **XP** from three triggers: your playbook's trigger, expressing your beliefs, drives, heritage or background, and struggling with your vice or a trauma. One XP each, two if it happened a lot. Fill a track and you advance. It's levelling up, but spread across what you actually did."
+- 🗣 *Indulging a vice alone earns no XP (unless you overindulge); struggling with it does.*
+- ❓ **ASK EACH PLAYER** *(one at a time, every session)*: "XP time. Which of your triggers happened tonight?" ⏸ **REACTION STOP.** Then: "Once, or a lot?" ⏸ **REACTION STOP** after each PC.
+- 🗣 **SAY** *(crew XP, the four SRD triggers; first time and whenever asked)*: "The firm marks XP too: **(1)** you did what this firm is for (an Anchor, Relic or Biological job); **(2)** you took on something above your station; **(3)** you built or bolstered the firm's reputation; **(4)** something showed what kind of firm this is." ❓ **ASK THE TABLE:** "Which of those happened tonight, once or a lot?" ⏸ **REACTION STOP.** *(1 crew XP each, 2 if it happened a lot; up to 8. The crew track is 8.)* **If any track is full: 🗣 teach Ladder card 22 (one SAY), clear it, and take the advance.**
 - Co-GM keeps the tally; the GM confirms. Log it on the advancement note in the crew file (what was taken, when, and the one-sentence "how we got it").
+
+## 1b. Night log
+After the retrospective, append the night's row to `05-Sessions/Night-Log.md` (beat reached, finished or not, natural stop or out of time, and the GM's one word: dragged, right, or rushed). No clock.
 
 ## 2. Three-minute retrospective
 `❓ ASK EACH PLAYER`, one player and one question at a time (the Co-GM asks one question per message):
@@ -54,6 +60,6 @@ At the end of every session, generate a **Session Cold Open** for the next sessi
 >
 > **Remember:**
 > * Elias Thorne met you after the job and offered to be your friendly voice inside the Ministry. *(Add a specific "detail that was wrong" **only** if a player explicitly caught and questioned it — never spoil an uncaught tell.)*
-> * The Ministry Audit clock may be ticking depending on how the Gland was handled. Check your fallout.
+> * If you kept anything off the books, it is still in the shop, and it is humming.
 
 **Where it lives:** At the top of the next session's prep file, under `## Session Cold Open`, before `## Prep`. The GM reads it to the players as the session opens. It is the only section in the prep file that is player-facing in its entirety.

@@ -7,7 +7,7 @@ last_updated: 2026-11-16
 
 # Mechanics Teaching Ladder
 
-> **Principle:** teach **in the fiction, one thing at a time, at the moment it matters** — never a rules lecture. **Max 2 new mechanics per beat, 4 per session.** Everything else waits. A player who understood *three* things and enjoyed the night is better than one who heard *eleven* and is lost.
+> **Principle:** teach **in the fiction, one thing at a time, at the moment it matters** — never a rules lecture. **Max 2 new mechanics per beat, 4 per session** (two documented exceptions: the S0 Trial Run, which teaches dice, Position+Effect, Stress and Resistance as one chain split by a ⏸ at Resistance; and **S1, the loop tutorial**, which teaches four lesson-bundles — Load+Engagement+Flashback, Devil's Bargain+Clocks, Heat→Entanglement→Vice, XP — each with at most three small pieces; a downtime activity is explained only when a player picks it). Everything else waits. A player who understood *three* things and enjoyed the night is better than one who heard *eleven* and is lost.
 
 **Standing training wheels (Sessions 0–3; fade after):**
 1. **Say Position & Effect out loud before every roll.** (Always.)
@@ -25,10 +25,10 @@ last_updated: 2026-11-16
 | Session | **Teach (new)** | **Reinforce** | **Defer** *(don't mention)* |
 |---|---|---|---|
 | **0** | Dice basics (6 / 4–5 / 1–3); Position & Effect; Stress; **Resistance (practice only)**; the 12 actions via *"describe what you do; I'll name it"* — via the **Trial Run** | — | everything else |
-| **1** | **Flashback** · **Devil's Bargain** *(taught with **clocks**: the bargain's price is a clock tick, so card 17 comes with it, as a 20-second moment the first time a clock is on the TV)* · **Vice & Heat** (Downtime) · **Desperate = XP** · **Load** *(GM 2026-11-21: taught in S1, **paired with Flashback** as one "getting the gear you need" lesson: you carry some, anything else is a Flashback; so S1 is still 4 lessons)* | **Resistance** *(practised in S0)*; Position & Effect; Stress | Group Action, Engagement-roll math, Acquire Assets, Entanglements, Harm tables (only name harm when it happens). *The Ministry Audit clock is **GM-secret until S4**: tick it behind the screen, never on the TV, never explained* |
-| **2** | **Group Action** · **Assist** · **Twice-Born Favor** | Resistance; Flashback | Entanglements, Acquire Assets, XP |
-| **3** | **Entanglements** · **Acquire Assets** · **Push Yourself** (if not already) | Everything above | Trauma tables, advancement |
-| **4+** | Spoilage/Audit/Decay clocks as they appear · **Harm** levels · **XP & advancement** | — | — |
+| **1** | **Flashback** · **Devil's Bargain** *(taught with **clocks**: the bargain's price is a clock tick, so card 17 comes with it, as a 20-second moment the first time a clock is on the TV)* · **Heat → Entanglement → Vice** (the downtime sequence after a score) · **XP** (Desperate XP in the moment, and the end-of-session tally) · **Load** *(GM 2026-11-21: taught in S1, **paired with Flashback** as one "getting the gear you need" lesson: you carry some, anything else is a Flashback; so S1 is still 4 lessons)* | **Resistance** *(practised in S0)*; Position & Effect; Stress | Group Action, Engagement-roll math, Acquire Assets, Harm tables (only name harm when it happens). *The Ministry Audit clock is **GM-secret until S4**: tick it behind the screen, never on the TV, never explained* |
+| **2** | **Group Action** · **Assist** · **Twice-Born Favor** | Resistance; Flashback; Entanglements; XP | Acquire Assets |
+| **3** | **Acquire Assets** · **Push Yourself** (if not already) | Everything above, including Entanglements and XP | Trauma tables |
+| **4+** | Spoilage/Audit/Decay clocks as they appear · **Harm** levels · **advancement** (*taught the first time a track fills, which can be as early as the S1 close*) | — | — |
 
 > **If the table already "gets" a mechanic early, skip ahead. If they don't, repeat it — do not add a new one.**
 
@@ -64,6 +64,7 @@ Each: **SAY** (≤30 s, D&D bridge) · **SHOW** (example) · **CHECK** (a questi
 ### 6. Resistance *(S0 practice → S1; the most important one)*
 - **SAY:** "You don't have to accept a consequence. **Resist it:** roll one of your *Insight / Prowess / Resolve* (which one depends on the consequence), take the **highest die**, and **spend Stress equal to 6 minus that die.** On a 6, it costs **zero**. The consequence is reduced or gone. It's like a reaction — but you choose it *after* you see the hit."
 - **SHOW:** "A 4 → 2 Stress. A 6 → 0."
+- **ALSO SAY** *(once, after the first resistance roll)*: "If a resistance roll comes up a critical, you clear 1 Stress."
 - **CHECK:** "Want to take that, or resist it?" *(Ask **every** time through Session 3.)*
 - **WATCH FOR:** "resistance can fail" — it can't; the die only sets the cost.
 
@@ -76,7 +77,7 @@ Each: **SAY** (≤30 s, D&D bridge) · **SHOW** (example) · **CHECK** (a questi
 - **SAY:** "I can offer you **+1 die** now if you accept a complication *regardless of the roll* — a clock ticks, a witness shows up. You can always say no."
 - **WATCH FOR:** players hearing it as a trap. It's a *trade.*
 
-### 9. Heat & Vice *(S1 Downtime)*
+### 9. Heat, Entanglement & Vice *(S1 Downtime; Heat and Entanglement are ONE card, card 13 below)*
 - **SAY (Downtime):** "After a job each of you gets **two free activities, any two** (Indulge Vice is a good pick if you're carrying Stress; extra ones cost 1 Coin or 1 Rep)." **SAY (Heat):** "Heat is the attention you drew. High Heat means the world comes knocking." **SAY (Vice):** "Roll dice equal to your **lowest** attribute; **clear Stress** equal to the highest die. If it clears more than you had, you *overindulge* — and something happens (pick it, don't dread it)."
 
 ### 10. Group Action *(S2)*
@@ -88,8 +89,8 @@ Each: **SAY** (≤30 s, D&D bridge) · **SHOW** (example) · **CHECK** (a questi
 ### 12. Twice-Born Favor *(S2)*
 - **SAY:** "Protecting a Twice-Born earns a **Favor** (max 3). Spend them for safe harbor, rare gear, or lore. They also *notice* what you do."
 
-### 13. Entanglements *(S3)*
-- **SAY:** "After a score, you roll to see *which* trouble comes — an entanglement follows every score, and your Heat decides how bad. Low Heat, low risk — and it's the engine for *consequences with consequences.*"
+### 13. Entanglements *(S1, in the downtime sequence after the first score)*
+- **SAY:** "After a score, I roll to see *which* trouble comes — an entanglement follows every score, and your Heat decides how bad. Low Heat, low risk — and it's the engine for *consequences with consequences.*"
 
 ### 14. Acquire Assets *(S3)*
 - **SAY:** "In Downtime you can **get gear or a service** for a score. Roll your crew's **Tier** (at Tier 0, roll two dice and take the *lower*). The result sets the *quality* of the asset relative to your Tier: **1–3 one level below, 4–5 your Tier, 6 one above** (a critical, if you have dice to roll one, two above). Spend 1 Coin after the roll to raise the result a step; a friend or contact helping gives +1d."
@@ -116,7 +117,8 @@ Each: **SAY** (≤30 s, D&D bridge) · **SHOW** (example) · **CHECK** (a questi
 - **WATCH FOR:** players treating it as bookkeeping. Make it the "I always carry one of these" moment. Some items count as two; italic items don't count at all.
 - **Pairing with Flashback:** *"Anything you didn't pack, you can still have, if you prepared it earlier: that's a Flashback."* Load is what you carry; Flashback is what you prepared.
 
-### 18b. **XP/Advancement** *(S4+)*, **Trauma tables** *(when first hit)*.
+### 18b. **XP tally** *(S1, at the first session close)*, **advancement** *(the first time a track fills)*, **Trauma tables** *(when first hit)*.
+- **Cards 19–24 (Spoilage, Audit, Decay, XP tally, Trauma, Wanted):** `00-Canon/Mechanics-Teaching-Ladder-S4-Plus.md`.
 
 ---
 

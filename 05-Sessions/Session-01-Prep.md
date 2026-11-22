@@ -5,7 +5,7 @@ title: "The Standard Job"
 status: Prep
 runtime: "~3 hours"
 goal: "Teach the Blades loop — Engagement → Action → Consequence → Resistance → Downtime — through a job that is funny on the way in and heartbreaking at the locker."
-mechanical_focus: "TEACH (four lessons): gear = Load + Flashback; Devil's Bargain + Clocks; Vice & Heat; Desperate = XP. REINFORCE: Resistance (practised in S0), Position/Effect, Stress. DEFER to Session 2: Group Action. (See 00-Canon/Mechanics-Teaching-Ladder.md — max 4 new mechanics tonight.)"
+mechanical_focus: "TEACH (four lessons): gear = Load + Flashback; Devil's Bargain + Clocks; Heat → Entanglement → Vice (the downtime sequence); XP (Desperate + the end-of-session tally). REINFORCE: Resistance (practised in S0), Position/Effect, Stress. DEFER to Session 2: Group Action. (See 00-Canon/Mechanics-Teaching-Ladder.md — max 4 new mechanics tonight.)"
 ---
 
 # Session 1 — The Standard Job
@@ -16,8 +16,8 @@ mechanical_focus: "TEACH (four lessons): gear = Load + Flashback; Devil's Bargai
 
 ## RUN SHEET (read this first)
 
-**Time budget:** Free play 10 → Plan/Engagement 10 → Approach 10 → Theater 25 → Locker 10 → The Surge 30 → The Choice 15 → Thorne debrief 10 → Downtime 35 (≈2h35 + slack).
-**Cut-list if running long:** 1) Bernard the janitor (skip it on a Critical engagement roll); 2) the vocal pause in the Fairground walk; 3) the aftermath stage-prop gags (keep one); 4) the Overindulgence beat; 5) run Downtime in House Rules C9 "text-message" mode (two activities, one sentence each). *(Keep the Cover Story Roulette: it comes back in Session 2. Keep Double Bookkeeping and Downtime Step 3 when the crew chose them.)*
+**Time budget:** Cold open 5 → Free play 10 → Plan/Engagement 10 → Approach 10 → Theater 25 → Locker 10 → The Surge 30 → The Choice 15 → Thorne debrief 10 → Mara glimpse 3 → Downtime 35 (incl. the Entanglement, 5) → Close: Zoltar + XP tally (incl. crew XP) + retro 15 (≈3 h 00 + slack; the fight path runs long: use the cut-list early).
+🔒 **If they attack anyone (Thorne, Bernard, Gerald, the Councilman):** `05-Sessions/Lethal-Path-Quick-Table.md`. **Cut-list if running long:** 1) Bernard the janitor (skip it on a Critical engagement roll); 2) the vocal pause in the Fairground walk; 3) the aftermath stage-prop gags (keep one); 4) fast-forward Overindulgence to a one-line pick (the consequence still happens); **Never cut the Entanglement roll or the XP tally** (resolve the Entanglement with its SRD ways out in one exchange; shrink the retro to one question); 5) run Downtime in House Rules C9 (text mode **keeps Greta and the Entanglement**) "text-message" mode (two activities, one sentence each). *(Keep the Cover Story Roulette: it comes back in Session 2. Keep Double Bookkeeping and Downtime Step 3 when the crew chose them.)*
 
 | Beat | What | Trigger | 🎵 Music | 🖼 Image | 🎭 Comedy | Teaches |
 |---|---|---|---|---|---|---|
@@ -29,15 +29,15 @@ mechanical_focus: "TEACH (four lessons): gear = Load + Flashback; Devil's Bargai
 | 4a | Theater lobby | "go" | `music-theater-loop` | `location-fairground-theater` → `npc-bernard-janitor` ✅ *(optional, when he rounds the corner)* | Bernard the janitor | Position & Effect *(reinforce)* |
 | 4a-ii | The dark auditorium | inline | *(continues: `music-theater-loop`)* | `location-theater-auditorium` ✅ *(on the TV as the read-aloud begins)* | — | Position |
 | 4b | Gerald in the basement | — | *(continues: `music-theater-loop`; no sting)* | caption "The basement stairs" for the build-up, then `npc-gerald-dog` ✅ with the flip | 🟢 GERALD | **Devil's Bargain + the Detection clock** |
-| 5 | Merton's locker 🔴 | "go" | `music-s01-mertons-locker` | `location-merton-locker` ❌ *(optional; until it exists: title card, caption "Locker 7")*; `npc-merton-human` only if he appears | 🔴 none | Study; Anchor weight |
+| 5 | Merton's locker 🔴 | "go" | `music-s01-mertons-locker` | `location-merton-locker` ❌ *(optional; until it exists: title card, caption "Locker 7")*; caption "Merton", no image (`npc-merton-human` shows a desk, not the corridor) | 🔴 none | Study; Anchor weight |
 | 6 | True form & The Surge | "go" | `music-s01-true-form-reveal` → `music-s01-merton-fight` | `npc-merton-reveal` ❌ *(optional; the reveal: standing, hands out. Until it exists: title card, caption "Merton"; the Surge clock appears with the flare)*; `npc-merton-true-form` *(crouched, chained, collar on)* only once he is chained in the pump room or the Surge is held | 🔴/🔵 during the Surge; the Lever & stage-prop gags only after it resolves (aftermath) | **Resistance** *(reinforce)*, **Desperate = XP**; Harm *(just in time)* |
 | 7 | The Choice 🔴 | "go" | `music-s01-the-choice` | `item-leather-collar` | 🔴 none | **Anchor Ledger** |
-| 8 | Thorne arrives | "go" | `music-s01-elias-thorne` | `npc-elias-thorne` | — | *(Tells 1, 2, 6)* |
+| 8 | Thorne arrives | "go" | `music-s01-elias-thorne` | `npc-elias-thorne` | — | *(Tells 1 & 2; the ring, Tell 6, is worn, never pointed out)* |
 | 9 | Outside — Mara | inline | *(deliberate silence — the music fades out)* | *(TV: title card, caption "The alley"; clears Thorne)* | — | *(plant)* |
-| D | Downtime | "go" | `music-bookshop-loop` | `location-curios-exterior` → `npc-greta-fenn` | Greta in person | **Vice & Heat**; Double Bookkeeping *(if used)* |
-| C | Close | end | `music-bookshop-loop` | `location-curios-exterior` *(clears Greta)* + Zoltar card | Zoltar's card | — |
+| D | Downtime | "go" | `music-bookshop-loop` | `location-curios-exterior` → `npc-greta-fenn` | Greta in person | **Heat → Entanglement → Vice**; Double Bookkeeping *(if used)* |
+| C | Close | end | `music-bookshop-loop` | `location-curios-exterior` *(clears Greta)* + Zoltar card | Zoltar's card | **XP tally** (first time) |
 
-> **Tonight's four lessons: (1) gear: Load + Flashback · (2) Devil's Bargain (taught with Clocks) · (3) Vice & Heat · (4) Desperate = XP.** Resistance was practised in Session 0. **Group Action, Harm tables (named when they happen) and Entanglements: deferred.**
+> **Tonight's four lessons: (1) gear: Load + Flashback · (2) Devil's Bargain (taught with Clocks) · (3) Heat → Entanglement → Vice · (4) XP (Desperate + the end-of-session tally).** Resistance was practised in Session 0. **Group Action and Harm tables (named when they happen): deferred.**
 
 **Asset status:** all required assets exist; optional ❌: `location-merton-locker`, `npc-merton-reveal`, `location-curios-interior` (see `11-Visuals/ASSET-TODO.md`). If missing → `[IMAGE CUE: … — not yet generated]`.
 
@@ -101,7 +101,7 @@ Councilman Pruitt's bulldog **Gerald** is boarded most nights at the Fairground 
 >
 > "Inside the envelope: a grainy photograph of a local politician's dog — a bulldog sitting very upright, looking directly at the camera — except the dog has two human hands where its front paws should be. One of them is waving. Attached is a wanted poster. **PEST CONTROL AUTHORIZED.** Retrieval of biological anomaly required. Do not discuss with media. Do not engage civilians. Payout: minimal."
 
-🖼 **[PLAYER SCREEN: card style `contract`, title "MINISTRY — PEST CONTROL AUTHORIZED", lines: "BIOLOGICAL ANOMALY — RETRIEVAL REQUIRED" · "SUBJECT: ONE (1) BULLDOG, HANDS PRESENT" · "DO NOT DISCUSS WITH MEDIA" · "DO NOT ENGAGE CIVILIANS" · "PAYOUT: MINIMAL"]** *(fire it as the second read-aloud begins; clear it when the table moves on to the plan)*
+🖼 **[PLAYER SCREEN: card style `contract`, title "MINISTRY — PEST CONTROL AUTHORIZED", lines: "BIOLOGICAL ANOMALY — RETRIEVAL REQUIRED" · "SUBJECT: ONE (1) BULLDOG, \"GERALD\", HANDS PRESENT" · "DO NOT DISCUSS WITH MEDIA" · "DO NOT ENGAGE CIVILIANS" · "PAYOUT: MINIMAL"]** *(fire it as the second read-aloud begins; clear it when the table moves on to the plan)*
 
 > 🎭 **COMEDY BEAT — Consequence & "Minimal" (🟡):**
 >
@@ -119,7 +119,7 @@ Councilman Pruitt's bulldog **Gerald** is boarded most nights at the Fairground 
 > ⏸ **REACTION STOP.**
 
 🗣 **SAY:** *"The Ministry brief says pest control: find whatever is causing this and clear it out. Anything unusual you find down there could also fetch real money, quietly, if you don't log it."*
-❓ **ASK THE TABLE:** *"What do you want to do before you head out?"* ⏸ **REACTION STOP — next part depends on:** their plan.
+❓ **ASK THE TABLE:** *"What do you want to do before you head out?"* *(Stall help, once: scope the night shift · scout the stage door · study the photograph.)* ⏸ **REACTION STOP — next part depends on:** their plan.
 
 ---
 
@@ -161,7 +161,7 @@ Councilman Pruitt's bulldog **Gerald** is boarded most nights at the Fairground 
 > 🔒 **GM ONLY — fallback Position / Effect if you skip the roll, and the complication for each plan:**
 > 1. **Front door, professional cleanup:** Risky / Standard. Complication: the janitor comes down for coffee at 11 pm. Always.
 > 2. **Alley break-in after hours:** Controlled / Standard (Prowl); Risky / Standard otherwise. Complication: the Apex van is watching.
-> 3. **Scope out the night shift:** Risky / Limited. Complication: the night guard mistakes a PC for someone from the photograph and goes very still.
+> 3. **Scope out the night shift:** Risky / Limited. Complication: the night janitor (Bernard) mistakes a PC for someone from the photograph and goes very still.
 
 ❓ **ASK EACH PLAYER** *(one at a time, now that the plan is chosen)*: *"Light, Normal or Heavy?"* ⏸ **REACTION STOP.** *(Default Normal if nobody picks.)*
 🗣 **SAY:** *"I'll tell you how many dice. Roll them, and tell me the highest."*
@@ -237,7 +237,7 @@ Councilman Pruitt's bulldog **Gerald** is boarded most nights at the Fairground 
 
 > 🎭 **COMEDY BEAT — GERALD (🟢 FULL SCOOBY):**
 > 🔊 **READ ALOUD (the dread build-up; TV: caption "The basement stairs", no image):**
-> "At the bottom of the stairs, in the dark, something large is sitting on a stool. It is very still. It is *shaped* wrong — broad, hunched, with long pale fingers resting on its knees. Whatever it is, it has been waiting for you. The fingers lift. Slowly. They *wave.*"
+> "At the bottom of the stairs, in the dark, something large is sitting on a stool. It is very still. It is *shaped* wrong — broad, hunched, sitting upright with great dignity. Whatever it is, it has been waiting for you. Slowly, it turns its head to look at you."
 >
 > ⏸ **PAUSE — a beat of silence, then "go" for the flip** *(the Gerald image goes on the TV now)*.
 >
@@ -252,7 +252,7 @@ Councilman Pruitt's bulldog **Gerald** is boarded most nights at the Fairground 
 > - **A PC raises a weapon:** "Gerald covers his eyes with both hands."
 > - **Merton is mentioned:** "Gerald isn't afraid of Merton at all — he's slightly afraid of whoever looks most like the Ministry."
 >
-> 🔊 **READ ALOUD:** "Beyond Gerald's stool, the basement corridor runs on: a cot, a hot plate, and a row of dented staff lockers. One padlock hangs open."
+> 🔊 **READ ALOUD:** "Beyond Gerald's stool, the basement corridor runs on: a cot, a hot plate, and a row of dented staff lockers. One padlock hangs open. At the far end, three steps lead down to a humming pump room with a heavy iron ring bolted into the wall."
 > ❓ **ASK THE TABLE:** *"What do you do?"* ⏸ **REACTION STOP.**
 >
 > 🔒 **GM ONLY — Mechanics:** Study (Insight) on Gerald → a small Resonance *leak* in the air, coming from deeper in the basement, warm and leathery — the first clue the problem is the **collar**, not the dog.
@@ -260,6 +260,7 @@ Councilman Pruitt's bulldog **Gerald** is boarded most nights at the Fairground 
 **When a PC Studies or tries to calm Gerald (the first Devil's Bargain and the first clock; two lessons):**
 1. 🗣 **SAY** *(Devil's Bargain)*: *"I can offer you +1 die now if you accept a complication whatever the roll: if you do this, Gerald gets delighted and extremely loud, so Detection ticks. You can always say no."* ❓ **ASK:** *"Do you take it?"* ⏸ **REACTION STOP.**
 2. **If they take it:** 🔊 **READ ALOUD:** *"Gerald claps once. The sound rolls off every wall like a dropped tray, and then he looks guilty."* Then 🗣 **SAY** *(the first clock)*: *"That's a **clock**: a circle of segments. When it fills, something happens. This one is **Detection**: it has four segments, one is filled, and when it fills, someone notices you. I'll tick it where you can see it, so you can decide with the information."* ❓ **ASK:** *"So what happens if it fills?"* ⏸ **REACTION STOP.**
+2b. 🔒 **Then resolve the roll the +1d was for:** Study or calm Gerald is **Controlled / Standard**; roll the dice (including the +1d) and give what they learn (a 6: the leak comes from the collar; 4–5: partial; 1–3: Gerald panics and Detection ticks once more).
 3. **If they refuse:** no tick; the roll is one die lighter. Run the clock SAY at the first real Detection tick instead.
 > 🔒 **GM ONLY — Exposure link:** Gerald is the cover-up problem — a dog with hands is a witness with a *very good phone camera* if the councilman's staff see him. The crew must decide his fate (see Beat 7).
 
@@ -274,7 +275,7 @@ Councilman Pruitt's bulldog **Gerald** is boarded most nights at the Fairground 
 
 > 🔊 **READ ALOUD:**
 >
-> "The padlock isn't even closed. Inside Locker 7: a work shirt on a wire hanger, pressed by someone who has pressed it many times. A thermos that smells like instant coffee. A paperback western with a bus ticket for a bookmark, still on page 112, as if for years. Inside the door, a keychain photograph behind a layer of plastic gone yellow with age: a woman and two children, squinting at a sun that set a century and a half ago.
+> "The padlock isn't even closed. Inside Locker 7: a work shirt on a wire hanger, a name patch stitched over the pocket (MERTON), pressed by someone who has pressed it many times. A thermos that smells like instant coffee. A paperback western with a bus ticket for a bookmark, still on page 112, as if for years. Inside the door, a keychain photograph behind a layer of plastic gone yellow with age: a woman and two children, squinting at a sun that set a century and a half ago.
 >
 > Someone made it for him. Someone who knew exactly what he wanted to hold onto.
 >
@@ -308,7 +309,7 @@ It hangs on the nail. If a PC takes it, **the moment they do**, Merton appears b
 
 > ⏸ **PAUSE — "go" for the reveal.**
 
-**[IMAGE CUE: npc-merton-reveal.png]** ❌ *(optional; until it exists: caption "Merton", no image. `npc-merton-true-form.png` shows him crouched and chained with the collar on, so use it only once he is chained at the pump-room ring or the Surge is held.)*
+**[IMAGE CUE: npc-merton-reveal.png]** ❌ *(optional; until it exists: caption "Merton", no image. `npc-merton-true-form.png` shows him crouched and chained with the collar on, so use it only once he is chained at the pump-room ring or the Surge is held, **and no PC is holding the collar** (otherwise caption "Merton", no image).)*
 **[MUSIC CUE: music-s01-true-form-reveal.mp3]** *(on "go" — runs under the read-aloud)*
 
 > 🔊 **READ ALOUD:**
@@ -317,7 +318,9 @@ It hangs on the nail. If a PC takes it, **the moment they do**, Merton appears b
 >
 > 'You came for the collar,' he says. It is not a question."
 
-→ **If nobody took the collar** *(he took it down himself)*: 🔊 **READ ALOUD:** "He holds the collar out in both hands, as if to give it to you." *(The Surge still starts early: the collar is cracked, not whole, so being near it is no longer enough.)*
+→ **If nobody took the collar** *(he took it down himself, or a PC handed it back)*: 🔊 **READ ALOUD:** "He holds the collar out in both hands, as if to give it to you." *(The Surge still starts early: the collar is cracked, not whole, so being near it is no longer enough.)*
+> 🗣 **SAY** *(Merton — quiet, pleading)*: *"Please."* 🗣 **SAY** *(Merton — quieter)*: *"I have a few minutes. I would like to spend them **not** doing this."*
+> ❓ **ASK THE TABLE:** *"What do you do?"* ⏸ **REACTION STOP — 🔴 no jokes.** The table decides.
 
 → **If a PC took the collar** *(it pulls at him; the Surge starts early)*:
 > 🔊 **READ ALOUD:** "He looks at wherever you are keeping it."
@@ -329,35 +332,37 @@ It hangs on the nail. If a PC takes it, **the moment they do**, Merton appears b
 > 🔒 **GM ONLY:**
 > The collar is failing. At midnight each night Merton walks to the **pump room** — a low, sunken chamber at the far end of the basement corridor, a few steps down, where the sump pumps never stop humming — and chains himself to a bolted ring until the Surge passes. *(The city's water table is about a storey down, so nobody builds a second level: this is a pumped sump, not a sub-basement.)* Tonight the crew is *in the way of the walk* — and the Surge starts early.
 >
-> **The Surge Clock — 6 segments.** It ticks on any 1–3, on loud noise, on a PC touching the collar without permission, and *once per scene* regardless. **Full:** Merton loses control — Desperate position for everyone, Level 2 harm on the table, Detection +2.
+> **The Surge Clock — 6 segments.** It ticks on any 1–3, on loud noise, on a PC touching the collar without permission, and *once per scene* regardless. **Full:** Merton loses control — Desperate position for everyone, **Level 3 harm on the table** (his blows), Detection +2. **Detection full:** the Apex van's dish turns toward the theatre and the exposure becomes loud (Heat base 4).
 >
 > **Every path teaches the combat tutorial.** There is no "must fight" — there is only *the Surge.* Crew options:
 > - **Soothe** (Attune / Command / Consort) — use the photograph, the collar, Gerald, his name. Each success **removes 1 segment**.
 > - **Restrain** (Skirmish / Wreck) — the chain, the ring, the stage rigging. Success: Merton is held. *Costs:* harm to the restrainer.
 > - **Run the Surge out** (Prowl / Survey) — lead it around the theater until midnight passes. *(If they coordinate it, that is a Group Action: see the bridge below; it is taught in Session 2.)*
+> - **Mend now** (Tinker or Attune, Desperate; needs the silver rune-thread from the Load or a Flashback): a success **empties the Surge clock** and Merton walks.
 > - **Take the Gland.** Only possible while Merton is down. **It kills him.** (The Ministry calls this "retrieval.") Never forced; always on the table.
 > - **Return the collar** — see "The Fourth Option" below.
 >
 > 🔒 **GM ONLY — IF THEY FIGHT TO KILL (allowed; added 2026-11-21).** *No jokes. Gore is fine; nothing is softened.*
-> - **Merton's Subdue clock (6 segments)** tracks how hurt he is. Each successful attack ticks it. **Position Desperate**; **Effect Limited** while the collar is intact (it armours him: his Holy Weakness), **Standard** once it is cut.
+> - **Merton's Subdue clock (6 segments)** tracks how hurt he is. Each successful attack ticks it. **Position Desperate**; **Effect Limited** while the collar is intact (it armours him: his Holy Weakness). A hit ticks the clock by effect: Limited 1, Standard 2, Great 3.
 > - **His blows:** **Level 2 harm** on a hit; **Level 3** if the Surge clock has filled. He fights to *stop*, not to kill: he apologises as he does it. (Resistance always offered; Desperate = XP applies.)
-> - **Ending it fast (Holy Weakness):** severing the collar (a Critical on Study reveals it; or a PC with the collar in hand cuts it) removes his armour and drops his threat to zero. He collapses and is *gone within 1d6 hours* (the Ministry-collar outcome).
-> - **A kill (Subdue full, or the Gland):** **+2 Heat** (killing draws attention), the Gland is theirs (it kills him), **Twice-Born standing −1** (they hear), the photograph is evidence. Gerald hides with his hands over his eyes. The Ministry pays the 4 Coin; the crew keeps the collar if they want it. **Heat is +2 for the killing in total, not +4** (it does not stack with the keep-it option).
+> - **Ending it fast (Holy Weakness):** severing the collar (a Critical on Study reveals it; or a PC with the collar in hand cuts it) removes his armour and **ends the fight**: he collapses and is *gone within 1d6 hours* unless the crew acts. He is down and alive, so the full Choice menu below still applies (mend and return, the Ministry, the Gland).
+> - **When the Subdue clock fills he is down and alive.** **A kill** happens only if a PC declares a killing blow once he is down, or takes the Gland: **+2 Heat** (killing draws attention), the Gland is theirs (it kills him), **Twice-Born standing −1** (they hear), the photograph is evidence. Gerald hides with his hands over his eyes. The Ministry pays the 4 Coin; the crew keeps the collar if they want it. **The +2 for a death applies once** (see the single Heat line in Downtime).
 > - **Offer the other doors once, in the fiction, not as a lecture:** *"He's stopped swinging. He's looking at the photograph."* Then let the table decide. A PC at **Level 4 harm** is out; fatal harm only if the table accepts it (the Co-GM offers Resistance and a Flashback first).
 
 **[MUSIC CUE: music-s01-merton-fight.mp3]** *(on "go": fire at the "collar flares" read-aloud below, when the Surge starts early; not before)*
 > 🔊 **READ ALOUD** *(when the Surge starts early)*: "The collar flares. Merton bolts up the basement stairs and out onto the dark stage."
 > 🗣 **SAY** *(the Surge clock goes on the TV; if Detection has not yet ticked tonight, use the full first-clock line from Gerald's beat instead of "a second clock")*: *"A second clock. This one is the **Surge**: when it fills, Merton loses control. Soothing him drains it; making noise fills it."*
-> ❓ **ASK THE TABLE:** *"What do you do?"* ⏸ **REACTION STOP — next part depends on:** their approach (soothe, restrain, run it out, or worse).
+> ❓ **ASK THE TABLE:** *"What do you do?"* *(Stall help, once: soothe him with the photograph · restrain him at the ring · run the clock out.)* ⏸ **REACTION STOP — next part depends on:** their approach (soothe, restrain, run it out, or worse).
 
+> **[PLAYER SCREEN: image null, caption "The stage"]** *(set this before the gags so no comic banner sits over the chained-monster picture)*
 > 🎭 **THE LEVER + STAGE-PROP GAGS (🟢 AFTERMATH ONLY):** *(Menace Rule: the Surge is 🔴/🔵 and gets no jokes. Run these only after the Surge has resolved: Merton held or soothed, or the Surge Clock emptied, while the crew catches its breath.)*
 >
 > 🔊 **READ ALOUD:** *"In the wings, Gerald — desperate to help — pulls a big red backstage lever. It is marked DO NOT PULL. Somewhere above you, the 1974 production wakes up."* **[PLAYER SCREEN: banner "DO NOT PULL"]**
 >
 > *Use one per beat in the aftermath, while the crew tidies the stage:*
-> - 🔊 **The fog machine:** "Fog fills the stage. Everyone is in a ghost story and can't see each other."
+> - 🔊 **The fog machine:** "Fog fills the stage. The stage is a ghost story."
 > - 🔊 **The trapdoor** *(flavour only; aftermath, no roll)*: "A trapdoor under the stage gives a long, creaking sigh."
-> - 🔊 **The rotating stage:** "The stage begins to turn, slowly, with all of you on it, and Gerald, who thinks it is a ride."
+> - 🔊 **The rotating stage:** "The stage begins to turn, slowly, with Gerald on it, who thinks it is a ride."
 > - 🔊 **Gerald throws something:** "From the wings, Gerald hurls something with his human hands. It is a clipboard. It is the Ministry's clipboard."
 
 ### Combat & Downtime Tutorial Bridges (use as they trigger)
@@ -365,28 +370,25 @@ It hangs on the nail. If a PC takes it, **the moment they do**, Merton appears b
 * **Devil's Bargain menu:** +1d for ticking Detection **or** damaging gear *(never during the Surge for a gag)*.
 * **Resistance (decide FIRST, roll AFTER):** 🗣 **SAY** *"The complication lands — but you don't have to accept it. You decide **before** you roll: do you want to resist?"* ❓ **ASK:** *"Do you want to resist — yes or no?"* ⏸ → **if yes:** 🗣 **SAY** *"Then roll your attribute; the higher the die, the cheaper it is."* **Prompt this every time tonight.**
 * **Group Action — *defer unless the table does it on their own* (taught in Session 2):** if the crew coordinates (the run-it-out), everyone involved rolls; the best die counts for the team; the *leader* takes **1 Stress per teammate whose best die was 1–3**.
-* **Desperate = XP** *(Ladder card 17b; teach at the first Desperate roll, win or lose)*: 🗣 **SAY** *"Whenever you roll a **Desperate** action, you **mark 1 XP** in that action's attribute, win or lose. Daring is rewarded."* At the Close, **"Mark any Desperate XP now."**
+* **Desperate = XP** *(Ladder card 17b; teach at the first Desperate roll, win or lose)*: 🗣 **SAY** *"Whenever you roll a **Desperate** action, you **mark 1 XP** in that action's attribute, win or lose. Daring is rewarded."* At the Close, **check that every Desperate XP was marked in the moment.**
 * **Harm** *(just in time)*: at the first harm, 🗣 **SAY** *"That's **Level [N] harm**: write it down; it lingers. Level 1 hampers you a little; Level 2 takes a die away."* **Subdue clock** *(only in a fight)*: 🗣 **SAY** *"A third clock: how hurt he is. When it fills, he's down."*
-* **Ladder rule:** max 4 new mechanics tonight — Flashback, Devil's Bargain, Vice/Heat, Desperate = XP (Resistance was practised in Session 0). See `00-Canon/Mechanics-Teaching-Ladder.md`.
+* **Ladder rule:** max 4 new mechanics tonight — Flashback, Devil's Bargain, Heat/Entanglement/Vice, XP (Resistance was practised in Session 0). See `00-Canon/Mechanics-Teaching-Ladder.md`.
 
 ---
 
 ## Beat 7 — The Choice 🔴
 
-> ⏸ **PAUSE — "go" when the Surge is over (resolved, held, soothed, or Merton is down).**
+> ⏸ **PAUSE — "go" when the Surge is over (resolved, held, soothed, or Merton is down).** *(On "go": clear the clocks, `clocks: []`, so they do not sit over the Choice.)*
 
 **[MUSIC CUE: music-s01-the-choice.mp3]** *(on "go")*
 **[IMAGE CUE: item-leather-collar.png]** *(when the collar is the focus)*
 
 🗣 **SAY** *(human cost first)*: *"The Surge is over. Whatever happens to the collar happens to Merton, and whatever happens to Gerald happens to Gerald. Here is what's on the table."*
-🗣 **SAY** *(the menu — one option per line)*:
-> *(Offer the Gland lines only if Merton is down. Taking the Gland kills him — say so. **The crew is hunters, so if any PC asks what could be harvested or sold from a Barghest, or Studies the body, answer straight: "an adrenal gland, worth real money, and taking it kills him."** Otherwise the Gland first comes up here.)* "**Hand everything to the Ministry** — the collar, the Gland (taking it kills Merton), and Merton's file. 4 Coin and no extra Heat. The collar is destroyed, and the photograph disappears into evidence.
-> **Quietly keep the Gland off the books** — roll Sway. If it works, you keep it clean. If it goes badly, the Ministry notices.
-> **Take the collar and the Gland and file nothing** — you keep both, and you take +2 Heat. The Ministry notices within two days."
-> 🔒 **GM ONLY:** if the crew keeps the Gland, it does **not** spoil yet: it keeps in the shop's cold cellar until Session 4 teaches Biological Spoilage and the Cold Storage Locker (house ruling 2026-11-20; do not mention a Spoilage Clock before S4).
-> 🔒 **GM ONLY — NO GLAND (Merton is not down):** drop the Gland lines. The menu is: **Hand the collar and Merton's file to the Ministry** (4 Coin, no extra Heat; the collar is destroyed and Merton is gone within a few hours) · **Quietly keep the collar off the books** (roll Sway) · **Take the collar and file nothing** (+2 Heat; the Ministry notices within two days) · and the Fourth Option below.
-→ **Add this fourth option ONLY if the crew has learned Merton's story (the locker, the photograph, his plea):**
-> *(Offer this one if the crew has learned Merton's story (the locker, the photograph, his plea). The glowing crack is visible in the collar on the TV, so no Study roll is needed to see it.)* "**Mend the collar and give it back** — there's a crack running through the old leather, glowing at the edge, right beside the brass tag. You can patch it well enough to stop tonight's leak. There's no payout and no credit."
+> 🔒 **GM ONLY — WHICH MENU:** if Merton is **down** (including after a sever), read **Menu A**; if he is soothed or held, read **Menu B**. Gland lines only when he is down; taking the Gland kills him: say so. **The crew is hunters: if any PC asks what could be harvested or sold from a Barghest, or Studies the body, answer straight: "an adrenal gland, worth real money, and taking it kills him."** Add the **Mend** line (below) only if the crew has learned Merton's story (the locker, the photograph, his plea).
+🗣 **SAY** *(Menu A: Merton is down; one option per line)*: *"**Hand everything to the Ministry**: the collar, the Gland (taking it kills Merton), and his file. Four Coin. The collar is destroyed and the photograph disappears into evidence. **Quietly keep the Gland off the books**: this is your Double Bookkeeping trick; roll Sway to fudge the paperwork you will file later. If it works, you keep it clean; if it goes badly, the Ministry notices. **Take the collar and the Gland and file nothing**: you keep both, and the Ministry notices within two days."*
+🗣 **SAY** *(Menu B: Merton is not down; one option per line)*: *"**Hand the collar and Merton's file to the Ministry**: four Coin. The collar is destroyed and Merton is gone within a few hours. **Quietly keep the collar off the books**: your Double Bookkeeping trick; roll Sway. **Take the collar and file nothing**: the Ministry notices within two days."*
+🗣 **SAY** *(the Mend line; the crack glows on the TV, so no Study roll is needed)*: *"**Mend the collar and give it back.** *(If it was severed:* "The strap is cut clean through; you can stitch it back together, a Desperate job."*)* There's a crack running through the old leather, glowing at the edge, right beside the brass tag. You can patch it well enough to stop tonight's leak. There's no payout and no credit."*
+> 🔒 **GM ONLY:** if the crew keeps the Gland, it does **not** spoil yet: it keeps in the shop's cold cellar until Session 4 teaches Biological Spoilage and the Cold Storage Locker (house ruling 2026-11-20; do not mention a Spoilage Clock before S4). Heat and Coin: see Step 0 and the single Heat line in Downtime.
 
 ❓ **ASK THE TABLE:** *"What does the crew do?"* ⏸ **REACTION STOP — next part depends on:** their choice. Give only the matching result.
 
@@ -400,7 +402,7 @@ It hangs on the nail. If a PC takes it, **the moment they do**, Merton appears b
 ### Gerald's fate *(a separate decision)*
 🗣 **SAY:** *"And Gerald. Three choices: hand him to the Ministry — he vanishes into Form 47-B. Return him to the councilman — his staff will see the hands. Or keep him — he rides in the van, and his hands are permanent."*
 ❓ **ASK THE TABLE:** *"What happens to Gerald?"* ⏸ **REACTION STOP.**
-> 🔒 **GM ONLY:** *Ministry:* he vanishes into Form 47-B. *Return him:* witness risk — **Detection +1** and a cover story. *Keep him:* he rides the van, he is the crew's Scooby; his hands are permanent (mending the collar only stops *further* bleed); Greta files **Form 47-B — "Specimen retained by firm for observation"** so the councilman can't have the crew arrested for dog-napping.
+> 🔒 **GM ONLY:** *Ministry:* he vanishes into Form 47-B. *Return him:* witness risk — **Heat +1** and a cover story. *Keep him:* he rides the van, he is the crew's Scooby; his hands are permanent (mending the collar only stops *further* bleed); Greta files **Form 47-B(ii) — "Specimen retained by firm for observation"** so the councilman can't have the crew arrested for dog-napping.
 
 ---
 
@@ -420,7 +422,7 @@ It hangs on the nail. If a PC takes it, **the moment they do**, Merton appears b
 
 > 🗣 **SAY** *(Thorne — warm)*: *"Elias Thorne. Ministry field liaison. I'm usually the one who calls you after the fact — I'd rather be here before it. I think firms like yours are the best thing this system's got."*
 > 🗣 **SAY** *(Thorne — casual, going through the paperwork; **pick the variant that matches what the crew actually has**)*:
-> - **They have the Gland:** *"Standard practice is to log the gland at the shop — your setup in the basement can hold it, yes?"*
+> - *(If Double Bookkeeping was a clean 6, use the no-Gland line: the Ministry does not know.)* **They have the Gland:** *"Standard practice is to log the gland at the shop — your setup in the basement can hold it, yes?"*
 > - **No Gland (they kept, mended or handed over only the collar):** *"Standard practice is to log whatever you recovered at the shop — your setup in the basement can hold it, yes?"*
 > *(Either way the Tell is the same: he knows about "the basement" nobody mentioned.)*
 > ⏸ **REACTION STOP — next part depends on:** whether anyone points out they never mentioned a basement.
@@ -455,9 +457,19 @@ It hangs on the nail. If a PC takes it, **the moment they do**, Merton appears b
 **[MUSIC CUE: music-bookshop-loop.mp3]** *(on "go")*
 **[IMAGE CUE: location-curios-exterior.png]** *(or `location-curios-interior` once it exists; caption "Downtime"; TV crew strip with Heat/Coin/Rep)*
 
-### Step 1 — Heat
-🗣 **SAY:** *"Heat is how much attention the crew drew. It rises after every score and, if it gets high, someone comes knocking."*
-> 🔒 **GM ONLY — HEAT:** use `07-Clocks/Heat-and-Entanglements.md` §1 (SRD: 0 smooth · 2 contained · 4 loud · 6 wild; +1 high-profile; +1 hostile turf; +1 at war; +2 if killing; Double Bookkeeping failed +1).
+### Step 0 — Payoff *(SRD order: payoff, Heat, Entanglement, then activities)*
+🗣 **SAY:** *"First, the score pays: every score earns **Coin** and **Rep**. Rep is how the city sees your firm."*
+> 🔒 **GM ONLY — PAYOFF:** **Rep +2** (the target is the crew's own Tier), or **0 if the crew kept it completely quiet** (the "file nothing" path). **Coin:** hand everything to the Ministry **4** (a small job) · **Double Bookkeeping (keep one item off the books) still files the bounty: 4 Coin, Rep +2** · mend and return **0** (no payout) · file nothing **0**. No tithe is owed yet (no boss). Put Coin and Rep on the crew strip after you say it.
+
+### Step 1 — Heat, and the Entanglement
+🗣 **SAY** *(one line, ≤ 30 s; taught here as one lesson, Ladder card 13)*: *"Heat is the attention you drew. After every score I also roll for the trouble that follows you home, an **Entanglement**: more Heat, worse trouble."*
+> 🔒 **GM ONLY — HEAT (one rule; use only this line):** base exposure (**0** smooth · **2** contained · **4** loud) **+2 if Merton died by any path** (a fight kill or the Gland; once, not per act) **+1 well-connected target** (the Councilman's bulldog) **+1 if the councilman's staff saw Gerald (returned him)** **+2 if they file nothing** (the Ministry notices). If Heat reaches **9**: Wanted +1, Heat clears, the excess rolls over (and the Entanglement dice follow the new Wanted level). "No extra Heat" elsewhere means no Heat beyond this line.
+> 🔒 **GM ONLY — ENTANGLEMENT (S1 only: roll now, HOLD the result until Greta arrives in Step 5; the SRD lets the GM hold it for the right moment).** Roll it yourself (dice = Wanted level; at Wanted 0 roll two dice and keep the **lowest**; read the column for the crew's current Heat). Never as a Greta phone call before Step 5: Greta delivers it **in person**, right after "Ah. You're real." Pick inside the rolled cell:
+> **Pick inside the rolled cell** (Wanted 0 = two dice, keep the lowest; column by Heat):
+> - **Heat 0–3:** **1–3** Gang Trouble if Gerald was **kept**, else The Usual Suspects on a **non-canon** Friend or Vice Purveyor the player volunteers (never Greta, Harlan, Kress, Drennick, Foss, Cosma) · **4–5** Rivals, or Unquiet Dead only if Merton died ("deal with it yourselves": Acquire Asset is not offered tonight) · **6** Cooperation lapses (no +3 faction): 🔊 "A quiet night: nobody comes calling." *(This is a result, not a skip.)*
+> - **Heat 4–5:** **1–3** Gang Trouble (Gerald kept) or Questioning · **4–5** Reprisals · **6** Show of Force.
+> - **Heat 6+:** **1–3** Interrogation (never Flipped) · **4–5** Show of Force · **6** Arrest. **Never Demonic Notice before S2.** Offer Resistance; tick the Audit silently.
+> Ministry rows tick the **Audit clock silently** (GM-secret until S4; before S4 silent ticks never take Audit past 3). Ready cues: `10-Generators/Entanglement-and-Complication-Cues.md`.
 
 ### Step 2 — Vice (Stress recovery) *(one option for your free activities; recommended if you have Stress; GM 2026-11-21: not forced)*
 🗣 **SAY:** *"Each of you has a Vice — what you do to unwind. Roll dice equal to your **lowest** attribute rating, and clear Stress equal to your **highest** die."*
@@ -467,13 +479,14 @@ It hangs on the nail. If a PC takes it, **the moment they do**, Merton appears b
 > 🎭 **COMEDY BEAT — Overindulgence (🟢):**
 >
 > 🗣 **SAY** *(only if someone cleared more Stress than they had)*: *"You overdid it — badly, loudly, and in public."*
-> ❓ **ASK THE PLAYER:** *"Pick one: attract trouble, brag (+2 Heat), disappear for a few weeks, or get cut off. And tell me what it looked like."*
+> ❓ **ASK THE PLAYER:** *"Pick one: attract trouble, brag (+2 Heat), disappear for a few weeks, or get cut off. And tell me what it looked like."* *(🔒 Attract trouble = the GM adds a second Entanglement now; **disappear = Lost (SRD): that PC vanishes for a few weeks, so they are offscreen for the next score (absent-player rules) and return healed**.)*
 > ⏸ **REACTION STOP.**
 > 🔒 **GM ONLY — if they stall, offer one:** *"You spent three days asleep."* · *"You reorganised the cold-storage drawers at 4 am and cannot explain why."* · *"You are banned from the diner."* · *"You taught Gerald a trick."* Let the table vote on the worst.
 
 ### Step 3 — Your remaining free activities
 🗣 **SAY:** *"Each of you gets two Downtime activities for free. Indulge Vice is one option; the others are Recover, Reduce Heat, start a Long-Term Project, or Train. Pick any two. Extra activities cost 1 Coin or 1 Rep."*
 ❓ **ASK EACH PLAYER** *(one at a time)*: *"What do you do with your activity (or your other one, if you already indulged your vice)?"* ⏸ **REACTION STOP.**
+> 🔒 **GM ONLY — one line per activity (SRD; explain an activity only when a player picks it):** **Recover:** the healer rolls (a PC with Physicker rolls Tinker, otherwise the NPC's quality; toughing it out alone costs 1 Stress and rolls 0d) and you mark that many segments on a **4-segment healing clock** (1–3: 1 · 4–5: 2 · 6: 3 · crit: 5); a full clock reduces **every** harm by one level · **Reduce Heat:** make an action roll that fits what you do (Consort, Command, Sway…): **1–3 clears 1 Heat, 4–5 clears 2, 6 clears 3, a critical clears 5** · **Long-Term Project:** name a clock and its size; each activity ticks it · **Train:** mark 1 XP on one track (2 with the Training upgrade), **once per track per downtime**. Extras cost 1 Coin or 1 Rep.
 > 🔒 **GM ONLY — suggested first Long-Term Projects:** research the Twice-Born seen at the theater; modify containment gear; mend a Friend NPC relationship; **investigate the red-ink entry in the Hunter's Journal** *(starts the Architect thread)*. **Do not offer Acquire Asset tonight** — it is taught in Session 3.
 
 ### Step 4 — Double Bookkeeping *(only if the crew chose it in Beat 7; **if Sway was already rolled at the Choice, do not roll it again**)*
@@ -481,6 +494,7 @@ It hangs on the nail. If a PC takes it, **the moment they do**, Merton appears b
 > 🔒 **GM ONLY:** 6 clean · 4–5 they keep it and **Audit +1** · 1–3 **Audit +1** and they surrender the item.
 
 ### Step 5 — Greta Fenn (first time in person)
+> 🔒 **GM ONLY:** after "Ah. You're real." and the crew's reaction, Greta delivers the **held Entanglement** in person (if it is a Ministry row) in her own words; other rows play right after this beat. Never before it.
 > 🎭 **COMEDY BEAT — Greta (🟡):**
 > **[IMAGE CUE: npc-greta-fenn.png]**
 >
@@ -492,6 +506,11 @@ It hangs on the nail. If a PC takes it, **the moment they do**, Merton appears b
 > ⏸ **REACTION STOP — next part depends on:** how the crew greets her. Wait for their answer.
 >
 > 🗣 **SAY** *(Greta — brisk, clipboard out)*: *"Two years of your handwriting, by post, and I have strong views on it. I have Form 47-B — Non-Standard Biological Event. I need two signatures. And a follow-up question about the square footage of the premises."*
+> **THE HELD ENTANGLEMENT, IN PERSON** *(read these lines when Greta is in the room, after the line above and the crew's reply; never a phone call)*:
+> - **The Usual Suspects:** 🗣 **SAY** *(Greta — quieter, clipboard lowered)*: *"Before the forms. They picked someone up this morning. A friend of yours, or somebody who supplies you. Which of your people is likeliest to be on that list?"* ❓ **ASK THE TABLE** *(a player volunteers one; SRD)*, then 🗣 **SAY** *"Pay one Coin, or we see what they say."* ⏸ **REACTION STOP.**
+> - **Gang Trouble (Gerald kept):** 🔊 **READ ALOUD** *"Greta's clipboard is lighter than it was a minute ago. Gerald, on his stool, is chewing something with great seriousness."* 🗣 **SAY** *(Greta — dry)*: *"That was a form."* ❓ **ASK:** *"How does the firm make it right?"* ⏸ **REACTION STOP.**
+> - **Rivals:** 🗣 **SAY** *(Greta — dry)*: *"Harrow & Sons asked after your licence. By name. Politely. That's how it starts."* ❓ **ASK:** *"Stand your ground, or give something up?"* ⏸ **REACTION STOP.**
+> - **Any other row:** read the matching cue in `10-Generators/Entanglement-and-Complication-Cues.md` §A, with Greta saying it to their faces.
 >
 > → **If Gerald is present:** 🔊 **READ ALOUD** *"She looks at Gerald's hands, makes a note, and says: 'I'm going to need a different form.'"* *(There is no different form. She will make one.)*
 
@@ -507,6 +526,8 @@ It hangs on the nail. If a PC takes it, **the moment they do**, Merton appears b
 **[PLAYER SCREEN: card style `fortune`, "ZOLTAR SAYS" — "A MAN WHO KNOWS YOUR NAME HAS NEVER BEEN TOLD IT."]**
 > 🔊 **READ ALOUD:** "A card drops into the tray: **A MAN WHO KNOWS YOUR NAME HAS NEVER BEEN TOLD IT.**"
 > 🔒 **GM ONLY:** the players will think it's a riddle about Merton. **It's Thorne.** Audio: `[SFX CUE: music-sting-fortune-card — not yet generated]` · `[VOICE CUE: music-sting-zoltar-fortune-s01 — not yet generated]` *(Zoltar is on hold; if the voice line is ever recorded, deliver it flat — it is a clue, not a threat).*
+
+> 🔒 **GM ONLY — XP (every session from S1):** after Zoltar's card, run `00-Canon/End-of-Session-Ritual.md` §1 (read the first-time SAY at S1), then the retrospective, then wrap.
 
 > 🔒 **GM ONLY — Session wrap:** update `05-Sessions/Campaign-Current-State.md`; Anchor Ledger; Gerald's status; generate Session 2's Cold Open; fill dashboard (unless mock session).
 

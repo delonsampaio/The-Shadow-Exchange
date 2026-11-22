@@ -53,7 +53,7 @@ Three players, seven playbooks. Use only the rows for the playbooks actually cho
 - **Friend/Rival:** a journalist; Stalls *(Rival, S4)*; Greta *(Friend, 🎭: "we've exchanged forms for two years")*.
 
 ### Spider
-- **Spotlight:** *S1* — the plan *and* the Flashback. *S2* — Emmerich's choice: the Spider who **sees two moves ahead and still can't decide.** *S3* — the Entanglement/Acquire Assets session: they love it.
+- **Spotlight:** *S1* — the plan *and* the Flashback. *S2* — Emmerich's choice: the Spider who **sees two moves ahead and still can't decide.** *S3* — the Acquire Assets session: they love it.
 - **Ask the player:** "What's your character's biggest plan that *almost* worked?"
 - **Friend/Rival:** an old mentor; Kress *(Rival — but they don't know it yet; plant via paperwork)*.
 

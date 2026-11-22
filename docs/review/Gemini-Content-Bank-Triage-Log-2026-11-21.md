@@ -30,8 +30,15 @@ Wanted-0 dice (House-Rules was wrong; two dice keep lowest); Session-03-Prep For
 
 ## Still deferred
 - Velvet Box → Brass Case (name is on the Living-Map zoom image label; rename with the map regeneration).
-- Gemini top-10 gaps (new content): lethal-path quick table; Season 1B/2 NPC cards; Wall of the Missing roster; Ministry org chart; live-read cues for entanglements; Season-4+ Ladder cards; Old City Mercy site file; Season 2–3 Zoltar deck; non-Apex faction clocks.
+- *(Gemini top-10 gaps: all nine written 2026-11-21; see below.)*
 - Draft catalogs 01–03 stay drafts (superseded).
+
+## Gemini top-10 gap items: written 2026-11-21
+`05-Sessions/Lethal-Path-Quick-Table.md` · `03-NPCs/Wall-of-the-Missing-Roster.md` · `10-Generators/Entanglement-and-Complication-Cues.md` · `02-Factions/Ministry-Org-Chart.md` · `03-NPCs/Season-1B-Cast-Cards.md` · `04-Locations/Sites-of-Interest/Old-City-Mercy.md` · `00-Canon/Mechanics-Teaching-Ladder-S4-Plus.md` · Season 2–3 cards in `00-Canon/Zoltar-Card-Deck.md` · `07-Clocks/Faction-Clocks.md` · `10-Generators/Urban-Legend-Clippings.md`. Opus final audit (`Opus-Gap-Items-Audit-2026-11-21.md`): 1 blocker, 5 high, 9 medium, 15 low; all verified against the SRD and files, and fixed (Mimic named in a teaching line, Wanted/XP/crew-advance rules corrected to the SRD, Resistance rule, duplicate names Brannigan/Imogen renamed, Hester kept on the bench, Architect fragments neutralised, Kress clock aligned to the Calendar, index pointers added).
+
+## Simulated playthroughs S0–S3 (Opus, one at a time) and the XP/Entanglement ruling
+Ruling (GM): nothing from the SRD is skipped in early sessions: XP tally and the Entanglement run from S1 (House-Rules A2). Audit `Opus-XP-Entanglement-Change-Audit-2026-11-21.md`: 23 findings fixed.
+Simulations: `Sim-S0-Report` 26 findings (crew creation now follows the SRD: two upgrades, hunting grounds, faction reactions; Trial Run is the one 4-lesson beat) · `Sim-S1-Report` 32 (Payoff step, one Heat rule, fight-to-kill rules, in-person Greta Entanglement, Choice menus) · `Sim-S2-Report` 43 (Inside the Shop beat, payoff numbers, kill lines, Omen note moved, close runs XP) · `Sim-S3-Report` 33 (payoff, Heat, Entanglement picks, Push moved earlier, fight lines, Enmity Subway branch, music stand-ins). All applied except a few LOW image/caption items listed in each report.
 
 ## Next
 Queued Opus re-audit of all files changed since the beat audit.

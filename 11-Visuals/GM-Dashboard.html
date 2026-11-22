@@ -22,7 +22,7 @@
 
     // Bump SAVE_VERSION whenever the INIT_* constants below are updated at end of session.
     // The dashboard auto-saves to this browser; a refresh will NOT lose state mid-session.
-    const SAVE_VERSION = 'S0-v8';
+    const SAVE_VERSION = 'S0-v9';
     function usePersist(key, init) {
       const k = 'se_' + SAVE_VERSION + '_' + key;
       const [v, setV] = useState(() => {
@@ -95,16 +95,17 @@
       { id: 'res',   label: 'Resistance  (S0 practice → S1)',                       state: 0 },
       { id: 'fb',    label: 'Flashback  (S1)',                        state: 0 },
       { id: 'devil', label: "Devil's Bargain  (S1)",                  state: 0 },
-      { id: 'vice',  label: 'Vice & Heat (Downtime)  (S1)',           state: 0 },
+      { id: 'vice',  label: 'Heat → Entanglement → Vice  (S1)',         state: 0 },
       { id: 'group', label: 'Group Action  (S2)',                     state: 0 },
       { id: 'assist',label: 'Assist  (S2)',                           state: 0 },
       { id: 'favor', label: 'Twice-Born Favor  (S2)',                 state: 0 },
-      { id: 'ent',   label: 'Entanglements  (S3)',                    state: 0 },
+      { id: 'ent',   label: 'Entanglements  (S1; reinforce S2–S3)',  state: 0 },
       { id: 'acq',   label: 'Acquire Assets  (S3)',                   state: 0 },
       { id: 'push',  label: 'Push Yourself  (S1/S3)',                 state: 0 },
       { id: 'load',  label: 'Load (the standard kit)  (S1)',          state: 0 },
       { id: 'clocks',label: 'Clocks (what they are)  (S1)',           state: 0 },
-      { id: 'despxp',label: 'Desperate = XP  (S1)',                   state: 0 },
+      { id: 'xptally',label: 'XP tally (S1 close)',                   state: 0 },
+      { id: 'despxp',label: 'XP: Desperate + end tally  (S1)',        state: 0 },
       { id: 'harm',  label: 'Harm levels  (when it happens)',         state: 0 },
     ];
     const TAUGHT_LABELS = ['—', 'Introduced', 'Understood'];

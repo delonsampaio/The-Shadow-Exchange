@@ -1,6 +1,6 @@
 ---
 entity_type: Generator
-status: ADOPTED 2026-11-20 (cards for Mid-Arcs 1–6; extend for Seasons 2–3)
+status: ADOPTED 2026-11-20 (cards for Mid-Arcs 1–6); Seasons 2–3 added 2026-11-21 (fills Gemini gap #8)
 purpose: "Pre-written Zoltar fortune cards so none is written at 11 pm. One-third funny, two-thirds true. Tagged by mid arc, not session number, so they survive a re-ordered season."
 ---
 
@@ -55,6 +55,35 @@ purpose: "Pre-written Zoltar fortune cards so none is written at 11 pm. One-thir
 2. *YOUR CLOCKS AGREE WITH EACH OTHER. THEY DO NOT AGREE WITH YOU.*
 3. *THE CAT HAS OPINIONS. SHE HAS NEVER HAD THEM BEFORE.* 🎭 *(play only after Consequence has reacted)*
 4. *A LIGHT IS GOING OUT SOMEWHERE ON THE LINE. SOMEONE IS STILL WALKING TOWARD IT.*
+
+## Season 2A — After the Time Skip (S29–41; hot summer, a second base)
+1. *THE SUMMER HAS TAKEN SOMETHING OF YOURS. IT IS KEEPING IT COOL.*
+2. *A NEW ADDRESS IS A NEW LIE YOU TELL THE MAIL.* 🎭
+3. *WHAT YOU BUILT IN THE DARK DOES NOT LIKE THE SUN.*
+4. *THE DINER KEEPS ITS LIGHTS ON BECAUSE SOMEONE IS STILL WAITING TO BE SERVED.* *(play only before the diner burns, ~S41)*
+
+## Season 2B — The Cracks (S42–54; the Architect is named at ~S54)
+1. *THE PERSON WHO WROTE YOUR NAME HAS BEEN WRITING IT FOR A LONG TIME.* *(play only after S50)*
+2. *THE LAST CUSTOMER IS ALSO THE FIRST.* 🎭
+3. *EVERY KEY YOU HOLD OPENS A DOOR YOU HAVE ALREADY WALKED THROUGH.*
+4. *A STORM BREAKS A TIDY HOUSE. IT DOES NOT BREAK A HONEST ONE.*
+
+## Season 3A — The Twilight (S55–67; the Subway visibly shrinks)
+1. *THE PLATFORM GETS SMALLER. THE WAITING DOES NOT.*
+2. *YOU HAVE BEEN FOLLOWED. THE FOLLOWER HAS HAD A LONG DAY.* 🎭
+3. *WHEN A CITY FORGETS A NAME, THE NAME GOES LOOKING FOR A CITY.*
+4. *A LINE IS DRAWN ONLY WHERE SOMEONE ONCE STEPPED OVER.*
+
+## Season 3B — The Last Work (S68–77)
+1. *WHAT YOU CARRY IS HEAVIER THAN WHAT YOU SAVED.*
+2. *THE CAT HAS STOPPED WATCHING YOU. SHE IS WATCHING THE DOOR.* 🎭 *(only after Consequence has reacted)*
+3. *THE LAST FAVOUR YOU OWE IS TO YOURSELF.*
+4. *A TRAIN HAS BEEN COMING FOR LONGER THAN YOU HAVE BEEN LISTENING.*
+
+## The Waking (S78–80; the last cards)
+1. *IT DOES NOT MATTER WHY YOU STARTED. IT MATTERS WHAT YOU DO WITH THE KEY.*
+2. *THE BOARD TICKS. BEGIN.*
+3. *(Final card of the campaign — blank.)* *Set it down face up. Fire `music-sting-fortune-card` only; no voice line. The table fills it in.*
 
 ## Reserve (Season 2–3 seeds, true-leaning)
 1. *WHEN THE WATER RISES, THE DRY THINGS GET LOUD.*

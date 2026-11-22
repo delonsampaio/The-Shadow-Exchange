@@ -13,15 +13,21 @@ This page ranks **second** in the priority order, right after `Session-Boot.md` 
 | Rule | What we do | SRD says |
 |---|---|---|
 | Crew start | **Weak hold, 0 Coin** | Strong hold, 2 Coin |
-| **Heat and Wanted** | **We use the SRD exactly.** Heat is the track the players see. At **Heat 9** the crew gains **+1 Wanted level** and Heat **clears** (excess rolls over). **Wanted level sets the dice** rolled on the Entanglement roll (dice = Wanted level; **at Wanted 0 roll two dice and keep the lowest**); **Heat sets the result column** (0–3 / 4–5 / 6+). Wanted is on the crew sheet (`wanted:`). *(An older Session 3 note said Heat replaced Wanted; that was wrong and is removed.)* | same |
-| XP | End-of-session XP tally and advancement are skipped in Sessions 0–3 (the Teaching Ladder introduces them at S4); **Desperate-roll XP and Hunter-Kit/Load basics start in S1** | every session |
 | Gerald | Counts as the crew's **cohort** (a "house rule" in the same sense) | n/a |
-| Entanglement | Rolled **after every score** | every score |
 | Resistance | The Co-GM **offers it after every consequence through Session 3** ("You can resist that: want to?"); after that the players call for it themselves | player's choice |
 | Twice-Born Favor | Earned by protecting Twice-Born; **max 3 held**; spend on Safe Harbor, Rare Items or Lore | n/a |
 | Double Bookkeeping | Crew ability: fudge Ministry paperwork to skim an Anchor, Relic or Biological | n/a |
 | Crossroads Cost | The Broker takes something the crew will miss; tracked in the Crossroads Cost Ledger | n/a |
 | Subway Visit | A downtime activity once the Subway is open to the crew | n/a |
+
+### A2. Rules we follow exactly (NOT deviations; nothing is skipped in early sessions)
+*A mechanic the Ladder has not yet taught is "deferred", not banned: if a player asks, explain it in one line and use it.*
+Each of these works as the official rules say, **from Session 1** (Session 0 has no score). Each is taught at its first use.
+- **Heat and Wanted:** exactly the SRD. Heat is the track the players see. At **Heat 9** the crew gains **+1 Wanted level** and Heat **clears** (excess rolls over). **Wanted level sets the dice** rolled on the Entanglement roll (dice = Wanted level; **at Wanted 0 roll two dice and keep the lowest**); **Heat sets the result column** (0–3 / 4–5 / 6+). Wanted is on the crew sheet (`wanted:`); the only way to lower it is incarceration. *(An older note said Heat replaced Wanted; that was wrong and is removed.)*
+- **Crew creation (S0):** the SRD exactly, with a weak hold and 0 Coin: two chosen upgrades (plus the Containment Suite fixtures), hunting grounds (default Old City, −1 status with that district's rival firm, preferred operation Extraction), two faction reactions (**+1 pleased, −2 annoyed**; the 1-Coin adjustments are unavailable at 0 Coin; the annoyed side is always a weak rival firm), and a favourite contact (+1 / −1).
+- **Acquire Asset (S3):** the SRD roll; in S3 the first one is a free practice roll before the score (a teaching choice, not a rule change).
+- **Entanglement:** rolled by the GM **after every score, from the first one (S1)**, after payoff and Heat (`07-Clocks/Heat-and-Entanglements.md` §2).
+- **XP:** Desperate-roll XP **and the end-of-session XP tally and advancement happen every session from S1** (`00-Canon/End-of-Session-Ritual.md`). The Teaching Ladder teaches the tally at the end of S1 and advancement when a track first fills.
 
 ## B. Who rolls
 Players roll every action and resistance roll. **The GM never rolls against the players.** The exceptions are the dice the SRD gives the GM: the **Entanglement**, fortune rolls for NPC and clock outcomes (including the Broker's d6, where the Broker states the *kind* of cost, never the extent). The Co-GM never "rolls" in the fiction; it asks the GM or a player to roll.

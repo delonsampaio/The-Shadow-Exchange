@@ -24,6 +24,9 @@ purpose: "Every kind of change → what to do DURING the session → every file 
 | **NPC met / new** | `03-NPCs/NPC-Index.md` (Met = Y, last seen) · NPC file (if from the bench: move the card to `03-NPCs/Active/` and mark the bench row) · `09-Threads/Plot-Threads.md` · players' site Known-Contacts (spoiler-checked) · dashboard `npc_add` |
 | **NPC dead / left / turned** | `NPC-Index` status · the NPC file status · `05-Sessions/Season-1-Plan.md` §4 (mark the planned death executed or changed) · `02-Factions/Faction-Tracker.md` · Known-Contacts (deceased) · Express Kit envelope · a **stale phrase** for "alive" wording (see Canon Change) |
 | **Anchor taken / returned / refused / destroyed** | `08-Loot-and-Anchors/Anchor-Ledger.md` · `Inventory.md` · `02-Factions/Faction-Tracker.md` (standing) · players' site `The-Anchor-Ledger` · Twice-Born Favor in Crew-Sheet · dashboard anchor ops |
+| **A real night ends** | `05-Sessions/Night-Log.md` (one row; no clock) |
+| **NPC dies / leaves / is replaced** | `03-NPCs/NPC-Index.md` · `03-NPCs/Season-1B-Cast-Cards.md` · `03-NPCs/Wall-of-the-Missing-Roster.md` · `02-Factions/Ministry-Org-Chart.md` |
+| **Faction clock ticked** (non-Apex) | `07-Clocks/Faction-Clocks.md` · `07-Clocks/Clock-History.md` |
 | **Thorne tell planted / caught** | `09-Threads/Foreshadowing.md` · `09-Threads/Secrets-and-Reveals-Schedule.md` · `Campaign-Arc.md` §5 (state) · `03-NPCs/Active/Elias-Thorne.md` · dashboard `tell` |
 | **Mechanic taught / understood** | `05-Sessions/Campaign-Current-State.md` (taught list) · check `Mechanics-Teaching-Ladder.md` order |
 | **Table-invented canon** (nickname, coin code, cover story, lease theory…) | `09-Threads/Plot-Threads.md` (table canon) · `Campaign-Current-State.md` · `_Dictionary.md` if it is a term · dashboard `gag` |

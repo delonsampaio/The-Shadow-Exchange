@@ -1,0 +1,21 @@
+---
+entity_type: Tracker
+status: LIVE (2026-11-21). One line per real night, appended at close-out. Never cleared. Never written in a mock.
+purpose: "How far the story gets in a real night, so Season 1 sessions can be sized to this table's pace. No clock: minutes are noise (breaks, tangents). The Co-GM reads this when writing the next prep."
+---
+
+# Night Log
+
+**One line per night.** At close-out the Co-GM asks the GM two questions (one at a time) and appends the line:
+1. ❓ "Where did we stop: which beat?" (a natural stop, or out of evening)
+2. ❓ "In one word: dragged, right, or rushed?"
+
+| Night # | Date | Prep (session) | Beat reached | Finished the prep? | Stop: natural / out of time | Feel (dragged · right · rushed) | Notes (what ate the evening, optional) |
+|---|---|---|---|---|---|---|---|
+| *(first row goes here after the first real night)* | | | | | | | |
+
+## How the Co-GM uses it
+- **Sizing:** after 2–3 nights, size new preps in *beats per night* from this table (if a session takes two nights, write it as two halves with a built-in stop point between them).
+- **Safe stop points:** note which beat each night ended on; never end a night on a Choice, a reveal or an Anchor decision.
+- **Night vs session:** a *session* is one prep file (a unit of story); a *night* is one evening. Two sessions in one night or half a session are both fine: log them as separate lines.
+- **Close-out per night (default; confirm with the GM):** run `00-Canon/End-of-Session-Ritual.md` (Zoltar's card, the XP tally and the retrospective) at the end of each night; Downtime and the Entanglement follow a *score*, not the clock; the Faction Turn follows a *finished session*.

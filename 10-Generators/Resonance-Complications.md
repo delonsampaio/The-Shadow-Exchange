@@ -18,7 +18,7 @@ purpose: "Pool of thematic consequences for failed or mixed rolls."
 
 ## [Category: Cover-Up Exposure]
 * **The Witness:** A passerby has a 17-second video already uploading.
-* **Ministry Liaison:** The liaison assigned to this district is a cold, over-helpful Ministry clerk; the report will be compromised. 🔒 GM ONLY: the clerk is mundane; the report is compromised because it routes through Thorne's desk (the Understudied). Never name it on screen.
+* **Ministry Liaison:** The liaison assigned to this district is a cold, over-helpful Ministry clerk; the report will be compromised. 🔒 GM ONLY: S1–S15 the report is compromised because it routes through Thorne's desk (the Understudied); from S16 the clerk is simply mundane. Never name it on screen.
 * **The Leak:** A child saw it and is telling a parent, who is calling the police.
 * **Live Stream:** A neighborhood teenager is already streaming a vertical video titled *"Why are library people carrying rock salt at 2am?"* with 43 live viewers.
 * **Form Audit:** Greta's pager buzzes: a Resonance sensor just opened an incident ticket, and she expects a three-page justification by 8am.

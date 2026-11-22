@@ -42,7 +42,7 @@ purpose: "Every secret: who knows, first clue, three or more clue routes, reveal
 | 25 | **Red-ink Journal entry & entry 47** | Harlan (entry 47 = death of a previous owner) | They've seen the entry | S0 | (a) Harlan; (b) red hand on the Wall; (c) Lair incident d8 #7 | S4 – ~S54 | Harlan's reaction | Architect route | C&C |
 | 26 | **Consequence reacts once** | — | No | — | Single payoff by design | S26 | *The Triangulation* | Everyone remembers what she reacted to | `Comedy-Playbook.md` |
 | 27 | **The Broker is the Subway's master (MY option C)** | ? | No | S2 nod | (a) stillness one second long; (b) "You've been figuring this out"; ⚠ (*PROPOSAL: PTOLEMY pays him once*) | ~S54+ | A deal + one forbidden question | Option C only | MY |
-| 28 | **The Ministry Audit clock** | Ministry (Kress watches it) | **No: GM-secret until S4** | S2–S3 silent ticks (Double Bookkeeping, Entanglements) | (a) Form 44-C appears S4+; (b) Greta's cross-referencing; (c) a Ministry inspector locks the shop at 4 | **S4 first visible** | S4 or later: Greta slides over Form 44-C | Locks down Curios & Chronicles at 4 segments | `Active-Clocks.md` |
+| 28 | **The Ministry Audit clock** | Ministry (Kress watches it) | **No: GM-secret until S4** | S1–S3 silent ticks (Double Bookkeeping, Entanglements) | (a) Form 44-C appears S4+; (b) Greta's cross-referencing; (c) a Ministry inspector locks the shop at 4 | **S4 first visible** | S4 or later: Greta slides over Form 44-C | Locks down Curios & Chronicles at 4 segments | `Active-Clocks.md` |
 
 ## B. Session-by-session clue map (Sessions 4–28)
 

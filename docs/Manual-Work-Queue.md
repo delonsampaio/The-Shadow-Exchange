@@ -37,11 +37,19 @@ Updated 2026-11-20. Anything I recommend that only you can do (generate an image
 - [x] **Bestiary** — `docs/review/Gemini-Bestiary-Ideas-Prompt.md` (run; raw result saved as `docs/review/Gemini-Bestiary-Raw-2026-11-20.txt`).
 - [x] **Bestiary source check** (done 2026-11-20: all 40 links live; folklore details marked as adaptations) — `docs/review/Gemini-Bestiary-Source-Check-Prompt.md` (Gemini verified the 40 sources and the living-faith cautions).
 - [x] **World atlas and venues** — `docs/review/Gemini-World-Atlas-Ideas-Prompt.md` (run 2026-11-20; built into `04-Locations/Venues-Bank.md` and `Gazetteer.md`).
-- [ ] **Opus beat-by-beat audit of Sessions 0–3** (plan and ready prompt: `docs/review/Opus-Beat-Audit-Plan.md`; run after the Session 1 mock; GM approves the cost first).
-- [ ] **Regression check** of the fixed Sessions 0–3 — `docs/review/Gemini-Regression-Check-Prompt.md` (drafted 2026-11-21; run it next).
+- [x] *(done 2026-11-21; report `Opus-Beat-Audit-Report-2026-11-21.md`)* **Opus beat-by-beat audit of Sessions 0–3** (plan and ready prompt: `docs/review/Opus-Beat-Audit-Plan.md`; run after the Session 1 mock; GM approves the cost first).
+- [x] *(done 2026-11-21; `Gemini-Regression-Triage-Log-2026-11-21.md`)* **Regression check** of the fixed Sessions 0–3 — `docs/review/Gemini-Regression-Check-Prompt.md` (drafted 2026-11-21; run it next).
 - [x] **Bestiary slips** (the Anchor Cover Rule for all 40 entries): run 2026-11-21 and applied to `10-Generators/Bestiary.md`; raw result in `docs/review/Gemini-Bestiary-Slips-Raw-2026-11-21.txt`.
-- [ ] **Content-bank cross-check** (NPC bench, Improv Kit, Venues Bank, Gazetteer, Bestiary, Zoltar deck, procedures, and the five draft catalogs) — `docs/review/Gemini-Content-Bank-Cross-Check-Prompt.md` (drafted 2026-11-21; run it next).
-- [ ] **Opus (or higher) re-audit of the files changed since the beat audit** (verify the ~100 fixes did not break anything): run after the content-bank cross-check; no per-token cost (monthly plan).
+- [x] *(done 2026-11-21; `Gemini-Content-Bank-Triage-Log-2026-11-21.md`)* **Content-bank cross-check** (NPC bench, Improv Kit, Venues Bank, Gazetteer, Bestiary, Zoltar deck, procedures, and the five draft catalogs) — `docs/review/Gemini-Content-Bank-Cross-Check-Prompt.md` (drafted 2026-11-21; run it next).
+- [x] *(done 2026-11-21; `Opus-Gap-Items-Audit-2026-11-21.md`, 30 findings fixed)* **Opus final audit of the gap-item files**
+- [x] *(done 2026-11-21; report `Opus-Reaudit-Report-2026-11-21.md`, 20 findings fixed)* **Opus (or higher) re-audit of the files changed since the beat audit** (verify the ~100 fixes did not break anything): run after the content-bank cross-check; no per-token cost (monthly plan).
+
+- [x] *(done 2026-11-21; `Gemini-Regression-2-Triage-Log-2026-11-21.md`)* **Gemini regression check #2** — `docs/review/Gemini-Regression-Check-2-Prompt.md`; paste the block into Gemini and bring the result back for triage.
+- [ ] **Listen once to `music-vocal-scanner-station`** for any Subway or Aldric Voss detail (its prompt asks for "locations of things that haven't happened yet"). Found by the S0 simulation.
+- [ ] **Make `location-curios-interior`** (S0 names it but no beat cues it until it exists).
+
+## Parked ideas (not started; revisit when the GM asks)
+- **End-of-night transcript** (GM, 2026-11-21): record the night, transcribe with a free tool that can tell voices apart (e.g. WhisperX with speaker labels, Buzz, or MacWhisper's free tier; get the friends' OK first), then hand the transcript to the Co-GM at close-out to mine for table-invented canon (names, nicknames, Friends, Rivals, Heirlooms, cover stories), exact quotes for the recap, and the Night Log. A live feed was considered and set aside (side talk, several voices, theories leaking into canon).
 
 ## Decisions waiting on you
 - [ ] Review the draft content in `docs/review/draft-content/` when the Opus agents finish (NPC bench, improv kit, gaps and rules, catalogs).

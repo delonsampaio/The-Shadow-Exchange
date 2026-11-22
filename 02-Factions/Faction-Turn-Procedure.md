@@ -6,7 +6,7 @@ purpose: "Five minutes between sessions: which clocks may tick, how many, and ho
 
 # Faction-Turn Procedure (after every session, ≈5 minutes)
 
-1. **Read** `02-Factions/Faction-Tracker.md`, `07-Clocks/Active-Clocks.md` and the Season Plan row for the next session.
+1. **Read** `02-Factions/Faction-Tracker.md`, `07-Clocks/Faction-Clocks.md`, `07-Clocks/Active-Clocks.md` and the Season Plan row for the next session.
 2. **Tick by fiction, not by dice.** For each *active* faction (Ministry, Apex Aegis, rival firms, Hunter Underground, the Mimic, the Subway Community): did the crew's last session give it a reason to move? If yes, it ticks **one** clock segment. **Max one tick per faction and three ticks in total per turn.**
 3. **A faction acts on its own** when its clock fills or after two quiet sessions: it makes one visible move (a letter, a sweep, a rumour, an NPC arrives). Prefer a *consequence the crew can see* to a hidden change.
 4. **Slow table, faster world.** If the table dawdles or skips the envelope, each faction may tick once, **ignoring the three-tick cap** (Improv Kit §5). Never make the world wait.

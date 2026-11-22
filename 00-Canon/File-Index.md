@@ -41,6 +41,16 @@ last_updated: 2026-11-20
 | The standard kit and Load (items a Hunter can pull from their coat) | `01-Crew/Hunter-Kit.md` |
 | Weekly routine | `00-Canon/Weekly-Prep-Checklist.md` |
 | **A change happened: what else must change?** | `00-Canon/Change-Propagation-Map.md`; the live record is `05-Sessions/Live-Ledger.md`; the staleness check is `docs/tools/consistency_check.py` (retired phrases: `docs/tools/stale-phrases.txt`; players-site secrets: `docs/tools/spoiler-words.txt`) |
+| A non-Apex faction clock (Kress's Squeeze, Harrow Records Sale, Castellan Suspicion …) | `07-Clocks/Faction-Clocks.md` |
+| A newspaper clipping / notice for an Urban Legend lead | `10-Generators/Urban-Legend-Clippings.md` |
+| Who is in the Ministry / who reports to whom | `02-Factions/Ministry-Org-Chart.md` |
+| A Season 1B/2 NPC with no file (Dasha, Artie, Valerie Crane, Henrik Dane …) | `03-NPCs/Season-1B-Cast-Cards.md` |
+| An Entanglement or complication to read aloud | `10-Generators/Entanglement-and-Complication-Cues.md` |
+| Teaching Spoilage / Audit / Decay / XP / Trauma / Wanted (XP tally taught at S1; the rest S4+) | `00-Canon/Mechanics-Teaching-Ladder-S4-Plus.md` |
+| The hospital and Room 412 (S6, The John Doe) | `04-Locations/Sites-of-Interest/Old-City-Mercy.md` |
+| How far a real night gets / table pace (for sizing new preps) | `05-Sessions/Night-Log.md` |
+| "They fight to kill" (the same rules everywhere + a row per encounter) | `05-Sessions/Lethal-Path-Quick-Table.md` |
+| A missing hunter on Harlan's wall / a case from the Wall | `03-NPCs/Wall-of-the-Missing-Roster.md` |
 | A Zoltar fortune card | `00-Canon/Zoltar-Card-Deck.md` |
 | A running gag, or the next Greta form number | `00-Canon/Running-Gags-and-Forms-Register.md` (form numbers only go up, above 140-A) |
 | Every NPC's status; the 30-NPC bench | `03-NPCs/NPC-Index.md`, `03-NPCs/NPC-Bench.md` |

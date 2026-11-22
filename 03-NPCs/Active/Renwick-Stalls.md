@@ -2,7 +2,7 @@
 type: npc
 status: active
 classification: GM-PRIVATE (Apex front)
-first_seen: Session 3 (via a man in a new coat; phone only)
+first_seen: Session 3 (via a man in a new coat; the S3 coffee-shop pitch is optional and in person)
 faction: Apex Aegis (shell: Stalls Holdings LLC)
 role: the "would've gotten away with it" villain of the Session 3–7 Paper Pipeline arc (phone only S3; unmasked S4; binder and Kress's letterhead S7; CAN DIE / LEAVE after S7)
 ---

@@ -21,3 +21,7 @@ Clear a Wanted Clock :: Wanted is a level, not a clock
 Wanted 0 = 1 die :: SRD: at Wanted 0 roll two dice, keep the lowest
 Wager-Goblin of the Iron-Bell Gym :: renamed Brass-Bell Boxing Club (Fairground)
 Form 44-C \(Ongoing Premises Review\)\. She needs :: 44-C waits for S4 (Audit GM-secret)
+skipped in Sessions 0–3 :: XP and Entanglements are not skipped; they run from S1 (House-Rules A2)
+Skip XP in Sessions 0–3 :: XP runs every session from S1
+XP from S4 :: XP every session from S1
+introduces it at S4 :: XP is taught at the close of S1

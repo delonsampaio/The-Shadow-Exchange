@@ -23,7 +23,7 @@ Clock notation: `[ ◌ ]` empty, `[ ● ]` filled.
 ### [Clock: The Surge] [6-Segment] *(Session 1 only)*
 * **Progress:** `[ ◌ ◌ ◌ ◌ ◌ ◌ ]` (0/6)
 * **Trigger:** Any 1–3, loud noise, touching the collar without permission, plus once per scene. Soothing *removes* a segment.
-* **Full Effect:** Merton loses control — Desperate position, Level 2 harm on the table, Detection +2.
+* **Full Effect:** Merton loses control — Desperate position, Level 3 harm on the table, Detection +2.
 
 ### [Clock: Biological Spoilage] [3-Segment]
 * **Progress:** `[ ◌ ◌ ◌ ]` (0/3)
@@ -61,11 +61,12 @@ Clock notation: `[ ◌ ]` empty, `[ ● ]` filled.
 ---
 
 ## Faction & Consequence Clocks
+*(Non-Apex faction clocks: `07-Clocks/Faction-Clocks.md`; the Apex Acquisition Push: `02-Factions/Faction-Turn-Procedure.md`.)*
 
 ### [Clock: The Ministry Audit] [4-Segment]
 * **Visibility:** 🔒 **GM-secret until S4.** Tick it silently before then; the players first see it (and Form 44-C appears) at S4 or later.
 * **Progress:** `[ ◌ ◌ ◌ ◌ ]` (0/4)
-* **Trigger:** **Double Bookkeeping** (Sway): a 4–5 ticks it 1 and the crew keeps the item; a 1–3 ticks it 1 *and* the item must be surrendered. Entanglements may also tick it. 
+* **Trigger:** **Double Bookkeeping** (Sway): a 4–5 ticks it 1 and the crew keeps the item; a 1–3 ticks it 1 *and* the item must be surrendered. Entanglements may also tick it (before S4 silent ticks never take it past 3). 
 * **Full Effect:** A Ministry inspector locks down Curios & Chronicles. The Vault and Cold Storage are inaccessible until a massive bribe is paid.
 
 ### [Clock: The Innocent's Corruption] [4-Segment]
