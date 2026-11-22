@@ -130,3 +130,16 @@ Statuses: **PROTECTED** (GM's call, cannot die before the stated point) · **HIN
 - **Climax anchor PC:** rotate A, B, C, A, B, C across the climaxes at S7, 11, 15, 19, 23, 28, each keyed to that PC's Session 0 Friend or Rival.
 - **Menace rule.** The monsters are meant to be scary. The comedy lives in the people, the bureaucracy and the absurd setups, never in the threat itself; see `Comedy-Playbook.md`.
 - **Fronts.** Factions move between sessions through `Faction-Tracker.md`; the Omen and Decay tick on fiction, so a slow table gets a faster world, not a longer wait.
+
+## S4 design decisions (the GM said "do what you think is best", 2026-11-22; change any of them)
+1. **Stalls's "unmasking"** is a confrontation with a small, sincere tantrum ("…meddling hunters!"), not a mask-pull (no mask-pulls before S16).
+2. **Reveal budget:** the one big reveal is **Stalls = Apex**. The Wall of the Missing, "HE WENT BACK", the Vantage & Lowe photo and Form 44-C are played as silence or texture.
+3. **"Architect":** the red-ink Journal page ("ASK THE ARCHITECT BEFORE YOU SIGN.") is readable when the crew studies it or shows it to Harlan; Harlan goes quiet ("Where'd you hear that name?"). No other source.
+4. **Spoilage:** Cold Storage pauses it (including the S1 Gland). The lesson fires on the first Biological carried out of Cold Storage (the S4 job yields one).
+5. **Audit:** Form 44-C appears at S4 only if Audit is 1 or more. At Audit 4 the Vault and Cold Storage lock at once until paid down (Long-Term Project, clock 6, or a 6-Coin bribe).
+6. **Lessons at S4:** Spoilage and Audit (as a consequence). Harm, Trauma, Wanted and advancement only when they occur; extra lessons wait for the next session's first use.
+7. **Aldric:** the S4 fragments are texture on the Scanner Station radio (the same unnamed AM voice as S0); he is never named before S9; "It found the frequency" is S24+.
+8. **Thorne:** offstage in S4 (no new tell; the ring is the only tell in play). **Kress** is not named (S7).
+9. **Harlan:** a debut at S4 unless a PC took him as a Friend in S0 (then a reunion).
+10. **Cleaners:** only if Heat is 6+ or Apex standing is −2 or worse at the end of S3.
+11. **Inputs needed from play before writing S4:** the S3 outcome (Mabel A/B/C, Grief Jars), Gerald, the collar, Emmerich's thimble, standings, Heat, Wanted, Coin, Rep, XP, the Audit value, and the Night Log rows for S0–S3.

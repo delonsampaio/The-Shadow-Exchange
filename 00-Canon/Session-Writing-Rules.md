@@ -68,7 +68,7 @@ Follow the Teaching Ladder: **max 2 new mechanics per beat, 4 per session**, ≤
 ## 9. Assets and the wiki
 **Living map:** the city map is cumulative, one file per session (`map-city-sNN.png`). Every prep names its map on the Run Sheet (approach or briefing), says which district each new location is in, and **fixes each new location's spot in the placement plan** in `11-Visuals/Living-Map.md` at the time it is written (the pin is drawn later, once the crew knows the place), and adds the session's pins to the ledger there (public places only — never the Subway entrance or anything GM-private). A place outside the five districts gets its own map (regional, site or underground) — see rule 9 there.
 
-List every ❌ in `11-Visuals/ASSET-TODO.md`; prompts live in `Pre-Campaign-Image-Prompts.md` / `Music-Prompts.md` (follow their rules: 16:9 TV, 3:2 wiki portraits, exact sign text, check every image for the tool's own sparkle/watermark; real brand names are fine — this is a private table of friends, GM decision 2026-11-20). Every NPC the crew sees gets a **wiki portrait**, published only after they've met them (`Wiki-Update-Protocol.md`).
+List every ❌ in `11-Visuals/ASSET-TODO.md`; prompts live in `Pre-Campaign-Image-Prompts.md` / `Music-Prompts.md` (follow their rules: 16:9 TV, 3:2 wiki portraits, exact sign text, (Gemini no longer adds a corner sparkle, GM 2026-11-22: no corner check needed; still check for stray legible text and for matches to the read-aloud); real brand names are fine — this is a private table of friends, GM decision 2026-11-20). Every NPC the crew sees gets a **wiki portrait**, published only after they've met them (`Wiki-Update-Protocol.md`).
 
 ## 10. Before you call a prep file done
 - [ ] Run Sheet complete; every beat has music; ✅/❌ correct.
@@ -86,4 +86,10 @@ List every ❌ in `11-Visuals/ASSET-TODO.md`; prompts live in `Pre-Campaign-Imag
 - [ ] Every `❓ ASK` is followed by a full `⏸ REACTION STOP`; no outcome is written in the same block as the question.
 - [ ] Anything that depends on an earlier session's choice is a branch or fill-in, and item names match the earlier prep.
 - [ ] Every rule line was checked against the SRD / Teaching Ladder.
+- [ ] Every score has a Payoff step (Coin and Rep numbers), ONE Heat rule (no other Heat statement in the file), an Entanglement with picks per cell, and a 🔒 fight-to-kill block.
+- [ ] The close runs in order: Zoltar → PC XP then crew XP (card 22 if a track fills) → retrospective → Faction Turn → Night Log; and a Pause is described for a sitting that ends mid-session.
 - [ ] **Clocks:** every clock that will appear on the TV for the first time this session has a `🗣 SAY` at *that beat* explaining it in one line (what it is, what fills it, what changes when it fills; Ladder card 17), and the Run Sheet lists which clocks appear and when. Secret clocks (the Omen, Decay while hidden, the Mimic) never go on the TV and are never explained to the players.
+
+## 11. Writing the next prep (from the Night Log and the last session's outcome)
+**Inputs to read first:** the last `05-Sessions/Night-Log.md` row (beats per sitting, the GM's feel word); `Campaign-Current-State.md` and the confirmed end-of-session snapshot; the previous prep's "leaves with" list; the Faction Turn result; session N's rows in `Season-1-Plan.md` §2, `Secrets-and-Reveals-Schedule.md` §B, `Clocks-Calendar.md` and `Mechanics-Teaching-Ladder-S4-Plus.md`; the NPC files in the roster.
+**Then:** list the decisions the GM must make (ask them one at a time); write every past choice as a branch, not an assumption; keep new lessons to four or fewer (a due lesson over the cap is taught at the next session's first use and logged); respect the reveal budget (one big reveal per session; other threads are played as silence or texture); mark safe stops (never on a Choice, a reveal or an Anchor decision); then run the §10 checklist, an Opus audit and a simulated playthrough.

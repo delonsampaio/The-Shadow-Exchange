@@ -12,6 +12,8 @@ payout: 4 Coin (Standard)
 
 # Score 01 — The Standard Job
 
+> **Superseded for Payoff, Rep and Heat by the session prep's Payoff and single Heat lines (2026-11-21).** Do not copy the Heat or Coin lines below into a new score.
+
 **Premise:** Ministry pest control. Councilman Pruitt's bulldog **Gerald** has two human hands where his front paws should be (Merton's failing collar has been bleeding Resonance into the basement where Gerald sleeps). Retrieve, document, destroy. *(See `Session-01-Prep.md` — the Surge replaces forced combat; see `Merton.md` and `Gerald.md`.)* The crew knows a Barghest Adrenal Gland fetches serious money.
 
 ---

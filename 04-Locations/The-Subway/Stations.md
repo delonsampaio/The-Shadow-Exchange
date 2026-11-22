@@ -25,7 +25,7 @@ Treat each station as a room. Players can explore them. Things happen in them. A
 
 > "The space you step into is a vaulted hall — arched ceiling lost in greenish shadow somewhere high above, tile floors the color of old municipal bone. It shouldn't fit here. It is the size of a train station. Forty feet across, easy, and it extends in both directions further than you can see, curving gently out of sight like a runway.
 >
-> There is a transit map on the north wall. You look at it automatically, because maps orient you. It doesn't. The lines don't match anything — not the city above, not any city — and one of them is marked in red ink that looks newer than the rest. You find yourself looking for your street. It's not there. Nothing you recognize is there.
+> There is a transit map on the north wall. You look at it automatically, because maps orient you. It doesn't. The lines don't match anything — not the city above, not any city — and one of them is drawn in faint pencil that looks newer than the rest (red ink appears only when Decay goes live, S6). You find yourself looking for your street. It's not there. Nothing you recognize is there.
 >
 > There are people here.
 >
@@ -41,7 +41,7 @@ Treat each station as a room. Players can explore them. Things happen in them. A
 
 ## The Main Hall
 
-Entry point. A transit map on the north wall — the lines don't match any city map you've seen. One line is marked in red ink that looks newer than the rest. Foot traffic that is inconsistent with any logic you can apply to where these people came from.
+Entry point. A transit map on the north wall — the lines don't match any city map you've seen. One line is drawn in faint pencil that looks newer than the rest (red ink appears only when Decay goes live, S6). Foot traffic that is inconsistent with any logic you can apply to where these people came from.
 
 **Mechanical note:** Social interactions here are Consort or Sway. Crew reputation flows from what's observed in this room.
 

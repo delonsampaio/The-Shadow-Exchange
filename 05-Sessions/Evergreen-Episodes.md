@@ -25,6 +25,6 @@ Anything that plants or pays off a spine thread: the Understudied/Thorne, the Ar
 
 ## Running it
 1. Open with the contract card within ten minutes (use a rumour from Improv Kit §2).
-2. Run a Faction Turn first (unless one already ran this week) so the world still moves (`02-Factions/Faction-Turn-Procedure.md`).
+2. The Faction Turn runs after the finished session as usual (`02-Factions/Faction-Turn-Procedure.md`); do not run a second one before it.
 3. Keep the Menace Rule: about a third of nights scary, so if the last two were comic, pick 🔵.
 4. After: ordinary end-of-session ritual; the table's "more of / less of" choose the next lead.

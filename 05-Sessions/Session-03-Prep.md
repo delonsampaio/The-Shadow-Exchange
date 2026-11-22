@@ -32,7 +32,7 @@ mechanical_focus: "TEACH: Acquire Assets, Push Yourself. REINFORCE everything pr
 | 7 | **The Moral Pivot** | "go" | `music-s01-the-choice` | `npc-mabel-ashby-alive` ✅ *(clears Agnes)* → `npc-mabel-ashby-wraith` ✅ *(as she thins)* → `item-mabel-knitting-needle` ✅ *(optional, at the Extraction)* | 🔴 none | **Anchor Ledger** |
 | 8 | The Return | "go" | `music-bookshop-loop` | `location-curios-exterior` *(clears Mabel)* | — | — |
 | 8b | Downtime + Omen + Thorne's call | after the Return | `music-bookshop-loop` *(continues)* | `location-curios-exterior` → caption "Thorne's call" | Greta's forms | Downtime, **Heat** *(Tell 5)* |
-| 9 | Close | end | `music-bookshop-loop` *(continues)* + `music-sting-fortune-card` ❌ · Zoltar voice ❌ *(on hold)* | `location-curios-exterior` + Zoltar card | Zoltar | **XP tally** |
+| 9 | Close | end | `music-bookshop-loop` *(continues)* + `music-sting-fortune-card` *(only if the file exists; no voice)* | `location-curios-exterior` + Zoltar card | Zoltar | **XP tally** |
 
 **Asset status:** ❌ = prompt exists in `11-Visuals/` but not yet generated (see `ASSET-TODO.md`). **Optional extra:** `npc-drennick-foss` ✅ for the Apex Aegis beat, only if a noise complication brings them to the door.
 
@@ -250,7 +250,7 @@ mechanical_focus: "TEACH: Acquire Assets, Push Yourself. REINFORCE everything pr
 > 🎭 **COMEDY BEAT — The Inspection (🟢):**
 >
 > 🔊 **READ ALOUD:**
-> "Mabel offers tea. The kettle was already on — it clicks on. Then she walks down the line of you, knitting in hand, like a drill sergeant, grading each of you out of ten on posture and cover story. 'Six,' she tells the first. 'Four.' And to the last: 'Whatever you're doing with your shoulders is a two.' 'For your blood sugar.'"
+> "Mabel offers tea. The kettle was already on — it clicks on. Then she walks down the line of you, knitting in hand, like a drill sergeant, grading each of you out of ten on posture and cover story. 'Six,' she tells the first. 'Four.' And to the last: 'Whatever you're doing with your shoulders is a two.'"
 >
 > ❓ **ASK THE TABLE:** *"Grade each other, out of ten. Who gets the lowest score?"* ⏸ **REACTION STOP.** 🔊 **READ ALOUD** *(after the table has graded)*: "She hands the lowest-scoring one a biscuit." 🗣 **SAY** *(Mabel)*: *"For your blood sugar."*
 >
@@ -431,7 +431,7 @@ mechanical_focus: "TEACH: Acquire Assets, Push Yourself. REINFORCE everything pr
 > 🗣 **SAY** *(Thorne — a shade too casual)*: *"And I hear you came up on the eastern pier all right, after the Meridian."* *(If a PC already told him about the pier on the S2 call, swap in: **"Nothing down there but the old drainage tunnels"**; nobody mentioned tunnels.)*
 > ⏸ **REACTION STOP — next part depends on:** whether the player questions how he knows about the pier.
 > → **If they don't challenge it:** 🗣 **SAY** *(Thorne — warm)*: *"Good night, then."* 🔊 **READ ALOUD** *"The line clicks off."*
-> → **If they challenge it:** 🗣 **SAY** *(Thorne — smooth)*: *"It was in the Meridian report."* 🔊 **READ ALOUD** *"The line is silent for one second."*
+> → **If they challenge it:** 🗣 **SAY** *(Thorne — smooth)*: *"It was in the Meridian report."* 🔊 **READ ALOUD** *"The line clicks off."*
 > 🔒 **GM ONLY:** no one told him about the pier. It wasn't in any report. Dashboard: Tell 5 *Planted* (or **CAUGHT**).
 
 ### The close
@@ -440,7 +440,7 @@ mechanical_focus: "TEACH: Acquire Assets, Push Yourself. REINFORCE everything pr
 > 🔒 **GM ONLY — XP:** after the card, run `00-Canon/End-of-Session-Ritual.md` §1 (every session from S1). **If a track fills, teach Ladder card 22 now; it counts as one of tonight's new lessons.**
 **[PLAYER SCREEN: card style `fortune`, "ZOLTAR SAYS" — "THE DEAD ARE POLITE. THE LIVING ARE NOT. SEE, THURSDAY."]**
 > 🔊 **READ ALOUD:** "A small, apologetic *clunk.* A card drops into the tray: **THE DEAD ARE POLITE. THE LIVING ARE NOT. SEE, THURSDAY.**"
-> 🔒 **GM ONLY — audio:** `[SFX CUE: music-sting-fortune-card — not yet generated]` · `[VOICE CUE: music-sting-zoltar-fortune-s03 — not yet generated]` *(Zoltar is on hold)* — then run the **XP tally (each PC, then crew XP; teach card 22 if a track fills) and the retrospective** (`00-Canon/End-of-Session-Ritual.md` §1–§2), then end the session.
+> 🔒 **GM ONLY — audio:** show the card; fire `music-sting-fortune-card` only if the file exists; **no voice line** (dropped, GM 2026-11-22) — then run the **XP tally (each PC, then crew XP; teach card 22 if a track fills) and the retrospective** (`00-Canon/End-of-Session-Ritual.md` §1–§2), then end the session.
 
 > 🔒 **GM ONLY — WHAT THE CREW LEAVES SESSION 3 WITH:**
 > Confirm these before closing:

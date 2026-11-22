@@ -76,7 +76,7 @@ Every session alternates **dread → laugh → dread**. The laugh makes the drea
 | Session | Card text |
 |---|---|
 | 0 | *YOU WILL SOON RECEIVE AN ENVELOPE. IT WILL NOT BE GOOD NEWS. IT WILL BE DAMP.* |
-| 1 | *A MAN WHO KNOWS YOUR NAME HAS NEVER BEEN TOLD IT.* |
+| 1 | *A KINDNESS DONE AT MIDNIGHT IS STILL A KINDNESS.* |
 | 2 | *THE ROAD DOWN IS LONGER THAN THE ROAD UP. BRING A SNACK.* |
 | 3 | *THE DEAD ARE POLITE. THE LIVING ARE NOT. SEE, THURSDAY.* |
 | 4+ | *(Pick from `00-Canon/Zoltar-Card-Deck.md`; one-third funny, two-thirds true.)* |

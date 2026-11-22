@@ -8,16 +8,16 @@ purpose: "Pre-written Zoltar fortune cards so none is written at 11 pm. One-thir
 
 **How to use:** at the end of a session, pick the card for the current mid arc (or a General card), set it on the TV (`card style fortune`, "ZOLTAR SAYS") and, optionally, drop a printed copy on the table. Each card is **cryptic**: it may mislead, it may be true, it never states a secret. **Leak check before use:** if the sentence would give away something the crew has not learned (the Understudied, the Architect, what the Subway is, Kress's role), pick another. The d8 table in `03-NPCs/Active/Zoltar-and-Consequence.md` is the General set's origin.
 
-🔒 **Mid-Arc 3 cards are deliberate Thorne tells:** use at most one before S15 and log it as a `tell` op. No card names the Omen, the Mimic, the Architect or what the Subway is.
+🔒 **Thorne-tell cards: at most ONE before S15, and it is Mid-Arc 3 #1 (S12–14).** The S1 card is neutral (mercy). The other Thorne-flavoured cards (Mid-Arc 3 #3 and #4, General #2 and #5) play **only at S15 or later** (after the unmasking). Log any Thorne card as a `tell` op.
 
 **Mix per arc:** 2 true · 1 mixed · 1 funny. Funny cards never play after a scary close (Menace Rule). Mark a card **USED** in the session log.
 
 ## General (any session)
 1. *YOU WILL COME INTO A LARGE SUM. IT WILL BE MOSTLY BEETS.* 🎭
-2. *THE PERSON YOU TRUST MOST HAS A SECOND PAIR OF SHOES.*
+2. *THE PERSON YOU TRUST MOST HAS A SECOND PAIR OF SHOES.* *(S15+ only: hints at a second face)*
 3. *A CAT IS WATCHING YOU. IT HAS BEEN WATCHING FOR A WHILE.* 🎭
 4. *THE DEAD HAVE SENT YOU A CASSEROLE. DO NOT ASK WHO MADE IT.* 🎭
-5. *BEWARE OF A MAN WHO OFFERS TO HELP. ALSO BEWARE OF A MAN WHO DOES NOT.*
+5. *BEWARE OF A MAN WHO OFFERS TO HELP. ALSO BEWARE OF A MAN WHO DOES NOT.* *(S15+ only: echoes Thorne's offer)*
 6. *YOUR LUCKY NUMBER IS 11:47. IT HAS BEEN SINCE BEFORE YOU WERE BORN.*
 
 ## Mid-Arc 1 — The Paper Pipeline (S4–7)
@@ -33,10 +33,12 @@ purpose: "Pre-written Zoltar fortune cards so none is written at 11 pm. One-thir
 4. *WHAT WAS SAVED AT THE HARBOUR IS NOT ALWAYS WHAT WAS LOST THERE.*
 
 ## Mid-Arc 3 — The Squeeze & The Mask (S12–15)
-1. *A FRIEND WHO COMES TOO EARLY HAS USUALLY BEEN WAITING.*
+1. *A FRIEND WHO COMES TOO EARLY HAS USUALLY BEEN WAITING.* *(the one allowed pre-S15 Thorne card; S12–14; log as a tell)*
 2. *YOU WILL BE OFFERED A FRUIT BASKET. IT WILL BE VERY NICE. IT IS STILL A TRAP.* 🎭
-3. *TWO HANDS SIGNED THE SAME NAME. NEITHER LIKED THE PEN.* *(only after Thorne's tell 8 has landed; log it as tell 8, not a new tell)*
-4. *THE HAND THAT GUIDES YOU IN KNOWS EXACTLY WHERE THE DOOR IS.*
+3. *TWO HANDS SIGNED THE SAME NAME. NEITHER LIKED THE PEN.* *(S15+ only)*
+4. *THE HAND THAT GUIDES YOU IN KNOWS EXACTLY WHERE THE DOOR IS.* *(S15+ only)*
+5. *A RECEIPT IS A SMALL, PAPER WITNESS. KEEP IT DRY.* *(neutral)*
+6. *THE LOUDEST PERSON IN THE ROOM IS RARELY THE ONE WHO KNOWS.* 🎭 *(neutral)*
 
 ## Mid-Arc 4 — The Ghosts of Faces Worn (S16–19)
 1. *THE SEA IS SOMEONE'S HOME. TREAT IT LIKE A HOUSE.*

@@ -3,7 +3,7 @@ Understudied
 \bMimic\b
 The Architect
 Stalls Holdings.{0,40}Apex|Stalls is an Apex shell
-Line 0
+Line 0.{0,40}(Waking|platform|board|train)
 \bOmen\b
 \bSubway Decay\b|\bDecay (clock|[0-9])
 PTOLEMY's ledger
@@ -11,3 +11,10 @@ Casting Mask
 Ministry.{0,20}split
 HE WENT BACK
 Thorne.{0,30}(Understudied|Mimic|not real)
+\bKress\b
+Aldric.{0,40}(AM host|AM voice)|\bAM host\b
+\bPryce\b
+Tamsin|\bSolano\b
+\bthe Waking\b
+GM-Private
+\bhinge\b

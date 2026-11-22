@@ -12,7 +12,7 @@ purpose: "The items every Hunter can pull from their coat. Pick a load before a 
 |---|---|---|
 | **Rock salt** | 1 | Circles, wards, burning wounds, marking what a thing has touched |
 | **Iron nails** | 1 | Barriers; things that hate iron; pinning cloth and doors |
-| **Silver rune-thread** | 1 | Binding and mending Anchors (the Session 1 collar), stitching a ward shut |
+| **Silver rune-thread** | 1 | Binding and mending Anchors; stitching a ward shut |
 | **Thick gloves** | 1 | Handling hot, cold or Resonant things |
 | **Zip ties** | 1 | Restraints; fast jobs; holding a door closed |
 | **Thermal blanket** | 1 | Keeping cold things cold, shock, hiding a shape |

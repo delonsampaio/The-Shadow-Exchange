@@ -35,7 +35,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 | 11 | Aldric / Job Board / Broker *(player-driven: offered in full, played if the crew engages; Aldric "do not force")* | — | — | `npc-aldric-voss` ✅, `npc-crossroads-broker` ✅ | — | — |
 | 12 | Exit | "go" | `music-aftermath` | `location-pier-exit` ✅ | — | — |
 | 13 | Return → Downtime → Greta → Thorne's call → Zoltar card *(in that order)* | "go" | `music-bookshop-loop` → `music-greta-waltz` ✅ *(optional, when Greta enters)* | `location-curios-exterior` → `npc-greta-fenn` → `location-curios-exterior` *(clears Greta before the call)* | 🎭 Greta's forms | **Heat, Downtime** |
-| 14 | Close | end | `music-sting-fortune-card` ❌ · Zoltar voice ❌ *(on hold)* | `location-curios-exterior` + Zoltar card | Zoltar | **XP tally** |
+| 14 | Close | end | `music-sting-fortune-card` *(only if the file exists; no voice)* | `location-curios-exterior` + Zoltar card | Zoltar | **XP tally** |
 
 **Asset status:** ❌ = not yet generated (`[IMAGE/MUSIC CUE: … — not yet generated]`); prompts for every cue exist in `11-Visuals/` (see `ASSET-TODO.md`).
 
@@ -139,11 +139,11 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 **[IMAGE CUE: none]** *(TV: keep `location-meridian-street`, caption "Elias Thorne". `npc-elias-thorne.png` is the S1 backstage shot with a clipboard; here he carries two paper cups outside a café. An image of him with coffee is an optional TODO.)*
 
 > 🔊 **READ ALOUD:**
-> "A man in a charcoal field coat steps out of a coffee shop with a paper cup in each hand. He holds one out to the nearest of you, as though he had been told to expect you."
+> "A man in a charcoal field coat steps out of a coffee shop with a paper cup in each hand. He holds one out to the nearest of you."
 >
 > 🗣 **SAY** *(Thorne — warm, easy, a beat too well-calibrated)*: *"Elias Thorne — we met at the theater. I was in the neighborhood."*
 >
-> 🔊 **READ ALOUD:** "He looks past you, up at the gold leaf on the second-floor window, EMMERICH & DAUGHTER, the address in your envelope. He looks for slightly too long."
+> 🔊 **READ ALOUD:** "He looks past you, up at the gold leaf on the second-floor window, EMMERICH & DAUGHTER, the address in your envelope, and then back at you."
 >
 > ❓ **ASK THE TABLE:** *"What do you do?"* ⏸ **REACTION STOP — next part depends on:** whether anyone mentions his pause at the window or the coffee.
 >
@@ -266,7 +266,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 > 🗣 **SAY** *(Drennick — one flat word)*: *"Noted."*
 >
 > 🔊 **READ ALOUD:** "The shorter one lifts his comms unit and reads from a clipboard in the voice of a form."
-> 🗣 **SAY** *(Foss — flat, official; **seized or partial only**; if the crew warned and carries nothing, skip to the next line)*: *"Unlicensed extraction detected. Meridian block, second floor commercial. Flagging **Curios & Chronicles** for a compliance audit, priority standard."*
+> 🗣 **SAY** *(Foss — flat, official; **seized or partial only**; if the crew warned and carries nothing, skip to the next line)*: *"Unlicensed extraction detected. Meridian block, second floor commercial. Flagging **Curios & Chronicles** for a compliance review, priority standard."*
 >
 > → **If the crew warned Emmerich and carry nothing:** 🗣 **SAY** *(Foss — quite loudly)*: *"That's the bookshop. The ones from the **thing.**"*
 >
@@ -447,7 +447,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 
 > 🗣 **SAY** *(Aldric — flat, wary, half a sentence)*: *"Don't touch the equipment."*
 > → **If they stay and ask something:** 🗣 **SAY** *(Aldric — short)*: *"What kind?"*
-> → **If they ask about the AM broadcasts:** 🗣 **SAY** *(Aldric — a full sentence, reluctantly)*: *"That's me. Has been for sixty years. I'm better now."* ⏸ **REACTION STOP.**
+> → **If they ask about the AM broadcasts:** 🗣 **SAY** *(Aldric — a full sentence, reluctantly)*: *"Lot of people listen to the radio."* *(then silence; the confession waits for the S9 Radio Signal)* ⏸ **REACTION STOP.**
 
 > **THE JOB BOARD** *(only if the crew looks)*
 > 🔊 **READ ALOUD:** "Three postings are pinned to the board.
@@ -498,7 +498,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 > 🔒 **GM ONLY — RETURN SEQUENCE (do in this order):** **(1)** the Return read-aloud below → **(2)** the Downtime block below (two free activities each, any two; Heat; Greta Fenn's form) → **(3)** the rotary phone rings: **Thorne's Tell 4 call** (block below) → **(4)** the quiet-moment question → **(5)** **Zoltar's card** and the **Omen** (shop clock four minutes slow) → end.
 
 > ⏸ **PAUSE — Say "go" when the crew returns to the bookshop.**
-**[IMAGE CUE: location-curios-exterior.png]** *(or `location-curios-interior` once it exists; clears the pier)*
+**[IMAGE CUE: location-curios-interior.png]** ✅ *(the shop at night; clears the pier)*
 
 **[MUSIC CUE: music-bookshop-loop.mp3]** *(fire on "go" — the night is done)*
 
@@ -558,7 +558,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 > 🗣 **SAY** *(Thorne — easy, a shade too sincere)*: *"Thanks again for dropping by my office last Tuesday. You seemed rattled."* 🔒 *(GM ONLY: the crew has never been to his office.)*
 >
 > ⏸ **REACTION STOP — next part depends on:** whether the player says they were never in his office on Tuesday.
-> → **If they do:** 🗣 **SAY** *(Thorne — smooth, unbothered)*: *"Of course — my mistake. It's been a long week."* 🔊 **READ ALOUD:** *"The line stays silent for exactly one second too long."*
+> → **If they do:** 🗣 **SAY** *(Thorne — smooth, unbothered)*: *"Of course — my mistake. It's been a long week."* 🔊 **READ ALOUD:** *"The line clicks off."*
 > → **If they don't challenge it:** 🗣 **SAY** *(Thorne — warm)*: *"Get some rest."* 🔊 **READ ALOUD** *"The line clicks off."*
 > 🔒 **GM ONLY — dashboard:** there was **no** visit to his office. (He remembers a different face visiting; this is the memory bleed.) Mark Tell 3 and Tell 4 **Planted.** If a PC *calls it out*, mark **CAUGHT.**
 
@@ -575,7 +575,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 > 🔒 **GM ONLY — XP:** after the card, run `00-Canon/End-of-Session-Ritual.md` §1 (every session from S1). **If a track fills, teach Ladder card 22 now; it counts as one of tonight's new lessons.**
 **[PLAYER SCREEN: card style `fortune`, "ZOLTAR SAYS" — "THE ROAD DOWN IS LONGER THAN THE ROAD UP. BRING A SNACK."]**
 > 🔊 **READ ALOUD:** "At the very end, from the back of the shop, a small, apologetic *clunk.* A card drops into the tray: **THE ROAD DOWN IS LONGER THAN THE ROAD UP. BRING A SNACK.**"
-> 🔒 **GM ONLY — audio:** `[SFX CUE: music-sting-fortune-card — not yet generated]` · `[VOICE CUE: music-sting-zoltar-fortune-s02 — not yet generated]` *(Zoltar is on hold)* — then run the **XP tally (with crew XP) and the retrospective** (`00-Canon/End-of-Session-Ritual.md` §1–§2), then end the session.
+> 🔒 **GM ONLY — audio:** show the card; fire `music-sting-fortune-card` only if the file exists; **no voice line** (dropped, GM 2026-11-22) — then run the **XP tally (with crew XP) and the retrospective** (`00-Canon/End-of-Session-Ritual.md` §1–§2), then end the session.
 
 ---
 

@@ -35,7 +35,7 @@ last_updated: 2026-11-20
 | Aldric Voss | Twice-Born/Aldric-Voss.md | CAN (silent at Omen 4) | N | S9 contact | |
 | Cosma Linden | Twice-Born/Cosma-Linden.md | HINGE (S24+) | N | S2 | |
 | Senna Calder | Twice-Born/Senna-Calder.md | CAN (S9+) | N | S9+ | |
-| Section Chief Kress | GM-Private/Section-Chief-Kress.md | HINGE (S28) | N | S3–S4 name only | 🔒 |
+| Section Chief Kress | GM-Private/Section-Chief-Kress.md | HINGE (S28) | N | S7 name (binder letterhead); never earlier | 🔒 |
 | The Architect | GM-Private/The-Architect.md | PROT | N | — | 🔒 never read aloud |
 | The Casting Mask | GM-Private/The-Casting-Mask.md | PROT | N | — | 🔒 |
 | Mara (the Innocent Civilian) | GM-Private/The-Innocent-Civilian.md | ALIVE | glimpse S1 | S1 | 🔒 Corruption Clock from Stage 4 |

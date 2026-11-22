@@ -3,7 +3,7 @@ entity_type: Session
 session_number: "NN"
 title: "{Session Title}"
 status: Prep          # Prep | Recap
-runtime: "~3 hours"
+runtime: "one or more sittings (nothing is cut)"
 ---
 
 <!-- Follow 00-Canon/Session-Writing-Rules.md. Delete these comments when done. -->
@@ -50,6 +50,15 @@ runtime: "~3 hours"
 **→ GM MOVE: STOP.** *(⏸ PAUSE — say "go" before Beat 2.)*
 
 ---
+
+## Score close (required blocks, in this order)
+- **Payoff:** Coin and Rep numbers per outcome (Rep 2 ± the target's Tier; 0 if completely quiet). 🔒 one table.
+- **🔒 HEAT (the single rule):** `07-Clocks/Heat-and-Entanglements.md` §1 terms only; do not restate Heat anywhere else in the file.
+- **Entanglement:** dice = Wanted level (Wanted 0: two dice, keep the lowest); picks for every cell; the cue from `10-Generators/Entanglement-and-Complication-Cues.md`; Ministry rows tick the Audit silently.
+- **🔒 IF THEY FIGHT TO KILL:** position/effect, their harm, the clock if any, the kill cost, the other doors (`05-Sessions/Lethal-Path-Quick-Table.md`).
+- **Downtime:** two free activities, SRD one-liners (Recover's 4-segment healing clock, Reduce Heat 1/2/3/5, Train once per track).
+- **Session close (only when the session is finished):** Zoltar's card → PC XP, then crew XP (teach card 22 if a track fills) → retrospective → Faction Turn → Night Log.
+- **Safe stops and the Pause:** list the safe stops; a sitting that ends mid-session runs only the Pause (`End-of-Session-Ritual.md` §0b).
 
 ## After this session
 - Update state files, dashboard `INIT_*`, wiki recap (spoiler-checked); generate the next Cold Open; reset the screens.

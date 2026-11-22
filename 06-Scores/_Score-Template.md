@@ -29,8 +29,11 @@ Two or three viable plans. Each gets an engagement-roll **Position** and **Effec
 * **What unlocks Controlled:** intel from **[NPC: Name]**, specific gear, etc.
 
 ### 2. {Approach name}
-* **Position / Effect:** * **Complication on a 1–3:**
-* **What unlocks Controlled:** ## Antagonist Angles
+* **Position / Effect:**
+* **Complication on a 1–3:**
+* **What unlocks Controlled:**
+
+## Antagonist Angles
 * **[Faction: Apex Aegis] angle:** how they show up — bounty manipulation, Cleaners, scanner ping, etc.
 * **[Faction: The Mimic] angle:** is The Understudied wearing a face in this score? If yes — whose, and what's the tell?
 * **Cover-up risk:** what witnesses, cameras, or documentation could expose this?
@@ -41,6 +44,12 @@ Two or three viable plans. Each gets an engagement-roll **Position** and **Effec
 * Spoilage — if a Biological is harvested
 * Tragedy — only if the Monkey's Paw is in play
 * Other custom: 
+
+## Payoff, Heat and the close
+* **Target Tier and payoff:** Coin (2/4/6/8/10+); **Rep** = 2 ± the target's Tier difference (0 if kept completely quiet).
+* **🔒 Heat:** use `07-Clocks/Heat-and-Entanglements.md` §1 terms only.
+* **Entanglement:** picks per cell (see `Entanglement-and-Complication-Cues.md`).
+* **🔒 If they fight to kill:** see `05-Sessions/Lethal-Path-Quick-Table.md`; give this score's row.
 
 ## Loot on offer
 * **Ministry payout:** X Coin

@@ -12,6 +12,8 @@ payout: 4 Coin (Ministry) — or 0 Coin and +1 Twice-Born Favor if warned
 
 # Score 02 — The Hollow Pedestrian
 
+> **Superseded for Payoff, Rep and Heat by the session prep's Payoff and single Heat lines (2026-11-21).** Do not copy the Heat or Coin lines below into a new score.
+
 **Premise:** A Ministry "Anchor Item Retrieval" for a Twice-Born the Ministry never listed before — routed through a liaison whose stamp is smudged. Order: seize the thimble, detain the entity. *(GM-private: the Understudied, as Thorne, manufactured this contract to silence the one person who knows its true name.)* Apex Aegis Peacekeepers (Drennick & Foss) patrol the block.
 
 ---

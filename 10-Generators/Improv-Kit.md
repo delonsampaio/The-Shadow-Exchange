@@ -107,7 +107,8 @@ date: 2026-11-20
 2. **Where:** the rumour's district. Read one §1 scene on arrival.
 3. **Engagement roll**, then a Detection clock (4) and one goal clock (4 or 6).
 4. **Complication (d6):** 1 Apex is already there · 2 a civilian witness from the bench · 3 a rival firm holds the same envelope · 4 the target isn't who the envelope says · 5 the building is wrong (water, wiring, a locked floor) · 6 Greta arrives early.
-5. **Twist (d6, halfway):** 1 the client lied · 2 the target is protecting someone · 3 the Anchor belongs to someone the crew knows · 4 a form that reads wrong (🔒 GM ONLY: the Mimic's paper trail) · 5 it pays well because it's bait · 6 the cat is involved.
+5. **Twist (d6, halfway):** 1 the client lied · 2 the target is protecting someone · 3 the Anchor belongs to someone the crew knows · 4 a form that reads wrong (a harmless clerical mix-up) · 5 it pays well because it's bait · 6 the cat is involved.
 6. **Choice with a cost:** two options, each saying what the crew gets and who it hurts. Surface the human cost before the payout. 🔴, no jokes.
 7. **Out:** payoff (the Board's 4 Coin standard; 2 for Subway odd jobs); Heat (SRD: 2 standard, 4 loud; +1 in the Overhang); a Turnstile exit or the van; Zoltar's card.
+*After the score:* Payoff (Rep 2 ± the target's Tier), Heat per `Heat-and-Entanglements.md` §1 (kill +2, well-connected +1), the Entanglement, and the finished-session close (XP, retrospective).
 **Time:** ~20 min per step from step 3; on a short evening, stop after step 3 or 4 and run the Pause.

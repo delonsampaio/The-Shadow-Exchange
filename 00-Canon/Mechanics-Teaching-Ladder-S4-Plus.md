@@ -33,7 +33,7 @@ Rules from `Mechanics-Teaching-Ladder.md` still apply: **max 4 new lessons a ses
 - **WATCH FOR:** players treating it as a "paperwork joke". It's a real clock; the funny line is Greta's, never the clock.
 - **GM note:** before S4 tick it silently on a Ministry entanglement (`Heat-and-Entanglements.md`). **Never** explain it earlier.
 
-## 21. Subway Decay *(S6, when the red line first appears on the transit map)*
+## 21. Subway Decay *(the first Subway visit after Decay goes live, S6 or later, when the red line is first inked on the transit map)*
 - **D&D bridge:** like a doom track on the map that only moves when things go wrong.
 - **SAY:** "The Subway has its own clock, **Decay**: six segments, shown on the map in red. It rises when the cover-up cracks: monsters leaking, exposure, things the crew failed to contain. At **four** the merchants pack up. At **six** the cover-up breaks."
 - **SHOW:** the transit map with a finger-long red line (Decay 1 of 6).
@@ -64,7 +64,7 @@ Rules from `Mechanics-Teaching-Ladder.md` still apply: **max 4 new lessons a ses
 - **WATCH FOR:** a player assuming Heat *is* the Wanted level (it is not; see `House-Rules.md`).
 
 ## When a mechanic arrives early
-If a consequence demands a mechanic before its slot (e.g. a Trauma in S2), teach the card at that moment and note it in the Live Ledger; do not teach another that session.
+If a consequence demands a mechanic before its slot (e.g. a Trauma in S2), teach the card at that moment and note it in the Live Ledger. If more than four lessons fall due in one session, teach the extra one at the next session's first use and log it. Harm is taught the first time it is taken (Ladder card 16).
 
 ## After S6: no new cards
 Season 1 teaches nothing after the cards above (**except cards 23–24 when first triggered**); later seasons only **reinforce**. If a rare rule comes up (a long-term project, a Cohort), explain it in one line at first use and stop.

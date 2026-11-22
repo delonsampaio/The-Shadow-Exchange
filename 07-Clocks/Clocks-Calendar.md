@@ -29,9 +29,9 @@ purpose: "Planned value of every clock, session by session (S1–30, then ~S41, 
 
 | S | Omen | Decay | Audit | Heat / Apex / Kress (P) | Mara: stage · clock | Spoilage | Heirlooms | Moves it · warning signs the table sees | ⚑ |
 |---|---|---|---|---|---|---|---|---|---|
-| 1 | 0 | — | 0 (+1 on DB 4–5/1–3) | Heat +0 (Ministry), +2 (file nothing); Kress unaware | 1 · 0 (alley glimpse) | — | St 1 | The Surge (6, S1 only) | ⚑ **Taking the Gland starts a Biological in S1**, before Spoilage is staged at S4 (App). *PROPOSAL:* Cold Storage hides it until S4 |
+| 1 | 0 | — | 0 (+1 on DB 4–5/1–3) | Heat per the S1 prep's single Heat line; Kress unaware | 1 · 0 (alley glimpse) | — | St 1 | The Surge (6, S1 only) | ⚑ **Taking the Gland starts a Biological in S1**, before Spoilage is staged at S4 (App). *PROPOSAL:* Cold Storage hides it until S4 |
 | 2 | **1** | — | 0–1 (silent) | Warn: Ministry −1 · Seize: Twice-Born −1; Apex ping in every branch | 1 · 0 (Meridian glimpse) | — | St 1 (weight charge) | The shop clock runs 4 minutes slow | — |
-| 3 | **2** | — | silent (GM-secret) | Heat +0/+1/+2 (S3 table) | 1 · 0 | — | St 1 | The clock stops at 11:47 | — |
+| 3 | **2** | — | silent (GM-secret) | Heat per the S3 prep's single Heat line | 1 · 0 | — | St 1 | The clock stops at 11:47 | — |
 | 4 | 2 | — | DB (silent to S3; visible S4+) | Apex beat them to the bounty | 1 · 0 | **starts** (first Biological) | St 1 | AM fragments at the Scanner Station | — |
 | 5 | 2 | — | DB | Ep. (UL #5/#7: Apex review timers) | 1 · 0 | ticks | St 1 | Episode texture | — |
 | 6 | 2 | **1** | DB | Reyes's visit; Kress (P) 0→1 if a Twice-Born was protected | 1→2 · 0 | ticks | ≥1 moment per PC by S6 | Red line on the map, one finger long | — |

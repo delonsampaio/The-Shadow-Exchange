@@ -4,7 +4,7 @@ status: active
 classification: GM-PRIVATE
 faction: The Ministry — Oversight Desk (Reformist)
 role: The reason the crew's contracts are slightly better than they should be
-first_contact: Referenced in The-Ministry.md; direct appearance TBD (mid-campaign)
+first_contact: Referenced in The-Ministry.md; direct appearance S6 (S5 at the earliest; never S4)
 ---
 
 # Deputy Director Alma Reyes

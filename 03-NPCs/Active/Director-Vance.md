@@ -23,7 +23,7 @@ Vance believes in the cover-up as a genuine civic good. Not cruel — procedural
 
 ## What He Knows About the Crew
 
-Currently: file only. If the Ministry Audit Clock fills, he becomes directly relevant. He will not send Apex Aegis — he considers them a blunt instrument. He will send a compliance review team with four weeks' notice and complete paperwork.
+Currently: file only. If the Ministry Audit Clock fills, he becomes directly relevant. He will not send Apex Aegis — he considers them a blunt instrument. He will lock the shop's Vault and Cold Storage with complete paperwork and no notice (Audit 4); it is paid down, never argued away.
 
 ## Relationship to Other Ministry Factions
 

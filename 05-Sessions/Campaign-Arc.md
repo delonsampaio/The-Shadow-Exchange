@@ -9,7 +9,7 @@ gm_secret: true
 
 > **GM-PRIVATE.** This is the connective tissue. Sessions 0–3 are fully prepped. Sessions 4+ are *situations*, not scripts — plan the situation, not the story. Each entry lists what it plants, what it pays off, and the trigger conditions that move the threads.
 
-**Terminology (fixed):** *Session* = one night at the table. *Score* = the job inside it (the original bible called these "Jobs"/"Heists"; those labels map to scores below). *Downtime* = the phase after.
+**Terminology (fixed):** *Session* = one prep file (a unit of story); it may take several sittings (real evenings). *Score* = the job inside it (the original bible called these "Jobs"/"Heists"; those labels map to scores below). *Downtime* = the phase after.
 
 ---
 
@@ -34,7 +34,7 @@ The crew are small-time licensed hunters who take Ministry contracts and quietly
 
 ---
 
-### Reyes — First In-Person Scene *(Session 6, or after two Returned/Refused Anchors)*
+### Reyes — First In-Person Scene *(Session 6; two Returned/Refused Anchors may bring her to S5, never S4)*
 > 🔊 **READ ALOUD:** "A woman in her fifties is standing by the Occult shelf with a dry umbrella and a manila folder that bears no courier stamp. She does not look at Zoltar. She sets the folder on the counter, taps it once with a capped pen, and says: 'Your firm takes two days on jobs other firms clear in one. Your paperwork is complete, your incident rate is low, and nobody has complained. That is unusual. My name is Alma Reyes. You have ten minutes before this folder was never here.'"
 > 🔒 **GM ONLY:** she hands them the **John Doe** hospital lead *before* Section Chief Kress's extraction team gets it — planting the Ministry's internal split (Oversight Desk vs. Suppression Bureau). If asked why: *"Registration and management is a solvable problem. Nobody wants to solve it."* She never admits she's the reason their contracts run slightly better than they should. (File: `03-NPCs/Active/Deputy-Director-Reyes.md`. Ending 1 — *The Cover Holds* — depends on her being empowered.)
 
@@ -52,7 +52,7 @@ The crew are small-time licensed hunters who take Ministry contracts and quietly
 | The Architect's identity | GM chooses (see `The-Architect.md`) | The *name* surfaces S4 (Harlan's reaction); the *identity* confirmed by the Season 2 finale (~S54) | John Doe's restored memory; rival hunter; PTOLEMY's odd ledger entry |
 | What controls the Subway | GM chooses (`Mysteries.md`) | Clues scheduled at S8, S13 and S24 (`Living-Subway.md` §7) | The crew's names in the ledger *before* they found the entrance; the four controller clues |
 | What the Omen is | Nobody | Season 1B onward (Omen 3 at ~S11, 4 at S25) | Symptoms accumulating; Aldric's logs; Senna's archive (the Archive Fire); the Yellow-Line returnee (`Living-Subway.md`) |
-| Kress's *name* | Kress, Apex, the Understudied; Stalls has seen it on a letterhead | The *name* may surface S3–S4 (Stalls); his *role* in S10–11 | A PC who reads Stalls's papers |
+| Kress's *name* | Kress, Apex, the Understudied; Stalls has seen it on a letterhead | The *name* appears on screen **S7 (the binder letterhead), never earlier**; Stalls says only "my investor's people at the Ministry"; his *role* in S10–11 | A PC who reads Stalls's papers |
 | Mara Halliday | Nobody (she's a civilian) | Sessions 1–6 | She follows *them* |
 | Merton's dog Gerald was mutated by the failing collar | GM | S1 | Study on the basement leak |
 
@@ -64,12 +64,12 @@ These make the world move between sessions without railroading.
 
 - **IF** the crew **warns Emmerich** (S2) → the Understudied's first attempt to silence him *failed*; it tries a second method (a Subway rumor, a Ministry flag, a "customer" at his shop) around **Session 4–6**. Emmerich will share the name only with earned trust — make the crew *protect* him before he talks.
 - **IF** the crew **seizes the thimble** (S2) → Emmerich unravels; the one person who knew the true name is gone; Thorne becomes *warmer*, more helpful. Surface it later as "a convenient absence."
-- **IF** the crew uses Double Bookkeeping and rolls 4–5 → tick **Ministry Audit** 1. **IF** Audit hits 4 → Vance sends a compliance team with four weeks' notice (the Vault and Cold Storage lock until a bribe).
-- **IF** the crew protects a Twice-Born → +1 Favor *and* Kress notices them within ~2 sessions (paper trail: a rerouted contract).
+- **IF** the crew uses Double Bookkeeping and rolls 4–5 → tick **Ministry Audit** 1. **IF** Audit hits 4 → the Ministry locks the Vault and Cold Storage **at once** (no notice) until it is paid down: the Long-Term Project "Pay the Ministry audit down" (clock 6) removes one segment, or a bribe of 6 Coin clears it.
+- **IF** the crew protects a Twice-Born → +1 Favor *and* Kress notices them (earliest **S6**; paper trail: a rerouted contract).
 - **IF** crew standing with Apex ≤ −2 or crew Heat 6+ → **Cleaners** assigned (they sabotage a score; they bicker about it).
 - **IF** the crew goes to Harlan's → +1 intel lead ahead of the Ministry list (until Apex finds the diner).
 - **IF** Decay reaches 4 → merchants pack up, Twice-Born flee (lose a Favor if holding 3), Apex intel triangulates.
-- **IF** a PC reads the red-ink Journal entry (Long-Term Project) → Architect thread +1 clue; Harlan reacts ("Where'd you hear that name?").
+- **IF** a PC reads the red-ink Journal entry (Long-Term Project) → Architect thread +1 clue: the page reads **"ASK THE ARCHITECT BEFORE YOU SIGN."**; Harlan reacts ("Where'd you hear that name?"). This page (shown to Harlan or studied) is the only way the word reaches the table at S4.
 - **IF** the crew carelessly leaves the Journal exposed → **Mara Halliday** stage 3.
 - **IF** three incidents cluster in one district → Nesting clock (4-seg); see `Urban-Legends.md`.
 - **IF** the crew has caught 3+ Thorne tells *and* told someone → the Understudied accelerates (it knows they know; it feeds a manufactured disaster).

@@ -2,7 +2,7 @@
 type: npc
 status: active
 classification: GM-PRIVATE (Apex front)
-first_seen: Session 3 (via a man in a new coat; the S3 coffee-shop pitch is optional and in person)
+first_seen: Session 3 (via a man in a new coat; phone, or in person at the S3 coffee-shop pitch)
 faction: Apex Aegis (shell: Stalls Holdings LLC)
 role: the "would've gotten away with it" villain of the Session 3–7 Paper Pipeline arc (phone only S3; unmasked S4; binder and Kress's letterhead S7; CAN DIE / LEAVE after S7)
 ---
@@ -27,5 +27,5 @@ Stalls Holdings is an Apex shell that buys property where a **Resonance anomaly*
 - *When caught:* "It's not what it looks like! It's — it's a *holding structure!*"
 
 ## Hooks
-- He knows the name **Kress** — he has *seen it on a letterhead.* He does not know what it means.
+- He has *seen a letterhead* from "the investor's people at the Ministry." **He never says the name Kress on screen** (the name appears at S7, in his binder). He does not know what it means.
 - Hands them Apex's first hint about the bounty-skimming pipeline (Session 4).

@@ -24,7 +24,7 @@ Generate these before Session 0. Save outputs to `11-Visuals/_Saved-Images/`.
 - **Seeds:** none in the app. To keep a *look*, attach a favorite image as a **style anchor** ("use Image 1 only for colour, grain and lighting").
 **To test, only if needed:**
 - **Borders / edge scratches:** words like "noir", "vintage", "film grain" pull in the look of scanned prints, and **negative phrasing ("no scratches") can summon what it names**. If a border returns, try a suffix variant: replace "Visible film grain" with "Subtle film grain" and end with *"Full-bleed, edge-to-edge clean digital frame."* (A/B it on a prompt that produced a border.) Don't change a suffix that is working.
-- **Corner sparkle logo:** a visible mark on consumer-app images; developer endpoints (API / AI Studio) carry only the invisible SynthID mark. Our recent images are clean — **note which surface produced them and keep using it.** The invisible mark is always present. Prefer generating clean over cropping.
+- **Corner sparkle logo (resolved 2026-11-22: Gemini no longer adds it, so no corner check is needed):** formerly a visible mark on consumer-app images; developer endpoints (API / AI Studio) carry only the invisible SynthID mark. Our recent images are clean — **note which surface produced them and keep using it.** The invisible mark is always present. Prefer generating clean over cropping.
 
 ---
 
@@ -98,15 +98,10 @@ Clean composition, no legible text, no watermarks, no signatures.
 
 ---
 
-### Merton — The Reveal (standing, holding the collar)
-Save as: `npc-merton-reveal.png` *(optional but recommended; Session 1 beat 6, the reveal. The existing `npc-merton-true-form.png` shows him crouched and chained with the collar on, so it belongs to the pump-room / Surge-resolved moment, not the reveal)*
+### Merton — The Reveal (standing, hands out, EMPTY)
+Save as: `npc-merton-reveal.png` *(optional but recommended; Session 1 beat 6. **Corrected 2026-11-22:** hands open and EMPTY with no collar anywhere, so it works whether a PC took the collar or Merton took it down himself; the creature is a man-dog HYBRID built from `npc-merton-human.png`, not copied from `npc-merton-true-form.png`, which shows a pure dog and is to be redone from this image.)*
 
-```
-A tall figure standing in a dim concrete basement corridor, half man and half enormous black dog: broad hunched shoulders splitting a grey security uniform along every seam, a long dog's jaw, ears flat back, eyes with too much amber light in them, and a man's weary posture. He holds both open hands out in front of him, empty, as if he is about to be asked to give something back. Behind him an open staff locker with a pressed shirt on a hanger and, on a nail beside it, nothing: the empty place where a collar hung. A bare overhead bulb.
-Low cold bulb light from above, a faint amber glow from the collar in his hands lighting his chin and chest, cold blue spill from the stairwell behind the viewer.
-Matted dark fur, split grey cloth, soft old leather, damp concrete. Palette of charcoal, steel blue and a single ember of amber. Not a monster pose: sorrowful, restrained, terrifying only because of how carefully he is holding still. Quiet unease, not horror.
-Clean composition, no legible text, no watermarks, no signatures.
-```
+**Attach:** `npc-merton-human.png` (his face, age and uniform) and `location-merton-locker.png` (the corridor, bulb and stairwell). The full paste-ready prompt was given in chat on 2026-11-22: a tall hybrid standing upright between the watchman and an enormous black dog, uniform split along the seams, dog's jaw and flat ears, amber eyes, partly human hands held out open and empty, the open locker and the empty nail behind him, no collar, no chain, charcoal / steel blue / one ember of amber, sorrowful and restrained, no legible text.
 
 ---
 
@@ -297,6 +292,7 @@ Clean composition, no text, no watermarks, no signatures.
 ---
 
 ### The Crossroads Broker
+**REDO (2026-11-22): the first image looked like an older Elias Thorne. The new face must be clearly different (age, build, hair, nose, ears) and must NOT resemble `npc-elias-thorne.png`.**
 Save as: `npc-crossroads-broker.png`
 *(Revised 2026-11-20: 16:9, explicitly ordinary — his one Session 2 line carries the menace — and tied to the Subway hall.)*
 

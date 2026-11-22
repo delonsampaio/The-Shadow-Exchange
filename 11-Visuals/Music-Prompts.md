@@ -469,7 +469,7 @@ Save as: `music-pier-ambience-loop.mp3` *(the pier exit — loops)*
 [Instrumental] Ambience only, no melody, no rhythm. Steady, unchanging ambience at constant volume and texture throughout: a quiet pier at dusk, low tide lapping against wooden pilings, a distant diesel engine, a gull now and then, wind in a loose rope, calm and lonely and slightly unreal. No intro, no outro, no fade out. (Trim the first and last 2 seconds in QuickTime/an editor and crossfade ~1 s if the loop point clicks.)
 ```
 
-### Z. Zoltar's spoken fortune — ONE reusable prompt *(change only the quoted line each session)*
+### Z. Zoltar's spoken fortune — **DROPPED 2026-11-22 (GM: the cards are enough; kept only in case it is ever wanted)** — ONE reusable prompt *(change only the quoted line each session)*
 Save as: `music-sting-zoltar-fortune-s00.mp3` (then `-s01`, `-s02`, … — the name contains `sting`, so it plays once). Gemini speaks quoted text **exactly**.
 ```
 Speak exactly the following text, once, and nothing else: "You will soon receive an envelope. It will not be good news. It will be damp."

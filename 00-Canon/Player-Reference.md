@@ -133,7 +133,7 @@ These are not trick questions. The honest answer to each is a real choice that s
 ## Shadow Exchange — what to remember about *this* world
 
 - **The cover-up is sacred.** Public exposure of the supernatural ends careers and licenses. Witnesses with phones are scarier than wounds.
-- **Some monsters are people.** Anchor Items are personal — a thimble from a daughter, a leather collar from a first dog. Taking them has weight. The crew keeps a ledger.
+- **Some monsters are people.** Anchor Items are personal — a pocket watch from a husband, a locket from a sister. Taking them has weight. The crew keeps a ledger.
 - **Apex Aegis is the corporate threat.** Recklessly profitable, eroding the cover-up.
 - **The world is bigger than the Ministry's paperwork.** You will find out how much bigger, and it will cost something.
 
@@ -158,7 +158,7 @@ Your characters know this space before Session 0. See the player site's **Our La
 
 **The Front Shop:** The public bookstore (a former savings bank). Rotary phone, reading chair, cat named Consequence. Real books, real cover. An old Zoltar fortune-teller machine in the back corner — unplugged for decades; push the crew's coin sequence and the wall behind him slides open.
 
-**The Containment Suite (behind Zoltar):** eleven iron steps down into one long, cold room — Post-Op Table, Hunter's Journal, Scanner Station (shortwave radios + a Resonance detector, two-block radius, green lamp always on), Trophy Wall, Cold Storage Locker (pauses biological spoilage), Lead-Lined Vault (Resonance-dark storage; combination known to the full crew), and the **Wall of Rules**.
+**The Containment Suite (behind Zoltar):** eleven iron steps down into one long, cold room — Post-Op Table, Hunter's Journal, Scanner Station (shortwave radios + a Resonance detector, two-block radius, green lamp always on), Trophy Wall, Cold Storage Locker (keeps things cold), Lead-Lined Vault (Resonance-dark storage; combination known to the full crew), and the **Wall of Rules**.
 
 **Upstairs:** the Annex (kitchenette, armchairs) and the Lofts (three bunks).
 

@@ -22,7 +22,7 @@ gm_secret: cost_table
 
 ## What it offers
 
-- Lower the crew's Wanted level by 1, instantly (once).
+- Someone the crew names is convicted for the crew's crimes before the week is out (Wanted −1 and Heat clears, per the SRD; only incarceration lowers Wanted). The Broker's price is on top.
 - Restore a Spoiled Biological to full quality.
 - Restore a Siphoned Relic.
 - Grant a free Critical on one roll of the crew's choice.

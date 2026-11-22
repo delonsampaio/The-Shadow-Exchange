@@ -8,7 +8,7 @@ last_updated: 2026-11-20
 
 # Score Catalog
 
-**How to use:** this is the GM's master list. After each session: mark the score **PLAYED / SKIPPED**, note what the table did, and choose the next lead for `Bounty-Board.md` from here (the Board is what the crew sees). Details live in `05-Sessions/Season-1-Plan.md`; Urban Legend leads in `10-Generators/Urban-Legends.md`; full write-ups in `06-Scores/Score-NN-*.md` (written one or two sessions ahead). **Dread:** 🟢 comic · 🟡 mixed · 🔴 serious · 🔵 mystery/dread. **Status:** PREP = prep file written · PLAN = outlined only · OPEN = available to drop in.
+**How to use:** this is the GM's master list. After each session: mark the score **PLAYED / NOT CHOSEN**, note what the table did, and choose the next lead for `Bounty-Board.md` from here (the Board is what the crew sees). Details live in `05-Sessions/Season-1-Plan.md`; Urban Legend leads in `10-Generators/Urban-Legends.md`; full write-ups in `06-Scores/Score-NN-*.md` (written one or two sessions ahead). **Dread:** 🟢 comic · 🟡 mixed · 🔴 serious · 🔵 mystery/dread. **Status:** PREP = prep file written · PLAN = outlined only · OPEN = available to drop in.
 
 ## A. Season 1 spine and mid-arc scores (Sessions 1–28)
 | S | Title | Arc | Target / premise | Choice (cost) | Thread planted | Dread | Status |

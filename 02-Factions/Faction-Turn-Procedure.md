@@ -4,7 +4,7 @@ status: ADOPTED 2026-11-20 (fronts, not scripts)
 purpose: "Five minutes between sessions: which clocks may tick, how many, and how factions move on their own."
 ---
 
-# Faction-Turn Procedure (after every session, ≈5 minutes)
+# Faction-Turn Procedure (after every **finished** session, never after a Pause; ≈5 minutes)
 
 1. **Read** `02-Factions/Faction-Tracker.md`, `07-Clocks/Faction-Clocks.md`, `07-Clocks/Active-Clocks.md` and the Season Plan row for the next session.
 2. **Tick by fiction, not by dice.** For each *active* faction (Ministry, Apex Aegis, rival firms, Hunter Underground, the Mimic, the Subway Community): did the crew's last session give it a reason to move? If yes, it ticks **one** clock segment. **Max one tick per faction and three ticks in total per turn.**
@@ -16,8 +16,8 @@ purpose: "Five minutes between sessions: which clocks may tick, how many, and ho
 ## The Apex Acquisition Push clock (6 segments; adjustable by the GM)
 | Seg | Trigger (adopted starting point) |
 |---|---|
-| 1 | S4: Apex sweeps the bounty first |
-| 2 | S7: Stalls Holdings exposed (Apex shell) |
+| 1 | S4: Apex sweeps the bounty first; Stalls unmasked |
+| 2 | S7: the binder and the choice (Kress's letterhead) |
 | 3 | S11: Apex goes hot after Extraction Under Salt |
 | 4 | S12: the buyout offer (declining makes Apex an enemy, but the clock still moves) |
 | 5 | S23: Hostile Takeover / the Harrow betrayal gives Apex the address list lever |

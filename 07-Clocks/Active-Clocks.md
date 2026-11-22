@@ -26,6 +26,7 @@ Clock notation: `[ ◌ ]` empty, `[ ● ]` filled.
 * **Full Effect:** Merton loses control — Desperate position, Level 3 harm on the table, Detection +2.
 
 ### [Clock: Biological Spoilage] [3-Segment]
+* **Decision (2026-11-22):** the Cold Storage Locker pauses Spoilage, including the Gland kept at S1. The clock starts, and S4 teaches it, on the **first Biological carried out of Cold Storage** (the S4 job yields one).
 * **Progress:** `[ ◌ ◌ ◌ ]` (0/3)
 * **Trigger:** Ticks each Downtime phase. Ticks 2x per scene on Away Jobs. Paused by Cold Storage Locker.
 * **Full Effect:** The harvested Biological becomes worthless rot.

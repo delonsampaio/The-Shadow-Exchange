@@ -36,7 +36,7 @@ purpose: "Rumor pool for The Ritual downtime activity and GM improvisation."
 
 ### 4 — The Radio Signal
 * **Cover:** Pirate radio. FCC notified. Investigation pending.
-* **Truth:** The AM Host broadcasts are Aldric Voss (see `03-NPCs/Twice-Born/Aldric-Voss.md`), tracking Resonance events through radio interference for sixty years. Recent fragment: *"It found the frequency. Don't use the frequency."*
+* **Truth:** The AM Host broadcasts are Aldric Voss (see `03-NPCs/Twice-Born/Aldric-Voss.md`), tracking Resonance events through radio interference for sixty years. Recent fragment (**S24+ only**): *"It found the frequency. Don't use the frequency."*
 * **Tell:** The signal broadcasts on three AM channels simultaneously. This is technically impossible with standard equipment.
 * **Urgency:** Connected to [Clock: The Omen]. When the Omen hits 4 segments, Aldric's broadcasts stop. Either he went underground or was silenced.
 

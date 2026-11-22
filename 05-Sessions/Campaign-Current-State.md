@@ -17,10 +17,11 @@ The rainy season has settled over Old City. The shop is open, the "Twenty-Dollar
 
 ## Mechanical Baseline
 * **Crew Heat:** 0 · **Rep:** 0 · **Coin:** 0 *(house rule; the SRD start is 2)* · **Tier:** 0 · **Hold:** Weak
+* **Wanted:** 0 · **XP:** (each PC's tracks; crew track /8) · **Crew upgrades:** (the two chosen at S0) · **Twice-Born Favor:** 0/3 · **Cohort:** (Gerald, if kept) · **Stress / Harm / Trauma:** (per PC) · **Faction standings:** (incl. the S0 reactions and the hunting-grounds rival)
 * **Vault Status:** Open
 * **Omen:** 0/8 (Quiet) — first symptom lands in Session 2
 * **Ministry Audit:** 0/4 · **Subway Decay:** not yet introduced · **Detection:** resets per score
-* **Thorne tells caught:** 0/6
+* **Thorne tells caught:** 0/9
 
 ## AI Co-GM Instructions
 * **Re-Sync Protocol:** At the start of every session, read this file to establish the "Starting Room."

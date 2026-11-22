@@ -28,7 +28,7 @@ last_updated: 2026-11-16
 | **1** | **Flashback** · **Devil's Bargain** *(taught with **clocks**: the bargain's price is a clock tick, so card 17 comes with it, as a 20-second moment the first time a clock is on the TV)* · **Heat → Entanglement → Vice** (the downtime sequence after a score) · **XP** (Desperate XP in the moment, and the end-of-session tally) · **Load** *(GM 2026-11-21: taught in S1, **paired with Flashback** as one "getting the gear you need" lesson: you carry some, anything else is a Flashback; so S1 is still 4 lessons)* | **Resistance** *(practised in S0)*; Position & Effect; Stress | Group Action, Engagement-roll math, Acquire Assets, Harm tables (only name harm when it happens). *The Ministry Audit clock is **GM-secret until S4**: tick it behind the screen, never on the TV, never explained* |
 | **2** | **Group Action** · **Assist** · **Twice-Born Favor** | Resistance; Flashback; Entanglements; XP | Acquire Assets |
 | **3** | **Acquire Assets** · **Push Yourself** (if not already) | Everything above, including Entanglements and XP | Trauma tables |
-| **4+** | Spoilage/Audit/Decay clocks as they appear · **Harm** levels · **advancement** (*taught the first time a track fills, which can be as early as the S1 close*) | — | — |
+| **4+** | Spoilage/Audit/Decay clocks as they appear · **advancement** (*taught the first time a track fills, which can be as early as the S1 close*) | — | — |
 
 > **If the table already "gets" a mechanic early, skip ahead. If they don't, repeat it — do not add a new one.**
 
@@ -118,7 +118,7 @@ Each: **SAY** (≤30 s, D&D bridge) · **SHOW** (example) · **CHECK** (a questi
 - **Pairing with Flashback:** *"Anything you didn't pack, you can still have, if you prepared it earlier: that's a Flashback."* Load is what you carry; Flashback is what you prepared.
 
 ### 18b. **XP tally** *(S1, at the first session close)*, **advancement** *(the first time a track fills)*, **Trauma tables** *(when first hit)*.
-- **Cards 19–24 (Spoilage, Audit, Decay, XP tally, Trauma, Wanted):** `00-Canon/Mechanics-Teaching-Ladder-S4-Plus.md`.
+- **Cards 19–24 (Spoilage, Audit, Decay, Advancement, Trauma, Wanted):** `00-Canon/Mechanics-Teaching-Ladder-S4-Plus.md`.
 
 ---
 
@@ -135,7 +135,7 @@ Each: **SAY** (≤30 s, D&D bridge) · **SHOW** (example) · **CHECK** (a questi
 - **After the roll, name the result in plain words** ("You rolled a 5 — you do it, but…").
 - **Log taught mechanics** on the dashboard (**Mechanics Taught** panel) so the GM and Co-GM know what's been introduced.
 - **If a player seems lost:** pause, offer the 3-option menu, and say *"No wrong answer — pick the one that feels like your character."*
-- **If a mechanic confuses the table twice:** *simplify* (e.g., skip stress math, narrate cost) and revisit next session.
+- **If a mechanic confuses the table twice:** *simplify* (e.g., narrate the cost) and **repeat the card** next session.
 
 ---
 

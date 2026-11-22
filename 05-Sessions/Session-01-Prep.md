@@ -29,8 +29,8 @@ mechanical_focus: "TEACH (four lessons): gear = Load + Flashback; Devil's Bargai
 | 4a | Theater lobby | "go" | `music-theater-loop` | `location-fairground-theater` → `npc-bernard-janitor` ✅ *(optional, when he rounds the corner)* | Bernard the janitor | Position & Effect *(reinforce)* |
 | 4a-ii | The dark auditorium | inline | *(continues: `music-theater-loop`)* | `location-theater-auditorium` ✅ *(on the TV as the read-aloud begins)* | — | Position |
 | 4b | Gerald in the basement | — | *(continues: `music-theater-loop`; no sting)* | caption "The basement stairs" for the build-up, then `npc-gerald-dog` ✅ with the flip | 🟢 GERALD | **Devil's Bargain + the Detection clock** |
-| 5 | Merton's locker 🔴 | "go" | `music-s01-mertons-locker` | `location-merton-locker` ❌ *(optional; until it exists: title card, caption "Locker 7")*; caption "Merton", no image (`npc-merton-human` shows a desk, not the corridor) | 🔴 none | Study; Anchor weight |
-| 6 | True form & The Surge | "go" | `music-s01-true-form-reveal` → `music-s01-merton-fight` | `npc-merton-reveal` ❌ *(optional; the reveal: standing, hands out. Until it exists: title card, caption "Merton"; the Surge clock appears with the flare)*; `npc-merton-true-form` *(crouched, chained, collar on)* only once he is chained in the pump room or the Surge is held | 🔴/🔵 during the Surge; the Lever & stage-prop gags only after it resolves (aftermath) | **Resistance** *(reinforce)*, **Desperate = XP**; Harm *(just in time)* |
+| 5 | Merton's locker 🔴 | "go" | `music-s01-mertons-locker` | `location-merton-locker` ✅ *(on "go"; clears the Gerald image)* → `npc-merton-corridor` ✅ *(when Merton steps into the corridor behind them)* | 🔴 none | Study; Anchor weight |
+| 6 | True form & The Surge | "go" | `music-s01-true-form-reveal` → `music-s01-merton-fight` | `npc-merton-reveal` ✅ *(the reveal, on "go": standing, hands open and empty)* → `npc-merton-surge` ✅ *(with the collar flare: fully changed and loose; the Surge clock appears)*; `npc-merton-true-form` ✅ *(crouched and chained in the pump room, collar on, the same half-man creature further into the change)* only once he is chained at the ring or the Surge is held **and no PC is holding the collar** (otherwise caption "Merton", no image) | 🔴/🔵 during the Surge; the Lever & stage-prop gags only after it resolves (aftermath) | **Resistance** *(reinforce)*, **Desperate = XP**; Harm *(just in time)* |
 | 7 | The Choice 🔴 | "go" | `music-s01-the-choice` | `item-leather-collar` | 🔴 none | **Anchor Ledger** |
 | 8 | Thorne arrives | "go" | `music-s01-elias-thorne` | `npc-elias-thorne` | — | *(Tells 1 & 2; the ring, Tell 6, is worn, never pointed out)* |
 | 9 | Outside — Mara | inline | *(deliberate silence — the music fades out)* | *(TV: title card, caption "The alley"; clears Thorne)* | — | *(plant)* |
@@ -39,7 +39,7 @@ mechanical_focus: "TEACH (four lessons): gear = Load + Flashback; Devil's Bargai
 
 > **Tonight's four lessons: (1) gear: Load + Flashback · (2) Devil's Bargain (taught with Clocks) · (3) Heat → Entanglement → Vice · (4) XP (Desperate + the end-of-session tally).** Resistance was practised in Session 0. **Group Action and Harm tables (named when they happen): deferred.**
 
-**Asset status:** all required assets exist; optional ❌: `location-merton-locker`, `npc-merton-reveal`, `location-curios-interior` (see `11-Visuals/ASSET-TODO.md`). If missing → `[IMAGE CUE: … — not yet generated]`.
+**Asset status:** all required assets exist; all optional images now exist (see `11-Visuals/ASSET-TODO.md`; only the Zoltar stings are open). If missing → `[IMAGE CUE: … — not yet generated]`.
 
 **Vocal-track note (GM decision 2026-11-21):** `music-vocal-fairground` has lyrics. Fire it **inline as the Fairground read-aloud begins**; the GM reads over it and **pauses a little to let the lyrics be heard**. No separate silent beat.
 
@@ -271,7 +271,7 @@ Councilman Pruitt's bulldog **Gerald** is boarded most nights at the Fairground 
 > ⏸ **PAUSE — Say "go" when players open the locker.**
 
 **[MUSIC CUE: music-s01-mertons-locker.mp3]** *(on "go" — runs under the read-aloud)*
-**[IMAGE CUE: location-merton-locker.png]** ❌ *(optional; until it exists: TV = title card, `image: null`, caption "Locker 7". **This clears the Gerald image**, so the 🔴 beat never plays under a bulldog.)*
+**[IMAGE CUE: location-merton-locker.png]** ✅ *(on "go": the open locker, the shirt, the thermos, the paperback, the photograph on the door, the collar glowing on its nail. **This clears the Gerald image**, so the 🔴 beat never plays under a bulldog.)*
 
 > 🔊 **READ ALOUD:**
 >
@@ -293,7 +293,7 @@ Councilman Pruitt's bulldog **Gerald** is boarded most nights at the Fairground 
 It hangs on the nail. If a PC takes it, **the moment they do**, Merton appears behind them (he heard the nail). If no one takes it, he takes it down himself.
 
 ### Merton appears — as the man *(the human beat; added 2026-11-21)*
-**[IMAGE CUE: none yet]** *(TV: title card, caption "Merton". The existing `npc-merton-human.png` shows him seated at his third-floor security desk by a window, not standing in the basement corridor with keys; an optional image `npc-merton-corridor` is on the asset TODO. `music-s01-mertons-locker` keeps playing.)*
+**[IMAGE CUE: npc-merton-corridor.png]** ✅ *(on "Behind you, the corridor light catches a man…": Merton standing in the corridor, keys in one hand, the other empty, the open locker and the glowing collar behind him. It replaces the locker picture and is the "before" state of the reveal. `music-s01-mertons-locker` keeps playing.)*
 > 🔊 **READ ALOUD:**
 > *(Same opening in every branch:)* "Behind you, the corridor light catches a man in a gray security uniform, ironed to a razor's edge. Late fifties, a little stooped, a ring of keys in one hand. He stands very still, the way a man stands who has apologised to a lot of doors. 'Sorry,' he says."
 > → **A PC took the collar:** 🔊 **READ ALOUD** *"'I heard the nail.' His eyes go to your hands, and then, quickly, to the open locker, as if to check the photograph is still there."* 🗣 **SAY** *(Merton, tired, courteous)*: *"That one's mine, if you don't mind. It isn't a good night for it."*
@@ -309,7 +309,7 @@ It hangs on the nail. If a PC takes it, **the moment they do**, Merton appears b
 
 > ⏸ **PAUSE — "go" for the reveal.**
 
-**[IMAGE CUE: npc-merton-reveal.png]** ❌ *(optional; until it exists: caption "Merton", no image. `npc-merton-true-form.png` shows him crouched and chained with the collar on, so use it only once he is chained at the pump-room ring or the Surge is held, **and no PC is holding the collar** (otherwise caption "Merton", no image).)*
+**[IMAGE CUE: npc-merton-reveal.png]** ✅ *(on "go" with the read-aloud: Merton standing upright in the corridor, half man and half dog, both hands open and empty, the open locker behind him; no collar in the frame, so it works whether or not a PC holds it. **For the chained moment:** `npc-merton-true-form.png` (the same creature crouched and chained, collar on), only once he is chained at the pump-room ring or the Surge is held **and no PC is holding the collar**; otherwise caption "Merton", no image.)*
 **[MUSIC CUE: music-s01-true-form-reveal.mp3]** *(on "go" — runs under the read-aloud)*
 
 > 🔊 **READ ALOUD:**
@@ -350,6 +350,7 @@ It hangs on the nail. If a PC takes it, **the moment they do**, Merton appears b
 > - **Offer the other doors once, in the fiction, not as a lecture:** *"He's stopped swinging. He's looking at the photograph."* Then let the table decide. A PC at **Level 4 harm** is out; fatal harm only if the table accepts it (the Co-GM offers Resistance and a Flashback first).
 
 **[MUSIC CUE: music-s01-merton-fight.mp3]** *(on "go": fire at the "collar flares" read-aloud below, when the Surge starts early; not before)*
+**[IMAGE CUE: npc-merton-surge.png]** ✅ *(with the "collar flares" read-aloud: Merton fully changed and loose in the dark theatre, crouched in the aisle before the stage, torn uniform, human hands trembling, no collar and no chain, so it works in every branch; the upper-right is dark for the clocks. It stays up through the Surge until the table holds, soothes or downs him.)*
 > 🔊 **READ ALOUD** *(when the Surge starts early)*: "The collar flares. Merton bolts up the basement stairs and out onto the dark stage."
 > 🗣 **SAY** *(the Surge clock goes on the TV; if Detection has not yet ticked tonight, use the full first-clock line from Gerald's beat instead of "a second clock")*: *"A second clock. This one is the **Surge**: when it fills, Merton loses control. Soothing him drains it; making noise fills it."*
 > ❓ **ASK THE TABLE:** *"What do you do?"* *(Stall help, once: soothe him with the photograph · restrain him at the ring · run the clock out.)* ⏸ **REACTION STOP — next part depends on:** their approach (soothe, restrain, run it out, or worse).
@@ -388,7 +389,7 @@ It hangs on the nail. If a PC takes it, **the moment they do**, Merton appears b
 🗣 **SAY** *(Menu A: Merton is down; one option per line)*: *"**Hand everything to the Ministry**: the collar, the Gland (taking it kills Merton), and his file. Four Coin. The collar is destroyed and the photograph disappears into evidence. **Quietly keep the Gland off the books**: this is your Double Bookkeeping trick; roll Sway to fudge the paperwork you will file later. If it works, you keep it clean; if it goes badly, the Ministry notices. **Take the collar and the Gland and file nothing**: you keep both, and the Ministry notices within two days."*
 🗣 **SAY** *(Menu B: Merton is not down; one option per line)*: *"**Hand the collar and Merton's file to the Ministry**: four Coin. The collar is destroyed and Merton is gone within a few hours. **Quietly keep the collar off the books**: your Double Bookkeeping trick; roll Sway. **Take the collar and file nothing**: the Ministry notices within two days."*
 🗣 **SAY** *(the Mend line; the crack glows on the TV, so no Study roll is needed)*: *"**Mend the collar and give it back.** *(If it was severed:* "The strap is cut clean through; you can stitch it back together, a Desperate job."*)* There's a crack running through the old leather, glowing at the edge, right beside the brass tag. You can patch it well enough to stop tonight's leak. There's no payout and no credit."*
-> 🔒 **GM ONLY:** if the crew keeps the Gland, it does **not** spoil yet: it keeps in the shop's cold cellar until Session 4 teaches Biological Spoilage and the Cold Storage Locker (house ruling 2026-11-20; do not mention a Spoilage Clock before S4). Heat and Coin: see Step 0 and the single Heat line in Downtime.
+> 🔒 **GM ONLY:** if the crew keeps the Gland, it does **not** spoil yet: it keeps in the **Cold Storage Locker** (a Containment Suite fixture), which pauses Spoilage, so it does not rot; Session 4 teaches Spoilage on the first Biological carried **out** of Cold Storage (house ruling 2026-11-20; do not mention a Spoilage Clock before S4). Heat and Coin: see Step 0 and the single Heat line in Downtime.
 
 ❓ **ASK THE TABLE:** *"What does the crew do?"* ⏸ **REACTION STOP — next part depends on:** their choice. Give only the matching result.
 
@@ -414,7 +415,7 @@ It hangs on the nail. If a PC takes it, **the moment they do**, Merton appears b
 **[MUSIC CUE: music-s01-elias-thorne.mp3]** *(on "go")*
 
 > 🔊 **READ ALOUD:**
-> "The stage door opens on a man in a charcoal field coat, pressed underneath, rain on the shoulders and nowhere else. He takes in the room the way someone does who has seen worse rooms and is genuinely glad this one went well. He's carrying a clipboard he doesn't look at, and he thumbs a plain silver ring on his right hand — slightly too loose."
+> "The stage door opens on a man in a charcoal field coat, pressed underneath, rain on the shoulders and nowhere else. He takes in the room the way someone does who has seen worse rooms and is genuinely glad this one went well. He's carrying a clipboard he doesn't look at; a plain silver ring sits on his right hand."
 
 > 🗣 **SAY** *(Thorne — warm, easy; to a PC he has not been introduced to)*: *"[PC first name]. Good, you're all still here. I'm the liaison on your contract tonight. I read the brief."* *(The "brief" is the Ministry pest-control order from the envelope: the crew can see he means the job. He arrives as the Surge ends; "I heard the van" explains it. **Do not say "basement" yet:** that word is Tell 2, and it means the crew's own shop.)*
 > ⏸ **REACTION STOP — next part depends on:** whether anyone notices he used a first name before introductions.
@@ -455,7 +456,7 @@ It hangs on the nail. If a PC takes it, **the moment they do**, Merton appears b
 🗣 **SAY:** *"After every score the crew goes into Downtime — days or weeks between jobs where you recover, spend money, and work on your own stuff. It's the part of the heist movie where they lie low. Tonight we run the basics."* 🗣 **SAY** *(the whole menu first)*: *"Everyone gets two Downtime activities, any two: **Indulge Vice**, **Recover**, **Reduce Heat**, start a **Long-Term Project**, or **Train**."*
 
 **[MUSIC CUE: music-bookshop-loop.mp3]** *(on "go")*
-**[IMAGE CUE: location-curios-exterior.png]** *(or `location-curios-interior` once it exists; caption "Downtime"; TV crew strip with Heat/Coin/Rep)*
+**[IMAGE CUE: location-curios-interior.png]** ✅ *(caption "Downtime"; TV crew strip with Heat/Coin/Rep)*
 
 ### Step 0 — Payoff *(SRD order: payoff, Heat, Entanglement, then activities)*
 🗣 **SAY:** *"First, the score pays: every score earns **Coin** and **Rep**. Rep is how the city sees your firm."*
@@ -523,9 +524,9 @@ It hangs on the nail. If a PC takes it, **the moment they do**, Merton appears b
 > 🔊 **READ ALOUD:**
 > "The shop is quiet. Consequence is asleep on something that probably mattered. In the back, Zoltar's slot gives a small, apologetic *clunk.*"
 
-**[PLAYER SCREEN: card style `fortune`, "ZOLTAR SAYS" — "A MAN WHO KNOWS YOUR NAME HAS NEVER BEEN TOLD IT."]**
-> 🔊 **READ ALOUD:** "A card drops into the tray: **A MAN WHO KNOWS YOUR NAME HAS NEVER BEEN TOLD IT.**"
-> 🔒 **GM ONLY:** the players will think it's a riddle about Merton. **It's Thorne.** Audio: `[SFX CUE: music-sting-fortune-card — not yet generated]` · `[VOICE CUE: music-sting-zoltar-fortune-s01 — not yet generated]` *(Zoltar is on hold; if the voice line is ever recorded, deliver it flat — it is a clue, not a threat).*
+**[PLAYER SCREEN: card style `fortune`, "ZOLTAR SAYS" — "A KINDNESS DONE AT MIDNIGHT IS STILL A KINDNESS."]**
+> 🔊 **READ ALOUD:** "A card drops into the tray: **A KINDNESS DONE AT MIDNIGHT IS STILL A KINDNESS.**"
+> 🔒 **GM ONLY:** a neutral card about mercy: it fits Merton's choice. (The one Thorne-tell card allowed before S15 is Mid-Arc 3 #1, at S12–14.) Audio: show the card; fire `music-sting-fortune-card` only if the file exists. **No voice line** (dropped, GM 2026-11-22).
 
 > 🔒 **GM ONLY — XP (every session from S1):** after Zoltar's card, run `00-Canon/End-of-Session-Ritual.md` §1 (read the first-time SAY at S1), then the retrospective, then wrap.
 

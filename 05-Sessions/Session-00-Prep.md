@@ -24,17 +24,17 @@ runtime: "~2.5–3 hours"
 |---|---|---|---|---|---|---|
 | 1 | The Pitch | start | `music-s00-the-pitch` *(inline, before read-aloud; loops until Beat 2's song replaces it)* | — | — | Tone |
 | 2 | Introductions | pitch ends | `music-bookshop-loop` | — | Banter seeds | Voices |
-| 3a | Crew basics + the shop | "go" | `music-bookshop-loop` | `map-city-s00` ✅ *(city map)* → `location-curios-exterior` | **The ATM** | Cover |
+| 3a | Crew basics + the shop | "go" | `music-bookshop-loop` | `map-city-s00` ✅ *(city map)* → `location-curios-exterior` → `location-curios-interior` ✅ *(with the ATM read-aloud)* | **The ATM** | Cover |
 | 3b | Zoltar opens | inline | `music-s00-zoltar-opens` *(inline — fire at "Zoltar" description)* | `location-zoltar-machine` ✅ *(on TV **during** the read-aloud — the closed machine)* → `location-containment-suite` *(the moment the wall slides open)* | **The Coin Code**; Zoltar judges | Reveal |
 | 3c | Lair tour | wall opens | `music-containment-suite-loop` | — | **The Wall of Rules** | Onboarding |
 | 3d | Scanner Station | "STOP HERE" | `music-vocal-scanner-station` *(vocal — GM OK'd firing it **inline, during** the read-aloud; it opens with ~10 s of static)* | `location-scanner-station` ✅ | — | Lore |
-| 3e | Corkboard + Journal | switch back | `music-containment-suite-loop` | `location-corkboard-wall` ✅ *(on TV for the read-aloud)* → `item-hunters-journal` ❌ *(optional close-up, when they open it)* | — | Hooks |
-| 3f | Upstairs: rep, abilities | return | `music-bookshop-loop` | `location-annex` ❌ *(optional; until it exists: title card, `image: null`, caption "The Annex")* | — | Crew sheet |
-| 4 | Friends, Rivals, Heirlooms | — | `music-bookshop-loop` | `location-annex` ❌ *(optional; stays on screen)* | — | Seeds |
+| 3e | Corkboard + Journal | switch back | `music-containment-suite-loop` | `location-corkboard-wall` ✅ *(on TV for the read-aloud)* → `item-hunters-journal` ✅ *(the close-up, with the Journal paragraph)* | — | Hooks |
+| 3f | Upstairs: rep, abilities | return | `music-bookshop-loop` | `location-annex` ✅ *(on "Upstairs: the Annex")* | — | Crew sheet |
+| 4 | Friends, Rivals, Heirlooms | — | `music-bookshop-loop` | `location-annex` ✅ *(stays on screen)* | — | Seeds |
 | 4b | **The Trial Run** | after Beat 4 | `music-bookshop-loop` | *(TV: caption "Consequence", `image: null`; `npc-consequence.png` shows her asleep, so it is held for Beat 5)* | **Consequence knocks it over** | **Dice, Position, Effect, Stress, Resistance** |
-| 5 | Closing montage | "go" | `music-s00-closing` *(+ `music-sting-fortune-card` ❌ and the Zoltar voice line ❌ — Zoltar on hold)* | `npc-consequence` ✅ *(on the TV with the "Where is Consequence?" answer)* | Consequence; **Zoltar's card** | Promise |
+| 5 | Closing montage | "go" | `music-s00-closing` *(+ `music-sting-fortune-card` only if the file exists; no Zoltar voice)* | `npc-consequence` ✅ *(on the TV with the "Where is Consequence?" answer)* | Consequence; **Zoltar's card** | Promise |
 
-**Asset status:** all required music and images exist ✅. Optional ❌: `item-hunters-journal.png` (a close-up; skip it), `location-annex.png` (the upstairs room; until it exists the TV shows the title card with the caption "The Annex"), `location-curios-interior.png`, and the Zoltar sting and voice line (on hold).
+**Asset status:** all required music and images exist ✅. Optional: only the Zoltar card sting `music-sting-fortune-card` (the card needs no sound; the Zoltar voice was dropped, GM 2026-11-22).
 
 ### Tech checklist (before players arrive)
 - [ ] Open `11-Visuals/GM-Dashboard.html` on the GM screen (F11). *(The Co-GM fills PC names, nicknames and table canon in live through the dashboard feed — see `Session-Boot.md` §2b.)*
@@ -130,10 +130,11 @@ runtime: "~2.5–3 hours"
 >
 > It used to be a savings bank."
 
+**[IMAGE CUE: location-curios-interior.png]** ✅ *(on the TV with the ATM read-aloud: the shop floor at night, the cat asleep on the counter, the Zoltar booth in the corner)*
 > 🎭 **COMEDY BEAT — The ATM (🟢)** — *read it, don't act it:*
 >
 > 🔊 **READ ALOUD:**
-> "On a quiet afternoon, the bell over the shop door jingles. A customer pokes their head in and squints at the old marble counter. 'Is the ATM still working?' they ask.
+> "On a quiet, rainy evening, the bell over the shop door jingles. A customer pokes their head in and squints at the old marble counter. 'Is the ATM still working?' they ask.
 >
 > The customer stares at the three of you. The silence goes on a very long time. The customer swallows.
 >
@@ -247,7 +248,7 @@ runtime: "~2.5–3 hours"
 
 ### 3e — The Corkboard and the Journal
 
-**[IMAGE CUE: location-corkboard-wall.png]** ✅ *(on the TV for the read-aloud)* · **[IMAGE CUE: item-hunters-journal.png]** ❌ *(optional close-up if they open it — skip)*
+**[IMAGE CUE: location-corkboard-wall.png]** ✅ *(on the TV for the read-aloud)* · **[IMAGE CUE: item-hunters-journal.png]** ✅ *(fire it with the Journal paragraph, "near the surgical table, on a reading stand"; it replaces the corkboard picture. 🔒 The one red line is scribbled over: its words are unreadable on the TV and only come through when the crew studies the page, at S4.)*
 
 **[MUSIC CUE: music-containment-suite-loop.mp3]** *(switch back)*
 
@@ -269,7 +270,7 @@ runtime: "~2.5–3 hours"
 
 **→ GM MOVE:** Close the tour:
 
-**[PLAYER SCREEN: caption "The Annex", no image]**
+**[IMAGE CUE: location-annex.png]** ✅ *(caption "The Annex"; fire it with the line below: the kettle, three armchairs, the whiteboard)*
 🗣 **SAY:** *"Upstairs: the Annex — a kettle, three armchairs, and a whiteboard of banned words. And the Lofts: three bunks."*
 ❓ **ASK THE TABLE:** *"Each of you: name one thing on the shelf in your corner."* ⏸ **REACTION STOP.**
 > 🔒 **GM ONLY:** These shelf objects are heirloom seeds — note them, but the Heirlooms themselves come in Beat 4.
@@ -277,7 +278,7 @@ runtime: "~2.5–3 hours"
 ### 3f — Reputation, Abilities, Upgrades
 
 **[MUSIC CUE: music-bookshop-loop.mp3]** *(switch back when the group returns upstairs)*
-**[IMAGE CUE: location-annex.png]** ❌ *(optional; until it exists: TV = title card, `image: null`, caption "The Annex"; clears the corkboard)*
+**[IMAGE CUE: location-annex.png]** ✅ *(clears the corkboard; stays through crew creation)*
 
 🗣 **SAY** *(set it up):* *"Back upstairs, with the kettle on. The firm has a reputation in the small circle that knows you at all, and a few trade secrets. Let's write them down."*
 
@@ -452,7 +453,7 @@ The crew starts with the lair fixtures above and **Double Bookkeeping** *(custom
 > 🔊 **READ ALOUD (the card):**
 > "In the back corner, Zoltar's slot gives a small, apologetic *clunk.* A card drops into the tray. It is warm. **YOU WILL SOON RECEIVE AN ENVELOPE. IT WILL NOT BE GOOD NEWS. IT WILL BE DAMP.**"
 > **[PLAYER SCREEN: card style `fortune`]**
-> 🔒 **GM ONLY — audio:** `[SFX CUE: music-sting-fortune-card — not yet generated]` · `[VOICE CUE: music-sting-zoltar-fortune-s00 — not yet generated]` *(Zoltar is on hold; show the card only)*.
+> 🔒 **GM ONLY — audio:** show the card; fire `music-sting-fortune-card` only if the file exists. **No voice line** (dropped, GM 2026-11-22).
 
 > 🗣 **SAY** *(explain why before asking anything):* *"Before we wrap up, I'd like to ask each of you one question. There are no wrong answers. What you tell me is how I'll know what you want from this campaign, and I'll build around it."*
 >

@@ -75,6 +75,6 @@ See `00-Canon/Zoltar-Card-Deck.md` (the old d8 map was cut; the deck is the sing
 | 210-T | Rail Noise Complaint — No Rail on Record | S29 premiere | The Overhang hears a train under the city after S28 | "There is no train. Forty people heard it." |
 | 300 | Retirement Notice — Field Compliance Officer (unsigned) | Season 2+ (she CAN LEAVE) | She drafts it and doesn't file it | *(The first form she ever leaves on the counter.)* |
 
-**Last number used (update at every session; copy to the Live Ledger):** 140-A (rumour) until S6 uses 141-J.
+**Last number used (set from the Live Ledger at every finished session):** forms 22-A, 31, 44-C, 47-B and 88-D (S1–S4) are **legacy and grandfathered**; new forms count up from 140-A in session order (the next is 141-J at S6).
 
 **Fresh-keeping rule for forms:** new forms are numbered strictly ascending **above 140-A** in session order (141-J, 142-D, 143-K, 144-H, 145-A, 146, 147-B, 148-L, 149-F, then 210-T, 300); amendments keep their parent number with a suffix; the number is always higher or stranger than the last; the follow-up question is mundane; she never lies for them and never surprises — except S15, S26 and the 300.

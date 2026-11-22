@@ -16,13 +16,13 @@ Updated 2026-11-20. Anything I recommend that only you can do (generate an image
 - [ ] A fairground street image for the Session 1 approach (prompt drafted in the chat; optional — the map and the theater image already cover it).
 - [ ] `location-merton-locker.png` (optional; Session 1 beat 5, the emotional centre; prompt in `Pre-Campaign-Image-Prompts.md` → *Merton's Locker*; until then the TV shows the caption "Locker 7").
 - [ ] `item-hunters-journal.png` close-up (optional; the corkboard image covers it).
-- [ ] `location-curios-interior.png` (optional; the shop floor: ATM gag, S1 Beat 1 and Downtime, every recap; prompt in `Pre-Campaign-Image-Prompts.md` → *The Shop Floor*; until then a caption).
-- [ ] `location-annex.png` (optional; the upstairs room for Session 0 beat 3f and every downtime scene; prompt in `11-Visuals/Pre-Campaign-Image-Prompts.md` → *The Annex*; until then the TV shows the title card with the caption "The Annex").
-- [ ] Zoltar and foley audio — **on hold** until video credits return (`Music-Prompts.md` §Z).
+- [x] *(done 2026-11-22)* `location-curios-interior.png` (optional; the shop floor: ATM gag, S1 Beat 1 and Downtime, every recap; prompt in `Pre-Campaign-Image-Prompts.md` → *The Shop Floor*; until then a caption).
+- [x] *(done 2026-11-22)* `location-annex.png` (optional; the upstairs room for Session 0 beat 3f and every downtime scene; prompt in `11-Visuals/Pre-Campaign-Image-Prompts.md` → *The Annex*; until then the TV shows the title card with the caption "The Annex").
+- [x] *(closed 2026-11-22)* Zoltar voice and spoken fortunes: **dropped** (the cards are enough). Foley stings remain optional.
 
 ## Before Session 1
 - [ ] Nothing required: all images and music exist.
-- [ ] Optional stings (Veo, on hold): `music-sting-bernard-scream`, `music-sting-lever-trapdoor`, `music-sting-fortune-card`, the Zoltar S1 fortune.
+- [ ] Optional stings (nice to have, never required): `music-sting-bernard-scream`, `music-sting-lever-trapdoor`, `music-sting-fortune-card`, `music-sting-shop-bell`, `music-sting-zoltar-whirr`. *(The Zoltar spoken fortunes are dropped.)*
 - [ ] After Session 1: generate the wiki portraits for the NPCs the crew met (Thorne, Bernard, Gerald, and Merton once the collar's fate is known), then publish with the recap.
 
 ## Before Session 2
@@ -46,11 +46,11 @@ Updated 2026-11-20. Anything I recommend that only you can do (generate an image
 
 - [x] *(done 2026-11-21; `Gemini-Regression-2-Triage-Log-2026-11-21.md`)* **Gemini regression check #2** — `docs/review/Gemini-Regression-Check-2-Prompt.md`; paste the block into Gemini and bring the result back for triage.
 - [ ] **Listen once to `music-vocal-scanner-station`** for any Subway or Aldric Voss detail (its prompt asks for "locations of things that haven't happened yet"). Found by the S0 simulation.
-- [ ] **Make `location-curios-interior`** (S0 names it but no beat cues it until it exists).
+- [x] *(done 2026-11-22)* **Make `location-curios-interior`**.
 
 ## Parked ideas (not started; revisit when the GM asks)
 - **End-of-night transcript** (GM, 2026-11-21): record the night, transcribe with a free tool that can tell voices apart (e.g. WhisperX with speaker labels, Buzz, or MacWhisper's free tier; get the friends' OK first), then hand the transcript to the Co-GM at close-out to mine for table-invented canon (names, nicknames, Friends, Rivals, Heirlooms, cover stories), exact quotes for the recap, and the Night Log. A live feed was considered and set aside (side talk, several voices, theories leaking into canon).
 
 ## Decisions waiting on you
-- [ ] Review the draft content in `docs/review/draft-content/` when the Opus agents finish (NPC bench, improv kit, gaps and rules, catalogs).
+- [x] *(closed 2026-11-21)* Review the draft content in `docs/review/draft-content/`: drafts 05, 06, 08 and 09 were promoted, 07 retired, 04 marked done, and 01–03 are superseded by the adopted files.
 - [ ] Any NPC deaths you want to lock in beyond the defaults in `05-Sessions/Season-1-Plan.md` §4.
