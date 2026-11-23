@@ -5,11 +5,11 @@ Updated 2026-11-20. Anything I recommend that only you can do (generate an image
 **Map images:** none are needed before Session 0 or Session 1 — `map-city-s00` and `map-city-s01` exist and are cued. No new map images are being generated now (GM decision 2026-11-20); the map roadmap in `11-Visuals/Living-Map.md` is a planning list only.
 
 ## Before Session 0 (required)
-- [ ] Print the Table Card (`11-Visuals/handouts/Table-Card.pdf`) ×4 (one per player + a spare), plus `Player-Reference.md` ×3 and keep `GM-Cheat-Sheet.md` at your elbow.
+- [ ] Print the Table Card (`11-Visuals/handouts/Table-Card.pdf`) ×4 (one per player + a spare), plus `11-Visuals/handouts/Player-Reference.pdf` ×3 (4 pages) and `11-Visuals/handouts/Hunter-Kit.pdf` ×3 (1 page; made 2026-11-23 with `docs/tools/make_handout_pdfs.py`; reprint: the Kit gained a free *Instant camera* line, and the Session 1 collar / thimble lines changed), and keep `GM-Cheat-Sheet.md` at your elbow.
 - [ ] Share the free playbook PDFs from the players' site (*Official Resources*); confirm the three players have read Quick Start and sent their 8 things.
-- [ ] Open `GM-Dashboard.html` (F11) and `Player-Screen.html` on the TV (F11 on Windows; Cmd-Ctrl-F on a Mac). The Player Screen should show the title card. *(The dashboard's libraries are now vendored locally in `11-Visuals/vendor/`, so it works offline. Open it once to confirm.)*
-- [ ] Test `fade-switch.sh` once (QuickTime Player must be allowed to be controlled; macOS may prompt).
-- [ ] After the mock: reset `player-screen/scene.js` to the title card and `dashboard-feed/feed.js` to its header, and stop the music (the end-of-mock reset).
+- [x] Open `GM-Dashboard.html` (F11) and `Player-Screen.html` on the TV (F11 on Windows; Cmd-Ctrl-F on a Mac). The Player Screen should show the title card. *(The dashboard's libraries are now vendored locally in `11-Visuals/vendor/`, so it works offline. Open it once to confirm.)* *(done in the mocks, 2026-11-22/23)*
+- [x] Test `fade-switch.sh` once (QuickTime Player must be allowed to be controlled; macOS may prompt). *(done in the mocks, 2026-11-22/23)*
+- [x] After the mock: reset `player-screen/scene.js` to the title card and `dashboard-feed/feed.js` to its header, and stop the music (the end-of-mock reset). *(done after mock 0 and mock 1)*
 - [ ] Decide when to **push** (a large set of campaign and site changes is waiting; push only when you say "push").
 
 ## Optional before Session 0 (nice to have)
@@ -45,7 +45,7 @@ Updated 2026-11-20. Anything I recommend that only you can do (generate an image
 - [x] *(done 2026-11-21; report `Opus-Reaudit-Report-2026-11-21.md`, 20 findings fixed)* **Opus (or higher) re-audit of the files changed since the beat audit** (verify the ~100 fixes did not break anything): run after the content-bank cross-check; no per-token cost (monthly plan).
 
 - [x] *(done 2026-11-21; `Gemini-Regression-2-Triage-Log-2026-11-21.md`)* **Gemini regression check #2** — `docs/review/Gemini-Regression-Check-2-Prompt.md`; paste the block into Gemini and bring the result back for triage.
-- [ ] **Listen once to `music-vocal-scanner-station`** for any Subway or Aldric Voss detail (its prompt asks for "locations of things that haven't happened yet"). Found by the S0 simulation.
+- [x] **Listen once to `music-vocal-scanner-station`** for any Subway or Aldric Voss detail (its prompt asks for "locations of things that haven't happened yet"). Found by the S0 simulation. *(done in the mocks, 2026-11-22/23)*
 - [x] *(done 2026-11-22)* **Make `location-curios-interior`**.
 
 ## Parked ideas (not started; revisit when the GM asks)

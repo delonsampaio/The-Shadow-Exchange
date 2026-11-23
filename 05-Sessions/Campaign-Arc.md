@@ -54,7 +54,7 @@ The crew are small-time licensed hunters who take Ministry contracts and quietly
 | What the Omen is | Nobody | Season 1B onward (Omen 3 at ~S11, 4 at S25) | Symptoms accumulating; Aldric's logs; Senna's archive (the Archive Fire); the Yellow-Line returnee (`Living-Subway.md`) |
 | Kress's *name* | Kress, Apex, the Understudied; Stalls has seen it on a letterhead | The *name* appears on screen **S7 (the binder letterhead), never earlier**; Stalls says only "my investor's people at the Ministry"; his *role* in S10–11 | A PC who reads Stalls's papers |
 | Mara Halliday | Nobody (she's a civilian) | Sessions 1–6 | She follows *them* |
-| Merton's dog Gerald was mutated by the failing collar | GM | S1 | Study on the basement leak |
+| Pruitt's dog Gerald was mutated by the failing collar | GM | S1 | Study on the basement leak |
 
 ---
 

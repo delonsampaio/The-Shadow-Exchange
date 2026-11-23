@@ -37,3 +37,10 @@ Short night \(90 minutes\) :: nothing is cut; safe stops
 Kress.{0,30}S3.{0,3}S?4 :: Kress is named on screen at S7, never earlier
 VOICE CUE: music-sting-zoltar :: the Zoltar voice line was dropped (GM 2026-11-22); show the card only
 Zoltar is on hold :: the Zoltar voice was dropped (GM 2026-11-22)
+honest, effective, discreet, or reckless :: crew reputation uses the SRD list (Ambitious … Strange)
+a very good tea importer :: removed (Rule Six tea plant); use the lighthouse keeper
+\*\*\[Name\]\*\* feeds the coins :: Zoltar read-aloud is impersonal (no [Name])
+No payout\. No credit\. :: the mend earns Rep +2; "no payout" only
+Detection \+1; cover story needed :: returning Gerald costs Heat +1, not Detection
+third-floor light :: the theater window is a cyan basement glow
+Gerald stays on his stool until then :: Gerald stays with the crew until after Mara

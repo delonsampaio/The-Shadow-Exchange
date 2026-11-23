@@ -56,13 +56,13 @@ payout: 4 Coin (Standard)
 
 ## Wrap-Up Dilemma
 
-**Play it Safe:** Hand everything to the Ministry (via liaison Elias Thorne). 4 Coin, 0 Heat. Collar destroyed. Photograph disappears into evidence.
+**Play it Safe:** Hand everything to the Ministry (via liaison Elias Thorne). 4 Coin, and the lowest Heat (base 0 + 1 for the well-connected target). Collar destroyed. Photograph disappears into evidence.
 
 **Double Bookkeeping:** Roll Sway to omit the Adrenal Gland from paperwork. Keep the Gland. **6** clean · **4–5** you keep it, tick [Clock: The Ministry Audit] 1/4 · **1–3** the Ministry noticed — tick Audit and surrender it.
 
 **Shadow Ghost:** Take Collar and Gland without filing. +2 Heat. Ministry notices within 48 hours.
 
-**The Fourth Option** (if crew found his tragedy): Return the collar. No payout. No credit. Merton walks. Log as "Returned" in Anchor Ledger. The Twice-Born community will hear.
+**The Fourth Option** (if crew found his tragedy): Return the collar. No payout, but the Ministry files it as "recovered, no action required" (Rep +2). Merton walks. Log as "Returned" in Anchor Ledger. The Twice-Born community will hear.
 
 ---
 

@@ -117,6 +117,9 @@ Each: **SAY** (≤30 s, D&D bridge) · **SHOW** (example) · **CHECK** (a questi
 - **WATCH FOR:** players treating it as bookkeeping. Make it the "I always carry one of these" moment. Some items count as two; italic items don't count at all.
 - **Pairing with Flashback:** *"Anything you didn't pack, you can still have, if you prepared it earlier: that's a Flashback."* Load is what you carry; Flashback is what you prepared.
 
+### 18c. **Anchor Items and the three kinds of loot** *(concept, S0 lair tour; the Choice and first kept item, S1)*
+- **SAY (S0, after the Containment Suite read-aloud, ≈20 s):** "Every monster that passes as human is tied to one personal object, its **Anchor**. Take it and the disguise starts to fail, in hours, not days. Every Anchor belongs to somebody, and what you do with it is what this job is." **SAY (S1, the Choice):** name the collar as Merton's Anchor. The players' site (Glossary, What Kind of Game) and the Player Reference already describe it; the table hears it once in S0 and sees it in S1. Not a new rule to learn, so it does not count toward the four-lessons-a-session cap.
+
 ### 18b. **XP tally** *(S1, at the first session close)*, **advancement** *(the first time a track fills)*, **Trauma tables** *(when first hit)*.
 - **Cards 19–24 (Spoilage, Audit, Decay, Advancement, Trauma, Wanted):** `00-Canon/Mechanics-Teaching-Ladder-S4-Plus.md`.
 

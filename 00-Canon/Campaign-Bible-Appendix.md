@@ -16,7 +16,7 @@ The v5 bible kept the axioms but dropped working mechanics that other files stil
 
 | Fixture | Mechanical effect |
 |---|---|
-| **Trophy Wall** | +1d on Study for a monster type the crew has hunted before, taken before a score. Automatic Heat source if the Ministry raids the lair. |
+| **Trophy Wall** | +1d on Study for a monster type the crew has hunted before, taken before a score. A new type is added after its first hunt (instant camera photo pinned on the board); only a named monster type counts. Automatic Heat source if the Ministry raids the lair. |
 | **Hunter's Journal** | +1d Study for any PC who consults it before a score involving a known monster type. Lost if the Ministry confiscates it. |
 | **Scanner Station** | Bank of modified shortwave radios (intercepts Ministry bounty traffic, picks up Harlan's-region AM) **plus** a Resonance detector — a single green lamp, always lit, reach ≈ two blocks. Tinker for a specific signature; Survey for general detection. |
 | **Cold Storage Locker** | Pauses Biological Spoilage. |
@@ -30,7 +30,7 @@ The v5 bible kept the axioms but dropped working mechanics that other files stil
 - **The Cleaner Protocol:** at crew Heat 6+ (or Apex standing ≤ −2), Cleaners are assigned to disrupt scores and damage the shop.
 
 ## Loot Catalogue
-- **Biologicals** (perishable; 3-seg Spoilage Clock, ticks each Downtime; ticks twice per scene on Away Jobs): Ethereal/Barghest Adrenal Gland, Vampire Blood (healing/life extension), Gorgon Scalp (temporary petrification), Phase-Shifter Heart (phase through one wall per use).
+- **Biologicals** (perishable; 3-seg Spoilage Clock, ticks each Downtime; ticks twice per scene on Away Jobs): **one-use effects when brought on a score** (consumed; see `Crew-Sheet.md` → *What kept items do*): **Barghest Adrenal Gland** (+1d and +1 effect level on one Finesse, Prowl, Skirmish or Wreck roll: a burst of speed) · **Ethereal Adrenal Gland** (one action can touch and harm something incorporeal) · **Vampire Blood** (reduce one harm by one level on the spot, for one PC; level 1 is cleared) · **Gorgon Scalp** (one threat is petrified for one beat, no roll to trigger: it cannot act or inflict harm in that beat) · **Phase-Shifter Heart** (one PC passes through one wall).
 - **Relics** (active, cursed, never stop emitting Resonance): The Monkey's Paw (auto-crit once; triggers Tragedy Clock, GM-secret), The Mourning Veil (invisible to the living, visible to ghosts), Frequency Radio (mind-read 50 ft, 1 Stress/min), **The Ghost Map** (inks itself to show active Subway manifestation points — mid-game MacGuffin), **The Casting Mask** (unique; do not let players obtain it easily).
 - **Anchor Items**: one per disguised monster; seizing starts the 1d6-hour clock. *Pre-planned Anchors:* a silver locket (librarian — Senna's card is her version), a brass compass pointing to one alley (former sailor; the Job Board posting), a laminated child's drawing (hunted Twice-Born in hiding), a coin from no country (recent arrival; hums at 3 AM; something larger is looking for it).
 

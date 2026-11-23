@@ -18,6 +18,7 @@ purpose: "The items every Hunter can pull from their coat. Pick a load before a 
 | **Thermal blanket** | 1 | Keeping cold things cold, shock, hiding a shape |
 | **Ministry clipboard and badge** | 1 | The cover story, in paper form |
 | *The cover story itself* | 0 | *(italic: free)* |
+| *Instant camera* | 0 | *(italic: free)* Photograph what you hunted for the Trophy Wall |
 | **Containment jar (small)** | 2 | A Biological or Anchor you don't want the scanners to find |
 
 **Not in the kit:** lights (a flare, a lamp or a torch is a **Flashback** or something you buy), weapons beyond what your sheet says, and anything else fancy. Anything not here is a Flashback ("I prepared it earlier") or an **Acquire Asset** in Downtime (Session 3).

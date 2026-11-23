@@ -25,9 +25,12 @@ Coin, claims, notable loot, Relics in the vault, Biologicals in cold storage.
     * **Value:** X Coin / Tier X
     * **Function:** Brief description of what it does.
 
+## What kept items can do
+See `01-Crew/Crew-Sheet.md` → *What kept items do*: a Biological can be sold, spent on a score or gifted; a Relic can be sold, used once per score (Resonance +1) or counted toward a bribe; an Anchor is never sold or used as a tool.
+
 ## Relics in Regular Use
 *(Items carried by the crew or left exposed in the Lair. High risk of Resonance leaks.)*
-* ## Notable Items (Mundane)
+## Notable Items (Mundane)
 * **The Hunter's Journal** *(Containment Suite, reading stand near the Post-Op Table)*
 * **Trophy Wall Polaroids** *(Containment Suite)*
 

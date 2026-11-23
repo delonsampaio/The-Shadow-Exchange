@@ -23,6 +23,12 @@ The rainy season has settled over Old City. The shop is open, the "Twenty-Dollar
 * **Ministry Audit:** 0/4 · **Subway Decay:** not yet introduced · **Detection:** resets per score
 * **Thorne tells caught:** 0/9
 
+## Table Promises *(filled at the end of Session 0: the four closing answers, verbatim)*
+* Player 1 (why they keep doing this work): 
+* Player 2 (what they fear): 
+* Player 3 (what they do when nobody is watching): 
+* The whole table (what they want the GM to make sure happens): 
+
 ## AI Co-GM Instructions
 * **Re-Sync Protocol:** At the start of every session, read this file to establish the "Starting Room."
 * Check `Campaign-Arc.md` triggers before building the session.

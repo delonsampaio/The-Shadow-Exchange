@@ -31,6 +31,6 @@ role: potential cohort / mascot / running gag / uncomfortable witness risk
 ## Fate branches
 | Choice | Consequence |
 |---|---|
-| Ministry pickup (Form 47-B(ii)) | He vanishes. Greta asks about "the dog's hands" for six sessions. |
-| Returned to Pruitt | **Witness risk** — Pruitt's staff see the hands. Detection +1; cover story needed. |
+| Ministry pickup (Form 47-B) | He vanishes. Greta asks about "the dog's hands" for six sessions. |
+| Returned to Pruitt | **Witness risk** — Pruitt's staff see the hands. **Heat +1**; cover story needed. |
 | **Kept** | Cohort; Greta files **Form 47-B(ii) ("Specimen retained by firm for observation")**. Pruitt files a missing-pet report; a "Lost Dog" flyer shows up in the Meridian. Drennick & Foss notice. |

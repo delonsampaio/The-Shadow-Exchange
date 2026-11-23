@@ -30,7 +30,7 @@ You play a small monster-hunting firm operating under a government cover-up. The
 | Class features and spell slots | **Action ratings** (broad categories) and **special abilities** (playbook). |
 | Plan before acting | **Engagement roll** drops you into the score. Plan retroactively via flashback. |
 | GM rolls vs you | GM never rolls. All rolls are yours. |
-| Loot is loot | Some loot has a name. The Anchor Item of a disguised monster *is* a person's tether to the human world. |
+| Loot is loot | Some loot has a name. The Anchor Item of a disguised monster *is* a person's tether to the human world. **Biologicals** are perishable monster parts and **Relics** are cursed objects with powers: sell them, use one once on a score (bring one kept item per job), or trade and bribe with them. Anchors are never sold. |
 
 ---
 

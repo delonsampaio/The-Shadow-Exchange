@@ -41,6 +41,7 @@ last_updated: 2026-11-20
 
 | Tag in prep file | What you do |
 |---|---|
+| *Every music cue* | Also set `nowPlaying` in `scene.js` to the new file name in the same change, and bump `rev`, or the TV label goes stale. |
 | `[MUSIC CUE: file.mp3]` *(no marker)* | **Wait for the GM to say "go"** (they've finished reading aloud), then fire it. Never in the same response as the text it follows. |
 | `[MUSIC CUE: file.mp3]` marked **(inline)**, "fire now", "start before", "start just before the read-aloud", "on the first line" | Fire it **first**, then present the text in the same response. No "go" pause. |
 | `[IMAGE CUE: file.png]` | Same timing as music. **How:** (a) `Read` the image for the GM's private preview; (b) update `11-Visuals/player-screen/scene.js` (see Core → *Player Screen — Live TV Protocol*). **Never leave a stale image up:** when the location changes and the Run Sheet has no image for the new place, set `image: null` and a `caption` for the new place (title-card look). |
@@ -88,6 +89,9 @@ The dashboard polls every 2 s, applies each op once, and shows a **"Co-GM Update
 | A player introduces a PC | `pc` (name, role); `pcinfo` (vice/purveyor, heirloom, friend, rival) as they're revealed |
 | Heirloom pattern chosen (GM-private) | `pcinfo` → `pattern`, `stage` |
 | Table-invented canon (nickname, coin code, cover story, lease theory…) | `gag` (`nick`, `coin`, `cov`, `lease`, …) |
+| Crew reputation / ability / upgrades / hunting ground | `gag` `crewdef` (the `crew` op takes numbers only) |
+| Firm standings (Harrow, Castellan, Meridian, Hunter Underground) | `gag` `firms`; floor −2 at creation |
+| The four closing answers (Session 0) | `gag` `promises`, and `Campaign-Current-State.md` → Table Promises |
 | A roll's cost / push / resist / flashback | `stress` (absolute new value) |
 | Harm taken or healed | `harm` |
 | Trauma / XP marked | `pcinfo` (`trauma`, `xp`); crew XP → `crew` key `xp` |

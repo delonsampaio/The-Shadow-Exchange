@@ -22,6 +22,14 @@ Single-page state board. Update after every session. Detail lives in the per-fac
 | Castellan Retrieval | I | weak | 0 | *(hunter is Twice-Born, handler doesn't know)* |
 | Vantage & Lowe *(Tier I — disappeared)* | 0 | — | — | *(disappeared three months ago — investigation hook; see `Rival-Firms.md`)* |
 
+## Starting standings (set at Session 0)
+Upgrades, the hunting ground and the favourite contact set the standings of the rival firms and the Hunter Underground (Harrow & Sons, Castellan Retrieval, Meridian Group, the Underground). **Floor −2: no firm starts lower; skip any reduction that would break it.** Record them here and on the dashboard (Gags → Firm standings).
+
+- Harrow & Sons: 
+- Castellan Retrieval: 
+- Meridian Group: 
+- Hunter Underground: 
+
 ## What changed last session
 
 *(Most recent first. Keep three sessions of history here; older notes archive in the per-faction files.)*

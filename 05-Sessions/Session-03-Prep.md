@@ -134,7 +134,7 @@ mechanical_focus: "TEACH: Acquire Assets, Push Yourself. REINFORCE everything pr
 > 🗣 **SAY** *(Stalls — eager, nervous)*: *"Mr. Stalls. It's a **wonderful** opportunity. A truly wonderful **investment opportunity.**"*
 > 🗣 **SAY** *(Stalls — a little too fast)*: *"I'm not saying clear it today. I'm saying clear it **soon.** For the opportunity."*
 > 🗣 **SAY** *(Stalls — defensive)*: *"The property is — it's not haunted. It's **encumbered.**"* ⏸ **REACTION STOP — next part depends on:** whether they ask about his investor.
-> → **If they ask who his investor is:** 🗣 **SAY** *(Stalls — lowering his voice, then sweating)*: *"A holding structure. A very professional holding structure. Don't write that down."* *If they ask for the investor's name:* 🗣 **SAY** *(Stalls — sweating)*: *"Stalls Holdings."* *(the shell)*
+> → **If they ask who his investor is:** 🗣 **SAY** *(Stalls — lowering his voice, then sweating)*: *"A holding structure. A very professional holding structure. Don't write that down."* *If they ask for the investor's name:* 🗣 **SAY** *(Stalls — sweating)*: *"Stalls Holdings."*
 > 🔒 **GM ONLY:** tally his "investment opportunity"s on the dashboard (target: 4+). He does not know what Apex does; he knows it pays. File: `03-NPCs/Active/Renwick-Stalls.md`.
 
 ---
@@ -172,7 +172,7 @@ mechanical_focus: "TEACH: Acquire Assets, Push Yourself. REINFORCE everything pr
 > ⏸ **PAUSE — Say "go" when the crew sets out.**
 
 **[MUSIC CUE: music-ashby-approach.mp3]** ❌ *(not yet generated: play `music-approach.mp3` instead; keep it through the house and the haunt; for a fight keep `music-approach`, do not reuse the S1 fight track)*
-**[IMAGE CUE: map-city-s03.png]** ✅ *(living map — show with the approach music. Shows the new Ashby House and Eastern Pier pins)*
+**[IMAGE CUE: map-city-s03.png]** ✅ *(living map — show with the approach music. Shows the new Ashby House and Eastern Pier pins. If the crew did not use the pier exit in S2, the Eastern Pier pin does not exist for them: show `map-city-s02` instead)*
 
 > ⏸ **PAUSE — Say "go" on arrival. Then show the image.**
 
@@ -358,7 +358,7 @@ mechanical_focus: "TEACH: Acquire Assets, Push Yourself. REINFORCE everything pr
 
 ### Choice-Specific Read Alouds
 **[IMAGE CUE: item-mabel-knitting-needle.png]** ✅ *(optional — show with The Extraction read-aloud only, after the table has chosen to take the needle)*
-* **The Extraction:** 🔊 **READ ALOUD:** "She sits in the chair by the window and folds her hands in her lap. The needle comes out of her hair easily — warmer than it should be, much warmer. The knitting falls off the basket needles. She does not look at it. The light goes through her. She is thinner each time you look."
+* **The Extraction:** 🔊 **READ ALOUD:** "She stands beside the chair by the window and folds her hands in front of her. The needle comes out of her hair easily — warmer than it should be, much warmer. The knitting falls off the basket needles. She does not look at it. The light goes through her. She is thinner each time you look."
 * **The Telling** *(then `image:null`, caption "The Ashby House")*: 🔊 **READ ALOUD:** "'I know,' she says. Very quietly. 'I've known for a long time.' A pause. 'He was terrible at curtains, you know. Completely wrong about curtains.' She smiles. Then she isn't there anymore. The needle on the table is cold now. It is just a needle."
 * **The Withdrawal:** 🔊 **READ ALOUD:** "She sees you to the door. She offers biscuits for the road. She has already wrapped them."
 
@@ -370,7 +370,7 @@ mechanical_focus: "TEACH: Acquire Assets, Push Yourself. REINFORCE everything pr
 
 > 🔒 **GM ONLY:** Officers **Drennick** and **Foss** are assigned to this block, arguing about whether the Ministry canteen's Thursday special (braised beet) is worth eating. Use this beat only if a noise complication brings them to the door.
 
-**[IMAGE CUE: npc-drennick-foss.png]** ✅ *(optional)*
+**[IMAGE CUE: npc-drennick-foss.png]** ✅ *(optional; the picture shows the Meridian street and the Emmerich & Daughter sign, so on Calloway Street use `image: null`, caption "Drennick & Foss" instead)*
 🔊 **READ ALOUD:** "A knock at the door. Two figures in dark coats stand on the porch, in the middle of a sentence."
 🗣 **SAY** *(Drennick — calm)*: *"—it's braised, Foss."* ⏸ **REACTION STOP.**
 🗣 **SAY** *(Foss — intense)*: *"It's **wet.**"* ⏸ **REACTION STOP.**
@@ -424,15 +424,15 @@ mechanical_focus: "TEACH: Acquire Assets, Push Yourself. REINFORCE everything pr
 > 🔒 **GM ONLY:** do not explain it. Tick **The Omen** one segment (secret).
 
 ### The Evening Call — Thorne's Tell 5
-**[PLAYER SCREEN: image null, caption "Thorne's call"]** · **[MUSIC CUE: music-bookshop-loop.mp3]** *(continues)*
+**[PLAYER SCREEN: image null, caption "The bookshop"]** · **[MUSIC CUE: music-bookshop-loop.mp3]** *(continues; switch the caption to "Thorne's call" once someone answers)*
 > 🔊 **READ ALOUD:** "The rotary phone rings."
 > ❓ **ASK THE TABLE:** *"Who answers?"* ⏸ **REACTION STOP.**
 > 🗣 **SAY** *(Thorne — warm, easy)*: *"I heard about the Ashby house. Whatever you decided, I hope it was kind to the neighbors."* *(Option A: say "Heard you cleared the Ashby house. Well done.")*
-> 🗣 **SAY** *(Thorne — a shade too casual)*: *"And I hear you came up on the eastern pier all right, after the Meridian."* *(If a PC already told him about the pier on the S2 call, swap in: **"Nothing down there but the old drainage tunnels"**; nobody mentioned tunnels.)*
+> 🗣 **SAY** *(Thorne — a shade too casual)*: *"And I hear you made it back from the eastern pier all right, after the Meridian."*
 > ⏸ **REACTION STOP — next part depends on:** whether the player questions how he knows about the pier.
 > → **If they don't challenge it:** 🗣 **SAY** *(Thorne — warm)*: *"Good night, then."* 🔊 **READ ALOUD** *"The line clicks off."*
 > → **If they challenge it:** 🗣 **SAY** *(Thorne — smooth)*: *"It was in the Meridian report."* 🔊 **READ ALOUD** *"The line clicks off."*
-> 🔒 **GM ONLY:** no one told him about the pier. It wasn't in any report. Dashboard: Tell 5 *Planted* (or **CAUGHT**).
+> 🔒 **GM ONLY:** no one told him about the pier. It wasn't in any report. Dashboard: Tell 5 *Planted* (or **CAUGHT**). *(If a PC already told him about the pier on the S2 call, swap in: "Nothing down there but the old drainage tunnels"; nobody mentioned tunnels.)*
 
 ### The close
 🗣 **SAY** *(set it up)*: *"The night is over. Either way, you're back in the shop."*

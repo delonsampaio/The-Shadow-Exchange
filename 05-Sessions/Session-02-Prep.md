@@ -441,7 +441,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 
 > 🗣 **SAY** *(teach Twice-Born Favor, **always read**; +1 Favor if the crew warned or protected Emmerich, otherwise add "for next time: they notice either way")*: *"The Twice-Born are people like Emmerich: they live a human life on top of something older. Protecting one earns a **Favor**, up to three. You can spend them for safe harbor, rare gear or lore. They also notice what you do."*
 
-**[IMAGE CUE: npc-aldric-voss.png]** ✅ *(optional — show only if a PC goes to the workshop doorway; he reads as a repairman, the AM-voice reveal comes only if they ask)*
+**[IMAGE CUE: npc-aldric-voss.png]** ✅ *(optional — show only if a PC goes to the workshop doorway; he reads as a repairman; **never confirm the AM-voice link before S9**)*
 
 > 🔒 **GM ONLY — ALDRIC (DO NOT FORCE):** he does not approach. Use the lines below only if a PC goes to the workshop doorway. He is deciding whether they're worth complete sentences; tonight he gives one. File: `03-NPCs/Twice-Born/Aldric-Voss.md`.
 
@@ -555,7 +555,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 > ❓ **ASK THE TABLE:** *"Who answers?"* ⏸ **REACTION STOP.**
 >
 > 🗣 **SAY** *(Thorne — warm, effortless)*: *"I wanted to check you got out clean. I heard there was an Apex ping in the Meridian. I ran some interference — you're a **flag**, not a **file.** That's a good place to be."*
-> 🗣 **SAY** *(Thorne — easy, a shade too sincere)*: *"Thanks again for dropping by my office last Tuesday. You seemed rattled."* 🔒 *(GM ONLY: the crew has never been to his office.)*
+> 🗣 **SAY** *(Thorne — easy, a shade too sincere)*: *"Thanks again for dropping by my office last Tuesday. You seemed rattled."*
 >
 > ⏸ **REACTION STOP — next part depends on:** whether the player says they were never in his office on Tuesday.
 > → **If they do:** 🗣 **SAY** *(Thorne — smooth, unbothered)*: *"Of course — my mistake. It's been a long week."* 🔊 **READ ALOUD:** *"The line clicks off."*

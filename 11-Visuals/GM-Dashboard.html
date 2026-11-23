@@ -22,7 +22,7 @@
 
     // Bump SAVE_VERSION whenever the INIT_* constants below are updated at end of session.
     // The dashboard auto-saves to this browser; a refresh will NOT lose state mid-session.
-    const SAVE_VERSION = 'S0-v9';
+    const SAVE_VERSION = 'S0-v12';
     function usePersist(key, init) {
       const k = 'se_' + SAVE_VERSION + '_' + key;
       const [v, setV] = useState(() => {
@@ -130,6 +130,9 @@
       { id: 'crewdef',label: 'Crew: reputation / ability / upgrade', note: '' },
       { id: 'coin',  label: 'Zoltar coin code',             note: '' },
       { id: 'lease', label: 'Lease theories',               note: '' },
+      { id: 'firms', label: 'Firm standings (Harrow / Castellan / Meridian / Hunter UG)', note: '' },
+      { id: 'promises', label: 'Table promises (closing answers)', note: '' },
+      { id: 'rent', label: 'Who says "we have rent"', note: '' },
       { id: 'stalls',label: 'Stalls: investment opportunities (target 4+)', note: '' },
     ];
 
