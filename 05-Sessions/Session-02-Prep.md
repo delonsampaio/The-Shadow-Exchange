@@ -155,7 +155,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 > 🔒 **GM ONLY — PURPOSE:** Mara Halliday, Reappearance Stage 1 (Coincidence): she recognises a PC and does not approach. A plant for the cost of the cover-up; not a Subway hint. Never show her face on the TV.
 > 🔒 **GM ONLY — Tell 3:** he pauses **half a second too long** at the window. He has no Meridian connections in his cover story. The offer sets up that he *does* run interference later — to keep the crew in the story he wants. **Do not let him enter the shop.**
 
-**[IMAGE CUE: location-meridian-street.png]** *(keep it up through the observation: its sign is on the second floor, as the text says. `location-emmerichs-shop.png` shows a ground-level window at night, so hold it; an updated shop image is an optional TODO.)*
+**[IMAGE CUE: location-meridian-street.png]** *(keep it up through the observation: its sign is on the second floor, as the text says. `location-emmerichs-shop.png` now shows the second-floor window at night, matching the text, so it can be shown instead if the crew wants a closer look; it is optional.)*
 
 > 🔊 **READ ALOUD:**
 > "Late afternoon on a weekday, the lamps coming on. The shopping district is loud in a way that drowns out your instincts: too many people moving too many things with too many minor Resonance signatures, none of them individually remarkable, all of them noise. Emmerich's shop is on the second floor: a window painted with the words **EMMERICH & DAUGHTER** in gold leaf. The 'and Daughter' has been there a long time. Not painted over. Not updated. They just never removed it."

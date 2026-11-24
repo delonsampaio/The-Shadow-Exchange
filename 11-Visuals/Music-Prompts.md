@@ -3,6 +3,8 @@
 All Lyria 3 Pro prompts for this campaign. Generate in Gemini music chat, save to `11-Visuals/_Saved-Music/`.
 
 **Filename convention:** `music-[descriptor].mp3`
+> **Stings and foley are dropped (GM, 2026-11-24).** Do not generate any `music-sting-*` file; sections below that list stings are kept only as history. Music now comes from `docs/tools/gemini_music.py` (one full-length track per cue).
+
 **Loop tracks** are marked *(loop)* — designed for scenes that run longer than 3 minutes.
 
 ---

@@ -26,6 +26,6 @@ During a real session, every change goes to the dashboard feed, a `[Change: …]
 
 ## Working agreements
 - **Do not commit or push unless the GM says so** ("push"). Never commit the mock state in `11-Visuals/player-screen/scene.js` or `11-Visuals/dashboard-feed/feed.js`.
-- Gemini only makes images, music and second-opinion ideas (`GEMINI.md`, `docs/review/Gemini-Triage-Protocol.md`): Gemini suggests, Claude verifies against the files and decides. Higher-model (Opus) reviews are report-only; they write only into `docs/review/`.
+- Gemini only makes images, music and second-opinion ideas (Claude can run image generation itself through `docs/tools/gemini_image.py` when the GM asks; the key stays out of every repo; music stays manual until the Lyria API test passes) (`GEMINI.md`, `docs/review/Gemini-Triage-Protocol.md`): Gemini suggests, Claude verifies against the files and decides. Higher-model (Opus) reviews are report-only; they write only into `docs/review/`.
 - The players' site lives in the sibling repo `../The-Shadow-Exchange-Players` (MkDocs); update it only through `00-Canon/Wiki-Update-Protocol.md`, with the strict build and a spoiler sweep.
 - What waits on the GM's hands (printing, generating assets, running Gemini, testing hardware): `docs/Manual-Work-Queue.md`.

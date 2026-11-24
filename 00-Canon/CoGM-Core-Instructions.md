@@ -25,7 +25,7 @@ These players are friends who have played tabletop RPGs (mostly D&D) for 20+ yea
 ## Images
 `[IMAGE CUE: filename]` fires with the same timing as a music cue (`Session-Boot.md` §2). **Pre-generated:** `Read` the image for the GM's private preview **and** update `scene.js` so the TV shows it (preview only on first show or when the GM asks; it saves context). **Fallback only** (Player Screen not open): `open "…/11-Visuals/_Saved-Images/[filename]"`.
 
-**On-the-fly images** — when no pre-generated image exists for a scene that warrants one, write a Gemini image prompt. **Prompt-writing rules (from `Pre-Campaign-Image-Prompts.md` → *How image generation behaves*):** anchor left/right to the screen side plus a prop (never "his right hand"); no exact counts above 3; one sign per image with the exact words quoted in CAPS; state the aspect ratio; tell the GM to **re-attach the character's anchor image** every time; avoid negative phrasing. Check `Pre-Campaign-Image-Prompts.md` for an existing prompt first. Format:
+**On-the-fly images** — when no pre-generated image exists for a scene that warrants one, write a Gemini image prompt (the Co-GM can run it itself through the API script, `docs/tools/gemini_image.py`, when the GM asks; otherwise the GM pastes it). **Prompt-writing rules (from `Pre-Campaign-Image-Prompts.md` → *How image generation behaves*):** anchor left/right to the screen side plus a prop (never "his right hand"); no exact counts above 3; one sign per image with the exact words quoted in CAPS; state the aspect ratio; tell the GM to **re-attach the character's anchor image** every time; avoid negative phrasing. Check `Pre-Campaign-Image-Prompts.md` for an existing prompt first. Format:
 
 ```
 GM ONLY — IMAGE FOR TV SCREEN
@@ -34,7 +34,7 @@ Paste into Gemini image chat:
 [Subject & Composition — what is in frame, how it is arranged, camera angle.]
 [Lighting — how light behaves and interacts with surfaces, specific sources and directions.]
 [Texture, Color & Subtext — tactile material details, color palette, one emotional directive.]
-Industrial-occult noir. Fractured amber and cold blue light, rain-slicked surfaces, visible film grain, aged textures. Quiet unease — not horror. Clean composition, no text, no watermarks, no signatures.
+Painted storybook noir (style B, see `11-Visuals/Image-Style-Guide.md`): gouache and ink, thick dark outlines, moody amber and blue light. Quiet unease, not horror. Clean composition, no readable text except exact words, no watermarks.
 ```
 **Trigger an image** (marker or not) for: the first time in any named location, the first appearance of a named NPC, a major reveal or scene transition, or when the GM asks. The living city map: `11-Visuals/Living-Map.md`.
 

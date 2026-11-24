@@ -7,6 +7,8 @@ purpose: "Everything still to generate, in priority order, with the exact filena
 
 # Asset To-Do — Images & Music
 
+> **Style change 2026-11-23:** every image listed as ✅ below is photoreal and will be restyled to painted storybook noir (style B) in the order in `Image-Style-Migration.md`. All images are now restyled to style B (2026-11-24); see `Image-Style-Migration.md` for the list and the tools.
+
 **Legend:** ☐ to do · ✅ done · 🆕 prompt added during the 2026-11-16 review · ⚠ fix needed
 
 ## ⚠ Fixes already applied this review

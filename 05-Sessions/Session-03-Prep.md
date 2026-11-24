@@ -24,9 +24,9 @@ mechanical_focus: "TEACH: Acquire Assets, Push Yourself. REINFORCE everything pr
 | 0 | Cold open | start | `music-bookshop-loop` *(inline)* | — | — | — |
 | 0b | *(optional)* Subway second visit | free play | `music-subway-loop` | `location-subway-main-hall` | the visit's gags | — |
 | 1 | The briefing | "go" | `music-bookshop-loop` *(continues)* | `location-curios-exterior` · `npc-renwick-stalls` ✅ *(optional)* | Greta's extra pages | **Acquire Assets** |
-| 2 | Approach | "go" | `music-ashby-approach` ❌ | `map-city-s03` ✅ *(living map)* | — | — |
+| 2 | Approach | "go" | `music-ashby-approach` ✅ | `map-city-s03` ✅ *(living map)* | — | — |
 | 3 | The house | "go" | *(continues: `music-ashby-approach`)* | `location-ashby-exterior` ✅ *(the image shows only the amber window; the 11:47 clocks and teacup are revealed by "Watch first")* | The door that opens itself | Position choices; **Push Yourself** |
-| 4 | First contact | "go" | `music-ashby-interior` ❌ *(+ SFX overlay `music-sting-boo` ❌ at the fake-out)* | `location-ashby-interior` ✅ *(optional)* → `npc-mabel-ashby-alive` ✅ | **The fake-out haunt** | Devil's Bargains |
+| 4 | First contact | "go" | `music-ashby-interior` ✅ *(no sting: stings are dropped; use the banner and the read-aloud at the fake-out)* | `location-ashby-interior` ✅ *(optional)* → `npc-mabel-ashby-alive` ✅ | **The fake-out haunt** | Devil's Bargains |
 | 5 | The Grief Jars | inline | *(continues: `music-ashby-interior`)* | `item-grief-jars` ✅ | The hum | Flashback / Resist |
 | 6 | Agnes | "go" | `music-comic-interlude` | `npc-agnes-pell` ✅ | The tureen | — |
 | 7 | **The Moral Pivot** | "go" | `music-s01-the-choice` | `npc-mabel-ashby-alive` ✅ *(clears Agnes)* → `npc-mabel-ashby-wraith` ✅ *(as she thins)* → `item-mabel-knitting-needle` ✅ *(optional, at the Extraction)* | 🔴 none | **Anchor Ledger** |
@@ -171,7 +171,7 @@ mechanical_focus: "TEACH: Acquire Assets, Push Yourself. REINFORCE everything pr
 
 > ⏸ **PAUSE — Say "go" when the crew sets out.**
 
-**[MUSIC CUE: music-ashby-approach.mp3]** ❌ *(not yet generated: play `music-approach.mp3` instead; keep it through the house and the haunt; for a fight keep `music-approach`, do not reuse the S1 fight track)*
+**[MUSIC CUE: music-ashby-approach.mp3]** ✅ *(made 2026-11-24, 2:31; plays on the approach and at the house; the interior track takes over at first contact; for a fight keep the interior track, do not reuse the S1 fight track; `music-approach.mp3` is the spare)*
 **[IMAGE CUE: map-city-s03.png]** ✅ *(living map — show with the approach music. Shows the new Ashby House and Eastern Pier pins. If the crew did not use the pier exit in S2, the Eastern Pier pin does not exist for them: show `map-city-s02` instead)*
 
 > ⏸ **PAUSE — Say "go" on arrival. Then show the image.**
@@ -213,7 +213,7 @@ mechanical_focus: "TEACH: Acquire Assets, Push Yourself. REINFORCE everything pr
 
 > ⏸ **PAUSE — Say "go" as the crew enters. Then fire interior music.**
 
-**[MUSIC CUE: music-ashby-interior.mp3]** ❌ *(fire on "go" — runs through the house visit)*
+**[MUSIC CUE: music-ashby-interior.mp3]** ✅ *(made 2026-11-24, about 3 minutes, loops; fire on "go" — runs through the house visit)*
 
 ### Read Aloud (First Sight)
 > 🔊 **READ ALOUD:**
@@ -257,7 +257,7 @@ mechanical_focus: "TEACH: Acquire Assets, Push Yourself. REINFORCE everything pr
 > 🔒 **GM ONLY:** If anyone accepts the tea, the tea is good — and whoever drank it has now sat at her table, which she treats as a social contract. If anyone asks how the kettle came on, she asks about their posture.
 
 > 🎭 **COMEDY BEAT — The Fake-Out Haunt (🟢 FULL SCOOBY):**
-> **[PLAYER SCREEN: banner "BOO?"; clear it, `banner:null`, after the gag]** · **[SFX CUE: music-sting-boo.mp3]** ❌ *(overlay on the interior loop — the loop keeps playing; fire it when you reach the "WHOOOO")*
+> **[PLAYER SCREEN: banner "BOO?"; clear it, `banner:null`, after the gag]** · *(no sting sound: stings are dropped; the banner and the loud "WHOOOO" carry the gag over the interior loop)*
 >
 > 🔊 **READ ALOUD:**
 > "Mabel decides you should be scared. It is her house; there are *standards.* The lights dim. A door rattles. She drifts through the wall and lets out a long, ghostly 'WHOOOO…' — for four whole seconds. Then, mid-moan, in her own voice: 'Is that your elbow on the sideboard? Posture.' And she resumes the haunt."

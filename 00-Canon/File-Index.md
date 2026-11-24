@@ -74,6 +74,8 @@ last_updated: 2026-11-20
 | TV scene control | `11-Visuals/player-screen/scene.js`, `Player-Screen.html` |
 | GM dashboard feed | `11-Visuals/dashboard-feed/feed.js`, `GM-Dashboard.html` |
 | The map and its pins | `11-Visuals/Living-Map.md` |
+| The photoreal-to-cartoon image change (plan, test prompts, order) | `11-Visuals/Image-Style-Migration.md` |
+| The image style (the style block, rules, how to keep characters consistent) | `11-Visuals/Image-Style-Guide.md` |
 | Missing images/music | `11-Visuals/ASSET-TODO.md`, `Music-Prompts.md`; saved assets in `_Saved-Images/`, `_Saved-Music/` |
 | Printables | `11-Visuals/handouts/` |
 

@@ -83,6 +83,7 @@ The city maps (`base`, `s00`–`s03`) are done. Everything below is generated **
 **Naming:** every place a player may visit needs a name on the map (a shop, a bar, a library, an archive). Keep a running list in `04-Locations/Venues-Bank.md` (to be created from the Gemini and Opus results) so names stay consistent across maps, preps and the wiki.
 
 ## Gemini prompts
+> **Style change 2026-11-23:** future map prompts use the painted-storybook style block from `Image-Style-Guide.md` (an illustrated painted map on aged paper). The existing maps stay photographic-parchment until they are restyled (see `Image-Style-Migration.md`).
 Paste each into Gemini and attach the file named. (Gemini has local file access: you may instead give it the repo-relative path.) Generate in order; each uses the previous result.
 
 ### 0 — New base map — **DONE 2026-11-20** (`map-city-base.png`; the prompt that made it is in git history). The old map is retired. The unused alternative is in `99-Workshop/map-city-base-A-unused.png`.

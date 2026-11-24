@@ -5,6 +5,7 @@ Updated 2026-11-20. Anything I recommend that only you can do (generate an image
 **Map images:** none are needed before Session 0 or Session 1 — `map-city-s00` and `map-city-s01` exist and are cued. No new map images are being generated now (GM decision 2026-11-20); the map roadmap in `11-Visuals/Living-Map.md` is a planning list only.
 
 ## Before Session 0 (required)
+- [ ] **Image style change (photoreal to cartoon): run Phase 1 (the style test) in `11-Visuals/Image-Style-Migration.md`, then tell the Co-GM the style letter.** The Co-GM then rewrites all prompts, and we regenerate the images one at a time.
 - [ ] Print the Table Card (`11-Visuals/handouts/Table-Card.pdf`) ×4 (one per player + a spare), plus `11-Visuals/handouts/Player-Reference.pdf` ×3 (4 pages) and `11-Visuals/handouts/Hunter-Kit.pdf` ×3 (1 page; made 2026-11-23 with `docs/tools/make_handout_pdfs.py`; reprint: the Kit gained a free *Instant camera* line, and the Session 1 collar / thimble lines changed), and keep `GM-Cheat-Sheet.md` at your elbow.
 - [ ] Share the free playbook PDFs from the players' site (*Official Resources*); confirm the three players have read Quick Start and sent their 8 things.
 - [x] Open `GM-Dashboard.html` (F11) and `Player-Screen.html` on the TV (F11 on Windows; Cmd-Ctrl-F on a Mac). The Player Screen should show the title card. *(The dashboard's libraries are now vendored locally in `11-Visuals/vendor/`, so it works offline. Open it once to confirm.)* *(done in the mocks, 2026-11-22/23)*

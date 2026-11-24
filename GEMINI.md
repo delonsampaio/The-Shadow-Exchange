@@ -6,10 +6,12 @@ Gemini handles **image and music generation** for this campaign. Claude runs the
 
 ## Images
 
-Generate images for the TV screen when the GM pastes a prompt. Check `11-Visuals/Pre-Campaign-Image-Prompts.md` first — pre-written prompts exist for all major locations and NPCs.
+**Since 2026-11-24 the Co-GM generates images itself through the Gemini API** (`docs/tools/gemini_image.py`; key in `~/.config/shadow-exchange/gemini_api_key`, never in a repo; run it with `~/.config/shadow-exchange/venv/bin/python`). Workflow (GM's rule, 2026-11-24): make ONE image per prompt (the cheaper Flash model by default; `--size 2K` for TV scenes), look at it, and only if it is not good enough redo it with the higher Pro model (`--models pro`). Save the keeper over the same filename and update the progress files. **No stings (GM, 2026-11-24): never generate or offer short stings or foley; a cue for a missing sting is simply skipped and the beat is carried by the banner or the read-aloud.** Music: one track per cue with the full-length model by default (`gemini_music.py`; the clip model is fixed at 30 seconds, so use it only for short loops), redo with `--model pro` only if needed. Only generate when the GM asks, never during a mock session or live session (generation is prep work), and say the rough cost first for batches of more than a handful (about $0.13 per Pro image, $0.07 to $0.10 per Flash). The hand-paste route (below) still works if the API is unavailable.
+
+Generate images for the TV screen when the GM pastes a prompt, or when the Co-GM runs one. Check `11-Visuals/Pre-Campaign-Image-Prompts.md` first — pre-written prompts exist for all major locations and NPCs.
 
 **Master style suffix — append to every image prompt:**
-> Industrial-occult noir. Fractured amber and cold blue light sources cutting across rain-slicked surfaces — wet asphalt and glass fragmenting every light source into scattered reflections. Visible film grain, aged surface textures, micro-details on worn materials. A modern city built on century-old bones. Quiet unease — not horror. The world looks ordinary until the light hits it wrong. Clean composition, no text, no watermarks, no signatures.
+> **Master style (changed 2026-11-23): painted storybook noir.** Start every image prompt with the style block in `11-Visuals/Image-Style-Guide.md`: *Stylised painted illustration, gouache and ink, visible brushwork, thick dark outlines, slightly exaggerated faces and hands, moody amber and blue light, like a modern dark-fantasy comic. No photographic detail.* End with: *No readable text except the exact words given. No watermark.*
 
 **Five rules for every image prompt:**
 1. **Structural order:** Subject & Composition → Lighting & Environmental Atmosphere → Texture, Color & Subtext → Exclusion

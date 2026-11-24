@@ -5,6 +5,8 @@ purpose: "Replaces the older Session 1 prompts (curios-exterior, containment-sui
 last_updated: 2026-11-17
 ---
 
+**STYLE CHANGE 2026-11-23:** all images are now painted storybook noir (style B). Paste the style block from `11-Visuals/Image-Style-Guide.md` at the START of each prompt below. The old photographic style paragraph at the end of each prompt has been replaced; scene descriptions that mention "photographs" mean objects in the scene, not the image style. See `Image-Style-Migration.md` for the order of regeneration.
+
 # Session 1 Image Redo
 
 **Why:** the old images all carry the generator's sparkle logo in the bottom-right corner (Merton's true form has a doubled, ghosted one). These are rebuilt from canon. Greta, Gerald and Consequence are already clean and are not in this list.
@@ -26,7 +28,7 @@ Soft warm even light from the front-left, gentle shadow on the right. No dramati
 Crisp pressed uniform creases, a faint tired smile line, thin careful hair. A man who waters the fern first.
 Clean composition, no text, no watermarks, no signatures.
 
-Industrial-occult noir. Fractured amber and cold blue light sources cutting across rain-slicked surfaces — wet asphalt and glass fragmenting every light source into scattered reflections. Visible film grain, aged surface textures, micro-details on worn materials. A modern city built on century-old bones. Quiet unease — not horror. The world looks ordinary until the light hits it wrong. Clean composition, no text, no watermarks, no signatures.
+Painted storybook-noir illustration: gouache and ink, visible brushwork, thick dark outlines, slightly exaggerated faces and hands, moody amber and blue light, rain-slicked surfaces catching the light, no photographic detail. Quiet unease, not horror. Clean composition, no readable text except the exact words given, no watermarks, no signatures.
 ```
 
 ## 1. Merton — human form  → `npc-merton-human.png`   *(same chat as the portrait; attach `wiki-merton-human.png`)*
@@ -36,7 +38,7 @@ Warm amber from the gooseneck lamp on the desk, cold blue spill from a stairwell
 Crisp pressed uniform creases, a laminated badge with print too small to read, a worn wooden pencil, a fern with a handwritten plant tag (no legible text), a thermos, faded paint on the wall. A man who waters the fern first.
 Clean composition, no text, no watermarks, no signatures.
 
-Industrial-occult noir. Fractured amber and cold blue light sources cutting across rain-slicked surfaces — wet asphalt and glass fragmenting every light source into scattered reflections. Visible film grain, aged surface textures, micro-details on worn materials. A modern city built on century-old bones. Quiet unease — not horror. The world looks ordinary until the light hits it wrong. Clean composition, no text, no watermarks, no signatures.
+Painted storybook-noir illustration: gouache and ink, visible brushwork, thick dark outlines, slightly exaggerated faces and hands, moody amber and blue light, rain-slicked surfaces catching the light, no photographic detail. Quiet unease, not horror. Clean composition, no readable text except the exact words given, no watermarks, no signatures.
 ```
 
 ## 2. Merton — true form (Barghest)  → `npc-merton-true-form.png`   *(same chat as #1; attach the Merton portrait)*
@@ -46,7 +48,7 @@ A single bare overhead bulb, cold and flickering, with the collar's amber glow a
 Matted fur with smoky edges, rust on the chain links, scratched concrete, a tin cup of water and a folded grey uniform jacket on the floor nearby. Mournful and heavy rather than frightening.
 Clean composition, no text, no watermarks, no signatures.
 
-Industrial-occult noir. Fractured amber and cold blue light sources cutting across rain-slicked surfaces — wet asphalt and glass fragmenting every light source into scattered reflections. Visible film grain, aged surface textures, micro-details on worn materials. A modern city built on century-old bones. Quiet unease — not horror. The world looks ordinary until the light hits it wrong. Clean composition, no text, no watermarks, no signatures.
+Painted storybook-noir illustration: gouache and ink, visible brushwork, thick dark outlines, slightly exaggerated faces and hands, moody amber and blue light, rain-slicked surfaces catching the light, no photographic detail. Quiet unease, not horror. Clean composition, no readable text except the exact words given, no watermarks, no signatures.
 ```
 
 ## 3. Elias Thorne  → `npc-elias-thorne.png`
@@ -56,7 +58,7 @@ Warm amber from a bare ghost-light bulb on a stand behind him, cold blue spill f
 Charcoal wool with a fine texture, water beads on the shoulders, a worn ID lanyard tucked into the coat (no legible text), a pencil behind the clipboard clip, scuffed backstage floorboards. A warm, helpful Ministry man who is slightly too invested in your success.
 Clean composition, no text, no watermarks, no signatures.
 
-Industrial-occult noir. Fractured amber and cold blue light sources cutting across rain-slicked surfaces — wet asphalt and glass fragmenting every light source into scattered reflections. Visible film grain, aged surface textures, micro-details on worn materials. A modern city built on century-old bones. Quiet unease — not horror. The world looks ordinary until the light hits it wrong. Clean composition, no text, no watermarks, no signatures.
+Painted storybook-noir illustration: gouache and ink, visible brushwork, thick dark outlines, slightly exaggerated faces and hands, moody amber and blue light, rain-slicked surfaces catching the light, no photographic detail. Quiet unease, not horror. Clean composition, no readable text except the exact words given, no watermarks, no signatures.
 ```
 
 ## 4. Bernard, the janitor  → `npc-bernard-janitor.png`
@@ -66,7 +68,7 @@ Warm dim amber from the chandelier and a lobby lamp, cold blue spill from the gl
 Pilled knit cardigan, a name tag with print too small to read, a worn mop head, scuffed shoes, a spray bottle on the bucket rim. Tired, decent and entirely done.
 Clean composition, no text, no watermarks, no signatures.
 
-Industrial-occult noir. Fractured amber and cold blue light sources cutting across rain-slicked surfaces — wet asphalt and glass fragmenting every light source into scattered reflections. Visible film grain, aged surface textures, micro-details on worn materials. A modern city built on century-old bones. Quiet unease — not horror. The world looks ordinary until the light hits it wrong. Clean composition, no text, no watermarks, no signatures.
+Painted storybook-noir illustration: gouache and ink, visible brushwork, thick dark outlines, slightly exaggerated faces and hands, moody amber and blue light, rain-slicked surfaces catching the light, no photographic detail. Quiet unease, not horror. Clean composition, no readable text except the exact words given, no watermarks, no signatures.
 ```
 
 ## 5. Fairground Grand Theater — exterior  → `location-fairground-theater.png`
@@ -76,7 +78,7 @@ Fractured magenta and amber marquee reflections multiplied in the puddles on the
 Green oxidation in the brass lettering, peeling poster layers, oil-slicked pavement, a rusted fire-escape ladder, steam from a grate. Melancholic history with something still operating in its basement. A building with more below ground than above.
 Clean composition; the only legible text is the marquee reading THE FAIRGROUND GRAND; no other text, no watermarks, no signatures.
 
-Industrial-occult noir. Fractured amber and cold blue light sources cutting across rain-slicked surfaces — wet asphalt and glass fragmenting every light source into scattered reflections. Visible film grain, aged surface textures, micro-details on worn materials. A modern city built on century-old bones. Quiet unease — not horror. The world looks ordinary until the light hits it wrong. Clean composition, no text, no watermarks, no signatures.
+Painted storybook-noir illustration: gouache and ink, visible brushwork, thick dark outlines, slightly exaggerated faces and hands, moody amber and blue light, rain-slicked surfaces catching the light, no photographic detail. Quiet unease, not horror. Clean composition, no readable text except the exact words given, no watermarks, no signatures.
 ```
 
 ## 6. Theater auditorium  → `location-theater-auditorium.png`
@@ -86,7 +88,7 @@ The ghost light is the only real source: a small warm pool on the stage boards, 
 Worn velvet with bald patches on the arms, scuffed stage boards with old spike-tape marks, a dropped program on the aisle, cobwebs in the rigging. A place where something happens at night; someone is down there, and they are being very quiet about it.
 Clean composition, no text, no watermarks, no signatures.
 
-Industrial-occult noir. Fractured amber and cold blue light sources cutting across rain-slicked surfaces — wet asphalt and glass fragmenting every light source into scattered reflections. Visible film grain, aged surface textures, micro-details on worn materials. A modern city built on century-old bones. Quiet unease — not horror. The world looks ordinary until the light hits it wrong. Clean composition, no text, no watermarks, no signatures.
+Painted storybook-noir illustration: gouache and ink, visible brushwork, thick dark outlines, slightly exaggerated faces and hands, moody amber and blue light, rain-slicked surfaces catching the light, no photographic detail. Quiet unease, not horror. Clean composition, no readable text except the exact words given, no watermarks, no signatures.
 ```
 
 ## 7. The Containment Suite  → `location-containment-suite.png`
@@ -96,7 +98,7 @@ Cold fluorescent light from above, flat and clinical, with a thin amber warmth i
 Scuffed zinc, old stains on leather straps, frost on the steel, rust at the vault hinges, worn brick, a drain in the floor. The cold clean of dental offices and morgues. Things that should be spoiling don't.
 Clean composition, no text, no watermarks, no signatures.
 
-Industrial-occult noir. Fractured amber and cold blue light sources cutting across rain-slicked surfaces — wet asphalt and glass fragmenting every light source into scattered reflections. Visible film grain, aged surface textures, micro-details on worn materials. A modern city built on century-old bones. Quiet unease — not horror. The world looks ordinary until the light hits it wrong. Clean composition, no text, no watermarks, no signatures.
+Painted storybook-noir illustration: gouache and ink, visible brushwork, thick dark outlines, slightly exaggerated faces and hands, moody amber and blue light, rain-slicked surfaces catching the light, no photographic detail. Quiet unease, not horror. Clean composition, no readable text except the exact words given, no watermarks, no signatures.
 ```
 
 ## 8. Curios & Chronicles — shop exterior  → `location-curios-exterior.png`
@@ -106,7 +108,7 @@ A single warm amber lamp is the only warm light on the block. Cold blue LED stri
 Worn brick with century-old mortar lines, dust on the inside of the glass, amber interior warmth against cold blue exterior. Quiet defiance. A building that decided not to update itself and has been winning that argument for a hundred years.
 Clean composition; the only legible text is the sign reading CURIOS & CHRONICLES; no other text, no watermarks, no signatures.
 
-Industrial-occult noir. Fractured amber and cold blue light sources cutting across rain-slicked surfaces — wet asphalt and glass fragmenting every light source into scattered reflections. Visible film grain, aged surface textures, micro-details on worn materials. A modern city built on century-old bones. Quiet unease — not horror. The world looks ordinary until the light hits it wrong. Clean composition, no text, no watermarks, no signatures.
+Painted storybook-noir illustration: gouache and ink, visible brushwork, thick dark outlines, slightly exaggerated faces and hands, moody amber and blue light, rain-slicked surfaces catching the light, no photographic detail. Quiet unease, not horror. Clean composition, no readable text except the exact words given, no watermarks, no signatures.
 ```
 
 ## 9. The Leather Collar (Anchor Item, 1823)  → `item-leather-collar.png`
@@ -116,7 +118,7 @@ A cold overhead surgical lamp from above, with the collar's own amber glow as th
 Cracked leather with deep creases, green verdigris in the brass, a worn hole sequence along the strap, scratches in the zinc, a few flakes of dust. Something old, heavy and failing that someone has kept alive for a very long time. Mournful, not menacing.
 Clean composition, no text, no watermarks, no signatures.
 
-Industrial-occult noir. Fractured amber and cold blue light sources cutting across rain-slicked surfaces — wet asphalt and glass fragmenting every light source into scattered reflections. Visible film grain, aged surface textures, micro-details on worn materials. A modern city built on century-old bones. Quiet unease — not horror. The world looks ordinary until the light hits it wrong. Clean composition, no text, no watermarks, no signatures.
+Painted storybook-noir illustration: gouache and ink, visible brushwork, thick dark outlines, slightly exaggerated faces and hands, moody amber and blue light, rain-slicked surfaces catching the light, no photographic detail. Quiet unease, not horror. Clean composition, no readable text except the exact words given, no watermarks, no signatures.
 ```
 
 ---
@@ -132,7 +134,7 @@ Soft cool rim light from the left with a faint warm fill on the face. No dramati
 Dense smoky fur with soft edges, long whiskers catching the light, a heavy brow, a damp black nose. Mournful and gentle rather than frightening.
 Clean composition, no text, no watermarks, no signatures.
 
-Industrial-occult noir. Fractured amber and cold blue light sources cutting across rain-slicked surfaces — wet asphalt and glass fragmenting every light source into scattered reflections. Visible film grain, aged surface textures, micro-details on worn materials. A modern city built on century-old bones. Quiet unease — not horror. The world looks ordinary until the light hits it wrong. Clean composition, no text, no watermarks, no signatures.
+Painted storybook-noir illustration: gouache and ink, visible brushwork, thick dark outlines, slightly exaggerated faces and hands, moody amber and blue light, rain-slicked surfaces catching the light, no photographic detail. Quiet unease, not horror. Clean composition, no readable text except the exact words given, no watermarks, no signatures.
 ```
 
 ---
@@ -147,7 +149,7 @@ Soft warm even light from the front-left, gentle shadow on the right. No dramati
 Fine charcoal wool texture at the collar, short neat brown hair, clean-shaven. A warm, helpful Ministry man.
 Clean composition, no text, no watermarks, no signatures.
 
-Industrial-occult noir. Fractured amber and cold blue light sources cutting across rain-slicked surfaces — wet asphalt and glass fragmenting every light source into scattered reflections. Visible film grain, aged surface textures, micro-details on worn materials. A modern city built on century-old bones. Quiet unease — not horror. The world looks ordinary until the light hits it wrong. Clean composition, no text, no watermarks, no signatures.
+Painted storybook-noir illustration: gouache and ink, visible brushwork, thick dark outlines, slightly exaggerated faces and hands, moody amber and blue light, rain-slicked surfaces catching the light, no photographic detail. Quiet unease, not horror. Clean composition, no readable text except the exact words given, no watermarks, no signatures.
 ```
 
 ## 12. Bernard the janitor — wiki portrait  → `wiki-bernard-janitor.png`
@@ -158,7 +160,7 @@ Soft warm even light from the front-left, gentle shadow on the right.
 Pilled knit cardigan, a name tag with print too small to read, creased work shirt, weathered face with grey stubble. Tired, decent and done.
 Clean composition, no text, no watermarks, no signatures.
 
-Industrial-occult noir. Fractured amber and cold blue light sources cutting across rain-slicked surfaces — wet asphalt and glass fragmenting every light source into scattered reflections. Visible film grain, aged surface textures, micro-details on worn materials. A modern city built on century-old bones. Quiet unease — not horror. The world looks ordinary until the light hits it wrong. Clean composition, no text, no watermarks, no signatures.
+Painted storybook-noir illustration: gouache and ink, visible brushwork, thick dark outlines, slightly exaggerated faces and hands, moody amber and blue light, rain-slicked surfaces catching the light, no photographic detail. Quiet unease, not horror. Clean composition, no readable text except the exact words given, no watermarks, no signatures.
 ```
 
 ## 13. Gerald the dog — wiki portrait  → `wiki-gerald.png`   *(publish only after the crew has seen his hands, Session 1)*
@@ -169,6 +171,6 @@ Soft warm even light from the front-left, gentle shadow on the right.
 Folded skin on the brow, careful human knuckles with a faint tan line at the wrist, a damp black nose. The most sincere creature in the room. Comic and deeply sad at once.
 Clean composition, no text, no watermarks, no signatures.
 
-Industrial-occult noir. Fractured amber and cold blue light sources cutting across rain-slicked surfaces — wet asphalt and glass fragmenting every light source into scattered reflections. Visible film grain, aged surface textures, micro-details on worn materials. A modern city built on century-old bones. Quiet unease — not horror. The world looks ordinary until the light hits it wrong. Clean composition, no text, no watermarks, no signatures.
+Painted storybook-noir illustration: gouache and ink, visible brushwork, thick dark outlines, slightly exaggerated faces and hands, moody amber and blue light, rain-slicked surfaces catching the light, no photographic detail. Quiet unease, not horror. Clean composition, no readable text except the exact words given, no watermarks, no signatures.
 ```
 
