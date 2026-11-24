@@ -4,6 +4,8 @@ One image prompt per music track. Generate in Gemini image chat, save to `11-Vis
 
 **Filename convention:** `cover-[music-filename].png` — e.g., `cover-bookshop-loop.png`
 
+> **Remade 2026-11-24:** all covers were regenerated through the Gemini API in the painted style (`docs/tools/gemini_image.py`, square, one per track) to remove the old sparkle mark. The two sting covers (`cover-sting-ruhroh`, `cover-sting-boo`) are not made: stings are dropped.
+
 All prompts follow the four-section structure: Subject & Composition → Lighting → Texture, Color & Subtext → Exclusion.
 
 ---

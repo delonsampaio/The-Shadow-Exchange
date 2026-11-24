@@ -44,7 +44,7 @@ Legend: ☐ to do · ✅ done
 `music-vocal-fairground`, `music-vocal-scanner-station`, `music-vocal-bookshop-radio` all have **lyrics**. The Run Sheets say *fire after the read-aloud*, not under it. For an instrumental version, regenerate with `[Instrumental]`.
 
 ### Album covers (`_Album-Covers/`)
-Still missing for newer tracks: `cover-ashby-approach`, `cover-ashby-interior`, `cover-caper-chase`, `cover-greta-waltz`, `cover-s02-the-railing`, `cover-road-rock`, `cover-harlans-diner`. Whether covers are needed at all is undecided.
+✅ All 28 covers are remade (2026-11-24) in the painted style, square 1024 px, with no star or watermark: one per track, including the covers for the not-yet-made `music-road-rock` and `music-harlans-diner`. The sting covers were dropped with the stings. Each cover follows its track's prompt in `Album-Cover-Prompts.md`.
 
 ---
 
