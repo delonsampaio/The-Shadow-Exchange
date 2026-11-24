@@ -33,7 +33,7 @@ Then the scene. End every prompt with: *"No readable text except the exact words
 - **Spoilers still apply** (no stray names, stamps or forms; Aldric not a broadcaster; no Omen; Stalls not an Apex mark).
 
 ## Filenames and the archive
-Keep the **same filename** so no prep changes. Before saving a restyled image, move the old photoreal one to `_Saved-Images/_photoreal/`.
+Keep the **same filename** so no prep changes. The old photoreal files were deleted on 2026-11-24; there is no archive folder.
 
 ## Done so far (style B)
 - `location-curios-interior.png` (2026-11-23, the first real restyled image).
@@ -42,4 +42,4 @@ Keep the **same filename** so no prep changes. Before saving a restyled image, m
 - Anchor portrait: `_anchors/anchor-greta-fenn.png` (Greta).
 - Anchor portrait: `_anchors/anchor-elias-thorne.png` (Thorne). Remember the ring: it is on HIS right hand, the left of the frame when he faces us.
 - `npc-gerald-dog.png` and `npc-merton-surge.png` adopted straight from the style tests (2026-11-23).
-- Tests kept in `_style-tests/`: Merton reveal (A and B), Gerald, Merton Surge.
+- The early style tests were deleted on 2026-11-24; the adopted ones are saved under their real names (Gerald, Merton surge).

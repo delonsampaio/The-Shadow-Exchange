@@ -32,9 +32,9 @@ runtime: "~2.5–3 hours"
 | 3f | Upstairs: rep, abilities | return | `music-bookshop-loop` *(already playing)* | `location-annex` ✅ *(already on screen)* | — | Crew sheet |
 | 4 | Friends, Rivals, Heirlooms | — | `music-bookshop-loop` | `location-annex` ✅ *(stays on screen)* | — | Seeds |
 | 4b | **The Trial Run** | after Beat 4 | `music-bookshop-loop` | `npc-consequence-push` ✅ *(caption "Consequence"; stays up for the whole Trial Run; `npc-consequence.png`, asleep, is held for Beat 5)* | **Consequence knocks it over** | **Dice, Position, Effect, Stress, Resistance** |
-| 5 | Closing montage | "go" | `music-s00-closing` *(+ `music-sting-fortune-card` only if the file exists; no Zoltar voice)* | `npc-consequence` ✅ *(on the TV with the "Where is Consequence?" answer)* | Consequence; **Zoltar's card** | Promise |
+| 5 | Closing montage | "go" | `music-s00-closing` *(no sting; no Zoltar voice)* | `npc-consequence` ✅ *(on the TV with the "Where is Consequence?" answer)* | Consequence; **Zoltar's card** | Promise |
 
-**Asset status:** all required music and images exist ✅. Optional: only the Zoltar card sting `music-sting-fortune-card` (the card needs no sound; the Zoltar voice was dropped, GM 2026-11-22). **No sting files exist yet, so tonight the comedy runs on read-aloud text plus banners** (ATM, wrong Coin Code, Consequence).
+**Asset status:** all required music and images exist ✅. No sting is used (the card needs no sound; the Zoltar voice was dropped, GM 2026-11-22). **Tonight the comedy runs on read-aloud text plus banners** (ATM, wrong Coin Code, Consequence).
 
 ### Tech checklist (before players arrive)
 - [ ] Open `11-Visuals/GM-Dashboard.html` on the GM screen (F11). *(The Co-GM fills PC names, nicknames and table canon in live through the dashboard feed — see `Session-Boot.md` §2b.)*
@@ -464,7 +464,7 @@ The crew starts with the lair fixtures above and **Double Bookkeeping** *(custom
 > 🔊 **READ ALOUD (the card):**
 > "In the back corner, Zoltar's slot gives a small, apologetic *clunk.* A card drops into the tray. It is warm. **YOU WILL SOON RECEIVE AN ENVELOPE. IT WILL NOT BE GOOD NEWS. IT WILL BE DAMP.**"
 > **[PLAYER SCREEN: card style `fortune`, title "ZOLTAR SAYS"]**
-> 🔒 **GM ONLY — audio:** show the card; fire `music-sting-fortune-card` only if the file exists. **No voice line** (dropped, GM 2026-11-22).
+> 🔒 **GM ONLY — audio:** show the card; no sound. **No voice line** (dropped, GM 2026-11-22).
 
 > 🗣 **SAY** *(explain why before asking anything):* *"Before we wrap up, I'd like to ask each of you one question. There are no wrong answers. What you tell me is how I'll know what you want from this campaign, and I'll build around it."*
 >

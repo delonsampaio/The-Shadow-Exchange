@@ -31,7 +31,7 @@ Clean composition, no text, no watermarks, no signatures.
 Painted storybook-noir illustration: gouache and ink, visible brushwork, thick dark outlines, slightly exaggerated faces and hands, moody amber and blue light, rain-slicked surfaces catching the light, no photographic detail. Quiet unease, not horror. Clean composition, no readable text except the exact words given, no watermarks, no signatures.
 ```
 
-## 1. Merton — human form  → `npc-merton-human.png`   *(same chat as the portrait; attach `wiki-merton-human.png`)*
+## 1. Merton — human form  → `npc-merton-corridor.png`   *(same chat as the portrait; attach `wiki-merton-human.png`)*
 ```
 Using the man in the attached portrait as the exact character — identical face, hair, grey pressed uniform and badge — create a wide 16:9 scene at night in a small security cubby by the stage door of an old theater. He sits very upright at a small steel desk beside a brass gooseneck lamp, a half-finished crossword and a pencil in front of him, a potted fern on the corner of the desk, and a ring of keys hanging from a single nail on the wall. He looks at the viewer with a gentle, sorry-to-bother-you expression, as if about to apologize for something that is not his fault. He moves slowly on purpose, like a man carrying something full.
 Warm amber from the gooseneck lamp on the desk, cold blue spill from a stairwell doorway behind him. His face lit softly and evenly. Nothing about him looks unnatural.

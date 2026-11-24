@@ -458,7 +458,7 @@ Save as: `music-sting-ptolemy-clasps.mp3` *(PTOLEMY's brass clasps, recurring)*
 ```
 [Instrumental] Foley sound effect only, no music. Slow, deliberate brass luggage clasps clicking against old leather in a pattern that is almost morse code but isn't: clack... clack-clack... clack, with a faint dry-leather creak between. Quiet, close-mic'd, uncanny and patient, in a large echoing tiled hall. One-shot, 10 seconds, then silence.
 ```
-Save as: `music-s02-the-descent.mp3` *(the stairs; plays ONCE — see fade-switch)*
+Save as: `music-s02-the-descent.mp3` *(dropped, not cued: do not generate; the railing track loops through the descent)*
 ```
 [Instrumental] Foley and ambience only, no melody. Footsteps descending iron stairs with a slow echo, rain and distant city traffic around them for the first 20 seconds, then at exactly 0:20 everything cuts to dead silence as if a door closed; after that only the listener's own breathing, the iron handrail creaking under a hand, and a very low sourceless hum that grows slowly for the final 20 seconds. Uncanny, quiet, no comedy. One-shot, 50 seconds.
 ```
@@ -466,7 +466,7 @@ Save as: `music-sting-rotary-phone.mp3` *(Thorne's evening call, S2/S3; the shop
 ```
 [Instrumental] Foley sound effect only, no music. An old rotary telephone ringing twice with its mechanical double-bell ring, in a quiet room with rain at the window, then picked up with a plastic click and the room tone settling. Dry, realistic, slightly lonely. One-shot, 6 seconds, then silence.
 ```
-Save as: `music-pier-ambience-loop.mp3` *(the pier exit — loops)*
+Save as: `music-pier-ambience-loop.mp3` *(dropped, not cued: do not generate; the pier exit uses `music-aftermath`)*
 ```
 [Instrumental] Ambience only, no melody, no rhythm. Steady, unchanging ambience at constant volume and texture throughout: a quiet pier at dusk, low tide lapping against wooden pilings, a distant diesel engine, a gull now and then, wind in a loose rope, calm and lonely and slightly unreal. No intro, no outro, no fade out. (Trim the first and last 2 seconds in QuickTime/an editor and crossfade ~1 s if the loop point clicks.)
 ```

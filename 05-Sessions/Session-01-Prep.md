@@ -39,7 +39,7 @@ mechanical_focus: "TEACH (four lessons): gear = Load + Flashback; Devil's Bargai
 
 > **Tonight's four lessons: (1) gear: Load + Flashback · (2) Devil's Bargain (taught with Clocks) · (3) Heat → Entanglement → Vice · (4) XP (Desperate + the end-of-session tally).** Resistance was practised in Session 0. **Group Action and Harm tables (named when they happen): deferred.**
 
-**Asset status:** all required assets exist; all optional images now exist (see `11-Visuals/ASSET-TODO.md`; only the Zoltar stings are open). If missing → `[IMAGE CUE: … — not yet generated]`.
+**Asset status:** all required assets exist; all optional images now exist (see `11-Visuals/ASSET-TODO.md`; nothing is open). If missing → `[IMAGE CUE: … — not yet generated]`.
 
 **Vocal-track note (GM decision 2026-11-21):** `music-vocal-fairground` has lyrics. Fire it **inline as the Fairground read-aloud begins**; the GM reads over it and **pauses a little to let the lyrics be heard**. No separate silent beat.
 
@@ -550,7 +550,7 @@ It hangs on the nail. If a PC takes it, **the moment they do**, Merton appears b
 
 **[PLAYER SCREEN: card style `fortune`, "ZOLTAR SAYS" — "A KINDNESS DONE AT MIDNIGHT IS STILL A KINDNESS."]**
 > 🔊 **READ ALOUD:** "A card drops into the tray: **A KINDNESS DONE AT MIDNIGHT IS STILL A KINDNESS.**"
-> 🔒 **GM ONLY:** a neutral card about mercy: it fits Merton's choice. (The one Thorne-tell card allowed before S15 is Mid-Arc 3 #1, at S12–14.) Audio: show the card; fire `music-sting-fortune-card` only if the file exists. **No voice line** (dropped, GM 2026-11-22).
+> 🔒 **GM ONLY:** a neutral card about mercy: it fits Merton's choice. (The one Thorne-tell card allowed before S15 is Mid-Arc 3 #1, at S12–14.) Audio: show the card; no sound. **No voice line** (dropped, GM 2026-11-22).
 
 > 🔒 **GM ONLY — XP (every session from S1):** after Zoltar's card, run `00-Canon/End-of-Session-Ritual.md` §1 (read the first-time SAY at S1), then the retrospective, then wrap.
 

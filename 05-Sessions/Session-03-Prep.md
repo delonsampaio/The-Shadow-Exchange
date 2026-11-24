@@ -32,7 +32,7 @@ mechanical_focus: "TEACH: Acquire Assets, Push Yourself. REINFORCE everything pr
 | 7 | **The Moral Pivot** | "go" | `music-s01-the-choice` | `npc-mabel-ashby-alive` ✅ *(clears Agnes)* → `npc-mabel-ashby-wraith` ✅ *(as she thins)* → `item-mabel-knitting-needle` ✅ *(optional, at the Extraction)* | 🔴 none | **Anchor Ledger** |
 | 8 | The Return | "go" | `music-bookshop-loop` | `location-curios-exterior` *(clears Mabel)* | — | — |
 | 8b | Downtime + Omen + Thorne's call | after the Return | `music-bookshop-loop` *(continues)* | `location-curios-exterior` → caption "Thorne's call" | Greta's forms | Downtime, **Heat** *(Tell 5)* |
-| 9 | Close | end | `music-bookshop-loop` *(continues)* + `music-sting-fortune-card` *(only if the file exists; no voice)* | `location-curios-exterior` + Zoltar card | Zoltar | **XP tally** |
+| 9 | Close | end | `music-bookshop-loop` *(continues; no sting, no voice)* | `location-curios-exterior` + Zoltar card | Zoltar | **XP tally** |
 
 **Asset status:** ❌ = prompt exists in `11-Visuals/` but not yet generated (see `ASSET-TODO.md`). **Optional extra:** `npc-drennick-foss` ✅ for the Apex Aegis beat, only if a noise complication brings them to the door.
 
@@ -440,7 +440,7 @@ mechanical_focus: "TEACH: Acquire Assets, Push Yourself. REINFORCE everything pr
 > 🔒 **GM ONLY — XP:** after the card, run `00-Canon/End-of-Session-Ritual.md` §1 (every session from S1). **If a track fills, teach Ladder card 22 now; it counts as one of tonight's new lessons.**
 **[PLAYER SCREEN: card style `fortune`, "ZOLTAR SAYS" — "THE DEAD ARE POLITE. THE LIVING ARE NOT. SEE, THURSDAY."]**
 > 🔊 **READ ALOUD:** "A small, apologetic *clunk.* A card drops into the tray: **THE DEAD ARE POLITE. THE LIVING ARE NOT. SEE, THURSDAY.**"
-> 🔒 **GM ONLY — audio:** show the card; fire `music-sting-fortune-card` only if the file exists; **no voice line** (dropped, GM 2026-11-22) — then run the **XP tally (each PC, then crew XP; teach card 22 if a track fills) and the retrospective** (`00-Canon/End-of-Session-Ritual.md` §1–§2), then end the session.
+> 🔒 **GM ONLY — audio:** show the card; no sound; **no voice line** (dropped, GM 2026-11-22) — then run the **XP tally (each PC, then crew XP; teach card 22 if a track fills) and the retrospective** (`00-Canon/End-of-Session-Ritual.md` §1–§2), then end the session.
 
 > 🔒 **GM ONLY — WHAT THE CREW LEAVES SESSION 3 WITH:**
 > Confirm these before closing:

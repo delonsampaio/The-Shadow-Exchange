@@ -35,7 +35,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 | 11 | Aldric / Job Board / Broker *(player-driven: offered in full, played if the crew engages; Aldric "do not force")* | — | — | `npc-aldric-voss` ✅, `npc-crossroads-broker` ✅ | — | — |
 | 12 | Exit | "go" | `music-aftermath` | `location-pier-exit` ✅ | — | — |
 | 13 | Return → Downtime → Greta → Thorne's call → Zoltar card *(in that order)* | "go" | `music-bookshop-loop` → `music-greta-waltz` ✅ *(optional, when Greta enters)* | `location-curios-exterior` → `npc-greta-fenn` → `location-curios-exterior` *(clears Greta before the call)* | 🎭 Greta's forms | **Heat, Downtime** |
-| 14 | Close | end | `music-sting-fortune-card` *(only if the file exists; no voice)* | `location-curios-exterior` + Zoltar card | Zoltar | **XP tally** |
+| 14 | Close | end | *(no sound; no voice)* | `location-curios-exterior` + Zoltar card | Zoltar | **XP tally** |
 
 **Asset status:** ❌ = not yet generated (`[IMAGE/MUSIC CUE: … — not yet generated]`); prompts for every cue exist in `11-Visuals/` (see `ASSET-TODO.md`).
 
@@ -575,7 +575,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 > 🔒 **GM ONLY — XP:** after the card, run `00-Canon/End-of-Session-Ritual.md` §1 (every session from S1). **If a track fills, teach Ladder card 22 now; it counts as one of tonight's new lessons.**
 **[PLAYER SCREEN: card style `fortune`, "ZOLTAR SAYS" — "THE ROAD DOWN IS LONGER THAN THE ROAD UP. BRING A SNACK."]**
 > 🔊 **READ ALOUD:** "At the very end, from the back of the shop, a small, apologetic *clunk.* A card drops into the tray: **THE ROAD DOWN IS LONGER THAN THE ROAD UP. BRING A SNACK.**"
-> 🔒 **GM ONLY — audio:** show the card; fire `music-sting-fortune-card` only if the file exists; **no voice line** (dropped, GM 2026-11-22) — then run the **XP tally (with crew XP) and the retrospective** (`00-Canon/End-of-Session-Ritual.md` §1–§2), then end the session.
+> 🔒 **GM ONLY — audio:** show the card; no sound; **no voice line** (dropped, GM 2026-11-22) — then run the **XP tally (with crew XP) and the retrospective** (`00-Canon/End-of-Session-Ritual.md` §1–§2), then end the session.
 
 ---
 

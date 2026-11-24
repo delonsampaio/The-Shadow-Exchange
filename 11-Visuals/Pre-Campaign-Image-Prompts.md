@@ -101,14 +101,14 @@ Clean composition, no legible text, no watermarks, no signatures.
 ---
 
 ### Merton — The Reveal (standing, hands out, EMPTY)
-Save as: `npc-merton-reveal.png` *(optional but recommended; Session 1 beat 6. **Corrected 2026-11-22:** hands open and EMPTY with no collar anywhere, so it works whether a PC took the collar or Merton took it down himself; the creature is a man-dog HYBRID built from `npc-merton-human.png`, not copied from `npc-merton-true-form.png`, which shows a pure dog and is to be redone from this image.)*
+Save as: `npc-merton-reveal.png` *(optional but recommended; Session 1 beat 6. **Corrected 2026-11-22:** hands open and EMPTY with no collar anywhere, so it works whether a PC took the collar or Merton took it down himself; the creature is a man-dog HYBRID built from `npc-merton-corridor.png`, not copied from `npc-merton-true-form.png`, which shows a pure dog and is to be redone from this image.)*
 
-**Attach:** `npc-merton-human.png` (his face, age and uniform) and `location-merton-locker.png` (the corridor, bulb and stairwell). The full paste-ready prompt was given in chat on 2026-11-22: a tall hybrid standing upright between the watchman and an enormous black dog, uniform split along the seams, dog's jaw and flat ears, amber eyes, partly human hands held out open and empty, the open locker and the empty nail behind him, no collar, no chain, charcoal / steel blue / one ember of amber, sorrowful and restrained, no legible text.
+**Attach:** `npc-merton-corridor.png` (his face, age and uniform) and `location-merton-locker.png` (the corridor, bulb and stairwell). The full paste-ready prompt was given in chat on 2026-11-22: a tall hybrid standing upright between the watchman and an enormous black dog, uniform split along the seams, dog's jaw and flat ears, amber eyes, partly human hands held out open and empty, the open locker and the empty nail behind him, no collar, no chain, charcoal / steel blue / one ember of amber, sorrowful and restrained, no legible text.
 
 ---
 
 ### The Subway — Main Hall
-Save as: `location-subway-main-hall-v2.png` *(v1 = `location-subway-main-hall.png`, the shadow-monster version — keep as an alternate)*
+Save as: `location-subway-main-hall.png` *(retired variants `-v2`, `-v2b` and `-shadow` were deleted 2026-11-24; the saved painted file uses this name)*
 
 ```
 A vast vaulted underground transit hall in a wide 16:9 composition, the size of a train station, with a cracked Art Deco tiled arched ceiling disappearing into green shadow high above, and a floor of pale old-bone-colored tile. The hall curves gently out of sight in both directions like a runway. A hand-drawn transit map hangs on the far wall, with one line marked in newer, brighter red ink. A mixed crowd of commuters in coats and suits walks and waits, all with eyes down, no one looking at the camera or at each other. Hidden among them, quiet details that are wrong: a man in a suit on a bench reading a newspaper with his shoes on backwards; a woman in a bright yellow coat laughing with her companion, whose hand has too many fingers; a teenager in a school uniform asleep against a pillar with a backpack in his lap, his shadow stretching in the opposite direction from every other shadow in the hall. In the far corner, almost lost in the shadows, a stack of old leather luggage with brass clasps, shown small. In the distance, one dim lit stall with a striped awning, and a back booth deep in shadow.
@@ -146,7 +146,7 @@ Clean composition, no text, no watermarks, no signatures.
 ## NPCs
 
 ### Merton — Human Form
-Save as: `npc-merton-human.png`
+Save as: `npc-merton-corridor.png` *(renamed: the old `npc-merton-human.png` was deleted 2026-11-24)*
 
 ```
 An older man in a pressed security uniform, three-quarter frame, seated alone in a theater basement break room. Both hands wrapped around a thermos, completely still — the stillness of someone who has held this exact position for hours. A keychain barely visible at his belt — a small photograph behind yellowed plastic, too small to read.
@@ -282,7 +282,7 @@ Clean composition, no text, no watermarks, no signatures.
 ---
 
 ### Consequence — The Bookshop Cat
-Save as: `npc-consequence.png` *(v1 = orange tabby on the desk — keep as `npc-consequence-desk.png`; canon says Consequence is LARGE and GREY)*
+Save as: `npc-consequence.png` *(v1 = orange tabby on the desk, deleted 2026-11-24; canon says Consequence is LARGE and GREY)*
 
 ```
 A very large, solid grey cat, round and heavy, sleeping on a cluttered old wooden bookshop counter, filling the middle of a wide 16:9 composition. She is draped over a stack of old paperwork — a manila folder, a 1962 department-store catalog and a government notice — with one paw hanging off the edge and one ear half-turned. A small tag on her collar catches the light but its lettering is too small to read. She has the profound indifference of an animal that has never once been moved by anything. Behind her, a rain-streaked shop window shows a cold blue city night. A brass reading lamp on the counter lights her from the side.
