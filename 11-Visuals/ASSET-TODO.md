@@ -16,13 +16,13 @@ Legend: ☐ to do · ✅ done
 ### Done
 - **Sessions 0 to 3:** every cued image (locations, NPCs, props, pier exit, Ashby house and its contents), plus the optional collar and Emmerich's shop.
 - **Wiki portraits:** Greta, Consequence, Emmerich, Drennick, Foss, Cosma, Merton (human), Thorne, Bernard, Gerald, Mabel, Agnes, Aldric, Stalls, Harlan. They are held back from the players' site until the crew has met each character (`00-Canon/Wiki-Update-Protocol.md` §3b).
+- **Session 2's optional wall map** `map-subway-schematic.png` (impossible network, one faint pencil line, no red ink; made 2026-11-24).
 - **Session 4 and later:** Harlan at the counter, Harlan's diner, the Wall of the Missing, Senna, Mara (face hidden), Dev & the Last Stop, Reyes, Vance, the Bookmobile, Officer Bram, Madame Quill, Wim, Ottilie.
 - **Anchor portraits** for recurring characters: `_Saved-Images/_anchors/`.
 
 ### Open
 | ☐ | File | Notes |
 |---|---|---|
-| ☐ | `map-subway-schematic.png` | a map: parchment style, one faint pencil line only; needed in a later session |
 | ☐ | `npc-elias-thorne-street.png`, `location-emmerichs-shop-day.png` | optional extras from Sessions 1 and 2 |
 | ☐ | wiki portraits for the Broker, Ptolemy's luggage, Merton's true form | wait until the crew has seen them |
 | ☐ | `item-casting-mask-GM-PRIVATE.png` | GM-only, never on the Player Screen; prompt exists |

@@ -43,7 +43,7 @@ Do the characters and images **session by session**, not all anchors up front. S
 
 ## Progress (2026-11-24)
 - **Session 0: all images restyled** (shop exterior and interior, Zoltar machine, Containment Suite, Scanner Station, corkboard, Journal, Annex, Consequence ×2). **Session 1: all restyled** (theater exterior, lobby, auditorium, Bernard, Gerald, locker, Merton ×4, Thorne, Greta). Optional left: `item-leather-collar` (Downtime only).
-- **Maps are exempt:** the five city maps are already hand-inked on parchment (style B in spirit); redrawing risks geography drift. New maps stay in the parchment style.
+- **Maps restyled 2026-11-24 (GM request):** the base map and S0 were repainted by Gemini from the old layout; pins for S1 to S3 are drawn with `docs/tools/map_pins.py` (see `Living-Map.md`).
 - **Players' site:** `hero-curios.jpg` and `consequence.jpg` replaced with the restyled pictures (not yet committed).
 - **Session 2 and Session 3: all restyled.** Still to do: Session 4+ images, wiki portraits and album covers later. The old photoreal archive was deleted on 2026-11-24.
 

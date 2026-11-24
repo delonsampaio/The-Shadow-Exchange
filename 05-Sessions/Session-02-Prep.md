@@ -29,7 +29,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 | 5 | The Choice | "go" | `music-s01-the-choice` | `item-silver-thimble` ✅ | 🔴 none | Anchor weight |
 | 6 | **Door Chase** | inline | `music-caper-chase` ✅ | `npc-drennick-foss` ✅ *(required: it clears the thimble from the TV)* | 🟢 Drennick & Foss | **Group Action**, **Assist**, Detection |
 | 7 | The entrance | "go" | `music-s02-the-railing` ✅ | `location-subway-entrance` ✅ | 🔵 none | Flashback to escape |
-| 8 | Descent + Hall | "go" | `music-subway-loop` | `location-subway-main-hall` → `map-subway-schematic` ❌ *(optional, at the wrong transit map)* | 🔵 none — uncanny crowd | Etiquette |
+| 8 | Descent + Hall | "go" | `music-subway-loop` | `location-subway-main-hall` → `map-subway-schematic` ✅ *(optional, at the wrong transit map)* | 🔵 none — uncanny crowd | Etiquette |
 | 9 | PTOLEMY's charge | inline | — | `npc-ptolemy` ✅ | 🔵 uncanny-specific charges | Ledger/favor |
 | 10 | Cosma | "go" | — | `npc-cosma-linden` ✅ | 🔵 none (quiet warmth only) | **Twice-Born Favor** |
 | 11 | Aldric / Job Board / Broker *(player-driven: offered in full, played if the crew engages; Aldric "do not force")* | — | — | `npc-aldric-voss` ✅, `npc-crossroads-broker` ✅ | — | — |
@@ -358,7 +358,7 @@ mechanical_focus: "TEACH: Group Action, Assist, Twice-Born Favor. REINFORCE: Res
 
 **[IMAGE CUE: location-subway-main-hall.png]**
 **[MUSIC CUE: music-subway-loop.mp3]** *(fire on "go" — runs through the full visit)*
-**[IMAGE CUE: map-subway-schematic.png]** ❌ *(optional — only if they study the transit map)*
+**[IMAGE CUE: map-subway-schematic.png]** ✅ *(optional — only if they study the transit map; one faint pencil line, no red ink)*
 
 ---
 
