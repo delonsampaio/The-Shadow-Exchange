@@ -330,3 +330,41 @@ Warm amber lamplight; cold blue window light on the stopped clock.
 Floral wallpaper, polished wood, dust on the piano. Comfortable, and wrong underneath.
 Clean composition, no text, no watermarks, no signatures.
 ```
+
+## Generic backup loops *(added 2026-11-24)*
+
+**Monster Fight**
+Save as: `cover-monster-fight.png`
+```
+A hunter's crowbar and a dropped flashlight on a wet concrete floor, its beam catching drifting dust and sparks; deep claw marks gouged across a steel door behind. No creature is visible, only what it left.
+Cold blue light from the flashlight against warm orange sparks.
+Wet concrete, scratched steel, flying grit. The moment just after the first blow.
+Clean composition, no text, no watermarks, no signatures.
+```
+
+**Infiltration**
+Save as: `cover-infiltration.png`
+```
+A gloved hand easing a door open a few inches into a dark corridor; a thin blade of amber light falls across the floorboards, dust floating in it.
+One warm sliver of light in deep blue darkness.
+Old wood, a brass doorknob, a held breath. Quiet, careful, close.
+Clean composition, no text, no watermarks, no signatures.
+```
+
+**Tense Talk**
+Save as: `cover-tense-talk.png`
+```
+Two cups of untouched coffee on a small table between two pairs of hands under a single hanging lamp in a dark room: one hand flat on the table, the other drumming its fingers. No faces.
+One warm cone of lamp light, everything else in shadow.
+Scratched tabletop, cooling coffee, a ring on one finger. A conversation where every word costs something.
+Clean composition, no text, no watermarks, no signatures.
+```
+
+**The Hard Choice**
+Save as: `cover-hard-choice.png`
+```
+A small, worn keepsake, an old open locket, lying on a dark wooden table between two hands that do not touch it, under a soft lamp.
+Warm, low lamp light, gentle shadows.
+Worn silver, old wood, stillness. Tender and serious: the moment before deciding.
+Clean composition, no text, no watermarks, no signatures.
+```

@@ -26,7 +26,8 @@ last_updated: 2026-11-18
 ## 4. Labels — use only these
 `🔊 READ ALOUD` (verbatim) · `🗣 SAY` (exact words, in quotes, with the delivery named in a few words) · `❓ ASK THE TABLE` · `🔒 GM ONLY` · `🎭 COMEDY BEAT` · `🔵 MYSTERY BEAT`.
 - **The GM never acts anything out** (GM rule 2026-11-18). Write every in-fiction moment as narration in a `READ ALOUD` block. The only exception is an NPC's quoted line, where `🗣 SAY (…)` names the delivery. Out-of-fiction GM steps use `→ GM MOVE`.
-- **Comedy beats are written as ONE `READ ALOUD` block** (what the NPC does and says, in the narrator's voice), plus a TV banner or sting where one exists.
+- **Comedy beats are written as ONE `READ ALOUD` block** (what the NPC does and says, in the narrator's voice), plus a TV banner where one exists (stings are dropped).
+- **Players mostly watch the GM, not the TV (mock S1 report, 2026-11-24):** every banner joke must land from the read-aloud alone, and avoid TV states that last only a few seconds (a brief optional pop-in, a caption-only build-up) unless the beat works without them. Every image cue gives a caption.
 - **Outcomes follow actions.** Describe the table's stated action impersonally ("The coins go into the slot, one after another — [the code]") *before* what happens because of it; never narrate what a player does, says or feels. Never open with the result as if it happened by itself. Where one player acts, use their character's name; the Co-GM fills `[Name]` and the table's own canon.
 - **Voice of every `READ ALOUD`: second person, present tense, addressed to the players** — "you", "the three of you", "your crew" (*"The three of you stare back at them."*). Never "the hunters / the crew / the PCs / the players" in read-aloud text, never past tense. Third person is fine in `🔒 GM ONLY` notes.
 - A multi-step bit is **numbered in the order it is done**, one label per step.

@@ -32,12 +32,12 @@ Legend: ☐ to do · ✅ done
 
 ### Done
 - All music cued in Sessions 0 to 3, including `music-ashby-approach` and `music-ashby-interior` (made 2026-11-24).
+- Generic backup loops for going off script (2026-11-24): `music-monster-fight`, `music-infiltration`, `music-tense-talk`, `music-hard-choice`, and `music-road-rock`, each with its cover. See the backup-track table in `00-Canon/Session-Boot.md` §2a. New areas and situations still get their own track in prep.
 - Already saved but not yet cued: `music-score.mp3` (alternate for the Surge or heist action) and `music-vocal-bookshop-radio.mp3` (AM-radio vocal for the Scanner Station or a Downtime vignette).
 
 ### Open
 | ☐ | File | Cued in |
 |---|---|---|
-| ☐ | `music-road-rock.mp3` | van rides / end of a good score |
 | ☐ | `music-harlans-diner.mp3` | S4 |
 
 ### ⚠ Vocal-under-narration risk

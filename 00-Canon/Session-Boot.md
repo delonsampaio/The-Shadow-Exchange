@@ -52,21 +52,37 @@ last_updated: 2026-11-20
 | `❌` on a file name | Not yet generated → skip the tool call; output `[IMAGE CUE: name — not yet generated]` / `[MUSIC CUE: name — not yet generated]`. |
 | `⚠ vocal` | A track with lyrics. Fire it **after** the read-aloud, never under it — **unless the prep marks it inline** (the Scanner Station's AM voice is part of the scene, so the GM allows it during the read-aloud). |
 | *(timed stinger, "fades out naturally")* | Fire, output `GM ONLY — WAIT FOR STINGER (~N s)`, and wait. Exception: inline. |
-| `[SFX CUE: music-sting-<name>.mp3]` | A one-shot sound effect (door bell, scream, clasps, phone). Same timing as music: unmarked → wait for "go"; **(inline)** → fire first. It plays **once, layered OVER the scene music** — the loop keeps playing underneath (dipped to 25% while the sting plays, then back to full). It never replaces or stops the loop. |
-| `[VOICE CUE: music-sting-<name>.mp3]` | A recorded **spoken** line (a PA announcement). Fire **after** the GM has finished reading — never under live speech. *(Zoltar no longer has a spoken fortune: GM 2026-11-22.)* |
+| `[SFX CUE: music-sting-<name>.mp3]` | **Dropped (GM, 2026-11-24): no stings or sound effects are made.** Skip any SFX cue you meet; the beat is carried by the read-aloud and the banner. |
+| `[VOICE CUE: music-sting-<name>.mp3]` | **Dropped with the stings (GM, 2026-11-24):** no recorded spoken lines are made; skip the cue. *(Zoltar no longer has a spoken fortune: GM 2026-11-22.)* |
 
 **Music command (Mac):** `bash ".../11-Visuals/fade-switch.sh" ".../11-Visuals/_Saved-Music/<file>.mp3"`. **Stop all music:** `osascript -e 'tell application "QuickTime Player" to close every document'`.
 
-**One cue-group per stop point.** A paired `IMAGE` + `MUSIC` cue written together for the same moment fires together. A cue that changes mid-beat gets its own pause. A sting or vocal track never fires over a live read-aloud — fire it before the text *(inline)* or after it.
+**One cue-group per stop point.** A paired `IMAGE` + `MUSIC` cue written together for the same moment fires together. A cue that changes mid-beat gets its own pause. A paired cue counts as **one** change: fire both on the same "go" (in a mock too). A vocal track never fires over a live read-aloud unless the prep says the GM approved it; otherwise fire it before the text *(inline)* or after it.
 
 ### 2a. Sound effects, music and spoken voice — runtime rules *(added 2026-11-17)*
 **Naming tells you how a file plays** (`fade-switch.sh` decides by name): any file containing `sting` is a **one-shot that OVERLAYS** the scene music (SFX, spoken lines, comic stings — e.g. `music-sting-shop-bell`, `music-sting-zoltar-fortune-s01`). **Every other track is a scene song and LOOPS** until the next scene's song replaces it (all our songs are designed to loop — including `the-pitch`, `zoltar-opens`, `envelope-drops`, `s00-closing`, `ashby-approach`, `the-descent`).
 **The scene music never goes silent by accident.** A sting layers over the loop, so nothing needs restoring. Only a *different scene song* replaces the loop, or the GM saying "stop music"/"silence" (a deliberate beat of silence is allowed). If a scene needs no music, say so on the Run Sheet. Keep a note of `currentLoop` anyway; **"music back"** re-fires it if the GM stopped it.
 **Never fire a comic sting during** a 🔴 or 🔵 beat, an Anchor choice, a Merton plea, or the Subway's first visit. Comic stings (scream, trombone, bell gag) belong to 🟢 beats only. One sting per beat; never two on top of each other; never under the GM's read-aloud.
-**Zoltar's closing fortune.** At the finished-session close (never at a Pause), put the card on the TV (S0–S3 from the prep; from S4 a card from `00-Canon/Zoltar-Card-Deck.md`), fire `music-sting-fortune-card` (the clunk + hum) **only if the file exists**, and read the card text. **There is no voice line** (dropped, GM 2026-11-22: the cards are enough). If the sting file is missing, show the card only and say nothing about it.
-**Audio palette (ad-lib on request or at a 🟢 beat — only if the file exists):** `music-sting-shop-bell` (any visitor) · `music-sting-zoltar-whirr` (wrong coin) · `music-sting-bernard-scream` · `music-sting-lever-trapdoor` · `music-sting-boo` · `music-sting-ptolemy-clasps` · `music-sting-rotary-phone` · `music-sting-fortune-card`.
-**If the GM asks for a sound that isn't saved:** output a Gemini prompt in the `Music-Prompts.md` style — begin `[Instrumental] Foley sound effect only, no music, no melody.`, say it is one-shot with a length, and name the file `music-sting-<name>.mp3` so it auto-plays once. For **spoken lines**, quote the exact words (Gemini speaks quoted text verbatim) and describe the voice. Then add the prompt to `Music-Prompts.md`.
-**Generated audio is trimmed by hand:** Lyria makes ≥30 s; the GM trims in QuickTime. Stings are trimmed short; **scene songs are never trimmed — they loop whole.**
+**Zoltar's closing fortune.** At the finished-session close (never at a Pause), put the card on the TV (S0–S3 from the prep; from S4 a card from `00-Canon/Zoltar-Card-Deck.md`), and read the card text (no sound: stings are dropped). **There is no voice line** (dropped, GM 2026-11-22: the cards are enough). If the sting file is missing, show the card only and say nothing about it.
+**Audio palette:** none. Stings and foley were dropped (GM, 2026-11-24); carry every gag with the read-aloud and the banner.
+**Backup tracks when the table goes off script** *(GM, 2026-11-24: new areas and situations get their own track made in prep; recurring places such as the lair rooms keep their loops; these are only the safety net)*. Fire the closest fit on the GM's "go":
+| Situation | Track |
+|---|---|
+| Downtime, planning at the shop | `music-bookshop-loop` |
+| Stakeout, walking up to a target | `music-approach` |
+| Sneaking inside, picking a lock, hiding | `music-infiltration` |
+| Any fight with a creature | `music-monster-fight` |
+| A heist going loud, an escape | `music-score` |
+| A comic chase | `music-caper-chase` |
+| Negotiation, interrogation, a dangerous meeting | `music-tense-talk` |
+| An Anchor decision, mercy or not, any quiet moment that matters | `music-hard-choice` |
+| Creepy dread, an Omen moment | `music-supernatural` |
+| Pure unease, something wrong | `music-s02-the-railing` |
+| A comic beat, paperwork farce | `music-comic-interlude` · `music-greta-waltz` |
+| Van rides, the end of a good score | `music-road-rock` |
+| A score ends, loose threads | `music-aftermath` |
+**If the GM asks for a sound:** none are made (stings dropped, GM 2026-11-24); say so in one line and carry the moment with the read-aloud or a banner.
+**Scene songs are never trimmed — they loop whole.** (Music is made with `docs/tools/gemini_music.py`, one full-length track per cue.)
 
 ---
 
@@ -88,7 +104,7 @@ The dashboard polls every 2 s, applies each op once, and shows a **"Co-GM Update
 | **Starting any beat** | `scene` (beat, title, next cue) |
 | A player introduces a PC | `pc` (name, role); `pcinfo` (vice/purveyor, heirloom, friend, rival) as they're revealed |
 | Heirloom pattern chosen (GM-private) | `pcinfo` → `pattern`, `stage` |
-| Table-invented canon (nickname, coin code, cover story, lease theory…) | `gag` (`nick`, `coin`, `cov`, `lease`, …) |
+| Table-invented canon (nickname, coin code, cover story, lease theory…) | `gag` (`nick`, `coin`, `cov`, `lease`, …) — a `gag` op **replaces** that gag's note, so always send the full running text (all three nicknames, not just the newest) |
 | Crew reputation / ability / upgrades / hunting ground | `gag` `crewdef` (the `crew` op takes numbers only) |
 | Firm standings (Harrow, Castellan, Meridian, Hunter Underground) | `gag` `firms`; floor −2 at creation |
 | The four closing answers (Session 0) | `gag` `promises`, and `Campaign-Current-State.md` → Table Promises |
@@ -114,6 +130,17 @@ The dashboard polls every 2 s, applies each op once, and shows a **"Co-GM Update
 
 ---
 
+### 2c. Live images during play *(GM rule, 2026-11-24)*
+The Co-GM can make an image through the Gemini API (`docs/tools/gemini_image.py`) during a real session, under these rules. **Nothing happens automatically.**
+1. **Only when the GM says so** ("make it", "make an image of …"). Never on the Co-GM's own initiative, never as a surprise.
+2. **When the table goes off script and a cued picture no longer fits** (it shows a place they skipped, a character who left, a choice they did not make, the wrong time of day): do **not** fire that picture. Output `GM ONLY — TV MISMATCH: [image] shows [X], but [what happened]. Options: (a) keep the current picture, (b) caption only, (c) make a new one (about 1 minute, about 7 cents) — say "make it".` Then wait for the GM's choice.
+3. **How:** one image with the quick model (Flash, `--size 1K`), made in the background while the GM keeps reading; the style block from `Image-Style-Guide.md`; described only from what happened at the table, never from GM-private notes. Save it as `live-sNN-<short-name>.png` in `_Saved-Images/`.
+4. **Check before showing:** the Co-GM looks at it first (stray text, spoilers, GM-private details, the Menace Rule). If it fails, say so in one line and use caption only. **Never put an unchecked picture on the TV.**
+5. **Never during** the Subway's first visit, an Anchor choice, a reveal, a trauma or a death: use caption only there.
+6. **No live music:** a track takes a minute or more and the Co-GM cannot hear it, so stay on the existing loops.
+7. **Log it:** one Live Ledger line (`S<N> · beat · live image live-sNN-… made`) and a dashboard note. After the session the GM decides whether to keep it, remake it properly, or delete it, and whether the prep picture that did not fit needs a variant for later sessions.
+8. **Mocks:** only if the GM asks, to test; mock pictures are deleted at "end the mock chain".
+
 ## 3. Label Legend (use on **every** piece of output)
 
 | Label | Meaning |
@@ -127,14 +154,14 @@ The dashboard polls every 2 s, applies each op once, and shows a **"Co-GM Update
 | `GM ONLY` / 🔒 | **Never read aloud** — for the GM's eyes |
 | `GM MOVE` / → | An action at the table |
 | `SHOW IMAGE` | TV update |
-| `COMEDY BEAT` / 🎭 | Delivered as **read-aloud text + TV banner + sting** — the GM reads, never acts. See Comedy Playbook |
+| `COMEDY BEAT` / 🎭 | Delivered as **read-aloud text + TV banner** — the GM reads, never acts. See Comedy Playbook |
 | `MYSTERY BEAT` / 🔵 | Raise questions, answer none; **no jokes** |
 | `PLAYER SCREEN` | A `scene.js` update |
 | 🟢 / 🟡 / 🔴 | Comedy dial: Full Scooby / Half Supernatural / Zero |
 
 **Output order for a scene:** `READ ALOUD` → NPC dialogue (`🗣 SAY` lines) → `ASK THE TABLE` → `⏸ REACTION STOP`; then, after the GM reports the reaction, `GM ONLY` (resolution, clocks, what's next). Then **stop.**
 
-**No acting (GM rule, 2026-11-18): the GM never acts anything out — no gestures, stares, sound effects or stage business.** The comedy lives in the text the GM reads, the TV banner and the music sting. **The one exception:** the GM reads an NPC's quoted line, and the `🗣 SAY` label says how to read it in a few words (e.g. `🗣 SAY (the customer, puzzled)`). Narrate every comedy beat as ONE `READ ALOUD` block (what the NPC does and says, in the narrator's voice).
+**No acting (GM rule, 2026-11-18): the GM never acts anything out — no gestures, stares, sound effects or stage business.** The comedy lives in the text the GM reads, the TV banner and the music. **The one exception:** the GM reads an NPC's quoted line, and the `🗣 SAY` label says how to read it in a few words (e.g. `🗣 SAY (the customer, puzzled)`). Narrate every comedy beat as ONE `READ ALOUD` block (what the NPC does and says, in the narrator's voice).
 
 **Voice of every `READ ALOUD` (GM rule, 2026-11-18): second person, present tense, addressed straight to the players** — "you", "the three of you", "your crew" — e.g. *"The customer stares at the three of you."* (address the players, but never narrate what they do, say or feel) Never "the hunters", "the crew", "the PCs" or "the players" inside read-aloud text, and never past tense. (Third person is fine in `🔒 GM ONLY` notes.)
 
@@ -151,7 +178,7 @@ The dashboard polls every 2 s, applies each op once, and shows a **"Co-GM Update
 3. **Never state the Omen directly.** Symptoms only.
 4. **Never "magic"/"spell."** Use Resonance, Ethereal Bleed, Fraying.
 5b. **Menace Rule (GM, 2026-11-20):** while a real threat is on screen there is no joke, gag banner or comic sting; monsters get no punchlines (the funny line belongs to a person). Only a 🟢 Ruh-Roh marked on the Run Sheet may look scary and turn out harmless (`Comedy-Playbook.md` §Menace).
-5. **Funny means funny** — deliver 🎭 beats as read-aloud text, banner and sting (the GM never acts); **but never joke during an Anchor choice, a trauma, a death, or the Mimic's emotional reveal**, and **never inside the Subway on the first visit (Session 2).**
+5. **Funny means funny** — deliver 🎭 beats as read-aloud text and banner (the GM never acts); **but never joke during an Anchor choice, a trauma, a death, or the Mimic's emotional reveal**, and **never inside the Subway on the first visit (Session 2).**
 6. **Mystery stays mysterious.** The Subway, the Architect, and the Omen raise questions; you don't answer them with words.
 7. **Anchor choices:** surface the human cost *before* the payout. Log every seizure/return in `08-Loot-and-Anchors/Anchor-Ledger.md`.
 7a. **Never offer to cut, skip or shorten content.** Every prep is played in full (GM ruling 2026-11-21: the session should be perfect; it may take two sittings, meaning real evenings). **About 45 minutes before the agreed end, name the last safe stop that can be reached in time; if none can be, offer the previous one.** At a safe stop, a sitting that ends mid-session runs **only the Pause** (a "To be continued" TV card, one line of recap, a Night Log row; nothing story-final). **Zoltar's card, the XP tally, the retrospective and the Faction Turn happen only when the session is finished.** The next sitting opens with a "Previously" recap card and resumes at the saved beat. Never end a sitting on a Choice, a reveal or an Anchor decision. *(Existing decision clocks, such as the two-minute clock and the planning cap of about ten minutes, are not "rush" instructions; they keep the table deciding.)*
@@ -171,7 +198,8 @@ The dashboard polls every 2 s, applies each op once, and shows a **"Co-GM Update
 | "mock session" | Read-only run; no writes. **A second mock keeps the first mock's canon** (PC names, nicknames, coin code, table answers) so the story continues; reset everything — `scene.js`, `feed.js`, the dashboard's saved state — only when the GM ends the mock chain |
 | "make up the players" / "invent their answers" *(mock only)* | Play the three players: invent PCs and answers that fit the beat. Stay canon-safe (no reserved NPCs as Friend/Rival, Heirloom/lease/Architect left unresolved, nothing GM-private), put them on the dashboard as demo data, and reset everything at the end. **If the GM says "make up responses for everything", do this for every table question for the rest of the mock: show the invented answers, then continue — the GM only says "go"** |
 | "give me a funny beat" | One 🎭 beat from Comedy Playbook, matched to the scene's dial; with cue |
-| "show [name]" | Update `scene.js` (image + caption); Read the image for preview; if missing, give the on-the-fly Gemini prompt |
+| "show [name]" | Update `scene.js` (image + caption); Read the image for preview; if missing, offer caption only or a live image (§2c) |
+| "make it" / "make an image of …" | Make one live image per §2c (quick model, background), check it, then offer it for the TV |
 | "show card [type]: …" | Set `card` in `scene.js` |
 | "tick [clock]" | Update the Mechanical Change Log; if public, update `scene.js` clocks |
 | "roll the entanglement" / "heat" | Compute Heat per `07-Clocks/Heat-and-Entanglements.md` §1; **ask the GM to roll** (dice = Wanted level; 0 → two dice, keep the lowest) and read the column for current Heat; give the city skin and the SRD ways out. The Co-GM never rolls |
@@ -203,7 +231,7 @@ The dashboard polls every 2 s, applies each op once, and shows a **"Co-GM Update
 4a. **Propagate every change (always):** work down `05-Sessions/Live-Ledger.md` with `00-Canon/Change-Propagation-Map.md` (each change → every file that mentions it, in order, including File-Index, Dictionary, NPC-Index, Score-Catalog). Then run **`python3 -I docs/tools/consistency_check.py`** and fix everything it reports until it prints CLEAN. Say in one line what you updated, what the check said, and what is NOT PUSHED. Then clear the ledger.
 4a-ii. **Append the night's line to `05-Sessions/Night-Log.md`** (real nights only): ask the GM, one at a time, "Where did we stop: which beat?", "In one word: dragged, right, or rushed?" and "Is the session finished?" (if not, "Resume at which beat?"); add the row.
 4b. **Generate the next session's Cold Open** (spec: `00-Canon/End-of-Session-Ritual.md` §4) into the prep file.
-5. **Update the player-facing wiki** — follow `00-Canon/Wiki-Update-Protocol.md` exactly: draft the recap in `Public-Wiki/Session-Recaps/`, run the **spoiler check**, then add the recap + update `Session-Recaps`, `The-Anchor-Ledger`, `Known-Contacts` (and `Our-Lair` / `Home` if changed) in `The-Shadow-Exchange-Players/docs/` (the player website; a push republishes it). Push only if the GM asks.
+5. **Update the player-facing wiki** — follow `00-Canon/Wiki-Update-Protocol.md` exactly: draft the recap in `Public-Wiki/Session-Recaps/`, run the **spoiler check**, then add the recap + update `Session-Recaps`, `The-Anchor-Ledger`, `Known-Contacts` (and `Our-Lair` / `Home` if changed), plus the session's tracks on the Soundtrack page, the newest map on Our Map, the recap banner and any Anchor cards (protocol §3c–3f), in `The-Shadow-Exchange-Players/docs/` (the player website; a push republishes it). Push only if the GM asks.
 6. Reset `player-screen/scene.js` to the title card (`rev` + 1) **and reset `dashboard-feed/feed.js` to its header only (the 2 comment lines + `window.DASH_FEED = { ops: [] };`)** (after you've written the confirmed final values into the `INIT_*` constants and bumped `SAVE_VERSION`).
 7. Commit: `chore: update state after session N` (**only** if the GM asks to commit).
 

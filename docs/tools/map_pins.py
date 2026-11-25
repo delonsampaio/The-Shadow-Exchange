@@ -24,7 +24,7 @@ INK_EDGE = {RED: (112, 14, 18), BROWN: (52, 28, 14)}
 
 # name: (X centre, label centre, label lines, label font size)
 PINS = {
-    "fairground_grand": ((1620, 700), (1380, 688), ["THE FAIRGROUND", "GRAND"], 33),
+    "fairground_grand": ((1620, 700), (1405, 692), ["THE FAIRGROUND", "GRAND"], 28),
     "emmerich": ((1955, 865), (2215, 862), ["EMMERICH &", "DAUGHTER"], 38),
     "eastern_pier": ((2441, 1239), (2585, 1160), ["EASTERN", "PIER"], 38),
     "ashby_house": ((1843, 198), (1990, 178), ["ASHBY", "HOUSE"], 38),

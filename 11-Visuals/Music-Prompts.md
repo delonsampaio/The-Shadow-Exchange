@@ -220,7 +220,7 @@ Structure: 45-second stinger, no loop. Bookshop ambient cuts at 0:00 — rain st
 ```
 
 *Containment Suite / gear prep: use `music-containment-suite-loop.mp3`*
-*The Approach to the theater: use `music-approach.mp3`*
+*The approach to the theater: `music-vocal-fairground` carries the drive and the walk (changed 2026-11-24). `music-approach` is now a generic backup loop (the saved file is about 96 s and loops), not the 3-minute one-shot its prompt describes.*
 *Theater exterior + basement investigation: use `music-theater-loop.mp3`*
 
 ---
@@ -408,6 +408,46 @@ Save as: `music-s02-the-railing.mp3`
 Instrumentation: Lead — bowed saw, very far away. Support — a subway tone (distant, wrong), sub-bass drone, a single clock tick that stops at 0:20 and does not restart.
 Production: Dry and enormous. Nothing sounds like a real room. The silence has a texture.
 Structure: Seamless loop; no beat; no resolution.
+```
+
+---
+
+## Generic backup loops *(added 2026-11-24: for moments no prep track covers; see the backup-track table in `00-Canon/Session-Boot.md` §2a)*
+
+**Monster Fight** — any fight with a creature *(loop)*
+Save as: `music-monster-fight.mp3`
+```
+[Instrumental] Genre: Dark industrial-orchestral action, driving and relentless. BPM: 132. Key: D minor.
+Instrumentation: Lead — low brass stabs and a staccato cello ostinato. Support — taiko drums and metallic industrial percussion, a distorted sub-bass pulse, occasional dissonant string swells.
+Production: big, close and punchy; no vocals, no choir.
+Structure: Seamless loop, 2:00–2:30. Constant momentum with no climax and no ending; it builds and releases in waves so it can run under a long fight.
+```
+
+**Infiltration** — sneaking inside a target, picking a lock, hiding *(loop)*
+Save as: `music-infiltration.mp3`
+```
+[Instrumental] Genre: Minimal noir stealth, tiptoeing. BPM: 92. Key: A minor.
+Instrumentation: Lead — muted pizzicato strings and a soft upright-bass walking line. Support — brushed snare ticking quietly, a low sustained synth pad, a single muted piano note now and then.
+Production: dry, close and quiet, with a lot of space.
+Structure: Seamless loop, 2:00–2:30. It never rises above medium volume and has no big hits: tension through restraint.
+```
+
+**Tense Talk** — negotiations, interrogations, a meeting where a wrong word costs something *(loop)*
+Save as: `music-tense-talk.mp3`
+```
+[Instrumental] Genre: Noir chamber tension, an interrogation room. BPM: 70. Key: F minor.
+Instrumentation: Lead — solo cello in long, slow phrases. Support — a sustained low string cluster, a slow ticking percussion like a clock, faint piano harmonics.
+Production: intimate room acoustic, quiet enough for people to talk over.
+Structure: Seamless loop, 2:00–2:30. It hovers and never resolves; no melody that demands attention.
+```
+
+**The Hard Choice** — Anchor decisions, mercy or not, any quiet moment that matters *(loop)*
+Save as: `music-hard-choice.mp3`
+```
+[Instrumental] Genre: Sparse neoclassical, solemn and tender. BPM: 60. Key: D minor, drifting toward F major and back.
+Instrumentation: Lead — solo piano, slow single notes and open fifths. Support — a soft string pad entering at 0:30, a distant solo violin at 1:00.
+Production: warm, close and quiet; no percussion.
+Structure: Seamless loop, 2:00–2:30. It never resolves and holds the question open, quiet enough for the players to talk over.
 ```
 
 ---

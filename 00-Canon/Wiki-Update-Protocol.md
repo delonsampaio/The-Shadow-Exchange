@@ -2,7 +2,7 @@
 entity_type: Core_Canon
 authority_level: absolute
 purpose: "Exactly how Claude updates the PLAYER-FACING wiki after every session — what to add, what to never copy, and how to publish."
-last_updated: 2026-11-16
+last_updated: 2026-11-24
 ---
 
 # Wiki Update Protocol (after every session)
@@ -25,7 +25,7 @@ The player-facing guide is now a **website**: **https://delonsampaio.github.io/T
 
 **Every update ends with the propagation map and the check:** `00-Canon/Change-Propagation-Map.md`, then `python3 -I docs/tools/consistency_check.py` (it also sweeps the players' site for secret words).
 
-**After Session 0 (no recap):** (a) `Our-Lair.md` → add a "The Crew" section: firm reputation, crew abilities (Double Bookkeeping in one plain line with no Audit wording, plus the pick), the upgrade, the coin code, and any Wall-of-Rules rule a PC claimed; (b) add `docs/The-Crew.md`: per PC name, playbook, look and nickname (no Heirloom pattern, no closing answers) and add it to the nav under The World; (c) the Session-Recaps placeholder stays; (d) Home stays the onboarding version. Never publish the players' closing-question answers.
+**After Session 0 (no recap):** (a) `Our-Lair.md` → add a "The Crew" section: firm reputation, crew abilities (Double Bookkeeping in one plain line with no Audit wording, plus the pick), the upgrade, the coin code, and any Wall-of-Rules rule a PC claimed; (b) add `docs/The-Crew.md`: per PC name, playbook, look and nickname (no Heirloom pattern, no closing answers) and add it to the nav under The World; (c) the Session-Recaps placeholder stays; (d) Home stays the onboarding version; (e) start the Soundtrack page (§3c, heading "Session 0 — Opening the Shop") and the Our Map page (§3d, `map-city-s00`). No recap banner and no Anchor card for Session 0. Never publish the players' closing-question answers.
 
 **Recap naming:** file `Session-NN-Recap.md` (two digits). Nav label `Session N — Title`, added newest-first under *The Campaign → Session Recaps*; index line at the top; strip the template's front matter except `title`; keep staging `status: Draft` until the GM confirms.
 
@@ -67,6 +67,35 @@ In `The-Shadow-Exchange-Players/` (it has its own `MAINTAINING.md` and `CLAUDE.m
 - **A portrait may also go on the Player Screen** at the NPC's introduction — it is spoiler-free by construction. The reverse is never allowed.
 - Location images follow the same test: fine for the wiki only if they show nothing the crew hasn't visited and no clue (the shop exterior is fine).
 
+### 3c. Soundtrack page *(GM decision 2026-11-24: public, small covers, first live after Session 0)*
+1. List the tracks that **actually played**, in order, from this session's cue log (not the prep's plan). Generic backup tracks count if they played.
+2. Check each one in `11-Visuals/Wiki-Soundtrack.md`: it needs a row (public title). Any **Track hold** other than `—` must be cleared by the GM first: a `listen` track is a vocal one with generated words, so ask *"Did you listen to [title]? Anything in the words that gives something away?"* For a **Cover hold** of `outcome`, check the cover against how the scene really ended.
+3. Run `~/.config/shadow-exchange/venv/bin/python docs/tools/wiki_soundtrack.py --session N --title "<recap title>" --tracks <file,file,…> [--covers-ok <file,…>]` (add `--dry-run` first). It compresses the tracks to 128 kbps, makes 300 px covers, skips tracks already on the page, and adds the section and the nav entry. About 2 MB a track.
+4. The public titles get the same spoiler check as the recap.
+
+### 3d. Our Map page *(first live after Session 0)*
+- Publish the **newest city map that was on the TV this session** (`map-city-sNN.png`, pins drawn by `docs/tools/map_pins.py`), never a later stage. Resize to 1600 px wide JPG as the players' `docs/assets/map-city.jpg`, replacing the last one.
+- After Session 0, create `docs/Our-Map.md` and add `- Our Map: Our-Map.md` under *The World* in `mkdocs.yml`:
+  ```
+  # Our Map
+
+  The city as the crew knows it. New places are marked as we learn them: red for the newest, brown for the ones before.
+
+  ![The city](assets/map-city.jpg)
+
+  *Last updated after Session N.*
+  ```
+- Each session after that: replace the JPG (only if a newer map was shown) and update the last line. A regional or zoom map gets its own heading on the same page once it has been shown.
+
+### 3e. Recap banner *(one per recap, from Session 1)*
+- One wiki-only picture per recap, made **after** the session from the confirmed recap text: a neutral moment the crew lived (the van outside the theater, the crew round the bookshop counter). **No reveal, no true form, no clue, no hidden figure, no NPC the crew hasn't met, no text.**
+- Make it with `docs/tools/gemini_image.py` (Flash, `--aspect 16:9 --size 1K`, the painted-style block, "Full-bleed, no border. No readable text. No watermark."). For faces, use only the `wiki-*` portraits as references, **never a TV scene image** (they carry props and clues).
+- Save as `wiki-recap-sNN.png` in `11-Visuals/_Saved-Images/`; resize to 1400 px wide JPG as the players' `docs/assets/recap-sNN.jpg`; put `![](assets/recap-sNN.jpg)` right under the recap's title. It gets the §2 spoiler check like the text.
+
+### 3f. Anchor cards *(when an Anchor row is added)*
+- For each new Anchor Ledger row, one picture of the object **as the crew last saw it** (mended, broken, kept), alone on a plain dark surface, no scene, no hands, no text. Flash, `--aspect 1:1 --size 1K`, the painted-style block.
+- Save as `wiki-anchor-<name>.png`; resize to 400 px JPG as the players' `docs/assets/anchors/<name>.jpg`. In `The-Anchor-Ledger.md`, under the table, keep an `## Anchor cards` section: `<div class="anchor-cards">` holding one `<figure><img src="../assets/anchors/<name>.jpg" alt=""><figcaption>Session N · Description</figcaption></figure>` per Anchor, newest first.
+
 ### 4. Evolve the Home page *(after Session 1 is played, then every session)*
 Home (`docs/index.md`) is the site's front door. **Before Session 1 it is an onboarding page** (the three "Start here" cards). **After the first recap is published it becomes campaign-first:**
 - **Keep** the hero and the pitch quote.
@@ -96,7 +125,7 @@ Never copy the private repo's `Public-Wiki/` staging folder to the site wholesal
 Run `git status` first, add files by name (not `-A`), then `gh run list -L1` to confirm the deploy succeeded. If the GM did not ask to push, end the report with: **NOT PUSHED — say "push the wiki" to publish.**
 
 ## What *to* publish every time (quick list)
-✅ Recap · ✅ Anchor Ledger rows · ✅ New contacts met · ✅ Public clocks that moved · ✅ A "What the crew is thinking about" line · ✅ The Zoltar fortune card text *(players saw it)*
+✅ Recap (with its banner) · ✅ Anchor Ledger rows (with their cards) · ✅ New contacts met · ✅ Public clocks that moved · ✅ A "What the crew is thinking about" line · ✅ The Zoltar fortune card text *(players saw it)* · ✅ The session's tracks (Soundtrack) · ✅ The newest map shown
 
 ## What *never* to publish
 🚫 Anything in `GM-Private/` · 🚫 `Campaign-Arc.md` · 🚫 Thorne's tells as tells · 🚫 Omen/Decay *causes* · 🚫 Unlearned NPC secrets · 🚫 The dashboard's GM-secret panel

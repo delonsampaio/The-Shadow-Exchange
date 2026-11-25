@@ -77,6 +77,7 @@ last_updated: 2026-11-20
 | The photoreal-to-cartoon image change (plan, test prompts, order) | `11-Visuals/Image-Style-Migration.md` |
 | The image style (the style block, rules, how to keep characters consistent) | `11-Visuals/Image-Style-Guide.md` |
 | Missing images/music | `11-Visuals/ASSET-TODO.md`, `Music-Prompts.md`; saved assets in `_Saved-Images/`, `_Saved-Music/` |
+| Soundtrack page (public track titles, holds) | `11-Visuals/Wiki-Soundtrack.md`; publish with `docs/tools/wiki_soundtrack.py` (Wiki-Update-Protocol §3c) |
 | Printables | `11-Visuals/handouts/` |
 
 ## Updating the players' site and review records

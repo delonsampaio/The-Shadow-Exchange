@@ -11,6 +11,7 @@ Updated 2026-11-20. Anything I recommend that only you can do (generate an image
 - [x] Open `GM-Dashboard.html` (F11) and `Player-Screen.html` on the TV (F11 on Windows; Cmd-Ctrl-F on a Mac). The Player Screen should show the title card. *(The dashboard's libraries are now vendored locally in `11-Visuals/vendor/`, so it works offline. Open it once to confirm.)* *(done in the mocks, 2026-11-22/23)*
 - [x] Test `fade-switch.sh` once (QuickTime Player must be allowed to be controlled; macOS may prompt). *(done in the mocks, 2026-11-22/23)*
 - [x] After the mock: reset `player-screen/scene.js` to the title card and `dashboard-feed/feed.js` to its header, and stop the music (the end-of-mock reset). *(done after mock 0 and mock 1)*
+- [x] *(done 2026-11-24: both fine)* **Listen to the two vocal tracks** before they go on the public Soundtrack page: `music-vocal-scanner-station` (Session 0) and `music-vocal-fairground` (Session 1). Their words were generated, so check they give nothing away, then tell the Co-GM to clear them (`11-Visuals/Wiki-Soundtrack.md`, "Track hold"). (`music-vocal-bookshop-radio` is a spare that no session cues; listen to it only if it ever gets played.)
 - [ ] Decide when to **push** (a large set of campaign and site changes is waiting; push only when you say "push").
 
 ## Optional before Session 0 (nice to have)

@@ -17,7 +17,7 @@ runtime: "~2.5–3 hours"
 
 ## RUN SHEET (read this first)
 
-**Time budget (estimates; nothing is cut):** Pitch 5 → Introductions 25 → Crew creation + lair tour 50 → Friends/Rivals/Heirlooms 20 → **Trial Run 25** → Closing montage 15 → buffer 20 (≈ 2 h 40 of play; the mock, with its image and music pauses, ran 2 h 20 to 2 h 50, so plan a safe stop).
+**Time budget (estimates; nothing is cut):** Pitch 5 → Introductions 25 → Crew creation + lair tour 65–80 *(3f alone 15–20; mock-0 report 2026-11-24)* → Friends/Rivals/Heirlooms 20 → **Trial Run 25** → Closing montage 15 → buffer 20 (≈ 3 h of play — on a slow night expect safe stop B or C; the mock, with its image and music pauses, ran 2 h 20 to 2 h 50, so plan a safe stop).
 **Cold Open: none (Session 0).** **Safe stops:** **Nothing is cut:** every beat is played in full. If the evening runs out, stop at one of these **safe stops**: run the short **pause** (a "To be continued" TV card, one line of recap for next time, and a `Night-Log.md` row), and the next sitting opens with a "Previously" card. **Zoltar's card, the XP tally, the retrospective and the Faction Turn happen only when the session itself is finished.** **Never end a night on a Choice, a reveal or an Anchor decision.** **(A)** after Introductions (Beat 2) · **(B)** after the lair tour and crew creation (Beat 3f) · **(C)** after Friends, Rivals and Heirlooms (Beat 4) · then the Trial Run and the closing montage together.
 
 | # | Beat | Trigger | 🎵 Music | 🖼 Image | 🎭 Comedy | Purpose |
@@ -88,8 +88,8 @@ runtime: "~2.5–3 hours"
 
 **→ GM MOVE:** If an answer stalls, offer the stall menu (one try); the introductions get the time they need.
 
-> 🎭 **COMEDY SEED (🟡)** *(after each introduction, put this to the next player; Player 3's is asked by Player 1. Use a different lead-in each time):*
-> ❓ **ASK THE NEXT PLAYER:** *(a)* "What does the crew call [Name] behind their back, the nickname they pretend not to hear?" · *(b)* "[Name] has been called something in this shop for two years that they hate. What is it?" · *(c)* "What name does the crew use for [Name] when something goes wrong?" ⏸ **REACTION STOP.** Log it on the dashboard (Gags → PC nicknames); it comes back all campaign.
+🎭 **COMEDY SEED (🟡) — after EACH introduction, one nickname question.** Ask the next player about the one who just introduced themselves: Player 2 names Player 1's nickname, Player 3 names Player 2's, and **Player 1 names Player 3's** (don't skip this last one). Use a different lead-in each time:
+❓ **ASK THE NEXT PLAYER:** *(a)* "What does the crew call [Name] behind their back, the nickname they pretend not to hear?" · *(b)* "[Name] has been called something in this shop for two years that they hate. What is it?" · *(c)* "What name does the crew use for [Name] when something goes wrong?" ⏸ **REACTION STOP.** Log it on the dashboard (Gags → PC nicknames); it comes back all campaign.
 
 > 🔒 **GM ONLY:** Write down each PC's "thing they wouldn't lend" (often the Heirloom) and one unexpected detail they invented. Also read each player's **playbook** off the sheet they hold and log it with a `pc` op (action dots are asked at the Trial Run).
 
@@ -112,14 +112,21 @@ runtime: "~2.5–3 hours"
 
 ### 3a — The Shop
 
-**[IMAGE CUE: map-city-s00.png]** ✅ *(the city map with the lair labelled. Show it first; the shop exterior replaces it when you read PART 1. Play it in full; it carries the no-subway line.)*
+**[IMAGE CUE: map-city-s00.png]** ✅ *(caption "Your City"; the city map with the lair labelled. Show it first; the shop exterior replaces it when you read PART 1. Play it in full; it carries the no-subway line.)*
 
-🗣 **SAY** *(set it up — the city they work in; one line each)*:
-> "This is your city, with your shop marked in Old City. **Old City** is wet brick and old paper: the walled old town on the far west side, with a few glass blocks the city once let in through the wall. **The Meridian**, far across the river, is glass towers and shopping, with cameras on every corner. **The Fairground District** is theaters and late nights; nobody asks questions at 2 a.m. **The Docks** are salt, rust and warehouses. **The Overhang** is apartment blocks, where the neighbors report everything. You get around by car, bike, taxi, bus or the elevated train — nobody ever built a subway here, because dig down more than a single floor in this city and you hit water."
-❓ **ASK THE TABLE:** *"Which district does the firm try to avoid on a job — and what happened there once?"* ⏸ **REACTION STOP.**
+🗣 **SAY** *(set it up — the city they work in; one short line each, pause between)*:
+> "This is your city. Your shop is the dot in **Old City**: wet brick and old paper, the walled old town in the west.
+> **The Meridian**, across the river: glass towers, shopping, cameras on every corner.
+> **The Fairground District**: theaters and late nights. Nobody asks questions at 2 a.m.
+> **The Docks**: salt, rust and warehouses.
+> **The Overhang**: houses and flats stacked up the cliff, where the neighbors report everything.
+> And the river runs through all of it."
+
+🗣 **SAY** *(the Session 2 seed — on its own, plainly, then move on)*: *"You get around by car, bike, taxi, bus or the elevated train. Nobody ever built a subway here: dig down more than a single floor in this city and you hit water."*
+❓ **ASK THE TABLE:** *"Which district does the firm try to avoid on a job — and what happened there once?"* ⏸ **REACTION STOP.** *(If nobody answers after the stall menu: **the Meridian** — the cameras.)*
 > 🔒 **GM ONLY:** Whatever they invent is canon — log it on the dashboard (Gags → City). *If they stall, offer:* **the Meridian** — a cover story got a Ministry clerk's mother in trouble · **the Overhang** — a witness filmed the van · **the Docks** — someone lost a shoe to the harbor. Do **not** let them place the Subway, the Architect or any reserved NPC here. *(The no-subway / water line is a deliberate seed for Session 2 — say it plainly and move on; do not explain it. If they ask where the elevated train is on the map: it runs along the outer ring road and is not drawn. If they notice the lair is eleven steps down: that is exactly one floor, and the lair's runes keep the water out.)*
 
-**[IMAGE CUE: location-curios-exterior.png]** *(on TV before the read-aloud — first entry to the location)*
+**[IMAGE CUE: location-curios-exterior.png]** *(caption "Curios & Chronicles"; on TV before the read-aloud — first entry to the location)*
 
 > 🔊 **READ ALOUD — PART 1:**
 >
@@ -129,7 +136,7 @@ runtime: "~2.5–3 hours"
 >
 > It used to be a savings bank."
 
-**[IMAGE CUE: location-curios-interior.png]** ✅ *(on the TV with the ATM read-aloud: the shop floor at night, the cat asleep on the counter, the Zoltar booth in the corner)*
+**[IMAGE CUE: location-curios-interior.png]** ✅ *(caption "The Shop"; on the TV with the ATM read-aloud: the shop floor at night, the cat asleep on the counter, the Zoltar booth in the corner)*
 > 🎭 **COMEDY BEAT — The ATM (🟢)** — *read it, don't act it:*
 >
 > 🔊 **READ ALOUD:**
@@ -154,11 +161,11 @@ runtime: "~2.5–3 hours"
 
 **[MUSIC CUE: music-s00-zoltar-opens.mp3]** *(inline — fire now, before reading; let it establish a beat)*
 
-**[IMAGE CUE: location-zoltar-machine.png]** *(on TV now — fire with the Zoltar music, before the read-aloud)* ✅
+**[IMAGE CUE: location-zoltar-machine.png]** *(caption "Zoltar"; on TV now — fire with the Zoltar music, before the read-aloud)* ✅
 
 > 🔊 **READ ALOUD — PART 2a (read while the Zoltar music plays; stop at the dash):**
 >
-> "In the back corner, near the Occult & Folklore section, behind a stack of moldering atlases, stands an old **Zoltar machine** — a glass-fronted booth the size of a phone box. Inside: a robed automaton with a painted beard, a turban, brass hands resting on a velvet pedestal where a deck of fortune cards used to be. One bent card is still stuck to the velvet; the lamp on top glows anyway, and nobody knows why. The rest of the cards are long gone. The machine has been unplugged at the wall for decades. You push a specific coin into the slot in a specific sequence — a code only you know —"
+> "In the back corner, near the Occult & Folklore section, behind a stack of moldering atlases, stands an old **Zoltar machine** — a glass-fronted booth the size of a phone box. Inside: a robed automaton with a painted beard, a turban, brass hands resting on a velvet pedestal where a deck of fortune cards used to be. One bent card is still stuck to the velvet; the lamp on top glows anyway, and nobody knows why. The rest of the cards are long gone. The machine has been unplugged at the wall for decades. It opens for one thing only: the right coins, in the right order — a code that only the people in this building know —"
 
 > 🎭 **COMEDY BEAT — The Coin Code (🟢 — the table invents canon):**
 >
@@ -191,22 +198,23 @@ runtime: "~2.5–3 hours"
 
 **→ GM MOVE: STOP.** Then swap the image.
 
-**[IMAGE CUE: location-containment-suite.png]** *(show now — the wall has opened; the TV has been showing `location-zoltar-machine.png` until this moment. The Zoltar image is generated — never show the lair before the wall opens)*
+**[IMAGE CUE: location-containment-suite.png]** *(caption "The Containment Suite"; **paired with the music cue just below: fire both on ONE "go"** — the wall has opened; the TV has been showing `location-zoltar-machine.png` until this moment. The Zoltar image is generated — never show the lair before the wall opens)*
 
 ### 3c — The Containment Suite
 
-**[MUSIC CUE: music-containment-suite-loop.mp3]** *(switch when the wall has opened and the image changes — runs for the lair tour)*
+**[MUSIC CUE: music-containment-suite-loop.mp3]** *(fires together with the Containment Suite image above, on the same "go" — runs for the lair tour)*
 
 > 🔊 **READ ALOUD — PART 3 (the stair and the room; stop before the Scanner Station):**
 >
 > "Eleven iron steps down. The pneumatic door seals behind you and the bookshop is gone. Vanilla and old parchment, replaced by something colder — a chemical tang, the sort of clean you only smell in dental offices and morgues. Fluorescent panels click on overhead, one by one.
 >
-> Along the far wall, a bank of stainless steel drawers, each one inscribed with thin silver runes. Pull one open and the cold air that spills out is sharp enough to fog. Things that should be spoiling don't. The runes are why. This is where the perishables stay perishable for as long as you need them — months, sometimes, when the wall is closed.
+> Along the far wall, a bank of stainless steel drawers, each one inscribed with thin silver runes. Pull one open and the cold air that spills out is sharp enough to fog. Things that should be spoiling don't. The runes are why. This is where the perishables stay perishable for as long as you need them — months, sometimes, when the wall is closed."
+
+❓ **ASK THE TABLE** *(stop reading here; one quick answer)*: *"What's the first thing each of you does every morning when you come down these steps?"* ⏸ **REACTION STOP.**
+
+> 🔊 **READ ALOUD — PART 3, continued (the vault and the table):**
 >
-> ❓ **ASK THE TABLE** *(stop reading here; one quick answer, then read on)*: *"What's the first thing each of you does every morning when you come down these steps?"* ⏸ **REACTION STOP.** *(Then read the vault and the table.)*
->
->
-> Beside the drawers, set into the brick: the old bank vault door, heavy as a small car, lined with lead, a row of small mirrors sunk flush into the front face. When it's closed and sealed, what's inside goes quiet — stops humming, stops calling, stops being on the kind of map the Ministry's scanners read. You have tested this. They drive past the building. They find nothing. The mirrors are not for looking at.
+> "Beside the drawers, set into the brick: the old bank vault door, heavy as a small car, lined with lead, a row of small mirrors sunk flush into the front face. When it's closed and sealed, what's inside goes quiet — stops humming, stops calling, stops being on the kind of map the Ministry's scanners read. You have tested this. They drive past the building. They find nothing. The mirrors are not for looking at.
 >
 > Centered under the brightest light: a zinc-topped surgical table with leather straps bolted to the corners. The zinc is scratched in patterns that suggest something was very interested in getting up. The straps have stains that didn't quite come out. This is where you open things, put them back together, or coax them into giving up what's inside them. Some jobs take an hour. Some take a week."
 
@@ -238,18 +246,19 @@ runtime: "~2.5–3 hours"
 
 ### 3d — The Scanner Station
 
-**[IMAGE CUE: location-scanner-station.png]** ✅ *(on the TV for the read-aloud)*
+**[IMAGE CUE: location-scanner-station.png]** ✅ *(caption "The Scanner Station"; on the TV for the read-aloud)*
 
 **[MUSIC CUE: music-vocal-scanner-station.mp3]** *(inline — fire it as the read-aloud begins; the voice is part of the scene and the track opens with ~10 s of static. GM decision 2026-11-18)*
 
 > 🔊 **READ ALOUD — PART 4 (Scanner Station only):**
 >
-> "Half-buried in cabling against the side wall, the Scanner Station — three modified shortwave radios on a rolling cart, each tuned to a different government frequency. They intercept Ministry bounty traffic before the public list updates, which is how you sometimes know who's about to be hunted before whoever's hunting them does. Beside them sits a fourth unit, older than the rest, with a single green lamp that has not been off in two years: the Resonance detector. It reaches about two blocks. There is a soft wash of static at all hours. You stopped hearing it months ago. It is always there.
+> "Half-buried in cabling against the side wall, the Scanner Station — three modified shortwave radios on a rolling cart, each tuned to a different government frequency. They intercept Ministry bounty traffic before the public list updates, which is how you sometimes know who's about to be hunted before whoever's hunting them does. Beside them sits a fourth unit, older than the rest, with a single green lamp that has not been off in two years: the Resonance detector. It reaches about two blocks. There is a soft wash of static at all hours. You stopped hearing it months ago. It is always there."
+
+❓ **ASK THE TABLE** *(stop reading here; one quick answer)*: *"Whose job is it to check that green lamp every morning, and what do they say when it's still on?"* ⏸ **REACTION STOP.**
+
+> 🔊 **READ ALOUD — PART 4, continued (the AM voice):**
 >
-> ❓ **ASK THE TABLE** *(stop reading here; one quick answer, then read on)*: *"Whose job is it to check that green lamp every morning, and what do they say when it's still on?"* ⏸ **REACTION STOP.** *(Then read the AM paragraph.)*
->
->
-> On clear nights, between the official broadcasts, you can pick up a signal that sounds like another state — you have never been able to triangulate it. A man broadcasts on AM without a call sign. His voice is flat, unhurried, slightly too close to the microphone — the voice of someone who has been talking for a long time and expects to keep talking. He reports locations. Not addresses — coordinates, landmarks, the kind of description that tells you where something is without naming what the something is. He is wrong about the cause. He is wrong about the history. He is never wrong about where. You have driven to three of his locations. You found something at all three. You have not been able to reach him to ask how he knows."
+> "On clear nights, between the official broadcasts, you can pick up a signal that sounds like it comes from very far away — you have never been able to triangulate it. A man broadcasts on AM without a call sign. His voice is flat, unhurried, slightly too close to the microphone — the voice of someone who has been talking for a long time and expects to keep talking. He reports locations. Not addresses — coordinates, landmarks, the kind of description that tells you where something is without naming what the something is. He is wrong about the cause. He is wrong about the history. He is never wrong about where. You have driven to three of his locations. You found something at all three. You have not been able to reach him to ask how he knows."
 
 > 🔒 **GM ONLY — PURPOSE:** the AM voice is **Aldric Voss**'s broadcast (he meets the crew in Session 2 only if they go to his workshop doorway). Never identify him tonight.
 
@@ -257,7 +266,7 @@ runtime: "~2.5–3 hours"
 
 ### 3e — The Corkboard and the Journal
 
-**[IMAGE CUE: location-corkboard-wall.png]** ✅ *(on the TV for the read-aloud)* · **[IMAGE CUE: item-hunters-journal.png]** ✅ *(fire it at the pause before the Journal paragraph; it replaces the corkboard picture. 🔒 The one red line is scribbled over: its words are unreadable on the TV and only come through when the crew studies the page, at S4.)*
+**[IMAGE CUE: location-corkboard-wall.png]** ✅ *(caption "The Corkboard"; on the TV for the read-aloud)* · **[IMAGE CUE: item-hunters-journal.png]** ✅ *(fire it at the pause before the Journal paragraph; it replaces the corkboard picture. 🔒 The one red line is scribbled over: its words are unreadable on the TV and only come through when the crew studies the page, at S4.)*
 
 **[MUSIC CUE: music-containment-suite-loop.mp3]** *(switch back)*
 
@@ -283,7 +292,8 @@ runtime: "~2.5–3 hours"
 
 **[MUSIC CUE: music-bookshop-loop.mp3]** *(inline — fire it with the line below; the tour is over)*
 **[IMAGE CUE: location-annex.png]** ✅ *(caption "The Annex"; fire it with the line below: the kettle, three armchairs, the whiteboard)*
-🗣 **SAY:** *"Upstairs: the Annex — a kettle, three armchairs, and a whiteboard of banned words. And the Lofts: three bunks."*
+🗣 **SAY:** *"Upstairs: the Annex — a kettle, three armchairs, and a whiteboard of banned words. And the Lofts: bunks for whoever stays too late."*
+> 🔒 **GM ONLY — if anyone asks what the banned words are:** hunters' superstitions, written in several hands: *"basement" · "it's probably nothing" · "let's split up" · "what's the worst that could happen".* Or ask them to add one; it's a running joke, not a rule.
 ❓ **ASK THE TABLE:** *"Each of you: name one thing on the shelf in your corner."* ⏸ **REACTION STOP.**
 > 🔒 **GM ONLY:** These shelf objects are heirloom seeds — note them, but the Heirlooms themselves come in Beat 4.
 
@@ -317,12 +327,10 @@ The crew starts with the lair fixtures above and **Double Bookkeeping** *(custom
 | **Pack Rats** | +1d to acquire assets | Gear & black-market access |
 | **Accord** | Treat up to three faction statuses at +3 as turf | Mid-game pick |
 
-> 🗣 **SAY** *(first):* *"You can swap these freely after Session 1, once you've seen the rules in play."*
+> 🗣 **SAY** *(1 — what they already have):* *"Your firm already has one trick: **Double Bookkeeping**. After a Ministry job, you can quietly keep one small item off the books. We'll see how it works when it comes up. Now pick **one more** ability."*
 >
-> 🗣 **SAY** *(first, so they know what they already have):* *"Your firm already has one trick: **Double Bookkeeping**. After a Ministry job, you can quietly keep one small item off the books. We'll see how it works when it comes up. Now pick **one more** ability."*
->
-> 🗣 **SAY** *(first)*: *"Don't worry about words like 'resist' or 'critical' yet; we'll test them in a few minutes, and you can swap this after Session 1."*
-> 🗣 **SAY** *(the menu — one option per line; what you get, and who it suits)*:
+> 🗣 **SAY** *(2)*: *"Don't worry about words like 'resist' or 'critical' yet; we'll test them in a few minutes, and you can swap this after Session 1."*
+> 🗣 **SAY** *(3 — the menu; one option per line: what you get, and who it suits)*:
 > "**Deadly** — each of you gets +1 on Hunt, Prowl or Skirmish. *Good if you want to be better in the field.*
 > **Anointed** — extra dice to resist supernatural threats and to recover from supernatural harm. *Recommended — good if you worry about surviving what you hunt.*
 > **Forged in the Fire** — extra dice whenever you resist anything. *Good if you want everyone tougher.*
@@ -336,24 +344,26 @@ The crew starts with the lair fixtures above and **Double Bookkeeping** *(custom
 > → **If Deadly:** 🗣 **SAY** *"Each of you picks one: Hunt, Prowl or Skirmish. That one gets +1."* ❓ **ASK EACH PLAYER:** *"Which one?"* ⏸ **REACTION STOP.**
 > → **Any other pick:** nothing more to ask; 🗣 **SAY** *"Good. That's yours."*
 
-**Recommendation:** Anointed or Forged in the Fire.
+> 🔒 **GM ONLY:** if they ask what you recommend, it's **Anointed** (the menu says so); don't read this line aloud.
 
 > 🗣 **SAY** *(the upgrade menu — read it as written; one option per line)*:
-> "One last thing: your firm gets **two improvements**. Pick two (different ones).
+> "Next: your firm gets **two improvements**. Pick two different ones, and tell me which comes first.
 > **Training** — you all learn faster. When you train between jobs, you advance faster. *Good if you want to grow quickly.*
 > **Quality** — one kind of gear is better made, so it works better when you use it. You'd pick the kind: fake badges and papers, tools, weapons, or occult implements. *Good if you like good equipment.*
 > **Secure Lair** — the Containment Suite gets better locks, alarms and traps, so intruders — the Ministry included — have a much harder time getting in. *Good if you worry about who might walk in.*
 > **Workshop** — a proper workbench in the lair for long projects: tinkering, brewing, researching. You can work on them without leaving the shop. *Good if you want to work on things at home.*"
 >
-> ❓ **ASK THE TABLE:** *"Which two improvements does the firm take?"*
+> ❓ **ASK THE TABLE:** *"Which two improvements does the firm take, and which one comes first?"*
 >
-> ⏸ **REACTION STOP — next part depends on which upgrade they pick:**
+> 🔒 **GM ONLY:** the order matters: the **first** pick pleases a faction, the **second** annoys one (table below). Ask each pick's follow-up in turn; if they take **Quality and Training**, ask the Quality question, then the Training question.
+>
+> ⏸ **REACTION STOP — next part depends on which upgrades they pick:**
 > → **Quality:** 🗣 **SAY** *"Which kind of gear gets better?"* ❓ **ASK:** *"Fake badges and papers, tools, weapons, or occult implements?"* ⏸ **REACTION STOP.**
 > → **Training:** 🗣 **SAY** *"Training works on one thing at a time."* ❓ **ASK:** *"What does the firm train: Insight (thinking and noticing), Prowess (fighting and moving), Resolve (willpower; we use these three words in a few minutes), or each character's own playbook?"* ⏸ **REACTION STOP.**
 > → **Secure Lair:** nothing more to ask. 🗣 **SAY** *"Good. The new locks go in this week."*
 > → **Workshop:** nothing more to ask. 🗣 **SAY** *"Good. The back room gets a proper bench."*
 >
-> 🔒 **GM ONLY — FACTION REACTIONS (SRD; record privately, do not announce):** the two upgrades change two factions: one **pleased** (**+1 status**; the +2 for 1 Coin is not available at 0 Coin) and one **annoyed** (**−2 status**; the −1 for 1 Coin is not available at 0 Coin). Use only the weak rival firms for the annoyed side, so no main faction starts hostile. Pleased from the **first** pick, annoyed from the **second**: *Training* → pleased Hunter Underground / annoyed Castellan Retrieval · *Quality* → pleased Meridian Group / annoyed Harrow & Sons · *Secure Lair* → pleased Hunter Underground / annoyed Castellan Retrieval · *Workshop* → pleased Harrow & Sons / annoyed Castellan Retrieval. Write both in `02-Factions/Faction-Tracker.md`. **Floor −2 (house rule):** reductions may stack, but no firm starts below **−2**; if a reduction (upgrade, hunting ground or favourite contact) would take a firm below −2, skip it. Keep a running list of every firm's standing on the dashboard (Gags → Firm standings). *(The Containment Suite fixtures they just toured are the crew's two-plus starting upgrades: Cold Storage Locker, Lead-Lined Vault, Post-Op Table, Scanner Station, Trophy Wall, Hunter's Journal.)*
+> 🔒 **GM ONLY — FACTION REACTIONS (SRD; record privately, do not announce):** the two upgrades change two factions: one **pleased** (**+1 status**; the +2 for 1 Coin is not available at 0 Coin) and one **annoyed** (**−2 status**; the −1 for 1 Coin is not available at 0 Coin). Use only the weak rival firms for the annoyed side, so no main faction starts hostile. Pleased from the **first** pick, annoyed from the **second**: *Training* → pleased Hunter Underground / annoyed Castellan Retrieval · *Quality* → pleased Meridian Group / annoyed Harrow & Sons · *Secure Lair* → pleased Hunter Underground / annoyed Castellan Retrieval · *Workshop* → pleased Harrow & Sons / annoyed Castellan Retrieval. Log both on the dashboard now (Gags → Firm standings); write them into `02-Factions/Faction-Tracker.md` **after** the session (Boot §2b). **Floor −2 (house rule):** reductions may stack, but no firm starts below **−2**; if a reduction (upgrade, hunting ground or favourite contact) would take a firm below −2, skip it. **Most likely path:** Quality as the *second* pick (Harrow & Sons −2) plus the Old City hunting ground (Harrow & Sons −1) → Harrow is already at −2, so the hunting-ground −1 is **skipped**; say nothing, just don't mark it. Keep a running list of every firm's standing on the dashboard (Gags → Firm standings). *(The Containment Suite fixtures they just toured are the crew's two-plus starting upgrades: Cold Storage Locker, Lead-Lined Vault, Post-Op Table, Scanner Station, Trophy Wall, Hunter's Journal.)*
 >
 > 🗣 **SAY** *(hunting grounds, SRD; every crew has them)*: *"Last thing about the firm: every crew has a **hunting ground**, a small corner of the city it works most. Yours is where the shop is: **Old City**, unless you'd rather pick the Docks or the Fairground."* ❓ **ASK THE TABLE:** *"Old City, the Docks, or the Fairground?"* *(leave out any district the table said the firm avoids in 3a)* ⏸ **REACTION STOP.** *(If nobody answers: Old City.)* 🔒 **SRD costs, said to yourself:** the district's faction notices: **−1 status** with it (Old City: Harrow & Sons · the Docks: Castellan Retrieval · the Fairground: Meridian Group), since there is no Coin to pay them off. **Preferred operation type: Extraction** (retrieving an Anchor, Relic or Biological): +1d to gather information on such a target in the hunting grounds, and a free extra downtime activity toward that operation.
 >
@@ -365,40 +375,31 @@ The crew starts with the lair fixtures above and **Double Bookkeeping** *(custom
 
 > 🗣 **SAY** *(set it up first):* *"Every one of you has a life outside this building: someone who'd help you without being asked, someone who'd like to see you fail, and one thing you carry from before. I'm going to ask about each, one at a time. These people will turn up in the story later, so give me names — we won't play them tonight."*
 >
-> ❓ **ASK THE TABLE #1 — Friends:** *"First, a friend: someone who'd help you without being asked. One sentence each — who are they?"*
-> 🔒 **GM ONLY — if someone stalls (offer once; check `03-NPCs/NPC-Index.md` before accepting any name):** a pawnbroker who owes you · a night nurse · your landlady.
->
-> ⏸ **REACTION STOP — next part depends on:** who each player names. Check the reserved list below before accepting.
->
-> > ❓ **ASK THE TABLE** *(favourite contact, SRD, once all three Friends are named)*: *"Which of the three Friends is the firm's closest ally, the one it would call at 3 a.m.?"* ⏸ **REACTION STOP.** 🔒 **GM ONLY:** set **+1 status** with that contact's natural faction (Hunter Underground, Meridian Group, Harrow & Sons or Castellan) and **−1 status** with a rival firm **other than** the one the upgrades or the hunting ground already marked (the SRD's +2/−2 is optional; floor −2: see 3f). If every rival firm is already marked, put it on the one with the mildest mark, never below −2, or skip it: never the Ministry, Apex or the Twice-Born. Record both in the Faction-Tracker.
-> 🔒 **GM ONLY — Rival stall menu (offer once):** a firm that lost a contract to you · an old partner who left on bad terms · a collector who wants what you keep.
-> ❓ **ASK THE TABLE #2 — Rivals** *(after all three friends are named):* *"Now a rival: someone who wants what you have, or would be glad to see you fail. One sentence each — who are they?"*
->
-> ⏸ **REACTION STOP — next part depends on:** who each player names. Check the reserved list below before accepting.
->
-> 🗣 **SAY** *(before the third question):* *"Your Heirloom is the one thing you carry that you probably should have left behind."*
->
-> ❓ **ASK THE TABLE #3 — Heirlooms:** *"One sentence each: where did it come from, and why should you have left it behind?"* *(If the earlier "thing you wouldn't lend" is already the object, name it for them.)* 🔒 **Stall menu (once):** a medal that isn't yours · a pocket watch that stopped · a book with a name torn out. **If a player passes:** 🗣 **SAY** *"Then it's the thing you wouldn't lend. We'll find out why."* Use the object from Beat 2 and do not ask again.
->
-> ⏸ **REACTION STOP — next part depends on:** each player's answer. Then pick each pattern privately.
+> 🔒 **GM ONLY — read this BEFORE the three questions** (names the players may not use as a Friend or Rival, and what to say):
+> - **Director Vance / Deputy Director Reyes / Section Chief Kress** → *"That one's above your pay grade for now. Pick someone at your own level."*
+> - **Elias Thorne** (pre-cast as the Mimic face) → *"Thorne is a Ministry name that will come up later — pick someone outside the Ministry for now."*
+> - **Anyone from the Subway** (PTOLEMY, Cosma Linden, Aldric Voss, Senna Calder, the Crossroads Broker), **Emmerich, Mabel, Agnes, Renwick Stalls, Merton, Gerald, Mara Halliday** → *"They're not yours yet — pick someone else."*
+> - **Greta Fenn** → allowed as a joke: *"You've been mailing her forms for two years — she's never met you."*
+> - **Harlan Okafor** → allowed as a **Friend** (it deepens his Session 4 debut); as a Rival: *"Harlan works as a friend, or not at all. Pick someone else as the rival."*
+> - **Before accepting any invented name** (friend, rival, shop, street), grep `03-NPCs/NPC-Index.md`, bench and standby rows included (Fitch Ambrose, Yardley Pike…); on a collision ask *"a different name?"*
+
+❓ **ASK THE TABLE #1 — Friends:** *"First, a friend: someone who'd help you without being asked. One sentence each — who are they?"*
+🔒 **GM ONLY — if someone stalls (offer once):** a pawnbroker who owes you · a night nurse · your landlady.
+⏸ **REACTION STOP — next part depends on:** who each player names (check the list above before accepting).
+
+❓ **ASK THE TABLE — the firm's favourite contact** *(SRD, once all three Friends are named)*: *"Which of the three Friends is the firm's closest ally, the one it would call at 3 a.m.?"* ⏸ **REACTION STOP.**
+🔒 **GM ONLY:** **+1 status** with that contact's faction. **Most Friends are civilians**, so use the firm of the district they live or work in: **Old City → Harrow & Sons · the Docks → Castellan Retrieval · the Meridian or the Fairground → Meridian Group · a fellow hunter, or anywhere else → Hunter Underground.** Then **−1 status** with a rival firm **other than** the one the upgrades or the hunting ground already marked (the SRD's +2/−2 is optional; floor −2: see 3f). If every rival firm is already marked, put it on the one with the mildest mark, never below −2, or skip it: never the Ministry, Apex or the Twice-Born. Log both on the dashboard now (Gags → Firm standings); the Faction-Tracker is written after the session.
+
+❓ **ASK THE TABLE #2 — Rivals:** *"Now a rival: someone who wants what you have, or would be glad to see you fail. One sentence each — who are they?"*
+🔒 **GM ONLY — Rival stall menu (offer once, only if someone stalls):** a firm that lost a contract to you · an old partner who left on bad terms · a collector who wants what you keep.
+⏸ **REACTION STOP — next part depends on:** who each player names (check the list above before accepting).
+
+🗣 **SAY** *(before the third question):* *"Your Heirloom is the one thing you carry that you probably should have left behind."*
+
+❓ **ASK THE TABLE #3 — Heirlooms:** *"One sentence each: where did it come from, and why should you have left it behind?"* *(If the earlier "thing you wouldn't lend" is already the object, name it for them.)* 🔒 **Stall menu (once):** a medal that isn't yours · a pocket watch that stopped · a book with a name torn out. **If a player passes:** 🗣 **SAY** *"Then it's the thing you wouldn't lend. We'll find out why."* Use the object from Beat 2 and do not ask again.
+⏸ **REACTION STOP — next part depends on:** each player's answer. Then pick each pattern privately.
 
 > 🔒 **GM ONLY:** For each Heirloom, privately choose a degradation pattern (`00-Canon/Heirloom-Degradation-Patterns.md`).
->
-> **Ready-to-say redirects** (the names the players can actually know are on the wiki):
-> - **Director Vance / Deputy Director Reyes / Section Chief Kress** → *"That one's above your pay grade for now. Pick someone at your own level."*
-> - **Greta Fenn** → allowed as a joke: *"You've been mailing her forms for two years — she's never met you."*
-> - **Harlan Okafor as a Rival** → *"Harlan works as a friend, or not at all. Pick someone else as the rival."*
-> - **Elias Thorne** (if they've heard the name) → *"Thorne is a Ministry name that will come up later — pick someone outside the Ministry for now."*
-> - **Anyone from the Subway, Emmerich, Mabel, Agnes** → *"They're not yours yet — pick someone else."*
->
-> **Reserved NPCs — do not allow as Friend or Rival** (redirect to a generic contact). **Before accepting any invented name** (friend, rival, shop, street), grep `03-NPCs/NPC-Index.md`, bench and standby rows included (Fitch Ambrose, Yardley Pike…); on a collision ask *"a different name?"*:
-> - **Elias Thorne** — pre-cast as the Mimic face. *"Thorne is a Ministry name that will come up later — pick someone outside the Ministry for now."*
-> - **Merton**, **Gerald** — Session 1 targets.
-> - **Director Vance**, **Deputy Director Reyes**, **Section Chief Kress** — too senior / GM-private.
-> - **PTOLEMY**, **Cosma Linden**, **Aldric Voss**, **Senna Calder**, **The Crossroads Broker** — Subway access is an earned milestone; a prior friendship skips the arc.
-> - **Emmerich** — pre-cast, specific role. **Mabel Ashby**, **Agnes Pell**, **Renwick Stalls** — Session 3.
-> - **Mara Halliday** — the Innocent. **Greta Fenn** *(allowed as a joke: "you've been mailing her forms for two years" — she's never met them)*.
-> - **Harlan Okafor** — *allowed* as a Friend (it deepens the Session 4 debut), but not as a Rival.
 
 ---
 
@@ -425,12 +426,13 @@ The crew starts with the lair fixtures above and **Double Bookkeeping** *(custom
 3. 🗣 **SAY** *(the dice)*: *"You roll as many dice as your rating in that action, and you look at the **highest** one. If your rating is zero, you roll two dice and take the **lowest**."* ❓ **ASK THE PLAYER:** *"How many dice is that: how many dots do you have in that action? Roll them. What's the highest?"* ⏸ **REACTION STOP.**
 4. **The result** — read only the branch that matches:
    - **6:** 🔊 *"Clean. The journal is back under the counter, the page is turned, and the customer wanders in and asks about cat books."*
-   - **4–5:** 🔊 *"You do it, **but** there's a cost. The page tears. And the customer glances at it as you tuck it away: 'Is that a recipe?'"*
+   - **4–5:** 🔊 *"You do it, **but** there's a cost: the customer glances at the page as you tuck it away. 'Is that a recipe?'"*
+   - *(then, after any result)* 🗣 **SAY** *(Effect, one line)*: *"That was **Standard** effect: you got it done. With **Great** effect you'd also have turned the page to something boring; with **Limited** you'd only have got it off the counter."*
    - **1–3:** 🔊 *"The customer reads the page: 'DO NOT SHELVE THIS WHERE CUSTOMERS CAN SEE.' They laugh. 'Great marketing.' They buy the book — the only book you've sold all day. Consequence is very pleased."*
 5. **Resistance** *(decide to resist FIRST, roll the resistance dice AFTER — you can't roll and then choose; offer it on a 4–5 or a 1–3):*
    - 🗣 **SAY:** *"You can **resist** that cost. You decide to resist **before** you roll the resistance dice — no peeking first."*
    - ❓ **ASK THE PLAYER:** *"Do you want to resist — yes or no?"* ⏸ **REACTION STOP.**
-   - → **If yes:** 🗣 **SAY** *"Then roll the attribute that fits what you're resisting — Insight for tricks, Prowess for physical strain, Resolve for willpower. Here: Prowess if you're resisting the torn page, Insight if you're resisting the customer's glance. That attribute's rating is how many of its actions have at least one dot; roll that many dice (zero: roll two, take the lowest). Tell me the highest."* ⏸ **REACTION STOP** — then step 6 works out the cost.
+   - → **If yes:** 🗣 **SAY** *"Then roll the attribute that fits what you're resisting — Insight for what you notice and cover, Prowess for physical strain, Resolve for willpower. Here it's **Insight**: you're covering for what the customer saw. Insight is four actions: Hunt, Study, Survey and Tinker. Count how many of those four have at least one dot; roll that many dice (zero: roll two, take the lowest). Tell me the highest."* ⏸ **REACTION STOP** — then step 6 works out the cost.
    - → **If no:** 🗣 **SAY** *"Fair. You take the cost as it is."* Still read step 6, as *what resisting would have cost if they had rolled a die*, then let the next player try.
    - → **If the roll was a 6 (nothing to resist):** 🗣 **SAY** *"On a 6 there's nothing to resist — but here's how it works if there had been one."* Then read step 6 as an example.
 6. 🗣 **SAY** *(Stress — the cost)*: *"The cost is **6 minus your highest die** — so a 5 costs you 1 Stress, and a 6 is free. Stress is your reserve of willpower. Fill all nine boxes and you take a **Trauma**, a lasting scar; we'll cover that if it ever happens. That's it. That's the whole game. We'll do this for real next time."*
@@ -463,22 +465,22 @@ The crew starts with the lair fixtures above and **Double Bookkeeping** *(custom
 
 > 🔊 **READ ALOUD (the card):**
 > "In the back corner, Zoltar's slot gives a small, apologetic *clunk.* A card drops into the tray. It is warm. **YOU WILL SOON RECEIVE AN ENVELOPE. IT WILL NOT BE GOOD NEWS. IT WILL BE DAMP.**"
-> **[PLAYER SCREEN: card style `fortune`, title "ZOLTAR SAYS"]**
+> **[PLAYER SCREEN: card style `fortune`, title "ZOLTAR SAYS"]** *(leave it up through the card read-aloud; clear it, `card:null`, before the four questions)*
 > 🔒 **GM ONLY — audio:** show the card; no sound. **No voice line** (dropped, GM 2026-11-22).
 
 > 🗣 **SAY** *(explain why before asking anything):* *"Before we wrap up, I'd like to ask each of you one question. There are no wrong answers. What you tell me is how I'll know what you want from this campaign, and I'll build around it."*
 >
-> ❓ **ASK PLAYER 1:** 🗣 **SAY** *"I want to know what keeps your character coming back to this job."* ❓ **ASK:** *"Why is your character still doing this work?"* ⏸
+> **Player 1** — 🗣 **SAY** *"I want to know what keeps your character coming back to this job."* then ❓ **ASK** *"Why is your character still doing this work?"* ⏸
 >
-> ❓ **ASK PLAYER 2:** 🗣 **SAY** *"Every good story has something to lose."* ❓ **ASK:** *"What is your character most afraid will happen here?"* ⏸
+> **Player 2** — 🗣 **SAY** *"Every good story has something to lose."* then ❓ **ASK** *"What is your character most afraid will happen here?"* ⏸
 >
-> ❓ **ASK PLAYER 3:** 🗣 **SAY** *"Last one for your character: what they are like when nobody is watching."* ❓ **ASK:** *"What does your character do when no one else is in the bookshop?"* ⏸
+> **Player 3** — 🗣 **SAY** *"Last one for your character: what they are like when nobody is watching."* then ❓ **ASK** *"What does your character do when no one else is in the bookshop?"* ⏸
 >
-> ❓ **ASK THE WHOLE TABLE** *(this one is for you, not your characters)*: 🗣 **SAY** *"What do you want me, as the GM, to make sure I do in this campaign?"* ⏸
+> **The whole table** *(this one is for you, not your characters)* — ❓ **ASK** *"What do you want me, as the GM, to make sure I do in this campaign?"* ⏸
 >
 > *(One question per message: ask, stop, wait for the answer in chat, then the next.)*
 
-> 🔒 **GM ONLY:** Write all four answers verbatim in `05-Sessions/Campaign-Current-State.md` → *Table Promises*, and on the dashboard (Gags → Table promises). They are the contract you have with each player. Offer an example if someone stalls (a one-line answer is fine).
+> 🔒 **GM ONLY:** Log all four answers verbatim on the dashboard now (Gags → Table promises); copy them into `05-Sessions/Campaign-Current-State.md` → *Table Promises* **after** the session (Boot §2b). They are the contract you have with each player. Offer an example if someone stalls (a one-line answer is fine).
 
 ---
 

@@ -23,7 +23,7 @@ def rel(p): return os.path.relpath(p,ROOT)
 def skipped(r): return any(r==s or r.startswith(s+'/') or r.startswith(s) and s.endswith('.md') for s in SKIP_SCAN)
 bad=0
 # files named in the docs that are deliberately not created yet; remove from here when created
-PLANNED={'docs/The-Crew.md'}
+PLANNED={'docs/The-Crew.md','docs/Our-Map.md','docs/assets/map-city.jpg'}
 def report(title,items):
     global bad
     if items:
